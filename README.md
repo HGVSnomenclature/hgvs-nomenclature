@@ -30,7 +30,7 @@ Please use the [Discussions](discussions) forum to search for answers and ask ne
 | [Jeroen Laros](https://github.com/jfjlaros) (Nederland) | 2022 - 2026 |
 | [Terence Murphy]() (United States) | 2021 - 2026 |
 | [Rachel Taylor](https://www.linkedin.com/in/rachel-taylor-phd-90a57099/) (United Kingdom) | 2022 - 2026 |
-| [Alex Wagner](https://www.linkedin.com/in/alexphd/) (United States) | 2022 - 2026 |
+| [Alex Wagner](https://genomic.social/@a) (United States) | 2022 - |
 
 † ISCN representative
 
