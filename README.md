@@ -60,5 +60,5 @@ den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J
 
 ## A note about our name
 
-We've called ourselves by lots of names, including "VarNomen", "MutNomen", "HGVS Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially.  We recognize that this has caused confusion in the community.  Please call us "HGVS Nomenclature".
+We've called the nomenclature by lots of names, including "VarNomen", "MutNomen", "HGVS Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially.  We recognize that this has caused confusion in the community.  Please refer to our recommendations as the "HGVS Nomenclature".
 
