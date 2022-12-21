@@ -16,7 +16,7 @@ Please use the [Discussions](discussions) forum to search for answers and ask ne
   - move the propsal to DRAFTING to indicate that a member of the HVNC will understake drafting of the changes.
 - When a proposal is in the DRAFTING stage, a GitHub issue is created to track writing for the intended documentation change. Writing will be undertaken in a branch dedicated for the assigned issue. A pull request will eventually be submitted and evaluated.
 - Evaluation of the PR is limited to HVNC members (i.e., not for public discussion), although specific users may be asked for comments when warranted. If the PR is eventually merged, the discussion proposal is marked as ADOPTED.
-- If the PR is not merged for any reason (e.g., if we realize that the PR creates unforeseen issues with the existing nomenclature), the proposal will either be re-opened for more discussion or rejected at the discretion of the committee.
+- If the PR is not merged for any reason (e.g., if we realize that the PR creates unforeseen issues with the existing nomenclature), the proposal will either be marked OPEN for more discussion or marked REJECTED at the discretion of the committee.
 
 ## Committee Members
 
@@ -24,7 +24,7 @@ Please use the [Discussions](discussions) forum to search for answers and ask ne
 |---|---|
 | [Johan den Dunnen](https://www.universiteitleiden.nl/en/staffmembers/johan-den-dunnen) (Nederland) | 2013 - |
 | [Marina DiStefano](https://www.linkedin.com/in/marina-distefano/) (United States) | 2022 - 2026 |
- [Peter Freeman](https://research.manchester.ac.uk/en/persons/peter.j.freeman) (United Kingdom) | 2018 - |
+| [Peter Freeman](https://research.manchester.ac.uk/en/persons/peter.j.freeman) (United Kingdom) | 2018 - |
 | [Reece Hart](https://linkedin.com/in/reece) (United States) | 2013 - |
 | [Ros Hastings](https://www.researchgate.net/profile/Ros-Hastings)† (United Kingdom) | 2021 - |
 | [Jeroen Laros](https://github.com/jfjlaros) (Nederland) | 2022 - 2026 |
