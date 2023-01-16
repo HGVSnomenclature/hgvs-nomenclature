@@ -1,6 +1,6 @@
 # HGVS Nomenclature
 
-This repo is the home of the HGVS Nomenclature maintained by the Human Genome Organization (HUGO) Variation Nomenclature Committee.
+This repository is the home of the HGVS Nomenclature, which is maintained by the Human Genome Organization (HUGO) Variation Nomenclature Committee.
 
 ## Have Questions?
 
