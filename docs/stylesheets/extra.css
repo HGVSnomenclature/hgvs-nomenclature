@@ -1,0 +1,20 @@
+h2 {
+    color: #4051b5;
+    border-bottom: thin solid #4051b5;
+}
+
+h3 {
+    color: #666;
+}
+
+
+label.md-nav__title {
+    display: none
+}
+
+.admonition-title {
+    font-size: 0.8rem;
+}
+.admonition > p {
+    font-size: 0.8rem;
+}
