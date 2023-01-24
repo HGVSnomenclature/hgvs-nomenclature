@@ -16,7 +16,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - toc:
-      toc_depth: 2
+      toc_depth: 1
 
 extra:
   social:
