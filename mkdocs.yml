@@ -24,6 +24,8 @@ extra:
       link: https://github.com/biocommons
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/biocommons_ann
+  version:
+    provider: mike
 
 extra_css:
   - stylesheets/extra.css
