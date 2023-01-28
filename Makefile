@@ -17,6 +17,7 @@ varnomen-remigrate:
 	make varnomen-copy
 	make varnomen-adapt
 	make varnomen-rename
+	git checkout e2a6f26 -- docs/images docs/index.md
 
 varnomen-copy:
 	cd ../VarNomen; \

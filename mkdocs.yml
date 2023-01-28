@@ -42,7 +42,7 @@ theme:
     - navigation.indexes
     - navigation.instant
     #- navigation.tabs.sticky
-    - navigation.expand
+    #- navigation.expand
     - navigation.tracking
     #- navigation.sections
     - search.highlight

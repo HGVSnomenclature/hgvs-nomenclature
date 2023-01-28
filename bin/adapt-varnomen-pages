@@ -29,6 +29,15 @@ def process1(content: str) -> str:
     # standardize case of SVD-WG references (all uppercase), including filenames
     content = re.sub(r"svd-wg(\d+)", r"SVD-WG\1", content)
     
+    # HVNC.md table
+    content = content.replace("{:.table .table-bordered}", "")
+    content = content.replace("|:--------------------------------------:|:-------------:|", "|:--------------------------------------|:-------------:|") 
+    content = re.sub(r"\|\s+\|\s+\|\n", r"", content, re.MULTILINE)
+
+    # TODO:
+    # - ### **...** → drop emphasis
+    # lint/reformat?
+
     return content
 
 
