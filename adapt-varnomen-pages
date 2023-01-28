@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for path in "$@"; do
+    perl -i -p0e '($t) = m/title:\s+(\S+)/; s/# \{\{ page.title \}\}/# $t/' $path
+    perl -i -p0e 's/^---.+---\s+(?=#)//gs' $path
+done
