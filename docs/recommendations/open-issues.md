@@ -1,18 +1,10 @@
----
-layout: default-md
-title: Open Issues
-order: 8
----
+# Open Issues
 
-# {{page.title}}
-
-* * *
 
 ## Community Consultation
 
 There are currently no proposals open for Community Consulation.
 
-* * *
 
 <a name ="opentopics"></a>
 
@@ -20,7 +12,6 @@ There are currently no proposals open for Community Consulation.
 
 For closed topics [see below](/recommendations/open-issues#closedtopics).
 
-* * *
 
 ## Introduction
 
@@ -28,15 +19,14 @@ At the time the first HGVS recommendations for the description of variants were 
 
 Basically, these variant types refer to the (expected) biological process generating the variant, e.g. inserting a copy of segment of DNA (duplication), turning around a segment of DNA (inversion) or replacing a segment of DNA with a copy of a segment from elsewhere (conversion). The number of nucleotides involved in such cases is usually large, i.e. several hundred nucleotides or more. However, for overall consistency within the recommendations, the formats for description are general, irrespective of the length of the variant. Duplications can be as short as one nucleotide and inversions as small as two (prioritisation determines one-nucleotide inversions are described as substitution), although for these variants a link with the biological process generating them is unlikely. It should be noted that some of the problems described below are associated with these historic choices.
 
-* * *
 
 <a name ="beyond"></a>
 
 ### Beyond transcripts
 
-Current HGVS recommendations state ([_see Reference Sequences_](/bg-material/refseq/)):  "5’ and 3’ flanking sequences are considered to be **outside the boundaries** of a transcript reference sequence and **can not be used** to describe variants". As a consequence, variants removing an entire gene or the 5' or 3' end of a transcript can only be described using chromosomal genomic coordinates (g.). This complicates variant reporting for diagnostic laboratories, usually reporting variants based on a coding DNA reference sequence (c.). In addition, such variants can not be shown in databases listing variants based on a "c." description.
+Current HGVS recommendations state ([_see Reference Sequences_](/background/refseq/)):  "5’ and 3’ flanking sequences are considered to be **outside the boundaries** of a transcript reference sequence and **can not be used** to describe variants". As a consequence, variants removing an entire gene or the 5' or 3' end of a transcript can only be described using chromosomal genomic coordinates (g.). This complicates variant reporting for diagnostic laboratories, usually reporting variants based on a coding DNA reference sequence (c.). In addition, such variants can not be shown in databases listing variants based on a "c." description.
 
-The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](/recommendations/open-issues#geneflanking)" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD){:target="\_blank"} currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
+The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](/recommendations/open-issues#geneflanking)" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
 
 *	NM\_004006.2:c.-244\_\*2691{0}
 	: describes a deletion of the entire coding DNA reference sequence of the DMD gene
@@ -88,7 +78,7 @@ The description of extensions can probably indeed be simplified. While for **ext
 ### Modifications
 
 Aug.24 (2011) - JT den Dunnen
-HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](/bg-material/consultation/svd-wg005/) makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the “|” character (“pipe”) to indicate that not a direct change of the sequence is described but a modification (change of state).
+HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](/background/consultation/SVD-WG005/) makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the “|” character (“pipe”) to indicate that not a direct change of the sequence is described but a modification (change of state).
 
 <a name ="amount"></a>
 
@@ -116,20 +106,19 @@ The use of the "**@**" character versus other characters (&, $, ~, #) is of cour
 
 Using the description r.143c>u on RNA level suggests a substitution. There are several types of RNA editing and "r.143c" probably does not really change to a "u". All we can say is that the polymerases used to make a copy inserted an "a". At some point we probably need to suggest ways to exactly describe the chemical modification made by the RNA editing enzyme but we can do that later. Making such recommendations can then be combined with those for DNA modifications (like methylation with methyl or hydroxy-methyl groups) making sure they follow the same rules.
 
-The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [_SVD-WG001_](/bg-material/consultation/svd-wg001/) more or less opened the option for such marks.
+The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [_SVD-WG001_](/background/consultation/SVD-WG001/) more or less opened the option for such marks.
 
 <a name ="exonnumbering"></a>
 
 ### Exon Numbering
 
-HGVS nomenclature does not give specific recommendations for the **numbering of exons**. For variant descriptions exon numbers are not required, **nucleotide position are sufficient**. In many genes there is no consensus on exon/intron numbering and several old numbering schemes may exist that had to be revised to include newly discovered exons (internal as well as 5' and/or 3' of the gene). This led to all kinds of numbering schemes with no clear structure, making it very difficult for non-experts in the specific gene to keep track of all details (see also [Dalgleish 2010](http://www.genomemedicine.com/content/pdf/gm145.pdf){:target="\_blank"} and [NCBI RefSeqGene](http://www.ncbi.nlm.nih.gov/refseq/rsg/faq/#exon){:target="\_blank"})). To prevent confusion and with the increasing use of genome browsers, numbering exons simply as 1, 2, 3, etc., from start to the end is the only logical option.
+HGVS nomenclature does not give specific recommendations for the **numbering of exons**. For variant descriptions exon numbers are not required, **nucleotide position are sufficient**. In many genes there is no consensus on exon/intron numbering and several old numbering schemes may exist that had to be revised to include newly discovered exons (internal as well as 5' and/or 3' of the gene). This led to all kinds of numbering schemes with no clear structure, making it very difficult for non-experts in the specific gene to keep track of all details (see also [Dalgleish 2010](http://www.genomemedicine.com/content/pdf/gm145.pdf) and [NCBI RefSeqGene](http://www.ncbi.nlm.nih.gov/refseq/rsg/faq/#exon))). To prevent confusion and with the increasing use of genome browsers, numbering exons simply as 1, 2, 3, etc., from start to the end is the only logical option.
 	Although this is probably difficult to accept by the experts, we can not keep on confusing newcomers by forever using legacy numbering systems. We should realize that, at some point, wrong assumptions will be made with as a consequence a patient will receive an erroneous diagnosis. This is of course unacceptable.
 
 *	The CBS gene was originally thought to contain 16 exons. Later it was recognised that exon 15 does not exist, and recently two additional non-translated 5' exons were detected. The current gene structure therefore includes 17 exons, of which exons 3 to 17 are translated. Should the exons of a gene be counted from the exon that contains the start codon rather than the beginning of the cDNA?  If so, should exons preceding the start codon be counted 0, -1, -2, etc. or should the 0 be skipped?  Is there an agreement on how to deal with changes in exon numbering?
 	:	For the description of sequence changes it does not matter how exons are numbered,  exon (and intron) numbers are not used in the descriptions, only nucleotide positions. For exon numbering the only logical thing to do is to start with 1 for the first exon and number all following exons successively. Using other numbering schemes problems will emerge at some point. Note that when alternative numbering schemes are used, these will only be recognised by experts in the field knowing their history; newcomers just blindly assume that the first exon annotated in the genome is exon 1. Consequently, when legacy numbering schemes are used, this will cause confusion and at some point wrong assumptions will be made and a patient might end up with an erroneous diagnosis. In papers, when used, specifically mention how exons were numbered (M&M, Figure and Table legends). For tables, consider to add a column listing the historic / old exon numbers.
 
 
-* * *
 
 <a name ="closedtopics"></a>
 
@@ -149,7 +138,7 @@ HGVS nomenclature assumes reference sequences are linear. However, the mitochond
 <font color="#FF0000">The proposal has been REJECTED</font>
 Accepting the proposal, without a whole range of specifications, would add **too many** options to decribe specific variants.
 
-HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf){:target="\_blank"}) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
+HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf)) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
 *	g.24\_65dup{46G>T}
 	:	a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
 After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very diifcult to control. 
@@ -159,7 +148,7 @@ After careful consideration the decision was made **not to accept** this proposa
 ### Numbering gene flanking nucleotides
 
 <font color="#FF0000">The proposal has been REJECTED</font>
-The current recommendation to describe variants based on a coding DNA reference sequence is to use "c.-" numbers for nucleotides 5' of the ATG translation initiation codon and "c.\*" numbers for nucleotides 3' of the translation termination codon [_see Numbering_](/bg-material/numbering/). However, such descriptions do not show whether the nucleotides are **inside or outside** the transcribed region. The request has been filed (_PEM Taschner, Leiden, Nederland_) to make a discrimination between transcribed and un-transcribed nucleotides using the format;
+The current recommendation to describe variants based on a coding DNA reference sequence is to use "c.-" numbers for nucleotides 5' of the ATG translation initiation codon and "c.\*" numbers for nucleotides 3' of the translation termination codon [_see Numbering_](/background/numbering/). However, such descriptions do not show whether the nucleotides are **inside or outside** the transcribed region. The request has been filed (_PEM Taschner, Leiden, Nederland_) to make a discrimination between transcribed and un-transcribed nucleotides using the format;
 
 *	c.-N-uM  =  nucleotide uM is at position -M upstream (u) of nucleotide c.-N, the transcription initiation site (cap-site) of the reference transcript, e.g. c.-237-u29A>G (currently c.-266A>G)
 	:	_**NOTE**_:	restricted to nucleotides 5' of the transcription initiation site (cap site), i.e. upstream of the gene (incl. the promoter)

@@ -1,14 +1,7 @@
----
-layout: default-md
-title: Uncertain
-order: 6
----
-
-# {{page.title}}
+# Uncertain
 
 HGVS recommendations also contain suggestions to describe variants for which not all details are available. Missing details may include unsequenced deletion/duplication breakpoints (e.g. detected using FISH, an array, a MLPA assay, Southern blotting, etc.), variants reported on the protein level only or variants that likely affect RNA splicing but for which RNA was not analysed. This page summarises how to describe variants when not all information is available.
 
-* * *
 
 ### Characters used
 
@@ -22,11 +15,10 @@ HGVS recommendations also contain suggestions to describe variants for which not
 *	"**<font color="red">^</font>**" (caret)
 	:	is used as “or”, like p.(Gly719Ala^Ser)
 *	IUPAC codes
-	:	all IUPAC nucleotide codes can be used to describe uncertain nucleotides ([_see Standards_](/bg-material/standards/))
+	:	all IUPAC nucleotide codes can be used to describe uncertain nucleotides ([_see Standards_](/background/standards/))
 	*	"**N[5]**", describes five unknown nucleotides
 	*	"**X[5]**", describes five unknown amino acid residues
 	
-* * *
 
 ### Examples
 
@@ -63,14 +55,14 @@ HGVS recommendations also contain suggestions to describe variants for which not
 		:	description of the variant detected uses the basic format **(position-last-normal-probe\_position-first-altered-probe)\_ (position-last-altered-probe\_position-first-normal-probe)**. For MLPA, the **"probe position"** is the ligation site, i.e. the first nucleotide of the probe 3’ of the ligation site. For MLPA probes containing two ligation sites the **"probe position"** is the central nucleotide between the two ligation sites (when two nucleotides form the center the 3' rule applies and the 3'nucleotide is selected).
 		:	_**Example**_: for exon 24 of the DMD gene (NM\_004006.2) the ligation site is ...ATGGCCTGCCCT-TGGGGATTCAGA..., i.e. the T nucleotides c.3233 and c.3234. Since the DMD gene is on the - strand, nucleotide NM\_004006.2:c.3233 is therefore used as the "probe position" in variant descriptions.
 		:	_**NOTE**_: in diagnostics it is common practice to describe MLPA results using a so-called exon-based description. In this description, when a probe is affected, it is assumed the entire exon is affected and the description is based on the location of the exon/intron borders (exception: large exons measured using several MLPA probes).
-		:	_**NOTE**_: the ["Reading frame checker"](https://databases.lovd.nl/shared/){:target="\_blank"} offered through the gene home pages of the "Global Variome shared LOVD" might be a useful tool to generate exon-based descriptions (e.g. for the [DMD gene](https://databases.lovd.nl/shared/scripts/readingFrameChecker.php?gene=DMD&transcript=NM_004006.2){:target="\_blank"}.
+		:	_**NOTE**_: the ["Reading frame checker"](https://databases.lovd.nl/shared/) offered through the gene home pages of the "Global Variome shared LOVD" might be a useful tool to generate exon-based descriptions (e.g. for the [DMD gene](https://databases.lovd.nl/shared/scripts/readingFrameChecker.php?gene=DMD&transcript=NM_004006.2).
 			*	NC\_000023.11:g.(31729663\_31774080)\_(32216973\_32287624)del (LRG\_199t1:c.(6195\_6381)\_(7422\_7628)del)
 			:	a deletion of exons 44 to 51 in the DMD gene as detected by an MLPA assay. The deletion is described based on the last normal signal (exon 43 position g.32287624 / c.6195), the first absent signal (exon 44 position g.32216973 / c.6381), the last absent signal (exon 51 position g.31774080 / c.7422) and the first normal signal (exon 52 position g.31729663 / c.7628).
 	*	array (CGH or SNP)
 	:	An array can be used to detect Copy Number Variants (CNVs), the number of copies of a sequence present in a sample. In array technology hybridisation to arrayed probe sequences is used to determine presence or absence of these sequences (target) in samples analysed. Hybridisation will fail when the target sequence is absent (deleted) or because there are differences between the sequence of the target and the probe.
 	:	_**NOTE**_: in samples containing 2 alleles a decreased signal usually indicates the absence (deletion) of one allele.
 		*	present/absent
-		:	description of the variant detected uses the basic format **(position-last-normal-probe\_position-first-altered-probe)\_ (position-last-altered-probe\_position-first-normal-probe)**. In this description the **"probe position"** is based on the position of the nucleotide tested (SNP array) or the center of the arrayed probe (CGH array). Similar, alternative descriptions have been suggested by the [ISCN guidelines](http://www.karger.com/Article/FullText/353118){:target="\_blank"}. Note also that more examples can be found under [_Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/), including array-characterised translocations.
+		:	description of the variant detected uses the basic format **(position-last-normal-probe\_position-first-altered-probe)\_ (position-last-altered-probe\_position-first-normal-probe)**. In this description the **"probe position"** is based on the position of the nucleotide tested (SNP array) or the center of the arrayed probe (CGH array). Similar, alternative descriptions have been suggested by the [ISCN guidelines](http://www.karger.com/Article/FullText/353118). Note also that more examples can be found under [_Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/), including array-characterised translocations.
 			*	NC\_000023.10:g.(32218983\_32238146)\_(32984039\_33252615)del
 			:	a deletion on the X chromosome, based on reference genome build hg19 (reference sequence NC\_000023.10), starting between nucleotides 32,218,983 to 32,238,146 and ending between nucleotides 32,984,039 to 33,252,615.
 			*	NC\_000023.10:g.(?\_32238146)\_(32984039\_?)del
@@ -82,7 +74,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 			:	a deletion on chromosome 13, based on reference genome build hg38, detected using a SNP-array. The deletion spans from rs3929856 (g.19394916) to rs10507342 (g.25045592). The description indicates no flanking probes were tested normal, making it unclear how far the deletion extends.
 	*	FISH
 	:	In Fluorescent In-Situ Hybridisation (FISH) presence or absence of sequences is analysed by microscopic visualisation of a fluorescently labeled probe hybridising to a target sequence. Hybridisation will fail when the target sequence is absent (deleted) or will be weak when only part of the target sequence is present. _**NOTE**_: in samples containing 2 alleles both alleles can be visualised independently.
-		*	rearrangements detected using FISH (Fluorescence In Situ Hybridisation) can be described using [ISCN guidelines](http://www.karger.com/ISCN2016){:target="\_blank"}. When probe positions are known, variants can be described using genomic coordinates. The basic format is **(position-last-normal-probe\_position-first-variant probe)\_(position-last-variant-probe\_position-first-normal-probe)** ([_see also ISCN<>HGVS_](/bg-material/consultation/svd-wg004/)). In this description the **"probe position"** is based on the center of the labelled probe used during hybridisation.
+		*	rearrangements detected using FISH (Fluorescence In Situ Hybridisation) can be described using [ISCN guidelines](http://www.karger.com/ISCN2016). When probe positions are known, variants can be described using genomic coordinates. The basic format is **(position-last-normal-probe\_position-first-variant probe)\_(position-last-variant-probe\_position-first-normal-probe)** ([_see also ISCN<>HGVS_](/background/consultation/SVD-WG004/)). In this description the **"probe position"** is based on the center of the labelled probe used during hybridisation.
 			*	NC\_000023.10:g.(32057077\_32364657)\_(32975163\_33394206)del
 			:	a deletion on the X-chromosome detected using FISH. The deletion, based on reference genome build hg38, spans from PAC probes RP4-556A22 (central position g.32364657) to RP11-151J4 (central position 32975163), both yielding no signal. On the telomeric side (p-arm) the closest probe tested positive was PAC RP11-509C1 (g.32057077), on the centromeric side the closest probe tested positive was RP6-60B16 (g.33394206).
 			*	NC\_000023.10:g.(?\_32364657)\_(32975163\_?)del
@@ -123,7 +115,6 @@ HGVS recommendations also contain suggestions to describe variants for which not
 		*	NC_000023.11:g.(31775822\_31817965)\_(32218461\_32278336)dup (LRG\_199t1:c.(6290+9193\_6291-1398)\_(7309+2010\_7310-1630)dup)
 		:	a duplication of exons 44 to 51 in the DMD gene as detected by a HindIII digestion, Southern blotting and cDNA hybridisation. The variant is described based on the normal intensity of the hybridizing exon 43 fragment (g.32278336\_32289141/c.6118-1440\_6290+9193), the double intensity of the hybridizing exon 44 fragment (g.32214437\_32218461/c.6291-1398\_6438+2479), the double intensity of the hybridizing exon 51 fragment (g.31817965\_31821709/c.7201-1626\_7309+2010), and the normal intensity of the hybridizing exon 52 fragment (g.31772670\_31775822/c.7310-1630\_7542+1290) relative to the coding DNA reference sequence. 
 
-* * *
 
 #### RNA
 
@@ -138,7 +129,6 @@ HGVS recommendations also contain suggestions to describe variants for which not
 *	r.(?)
 	:	frequently used to indicate that RNA was not analysed but that no changes on the RNA level are expected other than those simply derived from the change at the DNA level.
 
-* * *
 
 #### Protein
 

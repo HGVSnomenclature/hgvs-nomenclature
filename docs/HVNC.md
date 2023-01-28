@@ -1,16 +1,9 @@
----
-layout: default-md
-title: HVNC
-permalink: /HVNC/
----
+# HVNC
 
-# {{ page.title }}
-
-* * *
 
 ## HGVS Variant Nomenclature Committee (HVNC)
 
-The HGVS Variant Nomenclature Committee (HVNC) is authorised by the [Human Genome Organisation (HUGO)](https://www.hugo-international.org){:target="\_blank"}, a working group of the [HUGO Nomenclature Standards Committee](https://www.hugo-international.org/standards){:target="\_blank"}, with administrative support of the HUGO office. Activities of the HVNC follow the committee's Terms of Reference with new members being appointed every two years for a four-year term. HVNC members should together represent all interested communities, including gene/disease specific database curators, central repositories, clinical geneticists, commercial diagnostic laboratories, bioinformaticians, scientific journals, etc.  The HVNC is the successor of the HGVS nomenclature Sequence Variant Description Working Group (SVD-WG), initiated by the [Human Variome Project](https://www.humanvariomeproject.org/sdp/wg04-sequence-variant-description-committee.html){:target="\_blank"}.
+The HGVS Variant Nomenclature Committee (HVNC) is authorised by the [Human Genome Organisation (HUGO)](https://www.hugo-international.org), a working group of the [HUGO Nomenclature Standards Committee](https://www.hugo-international.org/standards), with administrative support of the HUGO office. Activities of the HVNC follow the committee's Terms of Reference with new members being appointed every two years for a four-year term. HVNC members should together represent all interested communities, including gene/disease specific database curators, central repositories, clinical geneticists, commercial diagnostic laboratories, bioinformaticians, scientific journals, etc.  The HVNC is the successor of the HGVS nomenclature Sequence Variant Description Working Group (SVD-WG), initiated by the [Human Variome Project](https://www.humanvariomeproject.org/sdp/wg04-sequence-variant-description-committee.html).
 
 
 ### **Task**
@@ -44,7 +37,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Pro
 | Alex Wagner  (United States)           |  2022 - 2025  |
 | Ivo Fokkema  (Netherlands  )           |  2023 - 2026  |
 
-> <sup>1</sup> [ISCN representative](/bg-material/consultation/ISCN/)
+> <sup>1</sup> [ISCN representative](/background/consultation/ISCN/)
 
 
 ### **past HVNC members**

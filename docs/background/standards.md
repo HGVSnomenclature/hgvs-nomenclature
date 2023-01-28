@@ -1,12 +1,5 @@
----
-layout: default
-title: Standards
-order: 3
----
+# Standards
 
-# {{ page.title }}
-
-* * * 
 
 * [nucleotide - DNA](#DNAcode)
 * [nucleotide - RNA](#RNAcode)
@@ -14,15 +7,13 @@ order: 3
 * [amino acid code](#aacode)
 * [cytogenetic band > nucleotide position ](#ISCN)
 
-* * *
 
 <a name ="DNAcode"></a>
 
 ## Nucleotides (DNA / RNA)
 
-At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences_ ([see IUBMB (NC-IUB)](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html){:target="\_blank"}), specifying the description of nucleotides ([see list](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500){:target="\_blank"}) and the NCBI standards for sequence files and database searches ([e.g. BLAST](http://www.ncbi.nlm.nih.gov/BLAST/blastcgihelp.shtml){:target="\_blank"}).
+At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences_ ([see IUBMB (NC-IUB)](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html)), specifying the description of nucleotides ([see list](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500)) and the NCBI standards for sequence files and database searches ([e.g. BLAST](http://www.ncbi.nlm.nih.gov/BLAST/blastcgihelp.shtml)).
 
-* * * 
 
 ### **DNA**
 
@@ -50,7 +41,6 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 > *used in alignment only
 
-* * * 
 
 <a name ="RNAcode"></a>
 
@@ -75,7 +65,6 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 | w      | a or u       | weak interaction (2 H-bonds)    |
 | y      | c or u       | pyrimidine                      |
 
-* * * 
 
 <a name ="geneticcode"></a>
 
@@ -219,7 +208,6 @@ In the Table below, to support translation from a DNA sequence, we have used a "
   </tr>
 </table>
 
-* * * 
 
 <a name ="aacode"></a>
 
@@ -258,7 +246,6 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 
 <sup>a</sup>To prevent confusion, since 'X' has been used to indicate a translation stop codon, use 'Xaa' only.
 
-* * * 
 
 <a name ="ISCN"></a>
 
@@ -266,7 +253,7 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 
 _**NOTE:**_  We are in contact with the ISCN to learn whether the translation tables shown is recognised by ISCN as correct. 
 
-To facilitate translating variant descriptions based on [_ISCN_](/bg-material/consultation/ISCN/) recommendations, human chromosomal band descriptions need to be translated to genomic positions ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/)). For this translation the table below can be used. Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38. Translation is based on the UCSC cytoBand file downloadeds for [_hg19_](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [_hg38_](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
+To facilitate translating variant descriptions based on [_ISCN_](/background/consultation/ISCN/) recommendations, human chromosomal band descriptions need to be translated to genomic positions ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/)). For this translation the table below can be used. Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38. Translation is based on the UCSC cytoBand file downloadeds for [_hg19_](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [_hg38_](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
 
 
 {:.table .table-bordered}

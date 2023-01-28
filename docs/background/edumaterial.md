@@ -1,12 +1,5 @@
----
-layout: default-md
-title: Educational Material
-order: 6
----
+# Educational Material
 
-# {{ page.title }}
-
-* * * 
 
 A detailed explanation of HGVS nomenclature can be found on this website. Summaries, using different formats, have been published in journals and several book chapters ([_see History_](/history/)).
 

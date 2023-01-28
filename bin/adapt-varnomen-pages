@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+"""process entire docs directory to adapt varnomen pages to mkdocs"""
 
+import pathlib
 import re
 import sys
 
@@ -9,15 +11,23 @@ def process1(content: str) -> str:
     m = re.search(r"title:\s+([^\n]+)", content)
     try:
         title = m.group(1)
-        content = re.sub(r'# \{\{ page.title \}\}', "# " + title, content)
+        content = re.sub(r'# \{\{\s*page.title\s*\}\}', "# " + title, content)
     except AttributeError:
         pass
     
+    # simple string replacements
+    content = content.replace('{:target="\_blank"}', "")   
+    content = content.replace("{:#version-list}", "")
+    content = content.replace("/bg-material/", "/background/")
+
     # remove header
     content = re.sub(r"^---.+---\s+(?=#)", "", content, flags=re.S)
     
     # remove separators
     content = re.sub(r"^\* \* \*\s*$", "", content, flags=re.MULTILINE)
+    
+    # standardize case of SVD-WG references (all uppercase), including filenames
+    content = re.sub(r"svd-wg(\d+)", r"SVD-WG\1", content)
     
     return content
 
