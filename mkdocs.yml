@@ -16,6 +16,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - toc:
+      permalink: true
       toc_depth: 1
 
 extra:
@@ -35,6 +36,7 @@ extra_css:
 
 theme:
   name: material
+  #custom_dir: overrides
 
   features:
     - navigation.indexes
