@@ -2,7 +2,6 @@
 
 HGVS recommendations also contain suggestions to describe variants for which not all details are available. Missing details may include unsequenced deletion/duplication breakpoints (e.g. detected using FISH, an array, a MLPA assay, Southern blotting, etc.), variants reported on the protein level only or variants that likely affect RNA splicing but for which RNA was not analysed. This page summarises how to describe variants when not all information is available.
 
-
 ### Characters used
 
 *	"**<font color="red">( )</font>**" (parentheses)
@@ -115,7 +114,6 @@ HGVS recommendations also contain suggestions to describe variants for which not
 		*	NC_000023.11:g.(31775822\_31817965)\_(32218461\_32278336)dup (LRG\_199t1:c.(6290+9193\_6291-1398)\_(7309+2010\_7310-1630)dup)
 		:	a duplication of exons 44 to 51 in the DMD gene as detected by a HindIII digestion, Southern blotting and cDNA hybridisation. The variant is described based on the normal intensity of the hybridizing exon 43 fragment (g.32278336\_32289141/c.6118-1440\_6290+9193), the double intensity of the hybridizing exon 44 fragment (g.32214437\_32218461/c.6291-1398\_6438+2479), the double intensity of the hybridizing exon 51 fragment (g.31817965\_31821709/c.7201-1626\_7309+2010), and the normal intensity of the hybridizing exon 52 fragment (g.31772670\_31775822/c.7310-1630\_7542+1290) relative to the coding DNA reference sequence. 
 
-
 #### RNA
 
 *	r.?
@@ -129,7 +127,6 @@ HGVS recommendations also contain suggestions to describe variants for which not
 *	r.(?)
 	:	frequently used to indicate that RNA was not analysed but that no changes on the RNA level are expected other than those simply derived from the change at the DNA level.
 
-
 #### Protein
 
 *	p.?
@@ -142,7 +139,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 	:	used to describe there is a frame shift variant starting at an unknown position between amino acids Ala123 and Pro131
 *	p.(Ala123\_Pro131)insX[4]
 	:	used to describe there is an insertion of four unknown amino acids (X) at an unknown position between amino acids Ala123 and Pro131
-	:	**NOTE**_: X is the IUPAC symbol for an unnown amino acid, _**NOT** to indicate a translation termination (stop) codon
+	:	**NOTE**: X is the IUPAC symbol for an unnown amino acid, **NOT** to indicate a translation termination (stop) codon
 *	p.Gly719(Ala^Ser)fs\*23
 	:	used to describe there is a frame shift variant starting in the codon for amino acid Gly719, changing it to either Ala or Ser and ending at a termination codon at position 23 (fs\*23).
 *	p.(Gly23Glufs\*7^Gly23Cysfs\*26)

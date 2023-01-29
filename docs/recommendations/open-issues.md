@@ -1,10 +1,8 @@
 # Open Issues
 
-
 ## Community Consultation
 
 There are currently no proposals open for Community Consulation.
-
 
 <a name ="opentopics"></a>
 
@@ -12,13 +10,11 @@ There are currently no proposals open for Community Consulation.
 
 For closed topics [see below](/recommendations/open-issues#closedtopics).
 
-
 ## Introduction
 
 At the time the first HGVS recommendations for the description of variants were made “history” had a large impact. History meaning the format proposed was heavily influenced by the formats already in use to describe variants. Would HGVS be designed from scratch, it might well be we would only use deletion (del), insertion (ins) and deletion-insertion (delins) because using these three any variant can be described. Substitution (>) might be added because of its simplicity and long history, although “delins” can be used to describe substitutions as well. Variant types like “inversion” (inv) and “duplication” (dup) might well be left out, they can be described as a “delins”. The same holds true for “conversions” (con), a variant type that was discontinued from HGVS recommendations a few years ago (see SVD-WG009).
 
 Basically, these variant types refer to the (expected) biological process generating the variant, e.g. inserting a copy of segment of DNA (duplication), turning around a segment of DNA (inversion) or replacing a segment of DNA with a copy of a segment from elsewhere (conversion). The number of nucleotides involved in such cases is usually large, i.e. several hundred nucleotides or more. However, for overall consistency within the recommendations, the formats for description are general, irrespective of the length of the variant. Duplications can be as short as one nucleotide and inversions as small as two (prioritisation determines one-nucleotide inversions are described as substitution), although for these variants a link with the biological process generating them is unlikely. It should be noted that some of the problems described below are associated with these historic choices.
-
 
 <a name ="beyond"></a>
 
@@ -117,8 +113,6 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 *	The CBS gene was originally thought to contain 16 exons. Later it was recognised that exon 15 does not exist, and recently two additional non-translated 5' exons were detected. The current gene structure therefore includes 17 exons, of which exons 3 to 17 are translated. Should the exons of a gene be counted from the exon that contains the start codon rather than the beginning of the cDNA?  If so, should exons preceding the start codon be counted 0, -1, -2, etc. or should the 0 be skipped?  Is there an agreement on how to deal with changes in exon numbering?
 	:	For the description of sequence changes it does not matter how exons are numbered,  exon (and intron) numbers are not used in the descriptions, only nucleotide positions. For exon numbering the only logical thing to do is to start with 1 for the first exon and number all following exons successively. Using other numbering schemes problems will emerge at some point. Note that when alternative numbering schemes are used, these will only be recognised by experts in the field knowing their history; newcomers just blindly assume that the first exon annotated in the genome is exon 1. Consequently, when legacy numbering schemes are used, this will cause confusion and at some point wrong assumptions will be made and a patient might end up with an erroneous diagnosis. In papers, when used, specifically mention how exons were numbered (M&M, Figure and Table legends). For tables, consider to add a column listing the historic / old exon numbers.
-
-
 
 <a name ="closedtopics"></a>
 

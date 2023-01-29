@@ -1,6 +1,5 @@
 # Educational Material
 
-
 A detailed explanation of HGVS nomenclature can be found on this website. Summaries, using different formats, have been published in journals and several book chapters ([_see History_](/history/)).
 
 *	Basics

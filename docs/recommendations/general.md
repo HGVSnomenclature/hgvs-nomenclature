@@ -4,7 +4,6 @@ Since references to web sites are not yet acknowledged as citations, please ment
 
 Make sure you have also seen the ([_Basics_](/background/basics/), explaining the **history** of these recommendations, the process of making **changes**, the **versioning** of the recommendations and important remarks on **terminology**. 
 
-
 ## General recommendations
 
 *	all variants should be described at the most basic level, **the DNA level**. Descriptions at the RNA and/or protein level may be given in addition.
@@ -16,7 +15,7 @@ Make sure you have also seen the ([_Basics_](/background/basics/), explaining th
 	*	the recommended reference is a genomic reference sequence based on a recent genome build
 		*	for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X
 		*	when variants are reported in relation to a transcript, the preferred reference sequence is the reference suggested by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/))
-		:	**_NOTE:_**	while [Locus Reference Genomic (LRG)](http://www.lrg-sequence.org) reference sequences are still acceptable, new LRG’s are no longer generated and RefSeq or Ensembl transcripts specified by the MANE project are preferred for all genes where available to help standardize clinical reporting.
+		:	**NOTE:**	while [Locus Reference Genomic (LRG)](http://www.lrg-sequence.org) reference sequences are still acceptable, new LRG’s are no longer generated and RefSeq or Ensembl transcripts specified by the MANE project are preferred for all genes where available to help standardize clinical reporting.
 	*	the reference sequence used must contain the residue(s) described to be changed. 
 	*	a **letter prefix** is mandatory to indicate the type of reference sequence used. Accepted prefixes are;
 		*	"**c.**" for a coding DNA reference sequence	
@@ -44,9 +43,8 @@ Make sure you have also seen the ([_Basics_](/background/basics/), explaining th
 	* 	when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
 	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
 *	only **approved** [HGNC gene symbols](http://www.genenames.org) should be used to describe genes
-	:	**_NOTE:**	to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to use _**italics** to denote genes and to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2)
-	:	**_NOTE:_**	for protein nomenclature see the [_International Protein Nomenclature Guidelines_](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/), written with the involvement of the HGNC
-
+	:	**NOTE:**	to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to use **italics** to denote genes and to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2)
+	:	**NOTE:**	for protein nomenclature see the [_International Protein Nomenclature Guidelines_](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/), written with the involvement of the HGNC
 
 <a name="characters"></a>
 
@@ -74,7 +72,6 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 *	"**<font color="red">/</font>**" (forward slash) is used to indicate mosaicism ([_see Example DNA substitution_](/recommendations/DNA/variant/substitution/))
 *	"**<font color="red">//</font>**" (double forward slash) is used to indicate chimerism ([_see Example DNA substitution_](/recommendations/DNA/variant/substitution/))
 *	"**<font color="red">|</font>**" (pipe) is used to indicate that not a direct change of the sequence is described but a modification (a change of state, e.g. methylation). ([_see Example methylation_](/recommendations/DNA/variant/other/))
-
 
 <a name="abbreviation"></a>
 
@@ -104,7 +101,6 @@ Specific abbreviations are used to describe different variant types.
 	*	"**<font color="red">lom</font>**" indicates a **loss of methylation**; g.12345678_12345901**<font color="red">|lom</font>**
 	*	"**<font color="red">met</font>**" indicates a **methylation**; g.12345678_12345901**<font color="red">|met=</font>**
 
-
 ## Questions
 
 *	Some papers and web sites use a "-" (minus) to indicate a range, is this correct?
@@ -115,7 +111,7 @@ Specific abbreviations are used to describe different variant types.
 
 *	When I want to report a variant on DNA, RNA and protein level do I need to use a specific separator?
 	:	No, best is to report the variant using the format NC\_000023.11:g.32849790T>A NM\_004006.3:c.124A>T r.(124a>u) p.(Ser42Cys)
-	:	**_NOTE:_**	when several NP\_'s are annotated in the NM\_ reference sequence, it is mandatory to add the NP\_ reference sequence used to describe the variant at protein level.
+	:	**NOTE:**	when several NP\_'s are annotated in the NM\_ reference sequence, it is mandatory to add the NP\_ reference sequence used to describe the variant at protein level.
 
 *	I found a substitution variant (DNA) which alters splicing, inserting a short sequence in the transcript (RNA), giving a frame shift at #rotein level. How should I list this variant, as substitution, as splice variant, as insertion or as frame shift?
 	: When listing variant types, HGVS recommends listing them separately for each level, i.e. DNA, RNA and protein. On DNA level you identified a substitution, on RNA level an insertion and on protein level a frameshift.

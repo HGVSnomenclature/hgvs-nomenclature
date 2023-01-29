@@ -1,10 +1,8 @@
 # Reference Sequences
 
-
 ## Definition
 
 a sequence file that is used as a **reference to describe variants** that are present in a sequence analysed.
-
 
 **NOTE:** this section has been updated based on the accepted proposal [_SVD-WG008 (Reference Sequences)_](http://varnomen.hgvs.org/background/consultation/SVD-WG008/).
 
@@ -61,7 +59,6 @@ A sequence variant is defined in the context of a **reference sequence** which m
 	*	coding transcript (or non-coding transcript) - LRG\_199t1
 	*	protein - LRG\_199p1
 
-
 ## Reference Sequence Types
 
 Depending on the variants to be reported, different reference sequence files are used at the DNA, RNA or protein level. It is mandatory to indicate the type of reference sequence file using a **prefix** preceding the variant description. Approved reference sequence types are **c.**, **g.**, **m.**, **n.**, **o.**, **p.** and **r.**: 
@@ -78,7 +75,6 @@ Depending on the variants to be reported, different reference sequence files are
 	*	**p.**	=	[protein reference sequence](#proteinp)
 *	the recommended DNA reference is a genomic reference sequence
 
-
 {:#DNAg}
 
 ### DNA - genomic reference sequence (g.)
@@ -93,7 +89,6 @@ Depending on the variants to be reported, different reference sequence files are
 *	when a complete genomic reference sequence is not available, a coding DNA reference sequence should be used.
 *	tools like the [Mutalyzer suite](http://www.mutalyzer.nl/position-converter) and [Variant Validator](http://www.variantvalidator.org) can help to predict the consequences of a variant on all properly annotated transcripts, incl. when they derive from overlapping genes.
 
-
 {:#DNAo}
 
 ### DNA - circular genomic reference sequence (o.)
@@ -101,7 +96,6 @@ Depending on the variants to be reported, different reference sequence files are
 *	circular genomic reference sequences are indicated using a **o.** prefix
 	:	circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral resuence, etc.
 	:	**Exception:**  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
-
 
 {:#DNAm}
 
@@ -111,7 +105,6 @@ Depending on the variants to be reported, different reference sequence files are
 	:	a mitochondrial reference sequence is a special type of circular genomic reference sequence. Since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
 *	the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).
 	:	**NOTE:**	the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
-
 
 {:#DNAc}
 
@@ -169,7 +162,6 @@ Depending on the variants to be reported, different reference sequence files are
 	*	for LRG\_'s the annotated "**protein isoform 1**" is described as "**<font color="red">p1</font>**", e.g. LRG\_199**<font color="red">p1</font>**:p.(Val25Gly)
 *	a protein reference sequence should represent the primary translation product, not a processed mature protein, and thus includes the starting Methionine, any signal peptide sequences, etc.
 
-
 {:#note}
 
 ## Notes
@@ -179,7 +171,6 @@ Depending on the variants to be reported, different reference sequence files are
 Why not? Two reasons:
 *	because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?
 *	because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other identifiers (perhaps identifiers not even shared). If the implementation were to **require** that g. variant accessions start with NC\_ (or any predefined list), it would make it impossible to use that software in other contexts
-
 
 {:#discuss}
 

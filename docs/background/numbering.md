@@ -1,6 +1,5 @@
 # Numbering
 
-
 ### genomic reference sequences
 
 *	genomic reference sequence
@@ -10,7 +9,6 @@
 *	mitochondrial DNA reference sequence
 	a mitochnodrial reference sequence is a special **circular** genomic reference sequence. Nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.
 	*	the preferred human mtDNA reference sequence is the _Homo sapiens_ [mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).
-
 
 <a name="DNAc"></a>
 
@@ -42,13 +40,11 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 
 Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf) and [Den Dunnen & Antonarakis (2000)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf)) suggested two alternative descriptions for intronic variants; c.88+2T>G / c.89-1G>T and c.IVS2+2T>G / c.IVS2-1G>T. The format **c.IVS2+2T>G / c.IVS2-1G>T** has been retracted and **should not be used**. 
 
-
 ### non-coding DNA reference sequences
 
 *	nucleotide numbering is n.1, n.2, n.3, ..., etc. from the first to the last nucleotide of the reference sequence
 *	nucleotides in introns are numbered as for coding DNA reference sequences [_(see above)_](#DNAc), although preceeded by n. (not c.)
 *	it is **not** allowed to describe variants in nucleotides which are not covered by the transcript using a non-coding DNA reference sequence
-
 
 ### RNA reference sequences
 
@@ -58,13 +54,11 @@ nucleotide numbering for a RNA reference sequence follows that of the associated
 *	in a coding RNA reference sequences nucleotide numbering is based on the annotated protein isoform, the major translation product, following that of a coding DNA reference sequence [_see coding DNA reference sequence_](#DNAc).
 *	coding/non-coding RNA reference sequences do **not contain** intron sequences and can therefore **not be used** to describe variants affecting these sequences [_see Reference Sequences_](/background/refseq/#RNAr). Correct descriptions therefore need to give a genomic reference sequence like LRG\_199t1:r.186\_187ins186+1\_186+4, NC\_000023.10(NM\_004006.2):r.186\_187ins186+1\_186+4 or NG\_012232.1(NM\_004006.2):r.186\_187ins186+1\_186+4.
 
-
 ### protein reference sequences
 
 amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amino acid of the reference sequence
 
 *	amino acid numbers based on a protein reference sequence may include a "-" or "*" prefix ([_see Protein Extensions_](/recommendations/protein/variant/extension/)).
-
 
 ## Q&A
 
@@ -115,7 +109,6 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 *	The recommendation for nucleotide numbering in a gene based on a genomic reference sequence works only if the reference sequence in the database is published as a single file. For my organism there is not yet a reliable genome assembly. For my gene of interest the genomic sequence is stored in multiple files, each containing one exon and partial flanking intron sequences. What should I do?
 	:	If no database file is available that contains the complete genomic sequence, such a file should be constructed and submitted to the database. For unsequenced sections in the introns N's can be used to fill gaps (the number of N's included can be used to get the intron to the estimated size). The accession.version number of the submitted file can than be used as a genomic reference sequence.
 
-
 <div>
     <button type="button" onclick="resize()" class="btn btn-link pull-right" data-toggle="collapse" data-target=".recs-definition" >
         <span class="glyphicon glyphicon-resize-full pull-right" id="resize"></span>
@@ -126,10 +119,9 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 
 ![Reference Sequence Figure]({{site.baseurl}}/assets/RefSeq.jpg){:.img-responsive .center-block #refSeqFig}
 
-
 ## Examples
 
-The basic recommendation is that the **reference sequence**_ used represents the _**major and largest transcript** of the gene. The MANE Select transcript available from the MANE project (see Ensembl or NCBI) is preferred if it is a suitable reference for describing the variant. Variants present in alternative transcripts, not covered by the selected reference transcript, can be described based on annotated alternative transcript variants (e.g. NM\_001099404.2, LRG\_199**t3**) or protein isoforms (e.g. NP\_001092874.1, LRG\_199**p3**), preferring MANE Plus Clinical transcripts if specified by the MANE project. Contact the MANE project (MANE-help@ncbi.nlm.nih.gov or mane-help@ebi.ac.uk) if any pathogenic variants cannot be adequately described using available MANE transcripts.
+The basic recommendation is that the **reference sequence** used represents the **major and largest transcript** of the gene. The MANE Select transcript available from the MANE project (see Ensembl or NCBI) is preferred if it is a suitable reference for describing the variant. Variants present in alternative transcripts, not covered by the selected reference transcript, can be described based on annotated alternative transcript variants (e.g. NM\_001099404.2, LRG\_199**t3**) or protein isoforms (e.g. NP\_001092874.1, LRG\_199**p3**), preferring MANE Plus Clinical transcripts if specified by the MANE project. Contact the MANE project (MANE-help@ncbi.nlm.nih.gov or mane-help@ebi.ac.uk) if any pathogenic variants cannot be adequately described using available MANE transcripts.
 
 *   **alternative promoter**
     *   5' of the major transcript, e.g. [Dp427c brain-specific transcript 5' of the DMD gene](http://www.dmd.nl/seqs/murefDMD_intron_00.html#Dp427c)

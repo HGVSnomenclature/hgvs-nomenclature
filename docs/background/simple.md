@@ -3,7 +3,6 @@
 **Changes** in DNA, RNA and protein sequences, also called **variants** (and sometimes mutations or polymorphisms), are described using a specific language. To prevent confusion regarding its meaning a **standard** has been developed for this language, the so called **HGVS nomenclature standard**. The standard is used world-wide, especially in human health and clinical diagnostics.
 This page will try to explain the standard, **briefly and in simple terms**. After reading you should be able to understand the basics of the HGVS nomenclature and be able to use the internet to find more information about specific variants. In addition, while searching, you should be able to prevent making mistakes leading to misinterpretation of the variant and its possible consequences. More details, on all subjects, are availble elsewhere on the HGVS nomenclature pages.
 
-
 ## The format
 
 The format of a complete variant description is **"reference : description"** (spaces added for clarity only), e.g.;
@@ -25,7 +24,6 @@ In nature the DNA code is first transcribed in to a **RNA** molecule ([see Wikip
 Variants are usually detected by reading the DNA code, a method called DNA **sequencing**. A proper report **always** contains the variant described on the DNA level. In addition, a report usually contains a description of the predicted consequence of the variant on the protein, rarely the consequence on RNA. In rare cases, not following current standards, only the predicted consequences at the protein level are reported.
 
 Some variants have an effect on how the transcript (RNA) is generated and consequently on its translation in to protein. When only DNA has been analysed, the consequences of the variant at the RNA and the protein level can only be predicted. The HGVS standard demands predicted consequences have to be **reported in parenthesis**. The predicted consequence of the variant NM\_004006.2:c.4375C>T at the protein level is described as p.(Arg1459*). The "()" warn the variant described is a predicted consequence only.
-
 
 ## Reference sequences
 
@@ -68,7 +66,6 @@ In a human diagnostic setting the most frequently used reference is a **"coding 
 **NOTE:**	positions in front of the protein coding sequence get a minus sign (e.g. **"c.-26"**), those after the translation stop an asterisk (e.g. **"c.\*85"**). Numbering in intronic sequences has a format like c.530+6 or c.531-23. For details [_see "Reference Sequences"_](http://varnomen.hgvs.org/background/refseq/).
 	The most frequently used coding DNA reference sequences are the NM's (RefSeq gene transcript sequences, e.g. NM\_004006.2) and LRG's (Locus Genomic Reference sequences, e.g. LRG\_199t1).
 
-
 ## Variants
 
 Depending on the change found, the description of the variant can have many different formats. For a detailed overview we refer to the specific pages on this website [_see header "Recommendations"_](http://varnomen.hgvs.org/recommendations). Here we will list and briefly explain, the major variant types.
@@ -106,11 +103,9 @@ There are more variant types yet these occur less frequently. For details [_see 
 
 It should be noted that **one variant**, based on different reference sequences used, can be described in many different ways. Variant c.5234G>A in the DMD gene can be described based on different genomic reference sequences (e.g. NC\_000023.9:g.32290917C>T, NC\_000023.10:g.32380996C>T, NC\_000023.11:g.32362879C>T, NG_012232.1:g.981731G>A, LRG_199:g.981731G>A) as well as different coding DNA reference sequences (e.g. LRG\_199t1:c.5234G>A, NM\_004006.3:c.5234G>A, NM\_004009.3:c.5222G>A, NM\_000109.3:c.5210G>A, NM\_004007.2:c.4865G>A, NM\_004010.3:c.4865G>A, NM\_004011.3:c.1211G>A, NM\_004012.3:c.1202G>A). These alternative descriptions are rather confusing, especially when reference sequences are not properly listed. Consequently, when databases or the internet are queried for information regarding the potential consequences of specific variants, errors are easily made. 
 
-
 ### Other descriptions
 
 Sometimes variants are not described using the format **reference:description** (NM\_004006.3:c.4375C>T) explained above but using an identifier (ID) in another database. Common formats include a rs ID (from dbSNP, [_rs128627255_](http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&rs=rs128627255)), OMIM ID (from OMIM, [_OMIM300377:0073_](http://omim.org/entry/300377#0073)), LOVD ID (from LOVD, [_DMD\_000073_](http://www.LOVD.nl/DMD_000073)), RCV ID (from ClinVar, [_RCV000012030_](https://www.ncbi.nlm.nih.gov/clinvar/RCV000012030/)), etc. In most cases, using these IDs, the database can be used to find the full description of the variant using the approved HGVS format **reference:description**.
-
 
 ## Missing information
 

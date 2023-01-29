@@ -1,17 +1,14 @@
 # Community Consultation
 
-
 HGVS nomenclature falls under the responsibility of HUGO's ([_**HGVS Variant Nomenclature Committee** (HVNC)_](/HVNC/)), formerly known as the Sequence Variant Description Working Group (SVD-WG). The HVNC handles requests to change or extend HGVS nomenclature operating according to a charter defining its activities which includes a **Community Consultation** step. Any proposal made by the HVNC will be **published on this web page**. When published, the proposal is open for comments for a 2-month period. Everybody interested is asked to study the proposal and send comments, positive or negative, to the HVNC. Comments to proposals should be addressed to “Varnomen @ HUGO-int.org”, Subject: HVNCxxx (xxx the proposal number, e.g. HVNC-011).
 
 To ensure you **do not miss** a new proposal [_please register for e-mail notification_](/background/basics/)). Those registered will also receive notification when the HGVS nomenclature version number changes. The latest version of the HGVS recommendations can be found at the [_Versioning page_](/versioning/).
-
 
 ### Open
 
 *   [SVD-WG010]({{site.baseurl}}/background/consultation/SVD-WG010/) (var distance)
     :   suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other
     :   **Status**: <font color="red">closed July 31, 2021</font> (decision pending).
-
 
 ### Closed
 

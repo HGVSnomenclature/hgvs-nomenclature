@@ -1,12 +1,10 @@
 # Standards
 
-
 * [nucleotide - DNA](#DNAcode)
 * [nucleotide - RNA](#RNAcode)
 * [genetic code](#geneticcode)
 * [amino acid code](#aacode)
 * [cytogenetic band > nucleotide position ](#ISCN)
-
 
 <a name ="DNAcode"></a>
 
@@ -14,9 +12,7 @@
 
 At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences_ ([see IUBMB (NC-IUB)](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html)), specifying the description of nucleotides ([see list](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500)) and the NCBI standards for sequence files and database searches ([e.g. BLAST](http://www.ncbi.nlm.nih.gov/BLAST/blastcgihelp.shtml)).
 
-
 ### DNA
-
 
 | Symbol |    Meaning   |           Description           |
 |:------:|:------------:|:-------------------------------:|
@@ -40,11 +36,9 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 > *used in alignment only
 
-
 <a name ="RNAcode"></a>
 
 ### RNA
-
 
 | Symbol |    Meaning   |           Description           |
 |:------:|:------------:|:-------------------------------:|
@@ -63,7 +57,6 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 | v      | a, c or g    | not-u ( v follows u             |
 | w      | a or u       | weak interaction (2 H-bonds)    |
 | y      | c or u       | pyrimidine                      |
-
 
 <a name ="geneticcode"></a>
 
@@ -207,13 +200,11 @@ In the Table below, to support translation from a DNA sequence, we have used a "
   </tr>
 </table>
 
-
 <a name ="aacode"></a>
 
 ## Amino Acid Descriptions
 
 At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ ([see IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)), specifying the description of amino acids. In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "**<font color="red">*</font>**" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon (**NOTE**: in older versions the "**X** was used instead). In the Table below, to support translation from a DNA sequence, we have used a "**T**" in the codons although in nature RNA is translated so the codons contain **U**'s. 
-
 
 | One Letter Code | Three Letter Code |          Amino Acid         |             Possible Codons             |                Systemic Name                |              Formula              |
 |:---------------:|:-----------------:|:---------------------------:|:---------------------------------------:|:-------------------------------------------:|:---------------------------------:|
@@ -245,7 +236,6 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 
 <sup>a</sup>To prevent confusion, since 'X' has been used to indicate a translation stop codon, use 'Xaa' only.
 
-
 <a name ="ISCN"></a>
 
 ## ISCN cytogenetic band to chromosome positions
@@ -253,8 +243,6 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 **NOTE:**  We are in contact with the ISCN to learn whether the translation tables shown is recognised by ISCN as correct. 
 
 To facilitate translating variant descriptions based on [_ISCN_](/background/consultation/ISCN/) recommendations, human chromosomal band descriptions need to be translated to genomic positions ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/)). For this translation the table below can be used. Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38. Translation is based on the UCSC cytoBand file downloadeds for [_hg19_](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [_hg38_](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
-
-
 
 |  Chromosome |   Band    |      Position (hg19/GRCh37)      |      Position (GRCh38)      |
 |:-----------:|:---------:|:---------------------------------:|:---------------------------------:|
