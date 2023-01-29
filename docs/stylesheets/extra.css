@@ -1,6 +1,10 @@
 h2 {
-    /* color: #4051b5; */
-    border-bottom: thin solid;
+    color: #4051b5;
+    border-bottom: thin solid #4051b5;
+}
+
+h3 {
+    color: #666;
 }
 
 

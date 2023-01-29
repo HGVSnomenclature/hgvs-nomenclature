@@ -17,6 +17,7 @@ varnomen-remigrate:
 	make varnomen-copy
 	make varnomen-adapt
 	make varnomen-rename
+	cp -a ../../biocommons/biocommons.github.io/docs/stylesheets docs/
 	git checkout e2a6f26 -- docs/images docs/index.md
 
 varnomen-copy:
