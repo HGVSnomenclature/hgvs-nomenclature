@@ -1,35 +1,21 @@
----
-layout: default-md
-title: SVD-WG004
-category: SVD-WG
----
-
 ## Community Consultation
-
-* * *
 
 ### NOTE
 
 The proposal below is the original proposal as published first on November 10, 2015. The proposal is **not updated** and does not include changes made after acceptance of the proposal. To see the current recommendations please check [_Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/). 
 
-* * *
-
 ### Proposal SVD-WG004 (ISCN<>HGVS)
 
 *	Status: <font color="red">closed</font>
-	:	proposal SVD-WG004 opened for **Community Consultation** on November 10 (2015) and closed on Jan.15 (2016). Although no objections were received, because SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement, the SVD-WG decided to accepted the proposal only as a [_**named extension**_](/versioning). 
+	:	proposal SVD-WG004 opened for **Community Consultation** on November 10 (2015) and closed on Jan.15 (2016). Although no objections were received, because SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement, the SVD-WG decided to accepted the proposal only as a [**named extension**](/versioning). 
 
 The proposal suggests to extend the HGVS recommendations to allow description of complex variants incl. those covered so far by the **ISCN** (e.g. transpositions, translocations, chromothripsis, marker chromosomes, etc.). In addition it includes suggestions to harmonise the HGVS and ISCN recommendations, removing discrepancies as much as possible.
-
-* * *
 
 #### HGVS <> ISCN
 
 The current HGVS recommendations [(_see Recommendations_)](/recommendations/general) do not cover translocations. One small example is given [(_see DNA sequence variants_)](http://www.hgvs.org/mutnomen/recs-DNA.html#tra) but this is insufficient to properly describe such changes when detected. The SVD-WG has received the request to extend the HGVS recommendations to include the description of translocations.
 
-Historically the description of translocations is the responsibility of the [_ISCN committee_](/bg-material/consultation/ISCN). The ISCN recommendations cover the description of numerical and structural chromosomal changes detected using microscopic/cytogenetic techniques, while the HGVS recommendations cover the description of changes at the nucleotide level detected using sequencing. Given the increased use of sequencing technologies to characterize chromosomal abnormalities the ISCN committee and the HGVS/HVP/HUGO Sequence Variant Description Working Group (SVD-WG) have thoroughly checked and discussed the recommendations of both committees. The committees decided to design one format that, wherever possible, leaves existing standards intact but that also draws a clear border between ISCN and HGVS. Discussions concentrated around earlier proposals for the description of translocations, e.g. as presented at the [HGVS/ASHG meeting in Boston](http://onlinelibrary.wiley.com/doi/10.1002/humu.22516/abstract) [(_see presentation_)](http://www.hgvs.org/mutnomen/SVtrans_HGVS2013_PT.pdf), and a paper from [Ordulu et al. (2014)](http://ac.els-cdn.com/S0002929714001724/1-s2.0-S0002929714001724-main.pdf) reporting sequencing results of structural chromosome rearrangements.
-
-* * *
+Historically the description of translocations is the responsibility of the [_ISCN committee_](/background/consultation/ISCN). The ISCN recommendations cover the description of numerical and structural chromosomal changes detected using microscopic/cytogenetic techniques, while the HGVS recommendations cover the description of changes at the nucleotide level detected using sequencing. Given the increased use of sequencing technologies to characterize chromosomal abnormalities the ISCN committee and the HGVS/HVP/HUGO Sequence Variant Description Working Group (SVD-WG) have thoroughly checked and discussed the recommendations of both committees. The committees decided to design one format that, wherever possible, leaves existing standards intact but that also draws a clear border between ISCN and HGVS. Discussions concentrated around earlier proposals for the description of translocations, e.g. as presented at the [HGVS/ASHG meeting in Boston](http://onlinelibrary.wiley.com/doi/10.1002/humu.22516/abstract) [(_see presentation_)](http://www.hgvs.org/mutnomen/SVtrans_HGVS2013_PT.pdf), and a paper from [Ordulu et al. (2014)](http://ac.els-cdn.com/S0002929714001724/1-s2.0-S0002929714001724-main.pdf) reporting sequencing results of structural chromosome rearrangements.
 
 #### Proposal
 
@@ -55,17 +41,15 @@ The committees propose that as soon as nucleotide positions are used in the desc
 	*	inverted sequences are described using "**inv**"
 *	pter, cen, qter
 :	the start of the chromosome is described as "**pter**", the end as "**qter**", the centromere as "**cen**"
-:	_**NOTE:**_	since the genomic reference sequence contains N's at the start/end of the chromosome (telomeres) the use of specific nucleotide positions is undesirable
-:	_**NOTE:**_	the use of "**cen**" helps to recognize the derivative chromosome
+:	**NOTE:**	since the genomic reference sequence contains N's at the start/end of the chromosome (telomeres) the use of specific nucleotide positions is undesirable
+:	**NOTE:**	the use of "**cen**" helps to recognize the derivative chromosome
 *	"add"
 :	the presence of an additional sequence (marker/ring chromosome) is indicated by "**add**"
-:	_**NOTE:**_	the description of the addional molecule is given using "[ ]add"
-:	_**NOTE:**_	"ext" is not available since it is already used to describe protein extension variants
+:	**NOTE:**	the description of the addional molecule is given using "[ ]add"
+:	**NOTE:**	"ext" is not available since it is already used to describe protein extension variants
 *	"**::**" (double colon)
 :	"::" (double colon) is used to designate break point junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis break point junctions and junctions creating a ring chromosome
-:	_**NOTE:**_	non-template sequences ("inserts") at these imperfect break points are described using the format "**::sequence::**" (e.g. ::AAGTAC:: )
-
-* * *
+:	**NOTE:**	non-template sequences ("inserts") at these imperfect break points are described using the format "**::sequence::**" (e.g. ::AAGTAC:: )
 
 #### Examples
 
@@ -79,7 +63,7 @@ Note the format: **<font color="red">the variant is first described using ISCN n
 		*	between long arms chromosomes 2 and 11, with 5 bp deletion of chr11 sequence
 		:	seq[GRCh37] t(2;11)(q31.1;q22.3)
 		:	g.[chr2:pter\_cen\_174500098::chr11:108111987\_qter] and g.[chr11:pter\_cen\_108111981::chr2:174500099\_qter]
-		:	_**NOTE:**_	coupling chr11:108111981 to 108111987 implies nucleotides 108111982\_108111986 are deleted
+		:	**NOTE:**	coupling chr11:108111981 to 108111987 implies nucleotides 108111982\_108111986 are deleted
 		*	between short arm chromosome 3 and long arm chromosomes 14, with insertion of non-templated sequence at the break point on the derivative chromosome 3
 		:	seq[GRCh37] t(3;14)(14qter->14q12::3p22.2->3qter;14pter->14q12::3p22.2->3pter)
 		:	g.[chr14:pter\_cen\_29745313::chr3:pter\_36969141inv] and g.[chr14:29745314\_qterinv::CATTTGTTCAAATTTAGTTCAAATGA::chr3:36969142\_cen\_qter]
@@ -104,7 +88,7 @@ Note the format: **<font color="red">the variant is first described using ISCN n
 	*	de novo with 275bp deletion and 1bp insertion at break points
 	:	seq[GRCh37] inv(2)(pter->p22.3::q31.1->p22.3::q31.1->qter)dn
 	:	chr2:g.[32310435\_32310710del;32310711\_171827243inv;insG]
-	:	_**NOTE:**_	the HGVS description does not include the de novo occurence of the variant
+	:	**NOTE:**	the HGVS description does not include the de novo occurence of the variant
 *	deletion
 	*	within a chromosome (based on [Ordulu 2014. Fig.1D]((http://ac.els-cdn.com/S0002929714001724/1-s2.0-S0002929714001724-main.pdf))
 	:	seq[GRCh37] del(X)(q21.31q22.2)
@@ -112,7 +96,7 @@ Note the format: **<font color="red">the variant is first described using ISCN n
 	*	ring chromosome derived from chromosome 22
 	:	seq[GRCh37] r(22)(p11.2q13.1)
 	:	chr22:g.pter\_10000000del::40000000\_qterdel
-	:	_**NOTE:**_	"::" is used to indicate the join instead of ";" to describe two not connected deletions
+	:	**NOTE:**	"::" is used to indicate the join instead of ";" to describe two not connected deletions
 *	insertion
 	*	duplication  (tandem)
 		*	within a chromosome, orientation identical relative to original sequence (based on Ordulu et al. Fig 5)
@@ -142,4 +126,4 @@ Note the format: **<font color="red">the variant is first described using ISCN n
 	*	uniparental disomy, additional copy of maternal chromosome 14 
 	:	seq[GRCh37] 46,XY,upd(14)mat
 	:	chr14:g.[pter\_cen\_qter]add
-	:	_**NOTE:**_	the HGVS description does not include the maternal origin of the chromosome
+	:	**NOTE:**	the HGVS description does not include the maternal origin of the chromosome

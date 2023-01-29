@@ -1,9 +1,3 @@
----
-layout: default-md
-title: SVD-WG006
-category: SVD-WG
----
-
 ## Community Consultation
 
 ### Proposal SVD-WG006 (circular DNA)
@@ -16,17 +10,13 @@ The proposal suggests to extend the HGVS recommendations to improve the descript
 *	allowing the description of variants based on a circular genomic reference sequence indicated by the **prefix "o."**. In a circular genomic reference sequence nucleotide numbering starts with 1 at the first nucleotide of the sequence and ends at the last nucleotide.
 *	adding the exception that for circular genomic reference sequences ("o." and "m." prefix) the nucleotide positions **may be listed from 3’ to 5’** when the rearrangement includes both the last and first nucleotides of the reference sequence
 
-* * *
-
 #### Examples
 
 *	NC\_012920.1:m.16563\_13del
 	:	compared to the mitochondrial reference sequence (NC\_012920.1, a circular DNA molecule) the region from nucleotides m.16563 to m.13 is deleted
-	:	_**NOTE:**_	for mitochondrial reference sequences the "m." prefix will be used
+	:	**NOTE:**	for mitochondrial reference sequences the "m." prefix will be used
 *	J01749.1:o.4344_197dup
 	:	compared to the circular genomic reference sequence of plasmid pBR322 (J01749.1) the region from nucleotides o.4344 to o.197 is duplicated
-
-* * *
 
 ### Note
 

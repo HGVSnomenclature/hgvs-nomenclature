@@ -1,17 +1,3 @@
----
-parent: RNA
-title: duplication
-category: description
----
-
-Format:   **"prefix""position(s)\_duplicated""dup"**,  e.g. r.123\_345dup
-
-**"prefix"**  =  reference sequence used  =  r.<br>
-**"position(s)\_duplicated"**  =  position nucleotide or range of nucleotides duplicated  =  123\_345<br>
-**"dup"**  =  type of change is a duplication  =  dup
-
----
-
 ### Note
 
 *	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
@@ -24,4 +10,4 @@ Format:   **"prefix""position(s)\_duplicated""dup"**,  e.g. r.123\_345dup
 	*	**inverted duplications** are described as insertion (r.234\_235ins123\_234inv), not as a duplication ([_see Inversion_](/recommendations/RNA/variant/inversion))
 *	for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 	*	the 3'rule also applies for changes in single residue stretches and tandem repeats
-	*	_**NOTE:**_ the exception to the 3'rule for duplications around exon/exon junctions  [_see Duplications_](/recommendations/DNA/variant/duplication/) does not apply when describing variants based on a RNA reference sequence
+	*	**NOTE:** the exception to the 3'rule for duplications around exon/exon junctions  [_see Duplications_](/recommendations/DNA/variant/duplication/) does not apply when describing variants based on a RNA reference sequence

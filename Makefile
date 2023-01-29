@@ -2,7 +2,7 @@
 .SUFFIXES:
 .DELETE_ON_ERROR:
 
-SHELL:=/bin/bash
+SHELL:=/bin/bash -O globstar
 PATH:=${PWD}/bin:${PATH}
 
 deploy:
@@ -27,7 +27,7 @@ varnomen-copy:
 	cp -a HVNC.md recent.md assets history.md versioning.md ../hgvs-nomenclature.github.io/docs/
 
 varnomen-adapt:
-	adapt-varnomen-pages docs/*.md docs/**/*.md
+	adapt-varnomen-pages docs/**/*.md
 
 varnomen-rename:
 	cd docs/background/consultation; \

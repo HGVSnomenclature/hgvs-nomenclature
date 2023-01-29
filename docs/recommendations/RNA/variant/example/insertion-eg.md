@@ -18,4 +18,4 @@ category: example
 	:	the insertion of 100 not specified nucleotides between position r.1149 and r.1150
 *	NG\_012232.1(NM\_004006.2):r.2949\_2950ins[2950-30\_2950-12;2950-4\_2950-1]
 	: 	the insertion of intronic nucleotides r.2950-30 to r.2950-12 and r.2950-4 to r.2950-1 between nucleotides r.2949 and r.2950 (caused by the deletion NC\_000023.10(NM\_004006.2):c.2950-11\_2950-5del]. Alternative description r.2949\_2950ins[2950-30\_2950-12;uuag]
-	*	_**NOTE:**_	for more examples of variants affecting splicing see [_Splicing_](/recommendations/RNA/variant/splicing/)
+	*	**NOTE:**	for more examples of variants affecting splicing see [_Splicing_](/recommendations/RNA/variant/splicing/)

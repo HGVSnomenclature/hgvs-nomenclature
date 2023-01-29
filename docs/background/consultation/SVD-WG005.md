@@ -1,9 +1,3 @@
----
-layout: default-md
-title: SVD-WG005
-category: SVD-WG
----
-
 ## Community Consultation
 
 ### Proposal SVD-WG005 (gom/lom)
@@ -13,8 +7,6 @@ category: SVD-WG
 
 The proposal suggests to extend the HGVS recommendations to allow description of changes in general methylation status. The abbreviation <font color="red">gom</font> to indicate a general gain of methylation (hypermethylation), the abbreviation <font color="red">lom</font> to indicate a general loss of methylation (hypomethylation). The "\|" character ("pipe") is introduced to indicate that not a direct change of the sequence is described but a **modification** (change of state, here methylation).
 
-* * *
-
 #### Examples
 
 *	g.12345678\_12345901|gom
@@ -22,8 +14,6 @@ The proposal suggests to extend the HGVS recommendations to allow description of
 
 *	g.23456789\_23456901|lom
 	:	compared to the reference (normal situation), the region between nucleotides g.23456789 and 23456901 showed general loss in methylation (reduced methylation, hypomethylated)
-
-* * *
 
 ### Note
 

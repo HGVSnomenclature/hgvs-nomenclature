@@ -34,7 +34,7 @@ category: example
 	*	NC\_000023.11(NM\_004006.2):r.649\_650ins650-1400\_650-1268
 	:	as a consequence of an intron 7 variant (c.650-1401T>G) a new exon is created and its sequence (positions 650-1400 to 650-1268) is inserted in the transcript
 	:	alternative description LRG\_199t1:r.649\_650ins650-1400\_650-1268	
-*	**fusion transcript** (based on [_SVD-WG007_](/bg-material/consultation/svd-wg007/)) 
+*	**fusion transcript** (based on [_SVD-WG007_](/background/consultation/SVD-WG007/)) 
 	*	NM\_002354.2:r.-358\_555::NM\_000251.2:r.212\_\*279
 	:	describes an EPCAM::MSH2 fusion transcript where nucleotides r.-358 to r.555 (EPCAM gene, reference transcript NM\_002354.2) are spliced to nucleotides r.212 to r.\*279 (MSH2 gene, reference transcript NM\_000251.2)
 *	**uncertain** (RNA not analysed)

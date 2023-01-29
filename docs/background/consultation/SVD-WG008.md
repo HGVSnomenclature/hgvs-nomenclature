@@ -1,9 +1,3 @@
----
-layout: default-md
-title: SVD-WG008
-category: SVD-WG
----
-
 ## Community Consultation
 
 ### Proposal SVD-WG008 (Reference Sequences)
@@ -11,22 +5,20 @@ category: SVD-WG
 *	Status: <font color="red">accepted</font>
 	:	proposal SVD-WG008 opened for **Community Consultation** on July 20 (2019), closed September 30 (2019). 
 
-The proposal suggested to specify the HGVS recommendations for acceptable Reference Sequences. Based on the proposal the  [_Reference Sequences_](https://varnomen.hgvs.org/bg-material/refseq/){:target="\_blank"} page has been updated (April 2020).
-
-* * *
+The proposal suggested to specify the HGVS recommendations for acceptable Reference Sequences. Based on the proposal the  [_Reference Sequences_](https://varnomen.hgvs.org/background/refseq/) page has been updated (April 2020).
 
 ### Background
 
-A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [_numbering system_](https://varnomen.hgvs.org/bg-material/numbering/){:target="\_blank"} and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its reference sequence identifier are unchangeable.
+A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [_numbering system_](https://varnomen.hgvs.org/background/numbering/) and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its reference sequence identifier are unchangeable.
 
 ### Proposal
 
 *	reference sequences **must** come from data sources that provide stable and permanent identifiers, e.g. RefSeq (NCBI) and Ensembl (EBI). A source that permits updating of sequence records associated with an existing sequence identifier **must not** be used, i.e. a change in the reference sequence **must** trigger a change in the sequence identifier.
 	*	Rationale: violating this requirement means that interpretation of a variant might change over time
-*	reference sequences **must** use conventional representation, i.e. the sequence comprises a string of [_IUPAC residues_](https://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} that represents a nucleic acid or amino acid sequence using the conventional order (5'-to-3' for nucleic acid sequences, and amino-to-carboxyl for amino acid sequences) 
+*	reference sequences **must** use conventional representation, i.e. the sequence comprises a string of [_IUPAC residues_](https://varnomen.hgvs.org/background/standards/) that represents a nucleic acid or amino acid sequence using the conventional order (5'-to-3' for nucleic acid sequences, and amino-to-carboxyl for amino acid sequences) 
 *	reference sequence **must** be contiguous, undefined sequence is not permissible.
 	*	this requirement applies within a **single** sequence. Alignments **between** sequences may contain gaps. For example, a coding sequence will contain intron gaps when aligned to a genomic sequence
-	*	[_IUPAC symbols_](https://varnomen.hgvs.org/bg-material/standards/){:target="\_blank"} for any base (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
+	*	[_IUPAC symbols_](https://varnomen.hgvs.org/background/standards/) for any base (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
 *	a sequence identifier **must** only ever identify **one** reference sequence, and the sequence referred to by a sequence identifier may not be deleted or changed
 	*	sequence identifiers are opaque(1). That is, the structure and meaning of an identifier is determined by the source reference sequence database
 	*	versioned reference sequence identifiers are required only when the reference sequence databases use versioning to distinguish between unique sequences
@@ -65,7 +57,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 
 ### Notes
 
-(1) an [opaque identifier](https://indieweb.org/opaque){:target="\_blank"} is one that acts only as a name for an object and that is not intended to be parsed for additional meaning. Contrast with a RefSeq identifier, for example, which conveys annotation level (N versus X), type (M, R, C, etc.), and version number. So, this comment is intended to tell implementers that they **may not** rely on parsing the identifier to decide how the implementation works
+(1) an [opaque identifier](https://indieweb.org/opaque) is one that acts only as a name for an object and that is not intended to be parsed for additional meaning. Contrast with a RefSeq identifier, for example, which conveys annotation level (N versus X), type (M, R, C, etc.), and version number. So, this comment is intended to tell implementers that they **may not** rely on parsing the identifier to decide how the implementation works
 
 Why not? Two reasons:
 *	because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?

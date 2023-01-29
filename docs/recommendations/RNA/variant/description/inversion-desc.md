@@ -1,17 +1,3 @@
----
-parent: RNA
-title: inversion
-category: description
----
-
-Format:   **"prefix""positions\_inverted""inv"**,  e.g. r.123\_345inv
-
-**"prefix"**  =  reference sequence used  =  r.<br>
-**"positions\_inverted"**  =  range of nucleotides inverted  =  123\_345<br>
-**"inv"**  =  type of change is an inversion  =  inv
-
----
-
 ### Note
 
 *	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition

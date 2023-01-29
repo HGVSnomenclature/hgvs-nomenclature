@@ -1,9 +1,3 @@
----
-layout: default-md
-title: SVD-WG007
-category: SVD-WG
----
-
 ## Community Consultation
 
 ### Proposal SVD-WG007 (RNA fusion)
@@ -13,13 +7,9 @@ category: SVD-WG
 
 Based on the proposal the [RNA Deletion-insertion page](http://varnomen.hgvs.org/recommendations/RNA/variant/delins/) has been updated (April 2020).
 
-* * *
-
 The proposal suggests to extend the HGVS recommendations with a format to decribe RNA fusion transcripts
 
 *	RNA fusion transcripts are described following the format to describe a fusion between two DNA molecules (translocations), i.e. using **"::"**.
-
-* * *
 
 #### Examples
 
@@ -32,8 +22,6 @@ The proposal suggests to extend the HGVS recommendations with a format to decrib
 	:	a format like "**::aggcucccuugg::**" is used to indicate the insertion of a 12 nucletoide sequence (aggcucccuugg) between two fusion transcripts
 	*	NM\_152263.2:r.?\_775::NM\_002609.3:r.1580\_?
 	:	when only the break point and not the entire transcript has been analysed the format NM\_152263.2:r.?\_775::NM\_002609.3:r.1580\_? should be used
-
-* * *
 
 #### NOTE
 

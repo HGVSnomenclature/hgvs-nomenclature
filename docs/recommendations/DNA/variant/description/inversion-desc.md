@@ -1,17 +1,3 @@
----
-parent: DNA
-title: inversion
-category: description
----
-
-Format:   **"prefix""positions\_inverted""inv"**,  e.g. g.123_345inv
-
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"positions\_inverted"**  =  range of nucleotides inverted  =  123_345<br>
-**"inv"**  =  type of change is an inversion  =  inv
-
----
-
 ### Note
 
 *	**prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA)
@@ -21,5 +7,5 @@ Format:   **"prefix""positions\_inverted""inv"**,  e.g. g.123_345inv
 *	**inverted duplications** are described as an insertion using the format g.234\_235ins123\_234inv, not as g.123\_456dupinv ([_see Q&A_](#dupinv))
 *	two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
 	*	exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins"
-:	_**<font color="#FF0000">NOTE:</font>**_ the SVD-WG has prepared a proposal to modify this recommendation ([_see SVD-WG010_](/bg-material/consultation/svd-wg010/)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single “delins” variant**
+:	****NOTE:**** the SVD-WG has prepared a proposal to modify this recommendation ([_see SVD-WG010_](/background/consultation/SVD-WG010/)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single “delins” variant**
 *	inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frame shift**.

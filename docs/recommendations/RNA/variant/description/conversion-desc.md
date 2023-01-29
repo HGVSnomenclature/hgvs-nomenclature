@@ -1,18 +1,3 @@
----
-parent: RNA
-title: conversion
-category: description
----
-
-Format: **"prefix""positions_converted""con""positions_replacing_sequence"**,  e.g. r.123\_345con888\_1110
-
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"positions_converted"**  =  range of nucleotides converted  =  r.123\_345<br>
-**"con"**  =  type of change is a conversion =  con<br> 
-**"positions_replacing_sequence"**  =  description of replacing sequence  =  888\_1110
- 
----
-
 ### Note
 
 *	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
