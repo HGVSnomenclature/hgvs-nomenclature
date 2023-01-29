@@ -90,7 +90,7 @@ Note the format: **<font color="red">the variant is first described using ISCN n
 	:	chr2:g.[32310435\_32310710del;32310711\_171827243inv;insG]
 	:	**NOTE:**	the HGVS description does not include the de novo occurence of the variant
 *	deletion
-	*	within a chromosome (based on [Ordulu 2014. Fig.1D]((http://ac.els-cdn.com/S0002929714001724/1-s2.0-S0002929714001724-main.pdf))
+	*	within a chromosome (based on [Ordulu 2014. Fig.1D](http://ac.els-cdn.com/S0002929714001724/1-s2.0-S0002929714001724-main.pdf))
 	:	seq[GRCh37] del(X)(q21.31q22.2)
 	:	chrX:g.89555676\_100352080del
 	*	ring chromosome derived from chromosome 22

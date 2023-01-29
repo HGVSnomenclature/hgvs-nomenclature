@@ -8,7 +8,6 @@ import sys
 _ = """
 TODO:
 
-- WARNING  -  Documentation file 'history.md' contains a link to '../history-1996.html' which is not found in the documentation files.
 - WARNING  -  Documentation file 'background/numbering.md' contains a link to 'background/{{site.baseurl}}/assets/RefSeq.jpg' which is not found in the documentation files.
 - WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/histidine.GIF' which is not found in the documentation files.
 - WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/proline.GIF' which is not found in the documentation files.
@@ -34,7 +33,8 @@ def process1(content: str) -> str:
         pass
     
     # simple string replacements
-    content = content.replace('{:target="\_blank"}', "")   
+    content = content.replace('{:target="\_blank"}', "")
+    content = content.replace('{:target="blank"}', "")
     content = content.replace("{:#version-list}", "")
     content = content.replace("/bg-material/", "/background/")
 
@@ -62,9 +62,13 @@ def process1(content: str) -> str:
     content = re.sub(r"\n\s*\|(\s+\|)+\n", r"\n", content)
     content = content.replace("|:--------------------------------------:|:-------------:|", "|:--------------------------------------|:-------------:|") 
 
+    # image paths refer to the baseurl, which is no longer needed   
+    content = content.replace("{{site.baseurl}}", "")
+    content = content.replace("{:.img-responsive .center-block #refSeqFig}", "")
+ 
     # remove extraneous newlines
     content = re.sub(r"\n\n+", r"\n\n", content)
-
+ 
     return content
 
 
@@ -73,9 +77,14 @@ def process_recommendations(content: str) -> str:
     return content
 
 
+def process_bugs(content: str) -> str:
+    content = content.replace("Fig.1D]((http:", "Fig.1D](http:")
+    return content
+
 for path in sys.argv[1:]:
     content = open(path, "rt").read()
     content = process1(content)
+    content = process_bugs(content)
     if path.endswith("/HVNC.md"):
         content = process_recommendations(content)
     open(path, "wt").write(content)
