@@ -51,6 +51,12 @@ def process1(content: str) -> str:
     # standardize case of SVD-WG references (all uppercase), including filenames
     content = re.sub(r"svd-wg(\d+)", r"SVD-WG\1", content)
 
+    # replace FF0000 with bold
+    content = re.sub(r'<font color="#FF0000">(.+?)</font>', r"**\1**", content)
+
+    # remove overstyling
+    content = re.sub(r"_\*\*(.+)\*\*_", r"**\1**", content)
+
     # table reformatiting    
     content = content.replace("{:.table .table-bordered}", "")
     content = re.sub(r"\n\s*\|(\s+\|)+\n", r"\n", content)

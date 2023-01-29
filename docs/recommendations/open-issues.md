@@ -35,7 +35,7 @@ The HGVS nomenclature committe received several requests to suggest a format to 
 *	NM\_004006.2:c.\*1162\_\*2691{2}
 	: describes a duplication including the transcription termination site (polyA-addition site) of the DMD gene
 
-The description is always given _**in addition**_ to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM\_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
+The description is always given **in addition** to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM\_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
 
 <a name ="frameshift"></a>
 
@@ -128,14 +128,14 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 ### Circular molecules
 
-<font color="#FF0000">The proposal has been ACCEPCTED for circular reference sequences</font>
+**The proposal has been ACCEPCTED for circular reference sequences**
 HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule?  For now the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y\_Xdel X should be smaller then Y). Do you have a suggestion??
 
 <a name ="imperfectcopy"></a>
 
 ### Imperfect copies
 
-<font color="#FF0000">The proposal has been REJECTED</font>
+**The proposal has been REJECTED**
 Accepting the proposal, without a whole range of specifications, would add **too many** options to decribe specific variants.
 
 HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf)) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
@@ -147,12 +147,12 @@ After careful consideration the decision was made **not to accept** this proposa
 
 ### Numbering gene flanking nucleotides
 
-<font color="#FF0000">The proposal has been REJECTED</font>
+**The proposal has been REJECTED**
 The current recommendation to describe variants based on a coding DNA reference sequence is to use "c.-" numbers for nucleotides 5' of the ATG translation initiation codon and "c.\*" numbers for nucleotides 3' of the translation termination codon [_see Numbering_](/background/numbering/). However, such descriptions do not show whether the nucleotides are **inside or outside** the transcribed region. The request has been filed (_PEM Taschner, Leiden, Nederland_) to make a discrimination between transcribed and un-transcribed nucleotides using the format;
 
 *	c.-N-uM  =  nucleotide uM is at position -M upstream (u) of nucleotide c.-N, the transcription initiation site (cap-site) of the reference transcript, e.g. c.-237-u29A>G (currently c.-266A>G)
-	:	_**NOTE**_:	restricted to nucleotides 5' of the transcription initiation site (cap site), i.e. upstream of the gene (incl. the promoter)
+	:	**NOTE**:	restricted to nucleotides 5' of the transcription initiation site (cap site), i.e. upstream of the gene (incl. the promoter)
 *	c.\*N+dM  =  nucleotide dM is at position +M downstream (d) of nucleotide c.\*N, the polyA-addition site of the reference transcript, e.g. \*237+d133A>G (currently c.\*370A>G)
-	:	_**NOTE**_:	restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene
+	:	**NOTE**:	restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene
 
 This proposal has been rejected since: (i) genes often have several transcription initiation sites as well as polyA-addition sites, (ii) the transcription initiation (cap-site) is often ill-defined, (iii) variants that lie outside of a transcript can not be described based on a coding DNA reference sequence (c.), it does not contain the reference nucleotide, and should be described based on a gene or chromosome reference sequence. Use NC\_000023.10:g.33229820A>G or LRG\_199t1:c.-391T>C **and not** NC\_000023.10(NM\_004006.2):c.-244-u147T>C, LRG\_199t1:c.-244-147T>C or similar descriptions. 

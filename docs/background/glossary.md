@@ -22,7 +22,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   cDNA
     :   cDNA, "copy DNA" or "complementary DNA", is the DNA copy of a single stranded RNA molecule synthesized using the enzyme reverse transcriptase ([Wikipedia](https://en.wikipedia.org/wiki/Complementary_DNA), [MESH](https://www.ncbi.nlm.nih.gov/mesh/68018076)).
-    :   _**NOTE:**_ cDNA is not the same as "coding DNA" (see below).
+    :   **NOTE:** cDNA is not the same as "coding DNA" (see below).
 
 *   CDS
     :   coding DNA sequence, a sequence translated in to an amino acid sequence (protein).
@@ -36,7 +36,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 *   CNV
     :   copy number variant (CNV), a variant in a genome where the number of copies of a large stretch of DNA differs from that in the reference genome; a copy can be missing (deleted) or be present more then once (duplicated, triplicated, ...,  or amplified).
-    :   _**NOTE:**_  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
+    :   **NOTE:**  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
     :   alias CNP (copy number polymorphism)
     
 *	coding DNA
@@ -44,7 +44,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *	coding DNA reference sequence
 	:	a DNA reference sequence ([_see Reference Sequence_](/background/refseq/#DNAc)), based on a protein-coding transcript of a gene, which can be used for nucleotide numbering using the "c." prefix. Such a reference sequence includes the coding DNA sequence (CDS) and the 5' and 3' UTR regions.
-	:	_**NOTE:**_ a coding DNA reference sequence is **not** a cDNA sequence (see above)
+	:	**NOTE:** a coding DNA reference sequence is **not** a cDNA sequence (see above)
 
 *	complex
 	:	**HGVS**: a sequence change where, compared to a reference sequence, a range of changes occur that can not be described as one of the basic variant types (substitution, deletion, duplication, insertion, conversion, inversion, deletion-insertion, or repeated sequence).
@@ -54,7 +54,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 *   conversion
     :   **HGVS**-DNA: a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.
-    :   _**NOTE:**_ conversion variants are described as a Deletion-Insertion (see [_DNA_](/recommendations/DNA/variant/delins/) or [_RNA_](/recommendations/RNA/variant/delins/)).
+    :   **NOTE:** conversion variants are described as a Deletion-Insertion (see [_DNA_](/recommendations/DNA/variant/delins/) or [_RNA_](/recommendations/RNA/variant/delins/)).
 
 *	Crick strand
 	:	see plus (+) strand.
@@ -78,7 +78,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *  	duplication
 	*	one or more letters of the DNA code are present twice (doubled, duplicated)
 	*	**HGVS**-DNA: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.
-	:	_**NOTE:**_ diagnostic assays (like MLPA) usually detect _**an additional copy**_ of a specific sequence. Whether the additional copy is a duplication or an insertion remains to be determined.
+	:	**NOTE:**_ diagnostic assays (like MLPA) usually detect _**an additional copy** of a specific sequence. Whether the additional copy is a duplication or an insertion remains to be determined.
 	:	descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/duplication/), [_RNA_](/recommendations/RNA/variant/duplication/) or [_protein_](/recommendations/protein/variant/duplication/).
 
 *	exon
@@ -118,9 +118,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 *   indel
     :   **HGVS**: confusing term, not used
-        :   _**sometimes**_: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides
-        :   _**sometimes**_: a variant which is a deletion or an insertion.
-        :   _**sometimes**_: (evolutionary biology) a type of variant in which a specific nucleotide sequence is present (insertion) or absent (deletion). 
+        :   **sometimes**: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides
+        :   **sometimes**: a variant which is a deletion or an insertion.
+        :   **sometimes**: (evolutionary biology) a type of variant in which a specific nucleotide sequence is present (insertion) or absent (deletion). 
         :   [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=indel): a length difference between two alleles where it is unknowable if the difference was originally caused by a sequence insertion or a sequence deletion 
 
 *   insertion
@@ -164,8 +164,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   mutation
     :   _**NOTE**:_ please do not use this term, [_see Terminology_](/background/basics/).
     *   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/background/basics/))
-    *   _**biology**_: a change in the sequence
-    *   _**medicine**_: a sequence variant **associated** with a disease phenotype.
+    *   **biology**: a change in the sequence
+    *   **medicine**: a sequence variant **associated** with a disease phenotype.
 
 *	negative (-) strand
 	:	see minus (-) strand.
@@ -190,8 +190,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 *   polymorphism
     :    _**NOTE**:_ please do not use this term, [_see Terminology_](bg-material/basics/).
     *   **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/background/basics/))
-    *   _**biology**_: a sequence variant present in the population at a frequency of 1% or higher
-    *   _**medicine**_: a sequence variant **not associated** with a disease phenotype
+    *   **biology**: a sequence variant present in the population at a frequency of 1% or higher
+    *   **medicine**: a sequence variant **not associated** with a disease phenotype
 
 *	positive (+) strand
 	:	see plus (+) strand.
@@ -239,7 +239,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 *   Structural Variant (SV)
     :   a variant in a genome where compared to the reference sequence the structure of a large stretch of DNA is changed. SVs include deletions/duplications (CNVs), inversions, insertions, deletion-insertions, conversions, transpositions, translocations, etc.
-    :   _**NOTE:**_  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
+    :   **NOTE:**  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
 
 *   substitution
     *   one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter 

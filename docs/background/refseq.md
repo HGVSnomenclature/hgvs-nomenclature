@@ -6,7 +6,7 @@
 a sequence file that is used as a **reference to describe variants** that are present in a sequence analysed.
 
 
-_**NOTE:**_ this section has been updated based on the accepted proposal [_SVD-WG008 (Reference Sequences)_](http://varnomen.hgvs.org/background/consultation/SVD-WG008/).
+**NOTE:** this section has been updated based on the accepted proposal [_SVD-WG008 (Reference Sequences)_](http://varnomen.hgvs.org/background/consultation/SVD-WG008/).
 
 A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [_numbering system_](https://varnomen.hgvs.org/background/numbering/) and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its corresponding identifier are unchangeable.
 
@@ -86,7 +86,7 @@ Depending on the variants to be reported, different reference sequence files are
 *	linear genomic reference sequences are indicated using a **g.** prefix 
 	:	genomic reference sequences include all **linear** DNA molecules and are preferably based on a recent genome build
 	:	for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X
-	:	_**NOTE:**_  since new LRG’s are no longer generated, the recommendation to use for diagnostic applications preferably a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/) has been retracted
+	:	**NOTE:**  since new LRG’s are no longer generated, the recommendation to use for diagnostic applications preferably a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/) has been retracted
 *	a gene-based genomic reference sequence (NG_, LRG_);
 	*	should include all known exons and cover all known transcripts
 	*	to facilitate the description of variants in immediate gene flanking regions (e.g. the promoter region), should contain several kilobases of 5' upstream (recommended is 5 kb) and 3' downstream (recommended 2 kb) sequences
@@ -100,7 +100,7 @@ Depending on the variants to be reported, different reference sequence files are
 
 *	circular genomic reference sequences are indicated using a **o.** prefix
 	:	circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral resuence, etc.
-	:	_**Exception:**_  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
+	:	**Exception:**  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 
 
 {:#DNAm}
@@ -110,7 +110,7 @@ Depending on the variants to be reported, different reference sequence files are
 *	mitochondrial genomic reference sequences are indicated using a **m.** prefix
 	:	a mitochondrial reference sequence is a special type of circular genomic reference sequence. Since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
 *	the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).
-	:	_**NOTE:**_	the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
+	:	**NOTE:**	the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
 
 
 {:#DNAc}
@@ -217,8 +217,8 @@ Why not? Two reasons:
 
 *	How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_)
 	:	The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC\_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1). The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP\_003024031.1:p.Leu156Pro.
-	:	_**NOTE**_:	for issues related to mitochondrial DNA sequences [see MITOMAP](http://www.mitomap.org/)
-	:	_**NOTE**_:	by exception, it is for this mitochondrial reference sequence allowed to specify the gene affected
+	:	**NOTE**:	for issues related to mitochondrial DNA sequences [see MITOMAP](http://www.mitomap.org/)
+	:	**NOTE**:	by exception, it is for this mitochondrial reference sequence allowed to specify the gene affected
 	*	NC\_012920.1:m.3243A>G describes variant 3243A>G based on the mitochondrial reference sequence NC\_012920.1
 	*	NC\_012920.1(MT-TL1):m.3243A>G describes variant 3243A>G in the MT-LT1 gene based on the mitochondrial reference sequence NC\_012920.1
 	*	NC\_012920.1(MT-TL1):n.14A>G describes variant 14A>G based on the annotated MT-TL1 non-coding DNA reference sequence of the MT-TL1 gene in NC\_012920.1

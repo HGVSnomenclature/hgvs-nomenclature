@@ -17,9 +17,9 @@ Any proposal made by the HVNC will be published on this website and be open for 
 
 ### Versioning
 
-The recommendations for the description of sequence variants are designed to be _**stable**_, _**meaningful**_, _**memorable**_ and _**unequivocal**_. Still, every now and then small modifications will be required to remove inconsistencies and/or to clarify confusing conventions. In addition, the recommendations may be extended to resolve cases that were hitherto not covered. Since 2015, **any change** in the recommendations receive a new **version number**. The version number is based on the date of the change and has the format: **HGVS nomenclature _Version 15.11_**, for the version accepted in 2015 ("**15**"), November ("**11**"). See the [_Version list_](/versioning/) for a complete historic overview. 
+The recommendations for the description of sequence variants are designed to be **stable**_, _**meaningful**_, _**memorable**_ and _**unequivocal**. Still, every now and then small modifications will be required to remove inconsistencies and/or to clarify confusing conventions. In addition, the recommendations may be extended to resolve cases that were hitherto not covered. Since 2015, **any change** in the recommendations receive a new **version number**. The version number is based on the date of the change and has the format: **HGVS nomenclature _Version 15.11_**, for the version accepted in 2015 ("**15**"), November ("**11**"). See the [_Version list_](/versioning/) for a complete historic overview. 
 
-The current HGVS version number is shown in the top right corner of this web site ("_**Version xx.xx**_"). Note that the version number remains as is when only a typing error is corrected, an example added, an explanation clarified, a question answered, etc. Users can specify up to what point they follow the HGVS recommendations by mentioning the version number in their report.
+The current HGVS version number is shown in the top right corner of this web site ("**Version xx.xx**"). Note that the version number remains as is when only a typing error is corrected, an example added, an explanation clarified, a question answered, etc. Users can specify up to what point they follow the HGVS recommendations by mentioning the version number in their report.
 
 
 ## Terminology 
@@ -34,7 +34,7 @@ In cancer genetics the terms "mutation" and "mutation load" are often used. Whil
 
 ### Pathogenic
 
-Another confusing term used frequently is "a **pathogenic** variant". A variant in itself is not "pathogenic", whether it can be causally related to a phenotype observed in a patient is determined by other factors. While a non-expert concludes the variant described "_**causes disease**_", the expert probably means "_**causes disease when in a specific context**_", e.g:
+Another confusing term used frequently is "a **pathogenic** variant". A variant in itself is not "pathogenic", whether it can be causally related to a phenotype observed in a patient is determined by other factors. While a non-expert concludes the variant described "**causes disease**_", the expert probably means "_**causes disease when in a specific context**", e.g:
 
 *   causes disease when found in a male (X-linked recessive disorder)
 *   causes disease when combined with a change on the other allele (autosomal recessive)

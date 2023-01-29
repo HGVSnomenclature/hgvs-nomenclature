@@ -10,12 +10,12 @@ Going through publications one can easily see where people give variant descript
 
 1.	**Reference Sequence** - do you clearly mention the reference sequence used for numbering (nucleotides/amino acids) ?
 	:	A publication should mention, preferably in the Materials & Methods section and/or Figure or Table legend, which reference sequence file was used to describe variants and for numbering of the residues (DNA, RNA and protein ([_see Reference Sequences_](/background/refseq))).
-	*	do you mention a GenBank (not _Gen**<u>e</u>**Bank_) RefSeq-file with accession  _**and version number**_ ?; do not forget the underscore in the accession number (correct is NM\_004006**.2**, not _NM004006.2_).
+	*	do you mention a GenBank (not _Gen**<u>e</u>**Bank_) RefSeq-file with accession  **and version number** ?; do not forget the underscore in the accession number (correct is NM\_004006**.2**, not _NM004006.2_).
 	*	genomic (**g.**) reference sequences start with nucleotide 1 and can not have nucleotides with additions like a +, - or *.
-	*	for a coding DNA reference sequence, do you clearly state that nucleotide numbering starts with the A of the ATG translation initiation site as _**nucleotide 1**_ ?
-	*	legacy numbering is only allowed _**in addition to**_ approved numbering
+	*	for a coding DNA reference sequence, do you clearly state that nucleotide numbering starts with the A of the ATG translation initiation site as **nucleotide 1** ?
+	*	legacy numbering is only allowed **in addition to** approved numbering
 	*	does your reference sequence contain the residue that you describe as changed ?
-	:	_**NOTE**_: **NM\_** reference sequences cover mature transcripts, do _**not contain**_ intron and gene flanking sequences, and can only be used to describe variants in introns using a "c." prefix when a genomic reference sequence is given on which the coding DNA reference sequence is annotated, e.g. "NC\_000023.10(NM\_004006.2):c.94-2A>G" or "LRG\_199t1:c.94-2A>G" ([_see Reference Sequences_](/background/refseq/#DNAc))
+	:	**NOTE**_: **NM\_** reference sequences cover mature transcripts, do _**not contain** intron and gene flanking sequences, and can only be used to describe variants in introns using a "c." prefix when a genomic reference sequence is given on which the coding DNA reference sequence is annotated, e.g. "NC\_000023.10(NM\_004006.2):c.94-2A>G" or "LRG\_199t1:c.94-2A>G" ([_see Reference Sequences_](/background/refseq/#DNAc))
 2.	**Intronic variants** - are descriptions of intron variants correct and complete ?
 	*	descriptions referring to exon or intron numbers instead of nucleotide positions, e.g."_c.IVS4-2A>G_", are **not allowed**.
 	*	do you properly describe ranges in the introns ?  The format c.123-65\_123-50 is correct, the format c.123-65**\_-50** is not, it is **incomplete**.

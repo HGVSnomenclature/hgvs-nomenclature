@@ -23,7 +23,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 	*	exception 3’ rule
 	:	the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, where shifting the variant 3' would place it in the next exon. Projecting the variant from c. back to g. positions (genomic) would then lead to an incorrect genomic position (in the wrong exon)
 		:	When ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
-		:	_**NOTE:**_ this exception does not apply to a deletion/duplication around exon/intron and intron/exon junctions with identical nucleotides flanking the junction ([_see also Deletions_](/recommendations/DNA/variant/deletion))
+		:	**NOTE:** this exception does not apply to a deletion/duplication around exon/intron and intron/exon junctions with identical nucleotides flanking the junction ([_see also Deletions_](/recommendations/DNA/variant/deletion))
 *	**untranslated region (UTR)**
 	*	nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**<font color="red">-</font>**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
 	*	nucleotides downstream (3') of the translation termination codon (stop) are marked with a "**<font color="red">*</font>**" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
@@ -35,7 +35,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 		*	in introns with an uneven number of nucleotides the central nucleotide is numbered relative to the upstream exon followed by a "**<font color="red">+</font>**" (plus): e.g. ..., c.87+676, c.87+677, c.87+678, **c.87+679**, c.88-678, c.88-677, c.88-676, ...
 	*	introns in the 5'UTR are numbered as normal introns, starting with "**c.-**" nucleotide numbers (c.-85+1, c.-85+2, c.-85+3, ..., c.-84-3, c.-84-2, c.-84-1)
 	*	introns in the 3'UTR are numbered as normal introns, starting with "c.\*" nucleotide numbers (c.\*37+1, c.\*37+2, c.\*37+3, ..., c.\*38-3, c.\*38-2, c.\*38-1)
-	*	_**<font color="red">NOTE:</font>**_ a coding DNA reference sequence **does not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used as a reference** to describe variants in these regions [_see Reference Sequences_](/background/refseq/#DNAc). Correct descriptions refer to a genomic reference sequence like LRG\_199t1:c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A or NG\_012232.1(NM\_004006.2):c.357+1G>A.
+	*	**<font color="red">NOTE:</font>** a coding DNA reference sequence **does not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used as a reference** to describe variants in these regions [_see Reference Sequences_](/background/refseq/#DNAc). Correct descriptions refer to a genomic reference sequence like LRG\_199t1:c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A or NG\_012232.1(NM\_004006.2):c.357+1G>A.
 *	**transcript flanking**
 :	it is **not** allowed to describe variants in nucleotides beyond the boundaries of the reference sequence using the reference sequence
 	*	suggestions made to extend the recommendations for nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides have been made but were rejected ([_see Open Issues_](/recommendations/open-issues)).
@@ -72,14 +72,14 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 	:	This topic is discussed on the [_Reference sequences page_](/background/refseq#discuss). The two main reasons are that descriptions are 1) shorter then those based on a chromosomal genomic reference sequence (e.g. NC_000006.11:g.117198495_117198496del compared to LRG_199t1:c.57_58del) and 2) give some idea where the variant is located regarding the encoded gene product (RNA and protein).
 	*   **c.78**T>C is a variant in a protein coding sequence
 	:	since nucleotide "c.78" has no signs attached and is not followed by a "+" or "-" and a second number it is located in the protein coding part of the gene.
-	:	_**NOTE**_: this rules does not hold for alternative transcripts where exons might reside 5' of the translation initiation side, in an intron or 3' of the 3'-terminal exon.
-	:	_**NOTE**_: dividing the nucleotide number by 3 gives the number of the amino acid residue affected, in the example amino acid 26 (**78:3 = 26**).
+	:	**NOTE**: this rules does not hold for alternative transcripts where exons might reside 5' of the translation initiation side, in an intron or 3' of the 3'-terminal exon.
+	:	**NOTE**: dividing the nucleotide number by 3 gives the number of the amino acid residue affected, in the example amino acid 26 (**78:3 = 26**).
 	*   **c.<font color="red">-</font>78**G>A is a variant upstream (5') of the translation initiation site
 	:	since nucleotide "c.-78" has a "**<font color="red">-</font>**" prefix it is located 5' of the ATG translation initiation codon.
-	:	_**NOTE**_: the length of the 5'UTR determines whether this nucleotide is still part of the transcript or upstream of the transcription initiation site (cap site).
+	:	**NOTE**: the length of the 5'UTR determines whether this nucleotide is still part of the transcript or upstream of the transcription initiation site (cap site).
 	*	**c.<font color="red">*</font>78**T>A is a variant downstream (3') of the translation termination site
 	:	since nucleotide "c.*78" has a "**<font color="red">*</font>**" prefix it is located 3' of the translation termination codon
-	:	_**NOTE**_: the length of the 3'UTR determines whether this nucleotide is still part of the transcript or downstream of the polyA-addition site.
+	:	**NOTE**: the length of the 3'UTR determines whether this nucleotide is still part of the transcript or downstream of the polyA-addition site.
 	*   **c.78<font color="red">+</font>45**T>G is a variant in an intron (5' half)
 	:	since nucleotide "c.78" is followed by "**<font color="red">+</font>**" and a second number ("45") the nucleotide is in an intron, 3' of the splice donor site and in the 5' half of the intron
 	*   **c.79<font color="red">-</font>45**G>T is a variant in an intron (3' half)
@@ -95,7 +95,7 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 
 *	Why was the recommendation to describe intronic variants using the **c.IVS notation** (c.IVS2+2T>G / c.IVS2-1G>T) been retracted?
 	:	For descriptions like c.IVS2+2T>G / c.IVS2-1G>T it is difficult to deduce where the position of the intron relative to the coding DNA reference sequence is. First, many authors fail to mention the genomic and coding DNA reference sequences that were used as a basis of exon/intron numbering. Second, since many genes encode several transcripts exon numbers will be different for each transcript. Descriptions using the format c.IVS2+2T>G thus fail the basic criterion to be **unequivocal** and should not be used. Descriptions using the format c.88+2T>G do not suffer from these problems.
-	:	_**NOTE**_: when intronic variants are described in relation to a coding DNA reference sequence authors should not forget to give the genomic reference sequence containing the intron sequences.
+	:	**NOTE**: when intronic variants are described in relation to a coding DNA reference sequence authors should not forget to give the genomic reference sequence containing the intron sequences.
 
 *	Why are intronic nucleotides not simply numbered from +1 to the end, i.e. with a + (plus) only, without changing in the middle to a - (minus) numbering?
 	:	It is more informative. When a change in an intron is described as c.88+4356A>G, in stead of c.89-2A>G, it will not be clear that the change is close to the splice acceptor site, and might thus affect splicing. In addition, the swap makes variant descriptions for all nucleotides towards the 3'end of an intron shorter. 
@@ -107,7 +107,7 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 	:	This is the main problem of describing variants based on a coding DNA reference sequence, relative to a genomic reference sequence descriptions would be stable. When variants are reported in relation to a transcript, the preferred reference sequence is the reference suggested by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)).
 
 *	How to describe variants in ZRS, a regulatory sequence for the SHH gene that lies 1 Mb upstream of SHH in intron 5 of the LMBR1 gene? (_Tracy Lester, Oxford, UK_)
-	:	_**NOTE**_:	Variants in ZRS are associated with various limb abnormalities and to-date have been numbered according to a sequence which does not follow HGVS guidelines. Should we create a genomic reference sequence for SHH that includes 1 Mb of upstream sequence to encompass the ZRS region or should we number it according to the LMBR1 reference sequence?
+	:	**NOTE**:	Variants in ZRS are associated with various limb abnormalities and to-date have been numbered according to a sequence which does not follow HGVS guidelines. Should we create a genomic reference sequence for SHH that includes 1 Mb of upstream sequence to encompass the ZRS region or should we number it according to the LMBR1 reference sequence?
 	:	A difficult case. We see 2 options;
 		*	simply describe the variants using a genomic reference sequence.
 		*	describe the variant in the LMBR1 gene variant database, which uses NM\_022458.3 as a reference transcript. To link the variant to SHH you can add that no variants were found in the SHH gene (description c.=), classify it as "Affects function" and mention the effect of the variant on transcription/translation. This ensures the variant will be listed in the SHH database overview.
@@ -129,7 +129,7 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 
 ## Examples
 
-The basic recommendation is that the _**reference sequence**_ used represents the _**major and largest transcript**_ of the gene. The MANE Select transcript available from the MANE project (see Ensembl or NCBI) is preferred if it is a suitable reference for describing the variant. Variants present in alternative transcripts, not covered by the selected reference transcript, can be described based on annotated alternative transcript variants (e.g. NM\_001099404.2, LRG\_199**t3**) or protein isoforms (e.g. NP\_001092874.1, LRG\_199**p3**), preferring MANE Plus Clinical transcripts if specified by the MANE project. Contact the MANE project (MANE-help@ncbi.nlm.nih.gov or mane-help@ebi.ac.uk) if any pathogenic variants cannot be adequately described using available MANE transcripts.
+The basic recommendation is that the **reference sequence**_ used represents the _**major and largest transcript** of the gene. The MANE Select transcript available from the MANE project (see Ensembl or NCBI) is preferred if it is a suitable reference for describing the variant. Variants present in alternative transcripts, not covered by the selected reference transcript, can be described based on annotated alternative transcript variants (e.g. NM\_001099404.2, LRG\_199**t3**) or protein isoforms (e.g. NP\_001092874.1, LRG\_199**p3**), preferring MANE Plus Clinical transcripts if specified by the MANE project. Contact the MANE project (MANE-help@ncbi.nlm.nih.gov or mane-help@ebi.ac.uk) if any pathogenic variants cannot be adequately described using available MANE transcripts.
 
 *   **alternative promoter**
     *   5' of the major transcript, e.g. [Dp427c brain-specific transcript 5' of the DMD gene](http://www.dmd.nl/seqs/murefDMD_intron_00.html#Dp427c)

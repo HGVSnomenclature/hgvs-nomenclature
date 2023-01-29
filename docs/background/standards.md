@@ -69,7 +69,7 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 ## Genetic Code
 
-At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ ([see IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)), specifying the description of amino acids. In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "**<font color="red">*</font>**" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon. _**NOTE**_: in older versions the "**X** was used instead.
+At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ ([see IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)), specifying the description of amino acids. In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "**<font color="red">*</font>**" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon. **NOTE**: in older versions the "**X** was used instead.
 In the Table below, to support translation from a DNA sequence, we have used a "**T**" in the codons although in nature RNA is translated so the codons contain **U**'s.
 
 <table class="table table-bordered text-center">
@@ -212,7 +212,7 @@ In the Table below, to support translation from a DNA sequence, we have used a "
 
 ## Amino Acid Descriptions
 
-At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ ([see IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)), specifying the description of amino acids. In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "**<font color="red">*</font>**" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon (_**NOTE**_: in older versions the "**X** was used instead). In the Table below, to support translation from a DNA sequence, we have used a "**T**" in the codons although in nature RNA is translated so the codons contain **U**'s. 
+At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ ([see IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)), specifying the description of amino acids. In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and "**<font color="red">*</font>**" (three- and one-letter amino acid code) to indicate a translation termination (stop) codon (**NOTE**: in older versions the "**X** was used instead). In the Table below, to support translation from a DNA sequence, we have used a "**T**" in the codons although in nature RNA is translated so the codons contain **U**'s. 
 
 
 | One Letter Code | Three Letter Code |          Amino Acid         |             Possible Codons             |                Systemic Name                |              Formula              |
@@ -250,7 +250,7 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 
 ## ISCN cytogenetic band to chromosome positions
 
-_**NOTE:**_  We are in contact with the ISCN to learn whether the translation tables shown is recognised by ISCN as correct. 
+**NOTE:**  We are in contact with the ISCN to learn whether the translation tables shown is recognised by ISCN as correct. 
 
 To facilitate translating variant descriptions based on [_ISCN_](/background/consultation/ISCN/) recommendations, human chromosomal band descriptions need to be translated to genomic positions ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/)). For this translation the table below can be used. Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38. Translation is based on the UCSC cytoBand file downloadeds for [_hg19_](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [_hg38_](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
 
