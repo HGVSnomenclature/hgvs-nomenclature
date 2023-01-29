@@ -15,7 +15,7 @@
 At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletely Specified Bases in Nucleic Acid Sequences_ ([see IUBMB (NC-IUB)](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html)), specifying the description of nucleotides ([see list](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500)) and the NCBI standards for sequence files and database searches ([e.g. BLAST](http://www.ncbi.nlm.nih.gov/BLAST/blastcgihelp.shtml)).
 
 
-### **DNA**
+### DNA
 
 
 | Symbol |    Meaning   |           Description           |
@@ -35,7 +35,6 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 | V      | A, C or G    | not-T / not-U ( V follows U )   |
 | W      | A or T       | Weak interaction (2 H-bonds)    |
 | Y      | C or T       | pYrimidine                      |
-|        |              |                                 |
 | X*     | A, C, G or T | masked nucleotide               |
 | -*     | none         | gap of indeterminate length     |
 
@@ -44,7 +43,7 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 <a name ="RNAcode"></a>
 
-### **RNA**
+### RNA
 
 
 | Symbol |    Meaning   |           Description           |

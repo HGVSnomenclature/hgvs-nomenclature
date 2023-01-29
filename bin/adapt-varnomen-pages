@@ -5,6 +5,25 @@ import pathlib
 import re
 import sys
 
+_ = """
+TODO:
+
+- <font color="#FF0000">...</font>
+- WARNING  -  Documentation file 'history.md' contains a link to '../history-1996.html' which is not found in the documentation files.
+- WARNING  -  Documentation file 'background/numbering.md' contains a link to 'background/{{site.baseurl}}/assets/RefSeq.jpg' which is not found in the documentation files.
+- WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/histidine.GIF' which is not found in the documentation files.
+- WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/proline.GIF' which is not found in the documentation files.
+- WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/tryptophan.GIF' which is not found in the documentation files.
+- WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/tyrosine.GIF' which is not found in the documentation files.
+- WARNING  -  Documentation file 'background/consultation/SVD-WG004.md' contains a link to 'background/consultation/(http:/ac.els-cdn.com/S0002929714001724/1-s2.0-S0002929714001724-main.pdf)'
+-             which is not found in the documentation files.
+- WARNING  -  [08:52:02] "GET /stylesheets/extra.css HTTP/1.1" code 404
+- WARNING  -  [08:52:02] "GET /versions.json HTTP/1.1" code 404
+
+- lint/reformat redundant space?
+"""
+
+
 
 def process1(content: str) -> str:
     # move title from header to # heading
@@ -23,20 +42,20 @@ def process1(content: str) -> str:
     # remove header
     content = re.sub(r"^---.+---\s+(?=#)", "", content, flags=re.S)
     
+    # `### **...**`` → drop emphasis
+    content = re.sub(r"^(#+)\s+\*\*(.+?)\*\*", r"\1 \2", content, flags=re.MULTILINE)
+
     # remove separators
     content = re.sub(r"^\* \* \*\s*$", "", content, flags=re.MULTILINE)
     
     # standardize case of SVD-WG references (all uppercase), including filenames
     content = re.sub(r"svd-wg(\d+)", r"SVD-WG\1", content)
-    
-    # HVNC.md table
-    content = content.replace("{:.table .table-bordered}", "")
-    content = content.replace("|:--------------------------------------:|:-------------:|", "|:--------------------------------------|:-------------:|") 
-    content = re.sub(r"\|\s+\|\s+\|\n", r"", content, re.MULTILINE)
 
-    # TODO:
-    # - ### **...** → drop emphasis
-    # lint/reformat?
+    # table reformatiting    
+    content = content.replace("{:.table .table-bordered}", "")
+    content = re.sub(r"\n\s*\|(\s+\|)+\n", r"\n", content)
+    content = content.replace("|:--------------------------------------:|:-------------:|", "|:--------------------------------------|:-------------:|") 
+
 
     return content
 
