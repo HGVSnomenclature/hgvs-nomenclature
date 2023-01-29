@@ -8,7 +8,6 @@ import sys
 _ = """
 TODO:
 
-- <font color="#FF0000">...</font>
 - WARNING  -  Documentation file 'history.md' contains a link to '../history-1996.html' which is not found in the documentation files.
 - WARNING  -  Documentation file 'background/numbering.md' contains a link to 'background/{{site.baseurl}}/assets/RefSeq.jpg' which is not found in the documentation files.
 - WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/histidine.GIF' which is not found in the documentation files.
