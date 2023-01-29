@@ -8,9 +8,9 @@ The HGVS Variant Nomenclature Committee (HVNC) is authorised by the [Human Genom
 
 The task of the HVNC is to define the standard for the unambiguous description of all sequence variants at the DNA, RNA and protein level, the so called HGVS nomenclature standard.
 
-### Call for members
+!!! note "Call for members"
 
-A new call for HVNC members will open early 2024. The current committee lacks members representing Asia, Africa and South-America. Interested in the HVNC work, willing to spend some spare time and join the committee?  Please consider to apply.
+    A new call for HVNC members will open early 2024. The current committee lacks members representing Asia, Africa and South-America. Interested in the HVNC work, willing to spend some spare time and join the committee?  Please consider to apply.
 
 ### HVNC members
 

@@ -68,7 +68,14 @@ def process1(content: str) -> str:
     return content
 
 
+def process_recommendations(content: str) -> str:
+    content = re.sub(r"### (Call for members)\n\n(.+?)\n\n", r'!!! note "\1"\n\n    \2\n\n', content)
+    return content
+
+
 for path in sys.argv[1:]:
     content = open(path, "rt").read()
     content = process1(content)
+    if path.endswith("/HVNC.md"):
+        content = process_recommendations(content)
     open(path, "wt").write(content)
