@@ -39,7 +39,7 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
     :   **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"named extension ISCN"** ([_named extension_](/versioning/)).
 
 *   [SVD-WG003](/background/consultation/SVD-WG003/) (exon del/dup)
-    :   suggested to describe exon deletions/duplications using the format c.(233+1\_234-1)_(1234+1\_1235-1)del.
+    :   suggested to describe exon deletions/duplications using the format c.(233+1_234-1)_(1234+1_1235-1)del.
     :   **Status**: Oct.6 (2015) <font color="red">new proposal to be made</font>. Closed Jul.16 (2015). Opened May 14 (2015).
     
 *   [SVD-WG002](/background/consultation/SVD-WG002/) (**n.** prefix)

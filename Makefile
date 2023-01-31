@@ -19,6 +19,7 @@ varnomen-remigrate:
 	make varnomen-rename
 	cp -a ../../biocommons/biocommons.github.io/docs/stylesheets docs/
 	git checkout e2a6f26 -- docs/images docs/index.md
+	# prettier -w docs/**/*.md    # messes up 
 
 varnomen-copy:
 	cd ../VarNomen; \

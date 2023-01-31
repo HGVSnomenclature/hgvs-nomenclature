@@ -20,17 +20,17 @@ Please use the [Discussions](discussions) forum to search for answers and ask ne
 
 ## Committee Members
 
-| Name | Term |
-|---|---|
-| [Johan den Dunnen](https://www.universiteitleiden.nl/en/staffmembers/johan-den-dunnen) (Nederland) | 2013 - |
-| [Marina DiStefano](https://www.linkedin.com/in/marina-distefano/) (United States) | 2022 - 2026 |
-| [Peter Freeman](https://research.manchester.ac.uk/en/persons/peter.j.freeman) (United Kingdom) | 2018 - |
-| [Reece Hart](https://linkedin.com/in/reece) (United States) | 2013 - |
-| [Ros Hastings](https://www.researchgate.net/profile/Ros-Hastings)† (United Kingdom) | 2021 - |
-| [Jeroen Laros](https://github.com/jfjlaros) (Nederland) | 2022 - 2026 |
-| [Terence Murphy]() (United States) | 2021 - 2026 |
-| [Rachel Taylor](https://www.linkedin.com/in/rachel-taylor-phd-90a57099/) (United Kingdom) | 2022 - 2026 |
-| [Alex Wagner](https://genomic.social/@a) (United States) | 2022 - |
+| Name                                                                                               | Term        |
+| -------------------------------------------------------------------------------------------------- | ----------- |
+| [Johan den Dunnen](https://www.universiteitleiden.nl/en/staffmembers/johan-den-dunnen) (Nederland) | 2013 -      |
+| [Marina DiStefano](https://www.linkedin.com/in/marina-distefano/) (United States)                  | 2022 - 2026 |
+| [Peter Freeman](https://research.manchester.ac.uk/en/persons/peter.j.freeman) (United Kingdom)     | 2018 -      |
+| [Reece Hart](https://linkedin.com/in/reece) (United States)                                        | 2013 -      |
+| [Ros Hastings](https://www.researchgate.net/profile/Ros-Hastings)† (United Kingdom)                | 2021 -      |
+| [Jeroen Laros](https://github.com/jfjlaros) (Nederland)                                            | 2022 - 2026 |
+| [Terence Murphy]() (United States)                                                                 | 2021 - 2026 |
+| [Rachel Taylor](https://www.linkedin.com/in/rachel-taylor-phd-90a57099/) (United Kingdom)          | 2022 - 2026 |
+| [Alex Wagner](https://genomic.social/@a) (United States)                                           | 2022 -      |
 
 † ISCN representative
 
@@ -53,12 +53,10 @@ Please use the [Discussions](discussions) forum to search for answers and ask ne
 - 2013 - 2014
   - Els Dequeker (Belgium)
 
-
 ## Reference
 
 den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, et al. **HGVS Recommendations for the Description of Sequence Variants: 2016 Update.** Hum Mutat. 2016. [pubmed:26931183](https://www.ncbi.nlm.nih.gov/pubmed/26931183) [doi:10.1002/humu.22981](http://dx.doi.org/10.1002/humu.22981)
 
 ## A note about our name
 
-We've called the nomenclature by lots of names, including "VarNomen", "MutNomen", "HGVS Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially.  We recognize that this has caused confusion in the community.  Please refer to our recommendations as the "HGVS Nomenclature".
-
+We've called the nomenclature by lots of names, including "VarNomen", "MutNomen", "HGVS Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially. We recognize that this has caused confusion in the community. Please refer to our recommendations as the "HGVS Nomenclature".

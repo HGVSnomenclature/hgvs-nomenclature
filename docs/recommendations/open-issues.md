@@ -24,14 +24,14 @@ Current HGVS recommendations state ([_see Reference Sequences_](/background/refs
 
 The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](/recommendations/open-issues#geneflanking)" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
 
-*	NM\_004006.2:c.-244\_\*2691{0}
+*	NM_004006.2:c.-244\_\*2691{0}
 	: describes a deletion of the entire coding DNA reference sequence of the DMD gene
-*	NM\_004006.2:c.-244\_187{0}
+*	NM_004006.2:c.-244_187{0}
 	: describes a deletion including the transcription start site (cap site) of the DMD gene
-*	NM\_004006.2:c.\*1162\_\*2691{2}
+*	NM_004006.2:c.\*1162\_\*2691{2}
 	: describes a duplication including the transcription termination site (polyA-addition site) of the DMD gene
 
-The description is always given **in addition** to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM\_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
+The description is always given **in addition** to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
 
 <a name ="frameshift"></a>
 
@@ -47,17 +47,17 @@ The format to describe frame shift variants has a **historic** background, it ha
 
 The format for the description of insertions needs specification. Following current recommendations, insertions can be described either by giving the inserted sequence, or by giving the nucleotide positions of a copy of the inserted sequence.
 
-For example, the insertion of "GAAGTACTG" between nucleotides NM\_004006.3:c.299 and c.300 can be described as NM\_004006.3:c.299\_300insGAAGTACTG or as NM\_004006.3:c.299\_300ins284\_293. A third format, meant for large insertions is to refer to a reference sequence file containing the inserted sequence, e.g. NM\_000553.4:c.3050\_3051ins\[NM\_004006.3:c.284\_293\]. Since the current recommendations do not specify when to use which of these formats, one variant can be described using different formats. This is undesired, HGVS recommendations should be extended by specifying when to use which format.
+For example, the insertion of "GAAGTACTG" between nucleotides NM_004006.3:c.299 and c.300 can be described as NM_004006.3:c.299_300insGAAGTACTG or as NM_004006.3:c.299_300ins284_293. A third format, meant for large insertions is to refer to a reference sequence file containing the inserted sequence, e.g. NM_000553.4:c.3050_3051ins\[NM_004006.3:c.284_293\]. Since the current recommendations do not specify when to use which of these formats, one variant can be described using different formats. This is undesired, HGVS recommendations should be extended by specifying when to use which format.
 
 <a name ="repseqs"></a>
 
 ### Repeated sequences
 
-The repeated sequence format is part of the HGVS recommendations to describe variants in the number of units of a repeated sequence. The format is especially used to describe variants in so called tri-nucleotide repeat expansion disorders, like Huntingtons' disease, Fragile-X syndrome, etc. The format recommended was based on the format used before the HGVS recommendations were first proposed. The basic format is: g.123\_191CAG[25], i.e. describing the range of the segment in the reference sequence containing the repeat sequence (g.123 to g.191), describing the repeat unit ("CAG") and the number of repeat unit identified in the sample analysed ("[25]").
+The repeated sequence format is part of the HGVS recommendations to describe variants in the number of units of a repeated sequence. The format is especially used to describe variants in so called tri-nucleotide repeat expansion disorders, like Huntingtons' disease, Fragile-X syndrome, etc. The format recommended was based on the format used before the HGVS recommendations were first proposed. The basic format is: g.123_191CAG[25], i.e. describing the range of the segment in the reference sequence containing the repeat sequence (g.123 to g.191), describing the repeat unit ("CAG") and the number of repeat unit identified in the sample analysed ("[25]").
 
-The format overlaps with the format to describe deletions and duplications/insertions. This means that e.g. both g.186_191del and g.123\_191CAG[21] are correct following current HGVS recommendations. HGVS recommendations therefore require further specifications to indicate when to use which format.
+The format overlaps with the format to describe deletions and duplications/insertions. This means that e.g. both g.186_191del and g.123_191CAG[21] are correct following current HGVS recommendations. HGVS recommendations therefore require further specifications to indicate when to use which format.
 
-Discontinuing the use of the repeated sequence format will not solve all problems. E.g. how to describe a repeat expansion which is larger than the length of the repeat in the reference sequence. While g.123\_191dup equals g.123\_191CAG[46], how to describe g.123\_191CAG[47]. Another problem emerges when the repeat unit in not perfect but interrupted with another unit, e.g. an occasional CAA in the CGA unit (frequent in Fragile-X syndrome). The repeated sequence format has clear advantages here.
+Discontinuing the use of the repeated sequence format will not solve all problems. E.g. how to describe a repeat expansion which is larger than the length of the repeat in the reference sequence. While g.123_191dup equals g.123_191CAG[46], how to describe g.123_191CAG[47]. Another problem emerges when the repeat unit in not perfect but interrupted with another unit, e.g. an occasional CAA in the CGA unit (frequent in Fragile-X syndrome). The repeated sequence format has clear advantages here.
 
 A new user group of the repeated sequence format is the forensics community. Originally this group described variants using the length of the fragment analysed. However, it is nowadays more common to use a sequence-based analysis. Sequencing revealed an additional level of complexity where alleles with the same length turn out to have a different sequence. In general, using the repeated sequence format, it is rather simple to describe the alleles observed. However, the repeated sequences analysed are often extensive and may contain a mix of different repeat units. The problem then emerges how to describe the reference format of the repeat. Is it CAG[4]CAA[1]CAG[2]CAA[1]CAG[2]CAA[1]CAG[2] or CAG[4][CAA[1]CAG[2]][3] or even another format. Making precise specifications, although necessary, will probably make it very difficult to apply for a human. The solution might be to let the computer decide by designing a HGVS-approved standardised algorithm including all specifications.
 
@@ -82,7 +82,7 @@ HGVS nomenclature does currently not have recommendations for the descriptions o
 
 Due to a variant, e.g. in the promotor region of a gene, the amount of RNA and protein produced might be reduced or increased. HGVS nomenclature currently does not have a way to describe this. Using the “\|” character (“pipe”) these consequences could be described as r.=\|red or r.=\|inc (p.=\|red, p.=\|inc) or more spcifically like r.=\|0.40 (reduced to 0.40) or r.=\|3.10 (increased to 3.10).
 
-The same format could be applied to specify the fraction of the different RNA molecules when a variant e.g affects splicing generating several different transcripts, like r.[646\_792del|0.73,792\_793ins[792+1\_792+38|0.27].
+The same format could be applied to specify the fraction of the different RNA molecules when a variant e.g affects splicing generating several different transcripts, like r.[646_792del|0.73,792_793ins[792+1_792+38|0.27].
 
 <a name ="RNAedit"></a>
 
@@ -123,7 +123,7 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 ### Circular molecules
 
 **The proposal has been ACCEPCTED for circular reference sequences**
-HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule?  For now the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y\_Xdel X should be smaller then Y). Do you have a suggestion??
+HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule?  For now the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y_Xdel X should be smaller then Y). Do you have a suggestion??
 
 <a name ="imperfectcopy"></a>
 
@@ -133,7 +133,7 @@ HGVS nomenclature assumes reference sequences are linear. However, the mitochond
 Accepting the proposal, without a whole range of specifications, would add **too many** options to decribe specific variants.
 
 HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([_Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511_](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf)) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
-*	g.24\_65dup{46G>T}
+*	g.24_65dup{46G>T}
 	:	a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
 After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very diifcult to control. 
 
@@ -149,4 +149,4 @@ The current recommendation to describe variants based on a coding DNA reference 
 *	c.\*N+dM  =  nucleotide dM is at position +M downstream (d) of nucleotide c.\*N, the polyA-addition site of the reference transcript, e.g. \*237+d133A>G (currently c.\*370A>G)
 	:	**NOTE**:	restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene
 
-This proposal has been rejected since: (i) genes often have several transcription initiation sites as well as polyA-addition sites, (ii) the transcription initiation (cap-site) is often ill-defined, (iii) variants that lie outside of a transcript can not be described based on a coding DNA reference sequence (c.), it does not contain the reference nucleotide, and should be described based on a gene or chromosome reference sequence. Use NC\_000023.10:g.33229820A>G or LRG\_199t1:c.-391T>C **and not** NC\_000023.10(NM\_004006.2):c.-244-u147T>C, LRG\_199t1:c.-244-147T>C or similar descriptions. 
+This proposal has been rejected since: (i) genes often have several transcription initiation sites as well as polyA-addition sites, (ii) the transcription initiation (cap-site) is often ill-defined, (iii) variants that lie outside of a transcript can not be described based on a coding DNA reference sequence (c.), it does not contain the reference nucleotide, and should be described based on a gene or chromosome reference sequence. Use NC_000023.10:g.33229820A>G or LRG_199t1:c.-391T>C **and not** NC_000023.10(NM_004006.2):c.-244-u147T>C, LRG_199t1:c.-244-147T>C or similar descriptions. 

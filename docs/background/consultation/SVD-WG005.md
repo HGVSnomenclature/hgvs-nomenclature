@@ -9,10 +9,10 @@ The proposal suggests to extend the HGVS recommendations to allow description of
 
 #### Examples
 
-*	g.12345678\_12345901|gom
+*	g.12345678_12345901|gom
 	:	compared to the reference (normal situation), the region between nucleotides g.12345678 and 12345901 showed general gain in methylation (increased methylation, hypermethylated)
 
-*	g.23456789\_23456901|lom
+*	g.23456789_23456901|lom
 	:	compared to the reference (normal situation), the region between nucleotides g.23456789 and 23456901 showed general loss in methylation (reduced methylation, hypomethylated)
 
 ### Note

@@ -6,8 +6,8 @@ category: example
 
 *	NM_004006.3:r.76a>c
 	:	a substitution of the "a" nucleotide at r.76 with a "c"
-*	NM_004006.3:r.76\_77delinsug  
-	:	**NOTE**:	based on the definition of a substitution, i.e. **one** nucleotide replaced by **one** other nucleotide, this change can not be described as a substitution like r.76\_77aa>ug or r.76aa>ug
+*	NM_004006.3:r.76_77delinsug  
+	:	**NOTE**:	based on the definition of a substitution, i.e. **one** nucleotide replaced by **one** other nucleotide, this change can not be described as a substitution like r.76_77aa>ug or r.76aa>ug
 *	NM_004006.3:r.(1388g>a)
 	:	the predicted consequences at RNA level is a substitution of the "g" nucleotide at r.1388 with a "g"
 *	NM_004006.3:r.123=
@@ -16,8 +16,8 @@ category: example
 	:	a "a" to "c" substitution 14 nucleotides 5' of the ATG translation initiation codon
 *	NM_004006.3:r.\*41u>a
 	:	a "u" to "a" substitution 41 nucleotides 3' of the translation termination codon
-*	NM_004006.3:r.[897u>g,832\_960del]
-	:	two different transcripts, 897u>g and r.832_960del, derive from one variant (NM\_004006.3:c.897T>G at the DNA level)
+*	NM_004006.3:r.[897u>g,832_960del]
+	:	two different transcripts, 897u>g and r.832_960del, derive from one variant (NM_004006.3:c.897T>G at the DNA level)
 	:	**NOTE**:	for more examples of variants affecting splicing see [_RNA splicing_](/recommendations/RNA/variant/splicing/)
 *	NM_004006.1:r.0
 	:	no RNA from the variant allele could be detected

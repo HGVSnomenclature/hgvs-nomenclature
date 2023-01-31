@@ -33,22 +33,22 @@ A sequence variant is defined in the context of a **reference sequence** which m
 	*	predicted or inferred sequences **should not** be used for variant reporting
 	*	if a reference sequence becomes unsupported or refuted by evidence, it should no longer be used
 *	the reporting of sequence variants **must** be with respect to the most appropriate reference sequence and the entirety of the variant sequence **must** be encompassed by the selected reference sequence
-	*	intronic sequences are considered to be within the boundaries of a transcript reference sequence but a valid gene or genomic reference sequence identifier **must** also be provided, NG\_012232.1(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a RefSeqGene reference sequence) or NC\_000023.11(NM\_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a chromosomal reference sequence)
+	*	intronic sequences are considered to be within the boundaries of a transcript reference sequence but a valid gene or genomic reference sequence identifier **must** also be provided, NG_012232.1(NM_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a RefSeqGene reference sequence) or NC_000023.11(NM_004006.2):c.93+1G>T (intronic nucleotides defined in the context of a chromosomal reference sequence)
 	*	where possible, users should report sequence variation at the genome or gene level as well as the transcript level to enable accurate mapping between transcript reference sequences via the genomic or gene position(s)
 
 ### Recommended Reference Sequences types are:
 
 *	RefSeq sequences with the prefixes NC\_, NT\_, NW\_,NG\_, NM\_, NR\_ or NP\_
-	*	chromosome - NC\_000023.11
-	*	genomic contigs or scaffolds - NT\_010718.17, NW\_003315950.2
-	*	gene/genomic region - NG\_012232.1
-	*	coding transcript - NM\_004006.2
-	*	non-coding transcript - NR\_004430.2
-	*	protein - NP\_003997.1
+	*	chromosome - NC_000023.11
+	*	genomic contigs or scaffolds - NT_010718.17, NW_003315950.2
+	*	gene/genomic region - NG_012232.1
+	*	coding transcript - NM_004006.2
+	*	non-coding transcript - NR_004430.2
+	*	protein - NP_003997.1
 *	LRG sequences with the prefixes LRG\_#, LRG\_#t#, LRG\_#p# (see examples below)
-	*	gene/genomic region - LRG\_199
-	*	coding transcript (or non-coding transcript) - LRG\_199t1
-	*	protein - LRG\_199p1
+	*	gene/genomic region - LRG_199
+	*	coding transcript (or non-coding transcript) - LRG_199t1
+	*	protein - LRG_199p1
 *	Ensembl transcript (ENST) and protein (ENSP) which are not identified by Ensembl as being incomplete, e.g. CDS 5' incomplete (cds_start_NF), CDS 3' incomplete (scs_end_NF)
 	*	gene/genomic region - ENSG00000198947.15
 	*	coding transcript - ENST00000357033.8

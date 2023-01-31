@@ -10,7 +10,7 @@ category: example
 	:	the predicted consequence at the protein level of the variant ATGGATGCATACGTCACG.. to ATGGATGCA<u>TA<font color="red">\_</font>GTCA</u>CG (c.12delC) is a Tyr to translation termination codon.
 	**NOTE**: the variant is described as a substitution, not as a frame shift (p.Tyr4TerfsTer1)
 *	p.Glu5ValfsTer5 (short p.Glu5fs)
-	:	the predicted consequence at the protein level of the variant ATGGATGCATACGAGATGAGG  to ATGGATGCATAC<u>G<font color="red">TGCATACG</font>AGATGA</u>GG.. (c.6\_13dup).
+	:	the predicted consequence at the protein level of the variant ATGGATGCATACGAGATGAGG  to ATGGATGCATAC<u>G<font color="red">TGCATACG</font>AGATGA</u>GG.. (c.6_13dup).
 *	p.Ile327Argfs*? (short p.Ile327fs)
 	:	the predicted consequence of a frame shifting variant changes Ile327 to an Arg but the new reading frame does not encounter a new translation termination (stop) codon
 *	p.Gln151Thrfs\*9 (not p.His150Hisfs\*10)

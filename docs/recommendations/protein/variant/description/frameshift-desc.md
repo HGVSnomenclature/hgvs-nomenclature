@@ -4,7 +4,7 @@
 *	**prefix** reference sequence accepted is "p." (protein).
 *	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123LysfsTer34).
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
-*	frame shifts are a special type of amino acid **deletion/insertion** which, by definition, do not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon), like "Arg123\_Leu833del", nor the amino acid sequence inserted.
+*	frame shifts are a special type of amino acid **deletion/insertion** which, by definition, do not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon), like "Arg123_Leu833del", nor the amino acid sequence inserted.
 	*	the description of a frame shift starts with the **first new** amino acid, this might not be first codon affected by the variant at the DNA level
 	*	the position of the translation termination (stop) codon in the new reading frame is calculated **starting** at the first amino acid changed by the frame shift (codon 1), and **ending** at the first stop codon encountered (Ter# or \*#)<br>
 		*	**NOTE**: the number of amino acids in the new C-terminal sequence is "#-1" amino acids<br>

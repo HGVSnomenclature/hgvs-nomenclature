@@ -3,20 +3,20 @@
 ### Proposal SVD-WG003 (exon del/dup)
 
 *	Status: <font color="red">new proposal to be made</font>
-	:	proposal SVD-WG003 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since several objections were received as well as proposals to use another format, the SVD-WG decided on Oct.6 (2015) **not yet to accept** the proposal and prepare a new proposal. It should be noted however that the format c.650-?\_1331+?del conflicts with basic HGVS recommendations and **should not be used**. The proposed format, c.(649+1\_650-1)\_(1331+1\_1332-1)del, does follow current recommendations.
+	:	proposal SVD-WG003 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since several objections were received as well as proposals to use another format, the SVD-WG decided on Oct.6 (2015) **not yet to accept** the proposal and prepare a new proposal. It should be noted however that the format c.650-?\_1331+?del conflicts with basic HGVS recommendations and **should not be used**. The proposed format, c.(649+1_650-1)\_(1331+1_1332-1)del, does follow current recommendations.
 
-The proposal suggested to describe deletions (duplications) detected by MLPA tests (testing all exons) using the format c.(649+1\_650-1)\_(1331+1\_1332-1)del.
+The proposal suggested to describe deletions (duplications) detected by MLPA tests (testing all exons) using the format c.(649+1_650-1)\_(1331+1_1332-1)del.
 
-The format suggested originally to describe deletions/duplications detected by MLPA tests (testing all exons) was c.650-?\_1331+?del, i.e. a deletion starting in the intron preceding c.650 (first nucleotide of the first deleted exon) and ending in the intron after c.1331 (last nucleotide of the last deleted exon). However, this format **is in conflict with** the basic recommendation that in such cases the description should make clear what the region of uncertainty for the break point is ([_see Uncertainties_](/recommendations/general/#uncertain1)), i.e. **(position-last-normal-probe\_position-first-altered-probe)\_ (position-last-altered-probe\_position-first-normal-probe)**. The Committee considered the format c.(649\_650)\_(1331\_1332)del which is shorter but not specifically indicates that the expected break points of the change are in an intron.
+The format suggested originally to describe deletions/duplications detected by MLPA tests (testing all exons) was c.650-?\_1331+?del, i.e. a deletion starting in the intron preceding c.650 (first nucleotide of the first deleted exon) and ending in the intron after c.1331 (last nucleotide of the last deleted exon). However, this format **is in conflict with** the basic recommendation that in such cases the description should make clear what the region of uncertainty for the break point is ([_see Uncertainties_](/recommendations/general/#uncertain1)), i.e. **(position-last-normal-probe_position-first-altered-probe)\_ (position-last-altered-probe_position-first-normal-probe)**. The Committee considered the format c.(649_650)\_(1331_1332)del which is shorter but not specifically indicates that the expected break points of the change are in an intron.
 
 #### Examples
 
-*	c.(649+1\_650-1)\_(1331+1\_1332-1)del
+*	c.(649+1_650-1)\_(1331+1_1332-1)del
 	:	a deletion of exons 8 to 11 (DMD gene) with breakpoints in the introns between nucleotides c.649 and c.650 (intron 7) on one side and nucleotides c.1331 and c.1332 (intron 11) on the other side. The flanking exons (7 and 12) on either side were tested and found not deleted.
-	:	**NOTE:**  c.(649+1\_650-1)\_(1331+1\_1332-1)dup describes a duplication of the same region.
-*	c.(516+1\_517-1)\_(1970\_6774)del
+	:	**NOTE:**  c.(649+1_650-1)\_(1331+1_1332-1)dup describes a duplication of the same region.
+*	c.(516+1_517-1)\_(1970_6774)del
 	:	a deletion in the BRCA2 gene with one break point in the intron between nucleotides c.516 and c.517 (intron 6) and one breakpoint in exon 10 between nucleotides c.1970 and c.6774. Flanking exons (5 and 11) on each side were tested and found not deleted. Description of the break point in exon 10 was derived from the two MLPA probes tested, taken the central nucleotide position per probe.
-	:	**NOTE:**  c.(516+1_\517-1)\_(1970\_6774)dup describes a duplication of the same region.
+	:	**NOTE:**  c.(516+1_\517-1)\_(1970_6774)dup describes a duplication of the same region.
 	
 
 ### Note

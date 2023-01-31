@@ -54,8 +54,9 @@ def process1(content: str) -> str:
     content = re.sub(r'<font color="#FF0000">(.+?)</font>', r"**\1**", content)
 
     # remove overstyling
-    content = re.sub(r"_\*\*(.+)\*\*_", r"**\1**", content)
-    content = re.sub(r"\*\*_(.+)_\*\*", r"**\1**", content)
+    content = re.sub(r"(\w)\\_(\w)", r"\1_\2", content)
+    content = re.sub(r"_\*\*(.+?)\*\*_", r"**\1**", content)
+    content = re.sub(r"\*\*_(.+?)_\*\*", r"**\1**", content)
 
     # table reformatiting    
     content = content.replace("{:.table .table-bordered}", "")

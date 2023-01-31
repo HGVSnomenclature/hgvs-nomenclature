@@ -2,9 +2,9 @@
 
 *	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	**prefix** reference sequence accepted is "p." (protein).
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser783dup).
-*	the "amino\_acids+positions\_duplicated" should contain **two different** positions, i.e. Cys76\_Glu79, not Cys76\_Cys76.
-	*	the "positions\_duplicated" should be listed from **5' to 3'**, i.e. Cys76\_Glu79, not Glu79\_Cys76.
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727_Ser783dup).
+*	the "amino_acids+positions_duplicated" should contain **two different** positions, i.e. Cys76_Glu79, not Cys76_Cys76.
+	*	the "positions_duplicated" should be listed from **5' to 3'**, i.e. Cys76_Glu79, not Glu79_Cys76.
 *	by definition, duplication may only be used when the additional copy is **directly C-terminal** of the original copy (a "tandem duplication").
 	*	when the extra copy is, at the protein level, not in tandem (directly C-terminal), the change should be described as **insertion** ([_see Insertion_](/recommendations/protein/variant/insertion/)).
 	*	duplications extending the amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension)

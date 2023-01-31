@@ -10,7 +10,7 @@ Make sure you have also seen the ([_Basics_](/background/basics/), explaining th
 	*	descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses
 	*	descriptions at RNA/protein level should describe the changes observed on that level (RNA/protein) and not try to incorporate any knowledge regarding the change at DNA-level (see Questions below)	
 *	all variants should be described in relation to an accepted **reference sequence** ([_see Reference Sequences_](/background/refseq)).
-	*	the reference sequence file used should be **public and clearly described**, e.g. NC\_000023.10, LRG\_199, NG\_012232.1, NM\_004006.2, LRG\_199t1, NR\_002196.1, NP\_003997.1, etc. ([_see Reference Sequences_](/background/refseq))
+	*	the reference sequence file used should be **public and clearly described**, e.g. NC_000023.10, LRG_199, NG_012232.1, NM_004006.2, LRG_199t1, NR_002196.1, NP_003997.1, etc. ([_see Reference Sequences_](/background/refseq))
 	*	the reference sequence used must contain the residue(s) described to be changed.
 	*	the recommended reference is a genomic reference sequence based on a recent genome build
 		*	for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X
@@ -41,7 +41,7 @@ Make sure you have also seen the ([_Basics_](/background/basics/), explaining th
 		*	the **"*"** can be used to indicate the translation stop codon in both one- and three-letter amino acid code descriptions
 *	**prioritisation**: when a description is possible according to several types, the preferred description is: (1) substitution, (2) deletion, (3) inversion, (4) duplication, (5) insertion
 	* 	when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
-	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
+	*	descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM_004006.2:c.[762_768del;767_774dup])
 *	only **approved** [HGNC gene symbols](http://www.genenames.org) should be used to describe genes
 	:	**NOTE:**	to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to use **italics** to denote genes and to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2)
 	:	**NOTE:**	for protein nomenclature see the [_International Protein Nomenclature Guidelines_](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/), written with the involvement of the HGNC
@@ -55,15 +55,15 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 *	"**<font color="red">+</font>**" (plus) is used in [_nucleotide numbering_](/background/numbering); c.123+45A>G
 *	"**<font color="red">-</font>**" (minus) is used in [_nucleotide numbering_](/background/numbering); c.124-56C>T
 *	"**<font color="red">*</font>**" (asterisk) is used in [_nucleotide numbering_](/background/numbering) and to indicate a translation termination (stop) codon ([_see Standards_](/background/standards#RNAcode)); c.\*32G>A and p.Trp41\* 
-*	"**<font color="red">_</font>**" (underscore) is used to indicate a range; g.12345\_12678del
+*	"**<font color="red">_</font>**" (underscore) is used to indicate a range; g.12345_12678del
 *	"**<font color="red">[ ]</font>**" (square brackets) are used for alleles (see [_DNA_](/recommendations/DNA/variant/alleles), [_RNA_](/recommendations/RNA/variant/alleles), [_protein_](/recommendations/protein/variant/alleles)), which includes multiple inserted sequences at one position and insertions from a second reference sequence 
 	*	"**<font color="red">;</font>**" (semi colon) is used to separate variants and alleles; g.[123456A>G;345678G>C] or g.[123456A>G];[345678G>C]
-	*	"**<font color="red">,</font>**" (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u, 122\_154del]
-	*	NC\_000002.11:g.48031621\_48031622ins[TAT;48026961\_48027223;GGC]
-	*	NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
-*	"**<font color="red">:</font>**" (colon) is used to separate the reference sequence file identifier (_accession.version\_number_) from the actual description of a variant; NC\_000011.9:g.12345611G>A
+	*	"**<font color="red">,</font>**" (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u, 122_154del]
+	*	NC_000002.11:g.48031621_48031622ins[TAT;48026961_48027223;GGC]
+	*	NC_000002.11:g.47643464_47643465ins[NC_000022.10:35788169_35788352]
+*	"**<font color="red">:</font>**" (colon) is used to separate the reference sequence file identifier (_accession.version_number_) from the actual description of a variant; NC_000011.9:g.12345611G>A
 *	"**<font color="red">::</font>**" (double colon) is used to describe RNA fusion transcripts ([_RNA Deletion-insertion_](/recommendations/RNA/variant/delins/)) and to designate break point junctions creating a ring chromosome ([_DNA Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/))
-*	"**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)<br>
+*	"**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC_000023.9:g.(123456_234567)\_(345678_456789)del, p.(Ser123Arg)<br>
 	**NOTE**: the range of the uncertainty should be described as precisely as possible ([_see below_](#uncertain1))
 *	"**<font color="red">?</font>**" (question mark) is used to indicate unknown positions (nucleotide or amino acid); g.(?\_234567)\_(345678\_?)del
 *	"**<font color="red">^</font>**" (caret) is used as "or"; c.(370A>C^372C>R) as back translation of p.Ser124Arg (i.e. changing the AGC codon to CGC, AGG or AGA)
@@ -83,15 +83,15 @@ Specific abbreviations are used to describe different variant types.
 	*	a substitution at the protein level is described as p.Ser321Arg (see [_protein_](/recommendations/protein/variant/substitution)) 
 *	"**<font color="red">del</font>**" indicates a **deletion**; c.76delA (see [_DNA_](/recommendations/DNA/variant/deletion), [_RNA_](/recommendations/RNA/variant/deletion), [_protein_](/recommendations/protein/variant/deletion))
 *	"**<font color="red">dup</font>**" indicates a **duplication**; c.76dupA (see [_DNA_](/recommendations/DNA/variant/duplication), [_RNA_](/recommendations/RNA/variant/duplication), [_protein_](/recommendations/protein/variant/duplication))
-*	"**<font color="red">ins</font>**" indicates an **insertion**; c.76\_77insG (see [_DNA_](/recommendations/DNA/variant/insertion), [_RNA_](/recommendations/RNA/variant/insertion), [_protein_](/recommendations/protein/variant/insertion))
+*	"**<font color="red">ins</font>**" indicates an **insertion**; c.76_77insG (see [_DNA_](/recommendations/DNA/variant/insertion), [_RNA_](/recommendations/RNA/variant/insertion), [_protein_](/recommendations/protein/variant/insertion))
 	*	duplicating insertions are described as duplications, not as insertions	
-*	"**<font color="red">inv</font>**" indicates an **inversion**; c.76\_83inv (see [_DNA_](/recommendations/DNA/variant/inversion), [_RNA_](/recommendations/RNA/variant/inversion)). Not used at protein level, usually described as [_"delins"_](/recommendations/protein/variant/delins/)
+*	"**<font color="red">inv</font>**" indicates an **inversion**; c.76_83inv (see [_DNA_](/recommendations/DNA/variant/inversion), [_RNA_](/recommendations/RNA/variant/inversion)). Not used at protein level, usually described as [_"delins"_](/recommendations/protein/variant/delins/)
 *	"**<font color="red">fs</font>**" indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, [_see Frame shifts_](/recommendations/protein/variant/frameshift))
 *	"**<font color="red">ext</font>**" indicates an **extension**; p.Met1**<font color="red">ext</font>**-5 ([_see Extension_](/recommendations/protein/variant/extension))
 
 *	HGVS/ISCN ([_see Community Consultation_](http://www.hgvs.org/mutnomen/comments004.html))
 	*	"**<font color="red">cen</font>**" indicates the **centromere** of a chromosome
-	*	"**<font color="red">chr</font>**" indicates a **chromosome**; chr11:g.12345611G>A (NC\_000011.9)
+	*	"**<font color="red">chr</font>**" indicates a **chromosome**; chr11:g.12345611G>A (NC_000011.9)
 	*	"**<font color="red">pter</font>** indicates the **first nucleotide** of a chromosome
 	*	"**<font color="red">qter</font>**" indicates the **last nucleotide** of a chromosome
 	*	"**<font color="red">sup</font>**" indicates an **supernumary** chromosome (marker chromosome)
@@ -110,7 +110,7 @@ Specific abbreviations are used to describe different variant types.
 :	Several amino acids start with the same initial letter (**<font color="red">A</font>**la, **<font color="red">A</font>**rg, **<font color="red">A</font>**sn, **<font color="red">A</font>**sp start with **<font color="red">A</font>**, **<font color="green">G</font>**ln, **<font color="green">G</font>**lu, **<font color="green">G</font>**ly with **<font color="green">G</font>**, **<font color="blue">L</font>**eu, **<font color="blue">L</font>**ys with **<font color="blue">L</font>**, **<font color="red">P</font>**he, **<font color="red">P</font>**ro with **<font color="red">P</font>** and **<font color="green">T</font>**hr, **<font color="green">T</font>**yr with **<font color="green">T</font>**) but in one-letter amino acid code this letter is used as abbreviation for only one. In practice this leads to many mistakes. It is therefore recommended to use three-letter amino acid code abbreviations. 
 
 *	When I want to report a variant on DNA, RNA and protein level do I need to use a specific separator?
-	:	No, best is to report the variant using the format NC\_000023.11:g.32849790T>A NM\_004006.3:c.124A>T r.(124a>u) p.(Ser42Cys)
+	:	No, best is to report the variant using the format NC_000023.11:g.32849790T>A NM_004006.3:c.124A>T r.(124a>u) p.(Ser42Cys)
 	:	**NOTE:**	when several NP\_'s are annotated in the NM\_ reference sequence, it is mandatory to add the NP\_ reference sequence used to describe the variant at protein level.
 
 *	I found a substitution variant (DNA) which alters splicing, inserting a short sequence in the transcript (RNA), giving a frame shift at #rotein level. How should I list this variant, as substitution, as splice variant, as insertion or as frame shift?

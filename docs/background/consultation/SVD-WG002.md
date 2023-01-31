@@ -10,10 +10,10 @@ The proposal suggests to extend the HGVS recommendations by allowing the descrip
 #### Examples
 
 *	n.345A>G
-	:	an A to G change of nucleotide 345 in relation to a non-coding DNA reference sequence. Full description NR\_028379.1:n.345A>G  (FTX transcript, XIST regulator (non-protein coding) long non-coding RNA).
+	:	an A to G change of nucleotide 345 in relation to a non-coding DNA reference sequence. Full description NR_028379.1:n.345A>G  (FTX transcript, XIST regulator (non-protein coding) long non-coding RNA).
 *	n.696-38544del
 	:	the deletion of nucleotide 696-38544 in relation a non-coding DNA reference sequence; the variant is located in the 3' half of the intron between nucleotides n.695 and n.696 (intron 5).
-	:	**NOTE:** in this case, since a non-coding DNA reference sequence does not contain intron sequences, a genomic reference sequence has to be given, e.g. NC\_000023.10(NR\_028379.1):n.696-38544del.
+	:	**NOTE:** in this case, since a non-coding DNA reference sequence does not contain intron sequences, a genomic reference sequence has to be given, e.g. NC_000023.10(NR_028379.1):n.696-38544del.
 	
 
 ### Note

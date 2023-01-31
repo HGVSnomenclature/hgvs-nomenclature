@@ -2,12 +2,12 @@
 
 *	all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 *	**prefix** reference sequence accepted is "p." (protein).
-*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727\_Ser728insTrpCys).
-*	the "amino\_acids+positions\_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25).
+*	predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727_Ser728insTrpCys).
+*	the "amino_acids+positions_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25).
 	*	an insertion can not be described using **one** amino acid position, like p.Lys23insAsp.
 *	for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
 *	duplicating insertions should be described as duplications ([_see Duplication_](/recommendations/DNA/variant/duplication/)), not as insertion.
-*	when the inserted amino acid sequence is large the insertion may be described by its length only, e.g. p.Lys2\_Leu3insX[34]
+*	when the inserted amino acid sequence is large the insertion may be described by its length only, e.g. p.Lys2_Leu3insX[34]
 :	**NOTE:**	the inserted amino acid sequence can be derived from the description od the variant at DNA or RNA level.
 *	insertions extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension).	
 *	insertions at DNA or RNA level
