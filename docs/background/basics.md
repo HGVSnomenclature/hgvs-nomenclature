@@ -34,9 +34,9 @@ In cancer genetics the terms "mutation" and "mutation load" are often used. Whil
 
 Another confusing term used frequently is "a **pathogenic** variant". A variant in itself is not "pathogenic", whether it can be causally related to a phenotype observed in a patient is determined by other factors. While a non-expert concludes the variant described "**causes disease**", the expert probably means "**causes disease when in a specific context**", e.g:
 
-*   causes disease when found in a male (X-linked recessive disorder)
-*   causes disease when combined with a change on the other allele (autosomal recessive)
-*   causes disease when inherited from the father (imprinting disorder)
+* causes disease when found in a male (X-linked recessive disorder)
+* causes disease when combined with a change on the other allele (autosomal recessive)
+* causes disease when inherited from the father (imprinting disorder)
 
 Another problem emerges when variants need to be classified that determine non-disease phenotypes like lactose tolerance/persistence, bitter tasting or hair and skin colour. What is pathogenic in the MC1R gene: dark, blond, or red hair?  What ends up in the SLC24A5 database as the pathogenic skin color: light or dark skin?
 

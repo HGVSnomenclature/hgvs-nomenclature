@@ -16,7 +16,7 @@ The task of the HVNC is to define the standard for the unambiguous description o
 
 The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Project (HVP).
 
-*	**current members**
+* **current members**
 
 | Name                                   |  Term         |
 |:--------------------------------------|:-------------:|
@@ -35,27 +35,16 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Genom Pro
 
 ### past HVNC members
 
-*	2013 - 2022 
-	:	Raymond Dalgleish  (United Kingdom)
+* 2013 - 2022 : Raymond Dalgleish  (United Kingdom)
 
-*	2013 - 2022 
-	:	Peter Taschner  (Nederland)
+* 2013 - 2022 : Peter Taschner  (Nederland)
 
-*	2014 - 2021 
-	:	Anne-Francoise Roux  (France)
+* 2014 - 2021 : Anne-Francoise Roux  (France)
 
-*	2020 - 2021 
-	:	Oleg Agofonov  (Norway)
+* 2020 - 2021 : Oleg Agofonov  (Norway)
 
-*	2013 - 2021 
-	:	Donna Maglott (United States)
-	:	ISCN representative - Jean McGowan-Jordan  (United States)
-	:	HUGO representative - Stylianos Antonarakis  (Switzerland)
-	:	HGVS representative -  Marc Greenblatt  (United States)
-	:	HVP / GV representative - Amy McAllister  (United Kingdom)
-	
-*	2013 - 2018 
-	:	HVP / GV representative - Tim Smith  (Australia)
+* 2013 - 2021 : Donna Maglott (United States): ISCN representative - Jean McGowan-Jordan  (United States): HUGO representative - Stylianos Antonarakis  (Switzerland): HGVS representative -  Marc Greenblatt  (United States): HVP / GV representative - Amy McAllister  (United Kingdom)
+    
+* 2013 - 2018 : HVP / GV representative - Tim Smith  (Australia)
 
-*	2013 - 2014 
-	:	Els Dequeker  (Belgium)
+* 2013 - 2014 : Els Dequeker  (Belgium)

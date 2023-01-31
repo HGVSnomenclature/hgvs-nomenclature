@@ -7,18 +7,7 @@ import sys
 
 _ = """
 TODO:
-
-- WARNING  -  Documentation file 'background/numbering.md' contains a link to 'background/{{site.baseurl}}/assets/RefSeq.jpg' which is not found in the documentation files.
-- WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/histidine.GIF' which is not found in the documentation files.
-- WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/proline.GIF' which is not found in the documentation files.
-- WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/tryptophan.GIF' which is not found in the documentation files.
-- WARNING  -  Documentation file 'background/standards.md' contains a link to 'background/{{site.baseurl}}/assets/AA/tyrosine.GIF' which is not found in the documentation files.
-- WARNING  -  Documentation file 'background/consultation/SVD-WG004.md' contains a link to 'background/consultation/(http:/ac.els-cdn.com/S0002929714001724/1-s2.0-S0002929714001724-main.pdf)'
--             which is not found in the documentation files.
-- WARNING  -  [08:52:02] "GET /stylesheets/extra.css HTTP/1.1" code 404
-- WARNING  -  [08:52:02] "GET /versions.json HTTP/1.1" code 404
-
-- lint/reformat redundant space?
+- {:#DNAo}
 """
 
 
@@ -54,18 +43,25 @@ def process1(content: str) -> str:
     content = re.sub(r'<font color="#FF0000">(.+?)</font>', r"**\1**", content)
 
     # remove overstyling
-    content = re.sub(r"(\w)\\_(\w)", r"\1_\2", content)
     content = re.sub(r"_\*\*(.+?)\*\*_", r"**\1**", content)
     content = re.sub(r"\*\*_(.+?)_\*\*", r"**\1**", content)
 
-    # table reformatiting    
+    # table reformatting    
     content = content.replace("{:.table .table-bordered}", "")
     content = re.sub(r"\n\s*\|(\s+\|)+\n", r"\n", content)
     content = content.replace("|:--------------------------------------:|:-------------:|", "|:--------------------------------------|:-------------:|") 
 
+    # remove spaces around list markers, replace tabs with space, remove eol space
+    content = re.sub(r"^(\s*\*)\s+", r"\1 ", content, flags=re.MULTILINE)
+    content = re.sub(r"\t", r"    ", content, flags=re.MULTILINE)
+    content = re.sub(r"\s+$", r"", content)
+
     # image paths refer to the baseurl, which is no longer needed   
     content = content.replace("{{site.baseurl}}", "")
     content = content.replace("{:.img-responsive .center-block #refSeqFig}", "")
+ 
+    # pull definitions up with preceeding line
+    content = re.sub(r"\n\s+:\s+", r": ", content)
  
     # remove extraneous newlines
     content = re.sub(r"\n\n+", r"\n\n", content)
