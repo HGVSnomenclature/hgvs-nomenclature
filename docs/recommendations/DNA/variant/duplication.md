@@ -1,12 +1,12 @@
----
-layout: recommendation
-parent: DNA
-title: duplication
-definition: 
-    Duplication: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted <b>directly 3'</b> of the original copy of that sequence.
-discussion:
-    Why do we not describe a duplication as an insertion?: Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately;<ul><li>the description is simple and shorter,</li><li>it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "22insG",</li><li>it prevents hypothetical discussions regarding the site of the insertion; in the case of a duplication including an intron/exon border (e.g. c.123-8_137dup) is the "insertion" in the intron or in the exon?</li><li>insertion more or less means "coming from elsewhere". Mechanistically, a duplication is most likely caused by a local event, DNA polymerase slippage, duplicating a local sequence.</li></ul>
+# duplication
+
+## Definition
+
+Duplication: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted <b>directly 3'</b> of the original copy of that sequence.
+
+!!! note "Why do we not describe a duplication as an insertion?"
+
+    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately;<ul><li>the description is simple and shorter,</li><li>it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "22insG",</li><li>it prevents hypothetical discussions regarding the site of the insertion; in the case of a duplication including an intron/exon border (e.g. c.123-8_137dup) is the "insertion" in the intron or in the exon?</li><li>insertion more or less means "coming from elsewhere". Mechanistically, a duplication is most likely caused by a local event, DNA polymerase slippage, duplicating a local sequence.</li></ul>
     Can I use g.123dup6 to describe a 6 nucleotide duplication?: No, a duplication of more than one nucleotide should give the position of the first and last nucleotide duplicated, separated using the range symbol ("_", underscore), e.g. g.123_128dup. Note also that from the description "g.123dup6" it is not clear whether the duplication starts <b>at</b> position g.123 (so g.123_128dup) or <b>after</b> position 123 (so g.124_129dup).<a name="123dup"></a>
     In the example above, <b>c.3921dup</b>, should the description based on a coding DNA reference sequence not be c.3922dup?: Strictly speaking you are right. However, for cases like this an exception was made to prevent that when c.3922dup is translated back to a genomic position one would end up at the wrong nucleotide, in the wrong exon (NC_000023.10:g.32456507dup in stead of NC_000023.10:g.32459297dup).
     How should I describe the change ATCG<b>ATCGATCGATCG</b>AGGGTCCC to ATCG<b>ATCGATCGATCG</b>A<font color="red">ATCGATCGATCG</font>GGGTCCC?  The fact that the inserted sequence (ATCGATCGATCG) is present in the original sequence suggests it derives from a duplicative event: The variant should be described as an insertion; g.17_18ins5_16. A description using "dup" is not correct since, by definition, a duplication should be <b>directly 3'-flanking of the original copy</b> (in tandem). Note that the description given still makes it clear that the sequence inserted between g.17 and g.18 is probably derived from nearby, i.e. position g.5 to g.16, and thus likely derived from a duplicative event.
----

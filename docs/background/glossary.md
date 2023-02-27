@@ -1,3 +1,7 @@
+## Glossary
+
+---
+
 ### In preparation
 
 Please note that this Glossary is **work in progress**. Do you encounter missing terms or want to suggest definitions, please let us know.
