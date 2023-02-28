@@ -1,1 +1,0 @@
-{% include recs/recs-index.html %}

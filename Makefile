@@ -36,7 +36,7 @@ varnomen-adapt:
 	adapt-varnomen-pages docs/**/*.md
 	@cd docs/recommendations; \
 	for d in DNA RNA protein; do \
-		rm -v $$d/index.html; \
+		rm -fv $$d/index.{html,md}; \
 		mv -v $$d/variant/*.md $$d/; \
 		rm -fr $$d/variant; \
 	done
