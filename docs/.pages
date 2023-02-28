@@ -1,8 +1,5 @@
 nav:
     - index.md
-    - background
     - recommendations
-    - versioning.md
+    - background
     - ...
-    - recent.md
-    - publications.md

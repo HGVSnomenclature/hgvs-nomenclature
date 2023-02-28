@@ -17,6 +17,7 @@ varnomen-remigrate:
 	make varnomen-prune
 	make varnomen-rename
 	make varnomen-adapt
+	make varnomen-append-hvnc
 	# prettier -w docs/**/*.md    # messes up 
 
 varnomen-copy:
@@ -31,7 +32,10 @@ varnomen-rename:
 	mv docs/_recommendations docs/recommendations
 	@cd docs/background/consultation; \
 	for p in svd-wg*.md; do np=$${p%.md}; mv $$p $${np^^}.md;done
-	mv docs/history.md docs/publications.md
+	mv docs/history.md docs/background/publications.md
+	mv docs/versioning.md docs/background/
+	mv docs/background/consultation docs/
+	mv docs/background/consultation.md docs/consultation/index.md
 
 varnomen-adapt:
 	adapt-varnomen-pages docs/**/*.md
