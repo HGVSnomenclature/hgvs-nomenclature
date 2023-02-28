@@ -21,9 +21,7 @@ varnomen-remigrate:
 
 varnomen-copy:
 	rm -fr docs && cp -a ../VarNomen docs
-	cp -a ../../biocommons/biocommons.github.io/docs/stylesheets docs/
-	git checkout e2a6f26 -- docs/images docs/index.md
-	git checkout HEAD^ -- docs/.pages docs/index.md
+	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets}
 
 varnomen-prune:
 	rm -fr docs/{.gitignore,404.html,CNAME,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
