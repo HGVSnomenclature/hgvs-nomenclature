@@ -24,7 +24,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
     * the description p.Arg76\_Cys77delinsSerTrp is correct, the description p.[Arg76Ser;Cys77Trp] is not correct.
     * two variants separated by one or more amino acids should be described individually and not as a “delins”.
 * for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
-* when the inserted amino acid sequence is large the insertion may be described by its length only, e.g. p.Arg456_Leu488delins(54)
+* when the inserted amino acid sequence is large the insertion may be described by its length, e.g. p.Lys2\_Leu3insX[34] (open reading frame insertion) or p.Lys2\_Leu3insTer12 (translation stop in inserted sequence).
     * **NOTE**:    the inserted amino acid sequence can be derived from the description od the variant at DNA or RNA level.
 * deletion/insertion variants extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension).
 * deletion-insertion variants at the DNA or RNA level.

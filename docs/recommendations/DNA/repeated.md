@@ -42,7 +42,7 @@ Format (mixed repeat):   **"prefix""range_repeated_sequence""repeat_sequence_uni
 * **unique repeat**
     * **sequenced**
         * NC\_000014.8:g.101179660TG[14]: a repeated TG di-nucleotide sequence starting at position g.101179660 on human chromosome 14, with 14 TG copies
-        * NC\_000014.8:g.101179660TG[14];[18]: a repeated TG di-nucleotide sequence starting at position g.101179660 on human chromosome 14, is present with 14 TG copies on one allele and 18 TG copies on the other allele
+        * NC\_000014.8:g.[101179660TG[14]];[101179660TG[18]]: a repeated TG di-nucleotide sequence starting at position g.101179660 on human chromosome 14, is present with 14 TG copies on one allele and 18 TG copies on the other allele
     * **repeat expansion disorders**
         * **sequenced**
             * NM\_023035.2(CACNA1A):c.6955CAG[26]  (or c.6955_6993dup): a repeated CAG tri-nucleotide sequence starting at position c.6955 in the CACNA1A gene with 26 CAG copies (p.(Gln2319[26] or p.(Gln2319_Gln2331dup))
