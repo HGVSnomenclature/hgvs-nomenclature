@@ -24,7 +24,7 @@ varnomen-copy:
 	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets}
 
 varnomen-prune:
-	rm -fr docs/{.gitignore,404.html,CNAME,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
+	rm -fr docs/{.git,.gitignore,404.html,CNAME,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
 
 varnomen-rename:
 	mv docs/_bg-material docs/background

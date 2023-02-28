@@ -58,5 +58,5 @@ theme:
   font:
     text: Ubuntu
     code: Roboto Mono
-  logo: images/logo.png
-  favicon: images/favicon.png
+  logo: images/hgvs-logo.png
+  favicon: images/hgvs-logo.png
