@@ -91,9 +91,10 @@ def process_recommendation(path) -> str:
 
     content = open(path, "rt").read()
     try:
-       desc = open(desc_path).read()
-       desc = desc.replace("### Note", "## Notes")
-       desc = "## Description\n\n" + process1(desc)
+        desc = open(desc_path).read()
+        desc = desc.replace("### Note", "## Notes")
+        desc = desc.replace("next\Ter17", "nextTer17")
+        desc = "## Description\n\n" + process1(desc)
     except FileNotFoundError:
         desc = ""
     try:
