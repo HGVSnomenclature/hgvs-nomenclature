@@ -51,9 +51,7 @@ theme:
 
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: "deep orange"
-      accent: indigo
+      scheme: hvnc
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode

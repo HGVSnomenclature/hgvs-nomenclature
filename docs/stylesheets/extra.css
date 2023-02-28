@@ -18,3 +18,9 @@ label.md-nav__title {
 .admonition > p {
     font-size: 0.8rem;
 }
+
+[data-md-color-scheme="hvnc"] {
+    --md-primary-fg-color:        #FF8001;
+    --md-primary-fg-color--light: #FF9910;
+    --md-primary-fg-color--dark:  #DD7000;
+  }
