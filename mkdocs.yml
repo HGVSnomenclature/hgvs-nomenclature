@@ -25,8 +25,8 @@ extra:
       link: https://github.com/biocommons
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/biocommons_ann
-  version:
-    provider: mike
+  #version:
+  #  provider: mike
 
 extra_css:
   - stylesheets/extra.css
@@ -50,11 +50,20 @@ theme:
     - toc.integrate
 
   palette:
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: hvnc
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   font:
     text: Ubuntu
     code: Roboto Mono
