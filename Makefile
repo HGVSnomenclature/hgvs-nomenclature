@@ -22,7 +22,7 @@ varnomen-remigrate:
 
 varnomen-copy:
 	rm -fr docs && cp -a ../VarNomen docs
-	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets}
+	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets,recommendations/.pages}
 
 varnomen-prune:
 	rm -fr docs/{.git,.gitignore,404.html,CNAME,contact.html,history-1996.html,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
@@ -36,6 +36,7 @@ varnomen-rename:
 	mv docs/versioning.md docs/background/
 	mv docs/background/consultation docs/
 	mv docs/background/consultation.md docs/consultation/index.md
+	mv docs/background/open-issues.md docs/consultation/
 
 varnomen-adapt:
 	adapt-varnomen-pages docs/**/*.md
