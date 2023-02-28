@@ -1,6 +1,7 @@
 *~
 archive
+.cache
+*.html
+notes.md
 site
 venv
-.cache
-notes.md

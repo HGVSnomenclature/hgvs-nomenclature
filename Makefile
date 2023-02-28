@@ -13,23 +13,27 @@ serve:
 
 
 varnomen-remigrate:
-	rm -fr docs/*
 	make varnomen-copy
-	make varnomen-adapt
+	make varnomen-prune
 	make varnomen-rename
-	cp -a ../../biocommons/biocommons.github.io/docs/stylesheets docs/
-	git checkout e2a6f26 -- docs/images docs/index.md
+	make varnomen-adapt
 	# prettier -w docs/**/*.md    # messes up 
 
 varnomen-copy:
-	cd ../VarNomen; \
-	cp -a _bg-material ../hgvs-nomenclature.github.io/docs/background; \
-	cp -a _recommendations ../hgvs-nomenclature.github.io/docs/recommendations; \
-	cp -a HVNC.md recent.md assets history.md versioning.md ../hgvs-nomenclature.github.io/docs/
+	rm -fr docs && cp -a ../VarNomen docs
+	cp -a ../../biocommons/biocommons.github.io/docs/stylesheets docs/
+	git checkout e2a6f26 -- docs/images docs/index.md
+	git checkout HEAD^ -- docs/.pages docs/index.md
+
+varnomen-prune:
+	rm -fr docs/{.gitignore,404.html,CNAME,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
+
+varnomen-rename:
+	mv docs/_bg-material docs/background
+	mv docs/_recommendations docs/recommendations
+	@cd docs/background/consultation; \
+	for p in svd-wg*.md; do np=$${p%.md}; mv $$p $${np^^}.md;done
 
 varnomen-adapt:
 	adapt-varnomen-pages docs/**/*.md
 
-varnomen-rename:
-	cd docs/background/consultation; \
-	for p in svd-wg*.md; do np=$${p%.md}; mv -v $$p $${np^^}.md;done

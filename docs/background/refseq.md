@@ -127,8 +127,6 @@ Depending on the variants to be reported, different reference sequence files are
 * the non-coding DNA reference sequence should be complete, cover the major and largest transcript known
 * when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
 
----
-
 {:#RNAr}
 
 ### RNA reference sequence (r.)
@@ -141,8 +139,6 @@ Depending on the variants to be reported, different reference sequence files are
 * nucleotide numbering for a RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
 * the RNA reference sequence includes the entire transcript, excluding the poly A-tail.
 * when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
-
----
 
 {:#proteinp}
 

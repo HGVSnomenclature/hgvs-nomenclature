@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """process entire docs directory to adapt varnomen pages to mkdocs"""
 
+import itertools
 import logging
 import pathlib
 import re
@@ -31,6 +32,9 @@ def process1(content: str) -> str:
 
     # remove header
     content = re.sub(r"^---.+?---\s*", "", content, flags=re.S)
+    
+    # remove --- lines
+    content = re.sub(r"^---\n", "", content, flags=re.MULTILINE)
     
     # `### **...**`` → drop emphasis
     content = re.sub(r"^(#+)\s+\*\*(.+?)\*\*", r"\1 \2", content, flags=re.MULTILINE)
@@ -77,18 +81,35 @@ def process_hvnc(content: str) -> str:
 
 def process_recommendation(path) -> str:
     def rewrite_discussion(d):
-        return re.sub(r"^\s+([^:]+):\s*(.+)", r'!!! note "\1"\n\n    \2', d.group(1))
+        v = re.sub(r"^\s+([^:]+):\s*(.+)", r'\n!!! note "\1"\n\n    \2', d.group(1), flags=re.MULTILINE)
+        return v
     
-    _logger.info(f"Recommendation {path}")
+    desc_path = path.replace("variant/", "variant/description/").replace(".md", "-desc.md")
+    eg_path = path.replace("variant/", "variant/example/").replace(".md", "-eg.md")
+    
+    _logger.info(f"Recommendation {path} ({desc_path}, {eg_path})")
 
     content = open(path, "rt").read()
-    
+    try:
+       desc = open(desc_path).read()
+       desc = desc.replace("### Note", "## Notes")
+       desc = "## Description\n\n" + process1(desc)
+    except FileNotFoundError:
+        desc = ""
+    try:
+        examples = open(eg_path).read()
+        examples = "## Examples\n\n" + process1(examples)
+    except FileNotFoundError:
+        examples = ""
+    desc_eg = desc + "\n" + examples + "\n"
+
     content = re.sub(r"^(layout|parent):\s.+\n", r"", content, flags=re.MULTILINE)
     content = re.sub(r"^title: (.+)$", r"# \1", content, flags=re.MULTILINE)
     content = re.sub(r"^-.+\n", r"", content, flags=re.MULTILINE)
     content = re.sub(r"definition:.*\n\s+", r"\n## Definition\n\n", content)
-    content = re.sub(r"discussion:.*\n", r"\n## Discussion\n\n", content)
-    content = re.sub(r"## Discussion\n\n(.+)", rewrite_discussion, content, flags=re.S)
+    content = re.sub(r"discussion:.*\n", r"\n## Discussion\n", content)
+    content = re.sub(r"(?=## Discussion\n)", desc_eg, content)
+    content = re.sub(r"(?<=## Discussion\n)(.+)", rewrite_discussion, content, flags=re.S)
     
     return content
 
@@ -100,16 +121,19 @@ if __name__ == "__main__":
     
     logging.basicConfig(level=logging.INFO)
 
-    for path in sys.argv[1:]:
-        if re.search("variant/(description|example)/", path):
-            _logger.info(f"Skipping {path}")
+    here = pathlib.Path()
+    paths = itertools.chain.from_iterable(here.glob(rp) for rp in sys.argv[1:])
+    for path in paths:
+        path_str = str(path)
+        if re.search("variant/(description|example)/", path_str):
+            _logger.debug(f"Skipping {path}")
             continue         
-        if re.search("variant/[^/]+.md", path):
-            content = process_recommendation(path)
+        if re.search("variant/[^/]+.md", path_str):
+            content = process_recommendation(path_str)
         else:
             content = open(path, "rt").read()
             content = process1(content)
-            if path.endswith("/HVNC.md"):
+            if path_str.endswith("/HVNC.md"):
                 content = process_hvnc(content)
             content = process_bugs(content)
         open(path, "wt").write(content)
