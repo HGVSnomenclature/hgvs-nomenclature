@@ -75,7 +75,7 @@ Depending on the variants to be reported, different reference sequence files are
     * **p.**    =    [protein reference sequence](#proteinp)
 * the recommended DNA reference is a genomic reference sequence
 
-{:#DNAg}
+<a name="DNAg"/>
 
 ### DNA - genomic reference sequence (g.)
 
@@ -86,20 +86,20 @@ Depending on the variants to be reported, different reference sequence files are
 * when a complete genomic reference sequence is not available, a coding DNA reference sequence should be used.
 * tools like the [Mutalyzer suite](http://www.mutalyzer.nl/position-converter) and [Variant Validator](http://www.variantvalidator.org) can help to predict the consequences of a variant on all properly annotated transcripts, incl. when they derive from overlapping genes.
 
-{:#DNAo}
+<a name="DNAo"/>
 
 ### DNA - circular genomic reference sequence (o.)
 
 * circular genomic reference sequences are indicated using a **o.** prefix: circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral resuence, etc.: **Exception:**  the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 
-{:#DNAm}
+<a name="DNAm"/>
 
 ### DNA - mitochondrial reference sequence (m.)
 
 * mitochondrial genomic reference sequences are indicated using a **m.** prefix: a mitochondrial reference sequence is a special type of circular genomic reference sequence. Since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
 * the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).: **NOTE:**    the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/consultation/open-issues/#circular))
 
-{:#DNAc}
+<a name="DNAc"/>
 
 ### DNA - coding DNA reference sequence (c.)
 
@@ -114,7 +114,7 @@ Depending on the variants to be reported, different reference sequence files are
     * for human, [EBI](http://www.ensembl.org/Help/Glossary?id=346) uses the following hierarchy to select the prefered transcript: **1.** longest CCDS translation with no stop codons. **2.** if no (1), choose the longest Ensembl/Havana merged translation with no stop codons. **3.** if no (2), choose the longest translation with no stop codons. **4.** if no translation, choose the longest non-protein-coding transcript.
 * when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC\_000023.10:g.32361300del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC\_000023.10:g.32361300 links to nucleotide NM\_004006.1:c.5690. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NM\_004006.1:c.5697del (linking to NC\_000023.10:g.32361293). See also [different genomic (g.) and coding DNA (c.) descriptions](/recommendations/DNA/variant/repeated/).
 
-{:#DNAn}
+<a name="DNAn"/>
 
 ### DNA - non-coding DNA reference sequence (n.)
 
@@ -127,7 +127,7 @@ Depending on the variants to be reported, different reference sequence files are
 * the non-coding DNA reference sequence should be complete, cover the major and largest transcript known
 * when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
 
-{:#RNAr}
+<a name="RNAr"/>
 
 ### RNA reference sequence (r.)
 
@@ -140,7 +140,7 @@ Depending on the variants to be reported, different reference sequence files are
 * the RNA reference sequence includes the entire transcript, excluding the poly A-tail.
 * when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
 
-{:#proteinp}
+<a name="proteinp"/>
 
 ### protein reference sequence (p.)
 
@@ -151,7 +151,7 @@ Depending on the variants to be reported, different reference sequence files are
     * for LRG\_'s the annotated "**protein isoform 1**" is described as "**<font color="red">p1</font>**", e.g. LRG\_199**<font color="red">p1</font>**:p.(Val25Gly)
 * a protein reference sequence should represent the primary translation product, not a processed mature protein, and thus includes the starting Methionine, any signal peptide sequences, etc.
 
-{:#note}
+<a name="note"/>
 
 ## Notes
 
@@ -161,7 +161,7 @@ Why not? Two reasons:
 * because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?
 * because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other identifiers (perhaps identifiers not even shared). If the implementation were to **require** that g. variant accessions start with NC\_ (or any predefined list), it would make it impossible to use that software in other contexts
 
-{:#discuss}
+<a name="discuss"/>
 
 ## Q&A
 
@@ -183,7 +183,7 @@ Why not? Two reasons:
 
 * When description in relation to a reference sequence is problematic, could one specify the variant by giving 20 bp of flanking sequence on both sides?: In many cases this would be OK, but for recently duplicated genes or genes which contain repeated segments, giving 20 nucleotides to either side will not be sufficient. Furthermore, descriptions will become very long. For problematic cases the best method is probably to include the raw data, i.e. submit the sample sequence to [GenBank](http://www.ncbi.nlm.nih.gov/genbank/submit) and give the accession.version number obtained.
 
-{:#mtDNA}
+<a name="mtDNA"/>
 
 * How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_): The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC\_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1). The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP\_003024031.1:p.Leu156Pro.: **NOTE**:    for issues related to mitochondrial DNA sequences [see MITOMAP](http://www.mitomap.org/): **NOTE**:    by exception, it is for this mitochondrial reference sequence allowed to specify the gene affected
     * NC\_012920.1:m.3243A>G describes variant 3243A>G based on the mitochondrial reference sequence NC\_012920.1
