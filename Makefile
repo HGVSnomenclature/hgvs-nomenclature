@@ -25,6 +25,7 @@ varnomen-copy:
 
 varnomen-prune:
 	rm -fr docs/{.git,.gitignore,404.html,CNAME,contact.html,history-1996.html,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
+	rm -f docs/HVNC.md # merged into index.md in previous commit
 
 varnomen-rename:
 	mv docs/_bg-material docs/background
