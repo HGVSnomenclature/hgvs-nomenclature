@@ -47,7 +47,7 @@ varnomen-adapt:
 	done
 
 varnomen-overlay:
-	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets,background/.pages,recommendations/.pages}
+	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets,background/.pages,recommendations/.pages,migration-plan.md}
 
 
 # docs/index.md is checked in. Don't do this twice
