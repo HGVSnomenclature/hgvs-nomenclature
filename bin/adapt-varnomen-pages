@@ -72,6 +72,8 @@ def process1(content: str) -> str:
     # remove extraneous newlines
     content = re.sub(r"\n\n+", r"\n\n", content)
  
+    content = content.replace("/background/consultation/", "/consultation/")
+ 
     return content
 
 
