@@ -8,9 +8,9 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 
 Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. r.123\_124insauc
 
-**"prefix"**  =  reference sequence used  =  r.<br>
-**"positions_flanking"**  =  position two nucleotides flanking insertion site  =  123\_124<br>
-**"ins"**  =  type of change is an insertion  =  ins<br> 
+**"prefix"**  =  reference sequence used  =  r.
+**"positions_flanking"**  =  position two nucleotides flanking insertion site  =  123\_124
+**"ins"**  =  type of change is an insertion  =  ins
 **"inserted_sequence"**  =  inserted sequence  =  auc <sup>1</sup>
 
 ## Notes

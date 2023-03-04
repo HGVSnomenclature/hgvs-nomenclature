@@ -59,7 +59,7 @@ In HGVS nomenclature some **characters** have a **specific meaning**
     * NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
 * "**<font color="red">:</font>**" (colon) is used to separate the reference sequence file identifier (_accession.version\_number_) from the actual description of a variant; NC\_000011.9:g.12345611G>A
 * "**<font color="red">::</font>**" (double colon) is used to describe RNA fusion transcripts ([_RNA Deletion-insertion_](/recommendations/RNA/variant/delins/)) and to designate break point junctions creating a ring chromosome ([_DNA Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/))
-* "**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)<br>
+* "**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)
     **NOTE**: the range of the uncertainty should be described as precisely as possible ([_see below_](#uncertain1))
 * "**<font color="red">?</font>**" (question mark) is used to indicate unknown positions (nucleotide or amino acid); g.(?\_234567)\_(345678\_?)del
 * "**<font color="red">^</font>**" (caret) is used as "or"; c.(370A>C^372C>R) as back translation of p.Ser124Arg (i.e. changing the AGC codon to CGC, AGG or AGA)

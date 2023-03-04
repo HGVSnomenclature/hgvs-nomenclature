@@ -8,20 +8,20 @@ Allele: a series of variants in a transcript from one chromosome.
 
 Format (one allele):   **"prefix"["change1";"change2"]**,  e.g. r.[123g>a;345del]
 
-* **"prefix"**  =  reference sequence used  =  r.<br>
-* **[**  =  opening symbol for allele  =  [<br>
-* **"change1"**  =  description first variant  =  123g>a<br>
-* **;**  =  separator symbol two changes  =  ;<br>
-* **"change2"**  =  description second variant  =  345del<br>
+* **"prefix"**  =  reference sequence used  =  r.
+* **[**  =  opening symbol for allele  =  [
+* **"change1"**  =  description first variant  =  123g>a
+* **;**  =  separator symbol two changes  =  ;
+* **"change2"**  =  description second variant  =  345del
 * **]**  =  closing symbol for allele  =  ]
  
 Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. r.[123g>a];[345del]
 
-* **"prefix"**  =  reference sequence used  =  r.<br>
-* **[**  =  opening symbol for allele-1  =  [<br>
-* **"change"**  =  description variant  =  123g>a<br>
-* **];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[<br>
-* **"change"**  =  description variant  =  345del<br>
+* **"prefix"**  =  reference sequence used  =  r.
+* **[**  =  opening symbol for allele-1  =  [
+* **"change"**  =  description variant  =  123g>a
+* **];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[
+* **"change"**  =  description variant  =  345del
 * **]**  =  closing symbol for allele-2  =  ]
  
 

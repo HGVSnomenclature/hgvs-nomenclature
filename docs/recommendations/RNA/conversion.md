@@ -8,9 +8,9 @@ Conversion: a sequence change where, compared to a reference sequence, a <b>rang
 
 Format: **"prefix""positions_converted""con""positions_replacing_sequence"**,  e.g. r.123\_345con888\_1110
 
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"positions_converted"**  =  range of nucleotides converted  =  r.123\_345<br>
-**"con"**  =  type of change is a conversion =  con<br> 
+**"prefix"**  =  reference sequence used  =  g.
+**"positions_converted"**  =  range of nucleotides converted  =  r.123\_345
+**"con"**  =  type of change is a conversion =  con
 **"positions_replacing_sequence"**  =  description of replacing sequence  =  888\_1110
  
 

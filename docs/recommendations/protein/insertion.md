@@ -8,9 +8,9 @@ Insertion: a sequence change between the translation initiation (start) and term
 
 Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e.g. p.(Lys23\_Leu24insArgSerGln)
 
-**"prefix"**  =  reference sequence used  =  p.<br>
-**"amino_acids+positions_flanking"**  =  amino acids with position flanking insertion site  =  Lys23\_Leu24<br>
-**"ins"**  =  type of change is an insertion  =  ins<br> 
+**"prefix"**  =  reference sequence used  =  p.
+**"amino_acids+positions_flanking"**  =  amino acids with position flanking insertion site  =  Lys23\_Leu24
+**"ins"**  =  type of change is an insertion  =  ins
 **"inserted_sequence"**  =  inserted sequence  =  ArgSerGln
 
 ## Notes

@@ -10,24 +10,24 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 
 Format (unique repeat):   **"prefix""position_first_nucleotide_first_repeat_unit""repeat_sequence"["copy_number"]**,  e.g. g.123CAG[23]
 
-* **"prefix"**  =  reference sequence used  =  g.<br>
-* **"position_first_nucleotide_first_repeat_unit"**  =  first nucleotide of first repeat unit  =  123<br>
-* **"repeat_sequence"**  =  sequence repeat unit  =  CAG<br>
-* **[**  =  opening symbol for copy number allele  =  [<br>
-* **"copy_number"**  =  number of repeat units  =  23<br>
+* **"prefix"**  =  reference sequence used  =  g.
+* **"position_first_nucleotide_first_repeat_unit"**  =  first nucleotide of first repeat unit  =  123
+* **"repeat_sequence"**  =  sequence repeat unit  =  CAG
+* **[**  =  opening symbol for copy number allele  =  [
+* **"copy_number"**  =  number of repeat units  =  23
 * **]**  =  closing symbol for copy number allele  =  ]
 
 Format (mixed repeat):   **"prefix""range_repeated_sequence""repeat_sequence_unit1"["copy_number"]"repeat_sequence_unit2"["copy_number"]"..."**,  e.g. g.123\_191CAG[19]CAA[4]
 
-* **"prefix"**  =  reference sequence used  =  g.<br>
-* **"range_repeated_sequence"**  =  position first to last nucleotide repeated sequence (range)   =  123_191<br>
-* **"repeat_sequence_unit1"**  =  sequence first repeat unit  =  CAG<br>
-* **[**  =  opening symbol for allele  =  [<br>
-* **"copy_number"**  =  number of repeat units  =  19<br>
+* **"prefix"**  =  reference sequence used  =  g.
+* **"range_repeated_sequence"**  =  position first to last nucleotide repeated sequence (range)   =  123_191
+* **"repeat_sequence_unit1"**  =  sequence first repeat unit  =  CAG
+* **[**  =  opening symbol for allele  =  [
+* **"copy_number"**  =  number of repeat units  =  19
 * **]**  =  closing symbol for allele  =  ]
-* **"repeat_sequence_unit2"**  =  sequence first repeat unit  =  CAA<br>
-* **[**  =  opening symbol for allele  =  [<br>
-* **"copy_number"**  =  number of repeat units  =  4<br>
+* **"repeat_sequence_unit2"**  =  sequence first repeat unit  =  CAA
+* **[**  =  opening symbol for allele  =  [
+* **"copy_number"**  =  number of repeat units  =  4
 * **]**  =  closing symbol for allele  =  ]
 * **...**  =  and so on for repeat_sequence_unit3, repeat_sequence_unit4, etc.
 

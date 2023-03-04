@@ -8,10 +8,10 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 
 Format:   **"prefix""amino_acid(s)+position_repeat_unit""[""copy_number""]"**,  e.g. p.(Arg65_Ser67[12])
 
-**"prefix"**  =  reference sequence used  =  p.<br>
-**"amino_acid(s)+position_repeat_unit"**  =  amino acids position (range) first repeat copy  =  Arg65\_Ser67<br>
-**[**  =  opening symbol for allele  =  [<br>
-**"copy_number"**  =  number of repeat units  =  12<br>
+**"prefix"**  =  reference sequence used  =  p.
+**"amino_acid(s)+position_repeat_unit"**  =  amino acids position (range) first repeat copy  =  Arg65\_Ser67
+**[**  =  opening symbol for allele  =  [
+**"copy_number"**  =  number of repeat units  =  12
 **]**  =  closing symbol for allele  =  ]
 
 ## Notes

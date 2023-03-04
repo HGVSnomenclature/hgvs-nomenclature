@@ -25,7 +25,7 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
     * variant descriptions are always in the forward orientation (from pter to qter, the end of the chromosome), determined by the chromosomal origin of the intact centromere ("**cen**")
 ## Examples
 
-**The description of translocations has changed**<br>
+**The description of translocations has changed**
 In the original proposal (SVD-WG004) **one identical derivative chromosome** would receive **two different descriptions**, depending on whether it was identified in a balanced or an unbalanced case. In a balanced case the description would use a "::" format joining the breakpoints, while in an unbalanced case the description would use a "delins" format. HGVS recommendations try to avoid such conflicts wherever possible. HGVS therefore recommends to describe translocations exclusively using a "delins" format. 
 
 * **translocations**

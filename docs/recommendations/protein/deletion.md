@@ -8,8 +8,8 @@ Deletion: a sequence change between the translation initiation (start) and termi
 
 Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_Glu79del)
 
-**"prefix"**  =  reference sequence used  =  p.<br>
-**"amino_acid(s)+position(s)\_deleted"**  =  amino acid with position or range (first amino acid with position to last amino acids with position) deleted  =  Cys76\_Glu79<br>
+**"prefix"**  =  reference sequence used  =  p.
+**"amino_acid(s)+position(s)\_deleted"**  =  amino acid with position or range (first amino acid with position to last amino acids with position) deleted  =  Cys76\_Glu79
 **"del"**  =  type of change is a deletion =  del
 
 ## Notes

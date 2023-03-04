@@ -8,8 +8,8 @@ Duplication: a sequence change between the translation initiation (start) and te
 
 Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys76\_Glu79dup)
 
-**"prefix"**  =  reference sequence used  =  p.<br>
-**"amino_acid(s)+position(s)\_duplicated"**  =  amino acid with position or range (first amino acid with position to last amino acid with position) duplicated  =  Cys76\_Glu79<br>
+**"prefix"**  =  reference sequence used  =  p.
+**"amino_acid(s)+position(s)\_duplicated"**  =  amino acid with position or range (first amino acid with position to last amino acid with position) duplicated  =  Cys76\_Glu79
 **"dup"**  =  type of change is a duplication =  dup
 
 ## Notes

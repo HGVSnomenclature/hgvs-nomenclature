@@ -8,9 +8,9 @@ Substitution: a sequence change where, compared to a reference sequence, <b>one<
 
 Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
 
-**"prefix"**  =  reference sequence used  =  p.<br>
-**"amino_acid"**  =  reference amino acid  =  Arg<br>
-**"position"**  =  position amino acid subtituted  =  54<br>
+**"prefix"**  =  reference sequence used  =  p.
+**"amino_acid"**  =  reference amino acid  =  Arg
+**"position"**  =  position amino acid subtituted  =  54
 **"new_amino_acid"**  =  new amino acid  =  Ser
 
 ## Notes

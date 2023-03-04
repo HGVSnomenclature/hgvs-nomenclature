@@ -24,3 +24,8 @@ label.md-nav__title {
     --md-primary-fg-color--light: #FF9910;
     --md-primary-fg-color--dark:  #DD7000;
   }
+
+
+ md-typeset ol li, .md-typeset ul li {
+    margin-bottom: 0px;
+}

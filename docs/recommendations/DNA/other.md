@@ -10,8 +10,8 @@ No change: a sequence was analysed but no variant was detected.
 
 Format:   **"prefix""position(s)_analysed""="**,  e.g. g.123_234=
 
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"position(s)_analysed"**  =  position nucleotide or range of nucleotides analysed  =  123_234<br>
+**"prefix"**  =  reference sequence used  =  g.
+**"position(s)_analysed"**  =  position nucleotide or range of nucleotides analysed  =  123_234
 **"="**  =  not changed
 
 ## Notes

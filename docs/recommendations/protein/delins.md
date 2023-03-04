@@ -8,11 +8,10 @@ Deletion-Insertion (delins): a sequence change between the translation initiatio
 
 Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_sequence"**,  e.g. p.(Arg123\_Lys127delinsSerAsp)
 
-**"prefix"**  =  reference sequence used  =  p.<br>
-**"amino\_acid(s)+position(s)\_deleted"**  =  position amino acid or range of amino acids deleted  =  Arg123\_Lys127<br>
-**"delins"**  =  type of change is a deletion-insertion  =  delins<br>
-**"inserted_sequence"**  =  description inserted sequence  =  SerAsp<br>
-
+**"prefix"**  =  reference sequence used  =  p.
+**"amino\_acid(s)+position(s)\_deleted"**  =  position amino acid or range of amino acids deleted  =  Arg123\_Lys127
+**"delins"**  =  type of change is a deletion-insertion  =  delins
+**"inserted_sequence"**  =  description inserted sequence  =  SerAsp
 ## Notes
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition

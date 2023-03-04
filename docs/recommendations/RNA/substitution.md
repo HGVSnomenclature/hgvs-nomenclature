@@ -8,10 +8,10 @@ Substitution: a sequence change where, compared to a reference sequence, <b>one<
 
 Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotide"**,  e.g. r.123a>g
 
-**"prefix"**  =  reference sequence used  =  r.<br>
-**"position_substituted"**  =  position nucleotide sustituted  =  123<br>
-**"reference_nulceotide"**  =  nucleotide at reference position =  a<br>
-**">"**  =  type of change is a substitution =  ><br>
+**"prefix"**  =  reference sequence used  =  r.
+**"position_substituted"**  =  position nucleotide sustituted  =  123
+**"reference_nulceotide"**  =  nucleotide at reference position =  a
+**">"**  =  type of change is a substitution =  >
 **"new_nucleotide"**  =  substituted nucleotide  =  g
 
 ## Notes

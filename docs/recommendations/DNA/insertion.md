@@ -8,9 +8,9 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 
 Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. g.123\_124insAGC
 
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"positions_flanking"**  =  position two nucleotides flanking insertion site  =  123\_124<br>
-**"ins"**  =  type of change is an insertion  =  ins<br> 
+**"prefix"**  =  reference sequence used  =  g.
+**"positions_flanking"**  =  position two nucleotides flanking insertion site  =  123\_124
+**"ins"**  =  type of change is an insertion  =  ins
 **"inserted_sequence"**  =  inserted sequence  =  AGC <sup>1</sup>
 
 ## Notes

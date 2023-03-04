@@ -8,11 +8,10 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 
 Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r.123\_127delinsag
 
-**"prefix"**  =  reference sequence used  =  r.<br>
-**"position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  123\_127<br>
-**"delins"**  =  type of change is a deletion-insertion  =  delins<br>
-**"inserted\_sequence"**  =  description inserted sequence  =  ag<br>
-
+**"prefix"**  =  reference sequence used  =  r.
+**"position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  123\_127
+**"delins"**  =  type of change is a deletion-insertion  =  delins
+**"inserted\_sequence"**  =  description inserted sequence  =  ag
 ## Notes
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition.

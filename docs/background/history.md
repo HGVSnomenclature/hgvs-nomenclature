@@ -39,13 +39,13 @@ Below an overview of publications on the subject of sequence variant description
 
 #### 2011
 
-* Taschner PEM, Den Dunnen JT (2011). Describing structural changes by extending HGVS sequence variation nomenclature. [Hum. Mutat. 32:507-511](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf).<br>
+* Taschner PEM, Den Dunnen JT (2011). Describing structural changes by extending HGVS sequence variation nomenclature. [Hum. Mutat. 32:507-511](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf).
 **NOTE:**    **this proposal has been rejected**
 * Laros JF, Blavier A, Den Dunnen JT, Taschner PE (2011). A formalized description of the standard human variant nomenclature in Extended Backus-Naur Form. [BMC Bioinformatics 12 Suppl 4:S5](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3194197/pdf/1471-2105-12-S4-S5.pdf).
 
 #### 2014
 
-* Ordulu Z, Wong KE, Currall BB, Ivanov AR, Pereira S, Althari S, Gusella JF, Talkowski ME, Morton CC (2014). Describing sequencing results of structural chromosome rearrangements with a suggested next-generation cytogenetic nomenclature. [Am. J. Hum. Genet. 94:695-670](http://doi.org/10.1016/j.ajhg.2014.03.020).<br>
+* Ordulu Z, Wong KE, Currall BB, Ivanov AR, Pereira S, Althari S, Gusella JF, Talkowski ME, Morton CC (2014). Describing sequencing results of structural chromosome rearrangements with a suggested next-generation cytogenetic nomenclature. [Am. J. Hum. Genet. 94:695-670](http://doi.org/10.1016/j.ajhg.2014.03.020).
 **NOTE:**    **official ISCN and HGS recommendations differ significantly from this proposal**
 
 #### 2015
@@ -55,10 +55,10 @@ Below an overview of publications on the subject of sequence variant description
 #### 2016
 
 * Den Dunnen JT, Dalgelish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, Roux AF, Smith T, Antonarakis SE, Taschner PEM (2016). HGVS recommendations for the description of sequence variants: 2016 update. [Hum. Mutat. 37:564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf).
-* McGowan-Jordan J, Simons A, Schmid M (2016). [An International System for Human Cytogenomic Nomenclature (2016)](https://www.karger.com/Book/Home/271658).<br>
+* McGowan-Jordan J, Simons A, Schmid M (2016). [An International System for Human Cytogenomic Nomenclature (2016)](https://www.karger.com/Book/Home/271658).
 **NOTE:**    **linked to proposal** [Proposal SVD-WG003](/background/consultation/SVD-WG003)
 
 #### 2018
 
-* Monk D, Morales J, den Dunnen JT, Russo S, Court F, Prawitt D, Eggermann T, Beygo J, Buiting K, Tümer Z; Nomenclature group of the European Network for Human Congenital Imprinting Disorder (2018). Recommendations for a nomenclature system for reporting methylation aberrations in imprinted domains. [Epigenetics 13:117-121](https://www.ncbi.nlm.nih.gov/pubmed/?term=27911167).<br>
+* Monk D, Morales J, den Dunnen JT, Russo S, Court F, Prawitt D, Eggermann T, Beygo J, Buiting K, Tümer Z; Nomenclature group of the European Network for Human Congenital Imprinting Disorder (2018). Recommendations for a nomenclature system for reporting methylation aberrations in imprinted domains. [Epigenetics 13:117-121](https://www.ncbi.nlm.nih.gov/pubmed/?term=27911167).
 **NOTE:**    **linked to  proposal** [Proposal SVD-WG005](/background/consultation/SVD-WG005)

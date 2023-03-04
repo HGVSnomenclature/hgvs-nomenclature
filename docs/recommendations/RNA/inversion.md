@@ -8,8 +8,8 @@ Inversion: a sequence change where, compared to a reference sequence, <b>more th
 
 Format:   **"prefix""positions\_inverted""inv"**,  e.g. r.123\_345inv
 
-**"prefix"**  =  reference sequence used  =  r.<br>
-**"positions\_inverted"**  =  range of nucleotides inverted  =  123\_345<br>
+**"prefix"**  =  reference sequence used  =  r.
+**"positions\_inverted"**  =  range of nucleotides inverted  =  123\_345
 **"inv"**  =  type of change is an inversion  =  inv
 
 ## Notes

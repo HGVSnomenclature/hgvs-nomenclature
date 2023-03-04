@@ -8,8 +8,8 @@ Deletion: a sequence change where, compared to a reference sequence, one or more
 
 Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  123\_127<br>
+**"prefix"**  =  reference sequence used  =  g.
+**"position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  123\_127
 **"del"**  =  type of change is a deletion =  del <sup>1</sup> 
 
 ## Notes

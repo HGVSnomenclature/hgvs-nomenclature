@@ -8,8 +8,8 @@ Duplication: a sequence change where, compared to a reference sequence, a copy o
 
 Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 
-**"prefix"**  =  reference sequence used  =  g.<br>
-**"position(s)\_duplicated"**  =  position nucleotide or range of nucleotides duplicated  =  123_345<br>
+**"prefix"**  =  reference sequence used  =  g.
+**"position(s)\_duplicated"**  =  position nucleotide or range of nucleotides duplicated  =  123_345
 **"dup"**  =  type of change is a duplication  =  dup <sup>1</sup>
 
 ## Notes

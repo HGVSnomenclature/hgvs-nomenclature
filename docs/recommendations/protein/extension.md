@@ -8,18 +8,18 @@ Extension: a sequence change extending the reference amino acid sequence at the 
 
 Format (**<font color="red">N-terminal</font>**):  **"prefix""Met1""ext""position_new_initiation_site"**,  e.g. p.Met1ext-5
 
-**"prefix"**  =  reference sequence used  =  p.<br>
-**"Met1"**  =  normal translation initiation site  =  Met1<br>
-**"ext"**  =  type of change is an extension =  ext<br>
+**"prefix"**  =  reference sequence used  =  p.
+**"Met1"**  =  normal translation initiation site  =  Met1
+**"ext"**  =  type of change is an extension =  ext
 **"position_new_initiation_site"**  =  position new upstream translation initiation site =  -5
 
 Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_amino_acid""ext""Ter""position_new_termination_site"**,  e.g. p.Ter110GlnextTer17
 
-**"prefix"**  =  reference sequence used  =  p.<br>
-**"Ter_position"**  =  normal translation termination site  =  Ter110<br>
-**"new_amino_acid"**  =  amino acid encoded by variant termination codon  =  Gln<br>
-**"ext"**  =  type of change is an extension =  ext<br>
-**"Ter"**  =  termination codon = Ter / \*<br>
+**"prefix"**  =  reference sequence used  =  p.
+**"Ter_position"**  =  normal translation termination site  =  Ter110
+**"new_amino_acid"**  =  amino acid encoded by variant termination codon  =  Gln
+**"ext"**  =  type of change is an extension =  ext
+**"Ter"**  =  termination codon = Ter / \*
 **"position_new_termination_site"**  =  position new downstream translation termination site =  17
 
 ## Notes
