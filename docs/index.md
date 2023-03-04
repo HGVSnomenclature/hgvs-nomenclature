@@ -1,8 +1,8 @@
 # HGVS Nomenclature
 
-  <div style="color: #666;">
-    This site covers <b>HGVS nomenclature</b>, the recommendations for the description of sequence variants in DNA, RNA and protein sequences. It is used to report and exchange information of such variants  and serves as an international standard. When using the recommendations please cite: <i>Den Dunnen et al. 2016, Hum.Mutat. 37:564-569<a href='http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/abstract' target='_blank'></a></i>. HGVS-nomenclature is authorised by the Human Genome Organization (HUGO), under the responsibility of the HGVS Variant Nomenclature Committee (HVNC).
-  </div>## HGVS Variant Nomenclature Committee (HVNC)
+This site covers <b>HGVS nomenclature</b>, the recommendations for the description of sequence variants in DNA, RNA and protein sequences. It is used to report and exchange information of such variants  and serves as an international standard. When using the recommendations please cite: <i>Den Dunnen et al. 2016, Hum.Mutat. 37:564-569<a href='http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/abstract' target='_blank'></a></i>. HGVS-nomenclature is authorised by the Human Genome Organization (HUGO), under the responsibility of the HGVS Variant Nomenclature Committee (HVNC).
+  
+## HGVS Variant Nomenclature Committee (HVNC)
 
 The HGVS Variant Nomenclature Committee (HVNC) is authorised by the [Human Genome Organisation (HUGO)](https://www.hugo-international.org), a working group of the [HUGO Nomenclature Standards Committee](https://www.hugo-international.org/standards), with administrative support of the HUGO office. Activities of the HVNC follow the committee's Terms of Reference with new members being appointed every two years for a four-year term. HVNC members should together represent all interested communities, including gene/disease specific database curators, central repositories, clinical geneticists, commercial diagnostic laboratories, bioinformaticians, scientific journals, etc.  The HVNC is the successor of the HGVS nomenclature Sequence Variant Description Working Group (SVD-WG), initiated by the [Human Variome Project](https://www.humanvariomeproject.org/sdp/wg04-sequence-variant-description-committee.html).
 
