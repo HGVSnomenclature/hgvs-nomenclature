@@ -32,11 +32,19 @@ varnomen-rename:
 	mv docs/_recommendations docs/recommendations
 	@cd docs/background/consultation; \
 	for p in svd-wg*.md; do np=$${p%.md}; mv $$p $${np^^}.md;done
-	mv docs/history.md docs/background/publications.md
+
+	mv docs/history.md docs/background/
+	perl -i -p0e 's%/history/%/background/history/%g' docs/**/*.md
+	
 	mv docs/versioning.md docs/background/
+	perl -i -p0e 's%/versioning/%/background/versioning/%g' docs/**/*.md
+
 	mv docs/background/consultation docs/
 	mv docs/background/consultation.md docs/consultation/index.md
+	perl -i -p0e 's%/background/consultation/%/consultation/%g' docs/**/*.md
+
 	mv docs/recommendations/open-issues.md docs/consultation/
+	perl -i -p0e 's%/recommendations/open-issues/%/consultation/open-issues/%g' docs/**/*.md
 
 varnomen-adapt:
 	adapt-varnomen-pages docs/**/*.md

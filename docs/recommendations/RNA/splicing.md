@@ -28,7 +28,7 @@ Variants affecting RNA splicing result in either a [_deletion_](/recommendations
     * NC\_000023.11(NM\_004006.2):r.649\_650ins650-50\_650-1: as a consequence of an intron 7 variant (c.650-52_650-51del) a new stronger exon 8 splice acceptor site is created (position 650-51 / 650-50) and the intron 7 sequence from positions 650-50 to 650-1 is inserted in the transcript: alternative description LRG\_199t1:r.649\_650ins650-50\_650-1
     * NC\_000023.11(NM\_004006.2):r.831\_832ins831+1\_831+67: as a consequence of an intron 8 variant (c.831+71C>A) a new stronger exon 8 splice donor site is created (position 831+67 / 831+68) and the intron 8 sequence from positions 831+1 to 831+67 is inserted in the transcript: alternative description LRG\_199t1:r.831\_832ins831+1\_831+67    
     * NC\_000023.11(NM\_004006.2):r.649\_650ins650-1400\_650-1268: as a consequence of an intron 7 variant (c.650-1401T>G) a new exon is created and its sequence (positions 650-1400 to 650-1268) is inserted in the transcript: alternative description LRG\_199t1:r.649\_650ins650-1400\_650-1268    
-* **fusion transcript** (based on [_SVD-WG007_](/consultation/SVD-WG007/)) 
+* **fusion transcript** (based on [_SVD-WG007_](/background/consultation/SVD-WG007/)) 
     * NM\_002354.2:r.-358\_555::NM\_000251.2:r.212\_\*279: describes an EPCAM::MSH2 fusion transcript where nucleotides r.-358 to r.555 (EPCAM gene, reference transcript NM\_002354.2) are spliced to nucleotides r.212 to r.\*279 (MSH2 gene, reference transcript NM\_000251.2)
 * **uncertain** (RNA not analysed)
     * NC\_000023.11(NM\_004006.2):r.(76a>c): RNA was not anaysed but a substitution of the “a” nucleotide at r.76 by a “c” is predicted

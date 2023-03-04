@@ -4,7 +4,7 @@
 
 a sequence file that is used as a **reference to describe variants** that are present in a sequence analysed.
 
-**NOTE:** this section has been updated based on the accepted proposal [_SVD-WG008 (Reference Sequences)_](http://varnomen.hgvs.org/consultation/SVD-WG008/).
+**NOTE:** this section has been updated based on the accepted proposal [_SVD-WG008 (Reference Sequences)_](http://varnomen.hgvs.org/background/consultation/SVD-WG008/).
 
 A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [_numbering system_](https://varnomen.hgvs.org/background/numbering/) and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its corresponding identifier are unchangeable.
 
@@ -97,7 +97,7 @@ Depending on the variants to be reported, different reference sequence files are
 ### DNA - mitochondrial reference sequence (m.)
 
 * mitochondrial genomic reference sequences are indicated using a **m.** prefix: a mitochondrial reference sequence is a special type of circular genomic reference sequence. Since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
-* the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).: **NOTE:**    the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/recommendations/open-issues/#circular))
+* the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).: **NOTE:**    the mtDNA reference sequence is a **circular molecule** ([_see Open Issues_](/consultation/open-issues/#circular))
 
 {:#DNAc}
 

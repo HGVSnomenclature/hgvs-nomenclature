@@ -71,7 +71,7 @@ The description of extensions can probably indeed be simplified. While for **ext
 ### Modifications
 
 Aug.24 (2011) - JT den Dunnen
-HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](/consultation/SVD-WG005/) makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the “|” character (“pipe”) to indicate that not a direct change of the sequence is described but a modification (change of state).
+HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](/background/consultation/SVD-WG005/) makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the “|” character (“pipe”) to indicate that not a direct change of the sequence is described but a modification (change of state).
 
 <a name ="amount"></a>
 
@@ -99,7 +99,7 @@ The use of the "**@**" character versus other characters (&, $, ~, #) is of cour
 
 Using the description r.143c>u on RNA level suggests a substitution. There are several types of RNA editing and "r.143c" probably does not really change to a "u". All we can say is that the polymerases used to make a copy inserted an "a". At some point we probably need to suggest ways to exactly describe the chemical modification made by the RNA editing enzyme but we can do that later. Making such recommendations can then be combined with those for DNA modifications (like methylation with methyl or hydroxy-methyl groups) making sure they follow the same rules.
 
-The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [_SVD-WG001_](/consultation/SVD-WG001/) more or less opened the option for such marks.
+The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [_SVD-WG001_](/background/consultation/SVD-WG001/) more or less opened the option for such marks.
 
 <a name ="exonnumbering"></a>
 
