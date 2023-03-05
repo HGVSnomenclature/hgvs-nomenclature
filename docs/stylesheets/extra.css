@@ -33,11 +33,11 @@ label.md-nav__title {
 /* .rst-* rules modify styling of RTD version selector */
 
 .rst-versions {
+    background: #191d30 !important;   
     font-size: larger !important;
-    background: #465085 !important; 
 }
 
 .rst-current-version {
-    background: #191d30 !important;   
+    background: #465085 !important; 
     color: #FF8001 !important;
 }
