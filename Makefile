@@ -25,23 +25,21 @@ varnomen-copy:
 
 varnomen-prune:
 	rm -fr docs/{.git,.gitignore,404.html,CNAME,contact.html,history-1996.html,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
-	rm -f docs/HVNC.md # merged into index.md in previous commit
 
 varnomen-rename:
 	mv docs/_bg-material docs/background
 	mv docs/_recommendations docs/recommendations
-	@cd docs/background/consultation; \
-	for p in svd-wg*.md; do np=$${p%.md}; mv $$p $${np^^}.md;done
+
+	mv docs/background/consultation docs/
+	mv docs/background/consultation.md docs/consultation/index.md
+	cd docs/consultation; for p in svd-wg*.md; do np=$${p%.md}; mv $$p $${np^^}.md;done
+	perl -i -p0e 's%/background/consultation/%/consultation/%g' docs/**/*.md
 
 	mv docs/history.md docs/background/
 	perl -i -p0e 's%/history/%/background/history/%g' docs/**/*.md
 	
 	mv docs/versioning.md docs/background/
 	perl -i -p0e 's%/versioning/%/background/versioning/%g' docs/**/*.md
-
-	mv docs/background/consultation docs/
-	mv docs/background/consultation.md docs/consultation/index.md
-	perl -i -p0e 's%/background/consultation/%/consultation/%g' docs/**/*.md
 
 	mv docs/recommendations/open-issues.md docs/consultation/
 	perl -i -p0e 's%/recommendations/open-issues/%/consultation/open-issues/%g' docs/**/*.md
@@ -57,9 +55,3 @@ varnomen-adapt:
 
 varnomen-overlay:
 	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets,background/.pages,recommendations/.pages,migration-plan.md}
-
-
-# docs/index.md is checked in. Don't do this twice
-varnomen-append-hvnc:
-	sed -ne '3,9999999999p' docs/HVNC.md >> docs/index.md
-	rm docs/HVNC.md
