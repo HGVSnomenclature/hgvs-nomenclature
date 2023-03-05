@@ -31,10 +31,11 @@ label.md-nav__title {
 }
 
 .rst-versions {
-    font-size: larger;
-    background: #4051b5; 
+    font-size: 150% !important;
+    background: #4051b5 !important; 
 }
 
 .rst-current-version {
-    color: #FF8001;    
+    background: #4051b5 !important;   
+    color: #FF8001 !important;
 }
