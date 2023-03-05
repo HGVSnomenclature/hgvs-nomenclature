@@ -29,3 +29,12 @@ label.md-nav__title {
  md-typeset ol li, .md-typeset ul li {
     margin-bottom: 0px;
 }
+
+.rst-versions {
+    font-size: larger;
+    background: #4051b5; 
+}
+
+.rst-current-version {
+    color: #FF8001;    
+}
