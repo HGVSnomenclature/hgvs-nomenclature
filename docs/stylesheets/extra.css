@@ -43,5 +43,5 @@ label.md-nav__title {
 }
 
 .rst-versions.rst-badge {
-    left: 20px;
+    left: 20px !important;
 }
