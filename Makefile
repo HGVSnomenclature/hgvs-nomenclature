@@ -15,9 +15,10 @@ serve:
 varnomen-remigrate:
 	make varnomen-copy
 	make varnomen-prune
-	make varnomen-rename
-	make varnomen-overlay
+	make varnomen-rename1
 	make varnomen-adapt
+	make varnomen-rename2
+	make varnomen-overlay
 	# prettier -w docs/**/*.md    # messes up 
 
 varnomen-copy:
@@ -26,10 +27,11 @@ varnomen-copy:
 varnomen-prune:
 	rm -fr docs/{.git,.gitignore,404.html,CNAME,contact.html,history-1996.html,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
 
-varnomen-rename:
+varnomen-rename1:
 	mv docs/_bg-material docs/background
 	mv docs/_recommendations docs/recommendations
 
+varnomen-rename2:
 	mv docs/background/consultation docs/
 	mv docs/background/consultation.md docs/consultation/index.md
 	cd docs/consultation; for p in svd-wg*.md; do np=$${p%.md}; mv $$p $${np^^}.md;done
@@ -44,6 +46,12 @@ varnomen-rename:
 	mv docs/recommendations/open-issues.md docs/consultation/
 	perl -i -p0e 's%/recommendations/open-issues/%/consultation/open-issues/%g' docs/**/*.md
 
+	mv docs/HVNC.md docs/governance.md
+	head -v docs/governance.md
+	perl -i -p0e 's%# HVNC%# Governance%' docs/governance.md
+	head -v docs/governance.md
+	#perl -i -p0e 's%/HVNC/%/governance/%g' docs/**/*.md
+
 varnomen-adapt:
 	adapt-varnomen-pages docs/**/*.md
 	@cd docs/recommendations; \
@@ -54,4 +62,5 @@ varnomen-adapt:
 	done
 
 varnomen-overlay:
+	# overlay manually edited files from previous commit 
 	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets,background/.pages,recommendations/.pages,migration-plan.md}

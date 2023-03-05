@@ -83,7 +83,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * inversion: **HGVS**-DNA: a sequence change where, compared to a reference sequence, more than one nucleotide replacing the original sequence are the reverse complement of the original sequence.: descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/variant/inversion/) or [_RNA_](/recommendations/RNA/variant/inversion/).
     
-* ISCN: International System for Cytogenetic Nomenclature [_(see ISCN)_](/background/consultation/ISCN), covering the description of numerical and structural chromosomal changes detected using microscopic and cytogenetic techniques.: descriptions _see Recommendations_ [_DNA - Complex (HGVS<>ISCN)_](/recommendations/DNA/variant/complex/).
+* ISCN: International System for Cytogenetic Nomenclature [_(see ISCN)_](/consultation/ISCN), covering the description of numerical and structural chromosomal changes detected using microscopic and cytogenetic techniques.: descriptions _see Recommendations_ [_DNA - Complex (HGVS<>ISCN)_](/recommendations/DNA/variant/complex/).
 
 * Kozak sequence: a consensus sequence, including the ATG translation initiation codon, playing a role in the initiation of translation
 

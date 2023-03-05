@@ -8,21 +8,21 @@ The version number is based on the date of the change and has the format: **HGVS
 
 **<font color="red">NOTE:</font>** since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature was released May 1, 2020.
 
-For issues currently discussed see [_Open for Community Consultation_](/background/consultation/) or [_Open Issues_](/consultation/open-issues/).
+For issues currently discussed see [_Open for Community Consultation_](/consultation/) or [_Open Issues_](/consultation/open-issues/).
 
 ## Version list
 
-* **Version 20.05**: Accepted proposals include [_SVD-WG007_](/background/consultation/SVD-WG007/) and [_SVD-WG008_](/background/consultation/SVD-WG008/):
+* **Version 20.05**: Accepted proposals include [_SVD-WG007_](/consultation/SVD-WG007/) and [_SVD-WG008_](/consultation/SVD-WG008/):
     * SVD-WG008 (_Reference Sequences_): specifies requirements for acceptable Reference Sequences  
     * SVD-WG007 (_RNA fusion_): specifies how to describe RNA fusion transcripts   
 
-* **Version 19.01**: Accepted proposals include [_SVD-WG005_](/background/consultation/SVD-WG005/) and [_SVD-WG006_](/background/consultation/SVD-WG006/):
+* **Version 19.01**: Accepted proposals include [_SVD-WG005_](/consultation/SVD-WG005/) and [_SVD-WG006_](/consultation/SVD-WG006/):
     * SVD-WG006 (_circular DNA_): allows descriptions like o.16000_100del  
     * SVD-WG005 (_gom/lom_): allows descriptions of changes in general methylation status like g.123_456|lom  
 
-* **Named extension ISCN**: Proposal [_SVD-WG004_](/background/consultation/SVD-WG004/) (ISCN<>HGVS) has been accepted a "named extension ISCN"
+* **Named extension ISCN**: Proposal [_SVD-WG004_](/consultation/SVD-WG004/) (ISCN<>HGVS) has been accepted a "named extension ISCN"
 
-* **Version 15.11**: Accepted proposals include [_SVD-WG001_](/background/consultation/SVD-WG001/) and [_SVD-WG002_](/background/consultation/SVD-WG002/):
+* **Version 15.11**: Accepted proposals include [_SVD-WG001_](/consultation/SVD-WG001/) and [_SVD-WG002_](/consultation/SVD-WG002/):
     * SVD-WG001 (_No change_): allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=).
     * SVD-WG002 (_n. reference sequence_): allows descriptions like NR_028379.1:n.345A>G.  : HGVS nomenclature **version 15.11** is described in Den Dunnen et al. (2016) [HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: 37: 564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf). The most significant changes between version 15.11 and version 1.0 are [_described below_](#v1511). 
 
