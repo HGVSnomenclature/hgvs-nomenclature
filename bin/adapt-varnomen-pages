@@ -77,7 +77,7 @@ def process1(content: str) -> str:
  
     # convert jekyll's {:tag} to an html anchor
     content = re.sub(r"{:#(\w+)}", r'<a name="\1"/>', content)
- 
+    
     return content
 
 

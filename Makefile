@@ -12,27 +12,28 @@ serve:
 	mkdocs serve
 
 
-varnomen-remigrate:
-	make varnomen-copy
-	make varnomen-prune
-	make varnomen-rename1
-	make varnomen-adapt
-	make varnomen-rename2
-	make varnomen-overlay
+remigrate:
+	make copy
+	make prune
+	make rename1
+	make adapt
+	make rename2
+	make overlay
+	make misc-governance
 	# prettier -w docs/**/*.md    # messes up 
 
-varnomen-copy:
+copy:
 	rm -fr docs && cp -a ../VarNomen docs
 
-varnomen-prune:
+prune:
 	rm -fr docs/{.git,.gitignore,404.html,CNAME,contact.html,history-1996.html,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
 
 # rename1 is required before adaptation because of file path inspection
-varnomen-rename1:
+rename1:
 	mv docs/_bg-material docs/background
 	mv docs/_recommendations docs/recommendations
 
-varnomen-adapt:
+adapt:
 	adapt-varnomen-pages docs/**/*.md
 	@cd docs/recommendations; \
 	for d in DNA RNA protein; do \
@@ -42,7 +43,7 @@ varnomen-adapt:
 	done
 
 # rename2 depends on changes made during adaptation
-varnomen-rename2:
+rename2:
 	mv docs/background/consultation docs/
 	mv docs/background/consultation.md docs/consultation/index.md
 	cd docs/consultation; for p in svd-wg*.md; do np=$${p%.md}; mv $$p $${np^^}.md;done
@@ -64,6 +65,13 @@ varnomen-rename2:
 	mv docs/recent.md docs/news.md
 	perl -i -p0e 's%### Recent Additions%# News%' docs/news.md
 
-varnomen-overlay:
+overlay:
 	# overlay manually edited files from previous commit 
 	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets,background/.pages,recommendations/.pages,migration-plan.md}
+
+misc-governance:
+	perl -i -p0 \
+		-e 's%### Task%### Misson%;' \
+		-e 's%The task of the HVNC%The mission of the HVNC%;' \
+		-e 's%(Reece.+201)4%$${1}3%;' \
+		-e 's%Human Genom %Human Variome %' docs/governance.md
