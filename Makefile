@@ -27,10 +27,21 @@ varnomen-copy:
 varnomen-prune:
 	rm -fr docs/{.git,.gitignore,404.html,CNAME,contact.html,history-1996.html,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
 
+# rename1 is required before adaptation because of file path inspection
 varnomen-rename1:
 	mv docs/_bg-material docs/background
 	mv docs/_recommendations docs/recommendations
 
+varnomen-adapt:
+	adapt-varnomen-pages docs/**/*.md
+	@cd docs/recommendations; \
+	for d in DNA RNA protein; do \
+		rm -fv $$d/index.{html,md}; \
+		mv -v $$d/variant/*.md $$d/; \
+		rm -fr $$d/variant; \
+	done
+
+# rename2 depends on changes made during adaptation
 varnomen-rename2:
 	mv docs/background/consultation docs/
 	mv docs/background/consultation.md docs/consultation/index.md
@@ -47,19 +58,11 @@ varnomen-rename2:
 	perl -i -p0e 's%/recommendations/open-issues/%/consultation/open-issues/%g' docs/**/*.md
 
 	mv docs/HVNC.md docs/governance.md
-	head -v docs/governance.md
 	perl -i -p0e 's%# HVNC%# Governance%' docs/governance.md
-	head -v docs/governance.md
-	#perl -i -p0e 's%/HVNC/%/governance/%g' docs/**/*.md
+	perl -i -p0e 's%/HVNC/%/governance/%g' docs/**/*.md
 
-varnomen-adapt:
-	adapt-varnomen-pages docs/**/*.md
-	@cd docs/recommendations; \
-	for d in DNA RNA protein; do \
-		rm -fv $$d/index.{html,md}; \
-		mv -v $$d/variant/*.md $$d/; \
-		rm -fr $$d/variant; \
-	done
+	mv docs/recent.md docs/news.md
+	perl -i -p0e 's%### Recent Additions%# News%' docs/news.md
 
 varnomen-overlay:
 	# overlay manually edited files from previous commit 
