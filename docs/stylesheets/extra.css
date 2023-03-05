@@ -7,7 +7,6 @@ h3 {
     color: #666;
 }
 
-
 label.md-nav__title {
     display: none
 }
@@ -30,12 +29,15 @@ label.md-nav__title {
     margin-bottom: 0px;
 }
 
+
+/* .rst-* rules modify styling of RTD version selector */
+
 .rst-versions {
-    font-size: 150% !important;
-    background: #4051b5 !important; 
+    font-size: larger !important;
+    background: #465085 !important; 
 }
 
 .rst-current-version {
-    background: #4051b5 !important;   
+    background: #191d30 !important;   
     color: #FF8001 !important;
 }
