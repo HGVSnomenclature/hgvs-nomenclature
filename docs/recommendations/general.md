@@ -4,7 +4,7 @@ Since references to web sites are not yet acknowledged as citations, please ment
 
 Make sure you have also seen the ([_Basics_](/background/basics/), explaining the **history** of these recommendations, the process of making **changes**, the **versioning** of the recommendations and important remarks on **terminology**. 
 
-## General mandates
+## General recommendations
 
 * all variants should be described at the most basic level, **the DNA level**. Descriptions at the RNA and/or protein level may be given in addition.
     * descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses
