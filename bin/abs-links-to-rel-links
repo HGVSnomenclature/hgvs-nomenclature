@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+
+"""convert absolute links to relative links based on path to file
+
+e.g. in a file docs/recommendations/RNA/inversion.md,  an absolute link like
+/recommendations/RNA/variant/indel/ will be converted to
+../inversion/
+
+"""
+
+import logging
+import os
+import re
+
+link_re = re.compile(r"(\]\()  ( /[^()]+\([^)]+\)[^)]+ | /[^)]+ )  (\))", flags=re.VERBOSE)
+#                      1^^^^^  2^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  3^^^
+_logger = logging.getLogger()
+
+def process1(file_path: str):
+    # docs_relpath is path when rendered, relative to root url
+    # e.g., docs/a/b/c.md → /a/b/c/
+    docs_relpath = "/" + "/".join(file_path.replace(".md","/").split("/")[1:])
+    content = open(file_path, "rt").read()
+    content = link_re.sub(lambda m: m.group(1) + os.path.relpath(m.group(2) + m.group(3), docs_relpath) + "/", content)
+    content = content.replace("../../", "../")
+    open(file_path, "wt").write(content)
+    _logger.info(f"{file_path}: Converted absolute link to relative links")
+
+
+if __name__ == "__main__":
+    import sys
+
+    logging.basicConfig(level="INFO")
+
+    for file_path in sys.argv[1:]:
+        process1(file_path)
+        

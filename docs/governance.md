@@ -31,7 +31,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome P
 | Alex Wagner  (United States)           |  2022 - 2025  |
 | Ivo Fokkema  (Netherlands  )           |  2023 - 2026  |
 
-> <sup>1</sup> [ISCN representative](/consultation/ISCN/)
+> <sup>1</sup> [ISCN representative](../consultation/ISCN/)/
 
 ### past HVNC members
 

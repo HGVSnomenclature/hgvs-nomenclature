@@ -18,11 +18,11 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 * **prefix** reference sequences accepted are r. (coding and non-coding RNA).
-* substitutions involving two or more consecutive nucleotides are described as deletion/insertions (indels) ([_see Deletion/insertion (delins)_](/recommendations/RNA/delins/)).
+* substitutions involving two or more consecutive nucleotides are described as deletion/insertions (indels) ([_see Deletion/insertion (delins)_](../delins/)/).
 * two substitutions separated by one or more nucleotides should be described individually and not as a “delins”
     * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a “delins” (e.g. r.142\_144delinsugg (p.Arg48Trp)).: **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
 * nucleotides that have been tested and found **not changed** are described as r.109u=, r.4567_4569= ([_see SVD-WG001 (no change)_](http://www.hgvs.org/mutnomen/accepted001.html)).
-* it is not correct to describe "_polymorphisms_" as r.76a/g ([_see Discussions_](/recommendations/RNA/substitution/#polymorphism)).
+* it is not correct to describe "_polymorphisms_" as r.76a/g ([_see Discussions_](#polymorphism)/).
 ## Examples
 
 * NM_004006.3:r.76a>c: a substitution of the "a" nucleotide at r.76 with a "c"
@@ -31,7 +31,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 * NM_004006.3:r.123=: a screen was performed showing that nucleotide r.123 was a “c” as in the coding DNA reference sequence (the nucleotide was not changed).
 * NM_004006.1:r.-14a>c: a "a" to "c" substitution 14 nucleotides 5' of the ATG translation initiation codon
 * NM_004006.3:r.\*41u>a: a "u" to "a" substitution 41 nucleotides 3' of the translation termination codon
-* NM_004006.3:r.[897u>g,832\_960del]: two different transcripts, 897u>g and r.832_960del, derive from one variant (NM\_004006.3:c.897T>G at the DNA level): **NOTE**:    for more examples of variants affecting splicing see [_RNA splicing_](/recommendations/RNA/splicing/)
+* NM_004006.3:r.[897u>g,832\_960del]: two different transcripts, 897u>g and r.832_960del, derive from one variant (NM\_004006.3:c.897T>G at the DNA level): **NOTE**:    for more examples of variants affecting splicing see [_RNA splicing_](../splicing/)/
 * NM_004006.1:r.0: no RNA from the variant allele could be detected
 * NM_004006.3:r.spl: RNA has not been analysed but it is very likely that splicing is affected
 * NM_004006.3:r.?: an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)

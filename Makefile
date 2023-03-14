@@ -20,6 +20,7 @@ remigrate:
 	make rename2
 	make overlay
 	make misc-governance
+	make rel-links
 	# prettier -w docs/**/*.md    # messes up 
 
 copy:
@@ -75,3 +76,6 @@ misc-governance:
 		-e 's%The task of the HVNC%The mission of the HVNC%;' \
 		-e 's%(Reece.+201)4%$${1}3%;' \
 		-e 's%Human Genom %Human Variome %' docs/governance.md
+
+rel-links:
+	./bin/abs-links-to-rel-links docs/**/*.md

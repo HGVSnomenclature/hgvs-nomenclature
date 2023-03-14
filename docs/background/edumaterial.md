@@ -1,6 +1,6 @@
 # Educational Material
 
-A detailed explanation of HGVS nomenclature can be found on this website. Summaries, using different formats, have been published in journals and several book chapters ([_see History_](/background/history/)).
+A detailed explanation of HGVS nomenclature can be found on this website. Summaries, using different formats, have been published in journals and several book chapters ([_see History_](../history/)/).
 
 * Basics
 :    the basics of the current recommendations are explained in a [slide presentation](http://www.hgvs.org/varnomen/HGVS-basics2017.pdf) from **Johan den Dunnen** (last updated Apr.2017).
