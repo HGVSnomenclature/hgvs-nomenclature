@@ -18,7 +18,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
 
 * protein coding region
 :    numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**.
-    * exception 3’ rule: the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, where shifting the variant 3' would place it in the next exon. Projecting the variant from c. back to g. positions (genomic) would then lead to an incorrect genomic position (in the wrong exon): When ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del): **NOTE:** this exception does not apply to a deletion/duplication around exon/intron and intron/exon junctions with identical nucleotides flanking the junction ([_see also Deletions_](/recommendations/DNA/variant/deletion))
+    * exception 3’ rule: the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, where shifting the variant 3' would place it in the next exon. Projecting the variant from c. back to g. positions (genomic) would then lead to an incorrect genomic position (in the wrong exon): When ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del): **NOTE:** this exception does not apply to a deletion/duplication around exon/intron and intron/exon junctions with identical nucleotides flanking the junction ([_see also Deletions_](/recommendations/DNA/deletion))
 * **untranslated region (UTR)**
     * nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a "**<font color="red">-</font>**" (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
     * nucleotides downstream (3') of the translation termination codon (stop) are marked with a "**<font color="red">*</font>**" (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
@@ -55,7 +55,7 @@ nucleotide numbering for a RNA reference sequence follows that of the associated
 
 amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amino acid of the reference sequence
 
-* amino acid numbers based on a protein reference sequence may include a "-" or "*" prefix ([_see Protein Extensions_](/recommendations/protein/variant/extension/)).
+* amino acid numbers based on a protein reference sequence may include a "-" or "*" prefix ([_see Protein Extensions_](/recommendations/protein/extension/)).
 
 ## Q&A
 

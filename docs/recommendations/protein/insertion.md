@@ -21,14 +21,14 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 * the "amino\_acids+positions\_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25).
     * an insertion can not be described using **one** amino acid position, like p.Lys23insAsp.
 * for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
-* duplicating insertions should be described as duplications ([_see Duplication_](/recommendations/DNA/variant/duplication/)), not as insertion.
+* duplicating insertions should be described as duplications ([_see Duplication_](/recommendations/DNA/duplication/)), not as insertion.
 * when the inserted amino acid sequence is large the insertion may be described by its length, e.g. p.Lys2\_Leu3insX[34] (open reading frame insertion) or p.Lys2\_Leu3insTer12 (translation stop in inserted sequence).
 :    **NOTE:**    the inserted amino acid sequence can be derived from the description od the variant at DNA or RNA level.
-* insertions extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/variant/extension).    
+* insertions extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](/recommendations/protein/extension).    
 * insertions at DNA or RNA level
     * which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
     * **encoding a translation stop codon** in the inserted sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
-    * encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [**frame shift**](/recommendations/protein/variant/frameshift/)
+    * encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [**frame shift**](/recommendations/protein/frameshift/)
 ## Examples
 
 * p.His4\_Gln5insAla: the insertion of amino acid <font color="red">Ala</font> between amino acids His4 and Gln5 changing MetLysGlyHisGlnGlnCys to MetLysGlyHis**<font color="red">Ala</font>**GlnGlnCys

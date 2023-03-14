@@ -32,7 +32,7 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. r.123\_1
 * NM\_004006.2:r.761\_762insnnnnn (alternatively r.761\_762insn[5]): the insertion of 5 not specified nucleotides (nnnnn) between position r.761 and r.762
 * LRG\_199t1:r.1149\_1150insn[100]: the insertion of 100 not specified nucleotides between position r.1149 and r.1150
 * NG\_012232.1(NM\_004006.2):r.2949\_2950ins[2950-30\_2950-12;2950-4\_2950-1]: the insertion of intronic nucleotides r.2950-30 to r.2950-12 and r.2950-4 to r.2950-1 between nucleotides r.2949 and r.2950 (caused by the deletion NC\_000023.10(NM\_004006.2):c.2950-11\_2950-5del]. Alternative description r.2949\_2950ins[2950-30\_2950-12;uuag]
-    * **NOTE:**    for more examples of variants affecting splicing see [_Splicing_](/recommendations/RNA/variant/splicing/)
+    * **NOTE:**    for more examples of variants affecting splicing see [_Splicing_](/recommendations/RNA/splicing/)
 ## Discussion
 
 !!! note "Can I describe a variant as r.123insg?"

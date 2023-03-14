@@ -15,27 +15,27 @@ Going through publications one can easily see where people give variant descript
 2.    **Intronic variants** - are descriptions of intron variants correct and complete ?
     * descriptions referring to exon or intron numbers instead of nucleotide positions, e.g."_c.IVS4-2A>G_", are **not allowed**.
     * do you properly describe ranges in the introns ?  The format c.123-65\_123-50 is correct, the format c.123-65**\_-50** is not, it is **incomplete**.
-3.    **Insertions** - are descriptions of insertions correct and complete ([_see Insertion_](/recommendations/DNA/variant/insertion))?
+3.    **Insertions** - are descriptions of insertions correct and complete ([_see Insertion_](/recommendations/DNA/insertion))?
     * insertions should be reported using the format c.51\_52insT.: The format c.52insT is **incomplete** and not allowed.
     * do you give the inserted sequence?: Describing a variant as c.5439\_5430**ins6** is not allowed, the inserted sequence (for ins6 e.g. "TGCCAT") should be specified.
-    * is the insertion reported indeed an insertion or is it in fact a duplication?: **Duplicating insertions** should be described as duplications, not as insertions ([_see Duplication_](/recommendations/DNA/variant/duplication)). 
+    * is the insertion reported indeed an insertion or is it in fact a duplication?: **Duplicating insertions** should be described as duplications, not as insertions ([_see Duplication_](/recommendations/DNA/duplication)). 
 4.    **The 3' rule** - do you correctly apply the 3' rule?: For deletions, duplications and insertions the **most 3' position possible is arbitrarily assigned** to have been changed ([_see General recommendations_](/recommendations/general)). This rule also applies to variants in single residue stretches (mono-nucleotide or amino acid) or tandem repeats.
 5.    **Range** - the sign used to indicate a range is the "\_" (underscore), not a "-" (minus)?  
     The correct description to indicate a deletion of coding DNA nucleotides 12 to 14 is c.12\_14del. Not correct is _c.12-14del_, this describes a deletion of nucleotide -14 in the intron directly 5' of nucleotide c.12 ([_see Numbering_](/background/numbering)).
 6.    **Deletion** - do you indicate the first and last residue involved in a deletion?  
-    Descriptions like _g.123del3_ are not allowed, correct is g.123\_125del ([_see Deletion_](/recommendations/DNA/variant/deletion)).
+    Descriptions like _g.123del3_ are not allowed, correct is g.123\_125del ([_see Deletion_](/recommendations/DNA/deletion)).
 7.    **Describe always at DNA-level** - do you describe all changes reported at DNA-level?  
     All changes reported **must** be described at DNA-level
     * when descriptions at protein level are given in the text, upon first appearance, use a format like "c.76G>T (p.(Gly26Cys), RNA not analysed)" or "c.76G>T (r.76g>u p.Gly26Cys)"
 7.    **RNA level descriptions**  
     HGVS nomenclature includes recommendations for the description of changes detected at the RNA level ([_see Recommendations_](/recommendations/RNA)).
-    * several transcripts derived from one allele are described using the format r.[76a>c,73\_88del] ([_see RNA_](/recommendations/RNA/variant/alleles))
+    * several transcripts derived from one allele are described using the format r.[76a>c,73\_88del] ([_see RNA_](/recommendations/RNA/alleles))
 9.    **protein level descriptions**
     * the protein reference sequence should represent the primary translation product, not a processed mature protein, and thus include the starting Methionine and a signal peptide sequence
     * the recommendation is to use **three letter amino acid code** ([_see Protein_](/recommendations/protein/))    
     * **"Ter" or "\*" should be used** to indicate a translation stop codon; the X should not be used ([_see Protein_](/recommendations/protein/))
     * predicted "**silent**" protein level variants are described as **p.(Leu54=)**, not as _p.Leu54Leu_ or _p.54L/L_).
-    * the description p.(Met1Val) is not allowed ([_see Protein_](/recommendations/protein/variant/substitution))
+    * the description p.(Met1Val) is not allowed ([_see Protein_](/recommendations/protein/substitution))
 10.    **Mutation / polymorphism**  
     Do not use the terms "mutation" or "polymorphism" ([_see General recommendations_](/background/basics))
     * "polymorphic" variants should not be described using the "/" (slash), describe them as normal variants like c.127A>G and p.(Ile43Val).

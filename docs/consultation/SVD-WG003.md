@@ -22,6 +22,6 @@ To be **100% accurate** one should theoretically not use the position of the int
 * the additional detail would hardly add useful information,
 * we should preferably not deviate too far from the original proposal (i.e. to use flanking intron locations).
 
-**NOTE:** the description "dup" may by definition ([_see Duplication_](/recommendations/DNA/variant/duplication/)) only be used when the additional copy is located directly 3'-flanking the original copy (a tandem duplication). In most cases there will be no experimental proof, the method used only detects the presence of an additional copy that, in theory, can be anywhere in the genome (inserted). Discussions are ongoing how to include this uncertainty best in the description: a proposal will follow later.
+**NOTE:** the description "dup" may by definition ([_see Duplication_](/recommendations/DNA/duplication/)) only be used when the additional copy is located directly 3'-flanking the original copy (a tandem duplication). In most cases there will be no experimental proof, the method used only detects the presence of an additional copy that, in theory, can be anywhere in the genome (inserted). Discussions are ongoing how to include this uncertainty best in the description: a proposal will follow later.
 
 ### [Original proposal](http://www.hgvs.org/mutnomen/comments003.html)

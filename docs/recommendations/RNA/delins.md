@@ -16,7 +16,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition.
 * **prefix** reference sequences accepted are r. (coding and non-coding RNA).
-* by definition, when **one** nucleotide is replaced by **one** other nucleotide the change is a [_substitution_](/recommendations/RNA/variant/substitution/).
+* by definition, when **one** nucleotide is replaced by **one** other nucleotide the change is a [_substitution_](/recommendations/RNA/substitution/).
 * two variants separated by one or more nucleotides should preferably be described individually and **not** as a "delins"
     * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. r.142\_144delinsugg p.(Arg48Trp)).: **NOTE:**    this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
     * **conversions**, a sequence change where a range of nucleotides are replaced by a sequence from elsewhere in the genome, are described as a “delins”. The previous format “con” is no longer used (see [_Community Consultation SVD-WG009)_](/consultation/SVD-WG009/)).

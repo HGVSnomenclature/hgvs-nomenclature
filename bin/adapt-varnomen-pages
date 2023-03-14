@@ -77,6 +77,9 @@ def process1(content: str) -> str:
  
     # convert jekyll's {:tag} to an html anchor
     content = re.sub(r"{:#(\w+)}", r'<a name="\1"/>', content)
+ 
+    # links to recommendations have needless /variant/ level   
+    content = content.replace("/variant/", "/")
     
     return content
 

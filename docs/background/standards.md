@@ -242,7 +242,7 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 
 **NOTE:**  We are in contact with the ISCN to learn whether the translation tables shown is recognised by ISCN as correct. 
 
-To facilitate translating variant descriptions based on [_ISCN_](/consultation/ISCN/) recommendations, human chromosomal band descriptions need to be translated to genomic positions ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/)). For this translation the table below can be used. Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38. Translation is based on the UCSC cytoBand file downloadeds for [_hg19_](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [_hg38_](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
+To facilitate translating variant descriptions based on [_ISCN_](/consultation/ISCN/) recommendations, human chromosomal band descriptions need to be translated to genomic positions ([_see Complex (HGVS/ISCN)_](/recommendations/DNA/complex/)). For this translation the table below can be used. Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38. Translation is based on the UCSC cytoBand file downloadeds for [_hg19_](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [_hg38_](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
 
 |  Chromosome |   Band    |      Position (hg19/GRCh37)      |      Position (GRCh38)      |
 |:-----------:|:---------:|:---------------------------------:|:---------------------------------:|

@@ -36,7 +36,7 @@ The description is always given **in addition** to a decription based on the X-c
 
 The HGVS recommended format to describe frame shift variants gives the length of the shifted reading frame, it does not indicate the length of the reference protein sequence that has been deleted. Both the length of the shifted open reading frame, as well as the length of the deleted reference protein sequence will be important to predict the possible deleterious consequence of the variant: the larger the new/deleted sequence the more likely it will be deleterious. The question has been raised whether the description of a **frame shift** variant should also **include the length of the protein sequence deleted**.
 
-The format to describe frame shift variants has a **historic** background, it has the format already used before the HGVS nomenclature recommendations were first published (in 2000). [_In HGVS_](/recommendations/protein/variant/frameshift/), the frame shift is a special type of amino acid deletion/insertion which does not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon). From the consequence of variant NM_004006.3:c.2453del on protein level, p.Leu818CysfsTer2, one can therefore only see the new reading frame is just one amino acid long, not how many amino acids have been deleted. Describing this frame shift as a deletion-insertion, i.e. p.Leu818_Met3685delinsCys, would make it immediately clear the single Cys-residue replaces 2868 amino acids, undoubtedly having deleterious consequences.
+The format to describe frame shift variants has a **historic** background, it has the format already used before the HGVS nomenclature recommendations were first published (in 2000). [_In HGVS_](/recommendations/protein/frameshift/), the frame shift is a special type of amino acid deletion/insertion which does not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon). From the consequence of variant NM_004006.3:c.2453del on protein level, p.Leu818CysfsTer2, one can therefore only see the new reading frame is just one amino acid long, not how many amino acids have been deleted. Describing this frame shift as a deletion-insertion, i.e. p.Leu818_Met3685delinsCys, would make it immediately clear the single Cys-residue replaces 2868 amino acids, undoubtedly having deleterious consequences.
 
 <a name ="inshow"></a>
 
@@ -62,7 +62,7 @@ A new user group of the repeated sequence format is the forensics community. Ori
 
 ### Protein Extensions
 
-Would you consider a small change in the suggested nomenclature for the [_description of extensions_](/recommendations/protein/variant/extension/) from p.\*110Glnext\*17 to p.\*110Glnext17? (_Yael Shinar, Tel Hashomer, Israel_)
+Would you consider a small change in the suggested nomenclature for the [_description of extensions_](/recommendations/protein/extension/) from p.\*110Glnext\*17 to p.\*110Glnext17? (_Yael Shinar, Tel Hashomer, Israel_)
 
 The description of extensions can probably indeed be simplified. While for **extensions** we currently give the position of the new translation initiation (start) codon as "5" or of the termination (stop) codon as "\*17" this is strictly speaking not necessary. By defenition the extension goes upstream for an N-terminal change and downstream for a C-terminal change. Using p.Met1ext5 (now p.Met1ext-5) and p.\*110Glnext17 (now p.\*110Glnext\*17) therefore seems sufficient.
 

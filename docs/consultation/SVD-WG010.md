@@ -24,7 +24,7 @@ According to the current recommendations, the description of two variants which 
 
 #### Examples
 
-* LRG\_199t1:c.235\_236delinsTT : variants c.235A>T and c.236A>T are separated by fewer than two nucleotides and described as a "delins" variant (both affect the same amino acid residue): **NOTE:**    when the method used does not allow to determine whether the variants are on the same allele or not the variant should be described as LRG\_199t1:c.235A>T(;)237G>T ([_see Alleles_](/recommendations/DNA/variant/alleles/))
+* LRG\_199t1:c.235\_236delinsTT : variants c.235A>T and c.236A>T are separated by fewer than two nucleotides and described as a "delins" variant (both affect the same amino acid residue): **NOTE:**    when the method used does not allow to determine whether the variants are on the same allele or not the variant should be described as LRG\_199t1:c.235A>T(;)237G>T ([_see Alleles_](/recommendations/DNA/alleles/))
 * LRG\_199t1:c.235\_237delinsTAT : variants c.235A>T and c.237G>T are separated by fewer than two nucleotides and described as a "delins" variant (both affect the same amino acid residue)
 * LRG\_199t1:c.[235A>T;238G>T]: variants c.235A>T and c.238G>T are separated by two nucleotides and described as separate variants, not as "delins" (c.235_238delinsTAGT)
 * NC\_000023.10:g.32862927\_32862929delinsATA : variants g.32862927C>A and g.32862929T>A are separated by fewer than two nucleotides and described as a "delins" variant

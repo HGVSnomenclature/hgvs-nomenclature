@@ -52,22 +52,22 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 * "**<font color="red">-</font>**" (minus) is used in [_nucleotide numbering_](/background/numbering); c.124-56C>T
 * "**<font color="red">*</font>**" (asterisk) is used in [_nucleotide numbering_](/background/numbering) and to indicate a translation termination (stop) codon ([_see Standards_](/background/standards#RNAcode)); c.\*32G>A and p.Trp41\* 
 * "**<font color="red">_</font>**" (underscore) is used to indicate a range; g.12345\_12678del
-* "**<font color="red">[ ]</font>**" (square brackets) are used for alleles (see [_DNA_](/recommendations/DNA/variant/alleles), [_RNA_](/recommendations/RNA/variant/alleles), [_protein_](/recommendations/protein/variant/alleles)), which includes multiple inserted sequences at one position and insertions from a second reference sequence 
+* "**<font color="red">[ ]</font>**" (square brackets) are used for alleles (see [_DNA_](/recommendations/DNA/alleles), [_RNA_](/recommendations/RNA/alleles), [_protein_](/recommendations/protein/alleles)), which includes multiple inserted sequences at one position and insertions from a second reference sequence 
     * "**<font color="red">;</font>**" (semi colon) is used to separate variants and alleles; g.[123456A>G;345678G>C] or g.[123456A>G];[345678G>C]
     * "**<font color="red">,</font>**" (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u, 122\_154del]
     * NC\_000002.11:g.48031621\_48031622ins[TAT;48026961\_48027223;GGC]
     * NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
 * "**<font color="red">:</font>**" (colon) is used to separate the reference sequence file identifier (_accession.version\_number_) from the actual description of a variant; NC\_000011.9:g.12345611G>A
-* "**<font color="red">::</font>**" (double colon) is used to describe RNA fusion transcripts ([_RNA Deletion-insertion_](/recommendations/RNA/variant/delins/)) and to designate break point junctions creating a ring chromosome ([_DNA Complex (HGVS/ISCN)_](/recommendations/DNA/variant/complex/))
+* "**<font color="red">::</font>**" (double colon) is used to describe RNA fusion transcripts ([_RNA Deletion-insertion_](/recommendations/RNA/delins/)) and to designate break point junctions creating a ring chromosome ([_DNA Complex (HGVS/ISCN)_](/recommendations/DNA/complex/))
 * "**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)
     **NOTE**: the range of the uncertainty should be described as precisely as possible ([_see below_](#uncertain1))
 * "**<font color="red">?</font>**" (question mark) is used to indicate unknown positions (nucleotide or amino acid); g.(?\_234567)\_(345678\_?)del
 * "**<font color="red">^</font>**" (caret) is used as "or"; c.(370A>C^372C>R) as back translation of p.Ser124Arg (i.e. changing the AGC codon to CGC, AGG or AGA)
-* "**<font color="red">&gt;</font>**" (greater than) is used to describe substitution variants (DNA and RNA level); g.12345A>T, r.123a>u (see [_DNA_](/recommendations/DNA/variant/substitution), [_RNA_](/recommendations/RNA/variant/substitution))
+* "**<font color="red">&gt;</font>**" (greater than) is used to describe substitution variants (DNA and RNA level); g.12345A>T, r.123a>u (see [_DNA_](/recommendations/DNA/substitution), [_RNA_](/recommendations/RNA/substitution))
 * "**<font color="red">=</font>**" (equals) is used to indicate a sequence was tested but found unchanged; p.(Arg234=)
-* "**<font color="red">/</font>**" (forward slash) is used to indicate mosaicism ([_see Example DNA substitution_](/recommendations/DNA/variant/substitution/))
-* "**<font color="red">//</font>**" (double forward slash) is used to indicate chimerism ([_see Example DNA substitution_](/recommendations/DNA/variant/substitution/))
-* "**<font color="red">|</font>**" (pipe) is used to indicate that not a direct change of the sequence is described but a modification (a change of state, e.g. methylation). ([_see Example methylation_](/recommendations/DNA/variant/other/))
+* "**<font color="red">/</font>**" (forward slash) is used to indicate mosaicism ([_see Example DNA substitution_](/recommendations/DNA/substitution/))
+* "**<font color="red">//</font>**" (double forward slash) is used to indicate chimerism ([_see Example DNA substitution_](/recommendations/DNA/substitution/))
+* "**<font color="red">|</font>**" (pipe) is used to indicate that not a direct change of the sequence is described but a modification (a change of state, e.g. methylation). ([_see Example methylation_](/recommendations/DNA/other/))
 
 <a name="abbreviation"></a>
 
@@ -75,15 +75,15 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 
 Specific abbreviations are used to describe different variant types.
 
-* "**<font color="red">&gt;</font>**" (greater then) indicates a **substitution** (DNA and RNA level); g.123456G>A, r.123c>u (see [_DNA_](/recommendations/DNA/variant/substitution), [_RNA_](/recommendations/RNA/variant/substitution))
-    * a substitution at the protein level is described as p.Ser321Arg (see [_protein_](/recommendations/protein/variant/substitution)) 
-* "**<font color="red">del</font>**" indicates a **deletion**; c.76delA (see [_DNA_](/recommendations/DNA/variant/deletion), [_RNA_](/recommendations/RNA/variant/deletion), [_protein_](/recommendations/protein/variant/deletion))
-* "**<font color="red">dup</font>**" indicates a **duplication**; c.76dupA (see [_DNA_](/recommendations/DNA/variant/duplication), [_RNA_](/recommendations/RNA/variant/duplication), [_protein_](/recommendations/protein/variant/duplication))
-* "**<font color="red">ins</font>**" indicates an **insertion**; c.76\_77insG (see [_DNA_](/recommendations/DNA/variant/insertion), [_RNA_](/recommendations/RNA/variant/insertion), [_protein_](/recommendations/protein/variant/insertion))
+* "**<font color="red">&gt;</font>**" (greater then) indicates a **substitution** (DNA and RNA level); g.123456G>A, r.123c>u (see [_DNA_](/recommendations/DNA/substitution), [_RNA_](/recommendations/RNA/substitution))
+    * a substitution at the protein level is described as p.Ser321Arg (see [_protein_](/recommendations/protein/substitution)) 
+* "**<font color="red">del</font>**" indicates a **deletion**; c.76delA (see [_DNA_](/recommendations/DNA/deletion), [_RNA_](/recommendations/RNA/deletion), [_protein_](/recommendations/protein/deletion))
+* "**<font color="red">dup</font>**" indicates a **duplication**; c.76dupA (see [_DNA_](/recommendations/DNA/duplication), [_RNA_](/recommendations/RNA/duplication), [_protein_](/recommendations/protein/duplication))
+* "**<font color="red">ins</font>**" indicates an **insertion**; c.76\_77insG (see [_DNA_](/recommendations/DNA/insertion), [_RNA_](/recommendations/RNA/insertion), [_protein_](/recommendations/protein/insertion))
     * duplicating insertions are described as duplications, not as insertions    
-* "**<font color="red">inv</font>**" indicates an **inversion**; c.76\_83inv (see [_DNA_](/recommendations/DNA/variant/inversion), [_RNA_](/recommendations/RNA/variant/inversion)). Not used at protein level, usually described as [_"delins"_](/recommendations/protein/variant/delins/)
-* "**<font color="red">fs</font>**" indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, [_see Frame shifts_](/recommendations/protein/variant/frameshift))
-* "**<font color="red">ext</font>**" indicates an **extension**; p.Met1**<font color="red">ext</font>**-5 ([_see Extension_](/recommendations/protein/variant/extension))
+* "**<font color="red">inv</font>**" indicates an **inversion**; c.76\_83inv (see [_DNA_](/recommendations/DNA/inversion), [_RNA_](/recommendations/RNA/inversion)). Not used at protein level, usually described as [_"delins"_](/recommendations/protein/delins/)
+* "**<font color="red">fs</font>**" indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, [_see Frame shifts_](/recommendations/protein/frameshift))
+* "**<font color="red">ext</font>**" indicates an **extension**; p.Met1**<font color="red">ext</font>**-5 ([_see Extension_](/recommendations/protein/extension))
 
 * HGVS/ISCN ([_see Community Consultation_](http://www.hgvs.org/mutnomen/comments004.html))
     * "**<font color="red">cen</font>**" indicates the **centromere** of a chromosome
