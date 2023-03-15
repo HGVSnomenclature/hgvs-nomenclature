@@ -5,9 +5,9 @@
 Please note that this Glossary is **work in progress**. Do you encounter missing terms or want to suggest definitions, please let us know.
 
 * 3'rule: for all descriptions the most 3’ position possible of the reference sequence is arbitrarily assigned to have been changed. When ATTTG changes to ATTG HGVS describes this as a change of the T at position 4 (not the T at position 2 or 3) 
-* allele: variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele)): **HGVS**: a series of variants on one chromosome.: descriptions _see Recommendations_ [_DNA_](../recommendations/DNA/alleles/), [_RNA_](../recommendations/RNA/alleles/) or [_protein_](../recommendations/protein/alleles/).
+* allele: variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele)): **HGVS**: a series of variants on one chromosome.: descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/alleles/), [_RNA_](/recommendations/RNA/alleles/) or [_protein_](/recommendations/protein/alleles/).
 
-* amino acid: a letter from the protein code ([_see Standards_](../standards/)).
+* amino acid: a letter from the protein code ([_see Standards_](/background/standards/)).
 
 * cap site: first nucleotide of a transcript (5' end) to which a specially altered nucleotide is added.
 
@@ -17,7 +17,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * CDS: coding DNA sequence, a sequence translated in to an amino acid sequence (protein).
 
-* chimerism: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism)). Opposite of mosaicism.: descriptions [_see General/Charcters used_](../recommendations/general#characters).
+* chimerism: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism)). Opposite of mosaicism.: descriptions [_see General/Charcters used_](/recommendations/general#characters).
 
 * cis: two variants are **"in cis"** when they are on the same allele (DNA molecule, chromosome).
     
@@ -25,23 +25,23 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 * coding DNA: the segments of a genome or segment of a transcript (RNA molecule) which codes for a protein.
 
-* coding DNA reference sequence: a DNA reference sequence ([_see Reference Sequence_](../refseq/#DNAc)), based on a protein-coding transcript of a gene, which can be used for nucleotide numbering using the "c." prefix. Such a reference sequence includes the coding DNA sequence (CDS) and the 5' and 3' UTR regions.: **NOTE:** a coding DNA reference sequence is **not** a cDNA sequence (see above)
+* coding DNA reference sequence: a DNA reference sequence ([_see Reference Sequence_](/background/refseq/#DNAc)), based on a protein-coding transcript of a gene, which can be used for nucleotide numbering using the "c." prefix. Such a reference sequence includes the coding DNA sequence (CDS) and the 5' and 3' UTR regions.: **NOTE:** a coding DNA reference sequence is **not** a cDNA sequence (see above)
 
 * complex: **HGVS**: a sequence change where, compared to a reference sequence, a range of changes occur that can not be described as one of the basic variant types (substitution, deletion, duplication, insertion, conversion, inversion, deletion-insertion, or repeated sequence).
 
 * compound heterozygote: used in cases of _autosomal recessive_ disease where the disease-causing variants on both alleles at a given locus are **not identical** (opposite of _homozygous_)
     
-* conversion: **HGVS**-DNA: a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.: **NOTE:** conversion variants are described as a Deletion-Insertion (see [_DNA_](../recommendations/DNA/delins/) or [_RNA_](../recommendations/RNA/delins/)).
+* conversion: **HGVS**-DNA: a sequence change where, compared to a reference sequence, a range of nucleotides are replaced by a sequence from elsewhere in the genome.: **NOTE:** conversion variants are described as a Deletion-Insertion (see [_DNA_](/recommendations/DNA/delins/) or [_RNA_](/recommendations/RNA/delins/)).
 
 * Crick strand: see plus (+) strand.
 
 * deletion
     * one or more letters of the DNA code are missing (deleted). A deletion is indicated using a **"del"**
-    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).: descriptions _see Recommendations_ [_DNA_](../recommendations/DNA/deletion/), [_RNA_](../recommendations/RNA/deletion/) or [_protein_](../recommendations/protein/deletion/).
+    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).: descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/deletion/), [_RNA_](/recommendations/RNA/deletion/) or [_protein_](/recommendations/protein/deletion/).
 
 * deletion-insertion (delins)
     * one or more letters in the DNA code are missing and replaced by several new letters
-    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion..: descriptions _see Recommendations_ [_DNA_](../recommendations/DNA/indel/), [_RNA_](../recommendations/RNA/indel/) or [_protein_](../recommendations/protein/indel/).
+    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion..: descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/indel/), [_RNA_](/recommendations/RNA/indel/) or [_protein_](/recommendations/protein/indel/).
 
 * der: see derivative chromosome
     
@@ -49,15 +49,15 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 * duplication
     * one or more letters of the DNA code are present twice (doubled, duplicated)
-    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.: **NOTE:** diagnostic assays (like MLPA) usually detect **an additional copy** of a specific sequence. Whether the additional copy is a duplication or an insertion remains to be determined.: descriptions _see Recommendations_ [_DNA_](../recommendations/DNA/duplication/), [_RNA_](../recommendations/RNA/duplication/) or [_protein_](../recommendations/protein/duplication/).
+    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.: **NOTE:** diagnostic assays (like MLPA) usually detect **an additional copy** of a specific sequence. Whether the additional copy is a duplication or an insertion remains to be determined.: descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/duplication/), [_RNA_](/recommendations/RNA/duplication/) or [_protein_](/recommendations/protein/duplication/).
 
 * exon: any nucleotide sequence within a gene which, during maturation of the RNA transcript, is not removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Exon), [MESH](https://www.ncbi.nlm.nih.gov/mesh/68005091)). Every exon, except the first and lat exon, is flanked by two **introns**.
     
-* extension: a sequence change extending the reference amino acid sequence at the N- or C-terminal end with one or more amino acids ([_protein_](../recommendations/protein/extension/)).
+* extension: a sequence change extending the reference amino acid sequence at the N- or C-terminal end with one or more amino acids ([_protein_](/recommendations/protein/extension/)).
 
 * frame (reading frame): **frame 1** is the normal reading frame, using the first nucleotide of each coding triplet of the annotated amino acid reference sequence for translation, starting at the A of the ATG translation initiation codon (nucleotide c.1): **frame 2** is the reading frame using the second nucleotide of the annotated amino acid reference sequence as first nucleotide of a coding triplet for translation in the shifted reading frame: **frame 3** is the reading frame using the third nucleotide of the annotated amino acid reference sequence as first nucleotide of a coding triplet for translation in the shifted reading frame.
 
-* frame shift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([_protein_](../recommendations/protein/frameshift/))
+* frame shift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([_protein_](/recommendations/protein/frameshift/))
     
 * fusion transcript: a transcript (RNA molecule) which consist of parts of transcripts from two or more genes, resulting from a translocation, deletion, or inversion.
 
@@ -77,13 +77,13 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * insertion
     * one or more letters in the DNA, RNA or amino acid code are new (have been inserted)
-    * **HGVS**-DNA: a sequence change where, compared to the reference sequence, one or more residues are inserted and where the insertion is not a copy of a sequence immediately upstream.: descriptions _see Recommendations_ [_DNA_](../recommendations/DNA/insertion/), [_RNA_](../recommendations/RNA/insertion/) or [_protein_](../recommendations/protein/insertion/).
+    * **HGVS**-DNA: a sequence change where, compared to the reference sequence, one or more residues are inserted and where the insertion is not a copy of a sequence immediately upstream.: descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/insertion/), [_RNA_](/recommendations/RNA/insertion/) or [_protein_](/recommendations/protein/insertion/).
 
 * intron: any nucleotide sequence within a gene which, during maturation of the RNA transcript, is removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Intron), [MESH](https://www.ncbi.nlm.nih.gov/mesh/68007438)). Every intron is flanked by two **exons**.
 
-* inversion: **HGVS**-DNA: a sequence change where, compared to a reference sequence, more than one nucleotide replacing the original sequence are the reverse complement of the original sequence.: descriptions _see Recommendations_ [_DNA_](../recommendations/DNA/inversion/) or [_RNA_](../recommendations/RNA/inversion/).
+* inversion: **HGVS**-DNA: a sequence change where, compared to a reference sequence, more than one nucleotide replacing the original sequence are the reverse complement of the original sequence.: descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/inversion/) or [_RNA_](/recommendations/RNA/inversion/).
     
-* ISCN: International System for Cytogenetic Nomenclature [_(see ISCN)_](../consultation/ISCN), covering the description of numerical and structural chromosomal changes detected using microscopic and cytogenetic techniques.: descriptions _see Recommendations_ [_DNA - Complex (HGVS<>ISCN)_](../recommendations/DNA/complex/).
+* ISCN: International System for Cytogenetic Nomenclature [_(see ISCN)_](/consultation/ISCN), covering the description of numerical and structural chromosomal changes detected using microscopic and cytogenetic techniques.: descriptions _see Recommendations_ [_DNA - Complex (HGVS<>ISCN)_](/recommendations/DNA/complex/).
 
 * Kozak sequence: a consensus sequence, including the ATG translation initiation codon, playing a role in the initiation of translation
 
@@ -97,10 +97,10 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     * a variant in which a codon is changed to one directing the incorporation of a different amino acid (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=missense)).
     * **HGVS**: a variant in a protein sequence where compared to the reference sequence one amino acid is replaced by another amino acid.
 
-* mosaicism: the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=mosaicism)). Opposite of chimerism.: descriptions [_see General/Characters used_](../recommendations/general#characters).
+* mosaicism: the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=mosaicism)). Opposite of chimerism.: descriptions [_see General/Characters used_](/recommendations/general#characters).
     
-* mutation: _**NOTE**:_ please do not use this term, [_see Terminology_](../basics/).
-    * **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](../basics/))
+* mutation: _**NOTE**:_ please do not use this term, [_see Terminology_](/background/basics/).
+    * **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/background/basics/))
     * **biology**: a change in the sequence
     * **medicine**: a sequence variant **associated** with a disease phenotype.
 
@@ -110,7 +110,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     * a variant that changed an amino acid-specifying codon to a stop codon (termination codon, based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=nonsense)).
     * **HGVS**: a variant in a protein sequence where compared to the reference sequence an amino acid is replaced by a translational stop codon (termination codon).
 
-* nucleotide: a letter from the DNA code, e.g. A, C, G, or T ([_see Standards_](../standards/)).
+* nucleotide: a letter from the DNA code, e.g. A, C, G, or T ([_see Standards_](/background/standards/)).
 
 * plus (+) strand: the top strand of the reference genome. Alias positive strand, Crick strand.
 
@@ -120,15 +120,15 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 <a name="polymorphism"></a>
 * polymorphism: _**NOTE**:_ please do not use this term, [_see Terminology_](bg-material/basics/).
-    * **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](../basics/))
+    * **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](/background/basics/))
     * **biology**: a sequence variant present in the population at a frequency of 1% or higher
     * **medicine**: a sequence variant **not associated** with a disease phenotype
 
 * positive (+) strand: see plus (+) strand.
 
-* quadruplication: a sequence change where, compared to a reference sequence, three copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](../recommendations/DNA/duplication/)).
+* quadruplication: a sequence change where, compared to a reference sequence, three copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/duplication/)).
 
-* quintuplication: a sequence change where, compared to a reference sequence, four copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](../recommendations/DNA/duplication/)).
+* quintuplication: a sequence change where, compared to a reference sequence, four copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/duplication/)).
 
 * reading frame: one of three possible ways to translate a nucleotide sequence in to an amino acid sequence (a protein): see also **frame**
 
@@ -158,7 +158,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * substitution
     * one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter 
-    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.: descriptions _see Recommendations_ [_DNA_](../recommendations/DNA/substitution/), [_RNA_](../recommendations/RNA/substitution/) or [_protein_](../recommendations/protein/substitution/).
+    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.: descriptions _see Recommendations_ [_DNA_](/recommendations/DNA/substitution/), [_RNA_](/recommendations/RNA/substitution/) or [_protein_](/recommendations/protein/substitution/).
    
 * SV: see Structural Variant.
 
@@ -176,7 +176,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * transversion: a nucleotide variant changing a purine nucleotide to a pyrimidine nucleotide (A or G > T or C), or a pyrimidine nucleotide to a purine nucleotide (C or T > A or G)
 
-* triplication: a sequence change where, compared to a reference sequence, two copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](../recommendations/DNA/duplication/)).
+* triplication: a sequence change where, compared to a reference sequence, two copies of a sequence are inserted directly 3' of the original copy of that sequence (_see Recommendations_ [_DNA_](/recommendations/DNA/duplication/)).
 
 * trisomy: the presence of a third chromosome of any one type in an otherwise diploid cell ([MESH](http://www.ncbi.nlm.nih.gov/mesh/?term=trisomy)).
 
