@@ -41,7 +41,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * deletion-insertion (delins)
     * one or more letters in the DNA code are missing and replaced by several new letters
-    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion..: descriptions _see Recommendations_ [_DNA_](../../recommendations/DNA/indel/), [_RNA_](../../recommendations/RNA/indel/) or [_protein_](../../recommendations/protein/indel/).
+    * **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion..: descriptions _see Recommendations_ [_DNA_](../../recommendations/DNA/delins/), [_RNA_](../../recommendations/RNA/delins/) or [_protein_](../../recommendations/protein/delins/).
 
 * der: see derivative chromosome
     
@@ -119,7 +119,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 * polyA signal: a sequence in the 3' UTR of a transcript signalling the downstream cleavage and addition of a polyA tail 
     
 <a name="polymorphism"></a>
-* polymorphism: _**NOTE**:_ please do not use this term, [_see Terminology_](bg-material/basics/).
+* polymorphism: _**NOTE**:_ please do not use this term, [_see Terminology_](../basics/).
     * **HGVS**: confusing term, do not use, use **variant** ([_see Basics_](../basics/))
     * **biology**: a sequence variant present in the population at a frequency of 1% or higher
     * **medicine**: a sequence variant **not associated** with a disease phenotype

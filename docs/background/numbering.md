@@ -33,7 +33,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
     * **<font color="red">NOTE:</font>** a coding DNA reference sequence **does not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used as a reference** to describe variants in these regions [_see Reference Sequences_](../refseq/#DNAc). Correct descriptions refer to a genomic reference sequence like LRG\_199t1:c.357+1G>A, NC\_000023.10(NM\_004006.2):c.357+1G>A or NG\_012232.1(NM\_004006.2):c.357+1G>A.
 * **transcript flanking**
 :    it is **not** allowed to describe variants in nucleotides beyond the boundaries of the reference sequence using the reference sequence
-    * suggestions made to extend the recommendations for nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides have been made but were rejected ([_see Open Issues_](../../recommendations/open-issues)).
+    * suggestions made to extend the recommendations for nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides have been made but were rejected ([_see Open Issues_](../../consultation/open-issues)).
 
 Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf) and [Den Dunnen & Antonarakis (2000)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf)) suggested two alternative descriptions for intronic variants; c.88+2T>G / c.89-1G>T and c.IVS2+2T>G / c.IVS2-1G>T. The format **c.IVS2+2T>G / c.IVS2-1G>T** has been retracted and **should not be used**. 
 
