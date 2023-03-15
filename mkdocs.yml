@@ -1,0 +1,71 @@
+# See https://squidfunk.github.io/mkdocs-material/
+# https://www.mkdocs.org/user-guide/deploying-your-docs/#organization-and-user-pages
+# https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins
+
+site_name: "HGVS Nomenclature"
+
+plugins:
+  #- autolinks
+  - awesome-pages
+  #- mermaid2
+  - search
+  #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      toc_depth: 1
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/biocommons
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/biocommons_ann
+  #version:
+  #  provider: mike
+
+extra_css:
+  - stylesheets/extra.css
+
+# extra_javascript:
+#   - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+theme:
+  name: material
+  #custom_dir: overrides
+
+  features:
+    - navigation.indexes
+    - navigation.instant
+    #- navigation.tabs.sticky
+    #- navigation.expand
+    - navigation.tracking
+    #- navigation.sections
+    - search.highlight
+    - toc.follow
+    - toc.integrate
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: hvnc
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Ubuntu
+    code: Roboto Mono
+#  logo: images/hgvs-logo.png
+#  favicon: images/hgvs-logo.png
