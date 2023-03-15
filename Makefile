@@ -68,7 +68,7 @@ rename2:
 
 overlay:
 	# overlay manually edited files from previous commit 
-	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets,background/.pages,recommendations/.pages,consultation/.pages,tests}
+	git checkout HEAD -- docs/{.pages,images,index.md,stylesheets,background/.pages,recommendations/.pages,consultation/.pages}
 
 misc-governance:
 	perl -i -p0 \
