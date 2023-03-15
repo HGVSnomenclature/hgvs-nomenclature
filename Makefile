@@ -27,7 +27,7 @@ copy:
 	rm -fr docs && cp -a ../VarNomen docs
 
 prune:
-	rm -fr docs/{.git,.gitignore,404.html,CNAME,contact.html,history-1996.html,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp}
+	rm -fr docs/{.git,.gitignore,404.html,CNAME,contact.html,history-1996.html,README.md,_config.yml,_includes,_layouts,css,fonts,index.html,js,tmp,_recommendations/index.html,_bg-material/index.html}
 
 # rename1 is required before adaptation because of file path inspection
 rename1:
@@ -79,3 +79,8 @@ misc-governance:
 
 rel-links:
 	./bin/abs-links-to-rel-links docs/**/*.md
+
+check-links:
+	mkdocs build
+	./bin/check-relative-links site/**/*.html
+	

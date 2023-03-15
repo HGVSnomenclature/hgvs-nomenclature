@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+
+"""checks relative links in generated html"""
+
+import collections
+import json
+import logging
+import pathlib
+import re
+import sys
+
+_logger = logging.getLogger()
+
+href_re = re.compile(r'<a href="((?!\#|http)[^\"]+)">')
+
+# main-ish
+
+logging.basicConfig(level="INFO")
+
+uris_seen = collections.defaultdict(lambda: collections.defaultdict(set))
+files_seen = collections.defaultdict(lambda: collections.defaultdict(set))
+
+for path in sys.argv[1:]:
+    assert path.endswith(".html"), "Doh! Only html files are accepted."
+    p = pathlib.Path(path)
+    c = p.open().read()
+    for m in href_re.finditer(c):
+        uri = m.group(1)
+        target = p.parent / uri
+        bin = "ok" if target.exists() else "broken"
+        uris_seen[uri][bin].update([path])
+        files_seen[path][bin].update([uri])
+  
+bins = ["ok", "broken"]
+max_items = 5
+
+#uris_unset = {uri: {bin: list(data[bin]) for bin in bins} for uri,data in uris_seen.items()}
+#print(json.dumps(uris_unset, indent=2))
+files_unset = {path: {bin: list(data[bin])[:max_items] for bin in bins} for path,data in files_seen.items() if data["broken"]}
+print(json.dumps(files_unset, indent=2))
+
+#uris_broken = {uri: list(data["broken"]) for uri,data in uris_seen.items() if data["broken"]}
+#print(json.dumps(uris_broken, indent=2))
+
+#files_broken = {path: list(data["broken"]) for path,data in files_seen.items() if data["broken"]}
+#print(json.dumps(files_broken, indent=2))

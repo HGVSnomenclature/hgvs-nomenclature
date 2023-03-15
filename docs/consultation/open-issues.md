@@ -8,7 +8,7 @@ There are currently no proposals open for Community Consulation.
 
 ## Ongoing discussions
 
-For closed topics [see below](../recommendations/open-issues#closedtopics)/.
+For closed topics [see below](../recommendations/open-issues#closedtopics).
 
 ## Introduction
 
@@ -20,9 +20,9 @@ Basically, these variant types refer to the (expected) biological process genera
 
 ### Beyond transcripts
 
-Current HGVS recommendations state ([_see Reference Sequences_](../background/refseq/)/):  "5’ and 3’ flanking sequences are considered to be **outside the boundaries** of a transcript reference sequence and **can not be used** to describe variants". As a consequence, variants removing an entire gene or the 5' or 3' end of a transcript can only be described using chromosomal genomic coordinates (g.). This complicates variant reporting for diagnostic laboratories, usually reporting variants based on a coding DNA reference sequence (c.). In addition, such variants can not be shown in databases listing variants based on a "c." description.
+Current HGVS recommendations state ([_see Reference Sequences_](../background/refseq/)):  "5’ and 3’ flanking sequences are considered to be **outside the boundaries** of a transcript reference sequence and **can not be used** to describe variants". As a consequence, variants removing an entire gene or the 5' or 3' end of a transcript can only be described using chromosomal genomic coordinates (g.). This complicates variant reporting for diagnostic laboratories, usually reporting variants based on a coding DNA reference sequence (c.). In addition, such variants can not be shown in databases listing variants based on a "c." description.
 
-The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](../recommendations/open-issues#geneflanking)/" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
+The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](../recommendations/open-issues#geneflanking)" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
 
 * NM\_004006.2:c.-244\_\*2691{0}: describes a deletion of the entire coding DNA reference sequence of the DMD gene
 * NM\_004006.2:c.-244\_187{0}: describes a deletion including the transcription start site (cap site) of the DMD gene
@@ -36,7 +36,7 @@ The description is always given **in addition** to a decription based on the X-c
 
 The HGVS recommended format to describe frame shift variants gives the length of the shifted reading frame, it does not indicate the length of the reference protein sequence that has been deleted. Both the length of the shifted open reading frame, as well as the length of the deleted reference protein sequence will be important to predict the possible deleterious consequence of the variant: the larger the new/deleted sequence the more likely it will be deleterious. The question has been raised whether the description of a **frame shift** variant should also **include the length of the protein sequence deleted**.
 
-The format to describe frame shift variants has a **historic** background, it has the format already used before the HGVS nomenclature recommendations were first published (in 2000). [_In HGVS_](../recommendations/protein/frameshift/)/, the frame shift is a special type of amino acid deletion/insertion which does not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon). From the consequence of variant NM_004006.3:c.2453del on protein level, p.Leu818CysfsTer2, one can therefore only see the new reading frame is just one amino acid long, not how many amino acids have been deleted. Describing this frame shift as a deletion-insertion, i.e. p.Leu818_Met3685delinsCys, would make it immediately clear the single Cys-residue replaces 2868 amino acids, undoubtedly having deleterious consequences.
+The format to describe frame shift variants has a **historic** background, it has the format already used before the HGVS nomenclature recommendations were first published (in 2000). [_In HGVS_](../recommendations/protein/frameshift/), the frame shift is a special type of amino acid deletion/insertion which does not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon). From the consequence of variant NM_004006.3:c.2453del on protein level, p.Leu818CysfsTer2, one can therefore only see the new reading frame is just one amino acid long, not how many amino acids have been deleted. Describing this frame shift as a deletion-insertion, i.e. p.Leu818_Met3685delinsCys, would make it immediately clear the single Cys-residue replaces 2868 amino acids, undoubtedly having deleterious consequences.
 
 <a name ="inshow"></a>
 
@@ -62,7 +62,7 @@ A new user group of the repeated sequence format is the forensics community. Ori
 
 ### Protein Extensions
 
-Would you consider a small change in the suggested nomenclature for the [_description of extensions_](../recommendations/protein/extension/)/ from p.\*110Glnext\*17 to p.\*110Glnext17? (_Yael Shinar, Tel Hashomer, Israel_)
+Would you consider a small change in the suggested nomenclature for the [_description of extensions_](../recommendations/protein/extension/) from p.\*110Glnext\*17 to p.\*110Glnext17? (_Yael Shinar, Tel Hashomer, Israel_)
 
 The description of extensions can probably indeed be simplified. While for **extensions** we currently give the position of the new translation initiation (start) codon as "5" or of the termination (stop) codon as "\*17" this is strictly speaking not necessary. By defenition the extension goes upstream for an N-terminal change and downstream for a C-terminal change. Using p.Met1ext5 (now p.Met1ext-5) and p.\*110Glnext17 (now p.\*110Glnext\*17) therefore seems sufficient.
 
@@ -71,7 +71,7 @@ The description of extensions can probably indeed be simplified. While for **ext
 ### Modifications
 
 Aug.24 (2011) - JT den Dunnen
-HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](../SVD-WG005/)/ makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the “|” character (“pipe”) to indicate that not a direct change of the sequence is described but a modification (change of state).
+HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [_SVD-WG005 (gom/lom)_](../SVD-WG005/) makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the “|” character (“pipe”) to indicate that not a direct change of the sequence is described but a modification (change of state).
 
 <a name ="amount"></a>
 
@@ -99,7 +99,7 @@ The use of the "**@**" character versus other characters (&, $, ~, #) is of cour
 
 Using the description r.143c>u on RNA level suggests a substitution. There are several types of RNA editing and "r.143c" probably does not really change to a "u". All we can say is that the polymerases used to make a copy inserted an "a". At some point we probably need to suggest ways to exactly describe the chemical modification made by the RNA editing enzyme but we can do that later. Making such recommendations can then be combined with those for DNA modifications (like methylation with methyl or hydroxy-methyl groups) making sure they follow the same rules.
 
-The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [_SVD-WG001_](../SVD-WG001/)/ more or less opened the option for such marks.
+The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [_SVD-WG001_](../SVD-WG001/) more or less opened the option for such marks.
 
 <a name ="exonnumbering"></a>
 
@@ -137,7 +137,7 @@ After careful consideration the decision was made **not to accept** this proposa
 ### Numbering gene flanking nucleotides
 
 **The proposal has been REJECTED**
-The current recommendation to describe variants based on a coding DNA reference sequence is to use "c.-" numbers for nucleotides 5' of the ATG translation initiation codon and "c.\*" numbers for nucleotides 3' of the translation termination codon [_see Numbering_](../background/numbering/)/. However, such descriptions do not show whether the nucleotides are **inside or outside** the transcribed region. The request has been filed (_PEM Taschner, Leiden, Nederland_) to make a discrimination between transcribed and un-transcribed nucleotides using the format;
+The current recommendation to describe variants based on a coding DNA reference sequence is to use "c.-" numbers for nucleotides 5' of the ATG translation initiation codon and "c.\*" numbers for nucleotides 3' of the translation termination codon [_see Numbering_](../background/numbering/). However, such descriptions do not show whether the nucleotides are **inside or outside** the transcribed region. The request has been filed (_PEM Taschner, Leiden, Nederland_) to make a discrimination between transcribed and un-transcribed nucleotides using the format;
 
 * c.-N-uM  =  nucleotide uM is at position -M upstream (u) of nucleotide c.-N, the transcription initiation site (cap-site) of the reference transcript, e.g. c.-237-u29A>G (currently c.-266A>G): **NOTE**:    restricted to nucleotides 5' of the transcription initiation site (cap site), i.e. upstream of the gene (incl. the promoter)
 * c.\*N+dM  =  nucleotide dM is at position +M downstream (d) of nucleotide c.\*N, the polyA-addition site of the reference transcript, e.g. \*237+d133A>G (currently c.\*370A>G): **NOTE**:    restricted to nucleotides 3' of the polyA-addition site, i.e. downstream of the gene

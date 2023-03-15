@@ -19,15 +19,15 @@ Format:   **"prefix""position(s)\_duplicated""dup"**,  e.g. r.123\_345dup
 * “positions_duplicated” should contain two different positions, e.g. 123_126 not 123_123.
 * the “positions_duplicated” should be listed from 5’ to 3’, e.g. 123_126 not 126_123.
 * by definition, duplication may only be used when the additional copy is **directly 3’-flanking** of the original copy (a “tandem duplication”).
-    * when a variant can be described as a duplication it **must** be desribed as a duplication and not as e.g. an insertion (see [_Prioritization_](../general/)/)
-    * when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking) the original copy, the change can not be described as a duplication, it should be described as **an insertion** ([_see Insertion_](../insertion/)/).
-    * **inverted duplications** are described as insertion (r.234\_235ins123\_234inv), not as a duplication ([_see Inversion_](../inversion)/)
+    * when a variant can be described as a duplication it **must** be desribed as a duplication and not as e.g. an insertion (see [_Prioritization_](../general/))
+    * when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking) the original copy, the change can not be described as a duplication, it should be described as **an insertion** ([_see Insertion_](../insertion/)).
+    * **inverted duplications** are described as insertion (r.234\_235ins123\_234inv), not as a duplication ([_see Inversion_](../inversion))
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
     * the 3'rule also applies for changes in single residue stretches and tandem repeats
-    * **NOTE:** the exception to the 3'rule for duplications around exon/exon junctions  [_see Duplications_](../DNA/duplication/)/ does not apply when describing variants based on a RNA reference sequence
+    * **NOTE:** the exception to the 3'rule for duplications around exon/exon junctions  [_see Duplications_](../DNA/duplication/) does not apply when describing variants based on a RNA reference sequence
 ## Examples
 
-* r.7dup (one nucleotide): the duplication of a "u" at position r.7 in the sequence ..acuuacugcc.. to ..acuuacu**<font color="red">u</font>**gcc..: **NOTE**: it is **not** allowed to describe the variant as r.6\_7insu ([_see prioritisation_](../general/)/)
+* r.7dup (one nucleotide): the duplication of a "u" at position r.7 in the sequence ..acuuacugcc.. to ..acuuacu**<font color="red">u</font>**gcc..: **NOTE**: it is **not** allowed to describe the variant as r.6\_7insu ([_see prioritisation_](../general/))
 * r.6\_8dup (several nucleotides): a duplication from position r.6 to r.8 in the sequence ..acaauugcc.. to ..acaauugc**<font color="red">ugc</font>**c..: **NOTE**: it is allowed to describe the variant as g.6_8dupugc
 ## Discussion
 
