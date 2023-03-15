@@ -8,7 +8,7 @@ There are currently no proposals open for Community Consulation.
 
 ## Ongoing discussions
 
-For closed topics [see below](../../recommendations/open-issues#closedtopics).
+For closed topics [see below](#closedtopics).
 
 ## Introduction
 
@@ -22,7 +22,7 @@ Basically, these variant types refer to the (expected) biological process genera
 
 Current HGVS recommendations state ([_see Reference Sequences_](../../background/refseq/)):  "5’ and 3’ flanking sequences are considered to be **outside the boundaries** of a transcript reference sequence and **can not be used** to describe variants". As a consequence, variants removing an entire gene or the 5' or 3' end of a transcript can only be described using chromosomal genomic coordinates (g.). This complicates variant reporting for diagnostic laboratories, usually reporting variants based on a coding DNA reference sequence (c.). In addition, such variants can not be shown in databases listing variants based on a "c." description.
 
-The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](../../recommendations/open-issues#geneflanking)" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
+The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[_Numbering gene flanking nucleotides_](#geneflanking)" has been rejected, the issue is not silenced. The [_Global Variome shared LOVD_](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.*2691 in the examples below).
 
 * NM\_004006.2:c.-244\_\*2691{0}: describes a deletion of the entire coding DNA reference sequence of the DMD gene
 * NM\_004006.2:c.-244\_187{0}: describes a deletion including the transcription start site (cap site) of the DMD gene

@@ -21,12 +21,11 @@ Below an overview of publications on the subject of sequence variant description
 #### 1998
 
 * Antonarakis SE (1998). Recommendations for a nomenclature system for human gene mutations. [Hum. Mutat. 11:1-3](http://www3.interscience.wiley.com/cgi-bin/fulltext/5001291/PDFSTART).
-    * [_Original discussion document_](../history-1996.html).
 
 #### 2000
 
 * Den Dunnen JT, Antonarakis SE (2000). Mutation nomenclature extensions and suggestions to describe complex mutations: a discussion. [Hum. Mutat. 15:7-12](http://www3.interscience.wiley.com/cgi-bin/fulltext/68503056/PDFSTART).  
-    * A modified version of this paper was published as; _Den Dunnen JT, Antonarakis SE (2001). Nomenclature for the description of human sequence variations_. [Hum. Genet. 109:121-124](link.springer.com/article/10.1007/s004390100505).
+    * A modified version of this paper was published as; _Den Dunnen JT, Antonarakis SE (2001). Nomenclature for the description of human sequence variations_. [Hum. Genet. 109:121-124](https://link.springer.com/article/10.1007/s004390100505).
 
 #### 2003
 
