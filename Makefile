@@ -20,7 +20,7 @@ remigrate:
 	make rename2
 	make overlay
 	make misc-governance
-	make rel-links
+	#make rel-links
 	# prettier -w docs/**/*.md    # messes up 
 
 copy:
