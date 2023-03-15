@@ -10,6 +10,7 @@
 - top citation
 - md lint and reformat
 - remove html wherever possible
+- expunge varnomen and mutnomen
 
 ## Consider
 
@@ -19,6 +20,8 @@
 - move simple to the top
 - move SVD-WGxxx to discussions
 - a note about our name
+- drop facebook discussion forum
+- decide new email addresses (group?) and replace
 
 ## Done
 
