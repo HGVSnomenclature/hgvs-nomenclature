@@ -6,6 +6,10 @@
 - write versioning doc
 - cleanup Governance
 - intro page for recommendations
+- incorporate community process into pages
+- top citation
+- md lint and reformat
+- remove html wherever possible
 
 ## Consider
 
@@ -13,6 +17,8 @@
 - number sections
 - rename "Description" section of recommendations
 - move simple to the top
+- move SVD-WGxxx to discussions
+- a note about our name
 
 ## Done
 
