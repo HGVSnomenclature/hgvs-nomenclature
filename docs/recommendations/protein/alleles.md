@@ -34,7 +34,7 @@ Format (two alleles):   **"prefix"["variant"];["variant"]**,  e.g. p.[(Ser73Arg)
 * when two variants are identified in two different proteins that derive from **one variant** at the DNA level (giving two different transcripts) the variants are separated using a "<font color="red">,</font>"; p.[variant1<font color="red">,</font>variant2]"
 ## Examples
 
-For more examples [_see DNA alleles_](/recommendations/DNA/alleles/).
+For more examples [_see DNA alleles_](../../DNA/alleles/).
 
 * **variants on one allele**
     * NP\_003997.1:p.[Ser68Arg;Asn594del]: a protein allele contains two different variants, p.Ser68Arg and p.Asn594del (the variants are found **in cis**)

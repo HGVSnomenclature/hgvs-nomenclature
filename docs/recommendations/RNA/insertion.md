@@ -18,11 +18,11 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. r.123\_1
 * **prefix** reference sequences accepted are r. (coding and non-coding RNA).
 * the "positions_flanking" should contain **two flanking nucleotides**, e.g. 123 and 124 but not 123 and 125.
     * the “positions_flanking” should be listed from 5’ to 3’, e.g. 123_124 not 124_123
-* when a variant can be described as a duplication it **must** be desribed as a duplication and **not as an insertion** (see [_Prioritization_](/recommendations/general/)
+* when a variant can be described as a duplication it **must** be desribed as a duplication and **not as an insertion** (see [_Prioritization_](../../general/)
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 * the **“inserted_sequence”** can be given as the nucleotides inserted (e.g. insAGC) or, for larger insert sequences, by referring to the sequence in the reference sequence (e.g. c.849_850ins858_895) or another reference (see Examples).
     * when the inserted sequence is very long it can best be submitted to a database (e.g. [GenBank](http://www.ncbi.nlm.nih.gov/genbank/submit/)); the accession.version number obtained can then be used to describe the variant like r.123\_124insL37425.1:r.23\_361
-* <sup>1</sup> = [_see Uncertain_](/recommendations/uncertain/); when the postion and/or the sequence of an inserted sequence has not been defined, a description may have a format like r.(100_150)ins(25)
+* <sup>1</sup> = [_see Uncertain_](../../uncertain/); when the postion and/or the sequence of an inserted sequence has not been defined, a description may have a format like r.(100_150)ins(25)
 ## Examples
 
 * LRG\_199t1:r.426\_427insa: the insertion of an "a" nucleotide between nucleotides r.426 and r.427 
@@ -32,7 +32,7 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. r.123\_1
 * NM\_004006.2:r.761\_762insnnnnn (alternatively r.761\_762insn[5]): the insertion of 5 not specified nucleotides (nnnnn) between position r.761 and r.762
 * LRG\_199t1:r.1149\_1150insn[100]: the insertion of 100 not specified nucleotides between position r.1149 and r.1150
 * NG\_012232.1(NM\_004006.2):r.2949\_2950ins[2950-30\_2950-12;2950-4\_2950-1]: the insertion of intronic nucleotides r.2950-30 to r.2950-12 and r.2950-4 to r.2950-1 between nucleotides r.2949 and r.2950 (caused by the deletion NC\_000023.10(NM\_004006.2):c.2950-11\_2950-5del]. Alternative description r.2949\_2950ins[2950-30\_2950-12;uuag]
-    * **NOTE:**    for more examples of variants affecting splicing see [_Splicing_](/recommendations/RNA/splicing/)
+    * **NOTE:**    for more examples of variants affecting splicing see [_Splicing_](../splicing/)
 ## Discussion
 
 !!! note "Can I describe a variant as r.123insg?"

@@ -26,6 +26,7 @@ for path in sys.argv[1:]:
     c = p.open().read()
     for m in href_re.finditer(c):
         uri = m.group(1)
+        uri = re.sub(r"#.+", r"", uri)
         target = p.parent / uri
         bin = "ok" if target.exists() else "broken"
         uris_seen[uri][bin].update([path])
