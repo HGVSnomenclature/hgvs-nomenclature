@@ -14,6 +14,7 @@
 
 ## Consider
 
+- release notes / change log
 - rename Consultation to Community Engagement
 - number sections
 - rename "Description" section of recommendations
