@@ -11,11 +11,13 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * cap site: first nucleotide of a transcript (5' end) to which a specially altered nucleotide is added.
 
-* break point: the site where two sequences which are in different positions in the reference sequence are joined as a consequence of genomic rearrangement (Structural Variant)
+* break point: the site where two sequences which are in different positions in the reference sequence are joined as a consequence of genomic rearrangement
 
 * cDNA: cDNA, "copy DNA" or "complementary DNA", is the DNA copy of a single stranded RNA molecule synthesized using the enzyme reverse transcriptase ([Wikipedia](https://en.wikipedia.org/wiki/Complementary_DNA), [MESH](https://www.ncbi.nlm.nih.gov/mesh/68018076)).: **NOTE:** cDNA is not the same as "coding DNA" (see below).
 
 * CDS: coding DNA sequence, a sequence translated in to an amino acid sequence (protein).
+
+* chimeric transcript: a transcript (RNA molecule) composed of transcript segments from two or more genes.
 
 * chimerism: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism)). Opposite of mosaicism.: descriptions [_see General/Charcters used_](../../recommendations/general#characters).
 
@@ -58,10 +60,12 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 * frame (reading frame): **frame 1** is the normal reading frame, using the first nucleotide of each coding triplet of the annotated amino acid reference sequence for translation, starting at the A of the ATG translation initiation codon (nucleotide c.1): **frame 2** is the reading frame using the second nucleotide of the annotated amino acid reference sequence as first nucleotide of a coding triplet for translation in the shifted reading frame: **frame 3** is the reading frame using the third nucleotide of the annotated amino acid reference sequence as first nucleotide of a coding triplet for translation in the shifted reading frame.
 
 * frame shift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([_protein_](../../recommendations/protein/frameshift/))
-    
-* fusion transcript: a transcript (RNA molecule) which consist of parts of transcripts from two or more genes, resulting from a translocation, deletion, or inversion.
 
-* haplotype: contiguous set of genetic variants that are co-located on one chromosome (molecule) and are inherited from the same parent
+* gene fusion: the joining of two or more genes resulting in a chimeric transcript and/or a novel interaction between a rearranged regulatory element with the expressed product of a partner gene (a regulatory fusion).
+
+* genomic rearrangement: see *Structural Variant (SV)*
+
+* haplotype: contiguous set of genetic variants that are co-located on one chromosome (molecule) and are inherited from the same parent.
 
 * hemizygous: an individual having **only one allele** at a given locus, either because the allele is absent (X and Y chromosome in males) or lost (deleted) (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=hemizygous)).
     
@@ -132,7 +136,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * reading frame: one of three possible ways to translate a nucleotide sequence in to an amino acid sequence (a protein): see also **frame**
 
-* readthrough transcript: a transcript (RNA molecule) formed via the splicing of exons from more than one distinct gene. The two (or more) genes involved are found on the same chromosomal region, on the same strand, and are typically adjacent to one another.
+* readthrough transcript: a chimeric transcript in which the two (or more) genes involved can also be transcribed individually, and are found on the same chromosomal region, on the same strand, and typically adjacent to one another.
+
+* regulatory fusion: the novel interaction of a regulatory element brought into proximity of a partner gene by a genomic rearrangement, modulating gene product expression of the partner gene.
 
 * repeated sequence: **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other.
 
@@ -163,6 +169,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 * SV: see Structural Variant.
 
 * trans: two variants are **"in trans"** when they are on different alleles (DNA molecules, chromosomes).
+
+* transcript segment: a representation of a segment of transcribed sequence denoted by a 5’ and 3’ boundary.
     
 * transition: a nucleotide variant changing a purine nucleotide to another purine nucleotide (A < > G), or a pyrimidine nucleotide to another pyrimidine nucleotide (C < > T).
     
