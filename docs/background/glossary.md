@@ -17,6 +17,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - CDS: coding DNA sequence, a sequence translated in to an amino acid sequence (protein).
 
+- chimeric transcript: a transcript (RNA molecule) composed of transcript segments from two or more genes.
+
 - chimerism: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism)). Opposite of mosaicism.: descriptions see [General/Charcters used](../recommendations/general.md#characters).
 
 - cis: two variants are **"in cis"** when they are on the same allele (DNA molecule, chromosome).
@@ -62,7 +64,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - frameshift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([protein](../recommendations/protein/frameshift.md))
 
-- fusion transcript: a transcript (RNA molecule) which consist of parts of transcripts from two or more genes, resulting from a translocation, deletion, or inversion.
+- gene fusion: the joining of two or more genes resulting in a chimeric transcript and/or a novel interaction between a rearranged regulatory element with the expressed product of a partner gene (a regulatory fusion).
+
+- genomic rearrangement: see *Structural Variant (SV)*
 
 - haplotype: contiguous set of genetic variants that are co-located on one chromosome (molecule) and are inherited from the same parent
 
@@ -141,7 +145,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - reading frame: one of three possible ways to translate a nucleotide sequence in to an amino acid sequence (a protein): see also **frame**
 
-- readthrough transcript: a transcript (RNA molecule) formed via the splicing of exons from more than one distinct gene. The two (or more) genes involved are found on the same chromosomal region, on the same strand, and are typically adjacent to one another.
+- readthrough transcript: a chimeric transcript in which the two (or more) genes involved can also be transcribed individually, and are found on the same chromosomal region, on the same strand, and typically adjacent to one another.
+
+- regulatory fusion: the novel interaction of a regulatory element brought into proximity of a partner gene by a genomic rearrangement, modulating gene product expression of the partner gene.
 
 - repeated sequence: **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other.
 
@@ -174,6 +180,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 - SV: see Structural Variant.
 
 - trans: two variants are **"in trans"** when they are on different alleles (DNA molecules, chromosomes).
+
+- transcript segment: a representation of a segment of transcribed sequence denoted by a 5’ and 3’ boundary.
 
 - transition: a nucleotide variant changing a purine nucleotide to another purine nucleotide (A < > G), or a pyrimidine nucleotide to another pyrimidine nucleotide (C < > T).
 

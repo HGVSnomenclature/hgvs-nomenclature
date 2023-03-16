@@ -9,7 +9,6 @@ Make sure you have also seen the ([Basics](../background/basics.md), explaining 
 - all variants should be described at the most basic level, **the DNA level**. Descriptions at the RNA and/or protein level may be given in addition.
     - descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses
     - descriptions at RNA/protein level should describe the changes observed on that level (RNA/protein) and not try to incorporate any knowledge regarding the change at DNA-level (see Questions below)
-
 - all variants should be described in relation to an accepted **reference sequence** (see [Reference Sequences](../background/refseq.md)).
     - the reference sequence file used should be **public and clearly described**, e.g. NC_000023.10, LRG_199, NG_012232.1, NM_004006.2, LRG_199t1, NR_002196.1, NP_003997.1, etc. (see [Reference Sequences](../background/refseq.md))
     - the reference sequence used must contain the residue(s) described to be changed.
@@ -26,7 +25,6 @@ Make sure you have also seen the ([Basics](../background/basics.md), explaining 
         - `p` for a protein reference sequence
         - `r` for an RNA reference sequence (transcript)
     - numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** (see [Numbering](../background/numbering.md))
-
 
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
     - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins": **NOTE:** the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a "delins"**
@@ -47,7 +45,12 @@ Make sure you have also seen the ([Basics](../background/basics.md), explaining 
     - when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
     - descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. `NM_004006.2:c.[762_768del;767_774dup]`)
 
-- only **approved** [HGNC gene symbols](http://www.genenames.org) should be used to describe genes: **NOTE:** to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to use **italics** to denote genes and to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2): **NOTE:** for protein nomenclature see the [International Protein Nomenclature Guidelines](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/), written with the involvement of the HGNC
+- only **approved** [HGNC gene symbols](http://www.genenames.org) should be used to describe genes: **NOTE:**    to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to use **italics** to denote genes: **NOTE:**    for protein nomenclature see the [_International Protein Nomenclature Guidelines_](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/), written with the involvement of the HGNC
+
+- HGVS recommends following the [HGNC guidelines](https://www.genenames.org/about/guidelines/) and the [VICC Gene Fusion Specification](https://fusions.cancervariants.org/en/latest) nomenclature to describe products of gene fusions
+  - The HGNC recommendations include using a GENESYMBOL1::GENESYMBOL2 syntax for gene-level fusion descriptions, and GENESYMBOL1-GENESYMBOL2 syntax for read-through transcripts
+    - The VICC nomenclature extends the HGNC recommendations to include a terminology, information model, and nomenclature for gene-level and exon-level representation, with components for disambiguating regulatory fusions from chimeric transcript fusions
+    - HGVS also recommends the use of [adjoined transcript segments](../RNA/splicing/) for precise and unambiguous characterization of chimeric transcripts at the sequence level
 
 <a id="characters"></a>
 
