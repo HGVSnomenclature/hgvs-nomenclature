@@ -1,0 +1,47 @@
+h2 {
+    color: #4051b5;
+    border-bottom: thin solid #4051b5;
+}
+
+h3 {
+    color: #666;
+}
+
+label.md-nav__title {
+    display: none
+}
+
+.admonition-title {
+    font-size: 0.8rem;
+}
+.admonition > p {
+    font-size: 0.8rem;
+}
+
+[data-md-color-scheme="hvnc"] {
+    --md-primary-fg-color:        #FF8001;
+    --md-primary-fg-color--light: #FF9910;
+    --md-primary-fg-color--dark:  #DD7000;
+  }
+
+
+ md-typeset ol li, .md-typeset ul li {
+    margin-bottom: 0px;
+}
+
+
+/* .rst-* rules modify styling of RTD version selector */
+
+.rst-versions {
+    background: #191d30 !important;   
+    font-size: larger !important;
+}
+
+.rst-current-version {
+    background: #465085 !important; 
+    color: #FF8001 !important;
+}
+
+.rst-versions.rst-badge {
+    left: 20px !important;
+}

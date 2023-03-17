@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+
+"""convert absolute links to relative links based on path to file
+
+e.g. in a file docs/recommendations/RNA/inversion.md,  an absolute link like
+/recommendations/RNA/variant/indel/ will be converted to
+../inversion/
+
+"""
+
+import logging
+import os
+import re
+
+link_re = re.compile(r"(\]\()  ( /[^)]+ )  (\))", flags=re.VERBOSE)
+_logger = logging.getLogger()
+
+def abs2rel(docs_relpath, m):
+    m_path = m.group(2) + m.group(3)
+    rp = m.group(1) + os.path.relpath(m_path, docs_relpath)
+    _logger.info(f"{docs_relpath=}, {m_path=}, {rp=}")
+    return rp
+
+def process1(file_path: str):
+    # docs_relpath is path when rendered, relative to root url
+    # e.g., docs/a/b/index.md → /a/b/;   /a/foo.md → '../foo.md'
+    # e.g., docs/a/b/c.md     → /a/b/c/; /a/foo.md → '../../foo.md'
+    
+    docs_relpath = file_path.replace("docs","").replace(".in","").replace("/index.md","").replace(".md","") + "/"
+    _logger.info(f"{file_path} → {docs_relpath}")
+    
+    content = open(file_path, "rt").read()
+
+    out_path = file_path.replace(".in", "")
+    _logger.info(f"{file_path} → {out_path}")
+    content = content.replace("# Test links", f"# {out_path}")
+
+    content = link_re.sub(lambda m: abs2rel(docs_relpath, m), content)
+    open(out_path, "wt").write(content)
+    _logger.info(f"{file_path}: Converted absolute link to relative links")
+
+
+if __name__ == "__main__":
+    import sys
+
+    logging.basicConfig(level="INFO")
+
+    for file_path in sys.argv[1:]:
+        process1(file_path)

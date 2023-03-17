@@ -1,0 +1,7 @@
+nav:
+    - basics.md
+    - simple.md
+    - standards.md
+    - versioning.md
+    - ...
+    - glossary.md
