@@ -55,13 +55,13 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 :    a chimeric case, i.e. the sample is a mix of cells containing g.33344590\_33344592= and g.33344590\_33344592del
 ## Discussion
 
-!!! note "Can I use NG_012232.1"
+!!! note "Can I use NG_012232.1:g.123del6 to describe a 6 nucleotide deletion?"
 
-    g.123del6 to describe a 6 nucleotide deletion?: No, a deletion of more than one residue should mention the first and last residue deleted, separated using the range symbol ("_", underscore), e.g. NG_012232.1:g.123_128del and not NG_012232.1:g.123del6.<a name="6del"></a>
+    No, a deletion of more than one residue should mention the first and last residue deleted, separated using the range symbol ("_", underscore), e.g. NG_012232.1:g.123_128del and not NG_012232.1:g.123del6.<a name="6del"></a>
 
-!!! note "In the example above, <b>LRG_199t1"
+!!! note "In the example above, <b>LRG_199t1:c.3921del</b>, should the description based on a coding DNA reference sequence not be LRG_199t1:c.3922del?"
 
-    c.3921del</b>, should the description based on a coding DNA reference sequence not be LRG_199t1:c.3922del?: Strictly speaking you are right. However, for cases like this an exception was made to prevent that when c.3922del is translated back to a genomic position one would end up at the wrong nucleotide in the wrong exon (NC_000023.10:g.32456507del in stead of NC_000023.10:g.32459297del).
+    Strictly speaking you are right. However, for cases like this an exception was made to prevent that when c.3922del is translated back to a genomic position one would end up at the wrong nucleotide in the wrong exon (NC_000023.10:g.32456507del in stead of NC_000023.10:g.32459297del).
 
 !!! note "Is the description of a deletion of exon 17 as c.EX17del still allowed?"
 
@@ -75,9 +75,9 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 
     Literally speaking you are right and it is best to set the borders as precise as possible. When exon 3 is present the location of the reverse primer can be used to set the most 5' border (something like c.987+123). However, for the 3' end your reasoning does not make a difference. Since you do not know how far the deletion extends, you have no positive PCR limiting the deletion at the 3' end, using the location of exon 13 since exon 14 <b>might be present</b> would give the wrong impression. Consequently the precise description can only be like c.(987+123_?)del. Is this realy more informative then c.(987+1_?)del, using the exon 3 exon/intron border?
 
-!!! note "In literature I often see the description "deltaF508" for a variant in the CFTR gene in patients with Cystic Fibrosis. Is the variant detected in these patients NM_000492.3"
+!!! note "In literature I often see the description "deltaF508" for a variant in the CFTR gene in patients with Cystic Fibrosis. Is the variant detected in these patients NM_000492.3:c.1522_1524delTTT?"
 
-    c.1522_1524delTTT?: No. The sequence surrounding amino acid Phe508 in the CFTR gene is ..-ATC-TTT-GGT-.. (c.1519 to c.1527). Three different deletions (TC-T, C-TT and -TTT-) would give the reported protein variant "Phe508del". Applying the 3' rule [_see Recommendations_](../../general/) yields two different changes at DNA level, NM_000492.3:c.1521_1523del and NM_000492.3:c.1522_1524del. When you assume the change at DNA level is c.1522_1524delTTT, deletion of exactly the Phe508 encoding triplet, you are wrong. The change found in patients is mostly NM_000492.3:c.1521_1523delCTT. So, without a proper description in the manuscript one can not be certain.
+    No. The sequence surrounding amino acid Phe508 in the CFTR gene is ..-ATC-TTT-GGT-.. (c.1519 to c.1527). Three different deletions (TC-T, C-TT and -TTT-) would give the reported protein variant "Phe508del". Applying the 3' rule [_see Recommendations_](../../general/) yields two different changes at DNA level, NM_000492.3:c.1521_1523del and NM_000492.3:c.1522_1524del. When you assume the change at DNA level is c.1522_1524delTTT, deletion of exactly the Phe508 encoding triplet, you are wrong. The change found in patients is mostly NM_000492.3:c.1521_1523delCTT. So, without a proper description in the manuscript one can not be certain.
 
 !!! note "Suggest to use "los" for a loss from a mononucleotide stretch"
 
