@@ -23,6 +23,7 @@
 - a note about our name
 - drop facebook discussion forum
 - decide new email addresses (group?) and replace
+- What's up with conversion.md files? They're not shown on the varnomen site.
 
 ## Done
 
