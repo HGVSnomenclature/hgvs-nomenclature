@@ -1,0 +1,10 @@
+nav:
+  - substitution.md
+  - deletion.md
+  - duplication.md
+  - insertion.md
+  - delins.md
+  - alleles.md
+  - repeated.md
+  - frameshift.md
+  - extension.md

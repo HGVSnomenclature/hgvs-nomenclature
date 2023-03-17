@@ -90,7 +90,7 @@ def process_hvnc(content: str) -> str:
 
 def process_recommendation(path) -> str:
     def rewrite_discussion(d):
-        v = re.sub(r"^\s+([^:]+):\s*(.+)", r'\n!!! note "\1"\n\n    \2', d.group(1), flags=re.MULTILINE)
+        v = re.sub(r"^\s+(.+?): \s*(.+)", r'\n!!! note "\1"\n\n    \2', d.group(1), flags=re.MULTILINE)
         return v
     
     desc_path = path.replace("variant/", "variant/description/").replace(".md", "-desc.md")

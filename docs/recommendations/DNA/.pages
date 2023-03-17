@@ -1,0 +1,11 @@
+nav:
+  - substitution.md
+  - deletion.md
+  - duplication.md
+  - insertion.md
+  - inversion.md
+  - delins.md
+  - alleles.md
+  - repeated.md
+  - complex.md
+  - other.md
