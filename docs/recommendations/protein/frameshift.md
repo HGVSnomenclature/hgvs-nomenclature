@@ -29,7 +29,7 @@ Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termi
         * **NOTE**: the shortest frame shift variant possible contains "fsTer2"; variants which introduce an **immediate** translation termination (stop) codon are described as nonsense variant, e.g. p.Tyr4Ter (or PTyr4*) not p.Tyr4TerfsTer1 ([_see Substitution_](../substitution/)).
     * frame shifts can also be described using a **short format**; p.Arg123fs i.e. indicating the first amino acid changed, its position and "fs" without further detail.
 * the (predicted) amino acid changes of additional variants on the same allele (in cis) downstream of the frame shift are not described unless they change the amino acid sequence or length of the shifted reading frame (i.e. introduce an amino acid substitution, an earlier translational termination (stop) codon or affect the termination codon of the shifted frame).     
-* deletions starting 5’ of and including the translation termination (stop) codon are described as **frame shift**
+* deletions starting 5' of and including the translation termination (stop) codon are described as **frame shift**
 * inserted sequences at DNA or RNA level
     * extending the amino acid sequence at the C-terminal end with one or more amino acids are described as [_Extension_](../extension/)
     * containing a **translation stop codon** in the inserted sequence are described as an insertion, not as a deletion-insertion removing the entire C-terminal amino acid sequence

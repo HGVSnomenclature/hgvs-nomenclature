@@ -84,3 +84,7 @@ check-links:
 	mkdocs build
 	./bin/check-relative-links site/**/*.html
 	
+
+
+replace-unicode:
+	./bin/replace-unicode docs/**/*.md

@@ -1,6 +1,6 @@
 # Community Consultation
 
-HGVS nomenclature falls under the responsibility of HUGO's ([_**HGVS Variant Nomenclature Committee** (HVNC)_](../governance/)), formerly known as the Sequence Variant Description Working Group (SVD-WG). The HVNC handles requests to change or extend HGVS nomenclature operating according to a charter defining its activities which includes a **Community Consultation** step. Any proposal made by the HVNC will be **published on this web page**. When published, the proposal is open for comments for a 2-month period. Everybody interested is asked to study the proposal and send comments, positive or negative, to the HVNC. Comments to proposals should be addressed to “Varnomen @ HUGO-int.org”, Subject: HVNCxxx (xxx the proposal number, e.g. HVNC-011).
+HGVS nomenclature falls under the responsibility of HUGO's ([_**HGVS Variant Nomenclature Committee** (HVNC)_](../governance/)), formerly known as the Sequence Variant Description Working Group (SVD-WG). The HVNC handles requests to change or extend HGVS nomenclature operating according to a charter defining its activities which includes a **Community Consultation** step. Any proposal made by the HVNC will be **published on this web page**. When published, the proposal is open for comments for a 2-month period. Everybody interested is asked to study the proposal and send comments, positive or negative, to the HVNC. Comments to proposals should be addressed to "Varnomen @ HUGO-int.org", Subject: HVNCxxx (xxx the proposal number, e.g. HVNC-011).
 
 To ensure you **do not miss** a new proposal [_please register for e-mail notification_](../background/basics/)). Those registered will also receive notification when the HGVS nomenclature version number changes. The latest version of the HGVS recommendations can be found at the [_Versioning page_](../background/versioning/).
 
@@ -10,11 +10,11 @@ To ensure you **do not miss** a new proposal [_please register for e-mail notifi
 
 ### Closed
 
-* [SVD-WG009](SVD-WG009/) (conversion): suggested to simplify the HGVS nomenclature recommendations by **discontinuing the use of the variant type “con”** to describe conversions: **Status**: <font color="red">accepted</font>. Closed Oct.31 (2020). Opened Aug,4 (2020).
+* [SVD-WG009](SVD-WG009/) (conversion): suggested to simplify the HGVS nomenclature recommendations by **discontinuing the use of the variant type "con"** to describe conversions: **Status**: <font color="red">accepted</font>. Closed Oct.31 (2020). Opened Aug,4 (2020).
 
 * [SVD-WG008](SVD-WG008/) (Reference Sequences): suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [_Reference Sequences_](../background/refseq/) page): **Status**: <font color="red">accepted</font>. Closed Sep.30 (2019). Opened Jul.20 (2019).
 
-* [SVD-WG007](SVD-WG007/) (RNA fusion): suggests to extend the HGVS recommendations with a format to describe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using ”::”: **Status**: <font color="red">accepted</font>. Closed Jun.30 (2019). Opened Apr.10 (2019).
+* [SVD-WG007](SVD-WG007/) (RNA fusion): suggests to extend the HGVS recommendations with a format to describe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using "::": **Status**: <font color="red">accepted</font>. Closed Jun.30 (2019). Opened Apr.10 (2019).
 
 * [SVD-WG006](SVD-WG006/) (circular DNA): suggests to extend the HGVS recommendations allowing a **"o."** prefix for circular genomic reference sequences.: suggests to add the exception for circular genomic reference sequences ("m." and "o." prefix) to allow NC_012920.1:m.16563_13del: **Status**: <font color="red">accepted</font>. Closed Oct.30 (2018). Opened Aug.1 (2018).
 

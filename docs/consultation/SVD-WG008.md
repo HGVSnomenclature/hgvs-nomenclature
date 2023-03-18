@@ -24,7 +24,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
         * RefSeq and Ensembl reference sequence identifiers use version numbers to distinguish between sequences. In the context of these reference sequences, variant descriptions lacking a version number are **not** valid. 
         * LRG provides equivalent uniqueness but does not use version numbers
         * the sequence identifier **must** be included in **all** representations of a reference sequence, i.e. annotated records and downloadable formats such as fasta
-* only reference sequences considered to be **“complete”** (as defined in the bullet points below) are suitable for defining sequence variation. The reference sequence database **must** provide a mechanism which allows simple and definitive identification of **“complete”** sequences
+* only reference sequences considered to be **"complete"** (as defined in the bullet points below) are suitable for defining sequence variation. The reference sequence database **must** provide a mechanism which allows simple and definitive identification of **"complete"** sequences
     * the mechanism that identifies a complete record may be embedded in the sequence identifier or may be defined within the reference sequence record
     * a reference sequence representing a protein-coding transcript **must** contain a complete CDS, otherwise it should be considered the supporting evidence is insufficient to support the use of the transcript
         * the first three bases of the CDS must be clearly annotated within the reference sequence record

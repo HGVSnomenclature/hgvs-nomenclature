@@ -4,7 +4,7 @@
 
 Please note that this Glossary is **work in progress**. Do you encounter missing terms or want to suggest definitions, please let us know.
 
-* 3'rule: for all descriptions the most 3’ position possible of the reference sequence is arbitrarily assigned to have been changed. When ATTTG changes to ATTG HGVS describes this as a change of the T at position 4 (not the T at position 2 or 3) 
+* 3'rule: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed. When ATTTG changes to ATTG HGVS describes this as a change of the T at position 4 (not the T at position 2 or 3) 
 * allele: variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele)): **HGVS**: a series of variants on one chromosome.: descriptions _see Recommendations_ [_DNA_](../../recommendations/DNA/alleles/), [_RNA_](../../recommendations/RNA/alleles/) or [_protein_](../../recommendations/protein/alleles/).
 
 * amino acid: a letter from the protein code ([_see Standards_](../standards/)).
@@ -21,7 +21,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * cis: two variants are **"in cis"** when they are on the same allele (DNA molecule, chromosome).
     
-* CNV: copy number variant (CNV), a variant in a genome where the number of copies of a large stretch of DNA differs from that in the reference genome; a copy can be missing (deleted) or be present more then once (duplicated, triplicated, ...,  or amplified).: **NOTE:**  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.: alias CNP (copy number polymorphism)
+* CNV: copy number variant (CNV), a variant in a genome where the number of copies of a large stretch of DNA differs from that in the reference genome; a copy can be missing (deleted) or be present more then once (duplicated, triplicated, ...,  or amplified).: **NOTE:**  a "large stretch" is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.: alias CNP (copy number polymorphism)
     
 * coding DNA: the segments of a genome or segment of a transcript (RNA molecule) which codes for a protein.
 
@@ -154,7 +154,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
     
 * strand: one of the two strands of a DNA molecule (double stranded).
 
-* Structural Variant (SV): a variant in a genome where compared to the reference sequence the structure of a large stretch of DNA is changed. SVs include deletions/duplications (CNVs), inversions, insertions, deletion-insertions, conversions, transpositions, translocations, etc.: **NOTE:**  a “large stretch” is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
+* Structural Variant (SV): a variant in a genome where compared to the reference sequence the structure of a large stretch of DNA is changed. SVs include deletions/duplications (CNVs), inversions, insertions, deletion-insertions, conversions, transpositions, translocations, etc.: **NOTE:**  a "large stretch" is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.
 
 * substitution
     * one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter 

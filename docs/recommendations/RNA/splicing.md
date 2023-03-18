@@ -31,7 +31,7 @@ Variants affecting RNA splicing result in either a [_deletion_](../deletion/) or
 * **fusion transcript** (based on [_SVD-WG007_](../../../consultation/SVD-WG007/)) 
     * NM\_002354.2:r.-358\_555::NM\_000251.2:r.212\_\*279: describes an EPCAM::MSH2 fusion transcript where nucleotides r.-358 to r.555 (EPCAM gene, reference transcript NM\_002354.2) are spliced to nucleotides r.212 to r.\*279 (MSH2 gene, reference transcript NM\_000251.2)
 * **uncertain** (RNA not analysed)
-    * NC\_000023.11(NM\_004006.2):r.(76a>c): RNA was not anaysed but a substitution of the “a” nucleotide at r.76 by a “c” is predicted
+    * NC\_000023.11(NM\_004006.2):r.(76a>c): RNA was not anaysed but a substitution of the "a" nucleotide at r.76 by a "c" is predicted
     * NC\_000023.11(NM\_004006.2):r.?: an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)
     * NC\_000023.11(NM\_004006.2):r.spl: RNA has not been analysed but it is very likely that splicing is affected
 ## Discussion

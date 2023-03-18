@@ -14,7 +14,7 @@ Make sure you have also seen the ([_Basics_](../../background/basics/), explaini
     * the reference sequence used must contain the residue(s) described to be changed.
     * the recommended reference is a genomic reference sequence based on a recent genome build
         * for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X
-        * when variants are reported in relation to a transcript, the preferred reference sequence is the reference suggested by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)): **NOTE:**    while [Locus Reference Genomic (LRG)](http://www.lrg-sequence.org) reference sequences are still acceptable, new LRG’s are no longer generated and RefSeq or Ensembl transcripts specified by the MANE project are preferred for all genes where available to help standardize clinical reporting.
+        * when variants are reported in relation to a transcript, the preferred reference sequence is the reference suggested by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)): **NOTE:**    while [Locus Reference Genomic (LRG)](http://www.lrg-sequence.org) reference sequences are still acceptable, new LRG's are no longer generated and RefSeq or Ensembl transcripts specified by the MANE project are preferred for all genes where available to help standardize clinical reporting.
     * the reference sequence used must contain the residue(s) described to be changed. 
     * a **letter prefix** is mandatory to indicate the type of reference sequence used. Accepted prefixes are;
         * "**c.**" for a coding DNA reference sequence    
@@ -26,7 +26,7 @@ Make sure you have also seen the ([_Basics_](../../background/basics/), explaini
         * "**r.**" for an RNA reference sequence (transcript)
     * numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** ([_see Numbering_](../../background/numbering))
 * two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
-    * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins": ****NOTE:**** the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a “delins”**
+    * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins": ****NOTE:**** the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a "delins"**
 * **3'rule**: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed
     * the 3'rule also applies for changes in single residue stretches and tandem repeats  (nucleotide or amino acid)
     * the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant

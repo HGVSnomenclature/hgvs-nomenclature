@@ -22,8 +22,8 @@ Format:   **"prefix""position(s)_analysed""="**,  e.g. g.123_234=
 
 * no change
     * one nucleotide
-        * NC\_000023.11:g.32867908=: a screen was performed showing nucleotide g.32867908 was a “G” as in the genomic reference sequence (the nucleotide was not changed)
-        * LRG\_199t1:c.123=: a screen was performed showing nucleotide c.123 was a “C” as in the coding DNA reference sequence (the nucleotide was not changed): **NOTE:** the description c.123C>C is not allowed
+        * NC\_000023.11:g.32867908=: a screen was performed showing nucleotide g.32867908 was a "G" as in the genomic reference sequence (the nucleotide was not changed)
+        * LRG\_199t1:c.123=: a screen was performed showing nucleotide c.123 was a "C" as in the coding DNA reference sequence (the nucleotide was not changed): **NOTE:** the description c.123C>C is not allowed
     * several nucleotides
         * NC\_000023.11:g.32867908\_32867923=: a screen was performed showing nucleotides g.32867908 to g.32867923 were as in the genomic reference sequence (the nucleotides were not changed)
         * LRG\_199t1:c.123\_145=: a screen was performed showing nucleotides c.123 to c.145 were as in the coding DNA reference sequence (the nucleotides were not changed)

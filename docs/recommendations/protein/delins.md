@@ -21,7 +21,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 * changes involving two or more consecutive amino acids are described as a deletion/insertion variant (delins) (see [_Substitution_](../substitution/).
     * **NOTE**:    this does not mean that at the DNA or RNA level the variant is described as a "delins" variant as well; on DNA level other rules may apply.
     * the description p.Arg76\_Cys77delinsSerTrp is correct, the description p.[Arg76Ser;Cys77Trp] is not correct.
-    * two variants separated by one or more amino acids should be described individually and not as a “delins”.
+    * two variants separated by one or more amino acids should be described individually and not as a "delins".
 * for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
 * when the inserted amino acid sequence is large the insertion may be described by its length, e.g. p.Lys2\_Leu3insX[34] (open reading frame insertion) or p.Lys2\_Leu3insTer12 (translation stop in inserted sequence).
     * **NOTE**:    the inserted amino acid sequence can be derived from the description od the variant at DNA or RNA level.
