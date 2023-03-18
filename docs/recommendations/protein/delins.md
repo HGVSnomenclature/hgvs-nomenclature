@@ -45,8 +45,8 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 
 !!! note "What is an "indel"?"
 
-    The term "indel" is not used in HGVS nomenclature ([<i>see Glossary</i>](http://varnomen.hgvs.org/bg-material/glossary/)). The term is confusing, having different meanings in different disciplines.
+    The term "indel" is not used in HGVS nomenclature (see [Glossary](http://varnomen.hgvs.org/bg-material/glossary/)). The term is confusing, having different meanings in different disciplines.
 
 !!! note "Can I describe a TrpSer to CysArg variant as a amino acid substitution (p.TrpSer23CysArg)?"
 
-    No, this is not allowed. By definition a substitution changes <b>one</b> amino acid into <b>one</b> other amino acid. The change TrpSer to CysArg should be described as p.Trp23_Ser24delinsCysArg, i.e. a deletion/insertion (indel) ([<i>see Deletion-Insertion</i>](http://varnomen.hgvs.org/recommendations/protein/variant/delins/)).
+    No, this is not allowed. By definition a substitution changes <b>one</b> amino acid into <b>one</b> other amino acid. The change TrpSer to CysArg should be described as p.Trp23_Ser24delinsCysArg, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](http://varnomen.hgvs.org/recommendations/protein/variant/delins/)).

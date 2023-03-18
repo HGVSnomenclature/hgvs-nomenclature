@@ -52,7 +52,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 !!! note "Can I describe a GC to TG variant as a dinucleotide substitution (NG_012232.1:g.12GC>TG)?"
 
-    No, this is not allowed. By definition a substitution changes <b>one</b> nucleotide into <b>one</b> other nucleotide. The change GAAGCCAG to GAA<font color="red">TG</font>CAG should be described as NG_012232.1:g.12_13delinsTG, i.e. a deletion/insertion (indel) ([<i>see Deletion-Insertion</i>](http://varnomen.hgvs.org/recommendations/DNA/variant/delins/) and Description - Note). When phase information is not available, the variant should be described as NG_012232.1:g.12G>T(;)13C>G ([<i>see Alleles</i>](http://varnomen.hgvs.org/recommendations/DNA/variant/alleles/)).
+    No, this is not allowed. By definition a substitution changes <b>one</b> nucleotide into <b>one</b> other nucleotide. The change GAAGCCAG to GAA<font color="red">TG</font>CAG should be described as NG_012232.1:g.12_13delinsTG, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](http://varnomen.hgvs.org/recommendations/DNA/variant/delins/) and Description - Note). When phase information is not available, the variant should be described as NG_012232.1:g.12G>T(;)13C>G (see [Alleles](http://varnomen.hgvs.org/recommendations/DNA/variant/alleles/)).
 
 !!! note "The <i>BRCA1</i> coding DNA reference sequence NM_007294.3 from position c.2074 to c.2080 is ..CATGACA.. A variant frequently found in the population is ..CAT<font color="red">A</font>ACA.. (NM_007294.3:c.2077G>A). In a patient I found the sequence ..CATA<font color="red">TA</font>ACA.. Can I describe this variant as NM_007294.3:c.[2077G>A;2077_2078insTA]?"
 
