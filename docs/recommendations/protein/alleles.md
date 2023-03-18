@@ -34,7 +34,7 @@ Format (two alleles):   **"prefix"["variant"];["variant"]**,  e.g. p.[(Ser73Arg)
 * when two variants are identified in two different proteins that derive from **one variant** at the DNA level (giving two different transcripts) the variants are separated using a "<font color="red">,</font>"; p.[variant1<font color="red">,</font>variant2]"
 ## Examples
 
-For more examples [_see DNA alleles_](../../DNA/alleles/).
+For more examples see [DNA alleles](../../DNA/alleles/).
 
 * **variants on one allele**
     * NP\_003997.1:p.[Ser68Arg;Asn594del]: a protein allele contains two different variants, p.Ser68Arg and p.Asn594del (the variants are found **in cis**)
@@ -47,7 +47,7 @@ For more examples [_see DNA alleles_](../../DNA/alleles/).
     * **heterozygous**
         * NP\_003997.1:p.[Ser68Arg];[Asn594del]: two protein alleles each contain a different variant, p.Ser68Arg and p.Asn594del (compound heterozygote, e.g. in a recessive disease, the variants are found **in trans**)
         * NP\_003997.1:p.[(Ser68Arg)];[?]: one protein allele contains a variant, with predicted consequence p.(Ser68Arg), while a variant for the other protein allele is expected but not yet identified (p.(?)) (e.g. in individuals affected by a recessive disease).
-        * NP\_003997.1:p.[Ser68Arg];[Ser68=]: one protein allele contains a variant, p.Ser68Arg, the other allele contains at this position the reference sequence, Ser68= (is **wild-type**).: **NOTE**: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68\_Arg70dup];[Ser68\_Arg70=], p.[Ser68\_Ala74insSerGln];[Ser68\_Ala74=], etc. (based on [_Proposal SVD-WG001_](http://varnomen.hgvs.org/consultation/SVD-WG001/)).: **NOTE**: using p.[=] would mean the entire NP_003997.1 protein reference sequence was tested and found not changed
+        * NP\_003997.1:p.[Ser68Arg];[Ser68=]: one protein allele contains a variant, p.Ser68Arg, the other allele contains at this position the reference sequence, Ser68= (is **wild-type**).: **NOTE**: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68\_Arg70dup];[Ser68\_Arg70=], p.[Ser68\_Ala74insSerGln];[Ser68\_Ala74=], etc. (based on [Proposal SVD-WG001](http://varnomen.hgvs.org/consultation/SVD-WG001/)).: **NOTE**: using p.[=] would mean the entire NP_003997.1 protein reference sequence was tested and found not changed
     * **allele unknown**
         * NP\_003997.1:p.(Ser68Arg)(;)(Asn594del): two predicted protein variants are found, p.(Ser68Arg) and p.(Asn594del), but it is not known whether they are on the same or on different alleles (chromosomes).: **NOTE**: when it is not known on which allele a variant is, allele brackets are not used
         * NP\_003997.2:p.[(Asn158Asp)(;)(Asn158Ile)]^[(Asn158Val)]: for the variants NM\_004006.3:c.472A>G and c.473A>T it is not known whether they are on the same or on different alleles (chromosomes). The predicted consequence when the variants are on different alleles is p.(Asn158Asp)(;)(Asn158Ile), when the variants are on the same allele (i.e. c.472_473delinsGT) the predicted consequence is p.(Asn158Val). To discriminate between the two possibilities square brackets need to be used.

@@ -17,8 +17,8 @@ Additional information to make a guess may come from the **name of the gene** co
 
 ### DNA > RNA > protein
 
-In nature the DNA code is first transcribed in to a **RNA** molecule ([see Wikipedia](https://en.wikipedia.org/wiki/RNA)). Next, there are two options:
-* the RNA molecule is translated in to a **protein** and the protein is the final product of a gene. Proteins perform a vast array of functions, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells, and organisms, transporting molecules from one location to another, etc. ([see Wikipedia](https://en.wikipedia.org/wiki/Protein))).
+In nature the DNA code is first transcribed in to a **RNA** molecule (see [Wikipedia](https://en.wikipedia.org/wiki/RNA)). Next, there are two options:
+* the RNA molecule is translated in to a **protein** and the protein is the final product of a gene. Proteins perform a vast array of functions, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells, and organisms, transporting molecules from one location to another, etc. (see [Wikipedia](https://en.wikipedia.org/wiki/Protein))).
 * the RNA molecule is the final product of the gene (so the RNA is not translated in to a protein). RNA molecules perform a vast array of functions, including e.g. rRNAs (ribosomal RNA) and tRNAs (transfer RNAs) both active in protein translation. 
 
 Variants are usually detected by reading the DNA code, a method called DNA **sequencing**. A proper report **always** contains the variant described on the DNA level. In addition, a report usually contains a description of the predicted consequence of the variant on the protein, rarely the consequence on RNA. In rare cases, not following current standards, only the predicted consequences at the protein level are reported.
@@ -27,7 +27,7 @@ Some variants have an effect on how the transcript (RNA) is generated and conseq
 
 ## Reference sequences
 
-Variants described on the DNA level are mostly reported in relation to a specific **gene** based on a so called **"coding DNA reference sequence"**. When a coding DNA reference sequence is used, the description of the variant starts with **"c."** (in the example c.4375C>T). Since we nowadays have a reliable reference sequence of the complete human genome, it becomes more common to (also) give the description based on a **"genomic reference sequence"**, starting with **"g."** (g.32407761G>A). In addition the (predicted) consequences on the RNA level (starting with **"r."**) and/or the protein level (starting with **"p."**) may be given. **NOTE:** the "p." addition is often missing when the predicted protein consequences are reported. For details [_see "Reference Sequences"_](http://varnomen.hgvs.org/background/refseq/).
+Variants described on the DNA level are mostly reported in relation to a specific **gene** based on a so called **"coding DNA reference sequence"**. When a coding DNA reference sequence is used, the description of the variant starts with **"c."** (in the example c.4375C>T). Since we nowadays have a reliable reference sequence of the complete human genome, it becomes more common to (also) give the description based on a **"genomic reference sequence"**, starting with **"g."** (g.32407761G>A). In addition the (predicted) consequences on the RNA level (starting with **"r."**) and/or the protein level (starting with **"p."**) may be given. **NOTE:** the "p." addition is often missing when the predicted protein consequences are reported. For details see ["Reference Sequences"](http://varnomen.hgvs.org/background/refseq/).
 
 Reference sequences have a format like **NC\_000023.10**, where **NC\_000023** is the **accession number** of the reference sequence and "**.10**" its **version number**. Version numbers are required since we started to use reference sequences at a time our knowledge of the human genome was far from complete. The version number directly follows the accession number and increases over time.
 
@@ -63,12 +63,12 @@ Genomic reference sequences can also be based on smaller sequences not covering 
 ### Coding DNA reference sequences
 
 In a human diagnostic setting the most frequently used reference is a **"coding DNA reference sequence"** (description starting with **"c."**, e.g. NM\_004006.3:c.4375C>T). Variant descriptions based on this format are very popular because they directly link to the encoded protein. In protein coding DNA reference sequences numbering **starts** with 1 at the first position of the protein coding region, the A of the translation initiating ATG triplet. Numbering **ends** at the last position of the ending triplet, the last position of the translation stop codon (TAA, TAG or TGA). When you divide the position number from a "c." description by three you get the affected amino acid residue from the protein sequence (description starting with "p."); for NM\_004006.3:c.4375C>T (with predicted consequence on protein level p.(Arg1459*)), i.e. 4375 divided by three gives amino acid 1459.
-**NOTE:**    positions in front of the protein coding sequence get a minus sign (e.g. **"c.-26"**), those after the translation stop an asterisk (e.g. **"c.\*85"**). Numbering in intronic sequences has a format like c.530+6 or c.531-23. For details [_see "Reference Sequences"_](http://varnomen.hgvs.org/background/refseq/).
+**NOTE:**    positions in front of the protein coding sequence get a minus sign (e.g. **"c.-26"**), those after the translation stop an asterisk (e.g. **"c.\*85"**). Numbering in intronic sequences has a format like c.530+6 or c.531-23. For details see ["Reference Sequences"](http://varnomen.hgvs.org/background/refseq/).
     The most frequently used coding DNA reference sequences are the NM's (RefSeq gene transcript sequences, e.g. NM\_004006.2) and LRG's (Locus Genomic Reference sequences, e.g. LRG\_199t1).
 
 ## Variants
 
-Depending on the change found, the description of the variant can have many different formats. For a detailed overview we refer to the specific pages on this website [_see header "Recommendations"_](http://varnomen.hgvs.org/recommendations). Here we will list and briefly explain, the major variant types.
+Depending on the change found, the description of the variant can have many different formats. For a detailed overview we refer to the specific pages on this website see [header "Recommendations"](http://varnomen.hgvs.org/recommendations). Here we will list and briefly explain, the major variant types.
 
 A standard variant description has the format **"prefix.position(s)\_change"**. In the variant description c.4375C>T the prefix **"c."** indicates the type of reference sequence used ("c." indicating a coding DNA reference sequence), **"4375"** the position of the nucleotide(s) affected and **"C>T"** the change (a C changed to T).
 
@@ -87,7 +87,7 @@ All variants given are in the DMD gene and reported in relation to coding DNA re
 * deletion/insertion (indel): one or more letters in the DNA code are missing and replaced by several new letters. A deletion/insertion is indicated using **"delins"**.
     * c.4375\_4376delinsAGTT: the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375\_4376delCGinsAGTT.
     
-There are more variant types yet these occur less frequently. For details [_see header "Recommendations"_](http://varnomen.hgvs.org/recommendations).
+There are more variant types yet these occur less frequently. For details see [header "Recommendations"](http://varnomen.hgvs.org/recommendations).
 
 ### Aliases
 
@@ -95,7 +95,7 @@ It should be noted that **one variant**, based on different reference sequences 
 
 ### Other descriptions
 
-Sometimes variants are not described using the format **reference:description** (NM\_004006.3:c.4375C>T) explained above but using an identifier (ID) in another database. Common formats include a rs ID (from dbSNP, [_rs128627255_](http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&rs=rs128627255)), OMIM ID (from OMIM, [_OMIM300377:0073_](http://omim.org/entry/300377#0073)), LOVD ID (from LOVD, [_DMD\_000073_](http://www.LOVD.nl/DMD_000073)), RCV ID (from ClinVar, [_RCV000012030_](https://www.ncbi.nlm.nih.gov/clinvar/RCV000012030/)), etc. In most cases, using these IDs, the database can be used to find the full description of the variant using the approved HGVS format **reference:description**.
+Sometimes variants are not described using the format **reference:description** (NM\_004006.3:c.4375C>T) explained above but using an identifier (ID) in another database. Common formats include a rs ID (from dbSNP, [rs128627255](http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&rs=rs128627255)), OMIM ID (from OMIM, [OMIM300377:0073](http://omim.org/entry/300377#0073)), LOVD ID (from LOVD, [DMD\_000073](http://www.LOVD.nl/DMD_000073)), RCV ID (from ClinVar, [RCV000012030](https://www.ncbi.nlm.nih.gov/clinvar/RCV000012030/)), etc. In most cases, using these IDs, the database can be used to find the full description of the variant using the approved HGVS format **reference:description**.
 
 ## Missing information
 

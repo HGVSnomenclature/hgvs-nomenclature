@@ -4,7 +4,7 @@
 
 * Status: <font color="red">accepted</font>: proposal SVD-WG009 opened for **Community Consultation** on August 1 (2020), closed October 31 (2020). 
 
-Based on the proposal the HGVS nomenclature pages have been updated (November 2020); the specific conversion pages were removed, information was merged with the [_Deletion-Insertion pages_](../../recommendations/DNA/delins/).
+Based on the proposal the HGVS nomenclature pages have been updated (November 2020); the specific conversion pages were removed, information was merged with the [Deletion-Insertion pages](../../recommendations/DNA/delins/).
 
 The proposal suggested to simplify the HGVS nomenclature by **discontinuing the use of the variant type "con" to describe conversions** (see [Conversion](../../recommendations/DNA/conversion/)).
 

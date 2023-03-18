@@ -35,7 +35,7 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. r.[123g>a];[345
 * when two variants are identified in two different transcripts that derive from **one variant** at the DNA level the variants are separated using a ","; p.[variant1**<font color="red">,</font>**variant2]".
 ## Examples
 
-For more examples [_see DNA alleles_](../../DNA/alleles/).
+For more examples see [DNA alleles](../../DNA/alleles/).
 
 * **variants on one allele**
     * LRG\_199t1:r.[76a>u;103del]: one transcript contains two different changes, r.76a>u and r.103del. The variants are found **in cis**.
