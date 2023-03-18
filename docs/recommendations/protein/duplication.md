@@ -43,7 +43,7 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
     * NP\_003997.2:p.(Asn444Lysfs\*15): the predicted consequences of a duplication of exons 10 to 11 of the DMD gene, creating a frame shift starting at amino acid Asn444, replacing it with Lys and terminating after fifteen codons.
     * NP\_003997.2:p.?: the predicted consequences of a duplication of exons 1 to 2 of the DMD gene: **NOTE:** since the duplication adds a second promoter/exons 1 to a normal copy of the gene, a reliable prediction of the consequences can not be made. The duplication may have no consequences, it may give a duplication of exon 2 in the transcript, it might produce both transcripts, etc.
     * NP\_003997.2:p.?: the predicted consequences of a duplication of exons 74 to 79 of the DMD gene: **NOTE:** since the duplication adds a second last exon (exon 79) to a normal copy of the gene, a reliable prediction of the consequences can not be made. The duplication may have no consequences, it may give a duplication of exons 74 to 78 in the transcript, it might produce both transcripts, etc.
-* NP\_003997.1:p.Val7=/dup: a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as “Val7=”) also protein is found containing a duplication (Val7dup): **NOTE:** for the predicted consequences of a variant the description is NP\_003997.1:p.(Val7=/dup)
+* NP\_003997.1:p.Val7=/dup: a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as "Val7=") also protein is found containing a duplication (Val7dup): **NOTE:** for the predicted consequences of a variant the description is NP\_003997.1:p.(Val7=/dup)
 ## Discussion
 
 !!! note "Why do we not describe a duplication as an insertion?"

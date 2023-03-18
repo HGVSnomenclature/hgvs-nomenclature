@@ -21,7 +21,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 * changes involving two or more consecutive amino acids are described as a deletion/insertion variant (delins) (see [_Substitution_](../substitution/).
     * **NOTE**:    this does not mean that at the DNA or RNA level the variant is described as a "delins" variant as well; on DNA level other rules may apply.
     * the description p.Arg76\_Cys77delinsSerTrp is correct, the description p.[Arg76Ser;Cys77Trp] is not correct.
-    * two variants separated by one or more amino acids should be described individually and not as a “delins”.
+    * two variants separated by one or more amino acids should be described individually and not as a "delins".
 * for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
 * when the inserted amino acid sequence is large the insertion may be described by its length, e.g. p.Lys2\_Leu3insX[34] (open reading frame insertion) or p.Lys2\_Leu3insTer12 (translation stop in inserted sequence).
     * **NOTE**:    the inserted amino acid sequence can be derived from the description od the variant at DNA or RNA level.
@@ -45,8 +45,8 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 
 !!! note "What is an "indel"?"
 
-    The term "indel" is not used in HGVS nomenclature (<a href='http://varnomen.hgvs.org/bg-material/glossary/'><i>see Glossary</i></a>). The term is confusing, having different meanings in different disciplines.
+    The term "indel" is not used in HGVS nomenclature ([<i>see Glossary</i>](http://varnomen.hgvs.org/bg-material/glossary/)). The term is confusing, having different meanings in different disciplines.
 
 !!! note "Can I describe a TrpSer to CysArg variant as a amino acid substitution (p.TrpSer23CysArg)?"
 
-    No, this is not allowed. By definition a substitution changes <b>one</b> amino acid into <b>one</b> other amino acid. The change TrpSer to CysArg should be described as p.Trp23_Ser24delinsCysArg, i.e. a deletion/insertion (indel) (<a href='http://varnomen.hgvs.org/recommendations/protein/variant/delins/'><i>see Deletion-Insertion</i></a>).
+    No, this is not allowed. By definition a substitution changes <b>one</b> amino acid into <b>one</b> other amino acid. The change TrpSer to CysArg should be described as p.Trp23_Ser24delinsCysArg, i.e. a deletion/insertion (indel) ([<i>see Deletion-Insertion</i>](http://varnomen.hgvs.org/recommendations/protein/variant/delins/)).

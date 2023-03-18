@@ -15,11 +15,11 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
 * X, Y, 1, 2, 3, ..., 21, 22: changes affecting sex chromosomes (X then Y) are listed first, followed by those affecting autosomes (numbers from low to high): **NOTE:**    changed in ISCN2020. ISCN2016 had: _aberrations affecting autosomes are listed first (numbers from low to high), followed by those affecting sex chromosomes (X then Y)_
 * specific symbols
     * pter, cen, qter: the start of the chromosome is described as "**pter**", the end as "**qter**", the centromere as "**cen**"
-        * (pter)\_# and #\_(qter): for deletions extending from a known nucleotide position (#) to an unknown position in the direction of the telomere the format “(pter)\_#” or “#\_(qter)” is used.: **NOTE:**    added in ISCN2020
+        * (pter)\_# and #\_(qter): for deletions extending from a known nucleotide position (#) to an unknown position in the direction of the telomere the format "(pter)\_#" or "#\_(qter)" is used.: **NOTE:**    added in ISCN2020
     * sup: the presence of an additional sequence which is not attached to other chromosomal material (i.e. trisomy, marker or ring chromosome) is indicated by "**sup**" (supernumerary chromosome): **NOTE:**    the description of the supernumerary molecule is given using "[ ]sup": **NOTE:**    changed in ISCN2020. ISCN2016 had: _"add" for additional sequence_
     * ::: a double colon (::) is used to designate break point junctions creating a ring chromosome.: **NOTE:**    "::"" changed in ISCN2020. ISCN2016 had: _is used to designate break point junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis break point junctions and junctions creating a ring chromosome_: **NOTE:**    the "**::**" (double colon) is also used to designate the junction of fusion transcripts
 * chromosomal banding patterns are translated to genomic coordinates based the translation tables provided by NCBI ([_see Standards_](../../../background/standards/#ISCN))
-* in ISCN it is allowed to describe nucleotide positions using commas to indicate thousands and millions (e.g. “108,111,982”), in HGVS this is not allowed.
+* in ISCN it is allowed to describe nucleotide positions using commas to indicate thousands and millions (e.g. "108,111,982"), in HGVS this is not allowed.
 * 3'rule: to determine the location of the break point, the general HGVS rule of maintaining the longest unchanged sequence applies (the 3' rule). Break point location is determined by the first break point encountered, i.e. from pter of the chromosome to be listed first
     * pter to qter: multiple breakpoints in one chromosome are listed in order of occurrence from pter to qter
     * variant descriptions are always in the forward orientation (from pter to qter, the end of the chromosome), determined by the chromosomal origin of the intact centromere ("**cen**")
@@ -62,7 +62,7 @@ In the original proposal (SVD-WG004) **one identical derivative chromosome** wou
             * NC\_000004.12:g.134850793\_134850794ins[NC\_000023.11:g.89555676\_100352080inv] and NC\_000023.11:g.89555676\_100352080del: for ISCN ins(4;X)(q28.3;q22.2q21.31): _(balanced intrachromosomal, inserted sequence reversed in orientation relative to chromosome sequence containing centromere)_
         * **unbalanced**  (copy inserted elsewhere): describe as insertion
 * **supernumerary chromosome**
-    * NC\_000022.11:g.[pter\_(12200001\_14700000)del::(37600001\_410000000)\_qterdel]sup: for ISCN +r(22)(p11.1q13.1): _(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:**    changed in ISCN2020. ISCN2016 had: “add” for additional sequence
+    * NC\_000022.11:g.[pter\_(12200001\_14700000)del::(37600001\_410000000)\_qterdel]sup: for ISCN +r(22)(p11.1q13.1): _(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:**    changed in ISCN2020. ISCN2016 had: "add" for additional sequence
 ## Discussion
 
 !!! note "Is the description NM_04006.1:c.123+45_123+51TSDinsL1.603bp acceptable (TSD = target site duplication, insL1 indicates the nature of the insert (L1, Alu or SVA), 603bp = the number of inserted base pairs)?"

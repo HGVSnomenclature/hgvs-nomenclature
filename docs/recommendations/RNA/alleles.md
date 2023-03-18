@@ -32,7 +32,7 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. r.[123g>a];[345
 * when two variants are identified in a transcript that derive from **one chromosome** (in cis) this should be described as "r.[variant1**<font color="red">;</font>**variant2]".
 * when two variants are identified in transcripts that derive from **different chromosomes** (in trans) this should be described as "r.[variant1]**<font color="red">;</font>**[variant2]".
 * when two variants are identified in a transcript, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "**variant1<font color="red">(;)</font>variant2**", i.e. without using "[ ]".  **NOTE:** it is recommended to determine whether the changes are in the same transcript or not.
-* when two variants are identified in two different transcripts that derive from **one variant** at the DNA level the variants are separated using a “,”; p.[variant1**<font color="red">,</font>**variant2]”.
+* when two variants are identified in two different transcripts that derive from **one variant** at the DNA level the variants are separated using a ","; p.[variant1**<font color="red">,</font>**variant2]".
 ## Examples
 
 For more examples [_see DNA alleles_](../../DNA/alleles/).
@@ -53,7 +53,7 @@ For more examples [_see DNA alleles_](../../DNA/alleles/).
 
 !!! note "Was originally the recommendation to use the format [r.76a>c+r.83g>c]?"
 
-    Indeed, originally <a href="http://dx.doi.org/10.1002/%28SICI%291098-1004%28200001%2915:1%3c7::AID-HUMU4%3e3.0.CO;2-N">den Dunnen and Antonarakis, 2000</a> the suggestion was to describe two changes in a transcript from one chromosome as [r.76a>c+r.83g>c], i.e. using a "+"-character to separate the two changes, while an earlier publication suggested to use a ";" ([r.76a>c;r.83g>c] <a href="http://dx.doi.org/10.1002/%28SICI%291098-1004%281998%2911:1%3c1::AID-HUMU1%3e3.0.CO;2-O">(Antonarakis and the Nomenclature Working Group, 1998</a>). To prevent confusion with older publications, to improve overall consistency and to keep descriptions as short as possible, the 2000 proposal was retracted. The recommended format is r.[76a>c;83g>c].
+    Indeed, originally [den Dunnen and Antonarakis, 2000](http://dx.doi.org/10.1002/%28SICI%291098-1004%28200001%2915:1%3c7::AID-HUMU4%3e3.0.CO;2-N) the suggestion was to describe two changes in a transcript from one chromosome as [r.76a>c+r.83g>c], i.e. using a "+"-character to separate the two changes, while an earlier publication suggested to use a ";" ([r.76a>c;r.83g>c] [(Antonarakis and the Nomenclature Working Group, 1998](http://dx.doi.org/10.1002/%28SICI%291098-1004%281998%2911:1%3c1::AID-HUMU1%3e3.0.CO;2-O)). To prevent confusion with older publications, to improve overall consistency and to keep descriptions as short as possible, the 2000 proposal was retracted. The recommended format is r.[76a>c;83g>c].
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 

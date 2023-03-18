@@ -19,13 +19,13 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r
 * by definition, when **one** nucleotide is replaced by **one** other nucleotide the change is a [_substitution_](../substitution/).
 * two variants separated by one or more nucleotides should preferably be described individually and **not** as a "delins"
     * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. r.142\_144delinsugg p.(Arg48Trp)).: **NOTE:**    this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
-    * **conversions**, a sequence change where a range of nucleotides are replaced by a sequence from elsewhere in the genome, are described as a “delins”. The previous format “con” is no longer used (see [_Community Consultation SVD-WG009)_](../../../consultation/SVD-WG009/)).
+    * **conversions**, a sequence change where a range of nucleotides are replaced by a sequence from elsewhere in the genome, are described as a "delins". The previous format "con" is no longer used (see [_Community Consultation SVD-WG009)_](../../../consultation/SVD-WG009/)).
 ## Examples
 
 * r.775delinsga: a deletion of nucleotide r.775 (a "u", not described), replaced by nucleotides "ga", changing ..aggc<font color="red">u</font>cauu.. to ..aggc<font color="red">ga</font>cauu..
 * r.775\_777delinsc : a deletion of nucleotides r.775 to r.777 ("uca", not described), replaced by nucleotides "c", changing ..aggc<font color="red">uca</font>uu.. to ..aggc<font color="red">c</font>uu..
 * r.902_909delinsuuu: a deletion of nucleotides r.902 to r.909, replaced by nucleotides uuu
-* r.142_144delinsugg (p.Arg48Trp): a deletion replacing nucleotides r.142 to r.144 (cga, not described) with ugg: **NOTE:** the variant can also be described as r.[142c>u;144a>g], i.e. two substitutions. This format is preferred when either of the two variants is known as a frequently occurring variant (“polymorphism”)
+* r.142_144delinsugg (p.Arg48Trp): a deletion replacing nucleotides r.142 to r.144 (cga, not described) with ugg: **NOTE:** the variant can also be described as r.[142c>u;144a>g], i.e. two substitutions. This format is preferred when either of the two variants is known as a frequently occurring variant ("polymorphism")
 * RNA conversion (based on [_SVD-WG009_](../../../consultation/SVD-WG009/))
     * NM\_004006.2:r.2623\_2803delins2804\_2949: conversion replacing nucleotides r.2623 to r.2803 (exon 21) with nucleotides r.2804 to r.2949 (exon 22) as found in the DMD coding RNA sequence file NM\_004006.2
     * r.415\_1655delins[AC096506.5:409\_1649]: conversion replacing nucleotides r.414 to r.1655 with nucleotides 409 to 1649 as found in the genomic reference sequence AC096506.5
@@ -34,11 +34,11 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r
 
 !!! note "What is an <b>"indel"</b>?"
 
-    The term "indel" is not used in HGVS nomenclature (<a href='http://varnomen.hgvs.org/bg-material/glossary/'><i>see Glossary</i></a>). The term is confusing, having different meanings in different disciplines.
+    The term "indel" is not used in HGVS nomenclature ([<i>see Glossary</i>](http://varnomen.hgvs.org/bg-material/glossary/)). The term is confusing, having different meanings in different disciplines.
 
 !!! note "Can I describe a "gc" to "ug" variant as a dinucleotide substitution (r.4gc>ug)?"
 
-    No this is not allowed. By definition a substitution changes <b>one</b> nucleotide into <b>one</b> other nucleotide (<a href='http://www.HGVS.org/varnomen/recommendations/RNA/variant/substitution/'><i>see Substitution</i></a>). The change "augu<font color="red">gc</font>ca" to 'augu<font color="red">ug</font>ca" should be described as r.5_6delinsug, i.e. a deletion/insertion (indel).
+    No this is not allowed. By definition a substitution changes <b>one</b> nucleotide into <b>one</b> other nucleotide ([<i>see Substitution</i>](http://www.HGVS.org/varnomen/recommendations/RNA/variant/substitution/)). The change "augu<font color="red">gc</font>ca" to 'augu<font color="red">ug</font>ca" should be described as r.5_6delinsug, i.e. a deletion/insertion (indel).
 
 !!! note "The BRCA1 coding RNA reference sequence from position r.2074 to r.2080 is ..caugaca.. A variant frequently found in the population is ..cau<font color="red">a</font>aca.. (r.2077g>a). In a patient I found the sequence ..cau<font color="red">a ua</font>aca.. Can I describe this variant as r.[2077g>a;2077_2078insua]?"
 
