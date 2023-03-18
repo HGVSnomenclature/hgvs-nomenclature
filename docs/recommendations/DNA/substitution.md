@@ -40,7 +40,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 !!! note "How can I shorten the descriptions of SNPs in a manuscript?"
 
-    Publications reporting linkage or association studies often use a range of different markers/SNPs. Such publications should contain at least once an <b>unequivocal description of all markers</b> used linking them to a reference sequence, preferably a genomic reference sequence. When this has been done, simplified descriptions can be used like;<ul><li><b>NM_004006.1 3G>T</b>, using a GenBank coding DNA reference sequence,</li><li><b><i>GJB2</i> 76A>C</b>, using a HGNC-approved gene symbol as reference,</li><li><b>rs2306220 T>C</b>, using a <a href="http://www.ncbi.nlm.nih.gov/SNP" target="_blank">dbSNP-identifier</a> as a reference,</li> <li><b>DXS1219 CA[18];[21]</b> (or AFM297yd1 CA[18];[21]), using a marker DXS1219 (AFM297yd1) as reference.</li></ul>
+    Publications reporting linkage or association studies often use a range of different markers/SNPs. Such publications should contain at least once an <b>unequivocal description of all markers</b> used linking them to a reference sequence, preferably a genomic reference sequence. When this has been done, simplified descriptions can be used like;<ul><li><b>NM_004006.1 3G>T</b>, using a GenBank coding DNA reference sequence,</li><li><b><i>GJB2</i> 76A>C</b>, using a HGNC-approved gene symbol as reference,</li><li><b>rs2306220 T>C</b>, using a [dbSNP-identifier](http://www.ncbi.nlm.nih.gov/SNP) as a reference,</li> <li><b>DXS1219 CA[18];[21]</b> (or AFM297yd1 CA[18];[21]), using a marker DXS1219 (AFM297yd1) as reference.</li></ul>
 
 !!! note "How should I describe a variant in the promoter region of a gene?"
 
@@ -52,7 +52,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 !!! note "Can I describe a GC to TG variant as a dinucleotide substitution (NG_012232.1:g.12GC>TG)?"
 
-    No, this is not allowed. By definition a substitution changes <b>one</b> nucleotide into <b>one</b> other nucleotide. The change GAAGCCAG to GAA<font color="red">TG</font>CAG should be described as NG_012232.1:g.12_13delinsTG, i.e. a deletion/insertion (indel) (<a href='http://varnomen.hgvs.org/recommendations/DNA/variant/delins/'><i>see Deletion-Insertion</i></a> and Description - Note). When phase information is not available, the variant should be described as NG_012232.1:g.12G>T(;)13C>G (<a href='http://varnomen.hgvs.org/recommendations/DNA/variant/alleles/'><i>see Alleles</i></a>).
+    No, this is not allowed. By definition a substitution changes <b>one</b> nucleotide into <b>one</b> other nucleotide. The change GAAGCCAG to GAA<font color="red">TG</font>CAG should be described as NG_012232.1:g.12_13delinsTG, i.e. a deletion/insertion (indel) ([<i>see Deletion-Insertion</i>](http://varnomen.hgvs.org/recommendations/DNA/variant/delins/) and Description - Note). When phase information is not available, the variant should be described as NG_012232.1:g.12G>T(;)13C>G ([<i>see Alleles</i>](http://varnomen.hgvs.org/recommendations/DNA/variant/alleles/)).
 
 !!! note "The <i>BRCA1</i> coding DNA reference sequence NM_007294.3 from position c.2074 to c.2080 is ..CATGACA.. A variant frequently found in the population is ..CAT<font color="red">A</font>ACA.. (NM_007294.3:c.2077G>A). In a patient I found the sequence ..CATA<font color="red">TA</font>ACA.. Can I describe this variant as NM_007294.3:c.[2077G>A;2077_2078insTA]?"
 

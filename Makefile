@@ -88,3 +88,6 @@ check-links:
 
 replace-unicode:
 	./bin/replace-unicode docs/**/*.md
+
+replace-a-href-links:
+	./bin/replace-a-href-links docs/**/*.md

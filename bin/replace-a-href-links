@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+import re
+import sys
+
+a_href_re = re.compile(r"<a\s+href=(['\"])(.+?)\1[^>]*>(.+?)</a>")
+
+for path in sys.argv[1:]:
+    content = open(path, "rt").read()
+    content = a_href_re.sub(r"[\3](\2)", content)
+    open(path, "wt").write(content)
+    

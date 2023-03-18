@@ -57,8 +57,8 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
 
 !!! note "Can I describe a TrpVal to CysArg variant as a amino acid substitution (p.TrpVal24CysArg)?"
 
-    No, this is not allowed. By definition a substitution changes <b>one</b> amino acid into <b>one</b> other amino acid. The change TrpVal to CysArg should be described as NP_003997.1:p.Trp24_Val25delinsCysArg, i.e. a deletion/insertion (indel) (<a href='http://varnomen.HGVS.org/recommendations/DNA/variant/indel/'><i>see Deletion-Insertion</i></a>).
+    No, this is not allowed. By definition a substitution changes <b>one</b> amino acid into <b>one</b> other amino acid. The change TrpVal to CysArg should be described as NP_003997.1:p.Trp24_Val25delinsCysArg, i.e. a deletion/insertion (indel) ([<i>see Deletion-Insertion</i>](http://varnomen.HGVS.org/recommendations/DNA/variant/indel/)).
 
 !!! note "How should you describe an amino acid substitution to any other amino acid?"
 
-    HGVS uses IUPAC symbols (<a href='http://varnomen.hgvs.org/bg-material/standards/'><i>see Standards</i></a>). The symbol for 'any' amino acid is 'X'/'Xaa'. Since 'X' has been used to indicate a translation stop codon (nonsense variant) we suggest to use 'Xaa' three-letter amino acid code only (e.g. p.Arg782Xaa).
+    HGVS uses IUPAC symbols ([<i>see Standards</i>](http://varnomen.hgvs.org/bg-material/standards/)). The symbol for 'any' amino acid is 'X'/'Xaa'. Since 'X' has been used to indicate a translation stop codon (nonsense variant) we suggest to use 'Xaa' three-letter amino acid code only (e.g. p.Arg782Xaa).

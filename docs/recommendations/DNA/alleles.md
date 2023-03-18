@@ -57,7 +57,7 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345
 
 !!! note "Was originally the recommendation to use the format [c.76A>C+c.83G>C]?"
 
-    Indeed, originally <a href="http://dx.doi.org/10.1002/%28SICI%291098-1004%28200001%2915:1%3c7::AID-HUMU4%3e3.0.CO;2-N">den Dunnen and Antonarakis, 2000</a> the suggestion was to describe two changes in a gene on one chromosome as [c.76>C+c.83G>C], i.e. using a "+"-character to separate the two changes, while an earlier publication suggested to use a ";" ([c.76A>C;c.83G>C] <a href="http://dx.doi.org/10.1002/%28SICI%291098-1004%281998%2911:1%3c1::AID-HUMU1%3e3.0.CO;2-O">(Antonarakis and the Nomenclature Working Group, 1998</a>). To prevent confusion with older publications, to improve overall consistency and to keep descriptions as short as possible, the 2000 proposal was retracted. The recommended format is c.[76A>C;83G>C].
+    Indeed, originally [den Dunnen and Antonarakis, 2000](http://dx.doi.org/10.1002/%28SICI%291098-1004%28200001%2915:1%3c7::AID-HUMU4%3e3.0.CO;2-N) the suggestion was to describe two changes in a gene on one chromosome as [c.76>C+c.83G>C], i.e. using a "+"-character to separate the two changes, while an earlier publication suggested to use a ";" ([c.76A>C;c.83G>C] [(Antonarakis and the Nomenclature Working Group, 1998](http://dx.doi.org/10.1002/%28SICI%291098-1004%281998%2911:1%3c1::AID-HUMU1%3e3.0.CO;2-O)). To prevent confusion with older publications, to improve overall consistency and to keep descriptions as short as possible, the 2000 proposal was retracted. The recommended format is c.[76A>C;83G>C].
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 
