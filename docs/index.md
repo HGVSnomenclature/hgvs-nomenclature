@@ -15,4 +15,4 @@ under the auspices of the [Human Genome Organization (HUGO)](https://hugo-int.or
 **HGVS Recommendations for the Description of Sequence Variants: 2016 Update.**
 den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, et al.
 Hum Mutat. 2016. [doi:10.1002/humu.22981](http://dx.doi.org/10.1002/humu.22981)
-[PubMed:26931183](https://www.ncbi.nlm.nih.gov/pubmed/26931183)
+| [PubMed:26931183](https://www.ncbi.nlm.nih.gov/pubmed/26931183) | [PDF](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)
