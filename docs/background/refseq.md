@@ -97,7 +97,7 @@ Depending on the variants to be reported, different reference sequence files are
 ### DNA - mitochondrial reference sequence (m.)
 
 * mitochondrial genomic reference sequences are indicated using a **m.** prefix: a mitochondrial reference sequence is a special type of circular genomic reference sequence. Since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
-* the preferred human mtDNA reference sequence is the [Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).: **NOTE:**    the mtDNA reference sequence is a **circular molecule** ([_see Open Issues](../../consultation/open-issues/#circular))
+* the preferred human mtDNA reference sequence is the [Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).: **NOTE:**    the mtDNA reference sequence is a **circular molecule** ([_ee Open Issues](../../consultation/open-issues/#circular))
 
 <a name="DNAc"/>
 

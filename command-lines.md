@@ -5,6 +5,8 @@
 perl -i -pe 'm/<td/ or  s%<b>(.+?)</b>%**\1**%g' docs/**/*.md
 perl -i -p0e 's%<i>(.+?)</i>%*\1*%g' docs/**/*.md
 
+- replace `[**...**]` with `[...]`
+
 
 
 
