@@ -2,7 +2,7 @@
 
 ## Definition
 
-Substitution: a sequence change where, compared to a reference sequence, <b>one</b> nucleotide is replaced by <b>one</b> other nucleotide.
+Substitution: a sequence change where, compared to a reference sequence, **one** nucleotide is replaced by **one** other nucleotide.
 
 ## Description
 
@@ -49,4 +49,4 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 !!! note "I found a variant on DNA level which is a well-characterised splice variant. Is it correct to describe the variant as concluded from literature?"
 
-    No, you should report what <b>you</b> have found. You can however use the published data to give the predicted consequences on RNA/protein level, e.g. NM_004006.3:c.3430C>T r.(3277_3432del) p.(Leu1093_Gln1144del).
+    No, you should report what **you** have found. You can however use the published data to give the predicted consequences on RNA/protein level, e.g. NM_004006.3:c.3430C>T r.(3277_3432del) p.(Leu1093_Gln1144del).

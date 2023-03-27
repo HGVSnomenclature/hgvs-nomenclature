@@ -61,7 +61,7 @@ For more examples see [DNA alleles](../../DNA/alleles/).
 
 !!! note "Can I describe the predicted protein consequences of two variants on the same allele as p.([Phe233Leu;Cys690Trp])?"
 
-    No, this should be described as p.[(Phe233Leu;Cys690Trp)], i.e. with the parentheses <b>inside</b> the square brackets of the allele and around each variant. This format is used for overall consistency; with the parentheses <b>inside</b> the square brackets variants can be described as p.[Phe233Leu;(Cys690Trp)] which would not be possible when they were allowed outside of the square brackets.
+    No, this should be described as p.[(Phe233Leu;Cys690Trp)], i.e. with the parentheses **inside** the square brackets of the allele and around each variant. This format is used for overall consistency; with the parentheses **inside** the square brackets variants can be described as p.[Phe233Leu;(Cys690Trp)] which would not be possible when they were allowed outside of the square brackets.
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 
@@ -73,5 +73,5 @@ For more examples see [DNA alleles](../../DNA/alleles/).
 
 !!! note "How should I describe the variants detected in males and females for a protein encoded by the X-chromosome?"
 
-    In <b>females</b> the description is straightforward, like p.[Ser86Arg];[Ser86=]. In <b>males</b> there is no second allele (X-chromosome) which can be described as p.[Ser86Arg];[0], i.e. using "<b>p.0</b>" to indicate the absence of a protein from the second X-chromosome. A description like p.[Ser86Arg];[0] is also possible for a female but, since variant descriptions on protein level can only be given <b>in addition to</b> a description on DNA level, it will be linked to either the description of a deletion on DNA level or the absence of RNA (r.0), e.g. caused by non-random X-inactivation.
+    In **females** the description is straightforward, like p.[Ser86Arg];[Ser86=]. In **males** there is no second allele (X-chromosome) which can be described as p.[Ser86Arg];[0], i.e. using "**p.0**" to indicate the absence of a protein from the second X-chromosome. A description like p.[Ser86Arg];[0] is also possible for a female but, since variant descriptions on protein level can only be given **in addition to** a description on DNA level, it will be linked to either the description of a deletion on DNA level or the absence of RNA (r.0), e.g. caused by non-random X-inactivation.
     

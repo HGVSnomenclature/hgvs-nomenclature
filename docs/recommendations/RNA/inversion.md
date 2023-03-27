@@ -2,7 +2,7 @@
 
 ## Definition
 
-Inversion: a sequence change where, compared to a reference sequence, <b>more than one nucleotide</b> replacing the original sequence are the reverse complement of the original sequence.
+Inversion: a sequence change where, compared to a reference sequence, **more than one nucleotide** replacing the original sequence are the reverse complement of the original sequence.
 
 ## Description
 
@@ -29,11 +29,11 @@ Format:   **"prefix""positions\_inverted""inv"**,  e.g. r.123\_345inv
 
 !!! note "Is the change "aagc" to "uucg" an inversion?"
 
-    No, an inversion would change "aagc" to "gcuu", its <b>revese-complement</b>. "uucg" is only the <b>complement</b> of "aagc".
+    No, an inversion would change "aagc" to "gcuu", its **revese-complement**. "uucg" is only the **complement** of "aagc".
 
 !!! note "Is the change "aagc" to "cgaa" an inversion?"
 
-    No, an inversion would change "aagc" to "gcuu", its <b>revese-complement</b>. CGAA is only the <b>reverse</b> of "aagc".
+    No, an inversion would change "aagc" to "gcuu", its **revese-complement**. CGAA is only the **reverse** of "aagc".
 
 !!! note "On the [old nomenclature website](http://www.HGVS.org/mutnomen/examplesRNA.html) (bottom) you had the example r.124_500delinsoAB053210.2:r.1289-365_1289-73, i.e. the "o" indicating the inserted sequence AB053210.2:r.1289-365_1289-73 was from the opposite transcriptional strand. Is the "o" still used?"
 

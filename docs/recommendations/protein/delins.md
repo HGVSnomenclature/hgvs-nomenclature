@@ -49,4 +49,4 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 
 !!! note "Can I describe a TrpSer to CysArg variant as a amino acid substitution (p.TrpSer23CysArg)?"
 
-    No, this is not allowed. By definition a substitution changes <b>one</b> amino acid into <b>one</b> other amino acid. The change TrpSer to CysArg should be described as p.Trp23_Ser24delinsCysArg, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](http://varnomen.hgvs.org/recommendations/protein/variant/delins/)).
+    No, this is not allowed. By definition a substitution changes **one** amino acid into **one** other amino acid. The change TrpSer to CysArg should be described as p.Trp23_Ser24delinsCysArg, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](http://varnomen.hgvs.org/recommendations/protein/variant/delins/)).

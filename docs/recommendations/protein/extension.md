@@ -40,15 +40,15 @@ Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_
 
 !!! note "How are variants at the protein level called that directly affect the translation initiation (start) codon?"
 
-    The variant is called <b>start-lost</b> variant, one of two types of a protein extension, an N-terminal extension. Note the difference with a <b>start-gained</b> variant where the start codon itself is not directly affected, another type of N-terminal extension.
+    The variant is called **start-lost** variant, one of two types of a protein extension, an N-terminal extension. Note the difference with a **start-gained** variant where the start codon itself is not directly affected, another type of N-terminal extension.
 
 !!! note "How are variants at the protein level called that directly affect the translation termination (stop) codon?"
 
-    The variant is called a <b>no-stop</b> or <b>stop-lost</b> variant, one of two types of a protein extension, a C-terminal extension.
+    The variant is called a **no-stop** or **stop-lost** variant, one of two types of a protein extension, a C-terminal extension.
 
 !!! note "<a name='noend'></a>How do I describe an extension when no new stop codon is reached?"
 
-    Such variants are described using the format p.Ter789ArgextTer?, i.e. "<b>extTer?</b>" to indicate that no new termination codon is encountered.
+    Such variants are described using the format p.Ter789ArgextTer?, i.e. "**extTer?**" to indicate that no new termination codon is encountered.
 
 !!! note "How should a variant in the 5'UTR be described that gives rise to a new translation initiation site?"
 
@@ -56,4 +56,4 @@ Format (**<font color="red">C-terminal</font>**):  **"prefix""Ter_position""new_
 
 !!! note "Should I describe a duplication in the translation termination codon (TGA to TGGA) as a frame shift or as an extension?"
 
-    The variant extends the amino acid sequence at the C-terminal end and is therefore by definition an <b>extension</b>.
+    The variant extends the amino acid sequence at the C-terminal end and is therefore by definition an **extension**.

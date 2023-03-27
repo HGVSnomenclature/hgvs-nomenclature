@@ -65,4 +65,4 @@ For more examples see [DNA alleles](../../DNA/alleles/).
 
 !!! note "How should I describe the variants detected in males and females for a transcript from the X-chromosome?"
 
-    In <b>females</b> the description is straightforward, like r.[76a>c];[=]. In <b>males</b> there is no transcript from the second allele (X-chromosome) which can be described as r.[76a>c];[0], i.e. using "<b>r.0</b>" to indicate the absence of a transcript from the second X-chromosome.
+    In **females** the description is straightforward, like r.[76a>c];[=]. In **males** there is no transcript from the second allele (X-chromosome) which can be described as r.[76a>c];[0], i.e. using "**r.0**" to indicate the absence of a transcript from the second X-chromosome.
