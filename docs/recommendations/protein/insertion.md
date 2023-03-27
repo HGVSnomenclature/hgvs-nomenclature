@@ -28,7 +28,7 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 * insertions at DNA or RNA level
     * which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
     * **encoding a translation stop codon** in the inserted sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
-    * encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [**frame shift**](../frameshift/)
+    * encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frame shift](../frameshift/)
 ## Examples
 
 * p.His4\_Gln5insAla: the insertion of amino acid <font color="red">Ala</font> between amino acids His4 and Gln5 changing MetLysGlyHisGlnGlnCys to MetLysGlyHis**<font color="red">Ala</font>**GlnGlnCys
