@@ -4,12 +4,12 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 ### Characters used
 
-* "**<font color="red">( )</font>**" (parentheses): are used to indicate uncertainties
+* "**<span class="spotlight">( )</span>**" (parentheses): are used to indicate uncertainties
     * in g.(123456\_234567)\_(345678\_456789)del the extent (region) of uncertainty for the location of the deletion breakpoint, where (123456\_234567) and (345678\_456789) indicate the two regions where the break point should be located
     * in p.(Cys123Gly) indicating the amino acid change is predicted from DNA level data (no experimental proof)
 <br><br>
-* "**<font color="red">?</font>**" (question mark): is used to indicate unknown positions (nucleotide or amino acid), like in g.(?\_234567)\_(345678\_?)del
-* "**<font color="red">^</font>**" (caret): is used as "or", like p.(Gly719Ala^Ser)
+* "**<span class="spotlight">?</span>**" (question mark): is used to indicate unknown positions (nucleotide or amino acid), like in g.(?\_234567)\_(345678\_?)del
+* "**<span class="spotlight">^</span>**" (caret): is used as "or", like p.(Gly719Ala^Ser)
 * IUPAC codes: all IUPAC nucleotide codes can be used to describe uncertain nucleotides (see [Standards](../../background/standards/))
     * "**N[5]**", describes five unknown nucleotides
     * "**X[5]**", describes five unknown amino acid residues
@@ -21,7 +21,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 #### DNA
 
-* position: When a variant has been identified but it can not be mapped to a unique location, possible descriptions should be given separated by a "**<font color="red">^</font>**" (caret)
+* position: When a variant has been identified but it can not be mapped to a unique location, possible descriptions should be given separated by a "**<span class="spotlight">^</span>**" (caret)
     * NM\_000517.4:c.424C>T^NM\_000558.3:c.424C>T: describes variant c.427T>C which is either in the HBA2 (NM\_000517.4) or the HBA1 (NM\_000558.3) gene
     * NC\_000023.10:g.(33038277_33038278)C>T  (LRG\_199t1:c.(71_72)G>A) : describes the variant Trp24* in the DMD gene reported on protein level only
 * deletion: The standard format to describe a deletion for which the break point has not been sequenced is (A\_B)\_(C\_D)del, where B\_C describes the **minimal** extent and A\_D to **maximal** extent of the deletion/duplication.

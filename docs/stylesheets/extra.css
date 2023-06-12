@@ -18,6 +18,10 @@ label.md-nav__title {
     font-size: 0.8rem;
 }
 
+span.spotlight {
+    color: red;
+}
+
 [data-md-color-scheme="hvnc"] {
     --md-primary-fg-color:        #FF8001;
     --md-primary-fg-color--light: #FF9910;
