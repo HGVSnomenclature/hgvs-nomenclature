@@ -22,3 +22,7 @@ The [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen) reg
 den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, et al.
 Hum Mutat. 2016. [doi:10.1002/humu.22981](http://dx.doi.org/10.1002/humu.22981)
 | [PubMed:26931183](https://www.ncbi.nlm.nih.gov/pubmed/26931183) | [PDF](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)
+
+## A note about our name
+
+We've called ourselves by lots of names, including "VarNomen", "MutNomen", "HGVS Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially.  We recognize that this has caused confusion in the community.  Please call us "HGVS Nomenclature".

@@ -1,8 +1,36 @@
 # Community Consultation
 
-HGVS nomenclature falls under the responsibility of HUGO's ([**HGVS Variant Nomenclature Committee** (HVNC)](../governance/)), formerly known as the Sequence Variant Description Working Group (SVD-WG). The HVNC handles requests to change or extend HGVS nomenclature operating according to a charter defining its activities which includes a **Community Consultation** step. Any proposal made by the HVNC will be **published on this web page**. When published, the proposal is open for comments for a 2-month period. Everybody interested is asked to study the proposal and send comments, positive or negative, to the HVNC. Comments to proposals should be addressed to "Varnomen @ HUGO-int.org", Subject: HVNCxxx (xxx the proposal number, e.g. HVNC-011).
+The HGVS Nomenclature is administed by the [HGVS Variant Nomenclature Committee
+(HVNC)](../governance/), a working group of the Human Genome Organization.  The HVNC handles
+requests to change or extend HGVS Nomenclature through a **Community Consultation** process.
+Proposed and implemented changes will be discussed using our [GitHub
+Discussions](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions) forum and summarized
+here. 
 
-To ensure you **do not miss** a new proposal [please register for e-mail notification](../background/basics/)). Those registered will also receive notification when the HGVS nomenclature version number changes. The latest version of the HGVS recommendations can be found at the [Versioning page](../background/versioning/).
+## Proposal Process
+
+- Anyone may submit a proposal for changes to Discussions. The proposal is initially considered OPEN
+  and under discussion.
+- Anyone may comment on an OPEN proposal.
+- The HVNC will evaluate all proposals from time to time. For each proposal, the committee may
+  choose to:
+    - leave the proposal OPEN for further discussion;
+    - mark the propossal as REJECTED with explanation if the proposal is deemed unworkable,
+      incomplete, or inconsistent with the existing guidelines, or if it is similar to existing or
+      recently considered proposals; or
+    - move the propsal to DRAFTING to indicate that a member of the HVNC will understake drafting of
+      the changes.
+- When a proposal is in the DRAFTING stage, a GitHub issue is created to track writing for the
+  intended documentation change. Writing will be undertaken in a branch dedicated for the assigned
+  issue. A pull request will eventually be submitted and evaluated.
+- Evaluation of the PR is limited to HVNC members (i.e., not for public discussion), although
+  specific users may be asked for comments when warranted. If the PR is eventually merged, the
+  discussion proposal is marked as ADOPTED.
+- If the PR is not merged for any reason (e.g., if we realize that the PR creates unforeseen issues
+  with the existing nomenclature), the proposal will either be re-opened for more discussion or
+  rejected at the discretion of the committee.
+
+## Proposals
 
 ### Open
 
