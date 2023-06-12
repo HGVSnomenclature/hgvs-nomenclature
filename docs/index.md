@@ -1,7 +1,8 @@
 # HGVS Nomenclature
 
-!!! important
-    This is a development and preview site for updates to the HGVS Recommendations.  Please see [the website migration discussion](https://github.com/HGVSnomenclature/HVNC/discussions/17) for a description of the proposed changes and current progress.
+!!! important This is a development and preview site for updates to the HGVS Nomenclature.  Please
+    see [the website migration discussion](https://github.com/HGVSnomenclature/HVNC/discussions/17)
+    for a description of the proposed changes and current progress.
 
 The <b>HGVS Nomenclature</b> is an internationally-recognized standard for the description of
 DNA, RNA and protein sequence variants. It is used to share information about variants and for
