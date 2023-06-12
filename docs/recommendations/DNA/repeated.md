@@ -2,11 +2,11 @@
 
 ## Definition
 
-Repeated sequence: a sequence where, compared to a reference sequence, a segment of <b>one or more</b> nucleotides (the repeat unit) is present several times, one after the other.
+Repeated sequence: a sequence where, compared to a reference sequence, a segment of **one or more** nucleotides (the repeat unit) is present several times, one after the other.
 
 ## Description
 
-****NOTE:**** a Community Consultation is prepared which will suggest to allow **only one format** where the entire range of the repeated sequence must be indicated, e.g. g.123\_191CAG[23] not g.123CAG[23]
+**NOTE:** a Community Consultation is prepared which will suggest to allow **only one format** where the entire range of the repeated sequence must be indicated, e.g. g.123\_191CAG[23] not g.123CAG[23]
 
 Format (unique repeat):   **"prefix""position_first_nucleotide_first_repeat_unit""repeat_sequence"["copy_number"]**,  e.g. g.123CAG[23]
 
@@ -67,4 +67,4 @@ Format (mixed repeat):   **"prefix""range_repeated_sequence""repeat_sequence_uni
 
 !!! note "Intron 9 of the CFTR gene ends with the sequence ...tgtgtgtgtgtttttttaacag[exon_10]. Both the TG and T stretches are variable in length (from 9 to 13 and 5 to 9 resp.). The reference sequence has 11 TG copies and 7 T's. Is it correct to describe an allele as c.1210-14TG[13]T[5] or for the T stretch as c.1210-6T[5]?"
 
-    A complex case. First note that by applying the <b>3'rule</b> it is a <b>variable GT and not TG stretch</b>. When the coding DNA reference sequence has TG11 followed by T7, the reference allele is described as c.1210-33_1210-6GT[11]T[6]. When only variability of the T-stretch is reported, the reference allele is described as c.1210-12T[7].<br>To indicate the overall variability found in the population the description is c.1210-33_1210-6GT[9_13]T[4_8] for the combined repeat and c.1210-12T[5_9] for the T-stretch.
+    A complex case. First note that by applying the **3'rule** it is a **variable GT and not TG stretch**. When the coding DNA reference sequence has TG11 followed by T7, the reference allele is described as c.1210-33_1210-6GT[11]T[6]. When only variability of the T-stretch is reported, the reference allele is described as c.1210-12T[7].<br>To indicate the overall variability found in the population the description is c.1210-33_1210-6GT[9_13]T[4_8] for the combined repeat and c.1210-12T[5_9] for the T-stretch.

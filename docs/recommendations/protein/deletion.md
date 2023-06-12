@@ -30,7 +30,7 @@ Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_
 * one amino acid
     * NP\_003997.2:p.Val7del: a deletion of amino acid Val7 in the reference sequence NP\_003997.2
     * NP\_003997.2:p.(Val7del): the **predicted** consequence at the protein level is a deletion of amino acid Val7 in the reference sequence NP\_003997.2
-    * NP\_003997.2:p.Trp4del: a deletion of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrp**<font color="red">_</font>**Glu: **NOTE:** for deletions in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been deleted    
+    * NP\_003997.2:p.Trp4del: a deletion of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrp**<span class="spotlight">_</span>**Glu: **NOTE:** for deletions in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been deleted    
 * several amino acids
     * NP\_003997.2:p.Lys23\_Val25del: a deletion of amino acids Lys23 to Val25 in reference sequence NP\_003997.2
     * NP\_003997.2:p.(Pro458\_Gly460del): a deletion of amino acids Pro458-Pro459-Gly460 in reference sequence NP\_003997.2: **NOTE:** the underlying DNA variant (LRG\_232t1:c.1365\_1373del) affects amino acids Pro455-Pro456-Gly457 but the 3'rule needs to be applied
@@ -60,4 +60,4 @@ Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_
 
 !!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?"
 
-    It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSer<b><font color="red">_</font></b>HisAsp.. this is described as p.Ser5del. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCC<b><font color="red">_</font></b>TCCCACGAT.., so the codon for Ser4 is deleted, is not used; the description p.Ser4del is not correct.
+    It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSer**<span class="spotlight">_</span>**HisAsp.. this is described as p.Ser5del. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCC**<span class="spotlight">_</span>**TCCCACGAT.., so the codon for Ser4 is deleted, is not used; the description p.Ser4del is not correct.

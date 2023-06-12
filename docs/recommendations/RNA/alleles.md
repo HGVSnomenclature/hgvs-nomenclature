@@ -29,10 +29,10 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. r.[123g>a];[345
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 * humans are diploid organisms and have **two alleles** at each genetic locus, with one allele inherited from each parent
-* when two variants are identified in a transcript that derive from **one chromosome** (in cis) this should be described as "r.[variant1**<font color="red">;</font>**variant2]".
-* when two variants are identified in transcripts that derive from **different chromosomes** (in trans) this should be described as "r.[variant1]**<font color="red">;</font>**[variant2]".
-* when two variants are identified in a transcript, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "**variant1<font color="red">(;)</font>variant2**", i.e. without using "[ ]".  **NOTE:** it is recommended to determine whether the changes are in the same transcript or not.
-* when two variants are identified in two different transcripts that derive from **one variant** at the DNA level the variants are separated using a ","; p.[variant1**<font color="red">,</font>**variant2]".
+* when two variants are identified in a transcript that derive from **one chromosome** (in cis) this should be described as "r.[variant1**<span class="spotlight">;</span>**variant2]".
+* when two variants are identified in transcripts that derive from **different chromosomes** (in trans) this should be described as "r.[variant1]**<span class="spotlight">;</span>**[variant2]".
+* when two variants are identified in a transcript, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "**variant1<span class="spotlight">(;)</span>variant2**", i.e. without using "[ ]".  **NOTE:** it is recommended to determine whether the changes are in the same transcript or not.
+* when two variants are identified in two different transcripts that derive from **one variant** at the DNA level the variants are separated using a ","; p.[variant1**<span class="spotlight">,</span>**variant2]".
 ## Examples
 
 For more examples see [DNA alleles](../../DNA/alleles/).
@@ -65,4 +65,4 @@ For more examples see [DNA alleles](../../DNA/alleles/).
 
 !!! note "How should I describe the variants detected in males and females for a transcript from the X-chromosome?"
 
-    In <b>females</b> the description is straightforward, like r.[76a>c];[=]. In <b>males</b> there is no transcript from the second allele (X-chromosome) which can be described as r.[76a>c];[0], i.e. using "<b>r.0</b>" to indicate the absence of a transcript from the second X-chromosome.
+    In **females** the description is straightforward, like r.[76a>c];[=]. In **males** there is no transcript from the second allele (X-chromosome) which can be described as r.[76a>c];[0], i.e. using "**r.0**" to indicate the absence of a transcript from the second X-chromosome.

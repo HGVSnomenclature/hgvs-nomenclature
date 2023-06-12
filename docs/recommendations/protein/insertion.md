@@ -28,11 +28,11 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 * insertions at DNA or RNA level
     * which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
     * **encoding a translation stop codon** in the inserted sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
-    * encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [**frame shift**](../frameshift/)
+    * encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frame shift](../frameshift/)
 ## Examples
 
-* p.His4\_Gln5insAla: the insertion of amino acid <font color="red">Ala</font> between amino acids His4 and Gln5 changing MetLysGlyHisGlnGlnCys to MetLysGlyHis**<font color="red">Ala</font>**GlnGlnCys
-* p.Lys2\_Gly3insGlnSerLys: the insertion of amino acids <font color="red">GlnSerLys</font> between amino acids Lys2 and Gly3 changing MetLysGlyHisGlnGlnCys to MetLys**<font color="red">GlnSerLys</font>**GlyHisGlnGlnCys
+* p.His4\_Gln5insAla: the insertion of amino acid <span class="spotlight">Ala</span> between amino acids His4 and Gln5 changing MetLysGlyHisGlnGlnCys to MetLysGlyHis**<span class="spotlight">Ala</span>**GlnGlnCys
+* p.Lys2\_Gly3insGlnSerLys: the insertion of amino acids <span class="spotlight">GlnSerLys</span> between amino acids Lys2 and Gly3 changing MetLysGlyHisGlnGlnCys to MetLys**<span class="spotlight">GlnSerLys</span>**GlyHisGlnGlnCys
 * p.(Met3\_His4insGlyTer): the predicted consequence at the protein level of an insertion at the DNA level (c.9\_10insGGGTAG) is the insertion of GlyTer (alternatively Gly\*): **NOTE**: this is not described as p.(Met3\_Ile3418delinsGly), a deletion-insertion replacing the entire C-terminal protein coding sequence downstream of Met3 with a Gly)
 * NP\_004371.2:p.(Pro46_Asn47insSerSerTer): the predicted consequence at the protein level resulting from DNA variant NM\_004380.2:c.138\_139insTCATCATGAGCTCCC is te insertion of "SerSerTer" between amino acids Pro46 and Asn47 (alternatively SerSer\*).: **NOTE:** the insertion is not described as "insSerSerTerAlaPro", amino acids after the translation termination codon are not listed
 * p.Arg78\_Gly79insX[23]: the in-frame insertion of a 23 amino acid sequence between amino acids Arg78 and Gly79: **NOTE:** it must be possible to deduce the 23 inserted amino acids from the description given at DNA or RNA level
@@ -44,12 +44,12 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 
 !!! note "Can I describe a variant as p.His4insAla?"
 
-    No, since the description is not unequivocal it is not allowed. What does the description mean, the insertion of a Ala <b>at</b> position 4 or the insertion of a Ala <b>after</b> position 4?
+    No, since the description is not unequivocal it is not allowed. What does the description mean, the insertion of a Ala **at** position 4 or the insertion of a Ala **after** position 4?
 
 !!! note "Can I use the "^" character to describe an insertion?"
 
-    No, insertions can not be described using the format p.His4Gln5insAla or p.123ˆ124Ala. The recommendations try to restrict the number of different characters used to a minimum. Since a character was already used to indicate a range (the <i>underscore</i>) a new character was not required.
+    No, insertions can not be described using the format p.His4Gln5insAla or p.123ˆ124Ala. The recommendations try to restrict the number of different characters used to a minimum. Since a character was already used to indicate a range (the *underscore*) a new character was not required.
 
-!!! note "How should I describe the change "MetArgThr<b>GlySerSer</b>HisGlnTrpPhe" to "MetArgThr<b>GlySerSer</b>His<b>GlySerSer</b>GlnTrpPhe"?  The fact that the inserted sequence (GlySerSer) is present in the original sequence suggests it derives from a duplicative event."
+!!! note "How should I describe the change "MetArgThr**GlySerSer**HisGlnTrpPhe" to "MetArgThr**GlySerSer**His**GlySerSer**GlnTrpPhe"?  The fact that the inserted sequence (GlySerSer) is present in the original sequence suggests it derives from a duplicative event."
 
-    The variant should be described as an insertion; p.His7_Gln8insGly4_Ser6. A description using "dup" is not correct since, by definition, a duplication should be <b>directly 3'-flanking of the original copy</b> (in tandem). Note that the description given still makes it clear that the sequence inserted between p.His7 and pGln8 is probably derived from nearby, i.e. position p.Gly4 to p.Ser6, and thus likely derived from a duplicative event.
+    The variant should be described as an insertion; p.His7_Gln8insGly4_Ser6. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between p.His7 and pGln8 is probably derived from nearby, i.e. position p.Gly4 to p.Ser6, and thus likely derived from a duplicative event.

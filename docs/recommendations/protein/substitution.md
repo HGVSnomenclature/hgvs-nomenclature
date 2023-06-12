@@ -2,7 +2,7 @@
 
 ## Definition
 
-Substitution: a sequence change where, compared to a reference sequence, <b>one</b> amino acid is replaced by <b>one</b> other amino acid.
+Substitution: a sequence change where, compared to a reference sequence, **one** amino acid is replaced by **one** other amino acid.
 
 ## Description
 
@@ -57,7 +57,7 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
 
 !!! note "Can I describe a TrpVal to CysArg variant as a amino acid substitution (p.TrpVal24CysArg)?"
 
-    No, this is not allowed. By definition a substitution changes <b>one</b> amino acid into <b>one</b> other amino acid. The change TrpVal to CysArg should be described as NP_003997.1:p.Trp24_Val25delinsCysArg, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](http://varnomen.HGVS.org/recommendations/DNA/variant/indel/)).
+    No, this is not allowed. By definition a substitution changes **one** amino acid into **one** other amino acid. The change TrpVal to CysArg should be described as NP_003997.1:p.Trp24_Val25delinsCysArg, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](http://varnomen.HGVS.org/recommendations/DNA/variant/indel/)).
 
 !!! note "How should you describe an amino acid substitution to any other amino acid?"
 

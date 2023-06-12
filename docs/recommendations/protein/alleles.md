@@ -26,12 +26,12 @@ Format (two alleles):   **"prefix"["variant"];["variant"]**,  e.g. p.[(Ser73Arg)
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 * **prefix** reference sequence accepted is "p." (protein)
-* predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses **inside** the square brackets, e.g. p.[<font color="red">(</font>Arg727Ser;Cys1334Trp<font color="red">)</font>]
+* predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses **inside** the square brackets, e.g. p.[<span class="spotlight">(</span>Arg727Ser;Cys1334Trp<span class="spotlight">)</span>]
 * when two variants are identified in a protein that derive from **one chromosome** (in cis) this should be described as "p.[variant1;variant2]"
 * when two variants are identified in proteins that derive from **different chromosomes** (in trans) this should be described as "p.[variant1];[variant2]"
-* when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "variant**<font color="red">(;)</font>**variant2", i.e. without using "[ ]"
+* when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "variant**<span class="spotlight">(;)</span>**variant2", i.e. without using "[ ]"
     * **NOTE:** it is recommended to determine whether the changes are in the same protein or not
-* when two variants are identified in two different proteins that derive from **one variant** at the DNA level (giving two different transcripts) the variants are separated using a "<font color="red">,</font>"; p.[variant1<font color="red">,</font>variant2]"
+* when two variants are identified in two different proteins that derive from **one variant** at the DNA level (giving two different transcripts) the variants are separated using a "<span class="spotlight">,</span>"; p.[variant1<span class="spotlight">,</span>variant2]"
 ## Examples
 
 For more examples see [DNA alleles](../../DNA/alleles/).
@@ -61,7 +61,7 @@ For more examples see [DNA alleles](../../DNA/alleles/).
 
 !!! note "Can I describe the predicted protein consequences of two variants on the same allele as p.([Phe233Leu;Cys690Trp])?"
 
-    No, this should be described as p.[(Phe233Leu;Cys690Trp)], i.e. with the parentheses <b>inside</b> the square brackets of the allele and around each variant. This format is used for overall consistency; with the parentheses <b>inside</b> the square brackets variants can be described as p.[Phe233Leu;(Cys690Trp)] which would not be possible when they were allowed outside of the square brackets.
+    No, this should be described as p.[(Phe233Leu;Cys690Trp)], i.e. with the parentheses **inside** the square brackets of the allele and around each variant. This format is used for overall consistency; with the parentheses **inside** the square brackets variants can be described as p.[Phe233Leu;(Cys690Trp)] which would not be possible when they were allowed outside of the square brackets.
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 
@@ -73,5 +73,5 @@ For more examples see [DNA alleles](../../DNA/alleles/).
 
 !!! note "How should I describe the variants detected in males and females for a protein encoded by the X-chromosome?"
 
-    In <b>females</b> the description is straightforward, like p.[Ser86Arg];[Ser86=]. In <b>males</b> there is no second allele (X-chromosome) which can be described as p.[Ser86Arg];[0], i.e. using "<b>p.0</b>" to indicate the absence of a protein from the second X-chromosome. A description like p.[Ser86Arg];[0] is also possible for a female but, since variant descriptions on protein level can only be given <b>in addition to</b> a description on DNA level, it will be linked to either the description of a deletion on DNA level or the absence of RNA (r.0), e.g. caused by non-random X-inactivation.
+    In **females** the description is straightforward, like p.[Ser86Arg];[Ser86=]. In **males** there is no second allele (X-chromosome) which can be described as p.[Ser86Arg];[0], i.e. using "**p.0**" to indicate the absence of a protein from the second X-chromosome. A description like p.[Ser86Arg];[0] is also possible for a female but, since variant descriptions on protein level can only be given **in addition to** a description on DNA level, it will be linked to either the description of a deletion on DNA level or the absence of RNA (r.0), e.g. caused by non-random X-inactivation.
     

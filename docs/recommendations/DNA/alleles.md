@@ -28,13 +28,13 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345
 ## Notes
 
 * humans are diploid organisms and have **two alleles** at each genetic locus, with one allele inherited from each parent
-* when two variants are identified in a gene that are on **one chromosome** (in cis) this should be described as "g.[variant1**<font color="red">;</font>**variant2]".
-* when two variants are identified in a gene that are **on different chromosomes** (in trans) this should be described as "g.[variant1]**<font color="red">;</font>**[variant2]".
+* when two variants are identified in a gene that are on **one chromosome** (in cis) this should be described as "g.[variant1**<span class="spotlight">;</span>**variant2]".
+* when two variants are identified in a gene that are **on different chromosomes** (in trans) this should be described as "g.[variant1]**<span class="spotlight">;</span>**[variant2]".
 * using allele descriptions involving two or more different variants you do not indicate the other allele does not contain the variant (unless one allele contains no variants at all). LRG\_199t1:c.[2376G>C];[3103del] is correct, LRG\_199t1:c.[2376G>C;3103=];[2376=;3103del] is not correct.
-* when two variants are identified in a gene, but when it is **not known** whether these are on one chromosome (in cis) or on different chromosomes (in trans), this should be described as "**variant1<font color="red">(;)</font>variant2**", i.e. without using "[ ]".
+* when two variants are identified in a gene, but when it is **not known** whether these are on one chromosome (in cis) or on different chromosomes (in trans), this should be described as "**variant1<span class="spotlight">(;)</span>variant2**", i.e. without using "[ ]".
 **NOTE:** in the latest publication of the recommendations ([Den Dunnen et al. (2016)](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)) the example given is not correct.
 **NOTE:** it is recommended to determine whether the changes are on the same chromosome or not.
-* descriptions combining variants based on different reference sequence types (e.g. **<font color="red">c.</font>**[76A>C];**<font color="red">g.</font>**[10091C>G]) should not be used.
+* descriptions combining variants based on different reference sequence types (e.g. **<span class="spotlight">c.</span>**[76A>C];**<span class="spotlight">g.</span>**[10091C>G]) should not be used.
 ## Examples
 
 * **variants on one allele**
@@ -69,9 +69,9 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345
 
 !!! note "How should I describe the variants detected in males and females for a gene on the X-chromosome?"
 
-    In <b>females</b> the description is straightforward, like LRG_199t1:c.[76A>C];[76=]. In <b>males</b> there is no second allele (X-chromosome) which can be described as LRG_199t1:c.[76A>C];[0], i.e. using "<b>c.0</b>" to indicate the absence of a second X-chromosome.
+    In **females** the description is straightforward, like LRG_199t1:c.[76A>C];[76=]. In **males** there is no second allele (X-chromosome) which can be described as LRG_199t1:c.[76A>C];[0], i.e. using "**c.0**" to indicate the absence of a second X-chromosome.
 
-!!! note "I have a patient with hearing loss and variants in the GJB2 (c.35delG) and GJB6 (c.689_690insT) genes, how should I describe this? <i>(Nancy Carson, Ottawa, Canada)</i>"
+!!! note "I have a patient with hearing loss and variants in the GJB2 (c.35delG) and GJB6 (c.689_690insT) genes, how should I describe this? *(Nancy Carson, Ottawa, Canada)*"
 
     The recommendation is to use the format GJB2:c.[35delG] GJB6:c.[689_690insT]. This uses standard HGVS descriptions and prevents confusion regarding which variant was found in which gene. Note it is essential that you also define the coding DNA reference sequence used. Another format, coping with this directly, is to describe the variants as NM_004004.2:c.[35delG] NM_006783.1:c.[689_690insT], i.e. using the Genbank reference sequences in stead of the HGNC approved Gene Symbol.
 
@@ -81,4 +81,4 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345
 
 !!! note "Suggestion (Peter Taschner, Leiden)"
 
-    Nomenclature recommendations mainly apply to genotype descriptions in tables. Unfortunately, these are not very useful in the general text of a paper. For instance, OPRM1:c.118A>G or rs1799971:A>G can be used to describe the variant, but in a paper you might like to discuss the phenotypic consequences of different genotypes. In fact the current recommendation is to use OPRM1:c.[118A>G];[118A=] to describe a heterozygote and OPRM1:c.[118A=];[118A=] and OPRM1:c.[118>G];[118>G] for the homozygotes. I would like to <b>suggest</b> to describe the genotypes in the text like;<ul><li>OPRM1:c.118AA homozygotes </li><li>OPRM1:c.118GA heterozygotes </li><li>OPRM1:c.118GG homozygotes </li> </ul>The different alleles could then be designated as the OPRM1:c.118A allele and the OPRM1:c.118G allele. In combination with variants of other genes, the genotype descriptions could be OPRM1:c.118AA, GJB2:c.76AC double heterozygotes, etc.
+    Nomenclature recommendations mainly apply to genotype descriptions in tables. Unfortunately, these are not very useful in the general text of a paper. For instance, OPRM1:c.118A>G or rs1799971:A>G can be used to describe the variant, but in a paper you might like to discuss the phenotypic consequences of different genotypes. In fact the current recommendation is to use OPRM1:c.[118A>G];[118A=] to describe a heterozygote and OPRM1:c.[118A=];[118A=] and OPRM1:c.[118>G];[118>G] for the homozygotes. I would like to **suggest** to describe the genotypes in the text like;<ul><li>OPRM1:c.118AA homozygotes </li><li>OPRM1:c.118GA heterozygotes </li><li>OPRM1:c.118GG homozygotes </li> </ul>The different alleles could then be designated as the OPRM1:c.118A allele and the OPRM1:c.118G allele. In combination with variants of other genes, the genotype descriptions could be OPRM1:c.118AA, GJB2:c.76AC double heterozygotes, etc.
