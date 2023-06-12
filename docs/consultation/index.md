@@ -40,7 +40,7 @@ here.
 
 * [SVD-WG009](SVD-WG009/) (conversion): suggested to simplify the HGVS nomenclature recommendations by **discontinuing the use of the variant type "con"** to describe conversions: **Status**: <font color="red">accepted</font>. Closed Oct.31 (2020). Opened Aug,4 (2020).
 
-* [SVD-WG008](SVD-WG008/) (Reference Sequences): suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [_Reference Sequences_](../background/refseq/) page): **Status**: <font color="red">accepted</font>. Closed Sep.30 (2019). Opened Jul.20 (2019).
+* [SVD-WG008](SVD-WG008/) (Reference Sequences): suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [Reference Sequences](../background/refseq/) page): **Status**: <font color="red">accepted</font>. Closed Sep.30 (2019). Opened Jul.20 (2019).
 
 * [SVD-WG007](SVD-WG007/) (RNA fusion): suggests to extend the HGVS recommendations with a format to describe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using "::": **Status**: <font color="red">accepted</font>. Closed Jun.30 (2019). Opened Apr.10 (2019).
 
@@ -48,7 +48,7 @@ here.
 
 * [SVD-WG005](SVD-WG005/) (gom/lom): suggests to extend the HGVS recommendations to allow description of changes in general methylation status.: **Status**: <font color="red">accepted</font>. Closed Dec.31 (2016). Opened Oct.20 (2016).
 
-* [SVD-WG004](SVD-WG004/) (ISCN<>HGVS): suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.: **Status**: <font color="red">accepted</font>. Closed Jan.15 (2016). Opened Nov.10 (2015).: **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"named extension ISCN"** ([_named extension_](../background/versioning/)).
+* [SVD-WG004](SVD-WG004/) (ISCN<>HGVS): suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.: **Status**: <font color="red">accepted</font>. Closed Jan.15 (2016). Opened Nov.10 (2015).: **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"named extension ISCN"** ([named extension](../background/versioning/)).
 
 * [SVD-WG003](SVD-WG003/) (exon del/dup): suggested to describe exon deletions/duplications using the format c.(233+1\_234-1)_(1234+1\_1235-1)del.: **Status**: Oct.6 (2015) <font color="red">new proposal to be made</font>. Closed Jul.16 (2015). Opened May 14 (2015).
     
