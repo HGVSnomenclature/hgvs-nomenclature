@@ -1,6 +1,10 @@
 mkdocs
+mkdocs-autolinks-plugin
 mkdocs-awesome-pages-plugin
+mkdocs-glightbox
+mkdocs-macros-plugin
 mkdocs-material
+mkdocs-material-extensions
 mkdocs-mermaid2-plugin
 mkdocs-multirepo-plugin
-#mkdocs-autolinks-plugin
+
