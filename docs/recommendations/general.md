@@ -48,7 +48,7 @@ Make sure you have also seen the ([Basics](../../background/basics/), explaining
 
 In HGVS nomenclature some **characters** have a **specific meaning**
 
-* "**<span class="spotlight">+</span>**" (plus) is used in [nucleotide numbering](../../background/numbering); c.123+45A>G
+* `+` (plus) is used in [nucleotide numbering](../../background/numbering); c.123+45A>G
 * "**<span class="spotlight">-</span>**" (minus) is used in [nucleotide numbering](../../background/numbering); c.124-56C>T
 * "**<span class="spotlight">*</span>**" (asterisk) is used in [nucleotide numbering](../../background/numbering) and to indicate a translation termination (stop) codon (see [Standards](../../background/standards#RNAcode)); c.\*32G>A and p.Trp41\* 
 * "**<span class="spotlight">_</span>**" (underscore) is used to indicate a range; g.12345\_12678del

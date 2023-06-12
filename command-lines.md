@@ -11,3 +11,6 @@ perl -i -p0e 's%\[\*\*(.+?)\*\*\]%[\1]%g' docs/**/*.md
 
 
 - replace **"..."** and "**..**" blocks with **...**
+
+- replace red font with span
+perl -i -p0e 's%<font color="red">(.+?)</font>%<span class="spotlight">\1</span>%g' docs/**/*.md
