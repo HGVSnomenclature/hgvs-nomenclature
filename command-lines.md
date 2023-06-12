@@ -11,3 +11,9 @@ perl -i -p0e 's%\[\*\*(.+?)\*\*\]%[\1]%g' docs/**/*.md
 
 
 - replace **"..."** and "**..**" blocks with **...**
+
+- replace font with span
+perl -i -p0e 's%<font color="red">(.+?)</font>%<span class="spotlight">\1</span>%g' docs/**/*.md
+
+- get stats on html tag usage
+perl -lne 'print $& while m/<\w+/gm' docs/**/*.md | sort | uniq -c | sort -nr
