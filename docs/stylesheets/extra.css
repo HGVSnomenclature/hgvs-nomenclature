@@ -34,12 +34,12 @@ span.spotlight {
 }
 
 .md-typeset code {
-    background-color: inherit;
+    /* background-color: inherit; */
     font-size: inherit;
     padding: 0;
     font-weight: 500;
-    word-break: keep-all;
-    color: var(--md-primary-fg-color)
+    /* word-break: keep-all; */
+    /* color: var(--md-primary-fg-color) */
 }
 
 
