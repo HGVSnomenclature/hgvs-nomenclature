@@ -10,7 +10,7 @@ Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 
 **"prefix"**  =  reference sequence used  =  g.
 **"position(s)\_duplicated"**  =  position nucleotide or range of nucleotides duplicated  =  123_345
-**"dup"**  =  type of change is a duplication  =  dup <sup>1</sup>
+**"dup"**  =  type of change is a duplication  =  dup †
 
 ## Notes
 
@@ -27,7 +27,7 @@ Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 :    **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../../consultation/SVD-WG010/)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
     * **exception**: duplications around exon/exon junctions when identical nucleotides flank the junction (see [Numbering](../../../background/numbering/#DNAc)); : when ..GAT gta..//..cag TCA.. changes to ..GATT gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921dup (NC\_000023.10:g.32459297dup) and **not as** c.3922dup (which would translate to g.32456507dup)
-* <sup>1</sup> = see [Uncertain](../../uncertain/); when the postion and/or the sequence of a duplication has not been defined
+* † = see [Uncertain](../../uncertain/); when the postion and/or the sequence of a duplication has not been defined
 ## Examples
 
 * one nucleotide

@@ -10,7 +10,7 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 
 **"prefix"**  =  reference sequence used  =  g.
 **"position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  123\_127
-**"del"**  =  type of change is a deletion =  del <sup>1</sup> 
+**"del"**  =  type of change is a deletion =  del † 
 
 ## Notes
 
@@ -23,7 +23,7 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 :    **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../../consultation/SVD-WG010/)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
     * **exception**: deletions around exon/exon junctions when identical nucleotides flank the junction (see [Numbering](../../../background/numbering/#DNAc));  : when ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
-* <sup>1</sup> = see [Uncertain](../../uncertain/); when the postion and/or the sequence of a deletion has not been defined, a description may have a format like g.(100\_150)del(15)
+* † = see [Uncertain](../../uncertain/); when the postion and/or the sequence of a deletion has not been defined, a description may have a format like g.(100\_150)del(15)
 ## Examples
 
 * one nucleotide

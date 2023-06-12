@@ -19,7 +19,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome P
 | Name                                   |  Term         |
 |:--------------------------------------|:-------------:|
 | **chair:** Johan den Dunnen  (Nederland)         |  2013 - ....  |
-| Ros Hastings <sup>1</sup>  (United Kingdom)       |  2021 - ....  |
+| Ros Hastings †  (United Kingdom)       |  2021 - ....  |
 | Reece Hart  (United States)            |  2013 - ....  |
 | Peter Causey-Freeman  (United Kingdom) |  2018 - ....  |
 | Terence Murphy  (United States)        |  2021 - 2025  |
@@ -29,7 +29,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome P
 | Alex Wagner  (United States)           |  2022 - 2025  |
 | Ivo Fokkema  (Netherlands  )           |  2023 - 2026  |
 
-> <sup>1</sup> [ISCN representative](../consultation/ISCN/)
+> † [ISCN representative](../consultation/ISCN/)
 
 ## past HVNC members
 
