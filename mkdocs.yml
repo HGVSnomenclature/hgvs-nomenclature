@@ -5,18 +5,23 @@
 site_name: "HGVS Nomenclature"
 
 plugins:
-  #- autolinks
+  - autolinks
   - awesome-pages
+  - glightbox
+  - macros
   #- mermaid2
   - search
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 
 markdown_extensions:
+  - abbr
   - admonition
+  - attr_list
+  - def_list
   - pymdownx.details
   - pymdownx.superfences
   - toc:
-      permalink: true
+      permalink: "#"
       toc_depth: 1
 
 extra:
