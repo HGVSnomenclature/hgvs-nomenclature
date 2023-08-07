@@ -56,7 +56,7 @@ In HGVS nomenclature some **characters** have a **specific meaning**
     * "**<font color="red">;</font>**" (semi colon) is used to separate variants and alleles; g.[123456A>G;345678G>C] or g.[123456A>G];[345678G>C]
     * "**<font color="red">,</font>**" (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u, 122\_154del]
     * NC\_000002.11:g.48031621\_48031622ins[TAT;48026961\_48027223;GGC]
-    * NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
+    * NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:g.35788169\_35788352]
 * "**<font color="red">:</font>**" (colon) is used to separate the reference sequence file identifier (_accession.version\_number_) from the actual description of a variant; NC\_000011.9:g.12345611G>A
 * "**<font color="red">::</font>**" (double colon) is used to describe RNA fusion transcripts ([RNA Deletion-insertion](../RNA/delins/)) and to designate break point junctions creating a ring chromosome ([DNA Complex (HGVS/ISCN)](../DNA/complex/))
 * "**<font color="red">( )</font>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)
