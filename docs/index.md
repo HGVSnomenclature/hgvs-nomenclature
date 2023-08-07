@@ -1,6 +1,7 @@
 # HGVS Nomenclature
 
-!!! important This is a development and preview site for updates to the HGVS Nomenclature.  Please
+!!! warning
+    This is a development and preview site for updates to the HGVS Nomenclature.  Please
     see [the website migration discussion](https://github.com/HGVSnomenclature/HVNC/discussions/17)
     for a description of the proposed changes and current progress.
 
