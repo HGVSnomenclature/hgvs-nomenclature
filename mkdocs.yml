@@ -27,9 +27,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/biocommons
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/biocommons_ann
+      link: https://github.com/HGVSNomenclature/hgvs-nomenclature
   #version:
   #  provider: mike
 
