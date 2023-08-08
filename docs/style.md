@@ -8,4 +8,5 @@ The following type style conventions are used in this documentation:
 | `«placeholder»`    | Placeholder text within a verbatim text block is surrounded by angle brackets; all other characters are literal     | `` `«reference_sequence»:«type».«position_and_edit»` ``          | `«reference_sequence»:«type».«position_and_edit»` |
 | [link]()       | Links within or outside this documentation (shown: link to tagged heading)      | `[Heading Title](#headingtag)`<br>`[General Recommendations](/recommendations/general/)`        | [Heading Title](#headingtag)<br>[General Recommendations](/recommendations/general/)     |
 | **emphasis**       | Keywords and concepts, typically on the first use            | `**reference sequence**` | **reference sequence**  |
+| spotlight  | ephasize text in variation | `<code>ACGT<span class="spotlight">XX</span>TGCA</code>` | <code>ACGT<span class="spotlight">XX</span>TGCA</code>  |
 
