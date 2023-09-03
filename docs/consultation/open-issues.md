@@ -4,7 +4,7 @@
 
 There are currently no proposals open for Community Consulation.
 
-<a name ="opentopics"></a>
+<a id="opentopics"></a>
 
 ## Ongoing discussions
 
@@ -16,7 +16,7 @@ At the time the first HGVS recommendations for the description of variants were 
 
 Basically, these variant types refer to the (expected) biological process generating the variant, e.g. inserting a copy of segment of DNA (duplication), turning around a segment of DNA (inversion) or replacing a segment of DNA with a copy of a segment from elsewhere (conversion). The number of nucleotides involved in such cases is usually large, i.e. several hundred nucleotides or more. However, for overall consistency within the recommendations, the formats for description are general, irrespective of the length of the variant. Duplications can be as short as one nucleotide and inversions as small as two (prioritisation determines one-nucleotide inversions are described as substitution), although for these variants a link with the biological process generating them is unlikely. It should be noted that some of the problems described below are associated with these historic choices.
 
-<a name ="beyond"></a>
+<a id="beyond"></a>
 
 ### Beyond transcripts
 
@@ -30,7 +30,7 @@ The HGVS nomenclature committe received several requests to suggest a format to 
 
 The description is always given **in addition** to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM\_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
 
-<a name ="frameshift"></a>
+<a id="frameshift"></a>
 
 ### Frame shifts
 
@@ -38,7 +38,7 @@ The HGVS recommended format to describe frame shift variants gives the length of
 
 The format to describe frame shift variants has a **historic** background, it has the format already used before the HGVS nomenclature recommendations were first published (in 2000). [In HGVS](../../recommendations/protein/frameshift/), the frame shift is a special type of amino acid deletion/insertion which does not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon). From the consequence of variant NM_004006.3:c.2453del on protein level, p.Leu818CysfsTer2, one can therefore only see the new reading frame is just one amino acid long, not how many amino acids have been deleted. Describing this frame shift as a deletion-insertion, i.e. p.Leu818_Met3685delinsCys, would make it immediately clear the single Cys-residue replaces 2868 amino acids, undoubtedly having deleterious consequences.
 
-<a name ="inshow"></a>
+<a id="inshow"></a>
 
 ### Insertions
 
@@ -46,7 +46,7 @@ The format for the description of insertions needs specification. Following curr
 
 For example, the insertion of "GAAGTACTG" between nucleotides NM\_004006.3:c.299 and c.300 can be described as NM\_004006.3:c.299\_300insGAAGTACTG or as NM\_004006.3:c.299\_300ins284\_293. A third format, meant for large insertions is to refer to a reference sequence file containing the inserted sequence, e.g. NM\_000553.4:c.3050\_3051ins\[NM\_004006.3:c.284\_293\]. Since the current recommendations do not specify when to use which of these formats, one variant can be described using different formats. This is undesired, HGVS recommendations should be extended by specifying when to use which format.
 
-<a name ="repseqs"></a>
+<a id="repseqs"></a>
 
 ### Repeated sequences
 
@@ -58,7 +58,7 @@ Discontinuing the use of the repeated sequence format will not solve all problem
 
 A new user group of the repeated sequence format is the forensics community. Originally this group described variants using the length of the fragment analysed. However, it is nowadays more common to use a sequence-based analysis. Sequencing revealed an additional level of complexity where alleles with the same length turn out to have a different sequence. In general, using the repeated sequence format, it is rather simple to describe the alleles observed. However, the repeated sequences analysed are often extensive and may contain a mix of different repeat units. The problem then emerges how to describe the reference format of the repeat. Is it CAG[4]CAA[1]CAG[2]CAA[1]CAG[2]CAA[1]CAG[2] or CAG[4][CAA[1]CAG[2]][3] or even another format. Making precise specifications, although necessary, will probably make it very difficult to apply for a human. The solution might be to let the computer decide by designing a HGVS-approved standardised algorithm including all specifications.
 
-<a name ="extensions"></a>
+<a id="extensions"></a>
 
 ### Protein Extensions
 
@@ -66,14 +66,14 @@ Would you consider a small change in the suggested nomenclature for the [descrip
 
 The description of extensions can probably indeed be simplified. While for **extensions** we currently give the position of the new translation initiation (start) codon as "5" or of the termination (stop) codon as "\*17" this is strictly speaking not necessary. By defenition the extension goes upstream for an N-terminal change and downstream for a C-terminal change. Using p.Met1ext5 (now p.Met1ext-5) and p.\*110Glnext17 (now p.\*110Glnext\*17) therefore seems sufficient.
 
-<a name ="modifications"></a>
+<a id="modifications"></a>
 
 ### Modifications
 
 Aug.24 (2011) - JT den Dunnen
 HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA or protein molecules. The most pressing need for a recommendation is are DNA methylation and RNA editing. Proposal [SVD-WG005 (gom/lom)](../SVD-WG005/) makes a start to get recommendations on this topic. SVD-WG005 introduces the use of the "|" character ("pipe") to indicate that not a direct change of the sequence is described but a modification (change of state).
 
-<a name ="amount"></a>
+<a id="amount"></a>
 
 #### Amount
 
@@ -81,7 +81,7 @@ Due to a variant, e.g. in the promotor region of a gene, the amount of RNA and p
 
 The same format could be applied to specify the fraction of the different RNA molecules when a variant e.g affects splicing generating several different transcripts, like r.[646\_792del|0.73,792\_793ins[792+1\_792+38|0.27].
 
-<a name ="RNAedit"></a>
+<a id="RNAedit"></a>
 
 #### RNA editing
 
@@ -101,7 +101,7 @@ Using the description r.143c>u on RNA level suggests a substitution. There are s
 
 The question is whether we need a specific description at the DNA level indicating that the nucleotide is known to be modified at RNA level. The main purpose of this mark would be to facilitate easy database retrieval of such sites. Approval of proposal [SVD-WG001](../SVD-WG001/) more or less opened the option for such marks.
 
-<a name ="exonnumbering"></a>
+<a id="exonnumbering"></a>
 
 ### Exon Numbering
 
@@ -110,18 +110,18 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 * The CBS gene was originally thought to contain 16 exons. Later it was recognised that exon 15 does not exist, and recently two additional non-translated 5' exons were detected. The current gene structure therefore includes 17 exons, of which exons 3 to 17 are translated. Should the exons of a gene be counted from the exon that contains the start codon rather than the beginning of the cDNA?  If so, should exons preceding the start codon be counted 0, -1, -2, etc. or should the 0 be skipped?  Is there an agreement on how to deal with changes in exon numbering?: For the description of sequence changes it does not matter how exons are numbered,  exon (and intron) numbers are not used in the descriptions, only nucleotide positions. For exon numbering the only logical thing to do is to start with 1 for the first exon and number all following exons successively. Using other numbering schemes problems will emerge at some point. Note that when alternative numbering schemes are used, these will only be recognised by experts in the field knowing their history; newcomers just blindly assume that the first exon annotated in the genome is exon 1. Consequently, when legacy numbering schemes are used, this will cause confusion and at some point wrong assumptions will be made and a patient might end up with an erroneous diagnosis. In papers, when used, specifically mention how exons were numbered (M&M, Figure and Table legends). For tables, consider to add a column listing the historic / old exon numbers.
 
-<a name ="closedtopics"></a>
+<a id="closedtopics"></a>
 
 ## Closed topics
 
-<a name ="circular"></a>
+<a id="circular"></a>
 
 ### Circular molecules
 
 **The proposal has been ACCEPCTED for circular reference sequences**
 HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule?  For now the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y\_Xdel X should be smaller then Y). Do you have a suggestion??
 
-<a name ="imperfectcopy"></a>
+<a id="imperfectcopy"></a>
 
 ### Imperfect copies
 
@@ -132,7 +132,7 @@ HGVS nomenclature has excellent possibilities to describe large duplications, in
 * g.24\_65dup{46G>T}: a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy.
 After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very diifcult to control. 
 
-<a name ="geneflanking"></a>
+<a id="geneflanking"></a>
 
 ### Numbering gene flanking nucleotides
 

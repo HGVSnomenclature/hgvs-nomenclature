@@ -6,7 +6,7 @@
 * [amino acid code](#aacode)
 * [cytogenetic band > nucleotide position ](#ISCN)
 
-<a name ="DNAcode"></a>
+<a id="DNAcode"></a>
 
 ## Nucleotides (DNA / RNA)
 
@@ -36,7 +36,7 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 > *used in alignment only
 
-<a name ="RNAcode"></a>
+<a id="RNAcode"></a>
 
 ### RNA
 
@@ -58,7 +58,7 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 | w      | a or u       | weak interaction (2 H-bonds)    |
 | y      | c or u       | pyrimidine                      |
 
-<a name ="geneticcode"></a>
+<a id="geneticcode"></a>
 
 ## Genetic Code
 
@@ -200,7 +200,7 @@ In the Table below, to support translation from a DNA sequence, we have used a "
   </tr>
 </table>
 
-<a name ="aacode"></a>
+<a id="aacode"></a>
 
 ## Amino Acid Descriptions
 
@@ -236,7 +236,7 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 
 †To prevent confusion, since 'X' has been used to indicate a translation stop codon, use 'Xaa' only.
 
-<a name ="ISCN"></a>
+<a id="ISCN"></a>
 
 ## ISCN cytogenetic band to chromosome positions
 
