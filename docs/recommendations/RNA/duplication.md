@@ -33,7 +33,10 @@ Format:   **"prefix""position(s)\_duplicated""dup"**,  e.g. r.123\_345dup
 
 !!! note "Why do we not describe a duplication as an insertion?"
 
-    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately;<ul><li>the description is simple and shorter,</li><li>it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "22insg".</li></ul>
+    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately
+    
+    - the description is simple and shorter
+    - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "22insg"
 
 !!! note "How should I describe the change "aucg**aucgaucgauc**aggguccc" to "aucg**aucgaucgauc**a**aucgaucgauc**ggguccc"?  The fact that the inserted sequence (aucgaucgauc) is present in the original sequence suggests it derives from a duplicative event."
 

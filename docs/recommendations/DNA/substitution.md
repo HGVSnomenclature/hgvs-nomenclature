@@ -40,7 +40,12 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 !!! note "How can I shorten the descriptions of SNPs in a manuscript?"
 
-    Publications reporting linkage or association studies often use a range of different markers/SNPs. Such publications should contain at least once an **unequivocal description of all markers** used linking them to a reference sequence, preferably a genomic reference sequence. When this has been done, simplified descriptions can be used like;<ul><li>**NM_004006.1 3G>T**, using a GenBank coding DNA reference sequence,</li><li>**GJB2 76A>C**, using a HGNC-approved gene symbol as reference,</li><li>**rs2306220 T>C**, using a [dbSNP-identifier](http://www.ncbi.nlm.nih.gov/SNP) as a reference,</li> <li>**DXS1219 CA[18];[21]** (or AFM297yd1 CA[18];[21]), using a marker DXS1219 (AFM297yd1) as reference.</li></ul>
+    Publications reporting linkage or association studies often use a range of different markers/SNPs. Such publications should contain at least once an **unequivocal description of all markers** used linking them to a reference sequence, preferably a genomic reference sequence. When this has been done, simplified descriptions can be used like
+    
+    - **NM_004006.1 3G>T**, using a GenBank coding DNA reference sequence
+    - **GJB2 76A>C**, using a HGNC-approved gene symbol as reference
+    - **rs2306220 T>C**, using a [dbSNP-identifier](http://www.ncbi.nlm.nih.gov/SNP) as a reference
+    - **DXS1219 CA[18];[21]** (or AFM297yd1 CA[18];[21]), using a marker DXS1219 (AFM297yd1) as reference
 
 !!! note "How should I describe a variant in the promoter region of a gene?"
 

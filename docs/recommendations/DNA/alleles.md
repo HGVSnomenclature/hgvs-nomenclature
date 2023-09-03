@@ -61,7 +61,10 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 
-    When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and on which allele(s);<ul><li>disease severity will depend on the combination of variants found,</li><li>in recessive disease, when two variants are on one allele an individual is a carrier or you might not have found the variant on the 2nd allele.</li></ul>
+    When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and on which allele(s)
+    
+    - disease severity will depend on the combination of variants found
+    - in recessive disease, when two variants are on one allele an individual is a carrier or you might not have found the variant on the 2nd allele
 
 !!! note "I find the notation c.[76A>C] without describing the second allele misleading; not enough researchers know this refers to only one of the two alleles present. Would using c.[76A>C];[] be OK?"
 
@@ -77,8 +80,21 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345
 
 !!! note "When for a haplotype I have a range of changes to report, is there a suggested short format to use?"
 
-    When it is once clearly specified (e.g. in the Materials & Methods) what variants are listed and based on which reference sequence(s), alleles may be reported in a simplified format like below. Variants should be listed in genomic order and using "[ ]" for variants on the same chromosome.<ul><li>haplotype with all variants in relation to several different reference sequences, both genomic and coding DNA<ul><li>description of the reference haplotype; [M59228.1:g.250G>C; AF209160.1:g.572CA[11_21]; Z11861.1:g.61T>C;Z16803.1:g.114A[18_22]]</li><li>short haplotype description; [C;13;T;21]</li></ul><li>haplotype with all variants in relation to one coding DNA reference sequence<ul><li>description of the reference haplotype; NM_004006.1:c.[837G>A; 1704+51T>C; 3734C>T;6438+2669T(16_23); 6571C>T; 7098+13212GT(15_19)]</li><li>short haplotype description; [G;C;C;18;T;17]</li></ul></ul>
+    When it is once clearly specified (e.g. in the Materials & Methods) what variants are listed and based on which reference sequence(s), alleles may be reported in a simplified format like below. Variants should be listed in genomic order and using "[ ]" for variants on the same chromosome
+    
+    - haplotype with all variants in relation to several different reference sequences, both genomic and coding DNA
+        - description of the reference haplotype; [M59228.1:g.250G>C; AF209160.1:g.572CA[11_21]; Z11861.1:g.61T>C;Z16803.1:g.114A[18_22]]
+        - short haplotype description; [C;13;T;21]
+    - haplotype with all variants in relation to one coding DNA reference sequence
+        - description of the reference haplotype; NM_004006.1:c.[837G>A; 1704+51T>C; 3734C>T;6438+2669T(16_23); 6571C>T; 7098+13212GT(15_19)]
+        - short haplotype description; [G;C;C;18;T;17]
 
 !!! note "Suggestion (Peter Taschner, Leiden)"
 
-    Nomenclature recommendations mainly apply to genotype descriptions in tables. Unfortunately, these are not very useful in the general text of a paper. For instance, OPRM1:c.118A>G or rs1799971:A>G can be used to describe the variant, but in a paper you might like to discuss the phenotypic consequences of different genotypes. In fact the current recommendation is to use OPRM1:c.[118A>G];[118A=] to describe a heterozygote and OPRM1:c.[118A=];[118A=] and OPRM1:c.[118>G];[118>G] for the homozygotes. I would like to **suggest** to describe the genotypes in the text like;<ul><li>OPRM1:c.118AA homozygotes </li><li>OPRM1:c.118GA heterozygotes </li><li>OPRM1:c.118GG homozygotes </li> </ul>The different alleles could then be designated as the OPRM1:c.118A allele and the OPRM1:c.118G allele. In combination with variants of other genes, the genotype descriptions could be OPRM1:c.118AA, GJB2:c.76AC double heterozygotes, etc.
+    Nomenclature recommendations mainly apply to genotype descriptions in tables. Unfortunately, these are not very useful in the general text of a paper. For instance, OPRM1:c.118A>G or rs1799971:A>G can be used to describe the variant, but in a paper you might like to discuss the phenotypic consequences of different genotypes. In fact the current recommendation is to use OPRM1:c.[118A>G];[118A=] to describe a heterozygote and OPRM1:c.[118A=];[118A=] and OPRM1:c.[118>G];[118>G] for the homozygotes. I would like to **suggest** to describe the genotypes in the text like
+    
+    - OPRM1:c.118AA homozygotes
+    - OPRM1:c.118GA heterozygotes
+    - OPRM1:c.118GG homozygotes
+    
+    The different alleles could then be designated as the OPRM1:c.118A allele and the OPRM1:c.118G allele. In combination with variants of other genes, the genotype descriptions could be OPRM1:c.118AA, GJB2:c.76AC double heterozygotes, etc.

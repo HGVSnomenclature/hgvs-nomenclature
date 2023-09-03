@@ -57,7 +57,10 @@ For more examples see [DNA alleles](../../DNA/alleles/).
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 
-    When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and in which transcript alleles; <ul><li>disease severity will depend on the combination of variants found,</li><li>in recessive disease, when two variants are in one transcript an individual is a carrier or you might not have found the variant on transcripts from the 2nd allele.</li></ul>
+    When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and in which transcript alleles
+    
+    - disease severity will depend on the combination of variants found
+    - in recessive disease, when two variants are in one transcript an individual is a carrier or you might not have found the variant on transcripts from the 2nd allele
 
 !!! note "I find the notation r.[76a>c] without describing the second transcript allele misleading; not enough researchers know this refers to only one of the two transcripts present. Would using r.[76a>c];[] be OK?"
 

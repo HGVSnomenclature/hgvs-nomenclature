@@ -65,7 +65,10 @@ For more examples see [DNA alleles](../../DNA/alleles/).
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 
-    When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and in the protein from which allele(s); <ul><li>disease severity will depend on the combination of variants found,</li><li>in recessive disease, when two variants are in the protein from one allele an individual is a carrier or you might not have found the variant in the protein from the 2nd allele.</li></ul>
+    When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and in the protein from which allele(s);
+    
+    - disease severity will depend on the combination of variants found
+    - in recessive disease, when two variants are in the protein from one allele an individual is a carrier or you might not have found the variant in the protein from the 2nd allele
 
 !!! note "I find the notation p.[Ser73Arg] without describing the second protein allele misleading; not enough researchers know this refers to only one of the two alleles present. Would using p.[Ser73Arg];[] be OK?"
 

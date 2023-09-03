@@ -64,7 +64,12 @@ Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 
 !!! note "Why do we not describe a duplication as an insertion?"
 
-    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately;<ul><li>the description is simple and shorter,</li><li>it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "22insG",</li><li>it prevents hypothetical discussions regarding the site of the insertion; in the case of a duplication including an intron/exon border (e.g. c.123-8_137dup) is the "insertion" in the intron or in the exon?</li><li>insertion more or less means "coming from elsewhere". Mechanistically, a duplication is most likely caused by a local event, DNA polymerase slippage, duplicating a local sequence.</li></ul>
+    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately
+    
+    - the description is simple and shorter
+    - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "22insG"
+    - it prevents hypothetical discussions regarding the site of the insertion; in the case of a duplication including an intron/exon border (e.g. c.123-8_137dup) is the "insertion" in the intron or in the exon?
+    - insertion more or less means "coming from elsewhere". Mechanistically, a duplication is most likely caused by a local event, DNA polymerase slippage, duplicating a local sequence.
 
 !!! note "Can I use g.123dup6 to describe a 6 nucleotide duplication?"
 

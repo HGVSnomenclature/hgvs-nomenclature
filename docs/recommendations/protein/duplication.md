@@ -48,7 +48,10 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
 
 !!! note "Why do we not describe a duplication as an insertion?"
 
-    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications differently;<ul><li>the description is simple and shorter,</li><li>it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "Ala22insGly".</li></ul>
+    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications differently
+    
+    - the description is simple and shorter
+    - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "Ala22insGly"
 
 !!! note "How should I describe the change "MetArgThr**GlySerSer**HisGlnTrpPhe" to "MetArgThr**GlySerSer**His**GlySerSer**GlnTrpPhe"?  The fact that the inserted sequence (GlySerSer) is present in the original sequence suggests it derives from a duplicative event."
 
