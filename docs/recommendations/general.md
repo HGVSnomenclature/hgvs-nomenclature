@@ -48,26 +48,26 @@ Make sure you have also seen the ([Basics](../../background/basics/), explaining
 
 In HGVS nomenclature some **characters** have a **specific meaning**
 
-* "**<span class="spotlight">+</span>**" (plus) is used in [nucleotide numbering](../../background/numbering); c.123+45A>G
-* "**<span class="spotlight">-</span>**" (minus) is used in [nucleotide numbering](../../background/numbering); c.124-56C>T
-* "**<span class="spotlight">*</span>**" (asterisk) is used in [nucleotide numbering](../../background/numbering) and to indicate a translation termination (stop) codon (see [Standards](../../background/standards#RNAcode)); c.\*32G>A and p.Trp41\* 
-* "**<span class="spotlight">_</span>**" (underscore) is used to indicate a range; g.12345\_12678del
-* "**<span class="spotlight">[ ]</span>**" (square brackets) are used for alleles (see [DNA](../DNA/alleles), [RNA](../RNA/alleles), [protein](../protein/alleles)), which includes multiple inserted sequences at one position and insertions from a second reference sequence 
-    * "**<span class="spotlight">;</span>**" (semi colon) is used to separate variants and alleles; g.[123456A>G;345678G>C] or g.[123456A>G];[345678G>C]
-    * "**<span class="spotlight">,</span>**" (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u, 122\_154del]
+* `+` (plus) is used in [nucleotide numbering](../../background/numbering); c.123+45A>G
+* `-` (minus) is used in [nucleotide numbering](../../background/numbering); c.124-56C>T
+* `*` (asterisk) is used in [nucleotide numbering](../../background/numbering) and to indicate a translation termination (stop) codon (see [Standards](../../background/standards#RNAcode)); c.\*32G>A and p.Trp41\* 
+* `_` (underscore) is used to indicate a range; g.12345\_12678del
+* `[ ]` (square brackets) are used for alleles (see [DNA](../DNA/alleles), [RNA](../RNA/alleles), [protein](../protein/alleles)), which includes multiple inserted sequences at one position and insertions from a second reference sequence 
+    * `;` (semi colon) is used to separate variants and alleles; g.[123456A>G;345678G>C] or g.[123456A>G];[345678G>C]
+    * `,` (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u, 122\_154del]
     * NC\_000002.11:g.48031621\_48031622ins[TAT;48026961\_48027223;GGC]
     * NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:35788169\_35788352]
-* "**<span class="spotlight">:</span>**" (colon) is used to separate the reference sequence file identifier (_accession.version\_number_) from the actual description of a variant; NC\_000011.9:g.12345611G>A
-* "**<span class="spotlight">::</span>**" (double colon) is used to describe RNA fusion transcripts ([RNA Deletion-insertion](../RNA/delins/)) and to designate break point junctions creating a ring chromosome ([DNA Complex (HGVS/ISCN)](../DNA/complex/))
-* "**<span class="spotlight">( )</span>**" (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)
+* `:` (colon) is used to separate the reference sequence file identifier (_accession.version\_number_) from the actual description of a variant; NC\_000011.9:g.12345611G>A
+* `::` (double colon) is used to describe RNA fusion transcripts ([RNA Deletion-insertion](../RNA/delins/)) and to designate break point junctions creating a ring chromosome ([DNA Complex (HGVS/ISCN)](../DNA/complex/))
+* `( )` (parentheses) are used to indicate uncertainties and predicted consequences; NC\_000023.9:g.(123456\_234567)\_(345678\_456789)del, p.(Ser123Arg)
     **NOTE**: the range of the uncertainty should be described as precisely as possible (see [below](#uncertain1))
-* "**<span class="spotlight">?</span>**" (question mark) is used to indicate unknown positions (nucleotide or amino acid); g.(?\_234567)\_(345678\_?)del
-* "**<span class="spotlight">^</span>**" (caret) is used as "or"; c.(370A>C^372C>R) as back translation of p.Ser124Arg (i.e. changing the AGC codon to CGC, AGG or AGA)
-* "**<span class="spotlight">&gt;</span>**" (greater than) is used to describe substitution variants (DNA and RNA level); g.12345A>T, r.123a>u (see [DNA](../DNA/substitution), [RNA](../RNA/substitution))
-* "**<span class="spotlight">=</span>**" (equals) is used to indicate a sequence was tested but found unchanged; p.(Arg234=)
-* "**<span class="spotlight">/</span>**" (forward slash) is used to indicate mosaicism (see [Example DNA substitution](../DNA/substitution/))
-* "**<span class="spotlight">//</span>**" (double forward slash) is used to indicate chimerism (see [Example DNA substitution](../DNA/substitution/))
-* "**<span class="spotlight">|</span>**" (pipe) is used to indicate that not a direct change of the sequence is described but a modification (a change of state, e.g. methylation). (see [Example methylation](../DNA/other/))
+* `?` (question mark) is used to indicate unknown positions (nucleotide or amino acid); g.(?\_234567)\_(345678\_?)del
+* `^` (caret) is used as "or"; c.(370A>C^372C>R) as back translation of p.Ser124Arg (i.e. changing the AGC codon to CGC, AGG or AGA)
+* `>` (greater than) is used to describe substitution variants (DNA and RNA level); g.12345A>T, r.123a>u (see [DNA](../DNA/substitution), [RNA](../RNA/substitution))
+* `=` (equals) is used to indicate a sequence was tested but found unchanged; p.(Arg234=)
+* `/` (forward slash) is used to indicate mosaicism (see [Example DNA substitution](../DNA/substitution/))
+* `//` (double forward slash) is used to indicate chimerism (see [Example DNA substitution](../DNA/substitution/))
+* `|` (pipe) is used to indicate that not a direct change of the sequence is described but a modification (a change of state, e.g. methylation). (see [Example methylation](../DNA/other/))
 
 <a id="abbreviation"></a>
 
@@ -75,27 +75,27 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 
 Specific abbreviations are used to describe different variant types.
 
-* "**<span class="spotlight">&gt;</span>**" (greater then) indicates a **substitution** (DNA and RNA level); g.123456G>A, r.123c>u (see [DNA](../DNA/substitution), [RNA](../RNA/substitution))
+* `>` (greater then) indicates a **substitution** (DNA and RNA level); g.123456G>A, r.123c>u (see [DNA](../DNA/substitution), [RNA](../RNA/substitution))
     * a substitution at the protein level is described as p.Ser321Arg (see [protein](../protein/substitution)) 
-* "**<span class="spotlight">del</span>**" indicates a **deletion**; c.76delA (see [DNA](../DNA/deletion), [RNA](../RNA/deletion), [protein](../protein/deletion))
-* "**<span class="spotlight">dup</span>**" indicates a **duplication**; c.76dupA (see [DNA](../DNA/duplication), [RNA](../RNA/duplication), [protein](../protein/duplication))
-* "**<span class="spotlight">ins</span>**" indicates an **insertion**; c.76\_77insG (see [DNA](../DNA/insertion), [RNA](../RNA/insertion), [protein](../protein/insertion))
+* `del` indicates a **deletion**; c.76delA (see [DNA](../DNA/deletion), [RNA](../RNA/deletion), [protein](../protein/deletion))
+* `dup` indicates a **duplication**; c.76dupA (see [DNA](../DNA/duplication), [RNA](../RNA/duplication), [protein](../protein/duplication))
+* `ins` indicates an **insertion**; c.76\_77insG (see [DNA](../DNA/insertion), [RNA](../RNA/insertion), [protein](../protein/insertion))
     * duplicating insertions are described as duplications, not as insertions    
-* "**<span class="spotlight">inv</span>**" indicates an **inversion**; c.76\_83inv (see [DNA](../DNA/inversion), [RNA](../RNA/inversion)). Not used at protein level, usually described as ["delins"](../protein/delins/)
-* "**<span class="spotlight">fs</span>**" indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, see [Frame shifts](../protein/frameshift))
-* "**<span class="spotlight">ext</span>**" indicates an **extension**; p.Met1**<span class="spotlight">ext</span>**-5 (see [Extension](../protein/extension))
+* `inv` indicates an **inversion**; c.76\_83inv (see [DNA](../DNA/inversion), [RNA](../RNA/inversion)). Not used at protein level, usually described as ["delins"](../protein/delins/)
+* `fs` indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, see [Frame shifts](../protein/frameshift))
+* `ext` indicates an **extension**; p.Met1**<span class="spotlight">ext</span>**-5 (see [Extension](../protein/extension))
 
 * HGVS/ISCN (see [Community Consultation](http://www.hgvs.org/mutnomen/comments004.html))
-    * "**<span class="spotlight">cen</span>**" indicates the **centromere** of a chromosome
-    * "**<span class="spotlight">chr</span>**" indicates a **chromosome**; chr11:g.12345611G>A (NC\_000011.9)
+    * `cen` indicates the **centromere** of a chromosome
+    * `chr` indicates a **chromosome**; chr11:g.12345611G>A (NC\_000011.9)
     * "**<span class="spotlight">pter</span>** indicates the **first nucleotide** of a chromosome
-    * "**<span class="spotlight">qter</span>**" indicates the **last nucleotide** of a chromosome
-    * "**<span class="spotlight">sup</span>**" indicates an **supernumary** chromosome (marker chromosome)
+    * `qter` indicates the **last nucleotide** of a chromosome
+    * `sup` indicates an **supernumary** chromosome (marker chromosome)
 
 * changes of state (modifications)
-    * "**<span class="spotlight">gom</span>**" indicates a **gain of methylation**; g.12345678_12345901**<span class="spotlight">|gom</span>**
-    * "**<span class="spotlight">lom</span>**" indicates a **loss of methylation**; g.12345678_12345901**<span class="spotlight">|lom</span>**
-    * "**<span class="spotlight">met</span>**" indicates a **methylation**; g.12345678_12345901**<span class="spotlight">|met=</span>**
+    * `gom` indicates a **gain of methylation**; g.12345678_12345901**<span class="spotlight">|gom</span>**
+    * `lom` indicates a **loss of methylation**; g.12345678_12345901**<span class="spotlight">|lom</span>**
+    * `met` indicates a **methylation**; g.12345678_12345901**<span class="spotlight">|met=</span>**
 
 ## Questions
 
