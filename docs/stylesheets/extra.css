@@ -28,6 +28,10 @@ label.md-nav__title {
     font-size: 0.8rem;
 }
 
+span.spotlight {
+    color: red;
+}
+
 [data-md-color-scheme="hvnc"] {
     --md-primary-fg-color: #FF8001;
     --md-primary-fg-color--light: #FF9910;
@@ -45,12 +49,12 @@ md-typeset ol li,
 }
 
 .md-typeset code {
-    background-color: inherit;
+    /* background-color: inherit; */
     font-size: inherit;
     padding: 0;
     font-weight: 500;
-    word-break: keep-all;
-    color: var(--md-primary-fg-color)
+    /* word-break: keep-all; */
+    /* color: var(--md-primary-fg-color) */
 }
 
 
