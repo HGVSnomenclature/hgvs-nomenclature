@@ -84,12 +84,6 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 
 * The recommendation for nucleotide numbering in a gene based on a genomic reference sequence works only if the reference sequence in the database is published as a single file. For my organism there is not yet a reliable genome assembly. For my gene of interest the genomic sequence is stored in multiple files, each containing one exon and partial flanking intron sequences. What should I do?: If no database file is available that contains the complete genomic sequence, such a file should be constructed and submitted to the database. For unsequenced sections in the introns N's can be used to fill gaps (the number of N's included can be used to get the intron to the estimated size). The accession.version number of the submitted file can than be used as a genomic reference sequence.
 
-<div>
-    <button type="button" onclick="resize()" class="btn btn-link pull-right" data-toggle="collapse" data-target=".recs-definition" >
-        <span class="glyphicon glyphicon-resize-full pull-right" id="resize"></span>
-    </button>
-</div>
-
 ## Figure
 
 ![Reference Sequence Figure](../../assets/RefSeq.jpg)
