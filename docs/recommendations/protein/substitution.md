@@ -51,7 +51,7 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
     * LRG\_199p1:p.Trp24=/Cys: a mosaic case where at amino acid position 24 besides the normal amino acid (a Trp, described as "=") also protein is found containing a Cys (Trp24Cys): **NOTE:**    irrespective of the frequency in which each amino acid was found, the reference is always described first: **NOTE:**    for the predicted consequences of a variant the description is LRG_199t1:p.(Trp24=/Cys)
 ## Discussion
 
-!!! note "<a name="polymorphism"></a>Are polymorphisms described like p.2366Gln/Lys?"
+!!! note "<a id="polymorphism"></a>Are polymorphisms described like p.2366Gln/Lys?"
 
     No, all substitutions are described as NP_003997.1:p.Gln2366Lys. In the past, the format p.2366Gln/Lys (p.2366Q/K) has been used to describe "polymorphic" sequence variants. Note that a description should be neutral, simply describe the change, and not include any other information like predicted or known functional consequences.
 

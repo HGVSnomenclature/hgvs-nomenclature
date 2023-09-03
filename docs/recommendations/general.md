@@ -42,7 +42,7 @@ Make sure you have also seen the ([Basics](../../background/basics/), explaining
     * descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. NM\_004006.2:c.[762_768del;767_774dup])
 * only **approved** [HGNC gene symbols](http://www.genenames.org) should be used to describe genes: **NOTE:**    to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to use **italics** to denote genes and to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2): **NOTE:**    for protein nomenclature see the [International Protein Nomenclature Guidelines](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/), written with the involvement of the HGNC
 
-<a name="characters"></a>
+<a id="characters"></a>
 
 ### Characters used
 
@@ -69,7 +69,7 @@ In HGVS nomenclature some **characters** have a **specific meaning**
 * "**<span class="spotlight">//</span>**" (double forward slash) is used to indicate chimerism (see [Example DNA substitution](../DNA/substitution/))
 * "**<span class="spotlight">|</span>**" (pipe) is used to indicate that not a direct change of the sequence is described but a modification (a change of state, e.g. methylation). (see [Example methylation](../DNA/other/))
 
-<a name="abbreviation"></a>
+<a id="abbreviation"></a>
 
 ### Abbreviations in variant descriptions
 
@@ -113,7 +113,7 @@ Specific abbreviations are used to describe different variant types.
     
 * Is it correct that when I apply **the 3'rule** for genes that are on the minus strand of a chromosome, the "g." and "c." variant descriptions differ regarding the nucleotide that I describe as deleted?: Yes, when a gene is on the minus strand of a chromosome (opposite transcriptional orientation) and the change is located in a repeated sequence (mono-, di-, tri-, etc. nucleotide stretches) the 3'rule has this as a consequence. When the chromosome sequence is -TGGGGCAT- and one of the G's is deleted (change to -TGGG_CAT-) the description based on chromosome coordinates is g.5delG. When the annotated coding DNA reference sequence is on the minus strand (ATGCCCCA) the description is c.7delC. Not only is the deleted nucleotide different (delG vs. delC), in fact the descriptions also point to another nucleotide, g.5 vs. g.2 (equivalent to c.7delC).
 
-<a name="uncertain1"></a>
+<a id="uncertain1"></a>
 
 * Can I describe a deletion when I have not yet sequenced the break point?
 :    Yes, using the characters to indicate uncertainties, i.e. the question mark ("**<span class="spotlight">?</span>**") and brackets ("**<span class="spotlight">( )</span>**"), such cases can be described. Describe the range of uncertainty as precise as possible. For details see [Uncertain](../uncertain/).

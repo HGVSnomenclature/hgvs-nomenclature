@@ -57,7 +57,7 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 
 !!! note "Can I use NG_012232.1:g.123del6 to describe a 6 nucleotide deletion?"
 
-    No, a deletion of more than one residue should mention the first and last residue deleted, separated using the range symbol ("_", underscore), e.g. NG_012232.1:g.123_128del and not NG_012232.1:g.123del6.<a name="6del"></a>
+    No, a deletion of more than one residue should mention the first and last residue deleted, separated using the range symbol ("_", underscore), e.g. NG_012232.1:g.123_128del and not NG_012232.1:g.123del6.<a id="6del"></a>
 
 !!! note "In the example above, **LRG_199t1:c.3921del**, should the description based on a coding DNA reference sequence not be LRG_199t1:c.3922del?"
 

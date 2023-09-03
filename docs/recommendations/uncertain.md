@@ -17,7 +17,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 ### Examples
 
-<a name="uncertain1"></a>
+<a id="uncertain1"></a>
 
 #### DNA
 

@@ -43,7 +43,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
     Yes, while the variant at RNA level can be described as r.76a>g on DNA level, based on a coding DNA reference, sequence it should be described as c.(76A>G).
 
-!!! note "<a name="polymorphism"></a>Are polymorphisms described like r.76a/g?"
+!!! note "<a id="polymorphism"></a>Are polymorphisms described like r.76a/g?"
 
     No, all substitutions are described as r.76a>g. In the past, the format r.76a/g has been used to describe "polymorphic" sequence variants. Note that a description should be neutral, simply describe the change, and not include any other information like predicted or known functional consequences.
 

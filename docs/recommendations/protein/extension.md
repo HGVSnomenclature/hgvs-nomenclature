@@ -46,7 +46,7 @@ Format (**<span class="spotlight">C-terminal</span>**):  **"prefix""Ter_position
 
     The variant is called a **no-stop** or **stop-lost** variant, one of two types of a protein extension, a C-terminal extension.
 
-!!! note "<a name='noend'></a>How do I describe an extension when no new stop codon is reached?"
+!!! note "<a id='noend'></a>How do I describe an extension when no new stop codon is reached?"
 
     Such variants are described using the format p.Ter789ArgextTer?, i.e. "**extTer?**" to indicate that no new termination codon is encountered.
 

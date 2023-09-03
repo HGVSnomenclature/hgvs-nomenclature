@@ -68,7 +68,7 @@ Format:   **"prefix""position(s)_duplicated""dup"**,  e.g. g.123_345dup
 
 !!! note "Can I use g.123dup6 to describe a 6 nucleotide duplication?"
 
-    No, a duplication of more than one nucleotide should give the position of the first and last nucleotide duplicated, separated using the range symbol ("_", underscore), e.g. g.123_128dup. Note also that from the description "g.123dup6" it is not clear whether the duplication starts **at** position g.123 (so g.123_128dup) or **after** position 123 (so g.124_129dup).<a name="123dup"></a>
+    No, a duplication of more than one nucleotide should give the position of the first and last nucleotide duplicated, separated using the range symbol ("_", underscore), e.g. g.123_128dup. Note also that from the description "g.123dup6" it is not clear whether the duplication starts **at** position g.123 (so g.123_128dup) or **after** position 123 (so g.124_129dup).<a id="123dup"></a>
 
 !!! note "In the example above, **c.3921dup**, should the description based on a coding DNA reference sequence not be c.3922dup?"
 

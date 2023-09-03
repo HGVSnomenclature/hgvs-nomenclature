@@ -41,7 +41,7 @@ Format:   **"prefix""positions\_inverted""inv"**,  e.g. g.123_345inv
 
 !!! note "Is the change AAGC to CGAA an inversion?"
 
-    No, an inversion would change AAGC to GCTT, its **reverse-complement**. CGAA is only the **reverse** of AAGC.<a name="dupinv"></a>
+    No, an inversion would change AAGC to GCTT, its **reverse-complement**. CGAA is only the **reverse** of AAGC.<a id="dupinv"></a>
 
 !!! note "Is it not better to describe the variant g.234_235ins123_234inv as g.123_234dupinv?"
 

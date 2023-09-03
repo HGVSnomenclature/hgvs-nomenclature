@@ -44,7 +44,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 !!! note "How should I describe a variant in the promoter region of a gene?"
 
-    It is recommended to describe variants in the promoter region of a gene based on a genomic reference sequence, e.g. NC_000023.10:g.33357783G>A (chrX, hg19). Describing the variant in relation to a coding DNA reference sequence (for this variant NM_004006.1:c.-128354C>T or NM_000109.3:c.-401C>T) is possible but not really very informative; you do not know how long the 5'UTR is. The variant can also be described using a genomic reference sequence containing the promoter region (for this variant e.g. L01538.1:g.1407C>T), but again this is not really informative. Although NC_000023.10:g.33357783G>A seems complex, it can be used in a genome browsers helping you to quickly zoom in on the region of interest.<a name="polymorphism"></a>
+    It is recommended to describe variants in the promoter region of a gene based on a genomic reference sequence, e.g. NC_000023.10:g.33357783G>A (chrX, hg19). Describing the variant in relation to a coding DNA reference sequence (for this variant NM_004006.1:c.-128354C>T or NM_000109.3:c.-401C>T) is possible but not really very informative; you do not know how long the 5'UTR is. The variant can also be described using a genomic reference sequence containing the promoter region (for this variant e.g. L01538.1:g.1407C>T), but again this is not really informative. Although NC_000023.10:g.33357783G>A seems complex, it can be used in a genome browsers helping you to quickly zoom in on the region of interest.<a id="polymorphism"></a>
 
 !!! note "Are polymorphisms described like NM_004006.1:c.76A/G?"
 
