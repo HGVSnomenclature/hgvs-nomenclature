@@ -7,6 +7,17 @@ h3 {
     color: #666;
 }
 
+span.sequence {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+span.spotlight {
+    color: red;
+}
+
+
+
 label.md-nav__title {
     display: none
 }

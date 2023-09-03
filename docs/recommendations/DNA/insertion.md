@@ -27,6 +27,7 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. g.123\_1
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 * the **"inserted_sequence"** can be given as the nucleotides inserted (e.g. insAGC) or, for larger insert sequences, by referring to the sequence in the reference sequence (e.g. c.849\_850ins858_895) or another reference (e.g. NC\_000002.11:g.47643464\_47643465ins[NC\_000022.10:g.35788169\_35788352]). When the inserted sequence is not present in the reference genome it should be submitted to a database (e.g. [GenBank](http://www.ncbi.nlm.nih.gov/genbank/submit/)) and the accession.version number obtained to refer to it.
     * † = see [Uncertain](../../uncertain/); when the postion and/or the sequence of an inserted sequence has not been defined, a description may have a format like g.(100\_150)insN[25]
+
 ## Examples
 
 * simple insertions
@@ -53,6 +54,7 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. g.123\_1
     * NC\_000023.10:g.32717298\_32717299insN[?]: the insertion of an unknown number of nucleotides between position g.32717298 and g.32717299
     * NC\_000006.11:g.8897754\_8897755ins[N[543];8897743\_8897754]: the insertion of an undefined sequence of 543 nucleotides (N[543]), and a 12 nucleotide target site duplication (g.8897743 to g.8897754), between nucleotides g.8897754 and g.8897755 on chromosome 6. 
     * g.?\_?ins[NC\_000023.10:g.(12345\_23456)\_(34567\_45678)]: the insertion of a sequence from the X-chromosome (NC\_000023.10), maximally involving nucleotides 12345\_45678 but certainly nucleotides 23456\_34567, at an unknown position (g.?\_?) in the genome (see [Uncertain](../../uncertain))
+
 ## Discussion
 
 !!! note "Can I describe a variant as g.123insG?"
@@ -65,11 +67,10 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. g.123\_1
 
     No, insertions can not be described using the format g.123ˆ124insG or g.123ˆ124G. The recommendations try to restrict the number of different characters used to a minimum. Since a character was already used to indicate a range (the *underscore*) a new character was not required.
 
-!!! note "How should I describe the change ATCG**ATCGATCGATCG**AGGGTCCC to ATCG**ATCGATCGATCG**A**ATCGATCGATC**GGGTCCC?  The fact that the inserted sequence (ATCGATCGATCG) is present in the original sequence suggests it derives from a duplicative event."
+!!! note "How should I describe the change <span class="sequence">ATCG<span class="spotlight">ATCGATCGATCG</span>AGGGTCCC</span> to <span class="sequence">ATCG<span class="spotlight">ATCGATCGATCG</span>A<span class="spotlight">ATCGATCGATC</span>GGGTCCC</span>?  The fact that the inserted sequence (ATCGATCGATCG) is present in the original sequence suggests it derives from a duplicative event."
 
     The variant should be described as an insertion; g.17_18ins5_16. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between g.17 and g.18 is probably derived from nearby, i.e. position g.5 to g.16, and thus likely derived from a duplicative event.
 
 !!! note "A variant in the CDKN2A gene, duplicating the first 24 nucleotides of the coding DNA reference sequence, has been described as c.23ins24. My interpretation is it should be described as c.1_24dup, is this correct?"
 
-    Since the sequence in that region si cagc**<u>ATGGAGCC</u>GGCGGCGGGGAGCAGC**<u>ATGGAGCC</u>TTCG.. the correct decription is c.9_32dup (p.(Ala4_Pro11dup)). c.1_24dup seems correct but neglects the **3'rule** (3' shift possible for the underlined region). c.23ins24 is not correct since the position of the insertion is not described properly and because ins"24" does not define the sequence inserted.
----
+    Since the sequence in that region is <span class="sequence">cagc<span class="spotlight">ATGGAGCC</span>GGCGGCGGGGAGCAGC<span class="spotlight">ATGGAGCC</span>TTCG</span> the correct decription is c.9_32dup (p.(Ala4_Pro11dup)). c.1_24dup seems correct but neglects the **3'rule** (3' shift possible for the highlighted region). c.23ins24 is not correct since the position of the insertion is not described properly and because ins"24" does not define the sequence inserted.

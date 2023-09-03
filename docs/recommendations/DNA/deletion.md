@@ -81,8 +81,8 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 
 !!! note "Suggest to use "los" for a loss from a mononucleotide stretch"
 
-    <u>Pat O'Neill (Burlington, USA) writes</u>; I especially like the use of "dup" in place of "ins" when the insertion creates a run of two or more nucleotides. I feel that there should be a parallel term for the loss of a nucleotide from a run of two or more instead of just "del". This is because of the mechanistic implications of both an ins and a del of a nucleotide in a run. Has this been discussed? My thought for a term in place of "del" is **"los"**for loss.
+    Pat O'Neill (Burlington, USA) writes: I especially like the use of "dup" in place of "ins" when the insertion creates a run of two or more nucleotides. I feel that there should be a parallel term for the loss of a nucleotide from a run of two or more instead of just "del". This is because of the mechanistic implications of both an ins and a del of a nucleotide in a run. Has this been discussed? My thought for a term in place of "del" is **"los"**for loss.
     
-    <u>Shuji Ogino (Boston, USA)</u> agrees but suggests to use **"dec"** for a decrease in length.
+    Shuji Ogino (Boston, USA): agrees but suggests to use **"dec"** for a decrease in length.
     
-    <u>Reply (JdD)</u>; The "dup" nomenclature was introduced because it is **simpler, shorter and less confusing** (see above). The potential mechanistic relation is nice but was not decisive. Basically a description should be clear/unequivocal and it is not intended to contain other information.
+    Reply (JdD): The "dup" nomenclature was introduced because it is **simpler, shorter and less confusing** (see above). The potential mechanistic relation is nice but was not decisive. Basically a description should be clear/unequivocal and it is not intended to contain other information.
