@@ -19,6 +19,7 @@ Format:   **"prefix""amino_acid(s)+position_repeat_unit""[""copy_number""]"**,  
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 * **prefix** reference sequence accepted is "p." (protein).
 * repeated sequences include both small (mono-, di-, tri-, etc., amino acid) and larger repeats.
+
 ## Examples
 
 * p.Ala2[10]: a repeated amino acid sequence, with the first Ala-residue located at position 2 is present in 10 copies.: **NOTE**: when the repeat is variable in the population and the reference sequence has 10 units, the description p.Ala2[9] is preferred over p.Ala11del.: **NOTE**: when the repeat is variable in the population and the reference sequence has 10 units, the description p.Ala2[12] is preferred over p.Ala10\_Ala11dup.

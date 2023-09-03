@@ -7,7 +7,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 * "**<span class="spotlight">( )</span>**" (parentheses): are used to indicate uncertainties
     * in g.(123456\_234567)\_(345678\_456789)del the extent (region) of uncertainty for the location of the deletion breakpoint, where (123456\_234567) and (345678\_456789) indicate the two regions where the break point should be located
     * in p.(Cys123Gly) indicating the amino acid change is predicted from DNA level data (no experimental proof)
-<br><br>
+
 * "**<span class="spotlight">?</span>**" (question mark): is used to indicate unknown positions (nucleotide or amino acid), like in g.(?\_234567)\_(345678\_?)del
 * "**<span class="spotlight">^</span>**" (caret): is used as "or", like p.(Gly719Ala^Ser)
 * IUPAC codes: all IUPAC nucleotide codes can be used to describe uncertain nucleotides (see [Standards](../../background/standards/))

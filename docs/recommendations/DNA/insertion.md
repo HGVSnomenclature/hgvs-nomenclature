@@ -57,7 +57,9 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**,  e.g. g.123\_1
 
 !!! note "Can I describe a variant as g.123insG?"
 
-    No, since the description is not unequivocal it is not allowed. What does the description mean, the insertion of a G **at** position 123 or the insertion of a G **after** position 123?<br>The situation becomes even more complex when using a coding DNA reference sequence a "-" character is used, e.g. c.-14insG or c.456-13insG. In the description c.456-13insG, when the insertion is **after** intronic nucleotide c.456-13, is this position c.456-12 or c.456-14?
+    No, since the description is not unequivocal it is not allowed. What does the description mean, the insertion of a G **at** position 123 or the insertion of a G **after** position 123?
+    
+    The situation becomes even more complex when using a coding DNA reference sequence a "-" character is used, e.g. c.-14insG or c.456-13insG. In the description c.456-13insG, when the insertion is **after** intronic nucleotide c.456-13, is this position c.456-12 or c.456-14?
 
 !!! note "Can I use the "^" character to describe an insertion?"
 

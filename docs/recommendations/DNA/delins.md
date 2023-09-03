@@ -33,6 +33,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. g
 * NC\_000012.11:g.6128892\_6128954delins[NC\_000022.10:g.17179029\_17179091]: conversion replacing nucleotides g.6128892 to g.6128954 of the VWF gene (NM\_000552.3:c.3675-45\_3692) on chromosome 12 with nucleotides g.17179029 to g.17179091 of the VWFP1 pseudogene on chromosome 22
 * NM\_000797.3:c.812\_829delins908\_925: conversion replacing nucleotides c.812 to c.829 of the DRD4 gene with nucleotides c.908 to c.925 from the same reference sequence
 * NM\_004006.2:c.812\_829delinsN[12]: nucleotides c.812 to c.829 have been deleted and replaced by 12 unknown nucleotides (N[12])
+
 ## Discussion
 
 !!! note "What is an **"indel"**?"
@@ -49,4 +50,6 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. g
 
 !!! note "The BRCA1 coding DNA reference sequence from position c.2074 to c.2080 is ..CATGACA.. A variant frequently found in the population is ..CAT<span class="spotlight">A</span>ACA.. (c.2077G>A). In a patient I found the sequence ..CAT<span class="spotlight">A TA</span>ACA.. Can I describe this variant as c.[2077G>A;2077_2078insTA]?"
 
-    The correct description of this variant is NM_007294.3:c.2077delinsATA.<br>**NOTE:** the answer was modified, i.e. the addition "However, since the variant is likely a combination of two other variants it is acceptable to describe it as NM_007294.3:c.[2077G>A;2077_2078insTA]" was removed. 
+    The correct description of this variant is NM_007294.3:c.2077delinsATA.
+    
+    **NOTE:** the answer was modified, i.e. the addition "However, since the variant is likely a combination of two other variants it is acceptable to describe it as NM_007294.3:c.[2077G>A;2077_2078insTA]" was removed. 

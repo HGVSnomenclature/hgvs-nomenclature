@@ -40,9 +40,9 @@ Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_
     * NP\_003997.2:p.(His321Leufs\*3): the predicted consequences of a deletion of exons 10 to 11 of the DMD gene, creating a frame shift starting at amino acid His321, replacing it with Leu and terminating after three codons.
     * NP\_003997.2:p.?: the predicted consequences of a deletion of exons 1 to 2 of the DMD gene, deleting the translation initiation codon: **NOTE:** since exon 1 and the translation initiation codon are deleted no reliable predictions can be made. Possibly no transcript is generated and no protein (p.0?)
     * NP\_003997.2:p.?: the predicted consequences of a deletion of exons 74 to 79 of the DMD gene, deleting the translation termination codon: **NOTE:** since the last exon (exon 79) is deleted, it is not known what sequences after exon 73 are added to the transcript and no reliable predictions can be made
-* p.Gly2\_Met46del: a deletion of amino acids Gly2 to Met46 as a consequence of a variant silencing translation initiation at Met1 but activating a new downstream translation initiation site (at Met46)<br>
+* p.Gly2\_Met46del: a deletion of amino acids Gly2 to Met46 as a consequence of a variant silencing translation initiation at Met1 but activating a new downstream translation initiation site (at Met46)
     **NOTE:** the 3' rule has been applied.
-* p.Trp26Ter (p.Trp26\*): amino acid Trp26 is changed to a stop codon (Ter, \*)<br>: **NOTE:** this change is by definition **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp26\_Arg1623del)
+* p.Trp26Ter (p.Trp26\*): amino acid Trp26 is changed to a stop codon (Ter, \*) **NOTE:** this change is by definition **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp26\_Arg1623del)
 * NP\_003997.1:p.Val7=/del: a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as "Val7=") also protein is found containing a deletion (Val7del): **NOTE:** for the predicted consequences of a variant the description is NP\_003997.1:p.(Val7=/del)
 ## Discussion
 

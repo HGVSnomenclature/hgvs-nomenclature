@@ -70,7 +70,7 @@ In the Table below, to support translation from a DNA sequence, we have used a "
     <th colspan="6">Nucleotide position in codon</th>
   </tr>
   <tr>
-    <td>First<br></td>
+    <td>First</td>
     <td colspan="4">Second</td>
     <td>Third</td>
   </tr>
@@ -83,7 +83,7 @@ In the Table below, to support translation from a DNA sequence, we have used a "
     <td></td>
   </tr>
   <tr class="active">
-    <td rowspan="4"><b>T</b><br></td>
+    <td rowspan="4"><b>T</b></td>
     <td>TTT - Phe</td>
     <td>TCT - Ser</td>
     <td>TAT - Tyr</td>

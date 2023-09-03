@@ -6,9 +6,9 @@ Complex: a sequence change where, compared to a reference sequence, a range of c
 
 ## Description
 
-Sequence changes can be very complex, involving a range of changes at one specific location. Complex changes, including translocations, are described using the recommendations of the accepted HGVS nomenclature **named extension ISCN**, based on the original proposal [SVD-WG004 (ISCN<>HGVS)](../../../consultation/SVD-WG004/)). The named ISCN extension has been developed in collaboration with [Standing Committee on Human Cytogenomic Nomenclature (ISCN)](../../../consultation/ISCN/), covering the description of numerical and structural chromosomal changes detected using microscopic and cytogenetic techniques. It should be noted there is a basic difference between ISCN and HGVS: while ISCN describes the structure of the resulting chromosome(s), HGVS describes the **variant(s) detected**. It should be noted that the description of complex changes can become rather complicated and at some point, although literally correct, becomes effectively meaningless.<br>
+Sequence changes can be very complex, involving a range of changes at one specific location. Complex changes, including translocations, are described using the recommendations of the accepted HGVS nomenclature **named extension ISCN**, based on the original proposal [SVD-WG004 (ISCN<>HGVS)](../../../consultation/SVD-WG004/)). The named ISCN extension has been developed in collaboration with [Standing Committee on Human Cytogenomic Nomenclature (ISCN)](../../../consultation/ISCN/), covering the description of numerical and structural chromosomal changes detected using microscopic and cytogenetic techniques. It should be noted there is a basic difference between ISCN and HGVS: while ISCN describes the structure of the resulting chromosome(s), HGVS describes the **variant(s) detected**. It should be noted that the description of complex changes can become rather complicated and at some point, although literally correct, becomes effectively meaningless.
 
-The named ISCN extension has been introduced in 2016 and was modified last in May 2020.<br>
+The named ISCN extension has been introduced in 2016 and was modified last in May 2020.
 
 * only aberrant findings, linked to defined chromosomal positions, are described
 * each rearranged chromosome is described in a separate line

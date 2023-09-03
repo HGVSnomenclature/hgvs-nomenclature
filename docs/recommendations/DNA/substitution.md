@@ -61,4 +61,6 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 
 !!! note "The *BRCA1* coding DNA reference sequence NM_007294.3 from position c.2074 to c.2080 is ..CATGACA.. A variant frequently found in the population is ..CAT<span class="spotlight">A</span>ACA.. (NM_007294.3:c.2077G>A). In a patient I found the sequence ..CATA<span class="spotlight">TA</span>ACA.. Can I describe this variant as NM_007294.3:c.[2077G>A;2077_2078insTA]?"
 
-    The correct description of this variant is NM_007294.3:c.2077delinsATA.<br>**NOTE:** the answer was modified, i.e. the addition "However, since the variant is likely a combination of two other variants it is acceptable to describe it as NM_007294.3:c.[2077G>A;2077_2078insTA]" was removed.
+    The correct description of this variant is NM_007294.3:c.2077delinsATA.
+    
+    **NOTE:** the answer was modified, i.e. the addition "However, since the variant is likely a combination of two other variants it is acceptable to describe it as NM_007294.3:c.[2077G>A;2077_2078insTA]" was removed.
