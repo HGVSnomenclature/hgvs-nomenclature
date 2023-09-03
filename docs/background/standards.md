@@ -70,133 +70,133 @@ In the Table below, to support translation from a DNA sequence, we have used a "
     <th colspan="6">Nucleotide position in codon</th>
   </tr>
   <tr>
-    <td>First</td>
-    <td colspan="4">Second</td>
-    <td>Third</td>
+    <th>First</th>
+    <th colspan="4">Second</th>
+    <th>Third</th>
   </tr>
   <tr>
     <td></td>
-    <td><b>T</b></td>
-    <td><b>C</b></td>
-    <td><b>A</b></td>
-    <td><b>G</b></td>
+    <th>T</th>
+    <th>C</th>
+    <th>A</th>
+    <th>G</th>
     <td></td>
   </tr>
-  <tr class="active">
-    <td rowspan="4"><b>T</b></td>
+  <tr>
+    <th rowspan="4">T</th>
     <td>TTT - Phe</td>
     <td>TCT - Ser</td>
     <td>TAT - Tyr</td>
     <td>TGT - Cys</td>
-    <td><b>T</b></td>
+    <th>T</th>
   </tr>
-  <tr class="active">
+  <tr>
     <td>TTC - Phe</td>
     <td>TCC - Ser</td>
     <td>TAC - Tyr</td>
     <td>TGC - Cys</td>
-    <td><b>C</b></td>
+    <th>C</th>
   </tr>
-  <tr class="active">
+  <tr>
     <td>TTA - Leu</td>
     <td>TCA - Ser</td>
     <td>TAA - */Ter</td>
     <td>TGA - */Ter</td>
-    <td><b>A</b></td>
+    <th>A</th>
   </tr>
-  <tr class="active">
+  <tr>
     <td>TTG - Leu</td>
     <td>TCG - Ser</td>
     <td>TAG - */Ter</td>
     <td>TGG - Trp</td>
-    <td><b>G</b></td>
+    <th>G</th>
   </tr>
   <tr>
-    <td rowspan="4"><b>C</b></td>
+    <th rowspan="4">C</th>
     <td>CTT - Leu</td>
     <td>CCT - Pro</td>
     <td>CAT - His</td>
     <td>CGT - Arg</td>
-    <td><b>T</b></td>
+    <th>T</th>
   </tr>
   <tr>
     <td>CTC - Leu</td>
     <td>CCC - Pro</td>
     <td>CAC - His</td>
     <td>CGC - Arg</td>
-    <td><b>C</b></td>
+    <th>C</th>
   </tr>
   <tr>
     <td>CTA - Leu</td>
     <td>CCA - Pro</td>
     <td>CAA - Gln</td>
     <td>CGA - Arg</td>
-    <td><b>A</b></td>
+    <th>A</th>
   </tr>
   <tr>
     <td>CTG - Leu</td>
     <td>CCG - Pro</td>
     <td>CAG - Gln</td>
     <td>CGG - Arg</td>
-    <td><b>G</b></td>
+    <th>G</th>
   </tr>
-  <tr class="active">
-    <td rowspan="4"><b>A</b></td>
+  <tr>
+    <th rowspan="4">A</th>
     <td>ATT - Ile</td>
     <td>ACT - Thr</td>
     <td>AAT - Asn</td>
     <td>AGT - Ser</td>
-    <td><b>T</b></td>
+    <th>T</th>
   </tr>
-  <tr class="active">
+  <tr>
     <td>ATC - Ile</td>
     <td>ACC - Thr</td>
     <td>AAC - Asn</td>
     <td>AGC - Ser</td>
-    <td><b>C</b></td>
+    <th>C</th>
   </tr>
-  <tr class="active">
+  <tr>
     <td>ATA - Ile</td>
     <td>ACA - Thr</td>
     <td>AAA - Lys</td>
     <td>AGA - Arg</td>
-    <td><b>A</b></td>
+    <th>A</th>
   </tr>
-  <tr class="active">
+  <tr>
     <td>ATG - Met</td>
     <td>ACG - Thr</td>
     <td>AAG - Lys</td>
     <td>AGG - Arg</td>
-    <td><b>G</b></td>
+    <th>G</th>
   </tr>
   <tr>
-    <td rowspan="4"><b>G</b></td>
+    <th rowspan="4">G</th>
     <td>GTT - Val</td>
     <td>GCT - Ala</td>
     <td>GAT - Asp</td>
     <td>GGT - Gly</td>
-    <td><b>T</b></td>
+    <th>T</th>
   </tr>
   <tr>
     <td>GTC - Val</td>
     <td>GCC - Ala</td>
     <td>GAC - Asp</td>
     <td>GGC - Gly</td>
-    <td><b>C</b></td>
+    <th>C</th>
   </tr>
   <tr>
     <td>GTA - Val</td>
     <td>GCA - Ala</td>
     <td>GAA - Glu</td>
     <td>GGA - Gly</td>
-    <td><b>A</b></td>
+    <th>A</th>
   </tr>
   <tr>
     <td>GTG - Val</td>
     <td>GCG - Ala</td>
     <td>GAG - Glu</td>
     <td>GGG - Gly</td>
-    <td><b>G</b></td>
+    <th>G</th>
   </tr>
 </table>
 

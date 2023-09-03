@@ -25,6 +25,10 @@ label.md-nav__title {
   }
 
 
+th {
+    font-weight: bold;
+}
+
  md-typeset ol li, .md-typeset ul li {
     margin-bottom: 0px;
 }
