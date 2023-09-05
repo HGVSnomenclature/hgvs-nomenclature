@@ -8,6 +8,7 @@ figure {
     border: thin solid #4051b5;
     background-color: #eee;
     padding: 5px;
+    box-shadow: 3px 3px 3px 3px #ccddff;
 }
 
 h2 {

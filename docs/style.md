@@ -10,11 +10,11 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 {{ read_csv('style-examples.csv') }}
 
+```markdown
 ## Syntax blocks
 
 When describing the syntax of class of variant, we use a structure like this:
 
-```markdown
 ## Syntax
 
 - `TYPE.[POSEDIT1;POSEDIT2]` (one allele)
@@ -24,33 +24,14 @@ where
 
 - `TYPE` is the reference sequence type
 - `POSEDIT1` and `POSEDIT2` are the positions and changes 
+
+## Examples
+
+- `NC_000001.11:g.[123G>A;345del]`
+- `NC_000001.11:g.[123G>A];[345del]`
+
 ```
 
 which renders like this:
 
-![Syntax example](syntax-example.png)
-
-
-<hr>
-## Scraps below
-```
-Current DNA alleles:
-
-Format (one allele):   **"prefix"["change1";"change2"]**,  e.g. g.[123G>A;345del]
-
-* **"prefix"**  =  reference sequence used  =  g.
-* **[**  =  opening symbol for allele  =  [
-* **"change1"**  =  description first variant  =  123G>A
-* **;**  =  separator symbol two changes  =  ;
-* **"change2"**  =  description second variant  =  345del
-* **]**  =  closing symbol for allele  =  ]
- 
-Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345del]
-
-* **"prefix"**  =  reference sequence used  =  g.
-* **[**  =  opening symbol for allele-1  =  [
-* **"change"**  =  description variant  =  123G>A
-* **];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[
-* **"change"**  =  description variant  =  345del
-* **]**  =  closing symbol for allele-2  =  ]
-``` 
+![Example of formatting for syntax descriptions in the HGVS Nomenclature. (Taken from DNA Alleles.)](syntax-example.png)
