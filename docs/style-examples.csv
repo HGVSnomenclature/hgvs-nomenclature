@@ -1,6 +1,6 @@
 Style, Intended use, Markdown you enter like this,  Will be rendered like this
 
-Emphasis,  Keywords and concepts typically on the first use,  `*italicized text*`<br>`**bold text**`, *italicized text*<br>**bold text**
+Emphasis, Keywords on the first use and important phrases, `**HTML in Markdown is discouraged**`, **HTML in Markdown is discouraged**
 
 Literal text, Text that is entered displayed or processed, `<code>ACGT</code>`<br><code>\\`ACGT\\`</code><br><code>\\`NC_000023.11:g.32849790T>A\\`</code>, <code>ACGT</code><br>`ACGT`<br>`NC_000023.11:g.32849790T>A`
 

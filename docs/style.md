@@ -1,6 +1,10 @@
 # Style conventions used in this documentation
 
-The HGVS Nomenclature is written using [Markdown](https://en.wikipedia.org/wiki/Markdown).  If you're unfamiliar with Markdown, please read [Introduction to Markdown](https://www.writethedocs.org/guide/writing/markdown/).  This page documents conventions used to apply Markdown to the HGVS Nomenclature.  Contributors should follow the styles outlined below. Inline HTML is discouraged except when necessary.
+The HGVS Nomenclature is written using [Markdown](https://en.wikipedia.org/wiki/Markdown).  If you're unfamiliar with Markdown, please read [Introduction to Markdown](https://www.writethedocs.org/guide/writing/markdown/).  This page documents conventions used to apply Markdown to the HGVS Nomenclature.  Contributors should follow the styles outlined below. Inline HTML is discouraged except when necessary, and underlining should never be used.
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
+"RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC
+2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
 ## Style Examples
 
