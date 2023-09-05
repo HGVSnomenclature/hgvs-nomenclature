@@ -1,3 +1,4 @@
+markdown-captions
 mkdocs
 mkdocs-autolinks-plugin
 mkdocs-awesome-pages-plugin
@@ -7,4 +8,4 @@ mkdocs-material
 mkdocs-material-extensions
 mkdocs-mermaid2-plugin
 mkdocs-multirepo-plugin
-
+mkdocs-table-reader-plugin

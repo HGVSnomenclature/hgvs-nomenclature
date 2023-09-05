@@ -1,0 +1,2 @@
+"MD013": false   # Line length; https://github.com/DavidAnson/markdownlint/blob/v0.29.0/doc/md013.md
+"MD033": false   # Inline HTML; https://github.com/DavidAnson/markdownlint/blob/v0.29.0/doc/md033.md

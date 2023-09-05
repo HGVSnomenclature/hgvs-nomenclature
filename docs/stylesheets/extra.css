@@ -4,7 +4,11 @@
     --md-primary-fg-color--dark: #DD7000;
 }
 
-
+figure {
+    border: thin solid #4051b5;
+    background-color: #eee;
+    padding: 5px;
+}
 
 h2 {
     color: #4051b5;
@@ -64,19 +68,22 @@ md-typeset ol li,
 }
 
 
-.sequence {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
+code.del {
+    background-color: #ea9999;
 }
 
-.red, .spotlight, .darkredberry1 {
-    color: red;
+code.ins {
+    background-color: #b6d7a8;
 }
 
-.green, .darkgreen1 {
-    color: #6aa84f;
+code.spot1 {
+    background-color: #ffff00;
 }
 
-.blue, .darkblue1 {
-    color: #3d85c6;
+code.spot2 {
+    background-color: #00ffff;
+}
+
+code.spot3 {
+    color: #ff00ff;
 }
