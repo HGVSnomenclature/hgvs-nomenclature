@@ -10,11 +10,12 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 {{ read_csv('style-examples.csv') }}
 
-```markdown
 ## Syntax blocks
 
-When describing the syntax of class of variant, we use a structure like this:
+Syntax blocks are used to convey the representation of a variant.  In keeping with historical presentation, we use an informal representation of the syntax rather than a formal computational grammar.
 
+
+```markdown
 ## Syntax
 
 - `TYPE.[POSEDIT1;POSEDIT2]` (one allele)
@@ -29,7 +30,6 @@ where
 
 - `NC_000001.11:g.[123G>A;345del]`
 - `NC_000001.11:g.[123G>A];[345del]`
-
 ```
 
 which renders like this:
