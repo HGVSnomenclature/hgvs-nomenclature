@@ -83,19 +83,19 @@ Specific abbreviations are used to describe different variant types.
     * duplicating insertions are described as duplications, not as insertions    
 * `inv` indicates an **inversion**; c.76\_83inv (see [DNA](../DNA/inversion), [RNA](../RNA/inversion)). Not used at protein level, usually described as ["delins"](../protein/delins/)
 * `fs` indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, see [Frame shifts](../protein/frameshift))
-* `ext` indicates an **extension**; p.Met1**<code class="spot1">ext</code>**-5 (see [Extension](../protein/extension))
+* `ext` indicates an **extension**; p.Met1<code class="spot1">ext</code>-5 (see [Extension](../protein/extension))
 
 * HGVS/ISCN (see [Community Consultation](http://www.hgvs.org/mutnomen/comments004.html))
     * `cen` indicates the **centromere** of a chromosome
     * `chr` indicates a **chromosome**; chr11:g.12345611G>A (NC\_000011.9)
-    * "**<code class="spot1">pter</code>** indicates the **first nucleotide** of a chromosome
+    * "<code class="spot1">pter</code> indicates the **first nucleotide** of a chromosome
     * `qter` indicates the **last nucleotide** of a chromosome
     * `sup` indicates an **supernumary** chromosome (marker chromosome)
 
 * changes of state (modifications)
-    * `gom` indicates a **gain of methylation**; g.12345678_12345901**<code class="spot1">|gom</code>**
-    * `lom` indicates a **loss of methylation**; g.12345678_12345901**<code class="spot1">|lom</code>**
-    * `met` indicates a **methylation**; g.12345678_12345901**<code class="spot1">|met=</code>**
+    * `gom` indicates a **gain of methylation**; g.12345678_12345901<code class="spot1">|gom</code>
+    * `lom` indicates a **loss of methylation**; g.12345678_12345901<code class="spot1">|lom</code>
+    * `met` indicates a **methylation**; g.12345678_12345901<code class="spot1">|met=</code>
 
 ## Questions
 

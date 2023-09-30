@@ -52,7 +52,7 @@ The committees propose that as soon as nucleotide positions are used in the desc
 
 #### Examples
 
-Note the format: **<code class="spot1">the variant is first described using ISCN nomenclature, next using HGVS</code>**.
+Note the format: <code class="spot1">the variant is first described using ISCN nomenclature, next using HGVS</code>.
 
 * translocations
     * balanced
