@@ -87,3 +87,22 @@ code.spot2 {
 code.spot3 {
     color: #ff00ff;
 }
+
+table, tr, td, th {
+    border: thin solid #ccc;
+    border-collapse: collapse;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+table .hl {
+    background: #eeeeee;
+}
+
+table.gc {
+    width: 100%; 
+}
+
+table.gc tr, table.gc td {
+    padding: 5px;
+}

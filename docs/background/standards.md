@@ -62,10 +62,14 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 
 ## Genetic Code
 
-At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ (see [IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)), specifying the description of amino acids. In addition HGVS nomenclature uses "**Ter**" (three-letter amino acid code) and `*` (three- and one-letter amino acid code) to indicate a translation termination (stop) codon. **NOTE**: in older versions the "**X** was used instead.
-In the Table below, to support translation from a DNA sequence, we have used a "**T**" in the codons although in nature RNA is translated so the codons contain **U**'s.
+At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and
+Peptides_ (see [IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)),
+specifying the description of amino acids. In addition HGVS nomenclature uses `Ter` (three-letter
+amino acid code) and `*` (three- and one-letter amino acid code) to indicate a translation
+termination (stop) codon. (In much older versions of the HGVS Nomenclature `X` was used instead;
+that use is now incorrect.)
 
-<table class="table table-bordered text-center">
+<table class="table table-bordered text-center gc">
   <tr>
     <th colspan="6">Nucleotide position in codon</th>
   </tr>
@@ -76,35 +80,35 @@ In the Table below, to support translation from a DNA sequence, we have used a "
   </tr>
   <tr>
     <td></td>
-    <th>T</th>
+    <th>T (U)</th>
     <th>C</th>
     <th>A</th>
     <th>G</th>
     <td></td>
   </tr>
-  <tr>
-    <th rowspan="4">T</th>
+  <tr class="hl">
+    <th rowspan="4">T (U)</th>
     <td>TTT - Phe</td>
     <td>TCT - Ser</td>
     <td>TAT - Tyr</td>
     <td>TGT - Cys</td>
-    <th>T</th>
+    <th>T (U)</th>
   </tr>
-  <tr>
+  <tr class="hl">
     <td>TTC - Phe</td>
     <td>TCC - Ser</td>
     <td>TAC - Tyr</td>
     <td>TGC - Cys</td>
     <th>C</th>
   </tr>
-  <tr>
+  <tr class="hl">
     <td>TTA - Leu</td>
     <td>TCA - Ser</td>
     <td>TAA - */Ter</td>
     <td>TGA - */Ter</td>
     <th>A</th>
   </tr>
-  <tr>
+  <tr class="hl">
     <td>TTG - Leu</td>
     <td>TCG - Ser</td>
     <td>TAG - */Ter</td>
@@ -117,7 +121,7 @@ In the Table below, to support translation from a DNA sequence, we have used a "
     <td>CCT - Pro</td>
     <td>CAT - His</td>
     <td>CGT - Arg</td>
-    <th>T</th>
+    <th>T (U)</th>
   </tr>
   <tr>
     <td>CTC - Leu</td>
@@ -140,29 +144,29 @@ In the Table below, to support translation from a DNA sequence, we have used a "
     <td>CGG - Arg</td>
     <th>G</th>
   </tr>
-  <tr>
+  <tr class="hl">
     <th rowspan="4">A</th>
     <td>ATT - Ile</td>
     <td>ACT - Thr</td>
     <td>AAT - Asn</td>
     <td>AGT - Ser</td>
-    <th>T</th>
+    <th>T (U)</th>
   </tr>
-  <tr>
+  <tr class="hl">
     <td>ATC - Ile</td>
     <td>ACC - Thr</td>
     <td>AAC - Asn</td>
     <td>AGC - Ser</td>
     <th>C</th>
   </tr>
-  <tr>
+  <tr class="hl">
     <td>ATA - Ile</td>
     <td>ACA - Thr</td>
     <td>AAA - Lys</td>
     <td>AGA - Arg</td>
     <th>A</th>
   </tr>
-  <tr>
+  <tr class="hl">
     <td>ATG - Met</td>
     <td>ACG - Thr</td>
     <td>AAG - Lys</td>
@@ -175,7 +179,7 @@ In the Table below, to support translation from a DNA sequence, we have used a "
     <td>GCT - Ala</td>
     <td>GAT - Asp</td>
     <td>GGT - Gly</td>
-    <th>T</th>
+    <th>T (U)</th>
   </tr>
   <tr>
     <td>GTC - Val</td>
