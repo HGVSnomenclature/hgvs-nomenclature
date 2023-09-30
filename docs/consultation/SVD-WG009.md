@@ -2,7 +2,7 @@
 
 ### Proposal SVD-WG009 (conversion)
 
-* Status: <span class="spotlight">accepted</span>: proposal SVD-WG009 opened for **Community Consultation** on August 1 (2020), closed October 31 (2020). 
+* Status: <code class="spot1">accepted</code>: proposal SVD-WG009 opened for **Community Consultation** on August 1 (2020), closed October 31 (2020). 
 
 Based on the proposal the HGVS nomenclature pages have been updated (November 2020); the specific conversion pages were removed, information was merged with the [Deletion-Insertion pages](../../recommendations/DNA/delins/).
 

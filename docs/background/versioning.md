@@ -6,7 +6,7 @@ The version number is based on the date of the change and has the format: **HGVS
 
 ### The current version is HGVS nomenclature v20.05.
 
-**<span class="spotlight">NOTE:</span>** since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature was released May 1, 2020.
+**<code class="spot1">NOTE:</code>** since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature was released May 1, 2020.
 
 For issues currently discussed see [Open for Community Consultation](../../consultation/) or [Open Issues](../../consultation/open-issues/).
 

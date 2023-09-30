@@ -2,9 +2,9 @@
 
 ### Proposal SVD-WG005 (gom/lom)
 
-* Status: <span class="spotlight">accepted</span>: proposal SVD-WG005 opened for **Community Consultation** on October 20 (2016), and closed on Dec.31 (2016). Since no major objections were received the SVD-WG decided to accept the proposal.
+* Status: <code class="spot1">accepted</code>: proposal SVD-WG005 opened for **Community Consultation** on October 20 (2016), and closed on Dec.31 (2016). Since no major objections were received the SVD-WG decided to accept the proposal.
 
-The proposal suggests to extend the HGVS recommendations to allow description of changes in general methylation status. The abbreviation <span class="spotlight">gom</span> to indicate a general gain of methylation (hypermethylation), the abbreviation <span class="spotlight">lom</span> to indicate a general loss of methylation (hypomethylation). The "\|" character ("pipe") is introduced to indicate that not a direct change of the sequence is described but a **modification** (change of state, here methylation).
+The proposal suggests to extend the HGVS recommendations to allow description of changes in general methylation status. The abbreviation <code class="spot1">gom</code> to indicate a general gain of methylation (hypermethylation), the abbreviation <code class="spot1">lom</code> to indicate a general loss of methylation (hypomethylation). The "\|" character ("pipe") is introduced to indicate that not a direct change of the sequence is described but a **modification** (change of state, here methylation).
 
 #### Examples
 

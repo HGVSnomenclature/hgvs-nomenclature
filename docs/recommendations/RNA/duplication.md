@@ -27,8 +27,8 @@ Format:   **"prefix""position(s)\_duplicated""dup"**,  e.g. r.123\_345dup
     * **NOTE:** the exception to the 3'rule for duplications around exon/exon junctions  see [Duplications](../../DNA/duplication/) does not apply when describing variants based on a RNA reference sequence
 ## Examples
 
-* r.7dup (one nucleotide): the duplication of a "u" at position r.7 in the sequence ..acuuacugcc.. to ..acuuacu**<span class="spotlight">u</span>**gcc..: **NOTE**: it is **not** allowed to describe the variant as r.6\_7insu (see [prioritisation](../../general/))
-* r.6\_8dup (several nucleotides): a duplication from position r.6 to r.8 in the sequence ..acaauugcc.. to ..acaauugc**<span class="spotlight">ugc</span>**c..: **NOTE**: it is allowed to describe the variant as g.6_8dupugc
+* r.7dup (one nucleotide): the duplication of a "u" at position r.7 in the sequence ..acuuacugcc.. to ..acuuacu**<code class="spot1">u</code>**gcc..: **NOTE**: it is **not** allowed to describe the variant as r.6\_7insu (see [prioritisation](../../general/))
+* r.6\_8dup (several nucleotides): a duplication from position r.6 to r.8 in the sequence ..acaauugcc.. to ..acaauugc**<code class="spot1">ugc</code>**c..: **NOTE**: it is allowed to describe the variant as g.6_8dupugc
 ## Discussion
 
 !!! note "Why do we not describe a duplication as an insertion?"

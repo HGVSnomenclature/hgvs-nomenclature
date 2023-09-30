@@ -24,8 +24,8 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 ## Examples
 
-* r.775delinsga: a deletion of nucleotide r.775 (a "u", not described), replaced by nucleotides "ga", changing ..aggc<span class="spotlight">u</span>cauu.. to ..aggc<span class="spotlight">ga</span>cauu..
-* r.775\_777delinsc : a deletion of nucleotides r.775 to r.777 ("uca", not described), replaced by nucleotides "c", changing ..aggc<span class="spotlight">uca</span>uu.. to ..aggc<span class="spotlight">c</span>uu..
+* r.775delinsga: a deletion of nucleotide r.775 (a "u", not described), replaced by nucleotides "ga", changing ..aggc<code class="spot1">u</code>cauu.. to ..aggc<code class="spot1">ga</code>cauu..
+* r.775\_777delinsc : a deletion of nucleotides r.775 to r.777 ("uca", not described), replaced by nucleotides "c", changing ..aggc<code class="spot1">uca</code>uu.. to ..aggc<code class="spot1">c</code>uu..
 * r.902_909delinsuuu: a deletion of nucleotides r.902 to r.909, replaced by nucleotides uuu
 * r.142_144delinsugg (p.Arg48Trp): a deletion replacing nucleotides r.142 to r.144 (cga, not described) with ugg: **NOTE:** the variant can also be described as r.[142c>u;144a>g], i.e. two substitutions. This format is preferred when either of the two variants is known as a frequently occurring variant ("polymorphism")
 * RNA conversion (based on [SVD-WG009](../../../consultation/SVD-WG009/))
@@ -45,8 +45,8 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r
 
 !!! note "Can I describe a "gc" to "ug" variant as a dinucleotide substitution (r.4gc>ug)?"
 
-    No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](http://www.HGVS.org/varnomen/recommendations/RNA/variant/substitution/)). The change "augu<span class="spotlight">gc</span>ca" to 'augu<span class="spotlight">ug</span>ca" should be described as r.5_6delinsug, i.e. a deletion/insertion (indel).
+    No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](http://www.HGVS.org/varnomen/recommendations/RNA/variant/substitution/)). The change "augu<code class="spot1">gc</code>ca" to 'augu<code class="spot1">ug</code>ca" should be described as r.5_6delinsug, i.e. a deletion/insertion (indel).
 
-!!! note "The BRCA1 coding RNA reference sequence from position r.2074 to r.2080 is ..caugaca.. A variant frequently found in the population is ..cau<span class="spotlight">a</span>aca.. (r.2077g>a). In a patient I found the sequence ..cau<span class="spotlight">a ua</span>aca.. Can I describe this variant as r.[2077g>a;2077_2078insua]?"
+!!! note "The BRCA1 coding RNA reference sequence from position r.2074 to r.2080 is ..caugaca.. A variant frequently found in the population is ..cau<code class="spot1">a</code>aca.. (r.2077g>a). In a patient I found the sequence ..cau<code class="spot1">a ua</code>aca.. Can I describe this variant as r.[2077g>a;2077_2078insua]?"
 
     The shortest description of this variant is r.2077delinsaua. However, since the variant is likely a combination of two other variants it is acceptable to describe it as r.[2077g>a;2077_2078insua].

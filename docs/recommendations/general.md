@@ -83,19 +83,19 @@ Specific abbreviations are used to describe different variant types.
     * duplicating insertions are described as duplications, not as insertions    
 * `inv` indicates an **inversion**; c.76\_83inv (see [DNA](../DNA/inversion), [RNA](../RNA/inversion)). Not used at protein level, usually described as ["delins"](../protein/delins/)
 * `fs` indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs*17, see [Frame shifts](../protein/frameshift))
-* `ext` indicates an **extension**; p.Met1**<span class="spotlight">ext</span>**-5 (see [Extension](../protein/extension))
+* `ext` indicates an **extension**; p.Met1**<code class="spot1">ext</code>**-5 (see [Extension](../protein/extension))
 
 * HGVS/ISCN (see [Community Consultation](http://www.hgvs.org/mutnomen/comments004.html))
     * `cen` indicates the **centromere** of a chromosome
     * `chr` indicates a **chromosome**; chr11:g.12345611G>A (NC\_000011.9)
-    * "**<span class="spotlight">pter</span>** indicates the **first nucleotide** of a chromosome
+    * "**<code class="spot1">pter</code>** indicates the **first nucleotide** of a chromosome
     * `qter` indicates the **last nucleotide** of a chromosome
     * `sup` indicates an **supernumary** chromosome (marker chromosome)
 
 * changes of state (modifications)
-    * `gom` indicates a **gain of methylation**; g.12345678_12345901**<span class="spotlight">|gom</span>**
-    * `lom` indicates a **loss of methylation**; g.12345678_12345901**<span class="spotlight">|lom</span>**
-    * `met` indicates a **methylation**; g.12345678_12345901**<span class="spotlight">|met=</span>**
+    * `gom` indicates a **gain of methylation**; g.12345678_12345901**<code class="spot1">|gom</code>**
+    * `lom` indicates a **loss of methylation**; g.12345678_12345901**<code class="spot1">|lom</code>**
+    * `met` indicates a **methylation**; g.12345678_12345901**<code class="spot1">|met=</code>**
 
 ## Questions
 
@@ -109,7 +109,7 @@ Specific abbreviations are used to describe different variant types.
 
 * I found a substitution variant (DNA) which alters splicing, inserting a short sequence in the transcript (RNA), giving a frame shift at #rotein level. How should I list this variant, as substitution, as splice variant, as insertion or as frame shift?: When listing variant types, HGVS recommends listing them separately for each level, i.e. DNA, RNA and protein. On DNA level you identified a substitution, on RNA level an insertion and on protein level a frameshift.
 
-* What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?: It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSer<span class="spotlight">\_</span>HisAsp.. this is described as p.Ser5del. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCC<span class="spotlight">\_</span>TCCCACGAT.., so the codon for Ser4 is deleted, is not used; the description p.Ser4del is not correct.
+* What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?: It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSer<code class="spot1">\_</code>HisAsp.. this is described as p.Ser5del. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCC<code class="spot1">\_</code>TCCCACGAT.., so the codon for Ser4 is deleted, is not used; the description p.Ser4del is not correct.
     
 * Is it correct that when I apply **the 3'rule** for genes that are on the minus strand of a chromosome, the "g." and "c." variant descriptions differ regarding the nucleotide that I describe as deleted?: Yes, when a gene is on the minus strand of a chromosome (opposite transcriptional orientation) and the change is located in a repeated sequence (mono-, di-, tri-, etc. nucleotide stretches) the 3'rule has this as a consequence. When the chromosome sequence is -TGGGGCAT- and one of the G's is deleted (change to -TGGG_CAT-) the description based on chromosome coordinates is g.5delG. When the annotated coding DNA reference sequence is on the minus strand (ATGCCCCA) the description is c.7delC. Not only is the deleted nucleotide different (delG vs. delC), in fact the descriptions also point to another nucleotide, g.5 vs. g.2 (equivalent to c.7delC).
 

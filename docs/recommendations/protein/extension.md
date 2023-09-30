@@ -6,14 +6,14 @@ Extension: a sequence change extending the reference amino acid sequence at the 
 
 ## Description
 
-Format (**<span class="spotlight">N-terminal</span>**):  **"prefix""Met1""ext""position_new_initiation_site"**,  e.g. p.Met1ext-5
+Format (**<code class="spot1">N-terminal</code>**):  **"prefix""Met1""ext""position_new_initiation_site"**,  e.g. p.Met1ext-5
 
 **"prefix"**  =  reference sequence used  =  p.
 **"Met1"**  =  normal translation initiation site  =  Met1
 **"ext"**  =  type of change is an extension =  ext
 **"position_new_initiation_site"**  =  position new upstream translation initiation site =  -5
 
-Format (**<span class="spotlight">C-terminal</span>**):  **"prefix""Ter_position""new_amino_acid""ext""Ter""position_new_termination_site"**,  e.g. p.Ter110GlnextTer17
+Format (**<code class="spot1">C-terminal</code>**):  **"prefix""Ter_position""new_amino_acid""ext""Ter""position_new_termination_site"**,  e.g. p.Ter110GlnextTer17
 
 **"prefix"**  =  reference sequence used  =  p.
 **"Ter_position"**  =  normal translation termination site  =  Ter110
@@ -26,13 +26,13 @@ Format (**<span class="spotlight">C-terminal</span>**):  **"prefix""Ter_position
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 * **prefix** reference sequence accepted is "p." (protein).
-* **extension** variants have been accepted on <span class="spotlight">2012-08-31</span>.
+* **extension** variants have been accepted on <code class="spot1">2012-08-31</code>.
 * **predicted consequences**, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Ter110GlnextTer17) or p.(\*110Glnext\*17).
 * variants affecting the translation initiation site (Met1) activating an upstream (N-terminal) translation initiation site are described as [deletion-insertion](../delins/), those activating a downstream (C-terminal)  initiation site as a [deletion](../deletion/).
 * **prioritisation**: (1) extension, (2) frame shift or deletion-insertion.
 ## Examples
 
-* p.Met1ext-5: a variant in the 5' UTR activates a new upstream translation initiation site starting with amino acid Met-5: **NOTE**: modified from p.Met1ext<span class="spotlight">Met</span>-5
+* p.Met1ext-5: a variant in the 5' UTR activates a new upstream translation initiation site starting with amino acid Met-5: **NOTE**: modified from p.Met1ext<code class="spot1">Met</code>-5
 * p.Met1_Leu2insArgSerThrVal: amino acid Met1 is changed to Val activating an upstream translation initiation site at position -4 (Met-4), insertion amino acids ArgSerThrVal between Mat1 and Leu2.: **NOTE**:    this variant is **not** described as an extension (p.Met1Valext-4) since Met1, part of the normal amino acid sequence, is changed
 * p.Ter110GlnextTer17  (alternatively p.\*110Glnext\*17): a variant in the stop codon (Ter/\*) at position 110, changing it to a Gln-codon (a no-stop variant) and adding a tail of new amino acids to the protein's C-terminus, ending at a new stop codon (Ter/\*) at position 17
 * p.Ter327Argext\*? (alternatively p.\*327Argext\*?): a variant in the stop codon (Ter/\*) at position 327, changing it to an Arg-codon and adding a tail of new amino acids of unknown length (position \*?) since the shifted frame does not contain a new stop codon.

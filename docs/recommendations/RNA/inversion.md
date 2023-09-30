@@ -23,7 +23,7 @@ Format:   **"prefix""positions\_inverted""inv"**,  e.g. r.123\_345inv
 * inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frame shift**.
 ## Examples
 
-* r.177\_180inv: inversion of nucleotides r.177 to r.180, changing ..agg**cuga**uu.. to ..agg<span class="spotlight">ucag</span>uu..
+* r.177\_180inv: inversion of nucleotides r.177 to r.180, changing ..agg**cuga**uu.. to ..agg<code class="spot1">ucag</code>uu..
 * r.203\_506inv: inversion of the 304 nucleotides from position r.203 to r.506
 ## Discussion
 
