@@ -106,3 +106,8 @@ table.gc {
 table.gc tr, table.gc td {
     padding: 5px;
 }
+
+/* make lists within annotations same font size as surrounding text  */
+.md-typeset .admonition {
+    font-size: inherit;
+}
