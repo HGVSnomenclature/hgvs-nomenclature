@@ -48,13 +48,7 @@ excerpted below with minor editing.
 
 {{ read_csv('style-examples.csv', escapechar='\') }}
 
-## HGVS Expression Grammar
-
-A formal description of HGVS Nomenclature Expressions are written using [Extended Backus-Naur Form
-(EBNF)](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form). EBNF is commonly used to
-define a computational language simply and concisely.  HGVS Nomenclature uses a common variation of
-EBNF in which concatenation does not use commas and instead relies on implicit concatenation of
-adjacent symbols.
+## Syntax Blocks
 
 ```markdown
 

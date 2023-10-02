@@ -5,37 +5,41 @@
 
 Allele: a series of variants on one chromosome.
 
-## Description
 
-Format (one allele):   **"prefix"["change1";"change2"]**,  e.g. g.[123G>A;345del]
+## Syntax version 1
 
-* **"prefix"**  =  reference sequence used  =  g.
-* **[**  =  opening symbol for allele  =  [
-* **"change1"**  =  description first variant  =  123G>A
-* **;**  =  separator symbol two changes  =  ;
-* **"change2"**  =  description second variant  =  345del
-* **]**  =  closing symbol for allele  =  ]
- 
-Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345del]
+- `accession ":" type "." "[" posedit ";" posedit "]"` (variants in *cis*)
+- `accession ":" type "." "[" posedit "]" ";" "[" posedit "]"` (variants in *trans*)
+- `accession ":" type "." "[" posedit "(;)" posedit"]"` (phase unknown or uncertain)
 
-* **"prefix"**  =  reference sequence used  =  g.
-* **[**  =  opening symbol for allele-1  =  [
-* **"change"**  =  description variant  =  123G>A
-* **];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[
-* **"change"**  =  description variant  =  345del
-* **]**  =  closing symbol for allele-2  =  ]
- 
+## Examples
+
+- `NC_000001.11:g.[123G>A;345del]`
+- `NC_000001.11:g.[123G>A];[345del]`
+- `NC_000001.11:g.[123G>A(;)345del]`
+
+
+## Syntax version 2
+
+`accession ":" type "." "[" posedit ";" posedit "]"`
+
+: variants in *cis*. Example: `NC_000001.11:g.[123G>A;345del]`
+
+`accession ":" type "." "[" posedit "]" ";" "[" posedit "]"`
+
+: variants in *trans*. Example: `NC_000001.11:g.[123G>A];[345del]`
+
+`accession ":" type "." "[" posedit "(;)" posedit"]"`
+
+: phase unknown or uncertain. Example: `NC_000001.11:g.[123G>A(;)345del]`
+
 
 ## Notes
 
-* humans are diploid organisms and have **two alleles** at each genetic locus, with one allele inherited from each parent
-* when two variants are identified in a gene that are on **one chromosome** (in cis) this should be described as "g.[variant1<code class="spot1">;</code>variant2]".
-* when two variants are identified in a gene that are **on different chromosomes** (in trans) this should be described as "g.[variant1]<code class="spot1">;</code>[variant2]".
-* using allele descriptions involving two or more different variants you do not indicate the other allele does not contain the variant (unless one allele contains no variants at all). LRG\_199t1:c.[2376G>C];[3103del] is correct, LRG\_199t1:c.[2376G>C;3103=];[2376=;3103del] is not correct.
-* when two variants are identified in a gene, but when it is **not known** whether these are on one chromosome (in cis) or on different chromosomes (in trans), this should be described as "**variant1<code class="spot1">(;)</code>variant2**", i.e. without using "[ ]".
-**NOTE:** in the latest publication of the recommendations ([Den Dunnen et al. (2016)](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)) the example given is not correct.
-**NOTE:** it is recommended to determine whether the changes are on the same chromosome or not.
-* descriptions combining variants based on different reference sequence types (e.g. <code class="spot1">c.</code>[76A>C];<code class="spot1">g.</code>[10091C>G]) should not be used.
+* Do not assert reference agreement for in allele experssions. For example,
+  <code class="invalid">LRG_199t1:c.[2376G>C;3103=];[2376=;3103del]</code> is invalid.
+* Alleles must use the same reference sequence types. For example, <code class="invalid"><code
+  class="spot1">c.</code>`[76A>C];`<code class="spot1">g.</code>`[10091C>G]`</code> is not permitted.
 
 ## Examples
 

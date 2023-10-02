@@ -4,6 +4,14 @@
     --md-primary-fg-color--dark: #DD7000;
 }
 
+/*
+=== classes
+*/
+
+.md-typeset .note {
+    font-size: inherit;
+}
+
 figure {
     border: thin solid #4051b5;
     background-color: #eee;
@@ -23,35 +31,57 @@ label.md-nav__title {
     display: none
 }
 
-.admonition-title {
-    font-size: 0.8rem;
+table,
+tr,
+td,
+th {
+    border: thin solid #ccc;
+    border-collapse: collapse;
+    vertical-align: middle;
+    text-align: center;
 }
 
-.admonition>p {
-    font-size: 0.8rem;
+table .hl {
+    background: #eeeeee;
 }
 
+table.gc {
+    width: 100%;
+}
+
+table.gc tr,
+table.gc td {
+    padding: 5px;
+}
 
 th {
     font-weight: bold;
 }
 
-md-typeset ol li,
+
+
+
+.md-typeset ol li,
 .md-typeset ul li {
     margin-bottom: 0px;
 }
 
 .md-typeset code {
-    /* background-color: inherit; */
     font-size: inherit;
-    padding: 0;
-    font-weight: 500;
-    /* word-break: keep-all; */
-    /* color: var(--md-primary-fg-color) */
+    color: inherit;
+    padding: 0px;
+}
+
+.md-typeset code.invalid {
+    color: red !important;
+    /* text-decoration: line-through; */
 }
 
 
-/* .rst-* rules modify styling of RTD version selector */
+
+/* 
+=== .rst-* rules modify styling of RTD version selector 
+*/
 
 .rst-versions {
     background: #191d30 !important;
@@ -66,6 +96,7 @@ md-typeset ol li,
 .rst-versions.rst-badge {
     left: 20px !important;
 }
+
 
 
 code.del {
@@ -85,29 +116,5 @@ code.spot2 {
 }
 
 code.spot3 {
-    color: #ff00ff;
-}
-
-table, tr, td, th {
-    border: thin solid #ccc;
-    border-collapse: collapse;
-    vertical-align: middle;
-    text-align: center; 
-}
-
-table .hl {
-    background: #eeeeee;
-}
-
-table.gc {
-    width: 100%; 
-}
-
-table.gc tr, table.gc td {
-    padding: 5px;
-}
-
-/* make lists within annotations same font size as surrounding text  */
-.md-typeset .admonition {
-    font-size: inherit;
+    background-color: #ff00ff;
 }
