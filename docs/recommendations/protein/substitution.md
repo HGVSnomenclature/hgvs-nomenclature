@@ -1,3 +1,4 @@
+
 # substitution
 
 ## Definition
@@ -26,6 +27,7 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
 * changes involving two or more consecutive amino acids are described as a deletion/insertion variant (delins) (see [Deletion/insertion (delins)](../delins/))
     * the description p.Arg76\_Cys77delinsSerTrp is correct, the description p.[Arg76Ser;Cys77Trp] is not correct
 * amino acids that have been tested and found **not changed** (silent) are described as p.Cys123= (see [SVD-WG001 (no change)](http://www.hgvs.org/mutnomen/accepted001.html))
+
 ## Examples
 
 * **missense**
@@ -49,6 +51,7 @@ Format:   **"prefix""amino_acid""position""new_amino_acid"**,  e.g. p.(Arg54Ser)
     * NP\_003997.1:p.(Gly56Ala^Ser^Cys): amino acid Gly56 is changed to an Ala, Ser or Cys (see [Uncertain](../../uncertain/))
 * mosaic
     * LRG\_199p1:p.Trp24=/Cys: a mosaic case where at amino acid position 24 besides the normal amino acid (a Trp, described as "=") also protein is found containing a Cys (Trp24Cys): **NOTE:**    irrespective of the frequency in which each amino acid was found, the reference is always described first: **NOTE:**    for the predicted consequences of a variant the description is LRG_199t1:p.(Trp24=/Cys)
+
 ## Discussion
 
 !!! note "<a id="polymorphism"></a>Are polymorphisms described like p.2366Gln/Lys?"

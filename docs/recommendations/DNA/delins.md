@@ -1,3 +1,4 @@
+
 # deletion-insertion
 
 ## Definition
@@ -12,6 +13,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. g
 **"position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  123\_127
 **"delins"**  =  type of change is a deletion-insertion  =  delins
 **"inserted\_sequence"**  =  description inserted sequence  =  AG
+
 ## Notes
 
 * **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
@@ -21,6 +23,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. g
     * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins": **NOTE:**    this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position (e.g. c.235\_237delinsTAT (p.Lys79Tyr) versus c.[235A>T;237G>T] (p.[Lys79*;Lys79Asn]).: **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../../consultation/SVD-WG010/)). The new proposal is: **two variants that are separated by fewer than two intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 * **conversions**, a sequence change where a **range of nucleotides** are replaced by a sequence from elsewhere in the genome, are described as a "delins". The previous format "con" is no longer used (see [Community Consultation SVD-WG009](../../../consultation/SVD-WG009/))
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
+
 ## Examples
 
 * NC\_000023.11:g.32386323delinsGA: a deletion of nucleotide g.32386323 (a T, not described), replaced by nucleotides GA, changing ..CAGC<code class="spot1">T</code>CTTT.. to ..CAGC<code class="spot1">GA</code>CTTT.. The variant corresponds to LRG\_199t1:c.4661delinsTC based on a coding DNA reference sequence.: **NOTE**: the recommendation is not to describe the variant as NC\_000023.11:g.32386323delTinsGA, i.e. describe the deleted nucleotide sequence. This description is longer, it contains redundant information and chances to make an error increase (e.g. NC\_000023.11:g.32386323delCinsGA).

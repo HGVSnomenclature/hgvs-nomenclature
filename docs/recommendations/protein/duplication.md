@@ -1,3 +1,4 @@
+
 # duplication
 
 ## Definition
@@ -28,6 +29,7 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
     * which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
     * **encoding a translation stop codon** in the duplicated sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
     * encoding an open reading frame which **after** the duplicated sequence shift to another reading frame are described as a frame shift.
+
 ## Examples
 
 * one amino acid
@@ -44,6 +46,7 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
     * NP\_003997.2:p.?: the predicted consequences of a duplication of exons 1 to 2 of the DMD gene: **NOTE:** since the duplication adds a second promoter/exons 1 to a normal copy of the gene, a reliable prediction of the consequences can not be made. The duplication may have no consequences, it may give a duplication of exon 2 in the transcript, it might produce both transcripts, etc.
     * NP\_003997.2:p.?: the predicted consequences of a duplication of exons 74 to 79 of the DMD gene: **NOTE:** since the duplication adds a second last exon (exon 79) to a normal copy of the gene, a reliable prediction of the consequences can not be made. The duplication may have no consequences, it may give a duplication of exons 74 to 78 in the transcript, it might produce both transcripts, etc.
 * NP\_003997.1:p.Val7=/dup: a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as "Val7=") also protein is found containing a duplication (Val7dup): **NOTE:** for the predicted consequences of a variant the description is NP\_003997.1:p.(Val7=/dup)
+
 ## Discussion
 
 !!! note "Why do we not describe a duplication as an insertion?"

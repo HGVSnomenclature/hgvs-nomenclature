@@ -1,3 +1,4 @@
+
 # deletion-insertion
 
 ## Definition
@@ -12,6 +13,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r
 **"position(s)\_deleted"**  =  position nucleotide or range of nucleotides deleted  =  123\_127
 **"delins"**  =  type of change is a deletion-insertion  =  delins
 **"inserted\_sequence"**  =  description inserted sequence  =  ag
+
 ## Notes
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition.
@@ -22,6 +24,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r
     * **conversions**, a sequence change where a range of nucleotides are replaced by a sequence from elsewhere in the genome, are described as a "delins". The previous format "con" is no longer used (see [Community Consultation SVD-WG009)](../../../consultation/SVD-WG009/)).
 * RNA-fusion transcripts represent a special case of deletion-insertion variant. The fusion break point is described using **"::"**: **NOTE:**    to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2)
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
+
 ## Examples
 
 * r.775delinsga: a deletion of nucleotide r.775 (a "u", not described), replaced by nucleotides "ga", changing ..aggc<code class="spot1">u</code>cauu.. to ..aggc<code class="spot1">ga</code>cauu..
@@ -37,6 +40,7 @@ Format:   **"prefix""position(s)\_deleted""delins""inserted_sequence"**,  e.g. r
     * **deletion fusion**
         * NM\_002354.2:r.-358\_555::NM\_000251.2:r.212\_\*279: describes an EPCAM::MSH2 fusion transcript where nucleotides r.-358 to r.555 (reference transcript NM\_002354.2, EPCAM gene) are coupled to nucleotides r.212 to r.\*279 (reference transcript NM\_000251.2, MSH2 gene)
         * NM\_002354.2:r.?\_555::guaugauuuuuuaataa::NM\_000251.2:r.212\_?: describes an EPCAM::MSH2 fusion transcript where only the fusion break point has been characterised, showing the insertion of a 17 nucletoide sequence (guaugauuuuuuaataa) between two fusion transcripts
+
 ## Discussion
 
 !!! note "What is an **"indel"**?"

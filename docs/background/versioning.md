@@ -1,3 +1,4 @@
+
 # Versioning
 
 The recommendations for the description of sequence variants are designed to be **stable**, **meaningful**, **memorable** and **unequivocal**. Still, every now and then modifications will be required to remove inconsistencies and/or to clarify confusing conventions. In addition, the recommendations may be extended to resolve cases that were hitherto not covered. HGVS nomenclature has version numbers to allow users to specify up to what point they follow the HGVS recommendations.
@@ -35,6 +36,7 @@ For issues currently discussed see [Open for Community Consultation](../../consu
 * **Version 0**: On the page "[History regarding the description of sequence variants](../history/)" we give an overview of all publications on the description of sequence variants. These papers can be considered as pre-versions of the first recommendations, a version 0.
 
 <a id="v1511"></a>
+
 ### Changes/additions going from the 2000 to 2016 recommendations 
 
 * **Reference sequence**: for diagnostic applications, the recommendation is to use a [Locus Reference Genomic sequence](http://www.lrg-sequence.org/) (LRG, [Dalgleish et al. 2010](http://genomemedicine.com/content/2/4/24)) as the reference sequence for variant descriptions. Prefixes for new reference sequence types have been added (e.g. **m.** and **n.**, as well as indicators to specify different transcript variants (**t1**) and protein isoforms (**p1**) annotated in the reference sequence (see [Reference Sequences](../refseq#DNAc))

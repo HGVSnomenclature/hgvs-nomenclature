@@ -1,3 +1,4 @@
+
 # insertion
 
 ## Definition
@@ -29,6 +30,7 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
     * which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
     * **encoding a translation stop codon** in the inserted sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
     * encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frame shift](../frameshift/)
+
 ## Examples
 
 * p.His4\_Gln5insAla: the insertion of amino acid <code class="spot1">Ala</code> between amino acids His4 and Gln5 changing MetLysGlyHisGlnGlnCys to MetLysGlyHis<code class="spot1">Ala</code>GlnGlnCys
@@ -40,6 +42,7 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**,  e
 * incomplete descriptions (preferably use exact descriptions only)
     * NP\_003997.1:p.(Ser332\_Ser333insX[1]): the insertion of an unknown amino acid ('insX[1]') between amino acids Ser332 and Ser333: **NOTE**: the IUPAC code for an unknown amino acid is 'X' (see [Standards](../../../background/standards/)). Note that in the past 'X' has been used to indicate a translation termination codon.
     * NP\_003997.1:p.(Val582\_Asn583insX[5]) (alternatively NP_003997.1:p.(Val582_Asn583insXXXXX)): the insertion of 5 unknown amino acids (insX[5]) between amino acids Val582 and Asn583
+
 ## Discussion
 
 !!! note "Can I describe a variant as p.His4insAla?"

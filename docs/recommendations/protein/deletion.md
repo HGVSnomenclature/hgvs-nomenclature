@@ -1,3 +1,4 @@
+
 # deletion
 
 ## Definition
@@ -25,6 +26,7 @@ Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_
 * deletions at the DNA or RNA level
     * which introduce an **immediate** translation termination (stop) codon are described as nonsense variant.
     * **starting N-terminal of and including** the translation termination (stop) codon are described as [Frame shift](../frameshift).
+
 ## Examples
 
 * one amino acid
@@ -44,6 +46,7 @@ Format:  **"prefix""amino_acid(s)+position(s)\_deleted""del"**,  e.g. p.(Cys76\_
     **NOTE:** the 3' rule has been applied.
 * p.Trp26Ter (p.Trp26\*): amino acid Trp26 is changed to a stop codon (Ter, \*) **NOTE:** this change is by definition **not** described as a deletion of the C-terminal end of the protein (i.e. p.Trp26\_Arg1623del)
 * NP\_003997.1:p.Val7=/del: a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as "Val7=") also protein is found containing a deletion (Val7del): **NOTE:** for the predicted consequences of a variant the description is NP\_003997.1:p.(Val7=/del)
+
 ## Discussion
 
 !!! note "Can I use p.Arg45del6 to describe a 6 amino acid deletion?"

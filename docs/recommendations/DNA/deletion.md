@@ -1,3 +1,4 @@
+
 # deletion
 
 ## Definition
@@ -24,6 +25,7 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 * for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
     * **exception**: deletions around exon/exon junctions when identical nucleotides flank the junction (see [Numbering](../../../background/numbering/#DNAc));  : when ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG\_199t1:c.3921del (NC\_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del)
 * † = see [Uncertain](../../uncertain/); when the postion and/or the sequence of a deletion has not been defined, a description may have a format like g.(100\_150)del(15)
+
 ## Examples
 
 * one nucleotide
@@ -53,6 +55,7 @@ Format:  **"prefix""position(s)\_deleted""del"**,  e.g. g.123\_127del
 :    a mosaic case where from position g.33344590 to g.33344592 besides the normal sequence also chromosomes are found containing a deletion of this sequence
 * NC\_000023.11:g.33344590\_33344592=//del
 :    a chimeric case, i.e. the sample is a mix of cells containing g.33344590\_33344592= and g.33344590\_33344592del
+
 ## Discussion
 
 !!! note "Can I use NG_012232.1:g.123del6 to describe a 6 nucleotide deletion?"

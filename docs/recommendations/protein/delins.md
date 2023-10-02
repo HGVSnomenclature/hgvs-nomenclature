@@ -1,3 +1,4 @@
+
 # deletion-insertion
 
 ## Definition
@@ -12,6 +13,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 **"amino\_acid(s)+position(s)\_deleted"**  =  position amino acid or range of amino acids deleted  =  Arg123\_Lys127
 **"delins"**  =  type of change is a deletion-insertion  =  delins
 **"inserted_sequence"**  =  description inserted sequence  =  SerAsp
+
 ## Notes
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
@@ -32,6 +34,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
     * encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frame shift](../frameshift/).
     * **starting N-terminal (5') of and including** the translation termination (stop) codon are described as [frame shift](../frameshift).
 * fusion proteins represent a special case of deletion-insertion variant. The fusion break point is described using **"::"**: **NOTE:**    to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2)
+
 ## Examples
 
 * p.Cys28delinsTrpVal: a deletion of amino acid Cys28, replaced with TrpVal
@@ -41,6 +44,7 @@ Format:   **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted\_seque
 * NP\_000213.1:p.(Val559_Glu561del): the predicted change at the protein level resulting from DNA variant NM\_000222.3:c.1676\_1684del. The variant is **not** described as p.(Val559_Glu562delinsGlu), where Glu562 would be replaced by a Glu which effectively is no change. Example derives from the KIT gene.
 * NP\_003070.3:p.(Glu125_Ala132delinsGlyLeuHisArgPheIleValLeu): the predicted change at the protein level resulting from DNA variant NM\_003079.4:c.374\_395inv is a deletion of amino acids Glu125 to Ala132 replaced with GlyLeuHisArgPheIleValLeu.: **NOTE**: the predicticted consequence from the inversion on DNA level is described as a deletion-insertion (inversions are not used at protein level)
 * p.[Ser44Arg;Trp46Arg]: the change of two variants affecting amino acids separated by another amino acid.: **NOTE**: the variant is not described as p.Ser44_Trp46delinsArgLeuArg
+
 ## Discussion
 
 !!! note "What is an "indel"?"

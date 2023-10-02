@@ -1,3 +1,4 @@
+
 # alleles
 
 ## Definition
@@ -22,6 +23,7 @@ Format (two alleles):   **"prefix"["variant"];["variant"]**,  e.g. p.[(Ser73Arg)
 **];[**  =  closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2  =  ];[
 **"variant"**  =  description variant  =  Asn103del
 **]**  =  closing symbol for allele-2  =  ]
+
 ## Notes
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
@@ -32,6 +34,7 @@ Format (two alleles):   **"prefix"["variant"];["variant"]**,  e.g. p.[(Ser73Arg)
 * when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "variant<code class="spot1">(;)</code>variant2", i.e. without using "[ ]"
     * **NOTE:** it is recommended to determine whether the changes are in the same protein or not
 * when two variants are identified in two different proteins that derive from **one variant** at the DNA level (giving two different transcripts) the variants are separated using a "<code class="spot1">,</code>"; p.[variant1<code class="spot1">,</code>variant2]"
+
 ## Examples
 
 For more examples see [DNA alleles](../../DNA/alleles/).
@@ -53,6 +56,7 @@ For more examples see [DNA alleles](../../DNA/alleles/).
         * NP\_003997.2:p.[(Asn158Asp)(;)(Asn158Ile)]^[(Asn158Val)]: for the variants NM\_004006.3:c.472A>G and c.473A>T it is not known whether they are on the same or on different alleles (chromosomes). The predicted consequence when the variants are on different alleles is p.(Asn158Asp)(;)(Asn158Ile), when the variants are on the same allele (i.e. c.472_473delinsGT) the predicted consequence is p.(Asn158Val). To discriminate between the two possibilities square brackets need to be used.
 * **one allele encoding two proteins**
     * NP\_003997.1:p.[Lys31Asn,Val25\_Lys31del]: two different proteins, p.Lys31Asn and p.Val25\_Lys31del, derive from a variant on one allele (c.93G>T at the DNA level with r.[83g>u,73\_93del] at the RNA level).
+
 ## Discussion
 
 !!! note "Was originally the recommendation to use the format [p.Ser73Arg+p.Asn103del]?"

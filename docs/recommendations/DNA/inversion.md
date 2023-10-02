@@ -1,3 +1,4 @@
+
 # inversion
 
 ## Definition
@@ -23,6 +24,7 @@ Format:   **"prefix""positions\_inverted""inv"**,  e.g. g.123_345inv
     * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins"
 :    **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../../consultation/SVD-WG010/)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 * inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frame shift**.
+
 ## Examples
 
 * NC\_000023.10:g.32361330\_32361333inv: inversion of nucleotides g.32361330 to g.32361333, changing ..CA**TCAG**CCT.. to ..CA<code class="spot1">CTGA</code>CCT..
@@ -33,6 +35,7 @@ Format:   **"prefix""positions\_inverted""inv"**,  e.g. g.123_345inv
 * NM\_004006.2:c.900\_901ins850\_900inv: a copy of nucleotides c.850 to c.900 is inserted, in inverted orientation, 3' of the original sequence, between nucleotide c.900 and c.901
 * LRG\_199t1:c.940\_941ins[885\_940inv;A;851\_883inv]: an inverted copy of nucleotides c.851 to c.940, with a G>A substitution of nucleotide c.884, is inserted directly 3' of the original sequence
 * NM\_004006.2:c.940\_941ins[903\_940inv;851\_885inv]: an inverted copy of nucleotides c.851 to c.940, with a deletion from nucleotides c.886 to c.902, is inserted directly 3' of the original sequence
+
 ## Discussion
 
 !!! note "Is the change AAGC to TTCG an inversion?"

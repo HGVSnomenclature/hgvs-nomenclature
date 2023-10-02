@@ -1,3 +1,4 @@
+
 # substitution
 
 ## Definition
@@ -23,6 +24,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
     * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. r.142\_144delinsugg (p.Arg48Trp)).: **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
 * nucleotides that have been tested and found **not changed** are described as r.109u=, r.4567_4569= (see [SVD-WG001 (no change)](http://www.hgvs.org/mutnomen/accepted001.html)).
 * it is not correct to describe "_polymorphisms_" as r.76a/g (see [Discussions](#polymorphism)).
+
 ## Examples
 
 * NM_004006.3:r.76a>c: a substitution of the "a" nucleotide at r.76 with a "c"
@@ -37,6 +39,7 @@ Format:   **"prefix""position_substituted""reference_nucleotide"">"new_nucleotid
 * NM_004006.3:r.?: an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)
 * NM_004006.3:r.85=/u>c: a mosaic case where at position 85 besides the normal sequence (a U, described as "=") also transcripts are found containing a C (r.85u>c): **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first
 * NM_004006.3:r.85=//u>c: a chimeric case, i.e. the sample is a mix of cells containing r.85= and r.85u>c.: **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first
+
 ## Discussion
 
 !!! note "When I only sequenced RNA (cDNA) and not genomic DNA should I then give the description of a variant at DNA level in parenthesis?"

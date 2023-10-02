@@ -1,3 +1,4 @@
+
 # substitution
 
 ## Definition
@@ -24,6 +25,7 @@ Example: `g.123A>G`
     * exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins": **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g. c.235\_237delinsTAT (p.Lys79Tyr) versus c.[235A>T;237G>T] (p.[Lys79*;Lys79Asn]): **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../../consultation/SVD-WG010/)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 * nucleotides that have been tested and found **not changed** are described as c.123=, g.4567_4569= (see [SVD-WG001 (no change)](../../../consultation/SVD-WG001/)).
 * it is not correct to describe "_polymorphisms_" as c.76A/G (see [Discussions](#polymorphism)).
+
 ## Examples
 
 * NC\_000023.10:g.33038255C>A: a substitution of the C nucleotide at g.33038255 by an A
@@ -34,6 +36,7 @@ Example: `g.123A>G`
 * NM\_004006.2:c.123=: a screen was performed showing that nucleotide c.123 was a "C" as in the coding DNA reference sequence (the nucleotide was not changed).: **NOTE**: the description NM\_004006.2:c.= can not be used, c.= indicates the entire NM\_004006.2 coding DNA reference sequence was analysed and no change was identified.: **NOTE**: the description LRG\_199t1:c.94-23_188+33= indicates no variants where found in the region indicated (exon 3 of the DMD gene).
 * LRG\_199t1:c.85=/T>C: a mosaic case where at position 85 besides the normal sequence (a T, described as "=") also chromosomes are found containing a C (c.85T>C): **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first
 * NM\_004006.2:c.85=//T>C: a chimeric case, i.e. the sample is a mix of cells containing c.85= and c.85T>C.: **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first
+
 ## Discussion
 
 !!! note "When I only sequenced RNA (cDNA) and not genomic DNA should I then give the description of a variant at DNA level in parenthesis?"

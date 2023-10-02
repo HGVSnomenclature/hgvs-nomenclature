@@ -1,3 +1,4 @@
+
 # Uncertain
 
 HGVS recommendations also contain suggestions to describe variants for which not all details are available. Missing details may include unsequenced deletion/duplication breakpoints (e.g. detected using FISH, an array, a MLPA assay, Southern blotting, etc.), variants reported on the protein level only or variants that likely affect RNA splicing but for which RNA was not analysed. This page summarises how to describe variants when not all information is available.

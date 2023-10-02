@@ -1,3 +1,4 @@
+
 # alleles
 
 ## Definition
@@ -35,6 +36,7 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345
 **NOTE:** in the latest publication of the recommendations ([Den Dunnen et al. (2016)](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)) the example given is not correct.
 **NOTE:** it is recommended to determine whether the changes are on the same chromosome or not.
 * descriptions combining variants based on different reference sequence types (e.g. <code class="spot1">c.</code>[76A>C];<code class="spot1">g.</code>[10091C>G]) should not be used.
+
 ## Examples
 
 * **variants on one allele**
@@ -53,6 +55,7 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. g.[123G>A];[345
     * NM\_004006.2:c.2376G>C(;)(2376G>C): analysis detects one variant (c.2376G>C), suggesting both alleles (chromosomes) contain this variants, but it can not be excluded the other allele is deleted
     * NM\_004006.2:c.[296T>G;476T>C];[476T>C]\(;)1083A>C: a sample contains a homozygous variant (c.476T>C) and two heterozygous variants (c.296T>G and c.1083G>C) for which it is not known on which allele (chromosome) they are (although at least one, in the example c.296T>G, is on the same allele as c.476T>C).
     * NM\_004006.2:c.[296T>G];[476T>C]\(;)1083G>C(;)1406del: a sample contains heterozygous variants on different alleles (c.296T>G and c.476T>C) and two additional heterozygous variants (c.1083G>C and c.1406del) for which it is not known on which allele (chromosome) they are.
+
 ## Discussion
 
 !!! note "Was originally the recommendation to use the format [c.76A>C+c.83G>C]?"

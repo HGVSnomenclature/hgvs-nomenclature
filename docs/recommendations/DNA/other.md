@@ -1,3 +1,4 @@
+
 # other
 
 ## Definition
@@ -18,6 +19,7 @@ Format:   **"prefix""position(s)_analysed""="**,  e.g. g.123_234=
 
 * **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 * see [SVD-WG001 (no change)](../../../consultation/SVD-WG001/) for the original proposal
+
 ## Examples
 
 * no change
@@ -39,4 +41,5 @@ Format:   **"prefix""position(s)_analysed""="**,  e.g. g.123_234=
     * LRG\_199t1:c.85=/T>C: a mosaic case where at position 85 besides the normal sequence (a T, described as "=") also chromosomes are found containing a C (c.85T>C): **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first
 * chimerism
     * NM\_004006.2:c.85=//T>C: a chimeric case, i.e. the sample is a mix of cells containing c.85= and c.85T>C.: **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first
+
 ## Discussion

@@ -1,3 +1,4 @@
+
 # splicing
 
 ## Definition
@@ -12,6 +13,7 @@ Variants affecting RNA splicing result in either a [deletion](../deletion/) or [
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 * a "," (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u,122_154del]
+
 ## Examples
 
 * **one variant, several transcripts**
@@ -34,6 +36,7 @@ Variants affecting RNA splicing result in either a [deletion](../deletion/) or [
     * NC\_000023.11(NM\_004006.2):r.(76a>c): RNA was not anaysed but a substitution of the "a" nucleotide at r.76 by a "c" is predicted
     * NC\_000023.11(NM\_004006.2):r.?: an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)
     * NC\_000023.11(NM\_004006.2):r.spl: RNA has not been analysed but it is very likely that splicing is affected
+
 ## Discussion
 
 !!! note "A variant changes the +1 intron sequence (GT to AT). Although I did not analyse RNA, I am quite sure that normal splicing is affected. How can I best indicate this?"

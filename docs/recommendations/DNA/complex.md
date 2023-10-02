@@ -1,3 +1,4 @@
+
 # complex (HGVS/ISCN)
 
 ## Definition
@@ -23,6 +24,7 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
 * 3'rule: to determine the location of the break point, the general HGVS rule of maintaining the longest unchanged sequence applies (the 3' rule). Break point location is determined by the first break point encountered, i.e. from pter of the chromosome to be listed first
     * pter to qter: multiple breakpoints in one chromosome are listed in order of occurrence from pter to qter
     * variant descriptions are always in the forward orientation (from pter to qter, the end of the chromosome), determined by the chromosomal origin of the intact centromere ("**cen**")
+
 ## Examples
 
 **The description of translocations has changed**
@@ -63,6 +65,7 @@ In the original proposal (SVD-WG004) **one identical derivative chromosome** wou
         * **unbalanced**  (copy inserted elsewhere): describe as insertion
 * **supernumerary chromosome**
     * NC\_000022.11:g.[pter\_(12200001\_14700000)del::(37600001\_410000000)\_qterdel]sup: for ISCN +r(22)(p11.1q13.1): _(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:**    changed in ISCN2020. ISCN2016 had: "add" for additional sequence
+
 ## Discussion
 
 !!! note "Is the description NM_04006.1:c.123+45_123+51TSDinsL1.603bp acceptable (TSD = target site duplication, insL1 indicates the nature of the insert (L1, Alu or SVA), 603bp = the number of inserted base pairs)?"

@@ -1,3 +1,4 @@
+
 # alleles
 
 ## Definition
@@ -33,6 +34,7 @@ Format (two alleles):   **"prefix"["change"];["change"]**,  e.g. r.[123g>a];[345
 * when two variants are identified in transcripts that derive from **different chromosomes** (in trans) this should be described as "r.[variant1]<code class="spot1">;</code>[variant2]".
 * when two variants are identified in a transcript, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "**variant1<code class="spot1">(;)</code>variant2**", i.e. without using "[ ]".  **NOTE:** it is recommended to determine whether the changes are in the same transcript or not.
 * when two variants are identified in two different transcripts that derive from **one variant** at the DNA level the variants are separated using a ","; p.[variant1<code class="spot1">,</code>variant2]".
+
 ## Examples
 
 For more examples see [DNA alleles](../../DNA/alleles/).
@@ -49,6 +51,7 @@ For more examples see [DNA alleles](../../DNA/alleles/).
     * NM\_004006.2:r.76a>u(;)103del: two variants are found in a transcript, r.76a>u and r.103del, but it is not known whether they derive from the same or from different transcript alleles (chromosomes).: **NOTE**: when it is not known on which allele a variant is, allele brackets should not be used
 * **one allele, two transcripts**
     * LRG\_199t1:r.[897u>g,832_960del]: two different transcripts, r.897u>g and r.832_960del, derive from one variant (LRG_199t1:c.897T>G at the DNA level)
+
 ## Discussion
 
 !!! note "Was originally the recommendation to use the format [r.76a>c+r.83g>c]?"

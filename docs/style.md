@@ -1,3 +1,4 @@
+
 # Style conventions used in this documentation
 
 This page explains the style conventions used in HGVS Nomenclature for both readers and authors.
@@ -55,8 +56,8 @@ define a computational language simply and concisely.  HGVS Nomenclature uses a 
 EBNF in which concatenation does not use commas and instead relies on implicit concatenation of
 adjacent symbols.
 
-
 ```markdown
+
 ## Syntax
 
 - `type "." "[" posedit1 ";" posedit2 "]"` (variants in *cis*)
