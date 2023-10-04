@@ -2,8 +2,7 @@
 
 This repo contains the source code for the HGVS Nomenclature, which is maintained by the Human Genome Organization Variation Nomenclature Committee (HVNC).
 
-This page is intended for writers, editors, and contributors to the HGVS Nomenclature.  **Most readers of the HGVS Nomenclature should see https://hgvs-nomenclature.org/.**
-
+This page is intended for writers, editors, and contributors to the HGVS Nomenclature. **Most readers of the HGVS Nomenclature should see https://hgvs-nomenclature.org/.**
 
 ## Contributing
 
@@ -28,8 +27,8 @@ You must have Python installed on your machine and be able to create a virtual e
     INFO     -  [22:51:33] Watching paths for changes: 'docs', 'mkdocs.yml'
     INFO     -  [22:51:33] Serving on http://127.0.0.1:8000/
 
-Now navigate to the URL shown above.  mkdocs is now watching for changes in the documentation
-directory.  Any changes made will trigger pages to be rebuilt and reloaded by your browser.
+Now navigate to the URL shown above. mkdocs is now watching for changes in the documentation
+directory. Any changes made will trigger pages to be rebuilt and reloaded by your browser.
 
 ### Making changes
 

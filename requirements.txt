@@ -9,3 +9,4 @@ mkdocs-material-extensions
 mkdocs-mermaid2-plugin
 mkdocs-multirepo-plugin
 mkdocs-table-reader-plugin
+pre-commit

@@ -12,7 +12,7 @@ plugins:
   - search
   - table-reader
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
-  - macros   # must be after table-reader
+  - macros # must be after table-reader
 
 markdown_extensions:
   - abbr
