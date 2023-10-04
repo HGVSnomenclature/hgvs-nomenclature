@@ -1,0 +1,13 @@
+Style, Intended use, Markdown,  Rendered output
+
+Emphasis, Keywords on the first use and important phrases, `**HTML in Markdown is discouraged**`, **HTML in Markdown is discouraged**
+
+Literal text, Text that is entered\, displayed\, or processed, `<code>ACGT</code>`<br><code>\\`ACGT\\`</code><br><code>\\`NC_000023.11:g.32849790T>A\\`</code>, <code>ACGT</code><br>`ACGT`<br>`NC_000023.11:g.32849790T>A`
+
+Counterexample, Examples of invalid variants with explanation given by hovering, `<code class="invalid" title="chr1 is not a valid reference sequence">chr1:g.1000_1005del</code>`, <code class="invalid" title="chr1 is not a valid reference sequence">chr1:g.1000_1005del</code>
+
+Sequence edit highlights, Highlight spans of sequence based on variant type using classes "ins"\, "del"\, or "sub", <code>The deletion of \\`T\\`\, insertion of \\`A\\`\, and \\`C>G\\` substitution results in a CAG extension in &lt;code>CAG&lt;code class="del">T&lt;/code>C&lt;code class="ins">A&lt;/code>GCA&lt;code class="sub">G&lt;/code>CA&lt;/code>.,The deletion of `T`\, insertion of `A`\, and `C>G` substitution results in a CAG extension in <code>CAG</code><code class="del">T</code>C<code class="ins">A</code>GCA<code class="sub">G</code><code>CA</code>.
+
+Other Sequence highlights , Highlight spans of sequence,<code>The first\, second\, and third prolines in &lt;code class="spot1">Pro&lt;/code>&lt;code class="spot2">Pro&lt;/code>&lt;code class="spot3">Pro&lt;/code></code>,The first\, second\, and third prolines in <code class="spot1">Pro</code><code class="spot2">Pro</code><code class="spot3">Pro</code>
+
+Links, HTML links to other documents or sections, `[General Recommendations](/recommendations/general/)`<br>`[Heading Title](#headingtag)`, [General Recommendations](/recommendations/general/)<br>[Heading Title](#headingtag)

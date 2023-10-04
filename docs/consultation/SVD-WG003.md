@@ -1,8 +1,9 @@
+
 ## Community Consultation
 
 ### Proposal SVD-WG003 (exon del/dup)
 
-* Status: <font color="red">new proposal to be made</font>: proposal SVD-WG003 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since several objections were received as well as proposals to use another format, the SVD-WG decided on Oct.6 (2015) **not yet to accept** the proposal and prepare a new proposal. It should be noted however that the format c.650-?\_1331+?del conflicts with basic HGVS recommendations and **should not be used**. The proposed format, c.(649+1\_650-1)\_(1331+1\_1332-1)del, does follow current recommendations.
+* Status: <code class="spot1">new proposal to be made</code>: proposal SVD-WG003 was opened for **Community Consultation** on May 14 (2015), closing on Jul.16 (2015). Since several objections were received as well as proposals to use another format, the SVD-WG decided on Oct.6 (2015) **not yet to accept** the proposal and prepare a new proposal. It should be noted however that the format c.650-?\_1331+?del conflicts with basic HGVS recommendations and **should not be used**. The proposed format, c.(649+1\_650-1)\_(1331+1\_1332-1)del, does follow current recommendations.
 
 The proposal suggested to describe deletions (duplications) detected by MLPA tests (testing all exons) using the format c.(649+1\_650-1)\_(1331+1\_1332-1)del.
 

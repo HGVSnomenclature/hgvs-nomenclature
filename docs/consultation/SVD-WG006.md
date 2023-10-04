@@ -1,8 +1,9 @@
+
 ## Community Consultation
 
 ### Proposal SVD-WG006 (circular DNA)
 
-* Status: <font color="red">accepted</font>: proposal SVD-WG006 opened for **Community Consultation** on August 1 (2018), closed on Oct.30 (2018). 
+* Status: <code class="spot1">accepted</code>: proposal SVD-WG006 opened for **Community Consultation** on August 1 (2018), closed on Oct.30 (2018). 
 
 The proposal suggests to extend the HGVS recommendations to improve the description of variants affecting circular DNA molecules by;
 

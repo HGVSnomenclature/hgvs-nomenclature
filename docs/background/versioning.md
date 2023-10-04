@@ -1,3 +1,4 @@
+
 # Versioning
 
 The recommendations for the description of sequence variants are designed to be **stable**, **meaningful**, **memorable** and **unequivocal**. Still, every now and then modifications will be required to remove inconsistencies and/or to clarify confusing conventions. In addition, the recommendations may be extended to resolve cases that were hitherto not covered. HGVS nomenclature has version numbers to allow users to specify up to what point they follow the HGVS recommendations.
@@ -6,7 +7,7 @@ The version number is based on the date of the change and has the format: **HGVS
 
 ### The current version is HGVS nomenclature v20.05.
 
-**<font color="red">NOTE:</font>** since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature was released May 1, 2020.
+<code class="spot1">NOTE:</code> since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature was released May 1, 2020.
 
 For issues currently discussed see [Open for Community Consultation](../../consultation/) or [Open Issues](../../consultation/open-issues/).
 
@@ -34,12 +35,13 @@ For issues currently discussed see [Open for Community Consultation](../../consu
 
 * **Version 0**: On the page "[History regarding the description of sequence variants](../history/)" we give an overview of all publications on the description of sequence variants. These papers can be considered as pre-versions of the first recommendations, a version 0.
 
-<a name ="v1511"></a>
+<a id="v1511"></a>
+
 ### Changes/additions going from the 2000 to 2016 recommendations 
 
 * **Reference sequence**: for diagnostic applications, the recommendation is to use a [Locus Reference Genomic sequence](http://www.lrg-sequence.org/) (LRG, [Dalgleish et al. 2010](http://genomemedicine.com/content/2/4/24)) as the reference sequence for variant descriptions. Prefixes for new reference sequence types have been added (e.g. **m.** and **n.**, as well as indicators to specify different transcript variants (**t1**) and protein isoforms (**p1**) annotated in the reference sequence (see [Reference Sequences](../refseq#DNAc))
 * **Definitions**: the basic types of variants were defined more strictly. In addition variant types have been prioritized (see [General recommendations](../../recommendations/general))
-* **Pre-existing standards**: pre-existing standards from the IUPAC and IUBMB for the description of nucleotides and amino acids are now used throughout the recommendations. These include letter codes to describe incompletely specified residues at both DNA and protein level (see [_Standards_](../standards#aacode)). Description of the translation termination (stop) codon at the protein/amino acid level **changed from "X" to "Ter" / "*"** since "X" in the _IUPAC-IUB_ nomenclature means an "_unspecified_" or "_unknown_" amino acid.
+* **Pre-existing standards**: pre-existing standards from the IUPAC and IUBMB for the description of nucleotides and amino acids are now used throughout the recommendations. These include letter codes to describe incompletely specified residues at both DNA and protein level (see [Standards](../standards#aacode)). Description of the translation termination (stop) codon at the protein/amino acid level **changed from "X" to "Ter" / "*"** since "X" in the _IUPAC-IUB_ nomenclature means an "_unspecified_" or "_unknown_" amino acid.
 * **Incorporate ISCN standards**: recommendations were made to describe changes with uncertain break points (i.e. not sequenced), obtained using technologies like FISH, arrays and MLPA. Furthermore, where possible, HGVS incorporated established ISCN standards in the recommendations, include the use of "**/**" (forward slash) to describe somatic variants and "**//**" for chimerism (see [General recommendations](../../recommendations/general)). 
 * **Simplification**: in HGVS version 1.0 some symbols were used for more then one purpose leading to undesired confusion. These inconsistencies were removed.
 * **Prediction / experimental proof**: to clarify a variant described at the protein level is a prediction, without experimental evidence, the recommendation was added to describe the predicted consequence in parentheses, like p.(Arg12Gly). 

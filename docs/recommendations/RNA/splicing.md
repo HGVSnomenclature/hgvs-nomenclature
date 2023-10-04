@@ -1,3 +1,4 @@
+
 # splicing
 
 ## Definition
@@ -12,6 +13,7 @@ Variants affecting RNA splicing result in either a [deletion](../deletion/) or [
 
 * all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 * a "," (comma) is used to separate different transcripts/proteins derived from one allele; r.[123a>u,122_154del]
+
 ## Examples
 
 * **one variant, several transcripts**
@@ -34,11 +36,12 @@ Variants affecting RNA splicing result in either a [deletion](../deletion/) or [
     * NC\_000023.11(NM\_004006.2):r.(76a>c): RNA was not anaysed but a substitution of the "a" nucleotide at r.76 by a "c" is predicted
     * NC\_000023.11(NM\_004006.2):r.?: an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)
     * NC\_000023.11(NM\_004006.2):r.spl: RNA has not been analysed but it is very likely that splicing is affected
+
 ## Discussion
 
 !!! note "A variant changes the +1 intron sequence (GT to AT). Although I did not analyse RNA, I am quite sure that normal splicing is affected. How can I best indicate this?"
 
-    HGVS recommends to use the format "<b>r.spl</b>" to indicate that RNA was not analysed but splicing is most probably affected. In general the format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the GT splice donor and AG splice acceptor site (excl. GT to GC and GC to GT variants). "<b>r.(spl?)</b>" is frequently used to indicate normal splicing might be affected as a consequence of variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site) and variants generating a new AG-dinucleotide close to the normal splice acceptor site (AG). See [Uncertain](https://varnomen.HGVS.org/recommendations/uncertain/).
+    HGVS recommends to use the format "**r.spl**" to indicate that RNA was not analysed but splicing is most probably affected. In general the format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the GT splice donor and AG splice acceptor site (excl. GT to GC and GC to GT variants). "**r.(spl?)**" is frequently used to indicate normal splicing might be affected as a consequence of variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site) and variants generating a new AG-dinucleotide close to the normal splice acceptor site (AG). See [Uncertain](https://varnomen.HGVS.org/recommendations/uncertain/).
 
 !!! note "How can I best describe the predicted consequences at the protein level of a variant that most probably affects splicing?"
 

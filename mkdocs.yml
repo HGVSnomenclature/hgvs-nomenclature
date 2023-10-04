@@ -8,16 +8,18 @@ plugins:
   - autolinks
   - awesome-pages
   - glightbox
-  - macros
   #- mermaid2
   - search
+  - table-reader
   #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
+  - macros   # must be after table-reader
 
 markdown_extensions:
   - abbr
   - admonition
   - attr_list
   - def_list
+  - markdown_captions
   - pymdownx.details
   - pymdownx.superfences
   - toc:

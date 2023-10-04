@@ -1,8 +1,9 @@
+
 ## Community Consultation
 
 ### Proposal SVD-WG007 (RNA fusion)
 
-* Status: <font color="red">accepted</font>: proposal SVD-WG007 opened for **Community Consultation** on April 10 (2019), and closed June 30 (2019). 
+* Status: <code class="spot1">accepted</code>: proposal SVD-WG007 opened for **Community Consultation** on April 10 (2019), and closed June 30 (2019). 
 
 Based on the proposal the [RNA Deletion-insertion page](http://varnomen.hgvs.org/recommendations/RNA/delins/) has been updated (April 2020).
 

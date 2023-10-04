@@ -1,8 +1,9 @@
+
 # duplication
 
 ## Definition
 
-Duplication: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, a copy of one or more amino acids are inserted <b>directly C-terminal</b> of the original copy of that sequence.
+Duplication: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, a copy of one or more amino acids are inserted **directly C-terminal** of the original copy of that sequence.
 
 ## Description
 
@@ -28,12 +29,13 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
     * which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
     * **encoding a translation stop codon** in the duplicated sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
     * encoding an open reading frame which **after** the duplicated sequence shift to another reading frame are described as a frame shift.
+
 ## Examples
 
 * one amino acid
     * NP\_003997.2:p.Val7dup: a duplication of amino acid Val7 in the reference sequence NP\_003997.2
     * NP\_003997.2:p.(Val7dup): the **predicted** consequence at the protein level is a duplication of amino acid Val7 in the reference sequence NP\_003997.2
-    * NP\_003997.2:p.Trp4dup: a duplication of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrpTrp**<font color="red">Trp</font>**Glu: **NOTE:** for duplications in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been duplicated    
+    * NP\_003997.2:p.Trp4dup: a duplication of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrpTrp<code class="spot1">Trp</code>Glu: **NOTE:** for duplications in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been duplicated    
 * several amino acids
     * NP\_003997.2:p.Lys23\_Val25dup: a duplication of amino acids Lys23 to Val25 in reference sequence NP\_003997.2
     * NP\_003997.2:p.(Pro458\_Gly460dup): a duplication of amino acids Pro458-Pro459-Gly460 in reference sequence NP\_003997.2: **NOTE:** the underlying DNA variant (LRG\_232t1:c.1365\_1373dup) affects amino acids Pro455-Pro456-Gly457 but the 3'rule needs to be applied
@@ -44,16 +46,20 @@ Format:  **"prefix""amino\_acid(s)+position(s)\_duplicated""dup"**,  e.g. p.(Cys
     * NP\_003997.2:p.?: the predicted consequences of a duplication of exons 1 to 2 of the DMD gene: **NOTE:** since the duplication adds a second promoter/exons 1 to a normal copy of the gene, a reliable prediction of the consequences can not be made. The duplication may have no consequences, it may give a duplication of exon 2 in the transcript, it might produce both transcripts, etc.
     * NP\_003997.2:p.?: the predicted consequences of a duplication of exons 74 to 79 of the DMD gene: **NOTE:** since the duplication adds a second last exon (exon 79) to a normal copy of the gene, a reliable prediction of the consequences can not be made. The duplication may have no consequences, it may give a duplication of exons 74 to 78 in the transcript, it might produce both transcripts, etc.
 * NP\_003997.1:p.Val7=/dup: a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as "Val7=") also protein is found containing a duplication (Val7dup): **NOTE:** for the predicted consequences of a variant the description is NP\_003997.1:p.(Val7=/dup)
+
 ## Discussion
 
 !!! note "Why do we not describe a duplication as an insertion?"
 
-    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications differently;<ul><li>the description is simple and shorter,</li><li>it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "Ala22insGly".</li></ul>
+    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications differently
+    
+    - the description is simple and shorter
+    - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "Ala22insGly"
 
-!!! note "How should I describe the change "MetArgThr<b>GlySerSer</b>HisGlnTrpPhe" to "MetArgThr<b>GlySerSer</b>His<b>GlySerSer</b>GlnTrpPhe"?  The fact that the inserted sequence (GlySerSer) is present in the original sequence suggests it derives from a duplicative event."
+!!! note "How should I describe the change "MetArgThr**GlySerSer**HisGlnTrpPhe" to "MetArgThr**GlySerSer**His**GlySerSer**GlnTrpPhe"?  The fact that the inserted sequence (GlySerSer) is present in the original sequence suggests it derives from a duplicative event."
 
-    The variant should be described as an insertion; p.His7_Gln8insGly4_Ser6. A description using "dup" is not correct since, by definition, a duplication should be <b>directly 3'-flanking of the original copy</b> (in tandem). Note that the description given still makes it clear that the sequence inserted between p.His7 and pGln8 is probably derived from nearby, i.e. position p.Gly4 to p.Ser6, and thus likely derived from a duplicative event.
+    The variant should be described as an insertion; p.His7_Gln8insGly4_Ser6. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between p.His7 and pGln8 is probably derived from nearby, i.e. position p.Gly4 to p.Ser6, and thus likely derived from a duplicative event.
 
 !!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?"
 
-    It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSerSer<b><font color="red">Ser</font></b>HisAsp.. this is described as p.Ser5dup. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCCAGT<b><font color="red">AGT</font></b>TCCCACGAT.., so the codon for Ser4 is duplicated, is not used; the description p.Ser4dup is not correct. 
+    It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSerSer<code class="spot1">Ser</code>HisAsp.. this is described as p.Ser5dup. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCCAGT<code class="spot1">AGT</code>TCCCACGAT.., so the codon for Ser4 is duplicated, is not used; the description p.Ser4dup is not correct. 

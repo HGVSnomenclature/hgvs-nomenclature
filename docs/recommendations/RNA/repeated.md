@@ -1,8 +1,9 @@
+
 # repeated sequences
 
 ## Definition
 
-Repeated sequence: a sequence where, compared to a reference sequence, a segment of <b>one or more</b> nucleotides (the repeat unit) is present several times, one after the other.
+Repeated sequence: a sequence where, compared to a reference sequence, a segment of **one or more** nucleotides (the repeat unit) is present several times, one after the other.
 
 ## Description
 
@@ -32,6 +33,7 @@ Format (sequence):   **"prefix""position_repeat_start""repeat_sequence""[""copy_
     * **NOTE**: while r.123cug[23] describes a repeat of 23 "cug" units, r.123\_125[23] describes a tri-nucleotide repeat of 23 units which **could be interrupted** with other units (e.g. a rare "cua"). The description r.123cug[23] can thus only be used when the repeat was sequenced.
 * the format r.-125\_-123cug[4], should not be used; it contains redundant information ("-125\_-123" and "cug"). 
 * for **composite repeats** the basic format can be used, successively listing each different repeat unit; r.456\_465[4]466\_489[9]490\_499[3].
+
 ## Examples
 
 * r.-124\_-123[14] (alternatively r.-124ug[14]): a repeated di-nucleotide sequence, with the first unit located from position r.-124 to r.-123, is present in 14 copies.: **NOTE**: when the repeat is variable in the population and the reference sequence has 15 units, the description r.-123ug[14] is preferred over r.-97\_-96del: **NOTE**: when the repeat is variable in the population and the reference sequence has 15 units, the description r.-123ug[17] is preferred over r.-99\_-96dup
@@ -42,6 +44,7 @@ Format (sequence):   **"prefix""position_repeat_start""repeat_sequence""[""copy_
 * HD AGC-repeat: based on the HTT (huntingtin) coding DNA reference sequence (GenBank NM\_002111.6), applying the **3'rule**, the Huntington's Disease tri-nucleotide repeat is described as an AGC (not CAG) repeat.
     * c.53AGC[19]: **NOTE**: the coding RNA reference sequence (NM\_002111.6) contains an allele of 21 "agc" repeats: **NOTE**: on protein level the reference allele contains 21 Gln's, described as p.Gln[21] (alternatively p.Q[21]). The difference derives from the fact that the "agc" repeat is interrupted by a "aac"-triplet ("caa" coding) at position 20.
     * r.53\_55[31]: the coding RNA reference sequence (NM\_002111.6) contains a tri-nucleotide allele of 32 repeats (agc-19, aac, agc, cgc, cac, cgc-7, cuc-2) encoding 21 Gln and 11 Pro-residues.
+
 ## Discussion
     
 ---

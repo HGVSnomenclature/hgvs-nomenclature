@@ -1,15 +1,15 @@
+
 # Uncertain
 
 HGVS recommendations also contain suggestions to describe variants for which not all details are available. Missing details may include unsequenced deletion/duplication breakpoints (e.g. detected using FISH, an array, a MLPA assay, Southern blotting, etc.), variants reported on the protein level only or variants that likely affect RNA splicing but for which RNA was not analysed. This page summarises how to describe variants when not all information is available.
 
 ### Characters used
 
-* "**<font color="red">( )</font>**" (parentheses): are used to indicate uncertainties
+* `( )` (parentheses): are used to indicate uncertainties
     * in g.(123456\_234567)\_(345678\_456789)del the extent (region) of uncertainty for the location of the deletion breakpoint, where (123456\_234567) and (345678\_456789) indicate the two regions where the break point should be located
     * in p.(Cys123Gly) indicating the amino acid change is predicted from DNA level data (no experimental proof)
-<br><br>
-* "**<font color="red">?</font>**" (question mark): is used to indicate unknown positions (nucleotide or amino acid), like in g.(?\_234567)\_(345678\_?)del
-* "**<font color="red">^</font>**" (caret): is used as "or", like p.(Gly719Ala^Ser)
+* `?` (question mark): is used to indicate unknown positions (nucleotide or amino acid), like in g.(?\_234567)\_(345678\_?)del
+* `^` (caret): is used as "or", like p.(Gly719Ala^Ser)
 * IUPAC codes: all IUPAC nucleotide codes can be used to describe uncertain nucleotides (see [Standards](../../background/standards/))
     * "**N[5]**", describes five unknown nucleotides
     * "**X[5]**", describes five unknown amino acid residues
@@ -17,11 +17,11 @@ HGVS recommendations also contain suggestions to describe variants for which not
 
 ### Examples
 
-<a name="uncertain1"></a>
+<a id="uncertain1"></a>
 
 #### DNA
 
-* position: When a variant has been identified but it can not be mapped to a unique location, possible descriptions should be given separated by a "**<font color="red">^</font>**" (caret)
+* position: When a variant has been identified but it can not be mapped to a unique location, possible descriptions should be given separated by a `^` (caret)
     * NM\_000517.4:c.424C>T^NM\_000558.3:c.424C>T: describes variant c.427T>C which is either in the HBA2 (NM\_000517.4) or the HBA1 (NM\_000558.3) gene
     * NC\_000023.10:g.(33038277_33038278)C>T  (LRG\_199t1:c.(71_72)G>A) : describes the variant Trp24* in the DMD gene reported on protein level only
 * deletion: The standard format to describe a deletion for which the break point has not been sequenced is (A\_B)\_(C\_D)del, where B\_C describes the **minimal** extent and A\_D to **maximal** extent of the deletion/duplication.

@@ -1,3 +1,4 @@
+
 # HGVS Nomenclature
 
 !!! warning
@@ -5,7 +6,7 @@
     see [the website migration discussion](https://github.com/HGVSnomenclature/HVNC/discussions/17)
     for a description of the proposed changes and current progress.
 
-The <b>HGVS Nomenclature</b> is an internationally-recognized standard for the description of
+The **HGVS Nomenclature** is an internationally-recognized standard for the description of
 DNA, RNA and protein sequence variants. It is used to share information about variants and for
 clinical reporting.
 
@@ -14,7 +15,7 @@ under the auspices of the [Human Genome Organization (HUGO)](https://hugo-int.or
 
 ## News
 
-Proposal [SVD-WG010 (var distance)](../consultation/SVD-WG010/) is now <font color="red">closed</font>, SVD-WG decision pending.
+Proposal [SVD-WG010 (var distance)](../consultation/SVD-WG010/) is now <code class="spot1">closed</code>, SVD-WG decision pending.
 An overview of recent additions, especially those that led to a change of the **HGVS version number**, can be found on the [Versioning page](../background/versioning).
 The [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen) regularly posts topics of interest, including **Q&A's** and a nomenclature agenda.
 

@@ -1,3 +1,4 @@
+
 ## Glossary
 
 ### In preparation
@@ -118,7 +119,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 * polyA signal: a sequence in the 3' UTR of a transcript signalling the downstream cleavage and addition of a polyA tail 
     
-<a name="polymorphism"></a>
+<a id="polymorphism"></a>
 * polymorphism: _**NOTE**:_ please do not use this term, see [Terminology](../basics/).
     * **HGVS**: confusing term, do not use, use **variant** (see [Basics](../basics/))
     * **biology**: a sequence variant present in the population at a frequency of 1% or higher

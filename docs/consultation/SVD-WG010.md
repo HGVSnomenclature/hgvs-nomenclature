@@ -1,14 +1,15 @@
+
 ## Community Consultation
 
 ### Proposal SVD-WG010 (var distance)
 
-* Status: <font color="red">open</font>: proposal SVD-WG010, **Community Consultation** closed on July 31 (2021); decision pending. 
+* Status: <code class="spot1">open</code>: proposal SVD-WG010, **Community Consultation** closed on July 31 (2021); decision pending. 
 
 The proposal suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other.
 
 * two variants that are separated by fewer than two intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant
     * the recommendation applies on DNA, RNA and protein level
-    * HGVS requires that insertion, duplication and deletion variants are "shuffled" toward the 3' (nucleotide) or C terminus (amino acid). However, for the purposes of evaluating adjacency, the 3' or C-terminus shifted variant should also be shifted in the opposite direction to determine the point of closest distance. Example: the variant AGCGTTTAGC to AG<font color="red">G</font>GTTT<font color="red">T</font>AGC is described as g.3\_4delinsGGT, not als g.[3C>G;7dup]
+    * HGVS requires that insertion, duplication and deletion variants are "shuffled" toward the 3' (nucleotide) or C terminus (amino acid). However, for the purposes of evaluating adjacency, the 3' or C-terminus shifted variant should also be shifted in the opposite direction to determine the point of closest distance. Example: the variant AGCGTTTAGC to AG<code class="spot1">G</code>GTTT<code class="spot1">T</code>AGC is described as g.3\_4delinsGGT, not als g.[3C>G;7dup]
     * pairs of variants should be considered in order of increasing sequencing position. If variants A, B, and C occur in that order on a sequence, and A and B might be merged, and B and C might be merged, A, B and C should be merged and described as a single "delins" variant.
 :    **NOTE:** adjacent variants in cis should be described as a single "delins" variant. Data providers may report adjacent variants independently and may merge nearby (non-adjacent) variants if they believe that those forms are more suitable for their data. The intention of HGVS recommendations is to encourage a convenient convention for the most common classes of variant comparisons while not precluding other forms when appropriate.
 

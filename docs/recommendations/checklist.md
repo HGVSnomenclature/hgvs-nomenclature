@@ -1,3 +1,4 @@
+
 # Checklist
 
 ## Purpose
@@ -7,7 +8,7 @@ Going through publications one can easily see where people give variant descript
 ## Checklist
 
 1.    **Reference Sequence** - do you clearly mention the reference sequence used for numbering (nucleotides/amino acids) ?: A publication should mention, preferably in the Materials & Methods section and/or Figure or Table legend, which reference sequence file was used to describe variants and for numbering of the residues (DNA, RNA and protein (see [Reference Sequences](../../background/refseq))).
-    * do you mention a GenBank (not _Gen**<u>e</u>**Bank_) RefSeq-file with accession  **and version number** ?; do not forget the underscore in the accession number (correct is NM\_004006**.2**, not _NM004006.2_).
+    * do you mention a GenBank RefSeq-file with accession  **and version number** ?; do not forget the underscore in the accession number (correct is NM\_004006**.2**, not _NM004006.2_).
     * genomic (**g.**) reference sequences start with nucleotide 1 and can not have nucleotides with additions like a +, - or *.
     * for a coding DNA reference sequence, do you clearly state that nucleotide numbering starts with the A of the ATG translation initiation site as **nucleotide 1** ?
     * legacy numbering is only allowed **in addition to** approved numbering

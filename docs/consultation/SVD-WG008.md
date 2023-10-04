@@ -1,8 +1,9 @@
+
 ## Community Consultation
 
 ### Proposal SVD-WG008 (Reference Sequences)
 
-* Status: <font color="red">accepted</font>: proposal SVD-WG008 opened for **Community Consultation** on July 20 (2019), closed September 30 (2019). 
+* Status: <code class="spot1">accepted</code>: proposal SVD-WG008 opened for **Community Consultation** on July 20 (2019), closed September 30 (2019). 
 
 The proposal suggested to specify the HGVS recommendations for acceptable Reference Sequences. Based on the proposal the  [Reference Sequences](https://varnomen.hgvs.org/background/refseq/) page has been updated (April 2020).
 
