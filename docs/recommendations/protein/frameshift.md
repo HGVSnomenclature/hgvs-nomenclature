@@ -41,8 +41,8 @@ Format:   **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termi
 
 * p.Arg97ProfsTer23 (**short** p.Arg97fs) / p.Arg97Profs\*23: a variant with Arg97 as the first amino acid changed, shifting the reading frame, replacing it for a Pro and terminating at position Ter23.
 * `p.(Tyr4*)`: the predicted consequence at the protein level is a Tyr to translation termination
-    codon. This might arise from a `c.12delC` deletion in <code>ATGGATGCATA<code
-    class="del">C</code>GTCACG</code> to create a TAG stop codon.  **NOTE**: the variant is
+    codon. This might arise from a `c.12delC` deletion in <code>ATG GAT GCA <code class="stop">TA</code><code
+    class="del">C</code><code> </code><code class="stop">G</code>TC ACG</code> to create a <code class="stop">TAG</code> stop codon.  **NOTE**: the variant is
     described as a substitution, not as a frame shift `(p.Tyr4TerfsTer1)`.
 * p.Glu5ValfsTer5 (short p.Glu5fs): the predicted consequence at the protein level of the variant ATGGATGCATACGAGATGAGG  to ATGGATGCATACG<code class="spot1">TGCATACG</code>AGATGAGG.. (c.6\_13dup).
 * p.Ile327Argfs*? (short p.Ile327fs): the predicted consequence of a frame shifting variant changes Ile327 to an Arg but the new reading frame does not encounter a new translation termination (stop) codon

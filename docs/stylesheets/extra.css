@@ -47,6 +47,11 @@ code::first-of-type and code::last-of-type should get left and right padding res
     content: "✘";
 }
 
+.md-typeset code.stop {
+    background-color: rgba(255, 0, 0, 0.70);
+    color: white;
+}
+
 .md-typeset code.del {
     background-color: rgba(255, 0, 0, 0.30);
 }
