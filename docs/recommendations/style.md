@@ -3,13 +3,9 @@
 
 This page explains the style conventions used in HGVS Nomenclature for both readers and authors.
 
-The HGVS Nomenclature is written using [Markdown](https://en.wikipedia.org/wiki/Markdown).  If
-you're unfamiliar with Markdown, please read [Introduction to
-Markdown](https://www.writethedocs.org/guide/writing/markdown/).  This page documents conventions
-used to apply Markdown to the HGVS Nomenclature.  Contributors should follow the styles outlined
-below. Inline HTML is discouraged except when necessary, and underlining should never be used.
+## For Readers
 
-## Imperative terms
+### Imperative terms
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
 "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC
@@ -44,48 +40,33 @@ excerpted below with minor editing.
    they must not be used to try to impose a particular method on implementors where the method is
    not required for interoperability.
 
-## Style Examples
+## For Authors
+
+This section is relevant only for those who are contributing to the documentation. 
+
+### Documentation Source
+
+The HGVS Nomenclature is written using [Markdown](https://en.wikipedia.org/wiki/Markdown).  If
+you're unfamiliar with Markdown, please read [Introduction to
+Markdown](https://www.writethedocs.org/guide/writing/markdown/).  Markdown is converted to HTML
+using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+
+### Setting up
+
+See https://github.com/HGVSNomenclature/hgvs-nomenclature/ for instructions on setting up mkdocs to
+make it easier to review your contributions.
+
+### Style Examples
+
+Contributors should follow the styles outlined below. Inline HTML is discouraged except when
+necessary, and underlining should never be used.
 
 {{ read_csv('style-examples.csv', escapechar='\') }}
 
-## Syntax Blocks
+### Syntax Blocks
 
-```markdown
+(in progress)
 
-## Syntax
 
-- `type "." "[" posedit1 ";" posedit2 "]"` (variants in *cis*)
-- `type "." "[" posedit1 "]" ";" "[" posedit2 "]"` (variants in *trans*)
-- `type "." "[" posedit1 "(;)" posedit2 "]"` (phase unknown or uncertain)
-
-where
-
-- `type` is the reference sequence type
-- `posedit1` and `posedit2` are the positions and changes 
-
-## Examples
-
-- `NC_000001.11:g.[123G>A;345del]`
-- `NC_000001.11:g.[123G>A];[345del]`
-- `NC_000001.11:g.[123G>A(;)345del]`
-```
-
-which renders like this:
-
-## Syntax
-
-- `type "." "[" posedit1 ";" posedit2 "]"` (variants in *cis*)
-- `type "." "[" posedit1 "]" ";" "[" posedit2 "]"` (variants in *trans*)
-- `type "." "[" posedit1 "(;)" posedit2 "]"` (phase unknown or uncertain)
-
-where
-
-- `type` is the reference sequence type
-- `posedit1` and `posedit2` are the positions and changes 
-
-## Examples
-
-- `NC_000001.11:g.[123G>A;345del]`
-- `NC_000001.11:g.[123G>A];[345del]`
-- `NC_000001.11:g.[123G>A(;)345del]`
+`FIRST`<code class="spot1">MIDDLE</code>`LAST`  and  `UNO`<code class="spot1">DOS</code>`TRES`
 

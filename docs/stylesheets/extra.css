@@ -4,13 +4,79 @@
     --md-primary-fg-color--dark: #DD7000;
 }
 
-/*
-=== classes
+
+/* 
+=== md overrides
 */
 
 .md-typeset .note {
     font-size: inherit;
 }
+
+.md-typeset ol li,
+.md-typeset ul li {
+    margin-bottom: 0px;
+}
+
+label.md-nav__title {
+    display: none
+}
+
+
+/* 
+=== sequence highlights
+*/
+/* TODO: create padding around code BUT not when two code elements are adjacent See
+code::first-of-type and code::last-of-type should get left and right padding respectively, and add should get top and bottom. */
+
+.md-typeset code {
+    color: inherit;
+    font-size: inherit;
+    padding: 1px;
+}
+.md-typeset code:has(+ code) {
+    padding-right: 0;
+}
+.md-typeset code + code {
+    padding-left: 0;
+}
+.md-typeset code.invalid {
+    color: red !important;
+}
+.md-typeset code.invalid::before {
+    content: "✘";
+}
+
+.md-typeset code.del {
+    background-color: rgba(255, 0, 0, 0.30);
+}
+
+.md-typeset code.ins {
+    background-color: rgba(0, 255, 0, 0.30);
+}
+
+.md-typeset code.sub {
+    background-color: rgba(0, 0, 255, 0.30);
+}
+
+.md-typeset code.spot1 {
+    background-color: rgba(255, 255, 0, 0.30);
+}
+
+.md-typeset code.spot2 {
+    background-color: rgba(0, 255, 255, 0.30);
+}
+
+.md-typeset code.spot3 {
+    background-color: rgba(255, 0, 255, 0.30);
+}
+
+
+
+
+/*
+=== elements
+*/
 
 figure {
     border: thin solid #4051b5;
@@ -27,56 +93,46 @@ h3 {
     color: #666;
 }
 
-label.md-nav__title {
-    display: none
+
+/* 
+=== syntax table
+*/
+
+.md-typeset table.syntax {
+    border-collapse: collapse;
+    border: 0px;
 }
 
-table,
-tr,
-td,
-th {
-    border: thin solid #ccc;
+table.syntax,
+table.syntax td,
+table.syntax th,
+table.syntax tr {
+    border: 0px;
+}
+
+/* 
+=== genetic code table
+*/
+table.gc {
+    width: 100%;
     border-collapse: collapse;
+    font-size: 0.64rem;
+}
+table.gc tr,
+table.gc th,
+table.gc td {
+    padding: 5px;
+    border: thin solid #ccc;
     vertical-align: middle;
     text-align: center;
 }
-
-table .hl {
-    background: #eeeeee;
-}
-
-table.gc {
-    width: 100%;
-}
-
-table.gc tr,
-table.gc td {
-    padding: 5px;
-}
-
-th {
+table.gc th {
     font-weight: bold;
 }
 
-
-
-
-.md-typeset ol li,
-.md-typeset ul li {
-    margin-bottom: 0px;
+table.gc tbody tr:nth-of-type(2n) {
+    background: #f0f0f0;
 }
-
-.md-typeset code {
-    font-size: inherit;
-    color: inherit;
-    padding: 0px;
-}
-
-.md-typeset code.invalid {
-    color: red !important;
-    /* text-decoration: line-through; */
-}
-
 
 
 /* 
@@ -95,26 +151,4 @@ th {
 
 .rst-versions.rst-badge {
     left: 20px !important;
-}
-
-
-
-code.del {
-    background-color: #ea9999;
-}
-
-code.ins {
-    background-color: #b6d7a8;
-}
-
-code.spot1 {
-    background-color: #ffff00;
-}
-
-code.spot2 {
-    background-color: #00ffff;
-}
-
-code.spot3 {
-    background-color: #ff00ff;
 }
