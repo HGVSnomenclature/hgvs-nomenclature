@@ -25,10 +25,10 @@ def process1(file_path: str):
     # docs_relpath is path when rendered, relative to root url
     # e.g., docs/a/b/index.md → /a/b/;   /a/foo.md → '../foo.md'
     # e.g., docs/a/b/c.md     → /a/b/c/; /a/foo.md → '../../foo.md'
-    
+
     docs_relpath = file_path.replace("docs","").replace(".in","").replace("/index.md","").replace(".md","") + "/"
     _logger.info(f"{file_path} → {docs_relpath}")
-    
+
     content = open(file_path, "rt").read()
 
     out_path = file_path.replace(".in", "")

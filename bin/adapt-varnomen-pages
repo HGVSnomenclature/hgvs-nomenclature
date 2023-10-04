@@ -23,7 +23,7 @@ def process1(content: str) -> str:
         content = re.sub(r'# \{\{\s*page.title\s*\}\}', "# " + title, content)
     except AttributeError:
         pass
-    
+
     # simple string replacements
     content = content.replace('{:target="\_blank"}', "")
     content = content.replace('{:target="blank"}', "")
@@ -32,16 +32,16 @@ def process1(content: str) -> str:
 
     # remove header
     content = re.sub(r"^---.+?---\s*", "", content, flags=re.S)
-    
+
     # remove --- lines
     content = re.sub(r"^---\n", "", content, flags=re.MULTILINE)
-    
+
     # `### **...**`` → drop emphasis
     content = re.sub(r"^(#+)\s+\*\*(.+?)\*\*", r"\1 \2", content, flags=re.MULTILINE)
 
     # remove separators
     content = re.sub(r"^\* \* \*\s*$", "", content, flags=re.MULTILINE)
-    
+
     # standardize case of SVD-WG references (all uppercase), including filenames
     content = re.sub(r"svd-wg(\d+)", r"SVD-WG\1", content)
 
@@ -55,32 +55,32 @@ def process1(content: str) -> str:
     # remove useless <br> on lists
     content = re.sub(r"^(\*.+)<br>\s*$", r"\1", content, flags=re.MULTILINE)
 
-    # table reformatting    
+    # table reformatting
     content = content.replace("{:.table .table-bordered}", "")
     content = re.sub(r"\n\s*\|(\s+\|)+\n", r"\n", content)
-    content = content.replace("|:--------------------------------------:|:-------------:|", "|:--------------------------------------|:-------------:|") 
+    content = content.replace("|:--------------------------------------:|:-------------:|", "|:--------------------------------------|:-------------:|")
 
     # remove spaces around list markers, replace tabs with space, remove eol space
     content = re.sub(r"^(\s*\*)\s+", r"\1 ", content, flags=re.MULTILINE)
     content = re.sub(r"\t", r"    ", content, flags=re.MULTILINE)
     content = re.sub(r"\s+$", r"", content)
 
-    # image paths refer to the baseurl, which is no longer needed   
+    # image paths refer to the baseurl, which is no longer needed
     content = content.replace("{{site.baseurl}}", "")
     content = content.replace("{:.img-responsive .center-block #refSeqFig}", "")
- 
+
     # pull definitions up with preceeding line
     content = re.sub(r"\n\s+:\s+", r": ", content)
- 
+
     # remove extraneous newlines
     content = re.sub(r"\n\n+", r"\n\n", content)
- 
+
     # convert jekyll's {:tag} to an html anchor
     content = re.sub(r"{:#(\w+)}", r'<a name="\1"/>', content)
- 
-    # links to recommendations have needless /variant/ level   
+
+    # links to recommendations have needless /variant/ level
     content = content.replace("/variant/", "/")
-    
+
     return content
 
 
@@ -92,10 +92,10 @@ def process_recommendation(path) -> str:
     def rewrite_discussion(d):
         v = re.sub(r"^\s+(.+?): \s*(.+)", r'\n!!! note "\1"\n\n    \2', d.group(1), flags=re.MULTILINE)
         return v
-    
+
     desc_path = path.replace("variant/", "variant/description/").replace(".md", "-desc.md")
     eg_path = path.replace("variant/", "variant/example/").replace(".md", "-eg.md")
-    
+
     _logger.info(f"Recommendation {path} ({desc_path}, {eg_path})")
 
     content = open(path, "rt").read()
@@ -120,7 +120,7 @@ def process_recommendation(path) -> str:
     content = re.sub(r"discussion:.*\n", r"\n## Discussion\n", content)
     content = re.sub(r"(?=## Discussion\n)", desc_eg, content)
     content = re.sub(r"(?<=## Discussion\n)(.+)", rewrite_discussion, content, flags=re.S)
-    
+
     return content
 
 def process_bugs(content: str) -> str:
@@ -128,7 +128,7 @@ def process_bugs(content: str) -> str:
     return content
 
 if __name__ == "__main__":
-    
+
     logging.basicConfig(level=logging.INFO)
 
     here = pathlib.Path()
@@ -137,7 +137,7 @@ if __name__ == "__main__":
         path_str = str(path)
         if re.search("variant/(description|example)/", path_str):
             _logger.debug(f"Skipping {path}")
-            continue         
+            continue
         if re.search("variant/[^/]+.md", path_str):
             content = process_recommendation(path_str)
         else:
@@ -147,4 +147,3 @@ if __name__ == "__main__":
                 content = process_hvnc(content)
             content = process_bugs(content)
         open(path, "wt").write(content)
-

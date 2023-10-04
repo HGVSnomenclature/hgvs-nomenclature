@@ -33,7 +33,7 @@ for path in sys.argv[1:]:
         bin = "ok" if target.exists() else "broken"
         uris_seen[uri][bin].update([path])
         files_seen[path][bin].update([uri])
-  
+
 bins = ["ok", "broken"]
 max_items = 5
 

@@ -9,4 +9,3 @@ for path in sys.argv[1:]:
     content = open(path, "rt").read()
     content = a_href_re.sub(r"[\3](\2)", content)
     open(path, "wt").write(content)
-    
