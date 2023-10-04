@@ -1,7 +1,7 @@
-
 # HGVS Nomenclature
 
 !!! warning
+
     This is a development and preview site for updates to the HGVS Nomenclature.  Please
     see [the website migration discussion](https://github.com/HGVSnomenclature/HVNC/discussions/17)
     for a description of the proposed changes and current progress.
@@ -28,4 +28,4 @@ Hum Mutat. 2016. [doi:10.1002/humu.22981](http://dx.doi.org/10.1002/humu.22981)
 
 ## A note about our name
 
-We've called ourselves by lots of names, including "VarNomen", "MutNomen", "HGVS Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially.  We recognize that this has caused confusion in the community.  Please call us "HGVS Nomenclature".
+We've called ourselves by lots of names, including "VarNomen", "MutNomen", "HGVS Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially. We recognize that this has caused confusion in the community. Please call us "HGVS Nomenclature".
