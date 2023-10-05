@@ -2,6 +2,7 @@
   --md-primary-fg-color: #ff8001;
   --md-primary-fg-color--light: #ff9910;
   --md-primary-fg-color--dark: #dd7000;
+  --gray-50: #7f7f7f;
 }
 
 /*
@@ -32,15 +33,19 @@ code::first-of-type and code::last-of-type should get left and right padding res
   font-size: inherit;
   padding: 1px;
 }
+
 .md-typeset code:has(+ code) {
   padding-right: 0;
 }
+
 .md-typeset code + code {
   padding-left: 0;
 }
+
 .md-typeset code.invalid {
   color: red !important;
 }
+
 .md-typeset code.invalid::before {
   content: "✘";
 }
@@ -79,34 +84,42 @@ code::first-of-type and code::last-of-type should get left and right padding res
 */
 
 figure {
-  border: thin solid #4051b5;
+  border: thin solid var(--md-typeset-a-color);
   background-color: #eee;
   padding: 5px;
 }
 
 h2 {
-  color: #4051b5;
-  border-bottom: thin solid #4051b5;
+  color: var(--md-typeset-a-color);
+  border-bottom: thin solid var(--md-typeset-a-color);
 }
 
 h3 {
-  color: #666;
+  color: var(--gray-50);
 }
 
 /*
 === syntax table
 */
 
-.md-typeset table.syntax {
+table.syntax {
   border-collapse: collapse;
-  border: 0px;
+  border: 0;
+  padding: 0;
+  width: 100%;
 }
 
-table.syntax,
-table.syntax td,
-table.syntax th,
-table.syntax tr {
-  border: 0px;
+table.syntax th:not(.section) {
+  color: var(--gray-50);
+  font-weight: bold;
+  padding-right: 10px;
+  text-align: right;
+}
+
+table.syntax th.section {
+  font-weight: bold;
+  text-align: left;
+  color: var(--md-typeset-a-color);
 }
 
 /*
@@ -117,6 +130,7 @@ table.gc {
   border-collapse: collapse;
   font-size: 0.64rem;
 }
+
 table.gc tr,
 table.gc th,
 table.gc td {
@@ -125,6 +139,7 @@ table.gc td {
   vertical-align: middle;
   text-align: center;
 }
+
 table.gc th {
   font-weight: bold;
 }

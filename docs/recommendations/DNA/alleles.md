@@ -6,9 +6,8 @@ Allele: a series of variants on one chromosome.
 
 ## Syntax
 
-### Variants in _cis_
-
-<table style="syntax">
+<table class="syntax">
+<tr><th class="section" colspan=2>Variants in <i>cis</i></th></tr>
 <tr>
 <th>Syntax</th>
 <td><code>accession ":" type "." "[" posedit ";" posedit "]"</code></td>
@@ -17,11 +16,8 @@ Allele: a series of variants on one chromosome.
 <th>Examples</th>
 <td><code>NC_000001.11:g.[123G>A;345del]</code></td>
 </tr>
-</table>
 
-### Variants in _trans_
-
-<table style="syntax">
+<tr><th class="section" colspan=2>Variants in <i>trans</i></th></tr>
 <tr>
 <th>Syntax</th>
 <td><code>accession ":" type "." "[" posedit "]" ";" "[" posedit "]"</code></td>
@@ -30,11 +26,8 @@ Allele: a series of variants on one chromosome.
 <th>Examples</th>
 <td><code>NC_000001.11:g.[123G>A];[345del]</code></td>
 </tr>
-</table>
 
-### Variants with unknown or uncertain phase
-
-<table style="syntax">
+<tr><th class="section" colspan=2>Variants with unknown or uncertain phase</th></tr>
 <tr>
 <th>Syntax</th>
 <td><code>accession ":" type "." "[" posedit "(;)" posedit"]"</code></td>
