@@ -12,9 +12,10 @@ The HGVS Nomenclature pages are written in Markdown and formatted into static HT
 
 You must have Python installed on your machine and be able to create a virtual environment.
 
-    $ python3 -m venv venv
-    $ source venv/bin/activate
-    $ pip install -r requirements.txt
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    pre-commit install
 
 ### Running mkdocs locally
 
@@ -31,11 +32,11 @@ Now navigate to the URL shown above. mkdocs is now watching for changes in the d
 
 **Please make all changes in branches and submit a PR**
 
-    $ git checkout -b <branch name>
+    git checkout -b <branch name>
 
 Then make your changes, commit, and push like this:
 
-    $ git commit -m "<your commit message>"
-    $ git push
+    git commit -m "<your commit message>"
+    git push
 
 Then go to https://github.com/HGVSnomenclature/hgvs-nomenclature and submit a pull request for these changes.
