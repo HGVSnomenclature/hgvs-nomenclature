@@ -6,9 +6,7 @@ This page is intended for writers, editors, and contributors to the HGVS Nomencl
 
 ## Contributing
 
-The HGVS Nomenclature pages are written in Markdown and formatted into static HTML using mkdocs.
-This process is easily setup locally for real-time visualization of edits, and it is also
-implemented on readthedocs.com, where the pages are hosted.
+The HGVS Nomenclature pages are written in Markdown and formatted into static HTML using mkdocs. This process is easily setup locally for real-time visualization of edits, and it is also implemented on readthedocs.com, where the pages are hosted.
 
 ### Setting Up
 
@@ -27,8 +25,7 @@ You must have Python installed on your machine and be able to create a virtual e
     INFO     -  [22:51:33] Watching paths for changes: 'docs', 'mkdocs.yml'
     INFO     -  [22:51:33] Serving on http://127.0.0.1:8000/
 
-Now navigate to the URL shown above. mkdocs is now watching for changes in the documentation
-directory. Any changes made will trigger pages to be rebuilt and reloaded by your browser.
+Now navigate to the URL shown above. mkdocs is now watching for changes in the documentation directory. Any changes made will trigger pages to be rebuilt and reloaded by your browser.
 
 ### Making changes
 
@@ -41,5 +38,4 @@ Then make your changes, commit, and push like this:
     $ git commit -m "<your commit message>"
     $ git push
 
-Then go to https://github.com/HGVSnomenclature/hgvs-nomenclature and submit a pull request for these
-changes.
+Then go to https://github.com/HGVSnomenclature/hgvs-nomenclature and submit a pull request for these changes.

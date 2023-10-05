@@ -1,17 +1,16 @@
-
 ## Community Consultation
 
 ### Proposal SVD-WG005 (gom/lom)
 
-* Status: <code class="spot1">accepted</code>: proposal SVD-WG005 opened for **Community Consultation** on October 20 (2016), and closed on Dec.31 (2016). Since no major objections were received the SVD-WG decided to accept the proposal.
+- Status: <code class="spot1">accepted</code>: proposal SVD-WG005 opened for **Community Consultation** on October 20 (2016), and closed on Dec.31 (2016). Since no major objections were received the SVD-WG decided to accept the proposal.
 
 The proposal suggests to extend the HGVS recommendations to allow description of changes in general methylation status. The abbreviation <code class="spot1">gom</code> to indicate a general gain of methylation (hypermethylation), the abbreviation <code class="spot1">lom</code> to indicate a general loss of methylation (hypomethylation). The "\|" character ("pipe") is introduced to indicate that not a direct change of the sequence is described but a **modification** (change of state, here methylation).
 
 #### Examples
 
-* g.12345678\_12345901|gom: compared to the reference (normal situation), the region between nucleotides g.12345678 and 12345901 showed general gain in methylation (increased methylation, hypermethylated)
+- g.12345678_12345901|gom: compared to the reference (normal situation), the region between nucleotides g.12345678 and 12345901 showed general gain in methylation (increased methylation, hypermethylated)
 
-* g.23456789\_23456901|lom: compared to the reference (normal situation), the region between nucleotides g.23456789 and 23456901 showed general loss in methylation (reduced methylation, hypomethylated)
+- g.23456789_23456901|lom: compared to the reference (normal situation), the region between nucleotides g.23456789 and 23456901 showed general loss in methylation (reduced methylation, hypomethylated)
 
 ### Note
 

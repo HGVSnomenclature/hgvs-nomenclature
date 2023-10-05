@@ -1,159 +1,152 @@
 [data-md-color-scheme="hvnc"] {
-    --md-primary-fg-color: #FF8001;
-    --md-primary-fg-color--light: #FF9910;
-    --md-primary-fg-color--dark: #DD7000;
+  --md-primary-fg-color: #ff8001;
+  --md-primary-fg-color--light: #ff9910;
+  --md-primary-fg-color--dark: #dd7000;
 }
 
-
-/* 
+/*
 === md overrides
 */
 
 .md-typeset .note {
-    font-size: inherit;
+  font-size: inherit;
 }
 
 .md-typeset ol li,
 .md-typeset ul li {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 label.md-nav__title {
-    display: none
+  display: none;
 }
 
-
-/* 
+/*
 === sequence highlights
 */
 /* TODO: create padding around code BUT not when two code elements are adjacent See
 code::first-of-type and code::last-of-type should get left and right padding respectively, and add should get top and bottom. */
 
 .md-typeset code {
-    color: inherit;
-    font-size: inherit;
-    padding: 1px;
+  color: inherit;
+  font-size: inherit;
+  padding: 1px;
 }
 .md-typeset code:has(+ code) {
-    padding-right: 0;
+  padding-right: 0;
 }
 .md-typeset code + code {
-    padding-left: 0;
+  padding-left: 0;
 }
 .md-typeset code.invalid {
-    color: red !important;
+  color: red !important;
 }
 .md-typeset code.invalid::before {
-    content: "✘";
+  content: "✘";
 }
 
 .md-typeset code.stop {
-    background-color: rgba(255, 0, 0, 0.70);
-    color: white;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
 }
 
 .md-typeset code.del {
-    background-color: rgba(255, 0, 0, 0.30);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 .md-typeset code.ins {
-    background-color: rgba(0, 255, 0, 0.30);
+  background-color: rgba(0, 255, 0, 0.3);
 }
 
 .md-typeset code.sub {
-    background-color: rgba(0, 0, 255, 0.30);
+  background-color: rgba(0, 0, 255, 0.3);
 }
 
 .md-typeset code.spot1 {
-    background-color: rgba(255, 255, 0, 0.30);
+  background-color: rgba(255, 255, 0, 0.3);
 }
 
 .md-typeset code.spot2 {
-    background-color: rgba(0, 255, 255, 0.30);
+  background-color: rgba(0, 255, 255, 0.3);
 }
 
 .md-typeset code.spot3 {
-    background-color: rgba(255, 0, 255, 0.30);
+  background-color: rgba(255, 0, 255, 0.3);
 }
-
-
-
 
 /*
 === elements
 */
 
 figure {
-    border: thin solid #4051b5;
-    background-color: #eee;
-    padding: 5px;
+  border: thin solid #4051b5;
+  background-color: #eee;
+  padding: 5px;
 }
 
 h2 {
-    color: #4051b5;
-    border-bottom: thin solid #4051b5;
+  color: #4051b5;
+  border-bottom: thin solid #4051b5;
 }
 
 h3 {
-    color: #666;
+  color: #666;
 }
 
-
-/* 
+/*
 === syntax table
 */
 
 .md-typeset table.syntax {
-    border-collapse: collapse;
-    border: 0px;
+  border-collapse: collapse;
+  border: 0px;
 }
 
 table.syntax,
 table.syntax td,
 table.syntax th,
 table.syntax tr {
-    border: 0px;
+  border: 0px;
 }
 
-/* 
+/*
 === genetic code table
 */
 table.gc {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.64rem;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.64rem;
 }
 table.gc tr,
 table.gc th,
 table.gc td {
-    padding: 5px;
-    border: thin solid #ccc;
-    vertical-align: middle;
-    text-align: center;
+  padding: 5px;
+  border: thin solid #ccc;
+  vertical-align: middle;
+  text-align: center;
 }
 table.gc th {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 table.gc tbody tr:nth-of-type(2n) {
-    background: #f0f0f0;
+  background: #f0f0f0;
 }
 
-
-/* 
-=== .rst-* rules modify styling of RTD version selector 
+/*
+=== .rst-* rules modify styling of RTD version selector
 */
 
 .rst-versions {
-    background: #191d30 !important;
-    font-size: larger !important;
+  background: #191d30 !important;
+  font-size: larger !important;
 }
 
 .rst-current-version {
-    background: #465085 !important;
-    color: #FF8001 !important;
+  background: #465085 !important;
+  color: #ff8001 !important;
 }
 
 .rst-versions.rst-badge {
-    left: 20px !important;
+  left: 20px !important;
 }
