@@ -4,11 +4,22 @@
 
 Deletion: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
 
-## Description
+## Syntax
 
-Format: **"prefix""position(s)\_deleted""del"**, e.g. g.123_127del
+<table class="syntax">
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position "del"</code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.123_456del</code></td>
+</tr>
+</table>
 
-**"prefix"** = reference sequence used = g. **"position(s)\_deleted"** = position nucleotide or range of nucleotides deleted = 123_127 **"del"** = type of change is a deletion = del †
+- `sequence_identifier` = an identifier for DNA sequence
+- `position` = a single nucleotide position or inclusive range of deleted sequence
+- See [explanation of grammar syntax and common grammar elements](grammar.md) for elaboration
 
 ## Notes
 

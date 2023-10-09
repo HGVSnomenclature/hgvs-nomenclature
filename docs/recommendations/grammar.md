@@ -21,8 +21,11 @@ For consistency and brevity, commonly used grammar elements are listed here.
 
 (in alphabetical order)
 
-- `accession = letter ( letter | digit | "_" | "." )+`
 - `digit = [0-9]` # any single digit
 - `letter = [A-Za-z]` # not actually EBNF; indicates any upper or lower case letter
 - `number = digit+`
-- `type = "c" | "g" | "m" | "n" | "o" | "p" | "r"`
+
+### General Elements
+
+- `coordinate_type = "c" | "g" | "m" | "n" | "o" | "p" | "r"`
+- `sequence_identifer = letter ( letter | digit | "_" | "." )+`

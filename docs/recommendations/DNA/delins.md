@@ -6,9 +6,21 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 
 ## Description
 
-Format: **"prefix""position(s)\_deleted""delins""inserted_sequence"**, e.g. g.123_127delinsAG
+<table class="syntax">
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position "delins" sequence</code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.123_129delinsAC</code></td>
+</tr>
+</table>
 
-**"prefix"** = reference sequence used = g. **"position(s)\_deleted"** = position nucleotide or range of nucleotides deleted = 123_127 **"delins"** = type of change is a deletion-insertion = delins **"inserted_sequence"** = description inserted sequence = AG
+- `sequence_identifier` = an identifier for DNA sequence
+- `position` = a single nucleotide position or inclusive range of deleted sequence
+- `sequence` = inserted sequences
+- See [explanation of grammar syntax and common grammar elements](grammar.md) for elaboration
 
 ## Notes
 

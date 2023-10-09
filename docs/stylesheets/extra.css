@@ -106,7 +106,6 @@ table.syntax {
   border-collapse: collapse;
   border: 0;
   padding: 0;
-  width: 100%;
 }
 
 table.syntax th:not(.section) {
