@@ -38,8 +38,8 @@ Allele: a series of variants in a transcript from one chromosome.
 
 - **reference_sequence** = the reference sequence used; NM_004006.3
 - **prefix** = the prefix indicating the type of numbering used; r.
-- **first_change**: the description of the first variant; 123c>a
-- **second_change**: the description of the second variant; 345del
+- **first_change** = the description of the first variant; 123c>a
+- **second_change** = the description of the second variant; 345del
 - **[** = the opening symbol for an allele description
 - **;** = the separator symbol between two changes or two alleles
 - **(;)** = the separator symbol between two changes if it's unknown if they are located in the same allele

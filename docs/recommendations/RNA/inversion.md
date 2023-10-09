@@ -19,7 +19,7 @@ Inversion: a sequence change where, compared to a reference sequence, **more tha
 
 - **reference_sequence** = the reference sequence used; NM_004006.3
 - **prefix** = the prefix indicating the type of numbering used; r.
-- **positions_inverted**: the range of nucleotides that is inverted; 123_345
+- **positions_inverted** = the range of nucleotides that is inverted; 123_345
 - **"inv"** = the type of change, an inversion
 
 ## Notes

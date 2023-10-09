@@ -19,7 +19,7 @@ Duplication: a sequence change where, compared to a reference sequence, a copy o
 
 - **reference_sequence** = the reference sequence used; NM_004006.3
 - **prefix** = the prefix indicating the type of numbering used; r.
-- **positions_duplicated**: the position of the nucleotide, or range of nucleotides, that is duplicated; 123_345
+- **positions_duplicated** = the position of the nucleotide, or range of nucleotides, that is duplicated; 123_345
 - **"dup"** = the type of change, a duplication
 
 ## Notes

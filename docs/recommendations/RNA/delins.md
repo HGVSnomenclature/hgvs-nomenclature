@@ -19,9 +19,9 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 
 - **reference_sequence** = the reference sequence used; NM_004006.3
 - **prefix** = the prefix indicating the type of numbering used; r.
-- **positions_deleted**: the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
+- **positions_deleted** = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
 - **"delins"** = the type of change, a deletion-insertion
-- **inserted_sequence**: the sequence that is inserted; ag
+- **inserted_sequence** = the sequence that is inserted; ag
 
 ## Notes
 

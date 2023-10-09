@@ -21,7 +21,7 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 - **prefix** = the prefix indicating the type of numbering used; r.
 - **positions_flanking**: the positions of the two nucleotides flanking the insertion site; 123_124
 - **"ins"** = the type of change, an insertion
-- **inserted_sequence**: the sequence that is inserted; auc †
+- **inserted_sequence** = the sequence that is inserted; auc †
 
 ## Notes
 
