@@ -4,11 +4,24 @@
 
 Deletion-Insertion (delins): a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides **and which is not** a substitution, inversion or conversion.
 
-## Description
+## Syntax
 
-Format: **"prefix""position(s)\_deleted""delins""inserted_sequence"**, e.g. r.123_127delinsag
+<table class="syntax">
+  <tr>
+    <th>Syntax</th>
+    <td><code>reference_sequence ":" prefix "." positions_deleted "delins" inserted_sequence</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.123_127delinsag</code></td>
+  </tr>
+</table>
 
-**"prefix"** = reference sequence used = r. **"position(s)\_deleted"** = position nucleotide or range of nucleotides deleted = 123_127 **"delins"** = type of change is a deletion-insertion = delins **"inserted_sequence"** = description inserted sequence = ag
+- **reference_sequence** = the reference sequence used; NM_004006.3
+- **prefix** = the prefix indicating the type of numbering used; r.
+- **positions_deleted**: the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
+- **"delins"** = the type of change, a deletion-insertion
+- **inserted_sequence**: the sequence that is inserted; ag
 
 ## Notes
 
