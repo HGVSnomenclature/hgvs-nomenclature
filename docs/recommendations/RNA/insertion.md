@@ -9,7 +9,7 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 <table class="syntax">
   <tr>
     <th>Syntax</th>
-    <td><code>reference_sequence ":" prefix "." positions_flanking "ins" inserted_sequence</code></td>
+    <td><code>sequence_identifier ":" coordinate_type "." positions "ins" sequence</code></td>
   </tr>
   <tr>
     <th>Examples</th>
@@ -17,11 +17,11 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
   </tr>
 </table>
 
-- **reference_sequence** = the reference sequence used; NM_004006.3
-- **prefix** = the prefix indicating the type of numbering used; r.
-- **positions_flanking**: the positions of the two nucleotides flanking the insertion site; 123_124
+- **sequence_identifier** = the sequence identifier used; NM_004006.3
+- **coordinate_type** = the coordinate type, indicating the type of numbering used; r.
+- **positions** = the positions of the two nucleotides flanking the insertion site; 123_124
 - **"ins"** = the type of change, an insertion
-- **inserted_sequence** = the sequence that is inserted; auc †
+- **sequence** = the RNA sequence that is inserted; auc †
 
 ## Notes
 

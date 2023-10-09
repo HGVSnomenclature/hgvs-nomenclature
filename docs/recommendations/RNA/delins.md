@@ -9,7 +9,7 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 <table class="syntax">
   <tr>
     <th>Syntax</th>
-    <td><code>reference_sequence ":" prefix "." positions_deleted "delins" inserted_sequence</code></td>
+    <td><code>sequence_identifier ":" coordinate_type "." position "delins" sequence</code></td>
   </tr>
   <tr>
     <th>Examples</th>
@@ -17,11 +17,11 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
   </tr>
 </table>
 
-- **reference_sequence** = the reference sequence used; NM_004006.3
-- **prefix** = the prefix indicating the type of numbering used; r.
-- **positions_deleted** = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
+- **sequence_identifier** = the sequence identifier used; NM_004006.3
+- **coordinate_type** = the coordinate type, indicating the type of numbering used; r.
+- **position** = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
 - **"delins"** = the type of change, a deletion-insertion
-- **inserted_sequence** = the sequence that is inserted; ag
+- **sequence** = the RNA sequence that is inserted; ag
 
 ## Notes
 

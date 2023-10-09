@@ -9,7 +9,7 @@ Duplication: a sequence change where, compared to a reference sequence, a copy o
 <table class="syntax">
   <tr>
     <th>Syntax</th>
-    <td><code>reference_sequence ":" prefix "." positions_duplicated "dup"</code></td>
+    <td><code>sequence_identifier ":" coordinate_type "." position "dup"</code></td>
   </tr>
   <tr>
     <th>Examples</th>
@@ -17,9 +17,9 @@ Duplication: a sequence change where, compared to a reference sequence, a copy o
   </tr>
 </table>
 
-- **reference_sequence** = the reference sequence used; NM_004006.3
-- **prefix** = the prefix indicating the type of numbering used; r.
-- **positions_duplicated** = the position of the nucleotide, or range of nucleotides, that is duplicated; 123_345
+- **sequence_identifier** = the sequence identifier used; NM_004006.3
+- **coordinate_type** = the coordinate type, indicating the type of numbering used; r.
+- **position** = the position of the nucleotide, or range of nucleotides, that is duplicated; 123_345
 - **"dup"** = the type of change, a duplication
 
 ## Notes

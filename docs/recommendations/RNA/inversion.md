@@ -9,7 +9,7 @@ Inversion: a sequence change where, compared to a reference sequence, **more tha
 <table class="syntax">
   <tr>
     <th>Syntax</th>
-    <td><code>reference_sequence ":" prefix "." positions_inverted "inv"</code></td>
+    <td><code>sequence_identifier ":" coordinate_type "." positions "inv"</code></td>
   </tr>
   <tr>
     <th>Examples</th>
@@ -17,9 +17,9 @@ Inversion: a sequence change where, compared to a reference sequence, **more tha
   </tr>
 </table>
 
-- **reference_sequence** = the reference sequence used; NM_004006.3
-- **prefix** = the prefix indicating the type of numbering used; r.
-- **positions_inverted** = the range of nucleotides that is inverted; 123_345
+- **sequence_identifier** = the sequence identifier used; NM_004006.3
+- **coordinate_type** = the coordinate type, indicating the type of numbering used; r.
+- **positions** = the range of nucleotides that is inverted; 123_345
 - **"inv"** = the type of change, an inversion
 
 ## Notes
