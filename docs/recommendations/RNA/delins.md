@@ -17,11 +17,11 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
   </tr>
 </table>
 
-- **sequence_identifier** = the sequence identifier used; NM_004006.3
-- **coordinate_type** = the coordinate type, indicating the type of numbering used; r.
-- **position** = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
-- **"delins"** = the type of change, a deletion-insertion
-- **sequence** = the RNA sequence that is inserted; ag
+- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r.
+- <code>position</code> = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
+- <code>"delins"</code> = the type of change, a deletion-insertion
+- <code>sequence</code> = the RNA sequence that is inserted; ag
 
 ## Notes
 

@@ -17,10 +17,10 @@ Inversion: a sequence change where, compared to a reference sequence, **more tha
   </tr>
 </table>
 
-- **sequence_identifier** = the sequence identifier used; NM_004006.3
-- **coordinate_type** = the coordinate type, indicating the type of numbering used; r.
-- **positions** = the range of nucleotides that is inverted; 123_345
-- **"inv"** = the type of change, an inversion
+- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r.
+- <code>positions</code> = the range of nucleotides that is inverted; 123_345
+- <code>"inv"</code> = the type of change, an inversion
 
 ## Notes
 

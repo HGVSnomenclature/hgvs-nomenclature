@@ -36,14 +36,14 @@ Allele: a series of variants in a transcript from one chromosome.
   </tr>
 </table>
 
-- **sequence_identifier** = the sequence identifier used; NM_004006.3
-- **coordinate_type** = the coordinate type, indicating the type of numbering used; r.
-- **first_change** = the description of the first variant; 123c>a
-- **second_change** = the description of the second variant; 345del
-- **[** = the opening symbol for an allele description
-- **;** = the separator symbol between two changes or two alleles
-- **(;)** = the separator symbol between two changes if it's unknown if they are located in the same allele
-- **]** = the closing symbol for an allele description
+- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r.
+- <code>first_change</code> = the description of the first variant; 123c>a
+- <code>second_change</code> = the description of the second variant; 345del
+- <code>[</code> = the opening symbol for an allele description
+- <code>;</code> = the separator symbol between two changes or two alleles
+- <code>(;)</code> = the separator symbol between two changes if it's unknown if they are located in the same allele
+- <code>]</code> = the closing symbol for an allele description
 
 ## Notes
 
