@@ -16,7 +16,7 @@ Format (one allele): **"prefix"["variant1";"variant2"]**, e.g. p.[(Ser73Arg;Asn1
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 - **prefix** reference sequence accepted is "p." (protein)
-- predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses **inside** the square brackets, e.g. p.[<code class="spot1">(</code>Arg727Ser;Cys1334Trp<code class="spot1">)</code>]
+- predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses **inside** the square brackets, e.g. p.[<code class="spot1">(code>Arg727Ser;Cys1334Trp<code class="spot1">)</code>]
 - when two variants are identified in a protein that derive from **one chromosome** (in cis) this should be described as "p.[variant1;variant2]"
 - when two variants are identified in proteins that derive from **different chromosomes** (in trans) this should be described as "p.[variant1];[variant2]"
 - when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "variant<code class="spot1">(;)</code>variant2", i.e. without using "[ ]"

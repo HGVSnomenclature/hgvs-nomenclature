@@ -19,7 +19,7 @@ Example: `g.123A>G`
 ## Notes
 
 - **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
-- substitutions involving two or more consecutive nucleotides are described as deletion/insertion (delins) variants (see [Deletion/insertion (delins)](./delins.md)).
+- substitutions involving two or more consecutive nucleotides are described as deletion/insertion (delins) variants (see [Deletion/insertion (delins)](delins.md)).
 - two variants separated by one or more nucleotides should be described individually and not as a "delins" of the sequence affected
   - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins": **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g. c.235_237delinsTAT (p.Lys79Tyr) versus c.[235A>T;237G>T] (p.[Lys79*;Lys79Asn]): **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 - nucleotides that have been tested and found **not changed** are described as c.123=, g.4567_4569= (see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md)).
