@@ -13,7 +13,7 @@ Format: **"prefix""position(s)\_analysed""="**, e.g. g.123_234=
 ## Notes
 
 - **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
-- see [SVD-WG001 (no change)](../../../consultation/SVD-WG001/) for the original proposal
+- see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md) for the original proposal
 
 ## Examples
 
@@ -27,7 +27,7 @@ Format: **"prefix""position(s)\_analysed""="**, e.g. g.123_234=
     - LRG_199t1:c.123_145=: a screen was performed showing nucleotides c.123 to c.145 were as in the coding DNA reference sequence (the nucleotides were not changed)
     - NM_004006.2:c.[123=;456=;789=]: a screen was performed showing nucleotides c.123, c.456 and c.789 (all on the same allele) were identical to the coding DNA reference (the nucleotides were not changed)
 
-- methylation : descriptions based on Community Consultation [proposal SVD-WG005](../../../consultation/SVD-WG005/) _ NC_000011.10:g.1999904_1999946\|gom: the sequence from position g.1999904 to g.1999946 showed a gain of methylation ("\|gom") _ NC_000011.10:g.1999904_1999946\|lom: the sequence from position g.1999904 to g.1999946 showed a loss of methylation ("\|lom") \* NC_000011.10:g.1999904_1999946\|met=: the sequence from position g.1999904 to g.1999946 showed normal methylation ("\|met=")
+- methylation : descriptions based on Community Consultation [proposal SVD-WG005](../../consultation/SVD-WG005.md) _ NC_000011.10:g.1999904_1999946\|gom: the sequence from position g.1999904 to g.1999946 showed a gain of methylation ("\|gom") _ NC_000011.10:g.1999904_1999946\|lom: the sequence from position g.1999904 to g.1999946 showed a loss of methylation ("\|lom") \* NC_000011.10:g.1999904_1999946\|met=: the sequence from position g.1999904 to g.1999946 showed normal methylation ("\|met=")
 
 - mosaicism
   - LRG_199t1:c.85=/T>C: a mosaic case where at position 85 besides the normal sequence (a T, described as "=") also chromosomes are found containing a C (c.85T>C): **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first

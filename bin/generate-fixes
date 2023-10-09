@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+
+import fileinput
+import io
+import logging
+import re
+
+import coloredlogs
+
+_logger = logging.getLogger()
+
+coloredlogs.install(level="INFO")
+
+dym_re = re.compile(r"Doc file '(?P<path>[^']+)' contains an unrecognized relative link '(?P<orig>[^']+)', it was left as is. Did you mean '(?P<sugg>[^']+)'")
+
+dup_re = re.compile(r"Duplicate filename referred to in '(?P<path>[^']+)': '(?P<orig>[^']+)'")
+
+def do_replace(path, orig, sugg):
+    c = io.open(path, mode="rt").read()
+    c = c.replace(f"({orig})", f"({sugg})")
+    io.open(path, mode="wt").write(c)
+
+for line in fileinput.input():
+    line = line.strip()
+    if m := dym_re.search(line):
+        md = m.groupdict()
+        do_replace(path="docs/"+md["path"], orig=md["orig"], sugg=md["sugg"])
+    elif m := dup_re.search(line):
+        md = m.groupdict()
+        path = md["path"].replace("/home/reece/projects/HGVSnomenclature/hgvs-nomenclature/", "")
+        do_replace(path=path, orig=md["orig"], sugg="./"+md["orig"])
+    else:
+        _logger.warning(f"Missed {line}")

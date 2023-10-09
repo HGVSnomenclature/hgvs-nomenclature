@@ -10,4 +10,4 @@ Sequence edit highlights, Highlight spans of sequence based on variant type usin
 
 Other Sequence highlights , Highlight spans of sequence,<code>The first\, second\, and third prolines in &lt;code class="spot1">Pro&lt;/code>&lt;code class="spot2">Pro&lt;/code>&lt;code class="spot3">Pro&lt;/code></code>,The first\, second\, and third prolines in <code class="spot1">Pro</code><code class="spot2">Pro</code><code class="spot3">Pro</code>
 
-Links, HTML links to other documents or sections, `[General Recommendations](/recommendations/general/)`<br>`[Heading Title](#headingtag)`, [General Recommendations](/recommendations/general/)<br>[Heading Title](#headingtag)
+Links, HTML links to other documents or sections, `[General Recommendations](general.md)`<br>`[Heading Title](#headingtag)`, [General Recommendations](general.md)<br>[Heading Title](#headingtag)

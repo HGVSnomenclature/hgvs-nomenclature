@@ -20,7 +20,7 @@ Format (<code class="spot1">C-terminal</code>): **"prefix""Ter_position""new_ami
 - **prefix** reference sequence accepted is "p." (protein).
 - **extension** variants have been accepted on <code class="spot1">2012-08-31</code>.
 - **predicted consequences**, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Ter110GlnextTer17) or p.(\*110Glnext\*17).
-- variants affecting the translation initiation site (Met1) activating an upstream (N-terminal) translation initiation site are described as [deletion-insertion](../delins/), those activating a downstream (C-terminal) initiation site as a [deletion](../deletion/).
+- variants affecting the translation initiation site (Met1) activating an upstream (N-terminal) translation initiation site are described as [deletion-insertion](./delins.md), those activating a downstream (C-terminal) initiation site as a [deletion](./deletion.md).
 - **prioritisation**: (1) extension, (2) frame shift or deletion-insertion.
 
 ## Examples
