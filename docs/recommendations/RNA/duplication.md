@@ -4,11 +4,23 @@
 
 Duplication: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted **directly 3'** of the original copy of that sequence.
 
-## Description
+## Syntax
 
-Format: **"prefix""position(s)\_duplicated""dup"**, e.g. r.123_345dup
+<table class="syntax">
+  <tr>
+    <th>Syntax</th>
+    <td><code>reference_sequence ":" prefix "." positions_duplicated "dup"</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.123_345dup</code></td>
+  </tr>
+</table>
 
-**"prefix"** = reference sequence used = r. **"position(s)\_duplicated"** = position nucleotide or range of nucleotides duplicated = 123_345 **"dup"** = type of change is a duplication = dup
+- **reference_sequence** = the reference sequence used; NM_004006.3
+- **prefix** = the prefix indicating the type of numbering used; r.
+- **positions_duplicated**: the position of the nucleotide, or range of nucleotides, that is duplicated; 123_345
+- **"dup"** = the type of change, a duplication
 
 ## Notes
 
