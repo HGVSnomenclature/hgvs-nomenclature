@@ -18,13 +18,13 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**, e.
 - the "amino_acids+positions_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25).
   - an insertion can not be described using **one** amino acid position, like p.Lys23insAsp.
 - for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
-- duplicating insertions should be described as duplications (see [Duplication](../../DNA/duplication/)), not as insertion.
+- duplicating insertions should be described as duplications (see [Duplication](../DNA/duplication.md)), not as insertion.
 - when the inserted amino acid sequence is large the insertion may be described by its length, e.g. p.Lys2_Leu3insX[34] (open reading frame insertion) or p.Lys2_Leu3insTer12 (translation stop in inserted sequence). : **NOTE:** the inserted amino acid sequence can be derived from the description od the variant at DNA or RNA level.
-- insertions extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [Extension](../extension).
+- insertions extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [Extension](extension.md).
 - insertions at DNA or RNA level
   - which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
   - **encoding a translation stop codon** in the inserted sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
-  - encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frame shift](../frameshift/)
+  - encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frame shift](frameshift.md)
 
 ## Examples
 
@@ -35,7 +35,7 @@ Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**, e.
 - p.Arg78_Gly79insX[23]: the in-frame insertion of a 23 amino acid sequence between amino acids Arg78 and Gly79: **NOTE:** it must be possible to deduce the 23 inserted amino acids from the description given at DNA or RNA level
 - NP_060250.2:p.Gln746_Lys747ins\*63: the in-frame insertion of a 62 amino acid sequence ending at a stop codon at position \*63 between amino acids Gln746 and Lys747: **NOTE:** it must be possible to deduce the inserted amino acid sequence from the description given at DNA or RNA level
 - incomplete descriptions (preferably use exact descriptions only)
-  - NP_003997.1:p.(Ser332_Ser333insX[1]): the insertion of an unknown amino acid ('insX[1]') between amino acids Ser332 and Ser333: **NOTE**: the IUPAC code for an unknown amino acid is 'X' (see [Standards](../../../background/standards/)). Note that in the past 'X' has been used to indicate a translation termination codon.
+  - NP_003997.1:p.(Ser332_Ser333insX[1]): the insertion of an unknown amino acid ('insX[1]') between amino acids Ser332 and Ser333: **NOTE**: the IUPAC code for an unknown amino acid is 'X' (see [Standards](../../background/standards.md)). Note that in the past 'X' has been used to indicate a translation termination codon.
   - NP_003997.1:p.(Val582_Asn583insX[5]) (alternatively NP_003997.1:p.(Val582_Asn583insXXXXX)): the insertion of 5 unknown amino acids (insX[5]) between amino acids Val582 and Asn583
 
 ## Discussion

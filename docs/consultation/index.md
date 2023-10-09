@@ -1,6 +1,6 @@
 # Community Consultation
 
-The HGVS Nomenclature is administed by the [HGVS Variant Nomenclature Committee (HVNC)](../governance/), a working group of the Human Genome Organization. The HVNC handles requests to change or extend HGVS Nomenclature through a **Community Consultation** process. Proposed and implemented changes will be discussed using our [GitHub Discussions](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions) forum and summarized here.
+The HGVS Nomenclature is administed by the [HGVS Variant Nomenclature Committee (HVNC)](../hvnc.md), a working group of the Human Genome Organization. The HVNC handles requests to change or extend HGVS Nomenclature through a **Community Consultation** process. Proposed and implemented changes will be discussed using our [GitHub Discussions](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions) forum and summarized here.
 
 ## Proposal Process
 
@@ -18,24 +18,24 @@ The HGVS Nomenclature is administed by the [HGVS Variant Nomenclature Committee 
 
 ### Open
 
-- [SVD-WG010](SVD-WG010/) (var distance): suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other: **Status**: <code class="spot1">closed July 31, 2021</code> (decision pending).
+- [SVD-WG010](SVD-WG010.md) (var distance): suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other: **Status**: <code class="spot1">closed July 31, 2021</code> (decision pending).
 
 ### Closed
 
-- [SVD-WG009](SVD-WG009/) (conversion): suggested to simplify the HGVS nomenclature recommendations by **discontinuing the use of the variant type "con"** to describe conversions: **Status**: <code class="spot1">accepted</code>. Closed Oct.31 (2020). Opened Aug,4 (2020).
+- [SVD-WG009](SVD-WG009.md) (conversion): suggested to simplify the HGVS nomenclature recommendations by **discontinuing the use of the variant type "con"** to describe conversions: **Status**: <code class="spot1">accepted</code>. Closed Oct.31 (2020). Opened Aug,4 (2020).
 
-- [SVD-WG008](SVD-WG008/) (Reference Sequences): suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [Reference Sequences](../background/refseq/) page): **Status**: <code class="spot1">accepted</code>. Closed Sep.30 (2019). Opened Jul.20 (2019).
+- [SVD-WG008](SVD-WG008.md) (Reference Sequences): suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [Reference Sequences](../background/refseq.md) page): **Status**: <code class="spot1">accepted</code>. Closed Sep.30 (2019). Opened Jul.20 (2019).
 
-- [SVD-WG007](SVD-WG007/) (RNA fusion): suggests to extend the HGVS recommendations with a format to describe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using "::": **Status**: <code class="spot1">accepted</code>. Closed Jun.30 (2019). Opened Apr.10 (2019).
+- [SVD-WG007](SVD-WG007.md) (RNA fusion): suggests to extend the HGVS recommendations with a format to describe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using "::": **Status**: <code class="spot1">accepted</code>. Closed Jun.30 (2019). Opened Apr.10 (2019).
 
-- [SVD-WG006](SVD-WG006/) (circular DNA): suggests to extend the HGVS recommendations allowing a **"o."** prefix for circular genomic reference sequences.: suggests to add the exception for circular genomic reference sequences ("m." and "o." prefix) to allow NC_012920.1:m.16563_13del: **Status**: <code class="spot1">accepted</code>. Closed Oct.30 (2018). Opened Aug.1 (2018).
+- [SVD-WG006](SVD-WG006.md) (circular DNA): suggests to extend the HGVS recommendations allowing a **"o."** prefix for circular genomic reference sequences.: suggests to add the exception for circular genomic reference sequences ("m." and "o." prefix) to allow NC_012920.1:m.16563_13del: **Status**: <code class="spot1">accepted</code>. Closed Oct.30 (2018). Opened Aug.1 (2018).
 
-- [SVD-WG005](SVD-WG005/) (gom/lom): suggests to extend the HGVS recommendations to allow description of changes in general methylation status.: **Status**: <code class="spot1">accepted</code>. Closed Dec.31 (2016). Opened Oct.20 (2016).
+- [SVD-WG005](SVD-WG005.md) (gom/lom): suggests to extend the HGVS recommendations to allow description of changes in general methylation status.: **Status**: <code class="spot1">accepted</code>. Closed Dec.31 (2016). Opened Oct.20 (2016).
 
-- [SVD-WG004](SVD-WG004/) (ISCN<>HGVS): suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.: **Status**: <code class="spot1">accepted</code>. Closed Jan.15 (2016). Opened Nov.10 (2015).: **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"named extension ISCN"** ([named extension](../background/versioning/)).
+- [SVD-WG004](SVD-WG004.md) (ISCN<>HGVS): suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.: **Status**: <code class="spot1">accepted</code>. Closed Jan.15 (2016). Opened Nov.10 (2015).: **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"named extension ISCN"** ([named extension](../background/versioning.md)).
 
-- [SVD-WG003](SVD-WG003/) (exon del/dup): suggested to describe exon deletions/duplications using the format c.(233+1_234-1)\_(1234+1_1235-1)del.: **Status**: Oct.6 (2015) <code class="spot1">new proposal to be made</code>. Closed Jul.16 (2015). Opened May 14 (2015).
+- [SVD-WG003](SVD-WG003.md) (exon del/dup): suggested to describe exon deletions/duplications using the format c.(233+1_234-1)\_(1234+1_1235-1)del.: **Status**: Oct.6 (2015) <code class="spot1">new proposal to be made</code>. Closed Jul.16 (2015). Opened May 14 (2015).
 
-- [SVD-WG002](SVD-WG002/) (**n.** prefix): suggested to accept a non-coding DNA reference sequence (n.345A>G, n.224+1G>T, n.696-38544del).: **Status**: Oct.6 (2015) <code class="spot1">accepted</code>. Closed Jul.16 (2015). Opened May 14 (2015).
+- [SVD-WG002](SVD-WG002.md) (**n.** prefix): suggested to accept a non-coding DNA reference sequence (n.345A>G, n.224+1G>T, n.696-38544del).: **Status**: Oct.6 (2015) <code class="spot1">accepted</code>. Closed Jul.16 (2015). Opened May 14 (2015).
 
-- [SVD-WG001](SVD-WG001/) (no change): suggested to allow reporting of variants that were tested but found to be unchanged (g.50377648A=, c.1823A=, r.377u=, p.Val76=). : **Status**: Oct.6 (2015) <code class="spot1">accepted</code>. Closed Jul.16 (2015). Opened May 14 (2015).
+- [SVD-WG001](SVD-WG001.md) (no change): suggested to allow reporting of variants that were tested but found to be unchanged (g.50377648A=, c.1823A=, r.377u=, p.Val76=). : **Status**: Oct.6 (2015) <code class="spot1">accepted</code>. Closed Jul.16 (2015). Opened May 14 (2015).

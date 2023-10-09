@@ -35,7 +35,7 @@ Format (two alleles): **"prefix"["change"];["change"]**, e.g. r.[123g>a];[345del
 
 ## Examples
 
-For more examples see [DNA alleles](../../DNA/alleles/).
+For more examples see [DNA alleles](../DNA/alleles.md).
 
 - **variants on one allele**
   - LRG_199t1:r.[76a>u;103del]: one transcript contains two different changes, r.76a>u and r.103del. The variants are found **in cis**.

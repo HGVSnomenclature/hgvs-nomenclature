@@ -18,11 +18,11 @@ Format: **"prefix""amino_acid(s)+position(s)\_deleted""del"**, e.g. p.(Cys76_Glu
 - the "amino_acids+positions_deleted" should contain **two different** positions, i.e. Cys76_Glu79, not Cys76_Cys76.
   - the "positions_deleted" should be listed from **5' to 3'**, i.e. Cys76_Glu79, not Glu79_Cys76.
 - for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
-- in theory, a **nonsense** variant can be considered as a deletion removing the C-terminal end of the protein (e.g. p.Trp26_Arg1623del). By definition, nonsense variants are described as an amino acid substitution (p.Trp26Ter or p.Trp26\* see [Substitution](../substitution)) replacing the first amino acid affected by a translation termination (stop) codon.
-- variants extending the amino acid sequence at the C-terminal end with one or more amino acids, are described as [Extension](../extension).
+- in theory, a **nonsense** variant can be considered as a deletion removing the C-terminal end of the protein (e.g. p.Trp26_Arg1623del). By definition, nonsense variants are described as an amino acid substitution (p.Trp26Ter or p.Trp26\* see [Substitution](./substitution.md)) replacing the first amino acid affected by a translation termination (stop) codon.
+- variants extending the amino acid sequence at the C-terminal end with one or more amino acids, are described as [Extension](extension.md).
 - deletions at the DNA or RNA level
   - which introduce an **immediate** translation termination (stop) codon are described as nonsense variant.
-  - **starting N-terminal of and including** the translation termination (stop) codon are described as [Frame shift](../frameshift).
+  - **starting N-terminal of and including** the translation termination (stop) codon are described as [Frame shift](frameshift.md).
 
 ## Examples
 

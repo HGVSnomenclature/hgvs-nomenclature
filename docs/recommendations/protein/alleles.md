@@ -25,7 +25,7 @@ Format (one allele): **"prefix"["variant1";"variant2"]**, e.g. p.[(Ser73Arg;Asn1
 
 ## Examples
 
-For more examples see [DNA alleles](../../DNA/alleles/).
+For more examples see [DNA alleles](../DNA/alleles.md).
 
 - **variants on one allele**
   - NP_003997.1:p.[Ser68Arg;Asn594del]: a protein allele contains two different variants, p.Ser68Arg and p.Asn594del (the variants are found **in cis**)
