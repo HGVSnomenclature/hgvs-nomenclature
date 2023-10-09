@@ -6,7 +6,7 @@ Splicing: a sequence change where, compared to a reference sequence, the normal 
 
 ## Description
 
-Variants affecting RNA splicing result in either a [deletion](./deletion.md) or [insertion](./insertion.md) on the RNA level and should be described as such.
+Variants affecting RNA splicing result in either a [deletion](deletion.md) or [insertion](insertion.md) on the RNA level and should be described as such.
 
 ## Notes
 

@@ -15,8 +15,8 @@ Format: **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted_sequence
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 - **prefix** reference sequence accepted is "p." (protein).
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123_Lys127delinsSerAsp).
-- by definition, when **one** amino acid is replaced with **one** other amino acid, the change is a [substitution](./substitution.md), not a deletion-insertion.
-- changes involving two or more consecutive amino acids are described as a deletion/insertion variant (delins) (see [Substitution](./substitution.md).
+- by definition, when **one** amino acid is replaced with **one** other amino acid, the change is a [substitution](substitution.md), not a deletion-insertion.
+- changes involving two or more consecutive amino acids are described as a deletion/insertion variant (delins) (see [Substitution](substitution.md).
   - **NOTE**: this does not mean that at the DNA or RNA level the variant is described as a "delins" variant as well; on DNA level other rules may apply.
   - the description p.Arg76_Cys77delinsSerTrp is correct, the description p.[Arg76Ser;Cys77Trp] is not correct.
   - two variants separated by one or more amino acids should be described individually and not as a "delins".
