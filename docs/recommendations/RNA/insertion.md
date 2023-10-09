@@ -4,11 +4,24 @@
 
 Insertion: a sequence change where, compared to the reference sequence, one or more nucleotides are inserted **and** where the insertion is not a copy of a sequence immediately 5'
 
-## Description
+## Syntax
 
-Format: **"prefix""positions_flanking""ins""inserted_sequence"**, e.g. r.123_124insauc
+<table class="syntax">
+  <tr>
+    <th>Syntax</th>
+    <td><code>reference_sequence ":" prefix "." positions_flanking "ins" inserted_sequence</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.123_124insauc</code></td>
+  </tr>
+</table>
 
-**"prefix"** = reference sequence used = r. **"positions_flanking"** = position two nucleotides flanking insertion site = 123_124 **"ins"** = type of change is an insertion = ins **"inserted_sequence"** = inserted sequence = auc †
+- **reference_sequence** = the reference sequence used; NM_004006.3
+- **prefix** = the prefix indicating the type of numbering used; r.
+- **positions_flanking**: the positions of the two nucleotides flanking the insertion site; 123_124
+- **"ins"** = the type of change, an insertion
+- **inserted_sequence**: the sequence that is inserted; auc †
 
 ## Notes
 
