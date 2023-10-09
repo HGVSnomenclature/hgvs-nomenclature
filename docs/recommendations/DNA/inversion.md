@@ -4,11 +4,23 @@
 
 Inversion: a sequence change where, compared to a reference sequence, **more than one nucleotide** replacing the original sequence are the reverse complement of the original sequence.
 
-## Description
+## Syntax
 
-Format: **"prefix""positions_inverted""inv"**, e.g. g.123_345inv
+<table class="syntax">
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position_range "inv"</code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.123_129inv</code></td>
+</tr>
+</table>
 
-**"prefix"** = reference sequence used = g. **"positions_inverted"** = range of nucleotides inverted = 123_345 **"inv"** = type of change is an inversion = inv
+- `sequence_identifier` = an identifier for DNA sequence
+- `position_range` = a single nucleotide position or inclusive range of deleted sequence
+- `sequence` = inserted sequences
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 

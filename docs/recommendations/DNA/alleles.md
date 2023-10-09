@@ -39,7 +39,7 @@ Allele: a series of variants on one chromosome.
 </table>
 
 - `position_edit` = any g. position-edit, such as [deletion](./deletion.md), [insertion](./insertion.md), or [deletion-insertion](./delins.md)
-- See [explanation of grammar syntax and common grammar elements](grammar.md) for elaboration
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 

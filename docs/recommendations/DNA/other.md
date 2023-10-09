@@ -4,11 +4,22 @@
 
 No change: a sequence was analysed but no variant was detected. Mosaic: the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences. Chimeric: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences.
 
-## Description
+## Syntax
 
-Format: **"prefix""position(s)\_analysed""="**, e.g. g.123_234=
+<table class="syntax">
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position "="</code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.123_129=</code></td>
+</tr>
+</table>
 
-**"prefix"** = reference sequence used = g. **"position(s)\_analysed"** = position nucleotide or range of nucleotides analysed = 123_234 **"="** = not changed
+- `sequence_identifier` = an identifier for DNA sequence
+- `position` = a single nucleotide position or inclusive range of deleted sequence
+- See [explanation of grammar syntax and common grammar elements](grammar.md) for elaboration
 
 ## Notes
 

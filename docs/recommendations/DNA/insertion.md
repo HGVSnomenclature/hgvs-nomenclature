@@ -4,11 +4,23 @@
 
 Insertion: a sequence change where, compared to the reference sequence, one or more nucleotides are inserted **and** where the insertion is not a copy of a sequence immediately 5'
 
-## Description
+## Syntax
 
-Format: **"prefix""positions_flanking""ins""inserted_sequence"**, e.g. g.123_124insAGC
+<table class="syntax">
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position_range "ins" sequence</code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.123_124insACG</code></td>
+</tr>
+</table>
 
-**"prefix"** = reference sequence used = g. **"positions_flanking"** = position two nucleotides flanking insertion site = 123_124 **"ins"** = type of change is an insertion = ins **"inserted_sequence"** = inserted sequence = AGC †
+- `sequence_identifier` = an identifier for DNA sequence
+- `position_range` = the insertion point specified as two adjacent nucleotides
+- `sequence` = inserted sequences
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 

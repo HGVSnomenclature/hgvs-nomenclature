@@ -4,17 +4,24 @@
 
 Substitution: a sequence change where, compared to a reference sequence, **one** nucleotide is replaced by **one** other nucleotide.
 
-## Description
+## Syntax
 
-Format: `<prefix><position_substituted><reference_nucleotide><new_nucleotide>`
+<table class="syntax">
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position reference_nucleotide ">" alternate_nucleotide</code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.123A>C</code></td>
+</tr>
+</table>
 
-Example: `g.123A>G`
-
-- `prefix` = type of reference sequence used
-- `<position_substituted>` = position nucleotide sustituted = 123
-- `<reference_nucleotide>` = nucleotide at reference position = A
-- `>` = type of change is a substitution = >
-- `<new_nucleotide>` = substituted nucleotide = G
+- `sequence_identifier` = an identifier for DNA sequence
+- `position` = a single nucleotide position or inclusive range of deleted sequence
+- `reference_nucleotide` = single nucleotide of the reference sequence at this position
+- `alternate_nucleotide` = single nucleotide of the variant sequence at this position
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 

@@ -29,3 +29,6 @@ For consistency and brevity, commonly used grammar elements are listed here.
 
 - `coordinate_type = "c" | "g" | "m" | "n" | "o" | "p" | "r"`
 - `sequence_identifer = letter ( letter | digit | "_" | "." )+`
+- `position` = any position
+- `position_range` = two positions, separated by underscore (`"_"`)
+- `insertion_position` = a `position_range` that specifies the insertion point in a sequence as two adjacent bases

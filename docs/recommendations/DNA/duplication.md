@@ -4,11 +4,22 @@
 
 Duplication: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted **directly 3'** of the original copy of that sequence.
 
-## Description
+## Syntax
 
-Format: **"prefix""position(s)\_duplicated""dup"**, e.g. g.123_345dup
+<table class="syntax">
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position "dup"</code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.123_129dup</code></td>
+</tr>
+</table>
 
-**"prefix"** = reference sequence used = g. **"position(s)\_duplicated"** = position nucleotide or range of nucleotides duplicated = 123_345 **"dup"** = type of change is a duplication = dup †
+- `sequence_identifier` = an identifier for DNA sequence
+- `position` = a single nucleotide position or inclusive range of deleted sequence
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 

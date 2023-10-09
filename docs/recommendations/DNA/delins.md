@@ -4,7 +4,7 @@
 
 Deletion-Insertion (delins): a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides **and which is not** a substitution, inversion or conversion.
 
-## Description
+## Syntax
 
 <table class="syntax">
 <tr>
@@ -20,7 +20,7 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 - `sequence_identifier` = an identifier for DNA sequence
 - `position` = a single nucleotide position or inclusive range of deleted sequence
 - `sequence` = inserted sequences
-- See [explanation of grammar syntax and common grammar elements](grammar.md) for elaboration
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 

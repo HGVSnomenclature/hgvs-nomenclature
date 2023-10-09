@@ -4,32 +4,34 @@
 
 Repeated sequence: a sequence where, compared to a reference sequence, a segment of **one or more** nucleotides (the repeat unit) is present several times, one after the other.
 
-## Description
+## Syntax
 
-**NOTE:** a Community Consultation is prepared which will suggest to allow **only one format** where the entire range of the repeated sequence must be indicated, e.g. g.123_191CAG[23] not g.123CAG[23]
+<table class="syntax">
+<tr><th class="section" colspan=2>Unique Repeat</th></tr>
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position sequence "[" number "]"</code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.[123G>A;345del]</code></td>
+</tr>
 
-Format (unique repeat): **"prefix""position_first_nucleotide_first_repeat_unit""repeat_sequence"["copy_number"]**, e.g. g.123CAG[23]
+<tr><th class="section" colspan=2>Mixed Repeat</th></tr>
+<tr>
+<th>Syntax</th>
+<td><code>sequence_identifier ":" coordinate_type "." position sequence "[" number "]" sequence "[" number "]" ... sequence "[" number "]" </code></td>
+</tr>
+<tr>
+<th>Examples</th>
+<td><code>NC_000001.11:g.[123G>A];[345del]</code></td>
+</tr>
+</table>
 
-- **"prefix"** = reference sequence used = g.
-- **"position_first_nucleotide_first_repeat_unit"** = first nucleotide of first repeat unit = 123
-- **"repeat_sequence"** = sequence repeat unit = CAG
-- **[** = opening symbol for copy number allele = [
-- **"copy_number"** = number of repeat units = 23
-- **]** = closing symbol for copy number allele = ]
-
-Format (mixed repeat): **"prefix""range_repeated_sequence""repeat_sequence_unit1"["copy_number"]"repeat_sequence_unit2"["copy_number"]"..."**, e.g. g.123_191CAG[19]CAA[4]
-
-- **"prefix"** = reference sequence used = g.
-- **"range_repeated_sequence"** = position first to last nucleotide repeated sequence (range) = 123_191
-- **"repeat_sequence_unit1"** = sequence first repeat unit = CAG
-- **[** = opening symbol for allele = [
-- **"copy_number"** = number of repeat units = 19
-- **]** = closing symbol for allele = ]
-- **"repeat_sequence_unit2"** = sequence first repeat unit = CAA
-- **[** = opening symbol for allele = [
-- **"copy_number"** = number of repeat units = 4
-- **]** = closing symbol for allele = ]
-- **...** = and so on for repeat_sequence_unit3, repeat_sequence_unit4, etc.
+- `position` = the first (5'-most) nucleotide of the repeat
+- `sequence` = the sequence of the repeat
+- `number` = the number of occurances of the repeat
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 
