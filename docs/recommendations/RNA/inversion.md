@@ -4,11 +4,23 @@
 
 Inversion: a sequence change where, compared to a reference sequence, **more than one nucleotide** replacing the original sequence are the reverse complement of the original sequence.
 
-## Description
+## Syntax
 
-Format: **"prefix""positions_inverted""inv"**, e.g. r.123_345inv
+<table class="syntax">
+  <tr>
+    <th>Syntax</th>
+    <td><code>reference_sequence ":" prefix "." positions_inverted "inv"</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.123_345inv</code></td>
+  </tr>
+</table>
 
-**"prefix"** = reference sequence used = r. **"positions_inverted"** = range of nucleotides inverted = 123_345 **"inv"** = type of change is an inversion = inv
+- **reference_sequence** = the reference sequence used; NM_004006.3
+- **prefix** = the prefix indicating the type of numbering used; r.
+- **positions_inverted**: the range of nucleotides that is inverted; 123_345
+- **"inv"** = the type of change, an inversion
 
 ## Notes
 
