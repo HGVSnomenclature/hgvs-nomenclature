@@ -49,7 +49,7 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 
 !!! note "What is an **"indel"**?"
 
-    The term "indel" is not used in HGVS nomenclature (see [Glossary](http://varnomen.hgvs.org/bg-material/glossary/)). The term is confusing, having different meanings in different disciplines.
+    The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md)). The term is confusing, having different meanings in different disciplines.
 
 !!! note "Can I describe a GC to TG variant as a dinucleotide substitution (g.4GC>TG)?"
 

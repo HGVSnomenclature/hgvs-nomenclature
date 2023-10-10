@@ -9,7 +9,7 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 <table class="syntax">
 <tr>
 <th>Syntax</th>
-<td><code>sequence_identifier ":" coordinate_type "." position_range "ins" sequence</code></td>
+<td><code>sequence_identifier ":" coordinate_type "." position_point "ins" sequence</code></td>
 </tr>
 <tr>
 <th>Examples</th>
@@ -18,7 +18,6 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 </table>
 
 - `sequence_identifier` = an identifier for DNA sequence
-- `position_range` = the insertion point specified as two adjacent nucleotides
 - `sequence` = inserted sequences
 - See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 

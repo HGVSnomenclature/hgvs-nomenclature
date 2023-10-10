@@ -27,8 +27,8 @@ For consistency and brevity, commonly used grammar elements are listed here.
 
 ### General Elements
 
-- `coordinate_type = "c" | "g" | "m" | "n" | "o" | "p" | "r"`
-- `sequence_identifer = letter ( letter | digit | "_" | "." )+`
-- `position` = any position
+- `coordinate_type` = `"c"`, `"g"`, `"m"`, `"n"`, `"o"`, `"p"`, or `"r"`
+- `position_point` = the zero-width insertion point in a sequence, specified as two adjacent sequence positions in a `position_range`
 - `position_range` = two positions, separated by underscore (`"_"`)
-- `insertion_position` = a `position_range` that specifies the insertion point in a sequence as two adjacent bases
+- `position` = any position
+- `sequence_identifer` = a valid sequence identifier (a.k.a. accession); see [reference sequences](../background/refseq.md) `alternate_nucleotide` = single nucleotide of the variant sequence at this position `reference_nucleotide` = single nucleotide of the reference sequence at this position
