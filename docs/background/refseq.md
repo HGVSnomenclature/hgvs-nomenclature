@@ -4,16 +4,16 @@
 
 a sequence file that is used as a **reference to describe variants** that are present in a sequence analysed.
 
-**NOTE:** this section has been updated based on the accepted proposal [SVD-WG008 (Reference Sequences)](http://varnomen.hgvs.org/consultation/SVD-WG008/).
+**NOTE:** this section has been updated based on the accepted proposal [SVD-WG008 (Reference Sequences)](../consultation/SVD-WG008.md).
 
-A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [numbering system](https://varnomen.hgvs.org/background/numbering/) and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its corresponding identifier are unchangeable.
+A sequence variant is defined in the context of a **reference sequence** which must be referred to by means of a unique **sequence identifier**. Because a reference sequence defines the [numbering system](numbering.md) and default state of a sequence (e.g. coding transcript, non-coding transcript), accurately interpreting a sequence variant requires that both the reference sequence and its corresponding identifier are unchangeable.
 
 - reference sequences **must** come from data sources that provide stable and permanent identifiers, e.g. RefSeq (NCBI) and Ensembl (EBI). A source that permits updating of sequence records associated with an existing sequence identifier **must not** be used, i.e. a change in the reference sequence **must** trigger a change in the sequence identifier
   - rationale: violating this requirement means that interpretation of a variant might change over time
-- reference sequences **must** use conventional representation, i.e. the sequence comprises a string of [IUPAC codes](https://varnomen.hgvs.org/background/standards/) that represents a nucleic acid or amino acid sequence using the conventional order (5'-to-3' for nucleic acid sequences, and amino-to-carboxyl for amino acid sequences)
+- reference sequences **must** use conventional representation, i.e. the sequence comprises a string of [IUPAC codes](standards.md) that represents a nucleic acid or amino acid sequence using the conventional order (5'-to-3' for nucleic acid sequences, and amino-to-carboxyl for amino acid sequences)
 - reference sequence **must** be contiguous; undefined sequence is not permissible
   - this requirement applies within a **single** sequence. Alignments **between** sequences may contain gaps. For example, a coding sequence will contain intron gaps when aligned to a genomic sequence
-  - [IUPAC codes](https://varnomen.hgvs.org/background/standards/) for any nucleotide (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
+  - [IUPAC codes](standards.md) for any nucleotide (N) or any amino acid (X) are permitted within a contiguous sequence, e.g. within chromosomal reference sequences, and are not considered as undefined
 - a sequence identifier **must** only ever identify **one** reference sequence, and the sequence referred to by a sequence identifier may not be deleted or changed
   - sequence identifiers are opaque ([note 1](#note)), i.e. the structure and meaning of an identifier is determined by the source reference sequence database
   - versioned reference sequence identifiers are required only when the reference sequence databases use versioning to distinguish between unique sequences

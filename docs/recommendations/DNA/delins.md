@@ -37,11 +37,11 @@ Format: **"prefix""position(s)\_deleted""delins""inserted_sequence"**, e.g. g.12
 
 !!! note "What is an **"indel"**?"
 
-    The term "indel" is not used in HGVS nomenclature (see [Glossary](http://varnomen.hgvs.org/bg-material/glossary/)). The term is confusing, having different meanings in different disciplines.
+    The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md)). The term is confusing, having different meanings in different disciplines.
 
 !!! note "Can I describe a GC to TG variant as a dinucleotide substitution (g.4GC>TG)?"
 
-    No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](http://varnomen.hgvs.org/recommendations/DNA/variant/substitution/)). The change TGT<code class="spot1">GC</code>CA to TGT<code class="spot1">TG</code>CA should be described as g.4_5delinsTG, i.e. a deletion/insertion (indel).
+    No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](substitution.md)). The change TGT<code class="spot1">GC</code>CA to TGT<code class="spot1">TG</code>CA should be described as g.4_5delinsTG, i.e. a deletion/insertion (indel).
 
 !!! note "Are there specific recommendations regarding the maximum number of unchanged nucleotides between two single nucleotide variants and whether the change is described as a "delins" or as two separate changes?"
 
