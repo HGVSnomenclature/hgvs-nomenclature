@@ -14,14 +14,14 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**, e.g. g.123_124
 
 - **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 - the "positions flanking" should contain **two flanking nucleotides**, e.g. 123 and 124 but not 123 and 125.
-  - † = see [Uncertain](../../uncertain/); when the postion and/or the sequence of an inserted sequence has not been defined, a description may have a format like g.(100_150)ins(25)
+  - † = see [Uncertain](../uncertain.md); when the postion and/or the sequence of an inserted sequence has not been defined, a description may have a format like g.(100_150)ins(25)
   - the "positions_flanking" should be listed from 5' to 3', e.g. 123_124 not 124_123
-- tandem duplications are described as a duplication (g.123_456**dup**), not an insertion (g.456_457ins123_456, see [Prioritization](../../general/))
-  - **inverted duplications** are described as insertion (g.234_235ins123_234inv), not as a duplication (see [Inversion](../inversion))
-- two variants separated by one or more nucleotides should be described individually and **not** as a "delins" \* exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" : **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../../consultation/SVD-WG010/)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
+- tandem duplications are described as a duplication (g.123_456**dup**), not an insertion (g.456_457ins123_456, see [Prioritization](../general.md))
+  - **inverted duplications** are described as insertion (g.234_235ins123_234inv), not as a duplication (see [Inversion](inversion.md))
+- two variants separated by one or more nucleotides should be described individually and **not** as a "delins" \* exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" : **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 - the **"inserted_sequence"** can be given as the nucleotides inserted (e.g. insAGC) or, for larger insert sequences, by referring to the sequence in the reference sequence (e.g. c.849_850ins858_895) or another reference (e.g. NC_000002.11:g.47643464_47643465ins[NC\_000022.10:g.35788169\_35788352]). When the inserted sequence is not present in the reference genome it should be submitted to a database (e.g. [GenBank](http://www.ncbi.nlm.nih.gov/genbank/submit/)) and the accession.version number obtained to refer to it.
-  - † = see [Uncertain](../../uncertain/); when the postion and/or the sequence of an inserted sequence has not been defined, a description may have a format like g.(100_150)insN[25]
+  - † = see [Uncertain](../uncertain.md); when the postion and/or the sequence of an inserted sequence has not been defined, a description may have a format like g.(100_150)insN[25]
 
 ## Examples
 
@@ -48,7 +48,7 @@ Format: **"prefix""positions_flanking""ins""inserted_sequence"**, e.g. g.123_124
   - NC_000023.10:g.32717298_32717299insN[(80_120)]: the insertion of 80 to 120 nucleotides between position g.32717298 and g.32717299
   - NC_000023.10:g.32717298_32717299insN[?]: the insertion of an unknown number of nucleotides between position g.32717298 and g.32717299
   - NC_000006.11:g.8897754_8897755ins[N[543];8897743_8897754]: the insertion of an undefined sequence of 543 nucleotides (N[543]), and a 12 nucleotide target site duplication (g.8897743 to g.8897754), between nucleotides g.8897754 and g.8897755 on chromosome 6.
-  - g.?\_?ins[NC\_000023.10:g.(12345\_23456)\_(34567\_45678)]: the insertion of a sequence from the X-chromosome (NC_000023.10), maximally involving nucleotides 12345_45678 but certainly nucleotides 23456_34567, at an unknown position (g.?\_?) in the genome (see [Uncertain](../../uncertain))
+  - g.?\_?ins[NC\_000023.10:g.(12345\_23456)\_(34567\_45678)]: the insertion of a sequence from the X-chromosome (NC_000023.10), maximally involving nucleotides 12345_45678 but certainly nucleotides 23456_34567, at an unknown position (g.?\_?) in the genome (see [Uncertain](../uncertain.md))
 
 ## Discussion
 

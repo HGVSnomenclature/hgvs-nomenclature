@@ -12,7 +12,7 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 
 ## News
 
-Proposal [SVD-WG010 (var distance)](../consultation/SVD-WG010/) is now <code class="spot1">closed</code>, SVD-WG decision pending. An overview of recent additions, especially those that led to a change of the **HGVS version number**, can be found on the [Versioning page](../background/versioning). The [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen) regularly posts topics of interest, including **Q&A's** and a nomenclature agenda.
+Proposal [SVD-WG010 (var distance)](consultation/SVD-WG010.md) is now <code class="spot1">closed</code>, SVD-WG decision pending. An overview of recent additions, especially those that led to a change of the **HGVS version number**, can be found on the [Versioning page](background/versioning.md). The [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen) regularly posts topics of interest, including **Q&A's** and a nomenclature agenda.
 
 ## Current Citation
 

@@ -6,7 +6,7 @@
 
 The proposal suggested to describe deletions (duplications) detected by MLPA tests (testing all exons) using the format c.(649+1_650-1)\_(1331+1_1332-1)del.
 
-The format suggested originally to describe deletions/duplications detected by MLPA tests (testing all exons) was c.650-?\_1331+?del, i.e. a deletion starting in the intron preceding c.650 (first nucleotide of the first deleted exon) and ending in the intron after c.1331 (last nucleotide of the last deleted exon). However, this format **is in conflict with** the basic recommendation that in such cases the description should make clear what the region of uncertainty for the break point is (see [Uncertainties](../../recommendations/general/#uncertain1)), i.e. **(position-last-normal-probe_position-first-altered-probe)\_ (position-last-altered-probe_position-first-normal-probe)**. The Committee considered the format c.(649_650)\_(1331_1332)del which is shorter but not specifically indicates that the expected break points of the change are in an intron.
+The format suggested originally to describe deletions/duplications detected by MLPA tests (testing all exons) was c.650-?\_1331+?del, i.e. a deletion starting in the intron preceding c.650 (first nucleotide of the first deleted exon) and ending in the intron after c.1331 (last nucleotide of the last deleted exon). However, this format **is in conflict with** the basic recommendation that in such cases the description should make clear what the region of uncertainty for the break point is (see [Uncertainties](../recommendations/general.md#uncertain1)), i.e. **(position-last-normal-probe_position-first-altered-probe)\_ (position-last-altered-probe_position-first-normal-probe)**. The Committee considered the format c.(649_650)\_(1331_1332)del which is shorter but not specifically indicates that the expected break points of the change are in an intron.
 
 #### Examples
 
@@ -15,12 +15,12 @@ The format suggested originally to describe deletions/duplications detected by M
 
 ### Note
 
-To be **100% accurate** one should theoretically not use the position of the introns in the description of the change but the location of the probes used in the assay (see [Uncertainties](../../recommendations/general/#uncertain1)). When one wants to use probe locations (e.g. with breakpoints in large exons) the suggestion is to use the **central position** of the probes in variant descriptions. Proposal SVD-WG003 bears in mind that:
+To be **100% accurate** one should theoretically not use the position of the introns in the description of the change but the location of the probes used in the assay (see [Uncertainties](../recommendations/general.md#uncertain1)). When one wants to use probe locations (e.g. with breakpoints in large exons) the suggestion is to use the **central position** of the probes in variant descriptions. Proposal SVD-WG003 bears in mind that:
 
 - it is not straightforward what probe position to use,
 - the additional detail would hardly add useful information,
 - we should preferably not deviate too far from the original proposal (i.e. to use flanking intron locations).
 
-**NOTE:** the description "dup" may by definition (see [Duplication](../../recommendations/DNA/duplication/)) only be used when the additional copy is located directly 3'-flanking the original copy (a tandem duplication). In most cases there will be no experimental proof, the method used only detects the presence of an additional copy that, in theory, can be anywhere in the genome (inserted). Discussions are ongoing how to include this uncertainty best in the description: a proposal will follow later.
+**NOTE:** the description "dup" may by definition (see [Duplication](../recommendations/DNA/duplication.md)) only be used when the additional copy is located directly 3'-flanking the original copy (a tandem duplication). In most cases there will be no experimental proof, the method used only detects the presence of an additional copy that, in theory, can be anywhere in the genome (inserted). Discussions are ongoing how to include this uncertainty best in the description: a proposal will follow later.
 
 ### [Original proposal](http://www.hgvs.org/mutnomen/comments003.html)

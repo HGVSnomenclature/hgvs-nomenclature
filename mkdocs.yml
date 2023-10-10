@@ -5,7 +5,7 @@
 site_name: "HGVS Nomenclature"
 
 plugins:
-  - autolinks
+  #- autolinks
   - awesome-pages
   - glightbox
   #- mermaid2

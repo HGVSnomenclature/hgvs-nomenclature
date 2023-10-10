@@ -27,7 +27,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome P
 | Rachel Taylor (United Kingdom)          | 2022 - 2025 |
 | Alex Wagner (United States)             | 2022 - 2025 |
 
-> † [ISCN representative](../consultation/ISCN/)
+> † [ISCN representative](consultation/ISCN.md)
 
 ## past HVNC members
 

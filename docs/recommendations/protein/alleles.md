@@ -16,7 +16,7 @@ Format (one allele): **"prefix"["variant1";"variant2"]**, e.g. p.[(Ser73Arg;Asn1
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 - **prefix** reference sequence accepted is "p." (protein)
-- predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses **inside** the square brackets, e.g. p.[<code class="spot1">(</code>Arg727Ser;Cys1334Trp<code class="spot1">)</code>]
+- predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses **inside** the square brackets, e.g. p.[<code class="spot1">(code>Arg727Ser;Cys1334Trp<code class="spot1">)</code>]
 - when two variants are identified in a protein that derive from **one chromosome** (in cis) this should be described as "p.[variant1;variant2]"
 - when two variants are identified in proteins that derive from **different chromosomes** (in trans) this should be described as "p.[variant1];[variant2]"
 - when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "variant<code class="spot1">(;)</code>variant2", i.e. without using "[ ]"
@@ -25,7 +25,7 @@ Format (one allele): **"prefix"["variant1";"variant2"]**, e.g. p.[(Ser73Arg;Asn1
 
 ## Examples
 
-For more examples see [DNA alleles](../../DNA/alleles/).
+For more examples see [DNA alleles](../DNA/alleles.md).
 
 - **variants on one allele**
   - NP_003997.1:p.[Ser68Arg;Asn594del]: a protein allele contains two different variants, p.Ser68Arg and p.Asn594del (the variants are found **in cis**)
@@ -38,7 +38,7 @@ For more examples see [DNA alleles](../../DNA/alleles/).
   - **heterozygous**
     - NP_003997.1:p.[Ser68Arg];[Asn594del]: two protein alleles each contain a different variant, p.Ser68Arg and p.Asn594del (compound heterozygote, e.g. in a recessive disease, the variants are found **in trans**)
     - NP_003997.1:p.[(Ser68Arg)];[?]: one protein allele contains a variant, with predicted consequence p.(Ser68Arg), while a variant for the other protein allele is expected but not yet identified (p.(?)) (e.g. in individuals affected by a recessive disease).
-    - NP_003997.1:p.[Ser68Arg];[Ser68=]: one protein allele contains a variant, p.Ser68Arg, the other allele contains at this position the reference sequence, Ser68= (is **wild-type**).: **NOTE**: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68\_Arg70dup];[Ser68\_Arg70=], p.[Ser68\_Ala74insSerGln];[Ser68\_Ala74=], etc. (based on [Proposal SVD-WG001](http://varnomen.hgvs.org/consultation/SVD-WG001/)).: **NOTE**: using p.[=] would mean the entire NP_003997.1 protein reference sequence was tested and found not changed
+    - NP_003997.1:p.[Ser68Arg];[Ser68=]: one protein allele contains a variant, p.Ser68Arg, the other allele contains at this position the reference sequence, Ser68= (is **wild-type**).: **NOTE**: for other variant types the format is p.[Ser68del];[Ser68=], p.[Ser68\_Arg70dup];[Ser68\_Arg70=], p.[Ser68\_Ala74insSerGln];[Ser68\_Ala74=], etc. (based on [Proposal SVD-WG001](../../consultation/SVD-WG001.md)).: **NOTE**: using p.[=] would mean the entire NP_003997.1 protein reference sequence was tested and found not changed
   - **allele unknown**
     - NP_003997.1:p.(Ser68Arg)(;)(Asn594del): two predicted protein variants are found, p.(Ser68Arg) and p.(Asn594del), but it is not known whether they are on the same or on different alleles (chromosomes).: **NOTE**: when it is not known on which allele a variant is, allele brackets are not used
     - NP_003997.2:p.[(Asn158Asp)(;)(Asn158Ile)]^[(Asn158Val)]: for the variants NM_004006.3:c.472A>G and c.473A>T it is not known whether they are on the same or on different alleles (chromosomes). The predicted consequence when the variants are on different alleles is p.(Asn158Asp)(;)(Asn158Ile), when the variants are on the same allele (i.e. c.472_473delinsGT) the predicted consequence is p.(Asn158Val). To discriminate between the two possibilities square brackets need to be used.
