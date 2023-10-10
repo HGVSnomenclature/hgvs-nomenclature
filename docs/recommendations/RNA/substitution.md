@@ -4,11 +4,25 @@
 
 Substitution: a sequence change where, compared to a reference sequence, **one** nucleotide is replaced by **one** other nucleotide.
 
-## Description
+## Syntax
 
-Format: **"prefix""position_substituted""reference_nucleotide"">"new_nucleotide"**, e.g. r.123a>g
+<table class="syntax">
+  <tr>
+    <th>Syntax</th>
+    <td><code>sequence_identifier ":" coordinate_type "." position reference_nucleotide ">" new_nucleotide</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.123c>g</code></td>
+  </tr>
+</table>
 
-**"prefix"** = reference sequence used = r. **"position_substituted"** = position nucleotide sustituted = 123 **"reference_nulceotide"** = nucleotide at reference position = a **">"** = type of change is a substitution = > **"new_nucleotide"** = substituted nucleotide = g
+- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r.
+- <code>position</code> = the position of the nucleotide substituted; 123
+- <code>reference_nucleotide</code> = the nucleotide at this position in the reference sequence; c
+- <code>">"</code> = the type of change, a substitution
+- <code>new_nucleotide</code> = the nucleotide substituting the existing one; g
 
 ## Notes
 
