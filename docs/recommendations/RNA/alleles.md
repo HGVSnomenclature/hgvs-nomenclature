@@ -40,10 +40,10 @@ Allele: a series of variants in a transcript from one chromosome.
 - <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
 - <code>first_change</code> = the description of the first variant; 123c>a
 - <code>second_change</code> = the description of the second variant; 345del
-- <code>[</code> = the opening symbol for an allele description
-- <code>;</code> = the separator symbol between two changes or two alleles
-- <code>(;)</code> = the separator symbol between two changes if it's unknown if they are located in the same allele
-- <code>]</code> = the closing symbol for an allele description
+- <code>"["</code> = the opening symbol for an allele description
+- <code>";"</code> = the separator symbol between two changes or two alleles
+- <code>"(;)"</code> = the separator symbol between two changes if it's unknown if they are located in the same allele
+- <code>"]"</code> = the closing symbol for an allele description
 
 ## Notes
 
