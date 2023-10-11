@@ -32,8 +32,8 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 - <code>positions</code> = the range of nucleotides of the first repeat unit; 9495_9497
 - <code>start_position</code> = the position of the first nucleotide of the repeat; 9495
 - <code>sequence</code> = the RNA sequence of one repeat unit; caa
-- <code>copy_number</code> = the observed number of repeats
 - <code>"["</code> = the opening symbol for an allele description
+- <code>copy_number</code> = the observed number of repeats
 - <code>"]"</code> = the closing symbol for an allele description
 
 ## Notes
