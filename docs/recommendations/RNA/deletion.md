@@ -18,7 +18,7 @@ Deletion: a sequence change where, compared to a reference sequence, one or more
 </table>
 
 - <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r.
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
 - <code>position</code> = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
 - <code>"del"</code> = the type of change, a deletion †
 

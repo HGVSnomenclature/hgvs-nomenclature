@@ -28,7 +28,7 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 </table>
 
 - <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r.
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
 - <code>positions</code> = the range of nucleotides of the first repeat unit; 9495_9497
 - <code>start_position</code> = the position of the first nucleotide of the repeat; 9495
 - <code>sequence</code> = the RNA sequence of one repeat unit; caa

@@ -37,7 +37,7 @@ Allele: a series of variants in a transcript from one chromosome.
 </table>
 
 - <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r.
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
 - <code>first_change</code> = the description of the first variant; 123c>a
 - <code>second_change</code> = the description of the second variant; 345del
 - <code>[</code> = the opening symbol for an allele description
