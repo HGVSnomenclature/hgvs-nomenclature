@@ -61,7 +61,7 @@ aa:
         - NP_003997.2:p.Lys23_Val25dup
   ext:
     - name: N-terminus extension
-      syntax: accession ":" coordinate_type "." "1Metext" new_initiation_site
+      syntax: accession ":" coordinate_type "." "Met1" "ext" new_initiation_site
       examples:
         - NP_003997.2:p.Met1ext-5
       notes: >-
