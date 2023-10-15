@@ -41,7 +41,7 @@ Format: **"prefix""position(s)\_deleted""delins""inserted_sequence"**, e.g. r.12
 
 !!! note "What is an **"indel"**?"
 
-    The term "indel" is not used in HGVS nomenclature (see [Glossary](http://varnomen.hgvs.org/bg-material/glossary/)). The term is confusing, having different meanings in different disciplines.
+    The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md). The term is confusing, having different meanings in different disciplines.
 
 !!! note "Can I describe a "gc" to "ug" variant as a dinucleotide substitution (r.4gc>ug)?"
 

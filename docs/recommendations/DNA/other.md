@@ -19,7 +19,7 @@ No change: a sequence was analysed but no variant was detected. Mosaic: the occu
 
 - `sequence_identifier` = an identifier for DNA sequence
 - `position` = a single nucleotide position or inclusive range of deleted sequence
-- See [explanation of grammar syntax and common grammar elements](grammar.md) for elaboration
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 
