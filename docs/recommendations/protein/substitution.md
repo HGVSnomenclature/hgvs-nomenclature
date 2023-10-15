@@ -10,12 +10,6 @@ Substitution: a sequence change where, compared to a reference sequence, **one**
 bin/pull-syntax -f docs/syntax.yaml aa.sub
 ```
 
-## Description
-
-Format: **"prefix""amino_acid""position""new_amino_acid"**, e.g. p.(Arg54Ser)
-
-**"prefix"** = reference sequence used = p. **"amino_acid"** = reference amino acid = Arg **"position"** = position amino acid subtituted = 54 **"new_amino_acid"** = new amino acid = Ser
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and protein level may be given in addition

@@ -10,12 +10,6 @@ Deletion-Insertion (delins): a sequence change between the translation initiatio
 bin/pull-syntax -f docs/syntax.yaml aa.delins
 ```
 
-## Description
-
-Format: **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted_sequence"**, e.g. p.(Arg123_Lys127delinsSerAsp)
-
-**"prefix"** = reference sequence used = p. **"amino_acid(s)+position(s)\_deleted"** = position amino acid or range of amino acids deleted = Arg123_Lys127 **"delins"** = type of change is a deletion-insertion = delins **"inserted_sequence"** = description inserted sequence = SerAsp
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition

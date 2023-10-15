@@ -10,12 +10,6 @@ Insertion: a sequence change between the translation initiation (start) and term
 bin/pull-syntax -f docs/syntax.yaml aa.ins
 ```
 
-## Description
-
-Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**, e.g. p.(Lys23_Leu24insArgSerGln)
-
-**"prefix"** = reference sequence used = p. **"amino_acids+positions_flanking"** = amino acids with position flanking insertion site = Lys23_Leu24 **"ins"** = type of change is an insertion = ins **"inserted_sequence"** = inserted sequence = ArgSerGln
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
