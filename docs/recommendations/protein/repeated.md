@@ -4,11 +4,11 @@
 
 Repeated sequence: a sequence where, compared to a reference sequence, a segment of **one or more** amino acids (the repeat unit) is present several times, one after the other..
 
-## Description
+## Syntax
 
-Format: **"prefix""amino_acid(s)+position_repeat_unit""[""copy_number""]"**, e.g. p.(Arg65_Ser67[12])
-
-**"prefix"** = reference sequence used = p. **"amino_acid(s)+position_repeat_unit"** = amino acids position (range) first repeat copy = Arg65_Ser67 **[** = opening symbol for allele = [ **"copy_number"** = number of repeat units = 12 **]\*\* = closing symbol for allele = ]
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml aa.rpt
+```
 
 ## Notes
 

@@ -4,6 +4,12 @@
 
 Extension: a sequence change extending the reference amino acid sequence at the N- or C-terminal end with one or more amino acids.
 
+## Syntax
+
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml aa.ext
+```
+
 ## Description
 
 Format (<code class="spot1">N-terminal</code>): **"prefix""Met1""ext""position_new_initiation_site"**, e.g. p.Met1ext-5

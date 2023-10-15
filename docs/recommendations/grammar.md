@@ -17,10 +17,19 @@ Putting this all together, a rule to match NCBI RefSeq accessions might be writt
 
 For consistency and brevity, commonly used grammar elements are listed here.
 
+- `aa_position = aa position`
+- `aa_position_range = aa_position "_" aa_position`
+- `position = number`
+
+### Literals
+
+- `"Ter"`: The 3-letter amino acid termination codon; written as `"*"` when using 1-letter amino acid codes.
+
 ### Primitives
 
 (in alphabetical order)
 
+- `aa` = any 3 or 1 letter amino acid
 - `accession = letter ( letter | digit | "_" | "." )+`
 - `digit = [0-9]` # any single digit
 - `letter = [A-Za-z]` # not actually EBNF; indicates any upper or lower case letter

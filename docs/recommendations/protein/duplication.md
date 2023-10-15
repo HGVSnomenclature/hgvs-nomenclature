@@ -4,11 +4,11 @@
 
 Duplication: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, a copy of one or more amino acids are inserted **directly C-terminal** of the original copy of that sequence.
 
-## Description
+## Syntax
 
-Format: **"prefix""amino_acid(s)+position(s)\_duplicated""dup"**, e.g. p.(Cys76_Glu79dup)
-
-**"prefix"** = reference sequence used = p. **"amino_acid(s)+position(s)\_duplicated"** = amino acid with position or range (first amino acid with position to last amino acid with position) duplicated = Cys76_Glu79 **"dup"** = type of change is a duplication = dup
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml aa.dup
+```
 
 ## Notes
 

@@ -5,21 +5,98 @@ dna:
         - NC_000001.11:g.123_129delinsAC
   alleles:
     - name: Variants in <i>cis</i>
-      syntax: accession ":" type "." "[" posedit ";" posedit "]"
+      syntax: accession ":" coordinate_type "." "[" position_edit ";" position_edit "]"
       examples:
         - NC_000001.11:g.[123G>A;345del]
-        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
-        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
-        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
-        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
     - name: Variants in <i>trans</i>
-      syntax: accession ":" type "." "[" posedit "]" ";" "[" posedit "]"
+      syntax: accession ":" coordinate_type "." "[" position_edit "]" ";" "[" position_edit "]"
       examples:
         - NC_000001.11:g.[123G>A];[345del]
-        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
-        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
     - name: Variants with unknown or uncertain phase
-      syntax: accession ":" type "." "[" posedit "(;)" posedit"]"</code></td>
+      syntax: accession ":" coordinate_type "." "[" position_edit "(;)" position_edit"]"</code></td>
       examples:
         - NC_000001.11:g.[123G>A(;)345del]
-        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+
+aa:
+  alleles:
+    - name: Variants in <i>cis</i>
+      syntax: accession ":" coordinate_type "." "[" position_edit ";" position_edit "]"
+      examples:
+        - NP_003997.1:p.[(Ser73Arg;Asn103del)]
+    - name: Variants in <i>trans</i>
+      syntax: accession ":" coordinate_type "." "[" position_edit "]" ";" "[" position_edit "]"
+      examples:
+        - NP_003997.1:p.[(Ser73Arg)];[(Asn103del)]
+    - name: Variants with unknown or uncertain phase
+      syntax: accession ":" coordinate_type "." "[" position_edit "(;)" position_edit"]"</code></td>
+      examples:
+        - NP_003997.1:p.[(Ser73Arg)](;)[(Asn103del)]
+  del:
+    - name: single position
+      syntax: accession ":" coordinate_type "." aa position "del"
+      examples:
+        - NP_003997.2:p.Val7del
+    - name: position range
+      syntax: accession ":" coordinate_type "." aa position "_" aa position "del"
+      examples:
+        - NP_003997.2:p.Lys23_Val25del
+  delins:
+    - name: single position
+      syntax: accession ":" coordinate_type "." aa position "delins" sequence
+      examples:
+        - NP_004371.2:p.Asn47delinsSerSerTer
+        - NP_004371.2:p.(Asn47delinsSerSerTer)
+    - name: position range
+      syntax: accession ":" coordinate_type "." aa position "_" aa position "delins" sequence
+      examples:
+        - NP_003070.3:p.Glu125_Ala132delinsGlyLeuHisArgPheIleValLeu
+  dup:
+    - name: single position
+      syntax: accession ":" coordinate_type "." aa position "dup"
+      examples:
+        - NP_003997.2:p.Val7dup
+    - name: position range
+      syntax: accession ":" coordinate_type "." aa position "_" aa position "delins" sequence
+      examples:
+        - NP_003997.2:p.Lys23_Val25dup
+  ext:
+    - name: N-terminus extension
+      syntax: accession ":" coordinate_type "." "1Metext" new_initiation_site
+      examples:
+        - NP_003997.2:p.Met1ext-5
+      notes: >-
+        `new_initiation_site` indicates the position of the new initiation site; it is always a negative value
+
+
+    - name: C-terminus extension
+      syntax: accession ":" coordinate_type "." "Ter" position aa "ext" "Ter" extension_length
+      examples:
+        - NP_003997.2:p.Ter110GlnextTer17
+      notes: >-
+        `extension_length` is the number of amino acids added beyond the original Ter
+
+
+  fs:
+    - name:
+      syntax: accession ":" coordinate_type "." aa position "fs" [ "Ter" position ]
+      examples:
+        - NP_01234.5:p.Arg97fs
+        - NP_01234.5:p.Arg97ProfsTer23
+      notes: >-
+        Specifying the termination position is optional
+
+
+  ins:
+    - syntax: sequence_identifier ":" coordinate_type "." aa_position_range "ins" sequence
+      examples:
+        - NP_004371.2:p.(Pro46_Asn47insSerSerTer)
+      notes: The position must be specified using adjacent nucleotides
+  rpt:
+    - syntax: sequence_identifier ":" coordinate_type "." position sequence "[" number "]"
+      examples:
+        - p.Ala2[10]
+        - p.Ala2[10];[11]
+  sub:
+    - syntax: sequence_identifier ":" coordinate_type "." aa_position alternate_aa
+      examples:
+        -
