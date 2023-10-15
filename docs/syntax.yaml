@@ -1,0 +1,25 @@
+dna:
+  delins:
+    - syntax: sequence_identifier ":" coordinate_type "." position "delins" sequence
+      examples:
+        - NC_000001.11:g.123_129delinsAC
+  alleles:
+    - name: Variants in <i>cis</i>
+      syntax: accession ":" type "." "[" posedit ";" posedit "]"
+      examples:
+        - NC_000001.11:g.[123G>A;345del]
+        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+    - name: Variants in <i>trans</i>
+      syntax: accession ":" type "." "[" posedit "]" ";" "[" posedit "]"
+      examples:
+        - NC_000001.11:g.[123G>A];[345del]
+        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+    - name: Variants with unknown or uncertain phase
+      syntax: accession ":" type "." "[" posedit "(;)" posedit"]"</code></td>
+      examples:
+        - NC_000001.11:g.[123G>A(;)345del]
+        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]

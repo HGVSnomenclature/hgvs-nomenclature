@@ -6,37 +6,9 @@ Allele: a series of variants on one chromosome.
 
 ## Syntax
 
-<table class="syntax">
-<tr><th class="section" colspan=2>Variants in <i>cis</i></th></tr>
-<tr>
-<th>Syntax</th>
-<td><code>accession ":" type "." "[" posedit ";" posedit "]"</code></td>
-</tr>
-<tr>
-<th>Examples</th>
-<td><code>NC_000001.11:g.[123G>A;345del]</code></td>
-</tr>
-
-<tr><th class="section" colspan=2>Variants in <i>trans</i></th></tr>
-<tr>
-<th>Syntax</th>
-<td><code>accession ":" type "." "[" posedit "]" ";" "[" posedit "]"</code></td>
-</tr>
-<tr>
-<th>Examples</th>
-<td><code>NC_000001.11:g.[123G>A];[345del]</code></td>
-</tr>
-
-<tr><th class="section" colspan=2>Variants with unknown or uncertain phase</th></tr>
-<tr>
-<th>Syntax</th>
-<td><code>accession ":" type "." "[" posedit "(;)" posedit"]"</code></td>
-</tr>
-<tr>
-<th>Examples</th>
-<td><code>NC_000001.11:g.[123G>A(;)345del]</code></td>
-</tr>
-</table>
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.alleles
+```
 
 ## Notes
 
