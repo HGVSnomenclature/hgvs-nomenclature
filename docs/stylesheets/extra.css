@@ -125,10 +125,16 @@ table.syntax th.section {
 table.syntax ul {
   margin: 0 !important;
   padding: 0;
+}
+table.syntax tr.examples ul {
   list-style-type: none;
 }
 
-table.syntax li {
+table.syntax p {
+  margin: 0 !important;
+}
+
+table.syntax tr.examples li {
   margin: 0 !important;
 }
 

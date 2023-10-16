@@ -5,34 +5,43 @@ import argparse
 
 import jinja2
 import jmespath
+import markdown
 import yaml
 
 
-
-template = jinja2.Template(source="""<table class="syntax">
+table_template = """<table class="syntax">
   {%- for sdata in syntax_data %}
     {% if sdata["name"] %}<tr><th class="section" colspan=2>{{sdata["name"]}}</th></tr>{% endif %}
     <tr><th>Syntax</th> <td><code>{{sdata["syntax"]}}</code></td> </tr>
-    <tr><th>Examples</th> <td><ul>{% for ex in sdata["examples"] %}<li><code>{{ex}}</code>{% endfor %}</ul></td> </tr>
+    {% if sdata["notes"] %}<tr><th></th> <td><ul>{% for n in sdata["notes"] %}<li>{{n|markdown}}</li>{% endfor %}</ul></td></tr>{% endif %}
+    <tr class="examples"><th>Examples</th> <td><ul>{% for ex in sdata["examples"] %}<li><code>{{ex}}</code>{% endfor %}</ul></td> </tr>
   {%- endfor %}
 </table>
 
 See [explanation of grammar syntax and common grammar elements](/recommendations/grammar) for elaboration
 """
-)
 
 
 def parse_args(args = None):
-    ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("ELEMENT", help="name of block to extract, e.g., dna.deletion")
-    ap.add_argument("--syntax-file", "-f", required=True)
-    opts = ap.parse_args(args=args)
-    return opts
+  ap = argparse.ArgumentParser(description=__doc__)
+  ap.add_argument("ELEMENT", help="name of block to extract, e.g., dna.deletion")
+  ap.add_argument("--syntax-file", "-f", required=True)
+  opts = ap.parse_args(args=args)
+  return opts
 
 
 if __name__ == "__main__":
-    opts = parse_args()
-    all_syntax_data = yaml.safe_load(open(opts.syntax_file))
-    path_ex = jmespath.compile(opts.ELEMENT)
-    syntax_data = path_ex.search(all_syntax_data)
-    print(template.render(syntax_data=syntax_data))
+  md = markdown.Markdown()
+  env = jinja2.Environment()
+  env.filters['markdown'] = lambda text: md.convert(text)
+  env.trim_blocks = True
+  env.lstrip_blocks = True
+
+  opts = parse_args()
+
+  all_syntax_data = yaml.safe_load(open(opts.syntax_file))
+  path_ex = jmespath.compile(opts.ELEMENT)
+  syntax_data = path_ex.search(all_syntax_data)
+  if not syntax_data:
+    raise RuntimeError(f"{opts.ELEMENT} not defined in {opts.syntax_file}")
+  print(env.from_string(table_template).render(syntax_data=syntax_data))
