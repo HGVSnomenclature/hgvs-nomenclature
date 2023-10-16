@@ -13,8 +13,8 @@ table_template = """<table class="syntax">
   {%- for sdata in syntax_data %}
     {% if sdata["name"] %}<tr><th class="section" colspan=2>{{sdata["name"]}}</th></tr>{% endif %}
     <tr><th>Syntax</th> <td><code>{{sdata["syntax"]}}</code></td> </tr>
-    <tr><th>Examples</th> <td><ul>{% for ex in sdata["examples"] %}<li><code>{{ex}}</code>{% endfor %}</ul></td> </tr>
-    {% if sdata["notes"] %}<tr><th>Notes</th> <td>{{sdata["notes"]|markdown}}</td></tr>{% endif %}
+    {% if sdata["notes"] %}<tr><th></th> <td><ul>{% for n in sdata["notes"] %}<li>{{n|markdown}}</li>{% endfor %}</ul></td></tr>{% endif %}
+    <tr class="examples"><th>Examples</th> <td><ul>{% for ex in sdata["examples"] %}<li><code>{{ex}}</code>{% endfor %}</ul></td> </tr>
   {%- endfor %}
 </table>
 
