@@ -10,7 +10,7 @@ Allele: a series of variants on one chromosome.
 <tr><th class="section" colspan=2>Variants in <i>cis</i></th></tr>
 <tr>
 <th>Syntax</th>
-<td><code>accession ":" type "." "[" posedit ";" posedit "]"</code></td>
+<td><code>sequence_identifier ":" coordinate_type "." "[" position_edit ";" position_edit "]"</code></td>
 </tr>
 <tr>
 <th>Examples</th>
@@ -20,7 +20,7 @@ Allele: a series of variants on one chromosome.
 <tr><th class="section" colspan=2>Variants in <i>trans</i></th></tr>
 <tr>
 <th>Syntax</th>
-<td><code>accession ":" type "." "[" posedit "]" ";" "[" posedit "]"</code></td>
+<td><code>sequence_identifier ":" coordinate_type "." "[" position_edit "]" ";" "[" position_edit "]"</code></td>
 </tr>
 <tr>
 <th>Examples</th>
@@ -30,13 +30,24 @@ Allele: a series of variants on one chromosome.
 <tr><th class="section" colspan=2>Variants with unknown or uncertain phase</th></tr>
 <tr>
 <th>Syntax</th>
-<td><code>accession ":" type "." "[" posedit "(;)" posedit"]"</code></td>
+<td><code>sequence_identifier ":" coordinate_type "." "[" position_edit "(;)" position_edit"]"</code></td>
 </tr>
 <tr>
 <th>Examples</th>
 <td><code>NC_000001.11:g.[123G>A(;)345del]</code></td>
 </tr>
 </table>
+
+<hr/>
+
+Pulled from syntax:
+
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.alleles
+```
+
+- `position_edit` = any g. position-edit, such as [deletion](./deletion.md), [insertion](./insertion.md), or [deletion-insertion](./delins.md)
+- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 
 ## Notes
 

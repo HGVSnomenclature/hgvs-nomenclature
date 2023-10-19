@@ -122,6 +122,22 @@ table.syntax th.section {
   color: var(--md-typeset-a-color);
 }
 
+table.syntax ul {
+  margin: 0 !important;
+  padding: 0;
+}
+table.syntax tr.examples ul {
+  list-style-type: none;
+}
+
+table.syntax p {
+  margin: 0 !important;
+}
+
+table.syntax tr.examples li {
+  margin: 0 !important;
+}
+
 /*
 === genetic code table
 */
