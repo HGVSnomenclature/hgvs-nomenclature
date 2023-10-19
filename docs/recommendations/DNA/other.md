@@ -6,20 +6,9 @@ No change: a sequence was analysed but no variant was detected. Mosaic: the occu
 
 ## Syntax
 
-<table class="syntax">
-<tr>
-<th>Syntax</th>
-<td><code>sequence_identifier ":" coordinate_type "." position "="</code></td>
-</tr>
-<tr>
-<th>Examples</th>
-<td><code>NC_000001.11:g.123_129=</code></td>
-</tr>
-</table>
-
-- `sequence_identifier` = an identifier for DNA sequence
-- `position` = a single nucleotide position or inclusive range of deleted sequence
-- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.other
+```
 
 ## Notes
 

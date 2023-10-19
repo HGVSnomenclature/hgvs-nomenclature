@@ -6,21 +6,9 @@ Inversion: a sequence change where, compared to a reference sequence, **more tha
 
 ## Syntax
 
-<table class="syntax">
-<tr>
-<th>Syntax</th>
-<td><code>sequence_identifier ":" coordinate_type "." position_range "inv"</code></td>
-</tr>
-<tr>
-<th>Examples</th>
-<td><code>NC_000001.11:g.123_129inv</code></td>
-</tr>
-</table>
-
-- `sequence_identifier` = an identifier for DNA sequence
-- `position_range` = a single nucleotide position or inclusive range of deleted sequence
-- `sequence` = inserted sequences
-- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.inv
+```
 
 ## Notes
 

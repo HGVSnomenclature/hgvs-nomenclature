@@ -6,20 +6,9 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 
 ## Syntax
 
-<table class="syntax">
-<tr>
-<th>Syntax</th>
-<td><code>sequence_identifier ":" coordinate_type "." position_point "ins" sequence</code></td>
-</tr>
-<tr>
-<th>Examples</th>
-<td><code>NC_000001.11:g.123_124insACG</code></td>
-</tr>
-</table>
-
-- `sequence_identifier` = an identifier for DNA sequence
-- `sequence` = inserted sequences
-- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.ins
+```
 
 ## Notes
 

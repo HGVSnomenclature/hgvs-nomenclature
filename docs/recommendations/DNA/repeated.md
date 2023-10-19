@@ -6,32 +6,9 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 
 ## Syntax
 
-<table class="syntax">
-<tr><th class="section" colspan=2>Unique Repeat</th></tr>
-<tr>
-<th>Syntax</th>
-<td><code>sequence_identifier ":" coordinate_type "." position sequence "[" number "]"</code></td>
-</tr>
-<tr>
-<th>Examples</th>
-<td><code>NC_000001.11:g.[123G>A;345del]</code></td>
-</tr>
-
-<tr><th class="section" colspan=2>Mixed Repeat</th></tr>
-<tr>
-<th>Syntax</th>
-<td><code>sequence_identifier ":" coordinate_type "." position sequence "[" number "]" sequence "[" number "]" ... sequence "[" number "]" </code></td>
-</tr>
-<tr>
-<th>Examples</th>
-<td><code>NC_000001.11:g.[123G>A];[345del]</code></td>
-</tr>
-</table>
-
-- `position` = the first (5'-most) nucleotide of the repeat
-- `sequence` = the sequence of the repeat
-- `number` = the number of occurances of the repeat
-- See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.rpt
+```
 
 ## Notes
 
