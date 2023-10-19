@@ -7,11 +7,12 @@ site_name: "HGVS Nomenclature"
 plugins:
   #- autolinks
   - awesome-pages
-  - glightbox
+  # - glightbox
+  - markdown-exec
   #- mermaid2
+  #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
   - search
   - table-reader
-  #- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
   - macros # must be after table-reader
 
 markdown_extensions:

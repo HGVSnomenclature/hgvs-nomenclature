@@ -38,6 +38,14 @@ Allele: a series of variants on one chromosome.
 </tr>
 </table>
 
+<hr/>
+
+Pulled from syntax:
+
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.alleles
+```
+
 - `position_edit` = any g. position-edit, such as [deletion](./deletion.md), [insertion](./insertion.md), or [deletion-insertion](./delins.md)
 - See [explanation of grammar syntax and common grammar elements](../grammar.md) for elaboration
 

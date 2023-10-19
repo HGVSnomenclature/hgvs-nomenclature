@@ -1,4 +1,7 @@
+jinja2
+jmespath
 markdown-captions
+markdown-exec
 mkdocs
 mkdocs-autolinks-plugin
 mkdocs-awesome-pages-plugin
@@ -10,3 +13,4 @@ mkdocs-mermaid2-plugin
 mkdocs-multirepo-plugin
 mkdocs-table-reader-plugin
 pre-commit
+pyyaml
