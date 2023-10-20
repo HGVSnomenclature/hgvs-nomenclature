@@ -26,3 +26,52 @@ dna:
       examples:
         - NC_000001.11:g.[123G>A(;)345del]
         - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+rna:
+  alleles:
+    - name: Variants in <i>cis</i>
+      syntax: sequence_identifier ":" coordinate_type "." "[" first_change ";" second_change "]"
+      examples:
+        - NM_004006.3:r.[123c>a;345del]
+    - name: Variants in <i>trans</i>
+      syntax: sequence_identifier ":" coordinate_type "." "[" first_change "]" ";" "[" second_change "]"
+      examples:
+        - NM_004006.3:r.[123c>a];[345del]
+    - name: Variants with unknown or uncertain phase
+      syntax: sequence_identifier ":" coordinate_type "." "[" first_change "(;)" second_change "]"
+      examples:
+        - NM_004006.3:r.[123c>a(;)345del]
+  deletion:
+    - syntax: sequence_identifier ":" coordinate_type "." position "del"
+      examples:
+        - NM_004006.3:r.123_127del
+  delins:
+    - syntax: sequence_identifier ":" coordinate_type "." position "delins" sequence
+      examples:
+        - NM_004006.3:r.123_127delinsag
+  duplication:
+    - syntax: sequence_identifier ":" coordinate_type "." position "dup"
+      examples:
+        - NM_004006.3:r.123_345dup
+  insertion:
+    - syntax: sequence_identifier ":" coordinate_type "." positions "ins" sequence
+      examples:
+        - NM_004006.3:r.123_124insauc
+  inversion:
+    - syntax: sequence_identifier ":" coordinate_type "." positions "inv"
+      examples:
+        - NM_004006.3:r.123_345inv
+  repeated:
+    - name: Positions only
+      syntax: sequence_identifier ":" coordinate_type "." positions "[" copy_number "]"
+      examples:
+        - NM_004006.3:r.9495_9497[4]
+        - NM_004006.3:r.-110_-108[6]
+    - name: Sequence given
+      syntax: sequence_identifier ":" coordinate_type "." start_position sequence "[" copy_number "]"
+      examples:
+        - NM_004006.3:r.9495caa[4]
+        - NM_004006.3:r.-110gcu[6]
+  substitution:
+    - syntax: sequence_identifier ":" coordinate_type "." position reference_nucleotide ">" new_nucleotide
+      examples:
+        - NM_004006.3:r.123c>g

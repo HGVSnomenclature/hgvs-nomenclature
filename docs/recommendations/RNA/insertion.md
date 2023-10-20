@@ -6,16 +6,9 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 
 ## Syntax
 
-<table class="syntax">
-  <tr>
-    <th>Syntax</th>
-    <td><code>sequence_identifier ":" coordinate_type "." positions "ins" sequence</code></td>
-  </tr>
-  <tr>
-    <th>Examples</th>
-    <td><code>NM_004006.3:r.123_124insauc</code></td>
-  </tr>
-</table>
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml rna.insertion
+```
 
 - <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
 - <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r

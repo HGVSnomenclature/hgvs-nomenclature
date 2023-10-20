@@ -6,16 +6,9 @@ Duplication: a sequence change where, compared to a reference sequence, a copy o
 
 ## Syntax
 
-<table class="syntax">
-  <tr>
-    <th>Syntax</th>
-    <td><code>sequence_identifier ":" coordinate_type "." position "dup"</code></td>
-  </tr>
-  <tr>
-    <th>Examples</th>
-    <td><code>NM_004006.3:r.123_345dup</code></td>
-  </tr>
-</table>
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml rna.duplication
+```
 
 - <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
 - <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
