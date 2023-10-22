@@ -75,3 +75,6 @@ theme:
     code: Roboto Mono
   logo: images/hgvs-logo.png
   favicon: images/hgvs-logo.png
+
+watch:
+  - bin

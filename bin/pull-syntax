@@ -18,7 +18,7 @@ table_template = """<table class="syntax">
   {%- endfor %}
 </table>
 
-See [explanation of grammar syntax and common grammar elements](/recommendations/grammar) for elaboration
+See [explanation of grammar syntax and common grammar elements](../../grammar/) for elaboration
 """
 
 
