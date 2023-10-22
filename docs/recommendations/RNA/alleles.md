@@ -6,35 +6,9 @@ Allele: a series of variants in a transcript from one chromosome.
 
 ## Syntax
 
-<table class="syntax">
-  <tr><th class="section" colspan="2">Variants in <i>cis</i></th></tr>
-  <tr>
-    <th>Syntax</th>
-    <td><code>sequence_identifier ":" coordinate_type "." "[" first_change ";" second_change "]"</code></td>
-  </tr>
-  <tr>
-    <th>Examples</th>
-    <td><code>NM_004006.3:r.[123c>a;345del]</code></td>
-  </tr>
-  <tr><th class="section" colspan="2">Variants in <i>trans</i></th></tr>
-  <tr>
-    <th>Syntax</th>
-    <td><code>sequence_identifier ":" coordinate_type "." "[" first_change "]" ";" "[" second_change "]"</code></td>
-  </tr>
-  <tr>
-    <th>Examples</th>
-    <td><code>NM_004006.3:r.[123c>a];[345del]</code></td>
-  </tr>
-  <tr><th class="section" colspan="2">Variants with unknown or uncertain phase</th></tr>
-  <tr>
-    <th>Syntax</th>
-    <td><code>sequence_identifier ":" coordinate_type "." "[" first_change "(;)" second_change "]"</code></td>
-  </tr>
-  <tr>
-    <th>Examples</th>
-    <td><code>NM_004006.3:r.[123c>a(;)345del]</code></td>
-  </tr>
-</table>
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml rna.alleles
+```
 
 - <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
 - <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r

@@ -1,71 +1,3 @@
-dna:
-  alleles:
-    - name: Variants in <i>cis</i>
-      syntax: accession ":" coordinate_type "." "[" position_edit ";" position_edit "]"
-      examples:
-        - NC_000001.11:g.[123G>A;345del]
-    - name: Variants in <i>trans</i>
-      syntax: accession ":" coordinate_type "." "[" position_edit "]" ";" "[" position_edit "]"
-      examples:
-        - NC_000001.11:g.[123G>A];[345del]
-    - name: Variants with unknown or uncertain phase
-      syntax: accession ":" coordinate_type "." "[" position_edit "(;)" position_edit"]"</code></td>
-      examples:
-        - NC_000001.11:g.[123G>A(;)345del]
-  del:
-    - syntax: accession ":" coordinate_type "." position_or_range "del"
-      examples:
-        - NC_000001.11:g.1234del
-        - NC_000001.11:g.1234_2345del
-  delins:
-    - name: single position
-      syntax: accession ":" coordinate_type "." position "delins" sequence
-      examples:
-        - NC_000001.11:g.123delinsAC
-    - name: position range
-      syntax: accession ":" coordinate_type "." position_range "delins" sequence
-      examples:
-        - NC_000001.11:g.123_129delinsAC
-  dup:
-    - syntax: accession ":" coordinate_type "." position_or_range "dup"
-      examples:
-        - NC_000001.11:g.1234dup
-        - NC_000001.11:g.1234_2345dup
-  ins:
-    - syntax: sequence_identifier ":" coordinate_type "." position_range "ins" sequence
-      examples:
-        - NC_000001.11:g.1234_1235insACGT
-      notes:
-        - The range must be specified using adjacent positions
-  inv:
-    - syntax: accession ":" coordinate_type "." position_range "dup"
-      examples:
-        - NC_000001.11:g.1234_2345inv
-  other:
-    - syntax: accession ":" coordinate_type "." position_or_range "="
-      examples:
-        - NC_000001.11:g.1234=
-        - NC_000001.11:g.1234_2345=
-  rpt:
-    - name: Unique Repeat
-      syntax: sequence_identifier ":" coordinate_type "." position sequence "[" copy_number "]"
-      examples:
-        - NC_000014.8:g.123CAG[23]
-    - name: Mixed Repeat
-      syntax: sequence_identifier ":" coordinate_type "." position sequence "[" copy_number "]" sequence "[" copy_number "]" ... sequence "[" copy_number "]"
-      examples:
-        - NC_000014.8:g.123_191CAG[19]CAA[4]
-
-  sub:
-    - name: Simple sequence substitution
-      syntax: sequence_identifier ":" coordinate_type "." position alternate_aa
-      examples:
-        - NC_000023.10:g.33038255C>A
-    - name: Genome reference with coordinates from aligned transcript
-      syntax: sequence_identifier "(" transcript_identifier "):c." c_position base ">" alt_base
-      examples:
-        - NG_012232.1(NM_004006.2):c.93+1G>T
-
 aa:
   alleles:
     - name: Variants in <i>cis</i>
@@ -149,4 +81,122 @@ aa:
   sub:
     - syntax: sequence_identifier ":" coordinate_type "." aa_position alternate_aa
       examples:
-        -
+        - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+
+dna:
+  alleles:
+    - name: Variants in <i>cis</i>
+      syntax: accession ":" coordinate_type "." "[" position_edit ";" position_edit "]"
+      examples:
+        - NC_000001.11:g.[123G>A;345del]
+    - name: Variants in <i>trans</i>
+      syntax: accession ":" coordinate_type "." "[" position_edit "]" ";" "[" position_edit "]"
+      examples:
+        - NC_000001.11:g.[123G>A];[345del]
+    - name: Variants with unknown or uncertain phase
+      syntax: accession ":" coordinate_type "." "[" position_edit "(;)" position_edit"]"</code></td>
+      examples:
+        - NC_000001.11:g.[123G>A(;)345del]
+  del:
+    - syntax: accession ":" coordinate_type "." position_or_range "del"
+      examples:
+        - NC_000001.11:g.1234del
+        - NC_000001.11:g.1234_2345del
+  delins:
+    - name: single position
+      syntax: accession ":" coordinate_type "." position "delins" sequence
+      examples:
+        - NC_000001.11:g.123delinsAC
+    - name: position range
+      syntax: accession ":" coordinate_type "." position_range "delins" sequence
+      examples:
+        - NC_000001.11:g.123_129delinsAC
+  dup:
+    - syntax: accession ":" coordinate_type "." position_or_range "dup"
+      examples:
+        - NC_000001.11:g.1234dup
+        - NC_000001.11:g.1234_2345dup
+  ins:
+    - syntax: sequence_identifier ":" coordinate_type "." position_range "ins" sequence
+      examples:
+        - NC_000001.11:g.1234_1235insACGT
+      notes:
+        - The range must be specified using adjacent positions
+  inv:
+    - syntax: accession ":" coordinate_type "." position_range "dup"
+      examples:
+        - NC_000001.11:g.1234_2345inv
+  other:
+    - syntax: accession ":" coordinate_type "." position_or_range "="
+      examples:
+        - NC_000001.11:g.1234=
+        - NC_000001.11:g.1234_2345=
+  rpt:
+    - name: Unique Repeat
+      syntax: sequence_identifier ":" coordinate_type "." position sequence "[" copy_number "]"
+      examples:
+        - NC_000014.8:g.123CAG[23]
+    - name: Mixed Repeat
+      syntax: sequence_identifier ":" coordinate_type "." position sequence "[" copy_number "]" sequence "[" copy_number "]" ... sequence "[" copy_number "]"
+      examples:
+        - NC_000014.8:g.123_191CAG[19]CAA[4]
+
+  sub:
+    - name: Simple sequence substitution
+      syntax: sequence_identifier ":" coordinate_type "." position alternate_aa
+      examples:
+        - NC_000023.10:g.33038255C>A
+    - name: Genome reference with coordinates from aligned transcript
+      syntax: sequence_identifier "(" transcript_identifier "):c." c_position base ">" alt_base
+      examples:
+        - NG_012232.1(NM_004006.2):c.93+1G>T
+
+rna:
+  alleles:
+    - name: Variants in <i>cis</i>
+      syntax: sequence_identifier ":" coordinate_type "." "[" first_change ";" second_change "]"
+      examples:
+        - NM_004006.3:r.[123c>a;345del]
+    - name: Variants in <i>trans</i>
+      syntax: sequence_identifier ":" coordinate_type "." "[" first_change "]" ";" "[" second_change "]"
+      examples:
+        - NM_004006.3:r.[123c>a];[345del]
+    - name: Variants with unknown or uncertain phase
+      syntax: sequence_identifier ":" coordinate_type "." "[" first_change "(;)" second_change "]"
+      examples:
+        - NM_004006.3:r.[123c>a(;)345del]
+  deletion:
+    - syntax: sequence_identifier ":" coordinate_type "." position "del"
+      examples:
+        - NM_004006.3:r.123_127del
+  delins:
+    - syntax: sequence_identifier ":" coordinate_type "." position "delins" sequence
+      examples:
+        - NM_004006.3:r.123_127delinsag
+  duplication:
+    - syntax: sequence_identifier ":" coordinate_type "." position "dup"
+      examples:
+        - NM_004006.3:r.123_345dup
+  insertion:
+    - syntax: sequence_identifier ":" coordinate_type "." positions "ins" sequence
+      examples:
+        - NM_004006.3:r.123_124insauc
+  inversion:
+    - syntax: sequence_identifier ":" coordinate_type "." positions "inv"
+      examples:
+        - NM_004006.3:r.123_345inv
+  repeated:
+    - name: Positions only
+      syntax: sequence_identifier ":" coordinate_type "." positions "[" copy_number "]"
+      examples:
+        - NM_004006.3:r.9495_9497[4]
+        - NM_004006.3:r.-110_-108[6]
+    - name: Sequence given
+      syntax: sequence_identifier ":" coordinate_type "." start_position sequence "[" copy_number "]"
+      examples:
+        - NM_004006.3:r.9495caa[4]
+        - NM_004006.3:r.-110gcu[6]
+  substitution:
+    - syntax: sequence_identifier ":" coordinate_type "." position reference_nucleotide ">" new_nucleotide
+      examples:
+        - NM_004006.3:r.123c>g

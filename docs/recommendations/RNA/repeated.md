@@ -6,26 +6,9 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 
 ## Syntax
 
-<table class="syntax">
-  <tr><th class="section" colspan="2">Positions only</th></tr>
-  <tr>
-    <th>Syntax</th>
-    <td><code>sequence_identifier ":" coordinate_type "." positions "[" copy_number "]"</code></td>
-  </tr>
-  <tr>
-    <th>Examples</th>
-    <td><code>NM_004006.3:r.9495_9497[4]</code><br><code>NM_004006.3:r.-110_-108[6]</code></td>
-  </tr>
-  <tr><th class="section" colspan="2">Sequence given</th></tr>
-  <tr>
-    <th>Syntax</th>
-    <td><code>sequence_identifier ":" coordinate_type "." start_position sequence "[" copy_number "]"</code></td>
-  </tr>
-  <tr>
-    <th>Examples</th>
-    <td><code>NM_004006.3:r.9495caa[4]</code><br><code>NM_004006.3:r.-110gcu[6]</code></td>
-  </tr>
-</table>
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml rna.repeated
+```
 
 - <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
 - <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
