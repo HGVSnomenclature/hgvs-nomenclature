@@ -65,7 +65,6 @@ aa:
         - NP_01234.5:p.Arg97ProfsTer23
       notes:
         - Specifying the termination position is optional
-
   ins:
     - syntax: sequence_identifier ":" coordinate_type "." aa_position_range "ins" sequence
       examples:
@@ -121,7 +120,7 @@ dna:
       examples:
         - NC_000001.11:g.1234_1235insACGT
       notes:
-        - The range must be specified using adjacent positions
+        - "`position_range` must be specified using adjacent positions"
   inv:
     - syntax: accession ":" coordinate_type "." position_range "dup"
       examples:
@@ -140,14 +139,13 @@ dna:
       syntax: sequence_identifier ":" coordinate_type "." position sequence "[" copy_number "]" sequence "[" copy_number "]" ... sequence "[" copy_number "]"
       examples:
         - NC_000014.8:g.123_191CAG[19]CAA[4]
-
   sub:
     - name: Simple sequence substitution
-      syntax: sequence_identifier ":" coordinate_type "." position alternate_aa
+      syntax: sequence_identifier ":" coordinate_type "." position base ">" alternate_base
       examples:
         - NC_000023.10:g.33038255C>A
     - name: Genome reference with coordinates from aligned transcript
-      syntax: sequence_identifier "(" transcript_identifier "):c." c_position base ">" alt_base
+      syntax: sequence_identifier "(" transcript_identifier "):c." c_position base ">" alternate_base
       examples:
         - NG_012232.1(NM_004006.2):c.93+1G>T
 
