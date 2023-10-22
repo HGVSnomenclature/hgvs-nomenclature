@@ -4,11 +4,11 @@
 
 Deletion: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, one or more amino acids are not present (deleted)
 
-## Description
+## Syntax
 
-Format: **"prefix""amino_acid(s)+position(s)\_deleted""del"**, e.g. p.(Cys76_Glu79del)
-
-**"prefix"** = reference sequence used = p. **"amino_acid(s)+position(s)\_deleted"** = amino acid with position or range (first amino acid with position to last amino acids with position) deleted = Cys76_Glu79 **"del"** = type of change is a deletion = del
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml aa.del
+```
 
 ## Notes
 

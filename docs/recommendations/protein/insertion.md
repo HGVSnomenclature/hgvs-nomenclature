@@ -4,11 +4,11 @@
 
 Insertion: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to the reference sequence, one or more amino acids are inserted, which is not a frame shift and where the insertion is not a copy of a sequence immediately N-terminal (5')
 
-## Description
+## Syntax
 
-Format: **"prefix""amino_acids+positions_flanking""ins""inserted_sequence"**, e.g. p.(Lys23_Leu24insArgSerGln)
-
-**"prefix"** = reference sequence used = p. **"amino_acids+positions_flanking"** = amino acids with position flanking insertion site = Lys23_Leu24 **"ins"** = type of change is an insertion = ins **"inserted_sequence"** = inserted sequence = ArgSerGln
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml aa.ins
+```
 
 ## Notes
 

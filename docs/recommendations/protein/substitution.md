@@ -4,11 +4,11 @@
 
 Substitution: a sequence change where, compared to a reference sequence, **one** amino acid is replaced by **one** other amino acid.
 
-## Description
+## Syntax
 
-Format: **"prefix""amino_acid""position""new_amino_acid"**, e.g. p.(Arg54Ser)
-
-**"prefix"** = reference sequence used = p. **"amino_acid"** = reference amino acid = Arg **"position"** = position amino acid subtituted = 54 **"new_amino_acid"** = new amino acid = Ser
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml aa.sub
+```
 
 ## Notes
 

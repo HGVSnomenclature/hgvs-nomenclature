@@ -1,18 +1,15 @@
 dna:
   alleles:
     - name: Variants in <i>cis</i>
-      syntax: accession ":" type "." "[" posedit ";" posedit "]"
-      notes:
-        - This is a note
-        - "`grammarelement` needs to be quoted"
+      syntax: accession ":" coordinate_type "." "[" position_edit ";" position_edit "]"
       examples:
         - NC_000001.11:g.[123G>A;345del]
     - name: Variants in <i>trans</i>
-      syntax: accession ":" type "." "[" posedit "]" ";" "[" posedit "]"
+      syntax: accession ":" coordinate_type "." "[" position_edit "]" ";" "[" position_edit "]"
       examples:
         - NC_000001.11:g.[123G>A];[345del]
     - name: Variants with unknown or uncertain phase
-      syntax: accession ":" type "." "[" posedit "(;)" posedit"]"</code></td>
+      syntax: accession ":" coordinate_type "." "[" position_edit "(;)" position_edit"]"</code></td>
       examples:
         - NC_000001.11:g.[123G>A(;)345del]
   del:

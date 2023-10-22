@@ -4,11 +4,11 @@
 
 Deletion-Insertion (delins): a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, one or more amino acids are replaced with one or more other amino acids and which is not a substitution, frame shift or conversion.
 
-## Description
+## Syntax
 
-Format: **"prefix""amino_acid(s)+position(s)\_deleted""delins""inserted_sequence"**, e.g. p.(Arg123_Lys127delinsSerAsp)
-
-**"prefix"** = reference sequence used = p. **"amino_acid(s)+position(s)\_deleted"** = position amino acid or range of amino acids deleted = Arg123_Lys127 **"delins"** = type of change is a deletion-insertion = delins **"inserted_sequence"** = description inserted sequence = SerAsp
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml aa.delins
+```
 
 ## Notes
 

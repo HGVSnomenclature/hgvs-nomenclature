@@ -4,11 +4,11 @@
 
 Frame shift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame.
 
-## Description
+## Syntax
 
-Format: **"prefix""amino_acid"position"new_amino_acid""fs""Ter""position_termination_site"**, e.g. p.(Arg123LysfsTer34)
-
-**"prefix"** = reference sequence used = p. **"amino_acid"** = first amino acid changed = Arg **"position"** = position = 123 **"new_amino_acid"** = new amino acid = Lys **"fs"** = type of change is a frame shift = fs **"Ter"** = termination codon = Ter / \* **"position_termination_site"** = position new termination site = 34
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml aa.fs
+```
 
 ## Notes
 
