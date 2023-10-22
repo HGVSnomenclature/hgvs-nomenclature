@@ -4,11 +4,23 @@
 
 Deletion: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
 
-## Description
+## Syntax
 
-Format: **"prefix""position(s)\_deleted""del"**, e.g. r.123_127del
+<table class="syntax">
+  <tr>
+    <th>Syntax</th>
+    <td><code>sequence_identifier ":" coordinate_type "." position "del"</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.123_127del</code></td>
+  </tr>
+</table>
 
-**"prefix"** = reference sequence used = r. **"position(s)\_deleted"** = position nucleotide or range of nucleotides deleted = 123_127 **"del"** = type of change is a deletion = del †
+- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
+- <code>position</code> = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
+- <code>"del"</code> = the type of change, a deletion †
 
 ## Notes
 

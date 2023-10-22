@@ -4,24 +4,37 @@
 
 Repeated sequence: a sequence where, compared to a reference sequence, a segment of **one or more** nucleotides (the repeat unit) is present several times, one after the other.
 
-## Description
+## Syntax
 
-Format (repeat position): **"prefix""position_repeat_unit""[""copy_number""]"**, e.g. r.-125\_-123[12]
+<table class="syntax">
+  <tr><th class="section" colspan="2">Positions only</th></tr>
+  <tr>
+    <th>Syntax</th>
+    <td><code>sequence_identifier ":" coordinate_type "." positions "[" copy_number "]"</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.9495_9497[4]</code><br><code>NM_004006.3:r.-110_-108[6]</code></td>
+  </tr>
+  <tr><th class="section" colspan="2">Sequence given</th></tr>
+  <tr>
+    <th>Syntax</th>
+    <td><code>sequence_identifier ":" coordinate_type "." start_position sequence "[" copy_number "]"</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.9495caa[4]</code><br><code>NM_004006.3:r.-110gcu[6]</code></td>
+  </tr>
+</table>
 
-- **"prefix"** = reference sequence used = r.
-- **"position_repeat_unit"** = position (range) first repeat unit = -125\_-123
-- **[** = opening symbol for allele = [
-- **"copy_number"** = number of repeat copy = 12
-- **]** = closing symbol for allele = ]
-
-Format (sequence): **"prefix""position_repeat_start""repeat_sequence""[""copy_number""]"**, e.g. r.-125cug[12]
-
-- **"prefix"** = reference sequence used = r.
-- **"position_repeat_start"** = position first nucleotide repeat unit = -125
-- **"repeat_sequence"** = nucleotide sequence repeat unit = ggc
-- **[** = opening symbol for allele = [
-- **"copy_number"** = number of repeat copy = 12
-- **]** = closing symbol for allele = ]
+- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
+- <code>positions</code> = the range of nucleotides of the first repeat unit; 9495_9497
+- <code>start_position</code> = the position of the first nucleotide of the repeat; 9495
+- <code>sequence</code> = the RNA sequence of one repeat unit; caa
+- <code>"["</code> = the opening symbol for an allele description
+- <code>copy_number</code> = the observed number of repeats
+- <code>"]"</code> = the closing symbol for an allele description
 
 ## Notes
 

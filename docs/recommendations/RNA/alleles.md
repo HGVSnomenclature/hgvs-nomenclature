@@ -4,25 +4,46 @@
 
 Allele: a series of variants in a transcript from one chromosome.
 
-## Description
+## Syntax
 
-Format (one allele): **"prefix"["change1";"change2"]**, e.g. r.[123g>a;345del]
+<table class="syntax">
+  <tr><th class="section" colspan="2">Variants in <i>cis</i></th></tr>
+  <tr>
+    <th>Syntax</th>
+    <td><code>sequence_identifier ":" coordinate_type "." "[" first_change ";" second_change "]"</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.[123c>a;345del]</code></td>
+  </tr>
+  <tr><th class="section" colspan="2">Variants in <i>trans</i></th></tr>
+  <tr>
+    <th>Syntax</th>
+    <td><code>sequence_identifier ":" coordinate_type "." "[" first_change "]" ";" "[" second_change "]"</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.[123c>a];[345del]</code></td>
+  </tr>
+  <tr><th class="section" colspan="2">Variants with unknown or uncertain phase</th></tr>
+  <tr>
+    <th>Syntax</th>
+    <td><code>sequence_identifier ":" coordinate_type "." "[" first_change "(;)" second_change "]"</code></td>
+  </tr>
+  <tr>
+    <th>Examples</th>
+    <td><code>NM_004006.3:r.[123c>a(;)345del]</code></td>
+  </tr>
+</table>
 
-- **"prefix"** = reference sequence used = r.
-- **[** = opening symbol for allele = [
-- **"change1"** = description first variant = 123g>a
-- **;** = separator symbol two changes = ;
-- **"change2"** = description second variant = 345del
-- **]** = closing symbol for allele = ]
-
-Format (two alleles): **"prefix"["change"];["change"]**, e.g. r.[123g>a];[345del]
-
-- **"prefix"** = reference sequence used = r.
-- **[** = opening symbol for allele-1 = [
-- **"change"** = description variant = 123g>a
-- **];[** = closing symbol for allele-1, separator symbol two alleles, opening symbol for allele-2 = ];[
-- **"change"** = description variant = 345del
-- **]** = closing symbol for allele-2 = ]
+- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
+- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
+- <code>first_change</code> = the description of the first variant; 123c>a
+- <code>second_change</code> = the description of the second variant; 345del
+- <code>"["</code> = the opening symbol for an allele description
+- <code>";"</code> = the separator symbol between two changes or two alleles
+- <code>"(;)"</code> = the separator symbol between two changes if it's unknown if they are located in the same allele
+- <code>"]"</code> = the closing symbol for an allele description
 
 ## Notes
 
