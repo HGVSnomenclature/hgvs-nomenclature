@@ -12,7 +12,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.delins
 
 ## Notes
 
-- **prefix** reference sequences accepted are `g.,` `m.,` c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
+- The `coordinate_type` must be one of `g.,` `m.,` c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 - by definition, when **one** nucleotide is replaced by **one** other nucleotide the change is a [substitution](substitution.md).
 - changes involving two or more consecutive nucleotides are described as deletion/insertion (delins) variants
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins"

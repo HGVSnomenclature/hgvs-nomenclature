@@ -13,7 +13,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.sub
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and protein level may be given in addition
-- **prefix** reference sequence accepted is "p." (protein)
+- The `coordinate_type` must be "p." (protein)
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg727Ser)
 - a **nonsense** variant, a variant changing an amino acid to a translation termination (stop) codon, is described as a **substitution** : **NOTE**: a nonsense variant is not described as a [Deletion](deletion.md) of the C-terminal end of the protein (e.g. p.Trp26*Arg1623del) * variants which introduce an **immediate** translation termination (stop) codon are described as nonsense variant \_ **NOTE**: not p.Tyr4TerfsTer1 but p.Tyr4Ter (or p.Tyr4*), not p.Tyr4_Cys5insTerGluAsp but p.Tyr4Ter (or p.Tyr4*), not p.Cys5_Ser6delinsTerGluAsp but p.Tyr4Ter (or p.Tyr4\*)
 - a **no-stop** variant, a variant changing the translation termination codon into an amino acid codon, is described as a **extension** ([Extension](extension.md))

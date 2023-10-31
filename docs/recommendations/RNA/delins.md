@@ -19,7 +19,7 @@ bin/pull-syntax -f docs/syntax.yaml rna.delins
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition.
-- **prefix** reference sequences accepted are r. (coding and non-coding RNA).
+- The `coordinate_type` must be one of r. (coding and non-coding RNA).
 - by definition, when **one** nucleotide is replaced by **one** other nucleotide the change is a [substitution](substitution.md).
 - two variants separated by one or more nucleotides should preferably be described individually and **not** as a "delins"
   - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. `r.142_144delinsugg` `p.(Arg48Trp)`). **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position.

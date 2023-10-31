@@ -13,7 +13,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.ext
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- **prefix** reference sequence accepted is "p." (protein).
+- The `coordinate_type` must be "p." (protein).
 - **extension** variants have been accepted on <code class="spot1">2012-08-31</code>.
 - **predicted consequences**, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Ter110GlnextTer17) or p.(\*110Glnext\*17).
 - variants affecting the translation initiation site (Met1) activating an upstream (N-terminal) translation initiation site are described as [deletion-insertion](delins.md), those activating a downstream (C-terminal) initiation site as a [deletion](deletion.md).

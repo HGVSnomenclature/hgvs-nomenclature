@@ -13,7 +13,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.fs
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- **prefix** reference sequence accepted is "p." (protein).
+- The `coordinate_type` must be "p." (protein).
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. p.(Arg123LysfsTer34).
 - for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 - frame shifts are a special type of amino acid **deletion/insertion** which, by definition, do not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon), like "Arg123_Leu833del", nor the amino acid sequence inserted.
