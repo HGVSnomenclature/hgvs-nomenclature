@@ -76,10 +76,10 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
 
     - haplotype with all variants in relation to several different reference sequences, both genomic and coding DNA
         - description of the reference haplotype; `[M59228.1:g.250G>C;AF209160.1:g.572CA[(11_21)];Z11861.1:g.61T>C;Z16803.1:g.114A[(18_22)]]`
-        - short haplotype description; [C;13;T;21]
+        - short haplotype description; `[C;13;T;21]`
     - haplotype with all variants in relation to one coding DNA reference sequence
         - description of the reference haplotype; `NM_004006.1:c.[837G>A;1704+51T>C;3734C>T;6438+2669T[(16_23)];6571C>T;7098+13212GT[(15_19)]]`
-        - short haplotype description; [G;C;C;18;T;17]
+        - short haplotype description; `[G;C;C;18;T;17]`
 
 !!! note "Suggestion (Peter Taschner, Leiden)"
 

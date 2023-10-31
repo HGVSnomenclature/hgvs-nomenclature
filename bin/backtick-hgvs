@@ -1,0 +1,11 @@
+#!/bin/bash
+# wrap HGVS expressions in backticks
+# this script is intended to get the easy cases. Humans will need to intervene.
+
+perl -i -p0 \
+    -e 's/(\s)((?:N[MCR]_.+?|)[cgmrn]\.\S+)/\1`\2`/g;' \
+    -e 's/([^cgmrnp])\.`/\1`./g;' \
+    -e 's/:`/`:/g;' \
+    -e 's/\(p\.[^)]+\)/`$&`/g;' \
+    -e 's/\\_/_/g;' \
+    $@
