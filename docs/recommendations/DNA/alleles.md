@@ -12,7 +12,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
 
 ## Notes
 
-- Do not assert reference agreement for in allele experssions. For example, <code class="invalid">LRG_199t1:c.[2376G>C;3103=];[2376=;3103del]</code> is invalid.
+- Do not assert reference agreement for in allele expressions. For example, <code class="invalid">LRG_199t1:c.[2376G>C;3103=];[2376=;3103del]</code> is invalid.
 - Alleles must use the same reference sequence types. For example, <code class="invalid"><code
   class="spot1">c.</code>`[76A>C];`<code class="spot1">g.</code>`[10091C>G]`</code> is not permitted.
 

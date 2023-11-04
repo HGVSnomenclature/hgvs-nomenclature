@@ -1,7 +1,18 @@
 element_descriptions:
   # global map of <element, description> used when a particular form does not define an element
   # element are rendered in <code>...</code>; descriptions are rendered as markdown
+  alternate_sequence: The new sequence that will occur at the specified position in the given sequence_identifier
+  coordinate_type: The type of molecule and coordinate system; See [general](../../general/)
+  position_edit: A string that concatenates a position and edit, such as `2376=`, `2376_2399dup`, or `2376_2377insGT`.
+  position_or_range: The `position` OR `range`
+  position: a position specified as a simple ordinal sequence position
+  range: A start and end pair of integers specifying a contiguous span of sequence.  Ranges are inclusive for all variant types except insertions, which for which ranges are exclusive.
+  reference_sequence: The sequence at the specified position in the given sequence_indentifier
   sequence_identifier: an identifier for a sequence from a recognized database
+  sequence: DNA, RNA, or AA sequence
+  total_copy_number: The total number of sequence copies in a repeat
+  transcript_identifier: An identfier for a transcript in a recognized database; a transcript implies a specific sequence, exon structure, and, for coding transcripts, CDS start and end positions.
+  transcript_position: A position specified as simple ordinal sequence position OR as an offset from an exon boundary (e.g., 22+7 or 56-3).
 
 aa:
   alleles:
@@ -138,7 +149,7 @@ dna:
         examples:
           - NC_000001.11:g.123delinsAC
       - name: position range
-        syntax: sequence_identifier ":" coordinate_type "." position_range "delins" sequence
+        syntax: sequence_identifier ":" coordinate_type "." range "delins" sequence
         examples:
           - NC_000001.11:g.123_129delinsAC
   dup:
@@ -151,15 +162,15 @@ dna:
   ins:
     elements:
     forms:
-      - syntax: sequence_identifier ":" coordinate_type "." position_range "ins" sequence
+      - syntax: sequence_identifier ":" coordinate_type "." range "ins" sequence
         examples:
           - NC_000001.11:g.1234_1235insACGT
         notes:
-          - "`position_range` must be specified using adjacent positions"
+          - "`range` must be specified using adjacent positions"
   inv:
     elements:
     forms:
-      - syntax: sequence_identifier ":" coordinate_type "." position_range "dup"
+      - syntax: sequence_identifier ":" coordinate_type "." range "dup"
         examples:
           - NC_000001.11:g.1234_2345inv
   other:
@@ -173,22 +184,22 @@ dna:
     elements:
     forms:
       - name: Unique Repeat
-        syntax: sequence_identifier ":" coordinate_type "." position sequence "[" copy_number "]"
+        syntax: sequence_identifier ":" coordinate_type "." position sequence "[" total_copy_number "]"
         examples:
           - NC_000014.8:g.123CAG[23]
       - name: Mixed Repeat
-        syntax: sequence_identifier ":" coordinate_type "." position sequence "[" copy_number "]" sequence "[" copy_number "]" ... sequence "[" copy_number "]"
+        syntax: sequence_identifier ":" coordinate_type "." position sequence "[" total_copy_number "]" sequence "[" total_copy_number "]" … sequence "[" total_copy_number "]"
         examples:
           - NC_000014.8:g.123_191CAG[19]CAA[4]
   sub:
     elements:
     forms:
       - name: Simple sequence substitution
-        syntax: sequence_identifier ":" coordinate_type "." position base ">" alternate_base
+        syntax: sequence_identifier ":" coordinate_type "." position reference_sequence ">" alternate_sequence
         examples:
           - NC_000023.10:g.33038255C>A
       - name: Genome reference with coordinates from aligned transcript
-        syntax: sequence_identifier "(" transcript_identifier "):c." c_position base ">" alternate_base
+        syntax: sequence_identifier "(" transcript_identifier "):c." transcript_position reference_sequence ">" alternate_sequence
         examples:
           - NG_012232.1(NM_004006.2):c.93+1G>T
 

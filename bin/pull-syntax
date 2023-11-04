@@ -85,7 +85,8 @@ if __name__ == "__main__":
       f["syntax"] = merge_literals(f["syntax"])
 
   element_descriptions = syntax_data["elements"] or {}
-  used_elements = sorted(set(en for f in forms for en in extract_elements(f["syntax"])))
+  used_elements = set(en for f in forms for en in extract_elements(f["syntax"]))
+  used_elements.discard("…")
 
   for e in used_elements:
     if e not in element_descriptions:
