@@ -10,13 +10,6 @@ Substitution: a sequence change where, compared to a reference sequence, **one**
 bin/pull-syntax -f docs/syntax.yaml rna.substitution
 ```
 
-- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
-- <code>position</code> = the position of the nucleotide substituted; 123
-- <code>reference_nucleotide</code> = the nucleotide at this position in the reference sequence; c
-- <code>">"</code> = the type of change, a substitution
-- <code>new_nucleotide</code> = the nucleotide substituting the existing one; g
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition

@@ -10,12 +10,6 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 bin/pull-syntax -f docs/syntax.yaml rna.delins
 ```
 
-- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
-- <code>position</code> = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
-- <code>"delins"</code> = the type of change, a deletion-insertion
-- <code>sequence</code> = the RNA sequence that is inserted; ag
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition.

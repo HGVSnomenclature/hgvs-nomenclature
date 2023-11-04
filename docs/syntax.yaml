@@ -219,36 +219,67 @@ rna:
           - NM_004006.3:r.[123c>a(;)345del]
   deletion:
     elements:
+      sequence_identifier: the sequence identifier used; NM_004006.3
+      coordinate_type: the coordinate type, indicating the type of numbering used; r
+      position: the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." position "del"
         examples:
           - NM_004006.3:r.123_127del
   delins:
     elements:
+      sequence_identifier: the sequence identifier used; NM_004006.3
+      coordinate_type: the coordinate type, indicating the type of numbering used; r
+      position: the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
+      "delins": the type of change, a deletion-insertion
+      sequence: the RNA sequence that is inserted; ag
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." position "delins" sequence
         examples:
           - NM_004006.3:r.123_127delinsag
   duplication:
     elements:
+      sequence_identifier: the sequence identifier used; NM_004006.3
+      coordinate_type: the coordinate type, indicating the type of numbering used; r
+      position: the position of the nucleotide, or range of nucleotides, that is duplicated; 123_345
+      "dup": the type of change, a duplication
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." position "dup"
         examples:
           - NM_004006.3:r.123_345dup
   insertion:
     elements:
+      sequence_identifier: the sequence identifier used; NM_004006.3
+      coordinate_type: the coordinate type, indicating the type of numbering used; r
+      positions: the positions of the two nucleotides flanking the insertion site; 123_124
+      "ins": the type of change, an insertion
+      sequence: the RNA sequence that is inserted; auc †
+
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." positions "ins" sequence
         examples:
           - NM_004006.3:r.123_124insauc
   inversion:
     elements:
+      sequence_identifier: the sequence identifier used; NM_004006.3
+      coordinate_type: the coordinate type, indicating the type of numbering used; r
+      positions: the range of nucleotides that is inverted; 123_345
+      # "inv": the type of change, an inversion
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." positions "inv"
         examples:
           - NM_004006.3:r.123_345inv
   repeated:
     elements:
+      sequence_identifier: the sequence identifier used; `NM_004006.3`
+      coordinate_type: the coordinate type, indicating the type of numbering used; `r`
+      positions: the range of nucleotides of the first repeat unit; `9495_9497`
+      start_position: the position of the first nucleotide of the repeat; `9495`
+      sequence: the RNA sequence of one repeat unit; `caa`
+      # "[": the opening symbol for an allele description
+      copy_number: the observed number of repeats
+      # "]": the closing symbol for an allele description
+
     forms:
       - name: Positions only
         syntax: sequence_identifier ":" coordinate_type "." positions "[" copy_number "]"
@@ -262,6 +293,13 @@ rna:
           - NM_004006.3:r.-110gcu[6]
   substitution:
     elements:
+      sequence_identifier: the sequence identifier used; NM_004006.3
+      coordinate_type: the coordinate type, indicating the type of numbering used; r
+      position: the position of the nucleotide substituted; 123
+      reference_nucleotide: the nucleotide at this position in the reference sequence; c
+      # ">": the type of change, a substitution
+      new_nucleotide: the nucleotide substituting the existing one; g
+
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." position reference_nucleotide ">" new_nucleotide
         examples:
