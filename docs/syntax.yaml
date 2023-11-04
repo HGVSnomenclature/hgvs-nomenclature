@@ -1,3 +1,7 @@
+elements:
+  sequence_identifier:
+    description: an identifier for a sequence from a recognized database
+
 aa:
   alleles:
     - name: Variants in <i>cis</i>

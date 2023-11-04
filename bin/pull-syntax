@@ -3,9 +3,11 @@
 
 import argparse
 
+import itertools
 import jinja2
 import jmespath
 import markdown
+import re
 import yaml
 
 
@@ -16,9 +18,17 @@ table_template = """<table class="syntax">
     {% if sdata["notes"] %}<tr><th></th> <td><ul>{% for n in sdata["notes"] %}<li>{{n|markdown}}</li>{% endfor %}</ul></td></tr>{% endif %}
     <tr class="examples"><th>Examples</th> <td><ul>{% for ex in sdata["examples"] %}<li><code>{{ex}}</code>{% endfor %}</ul></td> </tr>
   {%- endfor %}
+
+  <tr><th class="section" colspan=2>Syntax Explanation</th></tr>
+  <tr><td colspan=2 style="padding-left: 30px;"><ul>
+    {% for element, description in element_descriptions.items() %}
+    <li><code>{{element}}</code>: {{description}}</li>
+    {% endfor %}
+    </ul>
+    See <a href="../../grammar/">explanation of grammar syntax</a> for help understanding this syntax
+  </td></tr>
 </table>
 
-See [explanation of grammar syntax and common grammar elements](../../grammar/) for elaboration
 """
 
 
@@ -29,6 +39,11 @@ def parse_args(args = None):
   opts = ap.parse_args(args=args)
   return opts
 
+def extract_elements(syntax: str) -> list:
+  """extracts unquoted elements in order from syntax string, perhaps with dups"""
+  syntax_wo_quoted_elems = re.sub(r'"[^"]+"', "", syntax)
+  elements = syntax_wo_quoted_elems.split()
+  return elements
 
 if __name__ == "__main__":
   md = markdown.Markdown()
@@ -41,7 +56,13 @@ if __name__ == "__main__":
 
   all_syntax_data = yaml.safe_load(open(opts.syntax_file))
   path_ex = jmespath.compile(opts.ELEMENT)
-  syntax_data = path_ex.search(all_syntax_data)
+  syntax_data = list(path_ex.search(all_syntax_data))
   if not syntax_data:
     raise RuntimeError(f"{opts.ELEMENT} not defined in {opts.syntax_file}")
-  print(env.from_string(table_template).render(syntax_data=syntax_data))
+
+  all_elements = sorted(set(itertools.chain.from_iterable(extract_elements(sd["syntax"]) for sd in syntax_data)))
+  elements_data = all_syntax_data["elements"]
+  element_descriptions = {e: (elements_data[e]["description"] if e in elements_data else "") for e in all_elements}
+
+  print(env.from_string(table_template).render(
+    syntax_data=syntax_data, element_descriptions=element_descriptions))
