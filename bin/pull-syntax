@@ -2,30 +2,34 @@
 """extract one syntax definition from yaml file, as html table"""
 
 import argparse
+import logging
+import os
+import re
+import sys
 
-import itertools
 import jinja2
 import jmespath
 import markdown
-import re
 import yaml
 
 
+_logger = logging.getLogger()
+
 table_template = """<table class="syntax">
-  {%- for sdata in syntax_data %}
-    {% if sdata["name"] %}<tr><th class="section" colspan=2>{{sdata["name"]}}</th></tr>{% endif %}
-    <tr><th>Syntax</th> <td><code>{{sdata["syntax"]}}</code></td> </tr>
-    {% if sdata["notes"] %}<tr><th></th> <td><ul>{% for n in sdata["notes"] %}<li>{{n|markdown}}</li>{% endfor %}</ul></td></tr>{% endif %}
-    <tr class="examples"><th>Examples</th> <td><ul>{% for ex in sdata["examples"] %}<li><code>{{ex}}</code>{% endfor %}</ul></td> </tr>
+  {% for form in forms %}
+    {% if form["name"] %}<tr><th class="section" colspan=2>{{form["name"]}}</th></tr>{% endif %}
+    <tr><th>Syntax</th> <td><code>{{form["syntax"]}}</code></td> </tr>
+    {% if form["notes"] %}<tr><th></th> <td><ul>{% for n in form["notes"] %}<li>{{n|markdown}}</li>{% endfor %}</ul></td></tr>{% endif %}
+    <tr class="examples"><th>Examples</th> <td><ul>{% for ex in form["examples"] %}<li><code>{{ex}}</code>{% endfor %}</ul></td> </tr>
   {%- endfor %}
 
-  <tr><th class="section" colspan=2>Syntax Explanation</th></tr>
-  <tr><td colspan=2 style="padding-left: 30px;"><ul>
+  <tr><th class="section" colspan=2>Explanation of Symbols</th></tr>
+  <tr><td colspan=2 style="padding-left: 10px;"><ul>
     {% for element, description in element_descriptions.items() %}
-    <li><code>{{element}}</code>: {{description}}</li>
+    <li><code>{{element}}</code>: {{description|markdown}}</li>
     {% endfor %}
     </ul>
-    See <a href="../../grammar/">explanation of grammar syntax</a> for help understanding this syntax
+    See also <a href="../../grammar/">explanation of grammar used in HGVS Nomenclature</a>.
   </td></tr>
 </table>
 
@@ -34,8 +38,12 @@ table_template = """<table class="syntax">
 
 def parse_args(args = None):
   ap = argparse.ArgumentParser(description=__doc__)
-  ap.add_argument("ELEMENT", help="name of block to extract, e.g., dna.deletion")
+  ap.add_argument("VARIANT_TYPE", help="name of block to extract, e.g., dna.del")
   ap.add_argument("--syntax-file", "-f", required=True)
+  ap.add_argument("--merge-literals", "-m", action=argparse.BooleanOptionalAction,
+                  default=os.getenv("HGVS_MERGE_LITERALS", True))
+  ap.add_argument("--warn-missing", "-w", action=argparse.BooleanOptionalAction,
+                  default=os.getenv("HGVS_WARN_MISSING", True))
   opts = ap.parse_args(args=args)
   return opts
 
@@ -45,24 +53,46 @@ def extract_elements(syntax: str) -> list:
   elements = syntax_wo_quoted_elems.split()
   return elements
 
+def merge_literals(syntax: str) -> str:
+  """merge string literals
+  eg "]" ";" "[" → "];["
+  """
+  return re.sub(r'"\s"', '', syntax)
+
 if __name__ == "__main__":
+  import coloredlogs
+  coloredlogs.install(level="INFO")
+
   md = markdown.Markdown()
   env = jinja2.Environment()
-  env.filters['markdown'] = lambda text: md.convert(text)
+  env.filters['markdown'] = lambda text: md.convert(text).removeprefix("<p>").removesuffix("</p>").strip()
   env.trim_blocks = True
   env.lstrip_blocks = True
 
   opts = parse_args()
 
   all_syntax_data = yaml.safe_load(open(opts.syntax_file))
-  path_ex = jmespath.compile(opts.ELEMENT)
-  syntax_data = list(path_ex.search(all_syntax_data))
-  if not syntax_data:
-    raise RuntimeError(f"{opts.ELEMENT} not defined in {opts.syntax_file}")
+  global_element_descriptions = all_syntax_data["element_descriptions"]
 
-  all_elements = sorted(set(itertools.chain.from_iterable(extract_elements(sd["syntax"]) for sd in syntax_data)))
-  elements_data = all_syntax_data["elements"]
-  element_descriptions = {e: (elements_data[e]["description"] if e in elements_data else "") for e in all_elements}
+  # syntax_data: data for variant type (e.g., dna.del)
+  syntax_data = jmespath.compile(opts.VARIANT_TYPE).search(all_syntax_data)
+  if not syntax_data:
+    raise RuntimeError(f"{opts.VARIANT_TYPE} not defined in {opts.syntax_file}")
+
+  forms = syntax_data["forms"]
+  if opts.merge_literals:
+    for f in forms:
+      f["syntax"] = merge_literals(f["syntax"])
+
+  element_descriptions = syntax_data["elements"] or {}
+  used_elements = sorted(set(en for f in forms for en in extract_elements(f["syntax"])))
+
+  for e in used_elements:
+    if e not in element_descriptions:
+      if e in global_element_descriptions:
+        element_descriptions[e] = global_element_descriptions[e]
+      elif opts.warn_missing:
+        element_descriptions[e] = '<span style="color: red;">description missing</span>'
 
   print(env.from_string(table_template).render(
-    syntax_data=syntax_data, element_descriptions=element_descriptions))
+    forms=forms, element_descriptions=element_descriptions))
