@@ -18,7 +18,7 @@ bin/pull-syntax -f docs/syntax.yaml rna.inversion
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 - **inverted duplications** are described as an insertion using the format `r.234_235ins123_234inv`, not as <code class="invalid">r.123_456dupinv</code>
 - since exon splice signals will be inverted, large genomic inversions on the RNA level usually give [deletion](deletion.md) or [deletion-insertion (indel)](delins.md) variants
-- inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frame shift**.
+- inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frameshift**.
 
 ## Examples
 

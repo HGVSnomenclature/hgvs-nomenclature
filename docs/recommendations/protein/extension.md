@@ -16,7 +16,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.ext
 - The `coordinate_type` must be "p." (protein).
 - **predicted consequences**, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. `p.(Ter110GlnextTer17)` or `p.(\*110Glnext\*17)`.
 - variants affecting the translation initiation site (Met1) activating an upstream (N-terminal) translation initiation site are described as [deletion-insertion](delins.md), those activating a downstream (C-terminal) initiation site as a [deletion](deletion.md).
-- **prioritisation**: (1) extension, (2) frame shift or deletion-insertion.
+- **prioritisation**: (1) extension, (2) frameshift or deletion-insertion.
 
 ## Examples
 
@@ -43,6 +43,6 @@ bin/pull-syntax -f docs/syntax.yaml aa.ext
 
     Description at the DNA-level is like `c.-23A>T` (changing `c.-25` caGggt `c.-19` to caTggt, creating a new ATG-triplet). Description at the RNA-level is `r.-23a>u` and at the protein level `p.(Met1ext-8),` indicating the predicted protein sequence is an N-terminal extension with 8 amino acids.
 
-!!! note "Should I describe a duplication in the translation termination codon (TGA to TGGA) as a frame shift or as an extension?"
+!!! note "Should I describe a duplication in the translation termination codon (TGA to TGGA) as a frameshift or as an extension?"
 
     The variant extends the amino acid sequence at the C-terminal end and is therefore by definition an **extension**.

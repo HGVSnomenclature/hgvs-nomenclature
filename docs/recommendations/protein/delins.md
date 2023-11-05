@@ -2,7 +2,7 @@
 
 <!-- ## Definition -->
 
-Deletion-Insertion (delins): a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, one or more amino acids are replaced with one or more other amino acids and which is not a substitution, frame shift or conversion.
+Deletion-Insertion (delins): a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, one or more amino acids are replaced with one or more other amino acids and which is not a substitution, frameshift or conversion.
 
 ## Syntax
 
@@ -27,8 +27,8 @@ bin/pull-syntax -f docs/syntax.yaml aa.delins
 - deletion-insertion variants at the DNA or RNA level.
   - which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant, e.g. `p.Tyr4Ter` (or `p.Tyr4\*)` not `p.Cys5_Ser6delinsTerGluAsp.`
   - **encoding a translation stop codon** in the inserted sequence are described as deletion-insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
-  - encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frame shift](frameshift.md).
-  - **starting N-terminal (5') of and including** the translation termination (stop) codon are described as [frame shift](frameshift.md).
+  - encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frameshift](frameshift.md).
+  - **starting N-terminal (5') of and including** the translation termination (stop) codon are described as [frameshift](frameshift.md).
 - fusion proteins represent a special case of deletion-insertion variant. The fusion break point is described using **"::"**: **NOTE:** to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to describe products of gene translocations or fusions (format GENESYMBOL1::GENESYMBOL2) and readthrough transcripts (format GENESYMBOL1-GENESYMBOL2)
 
 ## Examples

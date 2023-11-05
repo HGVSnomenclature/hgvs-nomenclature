@@ -41,7 +41,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.del
 
 - `NP_003997.2:p.(His321_Glu383del)`: the predicted consequences of a deletion of exon 10 of the DMD gene, deleting amino acids His321 to Glu383 in reference sequence NP_003997.2
 - `NP_003997.2:p.(Asp90_Val120del)`: the predicted consequences of a deletion of exon 5 of the DMD gene, deleting amino acids Asp90 to Val120 in reference sequence `NP_003997.2: **NOTE:** since the 3'rule needs to be applied the description p.(Val89_Gln119del)` is not correct
-- `NP_003997.2:p.(His321Leufs*3)`: the predicted consequences of a deletion of exons 10 to 11 of the DMD gene, creating a frame shift starting at amino acid His321, replacing it with Leu and terminating after three codons.
+- `NP_003997.2:p.(His321Leufs*3)`: the predicted consequences of a deletion of exons 10 to 11 of the DMD gene, creating a frameshift starting at amino acid His321, replacing it with Leu and terminating after three codons.
 - `NP_003997.2:p.?`: the predicted consequences of a deletion of exons 1 to 2 of the DMD gene, deleting the translation initiation codon: **NOTE:** since exon 1 and the translation initiation codon are deleted no reliable predictions can be made. Possibly no transcript is generated and no protein `(p.0?)`
 - `NP_003997.2:p.?`: the predicted consequences of a deletion of exons 74 to 79 of the DMD gene, deleting the translation termination codon: **NOTE:** since the last exon (exon 79) is deleted, it is not known what sequences after exon 73 are added to the transcript and no reliable predictions can be made
 

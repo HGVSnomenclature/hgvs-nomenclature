@@ -2,7 +2,7 @@
 
 <!-- ## Definition -->
 
-Insertion: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to the reference sequence, one or more amino acids are inserted, which is not a frame shift and where the insertion is not a copy of a sequence immediately N-terminal (5')
+Insertion: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to the reference sequence, one or more amino acids are inserted, which is not a frameshift and where the insertion is not a copy of a sequence immediately N-terminal (5')
 
 ## Syntax
 
@@ -24,7 +24,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.ins
 - insertions at DNA or RNA level
   - which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
   - **encoding a translation stop codon** in the inserted sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
-  - encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frame shift](frameshift.md)
+  - encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frameshift](frameshift.md)
 
 ## Examples
 

@@ -62,7 +62,7 @@ HGVS recommendations also contain suggestions to describe variants for which not
 - p.?: used to indicate that an effect on the protein level is expected but that it is not possible to give a reliable prediction of the consequences
 - p.(=): used to indicate that no changes on the protein level are expected (RNA not analysed)
 - p.(Ala123_Pro131)\*: used to describe that at an unknown position between amino acids Ala123 and Pro131 an amino acid is substituted for a translation termination (stop) codon
-- p.(Ala123_Pro131)fs: used to describe there is a frame shift variant starting at an unknown position between amino acids Ala123 and Pro131
+- p.(Ala123_Pro131)fs: used to describe there is a frameshift variant starting at an unknown position between amino acids Ala123 and Pro131
 - p.(Ala123_Pro131)insX[4]: used to describe there is an insertion of four unknown amino acids (X) at an unknown position between amino acids Ala123 and Pro131: **NOTE**: X is the IUPAC symbol for an unnown amino acid, **NOT** to indicate a translation termination (stop) codon
-- p.Gly719(Ala^Ser)fs\*23: used to describe there is a frame shift variant starting in the codon for amino acid Gly719, changing it to either Ala or Ser and ending at a termination codon at position 23 (fs\*23).
-- p.(Gly23Glufs\*7^Gly23Cysfs\*26): used to describe there is a predicted frame shift variant starting in the codon for amino acid Gly23 giving either p.(Gly23Glufs\*7) or p.(Gly23Cysfs\*26)
+- p.Gly719(Ala^Ser)fs\*23: used to describe there is a frameshift variant starting in the codon for amino acid Gly719, changing it to either Ala or Ser and ending at a termination codon at position 23 (fs\*23).
+- p.(Gly23Glufs\*7^Gly23Cysfs\*26): used to describe there is a predicted frameshift variant starting in the codon for amino acid Gly23 giving either p.(Gly23Glufs\*7) or p.(Gly23Cysfs\*26)

@@ -25,7 +25,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.dup
 - duplications at DNA or RNA level
   - which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant.
   - **encoding a translation stop codon** in the duplicated sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
-  - encoding an open reading frame which **after** the duplicated sequence shift to another reading frame are described as a frame shift.
+  - encoding an open reading frame which **after** the duplicated sequence shift to another reading frame are described as a frameshift.
 
 ## Examples
 
@@ -44,7 +44,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.dup
 
   - `NP_003997.2:p.(His321_Glu383dup)`: the predicted consequences of a duplication of exon 10 of the DMD gene, duplicating amino acids His321 to Glu383 in reference sequence NP_003997.2
   - `NP_003997.2:p.(Asp90_Val120dup)`: the predicted consequences of a duplication of exon 5 of the DMD gene, duplicating amino acids Asp90 to Val120 in reference sequence `NP_003997.2` **NOTE:** since the 3'rule needs to be applied the description `p.(Val89_Gln119dup)` is not correct
-  - `NP_003997.2:p.(Asn444Lysfs\*15)`: the predicted consequences of a duplication of exons 10 to 11 of the DMD gene, creating a frame shift starting at amino acid Asn444, replacing it with Lys and terminating after fifteen codons.
+  - `NP_003997.2:p.(Asn444Lysfs\*15)`: the predicted consequences of a duplication of exons 10 to 11 of the DMD gene, creating a frameshift starting at amino acid Asn444, replacing it with Lys and terminating after fifteen codons.
   - `NP_003997.2:p.?`: the predicted consequences of a duplication of exons 1 to 2 of the DMD gene: **NOTE:** since the duplication adds a second promoter/exons 1 to a normal copy of the gene, a reliable prediction of the consequences can not be made. The duplication may have no consequences, it may give a duplication of exon 2 in the transcript, it might produce both transcripts, etc.
   - `NP_003997.2:p.?`: the predicted consequences of a duplication of exons 74 to 79 of the DMD gene: **NOTE:** since the duplication adds a second last exon (exon 79) to a normal copy of the gene, a reliable prediction of the consequences can not be made. The duplication may have no consequences, it may give a duplication of exons 74 to 78 in the transcript, it might produce both transcripts, etc.
 

@@ -16,27 +16,27 @@ bin/pull-syntax -f docs/syntax.yaml aa.fs
 - The `coordinate_type` must be "p." (protein).
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. `p.(Arg123LysfsTer34)`.
 - for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
-- frame shifts are a special type of amino acid **deletion/insertion** which, by definition, do not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon), like "Arg123_Leu833del", nor the amino acid sequence inserted.
-  - the description of a frame shift starts with the **first new** amino acid, this might not be first codon affected by the variant at the DNA level
-  - the position of the translation termination (stop) codon in the new reading frame is calculated **starting** at the first amino acid changed by the frame shift (codon 1), and **ending** at the first stop codon encountered (Ter# or \*#)
+- frameshifts are a special type of amino acid **deletion/insertion** which, by definition, do not include the deletion from the site of the change to the C-terminal end of the protein (translation termination (stop) codon), like "Arg123_Leu833del", nor the amino acid sequence inserted.
+  - the description of a frameshift starts with the **first new** amino acid, this might not be first codon affected by the variant at the DNA level
+  - the position of the translation termination (stop) codon in the new reading frame is calculated **starting** at the first amino acid changed by the frameshift (codon 1), and **ending** at the first stop codon encountered (Ter# or \*#)
     - **NOTE**: the number of amino acids in the new C-terminal sequence is "#-1" amino acids
-    - **NOTE**: the shortest frame shift variant possible contains "fsTer2"; variants which introduce an **immediate** translation termination (stop) codon are described as nonsense variant, e.g. `p.Tyr4Ter` (or `p.Y4*``) not `p.Tyr4TerfsTer1` (see [Substitution](substitution.md)).
-  - frame shifts can also be described using a **short format**; `p.Arg123fs` i.e. indicating the first amino acid changed, its position and "fs" without further detail.
-- the (predicted) amino acid changes of additional variants on the same allele (in cis) downstream of the frame shift are not described unless they change the amino acid sequence or length of the shifted reading frame (i.e. introduce an amino acid substitution, an earlier translational termination (stop) codon or affect the termination codon of the shifted frame).
-- deletions starting 5' of and including the translation termination (stop) codon are described as **frame shift**
+    - **NOTE**: the shortest frameshift variant possible contains "fsTer2"; variants which introduce an **immediate** translation termination (stop) codon are described as nonsense variant, e.g. `p.Tyr4Ter` (or `p.Y4*``) not `p.Tyr4TerfsTer1` (see [Substitution](substitution.md)).
+  - frameshifts can also be described using a **short format**; `p.Arg123fs` i.e. indicating the first amino acid changed, its position and "fs" without further detail.
+- the (predicted) amino acid changes of additional variants on the same allele (in cis) downstream of the frameshift are not described unless they change the amino acid sequence or length of the shifted reading frame (i.e. introduce an amino acid substitution, an earlier translational termination (stop) codon or affect the termination codon of the shifted frame).
+- deletions starting 5' of and including the translation termination (stop) codon are described as **frameshift**
 - inserted sequences at DNA or RNA level
   - extending the amino acid sequence at the C-terminal end with one or more amino acids are described as [Extension](extension.md)
   - containing a **translation stop codon** in the inserted sequence are described as an insertion, not as a deletion-insertion removing the entire C-terminal amino acid sequence
-  - encoding an open reading frame but after the DNA insertion shifting to another reading are described as a **frame shift**
+  - encoding an open reading frame but after the DNA insertion shifting to another reading are described as a **frameshift**
 
 ## Examples
 
 - `p.Arg97ProfsTer23` (**short** `p.Arg97fs)` / `p.Arg97Profs*23`: a variant with Arg97 as the first amino acid changed, shifting the reading frame, replacing it for a Pro and terminating at position Ter23.
 - `p.(Tyr4*)`: the predicted consequence at the protein level is a Tyr to translation termination codon. This might arise from a `c.12delC` deletion in <code>ATG GAT GCA <code class="stop">TA</code><code
-    class="del">C</code><code> </code><code class="stop">G</code>TC ACG</code> to create a <code class="stop">TAG</code> stop codon. **NOTE**: the variant is described as a substitution, not as a frame shift <code class="invalid">`(p.Tyr4TerfsTer1)`</code>.
+    class="del">C</code><code> </code><code class="stop">G</code>TC ACG</code> to create a <code class="stop">TAG</code> stop codon. **NOTE**: the variant is described as a substitution, not as a frameshift <code class="invalid">`(p.Tyr4TerfsTer1)`</code>.
 - `p.Glu5ValfsTer5` (short `p.Glu5fs)`: the predicted consequence at the protein level of the variant ATGGATGCATACGAGATGAGG to ATGGATGCATACG<code class="spot1">TGCATACG</code>AGATGAGG.. (c.6_13dup).
-- `p.Ile327Argfs*?` (short `p.Ile327fs)`: the predicted consequence of a frame shifting variant changes Ile327 to an Arg but the new reading frame does not encounter a new translation termination (stop) codon
-- `p.Gln151Thrfs*9` (not `p.His150Hisfs*10)`: the first codon at the DNA level affected by a variant is His150 and the shifted frame starts with a HisThrSer.... Since frame shift variants start with the **first amino acid changed** the description `p.His150Hisfs*10` (or `p.His150HisfsTer10)` is not correct.
+- `p.Ile327Argfs*?` (short `p.Ile327fs)`: the predicted consequence of a frameshifting variant changes Ile327 to an Arg but the new reading frame does not encounter a new translation termination (stop) codon
+- `p.Gln151Thrfs*9` (not `p.His150Hisfs*10)`: the first codon at the DNA level affected by a variant is His150 and the shifted frame starts with a HisThrSer.... Since frameshift variants start with the **first amino acid changed** the description `p.His150Hisfs*10` (or `p.His150HisfsTer10)` is not correct.
 
 ## Discussion
 
