@@ -27,12 +27,16 @@ bin/pull-syntax -f docs/syntax.yaml aa.del
 ## Examples
 
 - one amino acid
+
   - NP_003997.2:p.Val7del: a deletion of amino acid Val7 in the reference sequence NP_003997.2
   - NP_003997.2:p.(Val7del): the **predicted** consequence at the protein level is a deletion of amino acid Val7 in the reference sequence NP_003997.2
   - NP_003997.2:p.Trp4del: a deletion of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrp<code class="spot1">\_</code>Glu: **NOTE:** for deletions in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been deleted
+
 - several amino acids
+
   - NP_003997.2:p.Lys23_Val25del: a deletion of amino acids Lys23 to Val25 in reference sequence NP_003997.2
   - NP_003997.2:p.(Pro458_Gly460del): a deletion of amino acids Pro458-Pro459-Gly460 in reference sequence NP_003997.2: **NOTE:** the underlying DNA variant (LRG_232t1:c.1365_1373del) affects amino acids Pro455-Pro456-Gly457 but the 3'rule needs to be applied
+
 - one or more exons
   - NP_003997.2:p.(His321_Glu383del): the predicted consequences of a deletion of exon 10 of the DMD gene, deleting amino acids His321 to Glu383 in reference sequence NP_003997.2
   - NP_003997.2:p.(Asp90_Val120del): the predicted consequences of a deletion of exon 5 of the DMD gene, deleting amino acids Asp90 to Val120 in reference sequence NP_003997.2: **NOTE:** since the 3'rule needs to be applied the description p.(Val89_Gln119del) is not correct

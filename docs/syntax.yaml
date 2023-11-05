@@ -1,7 +1,8 @@
 element_descriptions:
   # global map of <element, description> used when a particular form does not define an element
   # element are rendered in <code>...</code>; descriptions are rendered as markdown
-  alternate_sequence: The new sequence that will occur at the specified position in the given sequence_identifier
+  alternate_base: The single new base (nucleic or amino acid)
+  alternate_sequence: The new sequence (nucleic or amino acid) that will occur at the specified position in the given sequence_identifier
   coordinate_type: The type of molecule and coordinate system; See [general](../../general/)
   position_edit: A string that concatenates a position and edit, such as `2376=`, `2376_2399dup`, or `2376_2377insGT`.
   position_or_range: The `position` OR `range`
@@ -13,6 +14,8 @@ element_descriptions:
   total_copy_number: The total number of sequence copies in a repeat
   transcript_identifier: An identfier for a transcript in a recognized database; a transcript implies a specific sequence, exon structure, and, for coding transcripts, CDS start and end positions.
   transcript_position: A position specified as simple ordinal sequence position OR as an offset from an exon boundary (e.g., 22+7 or 56-3).
+  aa_position: A position in a protein sequence. Unlike nucleic acid sequences, protein coordinates are always prefixed with the reference amino acid at that position. (e.g., `Lys23`)
+  aa_range: A range of `aa_position`. (e.g., `Lys23_Val25`)
 
 aa:
   alleles:
@@ -34,38 +37,38 @@ aa:
     elements:
     forms:
       - name: Single position
-        syntax: sequence_identifier ":" coordinate_type "." aa position "del"
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "del"
         examples:
           - NP_003997.2:p.Val7del
       - name: Position range
-        syntax: sequence_identifier ":" coordinate_type "." aa position "_" aa position "del"
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "_" aa_position "del"
         examples:
           - NP_003997.2:p.Lys23_Val25del
       - name: Alternative view
-        syntax: sequence_identifier ":" coordinate_type "." aa_position_range "del"
+        syntax: sequence_identifier ":" coordinate_type "." aa_range "del"
         examples:
           - NP_003997.2:p.Lys23_Val25del
   delins:
     elements:
     forms:
       - name: single position
-        syntax: sequence_identifier ":" coordinate_type "." aa position "delins" sequence
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "delins" sequence
         examples:
           - NP_004371.2:p.Asn47delinsSerSerTer
           - NP_004371.2:p.(Asn47delinsSerSerTer)
       - name: position range
-        syntax: sequence_identifier ":" coordinate_type "." aa position "_" aa position "delins" sequence
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "_" aa_position "delins" sequence
         examples:
           - NP_003070.3:p.Glu125_Ala132delinsGlyLeuHisArgPheIleValLeu
   dup:
     elements:
     forms:
       - name: single position
-        syntax: sequence_identifier ":" coordinate_type "." aa position "dup"
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "dup"
         examples:
           - NP_003997.2:p.Val7dup
       - name: position range
-        syntax: sequence_identifier ":" coordinate_type "." aa position "_" aa position "delins" sequence
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "_" aa_position "delins" sequence
         examples:
           - NP_003997.2:p.Lys23_Val25dup
   ext:
@@ -87,7 +90,7 @@ aa:
     elements:
     forms:
       - name:
-        syntax: sequence_identifier ":" coordinate_type "." aa position "fs" [ "Ter" position ]
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "fs" [ "Ter" position ]
         examples:
           - NP_01234.5:p.Arg97fs
           - NP_01234.5:p.Arg97ProfsTer23
@@ -96,7 +99,7 @@ aa:
   ins:
     elements:
     forms:
-      - syntax: sequence_identifier ":" coordinate_type "." aa_position_range "ins" sequence
+      - syntax: sequence_identifier ":" coordinate_type "." aa_range "ins" sequence
         examples:
           - NP_004371.2:p.(Pro46_Asn47insSerSerTer)
         notes:
@@ -112,9 +115,16 @@ aa:
   sub:
     elements:
     forms:
-      - syntax: sequence_identifier ":" coordinate_type "." aa_position alternate_aa
+      - name: Experimentally ascertained protein consequence
+        syntax: sequence_identifier ":" coordinate_type "." aa_position alternate_base
         examples:
-          - JUSTANEXAMPLE.11:g.[123G>A(;)345del]
+          - NP_003997.1:p.Trp24Cys
+          - NP_003997.1:p.Trp24Ter
+          - NP_003997.1:p.W24*
+      - name: Predicted protein consequence
+        syntax: sequence_identifier ":" coordinate_type "." "(" aa_position alternate_base ")"
+        examples:
+          - NP_003997.1:p.(Trp24Cys)
 
 dna:
   alleles:
