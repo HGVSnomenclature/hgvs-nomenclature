@@ -1,6 +1,6 @@
-# other
+# Other
 
-## Definition
+<!-- ## Definition -->
 
 No change: a sequence was analysed but no variant was detected. Mosaic: the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences. Chimeric: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences.
 
@@ -12,7 +12,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.other
 
 ## Notes
 
-- **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
+- The `coordinate_type` must be one of g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 - see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md) for the original proposal
 
 ## Examples

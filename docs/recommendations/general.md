@@ -81,7 +81,7 @@ Specific abbreviations are used to describe different variant types.
 - `ins` indicates an **insertion**; c.76_77insG (see [DNA](DNA/insertion.md), [RNA](RNA/insertion.md), [protein](protein/insertion.md))
   - duplicating insertions are described as duplications, not as insertions
 - `inv` indicates an **inversion**; c.76_83inv (see [DNA](DNA/inversion.md), [RNA](RNA/inversion.md)). Not used at protein level, usually described as ["delins"](protein/delins.md)
-- `fs` indicates a **frame shift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs\*17, see [Frame shifts](protein/frameshift.md))
+- `fs` indicates a **frameshift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs\*17, see [Frameshifts](protein/frameshift.md))
 - `ext` indicates an **extension**; p.Met1<code class="spot1">ext</code>-5 (see [Extension](protein/extension.md))
 
 - HGVS/ISCN (see [Community Consultation](http://www.hgvs.org/mutnomen/comments004.html))
@@ -105,7 +105,7 @@ Specific abbreviations are used to describe different variant types.
 
 - When I want to report a variant on DNA, RNA and protein level do I need to use a specific separator?: No, best is to report the variant using the format NC_000023.11:g.32849790T>A NM_004006.3:c.124A>T r.(124a>u) p.(Ser42Cys): **NOTE:** when several NP\_'s are annotated in the NM\_ reference sequence, it is mandatory to add the NP\_ reference sequence used to describe the variant at protein level.
 
-- I found a substitution variant (DNA) which alters splicing, inserting a short sequence in the transcript (RNA), giving a frame shift at #rotein level. How should I list this variant, as substitution, as splice variant, as insertion or as frame shift?: When listing variant types, HGVS recommends listing them separately for each level, i.e. DNA, RNA and protein. On DNA level you identified a substitution, on RNA level an insertion and on protein level a frameshift.
+- I found a substitution variant (DNA) which alters splicing, inserting a short sequence in the transcript (RNA), giving a frameshift at #rotein level. How should I list this variant, as substitution, as splice variant, as insertion or as frameshift?: When listing variant types, HGVS recommends listing them separately for each level, i.e. DNA, RNA and protein. On DNA level you identified a substitution, on RNA level an insertion and on protein level a frameshift.
 
 - What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?: It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSer<code class="spot1">\_</code>HisAsp.. this is described as p.Ser5del. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCC<code class="spot1">\_</code>TCCCACGAT.., so the codon for Ser4 is deleted, is not used; the description p.Ser4del is not correct.
 

@@ -1,6 +1,6 @@
-# substitution
+# Substitution
 
-## Definition
+<!-- ## Definition -->
 
 Substitution: a sequence change where, compared to a reference sequence, **one** nucleotide is replaced by **one** other nucleotide.
 
@@ -10,17 +10,10 @@ Substitution: a sequence change where, compared to a reference sequence, **one**
 bin/pull-syntax -f docs/syntax.yaml rna.substitution
 ```
 
-- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
-- <code>position</code> = the position of the nucleotide substituted; 123
-- <code>reference_nucleotide</code> = the nucleotide at this position in the reference sequence; c
-- <code>">"</code> = the type of change, a substitution
-- <code>new_nucleotide</code> = the nucleotide substituting the existing one; g
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- **prefix** reference sequences accepted are r. (coding and non-coding RNA).
+- The `coordinate_type` must be one of r. (coding and non-coding RNA).
 - substitutions involving two or more consecutive nucleotides are described as deletion/insertions (indels) (see [Deletion/insertion (delins)](delins.md)).
 - two substitutions separated by one or more nucleotides should be described individually and not as a "delins"
   - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. r.142_144delinsugg (p.Arg48Trp)).: **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position

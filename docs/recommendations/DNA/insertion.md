@@ -1,6 +1,6 @@
-# insertion
+# Insertion
 
-## Definition
+<!-- ## Definition -->
 
 Insertion: a sequence change where, compared to the reference sequence, one or more nucleotides are inserted **and** where the insertion is not a copy of a sequence immediately 5'
 
@@ -12,7 +12,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.ins
 
 ## Notes
 
-- **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
+- The `coordinate_type` must be one of g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 - the "positions flanking" should contain **two flanking nucleotides**, e.g. 123 and 124 but not 123 and 125.
   - † = see [Uncertain](../uncertain.md); when the postion and/or the sequence of an inserted sequence has not been defined, a description may have a format like g.(100_150)ins(25)
   - the "positions_flanking" should be listed from 5' to 3', e.g. 123_124 not 124_123

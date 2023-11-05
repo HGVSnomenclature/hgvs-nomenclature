@@ -60,7 +60,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - frame (reading frame): **frame 1** is the normal reading frame, using the first nucleotide of each coding triplet of the annotated amino acid reference sequence for translation, starting at the A of the ATG translation initiation codon (nucleotide c.1): **frame 2** is the reading frame using the second nucleotide of the annotated amino acid reference sequence as first nucleotide of a coding triplet for translation in the shifted reading frame: **frame 3** is the reading frame using the third nucleotide of the annotated amino acid reference sequence as first nucleotide of a coding triplet for translation in the shifted reading frame.
 
-- frame shift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([protein](../recommendations/protein/frameshift.md))
+- frameshift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([protein](../recommendations/protein/frameshift.md))
 
 - fusion transcript: a transcript (RNA molecule) which consist of parts of transcripts from two or more genes, resulting from a translocation, deletion, or inversion.
 

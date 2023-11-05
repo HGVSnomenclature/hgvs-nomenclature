@@ -1,6 +1,6 @@
-# deletion-insertion
+# Deletion-Insertion
 
-## Definition
+<!-- ## Definition -->
 
 Deletion-Insertion (delins): a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides **and which is not** a substitution, inversion or conversion.
 
@@ -10,16 +10,10 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 bin/pull-syntax -f docs/syntax.yaml rna.delins
 ```
 
-- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
-- <code>position</code> = the position of the nucleotide, or range of nucleotides, that is deleted; 123_127
-- <code>"delins"</code> = the type of change, a deletion-insertion
-- <code>sequence</code> = the RNA sequence that is inserted; ag
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition.
-- **prefix** reference sequences accepted are r. (coding and non-coding RNA).
+- The `coordinate_type` must be one of r. (coding and non-coding RNA).
 - by definition, when **one** nucleotide is replaced by **one** other nucleotide the change is a [substitution](substitution.md).
 - two variants separated by one or more nucleotides should preferably be described individually and **not** as a "delins"
   - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. `r.142_144delinsugg` `p.(Arg48Trp)`). **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position.

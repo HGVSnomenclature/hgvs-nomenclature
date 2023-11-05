@@ -1,6 +1,6 @@
-# duplication
+# Duplication
 
-## Definition
+<!-- ## Definition -->
 
 Duplication: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted **directly 3'** of the original copy of that sequence.
 
@@ -10,15 +10,10 @@ Duplication: a sequence change where, compared to a reference sequence, a copy o
 bin/pull-syntax -f docs/syntax.yaml rna.duplication
 ```
 
-- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
-- <code>position</code> = the position of the nucleotide, or range of nucleotides, that is duplicated; 123_345
-- <code>"dup"</code> = the type of change, a duplication
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- **prefix** reference sequences accepted are r. (coding and non-coding RNA).
+- The `coordinate_type` must be one of r. (coding and non-coding RNA).
 - "positions_duplicated" should contain two different positions, e.g. 123_126 not 123_123.
 - the "positions_duplicated" should be listed from 5' to 3', e.g. 123_126 not 126_123.
 - by definition, duplication may only be used when the additional copy is **directly 3'-flanking** of the original copy (a "tandem duplication").

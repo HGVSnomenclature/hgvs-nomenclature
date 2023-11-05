@@ -1,6 +1,6 @@
-# splicing
+# Splicing
 
-## Definition
+<!-- ## Definition -->
 
 Splicing: a sequence change where, compared to a reference sequence, the normal RNA splicing pattern is altered.
 

@@ -1,6 +1,6 @@
-# insertion
+# Insertion
 
-## Definition
+<!-- ## Definition -->
 
 Insertion: a sequence change where, compared to the reference sequence, one or more nucleotides are inserted **and** where the insertion is not a copy of a sequence immediately 5'
 
@@ -10,15 +10,9 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 bin/pull-syntax -f docs/syntax.yaml rna.insertion
 ```
 
-- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
-- <code>positions</code> = the positions of the two nucleotides flanking the insertion site; 123_124
-- <code>"ins"</code> = the type of change, an insertion
-- <code>sequence</code> = the RNA sequence that is inserted; auc †
-
 ## Notes
 
-- **prefix** reference sequences accepted are r. (coding and non-coding RNA).
+- The `coordinate_type` must be one of r. (coding and non-coding RNA).
 - the "positions_flanking" should contain **two flanking nucleotides**, e.g. 123 and 124 but not 123 and 125.
   - the "positions_flanking" should be listed from 5' to 3', e.g. 123_124 not 124_123
 - when a variant can be described as a duplication it **must** be desribed as a duplication and **not as an insertion** (see [Prioritization](../general.md)

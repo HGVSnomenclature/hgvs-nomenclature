@@ -29,7 +29,7 @@ For issues currently discussed see [Open for Community Consultation](../consulta
   - SVD-WG001 (_No change_): allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=).
   - SVD-WG002 (_n. reference sequence_): allows descriptions like NR_028379.1:n.345A>G. : HGVS nomenclature **version 15.11** is described in Den Dunnen et al. (2016) [HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: 37: 564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf). The most significant changes between version 15.11 and version 1.0 are [described below](#v1511).
 
-- **Version 2.121101**: **Variants affecting translation termination** - variants that replace the translation termination codon but do not encounter a new stop in the new reading frame are described as "p._321Argext_?". Frame shift variants with the same effect are described as "p.Ile321Argfs\*?" (see [Protein descriptions](../recommendations/protein/extension.md))
+- **Version 2.121101**: **Variants affecting translation termination** - variants that replace the translation termination codon but do not encounter a new stop in the new reading frame are described as "p._321Argext_?". Frameshift variants with the same effect are described as "p.Ile321Argfs\*?" (see [Protein descriptions](../recommendations/protein/extension.md))
 
 - **Version 2.120831**: **Protein description in parentheses** - parentheses in protein variant descriptions can be omitted when there is sufficient experimental evidence: **Variants affecting translation initiation** - at protein level, variants that generate a new upstream translation initiation codons are described using the format "p.Met1ext-5" (see [Protein extensions](../recommendations/protein/extension.md)).
 

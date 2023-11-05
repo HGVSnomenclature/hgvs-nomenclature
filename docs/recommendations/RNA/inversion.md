@@ -1,6 +1,6 @@
-# inversion
+# Inversion
 
-## Definition
+<!-- ## Definition -->
 
 Inversion: a sequence change where, compared to a reference sequence, **more than one nucleotide** replacing the original sequence are the reverse complement of the original sequence.
 
@@ -10,20 +10,15 @@ Inversion: a sequence change where, compared to a reference sequence, **more tha
 bin/pull-syntax -f docs/syntax.yaml rna.inversion
 ```
 
-- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
-- <code>positions</code> = the range of nucleotides that is inverted; 123_345
-- <code>"inv"</code> = the type of change, an inversion
-
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- **prefix** reference sequences accepted are r. (coding and non-coding RNA)
+- The `coordinate_type` must be one of r. (coding and non-coding RNA)
 - by definition, the region inverted ("positions_inverted") contains **more then one nucleotide**. The description `r.234inv` is therefore not allowed; a one nucleotide inversion should be described as a [substitution](substitution.md)
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 - **inverted duplications** are described as an insertion using the format `r.234_235ins123_234inv`, not as <code class="invalid">r.123_456dupinv</code>
 - since exon splice signals will be inverted, large genomic inversions on the RNA level usually give [deletion](deletion.md) or [deletion-insertion (indel)](delins.md) variants
-- inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frame shift**.
+- inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frameshift**.
 
 ## Examples
 

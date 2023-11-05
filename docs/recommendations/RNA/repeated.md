@@ -1,6 +1,6 @@
-# repeated sequences
+# Repeated Sequences
 
-## Definition
+<!-- ## Definition -->
 
 Repeated sequence: a sequence where, compared to a reference sequence, a segment of **one or more** nucleotides (the repeat unit) is present several times, one after the other.
 
@@ -9,15 +9,6 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 ```sh exec="true"
 bin/pull-syntax -f docs/syntax.yaml rna.repeated
 ```
-
-- <code>sequence_identifier</code> = the sequence identifier used; NM_004006.3
-- <code>coordinate_type</code> = the coordinate type, indicating the type of numbering used; r
-- <code>positions</code> = the range of nucleotides of the first repeat unit; 9495_9497
-- <code>start_position</code> = the position of the first nucleotide of the repeat; 9495
-- <code>sequence</code> = the RNA sequence of one repeat unit; caa
-- <code>"["</code> = the opening symbol for an allele description
-- <code>copy_number</code> = the observed number of repeats
-- <code>"]"</code> = the closing symbol for an allele description
 
 ## Notes
 

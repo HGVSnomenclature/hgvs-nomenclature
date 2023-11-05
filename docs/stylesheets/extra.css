@@ -95,7 +95,8 @@ h2 {
 }
 
 h3 {
-  color: var(--gray-50);
+  color: var(--md-typeset-a-color);
+  /* color: var(--gray-50); */
 }
 
 /*
@@ -114,11 +115,13 @@ table.syntax th:not(.section) {
   padding-right: 10px;
   padding-left: 40px;
   text-align: right;
+  width: 150px;
 }
 
 table.syntax th.section {
   /* font-weight: bold; */
   text-align: left;
+  font-size: 1.25em; /* same as h3 */
   color: var(--md-typeset-a-color);
 }
 
