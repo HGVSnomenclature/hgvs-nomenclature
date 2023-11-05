@@ -1,6 +1,7 @@
 element_descriptions:
   # global map of <element, description> used when a particular form does not define an element
   # element are rendered in <code>...</code>; descriptions are rendered as markdown
+  aa: A single amino acid
   alternate_base: The single new base (nucleic or amino acid)
   alternate_sequence: The new sequence (nucleic or amino acid) that will occur at the specified position in the given sequence_identifier
   coordinate_type: The type of molecule and coordinate system; See [general](../../general/)
@@ -73,19 +74,18 @@ aa:
           - NP_003997.2:p.Lys23_Val25dup
   ext:
     elements:
+      new_initiation_site: The position of the new initiation site; it is always a negative value
+      extension_length: The number of amino acids added beyond the original Ter
     forms:
       - name: N-terminus extension
         syntax: sequence_identifier ":" coordinate_type "." "Met1" "ext" new_initiation_site
         examples:
           - NP_003997.2:p.Met1ext-5
         notes:
-          - "`new_initiation_site` indicates the position of the new initiation site; it is always a negative value"
       - name: C-terminus extension
-        syntax: sequence_identifier ":" coordinate_type "." "Ter" position aa "ext" "Ter" extension_length
+        syntax: sequence_identifier ":" coordinate_type "." "Ter" aa_position aa "ext" "Ter" extension_length
         examples:
           - NP_003997.2:p.Ter110GlnextTer17
-        notes:
-          - "`extension_length` is the number of amino acids added beyond the original Ter"
   fs:
     elements:
     forms:
