@@ -1,4 +1,4 @@
-# complex (HGVS/ISCN)
+# Complex (HGVS/ISCN)
 
 ## Definition
 

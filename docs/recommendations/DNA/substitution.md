@@ -1,4 +1,4 @@
-# substitution
+# Substitution
 
 ## Definition
 

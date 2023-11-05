@@ -1,4 +1,4 @@
-# deletion
+# Deletion
 
 ## Definition
 

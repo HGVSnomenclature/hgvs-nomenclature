@@ -1,4 +1,4 @@
-# alleles
+# Alleles
 
 ## Definition
 

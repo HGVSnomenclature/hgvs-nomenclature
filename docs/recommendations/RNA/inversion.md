@@ -1,4 +1,4 @@
-# inversion
+# Inversion
 
 ## Definition
 

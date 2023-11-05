@@ -1,4 +1,4 @@
-# extension
+# Extension
 
 ## Definition
 

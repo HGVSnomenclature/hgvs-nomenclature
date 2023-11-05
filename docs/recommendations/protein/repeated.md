@@ -1,4 +1,4 @@
-# repeated sequences
+# Repeated Sequences
 
 ## Definition
 

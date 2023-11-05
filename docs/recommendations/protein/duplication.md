@@ -1,4 +1,4 @@
-# duplication
+# Duplication
 
 ## Definition
 
