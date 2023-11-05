@@ -1,18 +1,18 @@
-# duplication
+# Duplication
 
-## Definition
+<!-- ## Definition -->
 
 Duplication: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted **directly 3'** of the original copy of that sequence.
 
-## Description
+## Syntax
 
-Format: **"prefix""position(s)\_duplicated""dup"**, e.g. g.123_345dup
-
-**"prefix"** = reference sequence used = g. **"position(s)\_duplicated"** = position nucleotide or range of nucleotides duplicated = 123_345 **"dup"** = type of change is a duplication = dup †
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.dup
+```
 
 ## Notes
 
-- **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
+- The `coordinate_type` must be one of g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 - "positions_duplicated" should contain **two different positions**, e.g. 123_126 not 123_123.
 - the "positions_duplicated" should be listed from **5' to 3'**, e.g. 123_126 not 126_123.
 - by definition, duplication may only be used when the additional copy is **directly 3'-flanking** of the original copy (a "tandem duplication").

@@ -1,24 +1,24 @@
-# inversion
+# Inversion
 
-## Definition
+<!-- ## Definition -->
 
 Inversion: a sequence change where, compared to a reference sequence, **more than one nucleotide** replacing the original sequence are the reverse complement of the original sequence.
 
-## Description
+## Syntax
 
-Format: **"prefix""positions_inverted""inv"**, e.g. g.123_345inv
-
-**"prefix"** = reference sequence used = g. **"positions_inverted"** = range of nucleotides inverted = 123_345 **"inv"** = type of change is an inversion = inv
+```sh exec="true"
+bin/pull-syntax -f docs/syntax.yaml dna.inv
+```
 
 ## Notes
 
-- **prefix** reference sequences accepted are g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA)
+- The `coordinate_type` must be one of g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA)
 - by definition, the region inverted ("positions_inverted") contains **more then one nucleotide**. The description g.234inv is therefore not allowed; a one nucleotide inversion should be described as a [substitution](substitution.md)
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
   - the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 - **inverted duplications** are described as an insertion using the format g.234_235ins123_234inv, not as g.123_456dupinv (see [Q&A](#dupinv))
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins" \* exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" : **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
-- inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frame shift**.
+- inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frameshift**.
 
 ## Examples
 

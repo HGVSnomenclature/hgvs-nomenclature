@@ -1,8 +1,9 @@
 nav:
-    - Style Conventions: style.md
-    - Grammar Elements: grammar.md
     - general.md
     - DNA
     - RNA
     - protein
     - uncertain.md
+    - summary.md
+    - Style Conventions: style.md
+    - Grammar Elements: grammar.md

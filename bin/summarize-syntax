@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+"""summarize HGVS syntax as HTML table with cols for molecule types and rows for variant types"""
+
+import argparse
+import logging
+import pathlib
+import re
+import sys
+
+from bs4 import BeautifulSoup
+import jinja2
+import jmespath
+import markdown
+import yaml
+
+_logger = logging.getLogger()
+
+
+def parse_args(args = None):
+  ap = argparse.ArgumentParser(description=__doc__)
+  ap.add_argument("--syntax-file", "-f", required=True)
+  opts = ap.parse_args(args=args)
+  return opts
+
+
+if __name__ == "__main__":
+  import coloredlogs
+
+  coloredlogs.install(level="INFO")
+
+  opts = parse_args()
+
+  md = markdown.Markdown()
+
+  env = jinja2.Environment(loader=jinja2.FileSystemLoader("/"))
+  env.undefined = jinja2.StrictUndefined
+  env.filters['markdown'] = lambda text: md.convert(text).removeprefix("<p>").removesuffix("</p>").strip()
+  env.trim_blocks = True
+  env.lstrip_blocks = True
+
+  template_fn = pathlib.Path(sys.argv[0] + ".jinja2").absolute().as_posix()
+  template = env.get_template(template_fn)
+
+  mt_vt_syntax_data = yaml.safe_load(open(opts.syntax_file))
+  molecule_types = ("dna", "rna", "aa")
+  variant_types = sorted([vt for mt in molecule_types for vt in mt_vt_syntax_data[mt]])
+
+  # create a fully popultated table of forms[vt][mt] = forms (from yaml)
+  syntax_data = {}
+  for vt in variant_types:
+      syntax_data[vt] = {}
+      for mt in molecule_types:
+        sd = jmespath.search(f"{mt}.{vt}", mt_vt_syntax_data)
+        syntax_data[vt][mt] = sd["forms"] if sd else []
+
+  html = template.render(
+    variant_types=variant_types,
+    molecule_types=molecule_types,
+    syntax_data=syntax_data
+    )
+
+  html = BeautifulSoup(html, 'html.parser').prettify()
+  # html = re.sub(r"(<t[dh][^>]*>)\s*([\s\w]+\w)\s*(</t[dh]>)", r"\1\2\3", html, flags=re.MULTILINE)
+  html = re.sub(r"(<t[dh][^>]*>)\s*(.+?)\s*(</t[dh]>)", r"\1\2\3", html, flags=re.MULTILINE)
+  html = re.sub(r"(<code>)\s*(.+?)\s*(</code>)", r"\1\2\3", html, flags=re.MULTILINE)
+  html = re.sub(r"(<td>)\s+(<code>)", r"\1\2", html, flags=re.MULTILINE)
+  html = re.sub(r"(</code>)\s+(</td>)", r"\1\2", html, flags=re.MULTILINE)
+
+  print(html)
