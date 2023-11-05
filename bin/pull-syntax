@@ -35,7 +35,6 @@ table_template = """<table class="syntax">
 
 """
 
-
 def parse_args(args = None):
   ap = argparse.ArgumentParser(description=__doc__)
   ap.add_argument("VARIANT_TYPE", help="name of block to extract, e.g., dna.del")
@@ -44,6 +43,8 @@ def parse_args(args = None):
                   default=os.getenv("HGVS_MERGE_LITERALS", True))
   ap.add_argument("--warn-missing", "-w", action=argparse.BooleanOptionalAction,
                   default=os.getenv("HGVS_WARN_MISSING", True))
+  ap.add_argument("--impute_coordinate_type", "-c", action=argparse.BooleanOptionalAction,
+                  default=os.getenv("HGVS_IMPUTE_COORDINATE_TYPE", True))
   opts = ap.parse_args(args=args)
   return opts
 
@@ -80,6 +81,16 @@ if __name__ == "__main__":
     raise RuntimeError(f"{opts.VARIANT_TYPE} not defined in {opts.syntax_file}")
 
   forms = syntax_data["forms"]
+  if opts.impute_coordinate_type:
+    mol_type = opts.VARIANT_TYPE.split(".")[0]
+    if mol_type == "aa":
+      ct = '"p"'
+    elif mol_type == "rna":
+      ct = '"r"'
+    else:
+      ct = '"[gmn]"'
+    for f in forms:
+      f["syntax"] = f["syntax"].replace("coordinate_type", ct)
   if opts.merge_literals:
     for f in forms:
       f["syntax"] = merge_literals(f["syntax"])
