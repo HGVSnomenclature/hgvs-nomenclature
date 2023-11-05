@@ -98,12 +98,13 @@ aa:
           - Specifying the termination position is optional
   ins:
     elements:
+      sequence: Protein sequence to be inserted
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." aa_range "ins" sequence
         examples:
           - NP_004371.2:p.(Pro46_Asn47insSerSerTer)
         notes:
-          - The position must be specified using adjacent nucleotides
+          - The position must be specified using adjacent sequence positions
   rpt:
     elements:
     forms:
