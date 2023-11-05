@@ -89,11 +89,11 @@ aa:
   fs:
     elements:
     forms:
-      - name:
+      - name: Long format when stop codon position is known
         syntax: sequence_identifier ":" coordinate_type "." aa_position "fs" [ "Ter" position ]
         examples:
-          - NP_01234.5:p.Arg97fs
           - NP_01234.5:p.Arg97ProfsTer23
+          - NP_01234.5:p.Arg97fs
         notes:
           - Specifying the termination position is optional
   ins:

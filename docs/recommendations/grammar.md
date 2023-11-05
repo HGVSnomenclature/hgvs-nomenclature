@@ -14,6 +14,7 @@ We recognize that most users of HGVS will not want to concern themselves with th
 - A _production rule_ defines a non-terminal symbol as a pattern of other symbols. For example, `digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"` says that `digit` is made of "0" or "1" or "2", etc. Similarly, `two_digit_dumber = digit digit` defines a two_digit_number non-terminal symbol as being composed of two adjacent digits.
 - _Modfiers_ are used to indicate cardinality: `*` indicates zero or more of the preceeding rule or symbol; `+` indicates one or more; and `?` denotes zero or one (i.e., optional). For example, `number = digit+` recognizes any sequence of digits without sign or decimal point.
 - Parenthesis may be used to group a subexpression. For example, `"A" ( "B" | "C" )` accepts "AB" or "AC", and nothing else.
+- Square brackets indicate optional syntax. For example, `sign = "+" | "-"` and `number = [sign] digit+` allow number to defined as any sequence of digets, optionally with a single prefix sign.
 
 Putting this all together, a rule to match NCBI [RefSeq accessions](https://support.nlm.nih.gov/knowledgebase/article/KA-03437/) might be written as `refseq_accession = letter letter "_" digit+ "." digit+`, which would accept accessions like "NM_000551.3" and "NC_000012.12". Note that, as defined here, `refseq_accession` would also accept invalid or unlikely accessions such as "QQ_012.3333333333333333"; this example highlights the distinction between syntactic and semantic validity.
 
