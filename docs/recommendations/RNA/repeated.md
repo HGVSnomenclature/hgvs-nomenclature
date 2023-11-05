@@ -7,7 +7,7 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml rna.repeated
+bin/pull-syntax -f docs/syntax.yaml rna.rpt
 ```
 
 ## Notes
