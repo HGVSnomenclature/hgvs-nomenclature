@@ -22,7 +22,7 @@ bin/pull-syntax -f docs/syntax.yaml aa.del
 - variants extending the amino acid sequence at the C-terminal end with one or more amino acids, are described as [Extension](extension.md).
 - deletions at the DNA or RNA level
   - which introduce an **immediate** translation termination (stop) codon are described as nonsense variant.
-  - **starting N-terminal of and including** the translation termination (stop) codon are described as [Frame shift](frameshift.md).
+  - **starting N-terminal of and including** the translation termination (stop) codon are described as [Frameshift](frameshift.md).
 
 ## Examples
 

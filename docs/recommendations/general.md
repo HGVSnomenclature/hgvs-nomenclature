@@ -81,7 +81,7 @@ Specific abbreviations are used to describe different variant types.
 - `ins` indicates an **insertion**; c.76_77insG (see [DNA](DNA/insertion.md), [RNA](RNA/insertion.md), [protein](protein/insertion.md))
   - duplicating insertions are described as duplications, not as insertions
 - `inv` indicates an **inversion**; c.76_83inv (see [DNA](DNA/inversion.md), [RNA](RNA/inversion.md)). Not used at protein level, usually described as ["delins"](protein/delins.md)
-- `fs` indicates a **frameshift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs\*17, see [Frame shifts](protein/frameshift.md))
+- `fs` indicates a **frameshift**; p.Arg456GlyfsTer17 (or p.Arg456Glyfs\*17, see [Frameshifts](protein/frameshift.md))
 - `ext` indicates an **extension**; p.Met1<code class="spot1">ext</code>-5 (see [Extension](protein/extension.md))
 
 - HGVS/ISCN (see [Community Consultation](http://www.hgvs.org/mutnomen/comments004.html))

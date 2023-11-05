@@ -32,7 +32,7 @@ The description is always given **in addition** to a decription based on the X-c
 
 <a id="frameshift"></a>
 
-### Frame shifts
+### Frameshifts
 
 The HGVS recommended format to describe frameshift variants gives the length of the shifted reading frame, it does not indicate the length of the reference protein sequence that has been deleted. Both the length of the shifted open reading frame, as well as the length of the deleted reference protein sequence will be important to predict the possible deleterious consequence of the variant: the larger the new/deleted sequence the more likely it will be deleterious. The question has been raised whether the description of a **frameshift** variant should also **include the length of the protein sequence deleted**.
 
