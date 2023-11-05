@@ -1,6 +1,6 @@
 # Deletion
 
-## Definition
+<!-- ## Definition -->
 
 Deletion: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).
 

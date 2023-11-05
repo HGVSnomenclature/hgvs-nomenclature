@@ -1,6 +1,6 @@
 # Deletion
 
-## Definition
+<!-- ## Definition -->
 
 Deletion: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, one or more amino acids are not present (deleted)
 

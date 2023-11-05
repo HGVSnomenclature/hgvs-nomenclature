@@ -1,6 +1,6 @@
 # Substitution
 
-## Definition
+<!-- ## Definition -->
 
 Substitution: a sequence change where, compared to a reference sequence, **one** nucleotide is replaced by **one** other nucleotide.
 

@@ -1,6 +1,6 @@
 # Insertion
 
-## Definition
+<!-- ## Definition -->
 
 Insertion: a sequence change where, compared to the reference sequence, one or more nucleotides are inserted **and** where the insertion is not a copy of a sequence immediately 5'
 

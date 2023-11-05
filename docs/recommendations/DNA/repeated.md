@@ -1,6 +1,6 @@
 # Repeated Sequences
 
-## Definition
+<!-- ## Definition -->
 
 Repeated sequence: a sequence where, compared to a reference sequence, a segment of **one or more** nucleotides (the repeat unit) is present several times, one after the other.
 

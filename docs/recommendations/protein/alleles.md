@@ -1,6 +1,6 @@
 # Alleles
 
-## Definition
+<!-- ## Definition -->
 
 Allele: a series of variants in a protein encoded by one chromosome.
 

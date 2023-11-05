@@ -1,6 +1,6 @@
 # Inversion
 
-## Definition
+<!-- ## Definition -->
 
 Inversion: a sequence change where, compared to a reference sequence, **more than one nucleotide** replacing the original sequence are the reverse complement of the original sequence.
 

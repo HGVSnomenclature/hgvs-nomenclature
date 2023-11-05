@@ -1,6 +1,6 @@
 # Substitution
 
-## Definition
+<!-- ## Definition -->
 
 Substitution: a sequence change where, compared to a reference sequence, **one** amino acid is replaced by **one** other amino acid.
 

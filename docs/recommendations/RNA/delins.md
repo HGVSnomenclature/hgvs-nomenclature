@@ -1,6 +1,6 @@
 # Deletion-Insertion
 
-## Definition
+<!-- ## Definition -->
 
 Deletion-Insertion (delins): a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides **and which is not** a substitution, inversion or conversion.
 

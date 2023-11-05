@@ -1,6 +1,6 @@
 # Complex (HGVS/ISCN)
 
-## Definition
+<!-- ## Definition -->
 
 Complex: a sequence change where, compared to a reference sequence, a range of changes occur that can not be described as one of the basic variant types (substitution, deletion, duplication, insertion, conversion, inversion, deletion-insertion, or repeated sequence).
 

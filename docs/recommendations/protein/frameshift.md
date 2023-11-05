@@ -1,6 +1,6 @@
 # Frameshift
 
-## Definition
+<!-- ## Definition -->
 
 Frame shift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame.
 

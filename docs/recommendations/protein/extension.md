@@ -1,6 +1,6 @@
 # Extension
 
-## Definition
+<!-- ## Definition -->
 
 Extension: a sequence change extending the reference amino acid sequence at the N- or C-terminal end with one or more amino acids.
 

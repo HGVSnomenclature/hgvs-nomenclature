@@ -1,6 +1,6 @@
 # Insertion
 
-## Definition
+<!-- ## Definition -->
 
 Insertion: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to the reference sequence, one or more amino acids are inserted, which is not a frame shift and where the insertion is not a copy of a sequence immediately N-terminal (5')
 

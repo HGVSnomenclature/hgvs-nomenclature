@@ -1,6 +1,6 @@
 # Deletion-Insertion
 
-## Definition
+<!-- ## Definition -->
 
 Deletion-Insertion (delins): a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, one or more amino acids are replaced with one or more other amino acids and which is not a substitution, frame shift or conversion.
 
