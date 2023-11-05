@@ -40,6 +40,4 @@ Contributors should follow the styles outlined below. Inline HTML is discouraged
 
 ### Syntax Blocks
 
-(in progress)
-
-`FIRST`<code class="spot1">MIDDLE</code>`LAST` and `UNO`<code class="spot1">DOS</code>`TRES`
+Syntax blocks are formatted by ./bin/pull-syntax from data in syntax.yaml. See any recommendation page for an example.
