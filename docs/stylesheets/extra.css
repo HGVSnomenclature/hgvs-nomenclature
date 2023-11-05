@@ -22,6 +22,10 @@ label.md-nav__title {
   display: none;
 }
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 /*
 === sequence highlights
 */
@@ -97,6 +101,26 @@ h2 {
 h3 {
   color: var(--md-typeset-a-color);
   /* color: var(--gray-50); */
+}
+
+/*
+=== summary table
+*/
+
+table.summary {
+  font-size: 0.5rem;
+  border-collapse: collapse;
+  border: 0;
+  padding: 0;
+}
+
+table.summary th {
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+table.summary td {
+  white-space: nowrap;
 }
 
 /*
