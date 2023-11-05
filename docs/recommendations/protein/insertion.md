@@ -13,7 +13,6 @@ bin/pull-syntax -f docs/syntax.yaml aa.ins
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- The `coordinate_type` must be "p." (protein).
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. `p.(Arg727_Ser728insTrpCys)`.
 - the "amino_acids+positions_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25).
   - an insertion can not be described using **one** amino acid position, like `p.Lys23insAsp.`

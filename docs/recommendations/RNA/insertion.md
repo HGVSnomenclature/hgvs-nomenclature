@@ -12,7 +12,6 @@ bin/pull-syntax -f docs/syntax.yaml rna.ins
 
 ## Notes
 
-- The `coordinate_type` must be one of r. (coding and non-coding RNA).
 - the "positions_flanking" should contain **two flanking nucleotides**, e.g. 123 and 124 but not 123 and 125.
   - the "positions_flanking" should be listed from 5' to 3', e.g. 123_124 not 124_123
 - when a variant can be described as a duplication it **must** be desribed as a duplication and **not as an insertion** (see [Prioritization](../general.md)

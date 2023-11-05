@@ -13,7 +13,6 @@ bin/pull-syntax -f docs/syntax.yaml aa.alleles
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- The `coordinate_type` must be "p." (protein)
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses inside the square brackets, e.g. `p.[<code` class="spot1">(</code>Arg727Ser;Cys1334Trp<code class="spot1">)</code>]
 - when two variants are identified in a protein that derive from **one chromosome** (in cis) this should be described as "p.[variant1;variant2]"
 - when two variants are identified in proteins that derive from **different chromosomes** (in trans) this should be described as "p.[variant1];[variant2]"

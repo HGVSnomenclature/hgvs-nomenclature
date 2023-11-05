@@ -13,7 +13,6 @@ bin/pull-syntax -f docs/syntax.yaml aa.del
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and protein level may be given in addition
-- The `coordinate_type` must be "p." (protein).
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. `p.(Arg727_Ser783del)`.
 - the "amino_acids+positions_deleted" should contain **two different** positions, i.e. Cys76_Glu79, not Cys76_Cys76.
   - the "positions_deleted" should be listed from **5' to 3'**, i.e. Cys76_Glu79, not Glu79_Cys76.

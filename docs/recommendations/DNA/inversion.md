@@ -12,7 +12,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
 
 ## Notes
 
-- The `coordinate_type` must be one of g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA)
 - by definition, the region inverted ("positions_inverted") contains **more then one nucleotide**. The description g.234inv is therefore not allowed; a one nucleotide inversion should be described as a [substitution](substitution.md)
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
   - the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant

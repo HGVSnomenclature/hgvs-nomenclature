@@ -13,7 +13,6 @@ bin/pull-syntax -f docs/syntax.yaml aa.delins
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- The `coordinate_type` must be "p." (protein).
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. `p.(Arg123_Lys127delinsSerAsp)`.
 - by definition, when **one** amino acid is replaced with **one** other amino acid, the change is a [substitution](substitution.md), not a deletion-insertion.
 - changes involving two or more consecutive amino acids are described as a deletion/insertion variant (delins) (see [Substitution](substitution.md).

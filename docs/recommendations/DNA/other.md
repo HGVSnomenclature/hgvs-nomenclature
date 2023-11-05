@@ -12,7 +12,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.other
 
 ## Notes
 
-- The `coordinate_type` must be one of g., m., c. and n. (genomic, mitochondrial, coding DNA and non-coding DNA).
 - see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md) for the original proposal
 
 ## Examples

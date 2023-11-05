@@ -13,7 +13,6 @@ bin/pull-syntax -f docs/syntax.yaml rna.del
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- The `coordinate_type` must be one of r. (coding and non-coding RNA).
 - the "position(s)\_deleted" should contain **two different positions**, e.g. 123_126 but not 123_123.
 - the "position(s)\_deleted" should be listed from **5' to 3'**, e.g. 123_126 but not 126_123.
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
