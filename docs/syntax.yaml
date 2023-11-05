@@ -107,7 +107,7 @@ aa:
   rpt:
     elements:
     forms:
-      - syntax: sequence_identifier ":" coordinate_type "." position sequence "[" number "]"
+      - syntax: sequence_identifier ":" coordinate_type "." position sequence "[" total_copy_number "]"
         examples:
           - NP_01234.5:p.Ala2[10]
           - NP_01234.5:p.Ala2[10];[11]
