@@ -1,3 +1,4 @@
+coloredlogs
 jinja2
 jmespath
 markdown-captions
