@@ -106,5 +106,8 @@ if __name__ == "__main__":
       elif opts.warn_missing:
         element_descriptions[e] = '<span style="color: red;">description missing</span>'
 
+  # rebuild dictionary with keys in sorted order (preserved on iteration)
+  element_descriptions = {e: element_descriptions[e] for e in sorted(element_descriptions)}
+
   print(env.from_string(table_template).render(
     forms=forms, element_descriptions=element_descriptions))
