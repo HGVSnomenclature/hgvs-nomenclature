@@ -7,7 +7,7 @@ Substitution: a sequence change where, compared to a reference sequence, **one**
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml rna.substitution
+bin/pull-syntax -f docs/syntax.yaml rna.sub
 ```
 
 ## Notes
