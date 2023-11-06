@@ -7,7 +7,7 @@ Deletion-Insertion (delins): a sequence change where, compared to a reference se
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml rna.delins
+bin/pull-syntax -c -f docs/syntax.yaml rna.delins
 ```
 
 ## Notes

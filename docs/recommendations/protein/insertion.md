@@ -7,7 +7,7 @@ Insertion: a sequence change between the translation initiation (start) and term
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml aa.ins
+bin/pull-syntax -c -f docs/syntax.yaml aa.ins
 ```
 
 ## Notes

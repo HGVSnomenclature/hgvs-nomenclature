@@ -46,7 +46,7 @@ def parse_args(args = None):
   ap.add_argument("--warn-missing", "-w", action=argparse.BooleanOptionalAction,
                   default=os.getenv("HGVS_WARN_MISSING", True))
   ap.add_argument("--impute_coordinate_type", "-c", action=argparse.BooleanOptionalAction,
-                  default=os.getenv("HGVS_IMPUTE_COORDINATE_TYPE", True))
+                  default=os.getenv("HGVS_IMPUTE_COORDINATE_TYPE", False))
   opts = ap.parse_args(args=args)
   return opts
 

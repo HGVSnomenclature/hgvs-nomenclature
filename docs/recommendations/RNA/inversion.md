@@ -7,7 +7,7 @@ Inversion: a sequence change where, compared to a reference sequence, **more tha
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml rna.inv
+bin/pull-syntax -c -f docs/syntax.yaml rna.inv
 ```
 
 ## Notes

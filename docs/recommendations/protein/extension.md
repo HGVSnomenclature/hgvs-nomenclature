@@ -7,7 +7,7 @@ Extension: a sequence change extending the reference amino acid sequence at the 
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml aa.ext
+bin/pull-syntax -c -f docs/syntax.yaml aa.ext
 ```
 
 ## Notes

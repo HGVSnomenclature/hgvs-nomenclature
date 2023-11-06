@@ -7,7 +7,7 @@ Duplication: a sequence change where, compared to a reference sequence, a copy o
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml rna.dup
+bin/pull-syntax -c -f docs/syntax.yaml rna.dup
 ```
 
 ## Notes

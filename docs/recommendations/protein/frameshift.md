@@ -7,7 +7,7 @@ Frameshift: a sequence change between the translation initiation (start) and ter
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml aa.fs
+bin/pull-syntax -c -f docs/syntax.yaml aa.fs
 ```
 
 ## Notes

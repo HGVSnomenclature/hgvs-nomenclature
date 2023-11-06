@@ -7,7 +7,7 @@ Deletion-Insertion (delins): a sequence change between the translation initiatio
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml aa.delins
+bin/pull-syntax -c -f docs/syntax.yaml aa.delins
 ```
 
 ## Notes

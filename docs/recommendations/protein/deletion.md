@@ -7,7 +7,7 @@ Deletion: a sequence change between the translation initiation (start) and termi
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml aa.del
+bin/pull-syntax -c -f docs/syntax.yaml aa.del
 ```
 
 ## Notes

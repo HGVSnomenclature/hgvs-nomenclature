@@ -7,7 +7,7 @@ Duplication: a sequence change between the translation initiation (start) and te
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml aa.dup
+bin/pull-syntax -c -f docs/syntax.yaml aa.dup
 ```
 
 ## Notes

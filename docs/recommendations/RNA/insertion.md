@@ -7,7 +7,7 @@ Insertion: a sequence change where, compared to the reference sequence, one or m
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml rna.ins
+bin/pull-syntax -c -f docs/syntax.yaml rna.ins
 ```
 
 ## Notes

@@ -7,7 +7,7 @@ Allele: a series of variants in a protein encoded by one chromosome.
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml aa.alleles
+bin/pull-syntax -c -f docs/syntax.yaml aa.alleles
 ```
 
 ## Notes

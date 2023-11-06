@@ -7,7 +7,7 @@ Allele: a series of variants in a transcript from one chromosome.
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml rna.alleles
+bin/pull-syntax -c -f docs/syntax.yaml rna.alleles
 ```
 
 ## Notes

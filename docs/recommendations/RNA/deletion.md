@@ -7,7 +7,7 @@ Deletion: a sequence change where, compared to a reference sequence, one or more
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -f docs/syntax.yaml rna.del
+bin/pull-syntax -c -f docs/syntax.yaml rna.del
 ```
 
 ## Notes
