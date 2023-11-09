@@ -88,7 +88,7 @@ Specific abbreviations are used to describe different variant types.
 
   - `cen` indicates the **centromere** of a chromosome
   - `chr` indicates a **chromosome**; chr11:g.12345611G>A (NC_000011.9)
-  - "<code class="spot1">pter</code> indicates the **first nucleotide** of a chromosome
+  - `pter` indicates the **first nucleotide** of a chromosome
   - `qter` indicates the **last nucleotide** of a chromosome
   - `sup` indicates an **supernumary** chromosome (marker chromosome)
 
