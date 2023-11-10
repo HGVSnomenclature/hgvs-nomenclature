@@ -22,10 +22,6 @@ label.md-nav__title {
   display: none;
 }
 
-.no-wrap {
-  white-space: nowrap;
-}
-
 .md-typeset ul ul {
   list-style-type: circle;
 }
@@ -33,6 +29,21 @@ label.md-nav__title {
 .md-typeset ul ul ul {
   list-style-type: square;
 }
+
+.md-typeset dt {
+  font-weight: bold;
+}
+.md-typeset dd {
+  margin: 0 !important;
+}
+
+/*
+=== misc classes
+*/
+.no-wrap {
+  white-space: nowrap;
+}
+
 
 /*
 === sequence highlights
