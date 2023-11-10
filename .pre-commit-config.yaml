@@ -2,15 +2,17 @@
 # See https://pre-commit.com/hooks.html for more hooks
 
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
-    hooks:
-      - id: trailing-whitespace
-      - id: end-of-file-fixer
-      - id: check-yaml
-      - id: check-added-large-files
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-yaml
+  - id: check-added-large-files
 
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v3.0.3
-    hooks:
-      - id: prettier
+# Prettier and Markdown have mutually exclusive interpretatons of the correct
+# indentation for nested lists. And, because prettier is not configurable,
+# it's all or nothing. So, we get nothing. :-(
+#
+# - repo: https://github.com/pre-commit/mirrors-prettier rev: v3.0.3 hooks:
+#     - id: prettier
