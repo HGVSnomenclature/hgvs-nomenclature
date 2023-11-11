@@ -44,6 +44,13 @@ label.md-nav__title {
   white-space: nowrap;
 }
 
+.md-typeset ul ul {
+  list-style-type: circle;
+}
+
+.md-typeset ul ul ul {
+  list-style-type: square;
+}
 
 /*
 === sequence highlights
