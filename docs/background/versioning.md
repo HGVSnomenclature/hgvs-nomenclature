@@ -1,16 +1,20 @@
 # Versioning
 
-The recommendations for the description of sequence variants are designed to be **stable**, **meaningful**, **memorable** and **unequivocal**. Still, every now and then modifications will be required to remove inconsistencies and/or to clarify confusing conventions. In addition, the recommendations may be extended to resolve cases that were hitherto not covered. HGVS nomenclature has version numbers to allow users to specify up to what point they follow the HGVS recommendations.
+The primary mission of HGVS Nomenclature is to facilitate reliable communication of sequence variants, which requires that the HGVS Nomenclature is stable. Nonetheless, modifications will be required from time to time in order to address new needs, resolve inconsistencies, or clarify confusing conventions.  Some of these changes will be minor, some will add new features, and, rarely, some will eliminate formerly acceptable variant syntax.
 
-The version number is based on the date of the change and has the format: **HGVS nomenclature \_Version 15.11**, for the version accepted in 2015 ("**15**"), November ("**11**"). The current HGVS version number is shown in the top right corner of this web site ("\_**Version xx.xx**"). Note the version does not change when a typing error is corrected, an example added, an explanation clarified or a question answered. Outside the core HGVS recommendations, covered by the version number, the recommendations have "**named extensions**", i.e optional extensions for a specific use. Supporting named extensions is optional. A proper reference to the version of the HGVS nomenclature should mention the version number and the named extensions supported.
+Beginning in 2023, the HGVS Nomenclature will adapt concepts from [Semantic Versioning](https://semver.org/). Each release will consist of 3 numbers separated by dots in the format x.y.z with the following meangings:
 
-### The current version is HGVS nomenclature v20.05.
+- The "patch" version (z) is reserved for changes that fix or clarify intentions. This is akin to a bug fix.
+- The "minor" version (y) will be used for new features that are consistent with prior versions but should not break them.  For example, adoption of a community proposal that added a new feature would trigger an increase in the minor version.
+- The "major" version (x) will be used when changes break existing behavior. Major changes should be extremely rare.
 
-<code class="spot1">NOTE:</code> since proposals SVD-WG007 and SVD-WG008 have been accepted a **new version** of the HGVS nomenclature was released May 1, 2020.
+Because HGVS historically used date-based versions (e.g., 20.05 in May 2020),
+and because versions should increase monotonically, the next version will be
+released with the major version 23, but subsequent versions will adopt the above
+meaning for major version.
 
-For issues currently discussed see [Open for Community Consultation](../consultation/index.md) or [Open Issues](../consultation/open-issues.md).
 
-## Version list
+## Prior Versions
 
 - **Version 20.05**: Accepted proposals include [SVD-WG007](../consultation/SVD-WG007.md) and [SVD-WG008](../consultation/SVD-WG008.md):
 
