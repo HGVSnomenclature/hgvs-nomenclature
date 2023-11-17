@@ -1,4 +1,4 @@
-#
+# Home
 
 The **HGVS Nomenclature** is an internationally-recognized standard for the description of DNA, RNA and protein sequence variants. It is used to convey variants in clinical reports and to share variants in publications and databases.
 
