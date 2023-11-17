@@ -1,10 +1,8 @@
-<table>
+<table class="summary">
 <thead>
 <th>variant type</th>
 <th>molecule type</th>
-<th>form</th>
-<th>syntax</th>
-<th>examples</th>
+<th style="text-align: left">forms, syntax, and examples</th>
 </thead>
 <tbody>
   {% set ns = namespace() %}
@@ -18,7 +16,7 @@
   {%- set form_loop = loop %}
 
   <!-- {{vt}}, {{mt}}, form {{form_loop.index}}/{{forms|count}} -->
-  <tr class="{{ loop.cycle('odd', 'even') }}">
+  <tr>
     {% if ns.need_vt_th %}
     <th rowspan={{ vtb["dna"]|count + vtb["rna"]|count + vtb["aa"]|count }}>{{vt}}</th>
     {% set ns.need_vt_th = false %}
@@ -29,12 +27,10 @@
     {% set ns.need_mt_th = false %}
     {% endif %}
 
-    <th>{{form.get("name") or ""}}</th>
-    <td><code>{{form.syntax}}</code></td>
-    <td>
+    <td>{% if form.get("name") %}<b>{{form.get("name") or ""}}</b><br/>{% endif %}
+      <code>{{form.syntax}}</code>
       {% for ex in form.examples -%}
-      {% if not loop.first %}<br/>{% endif %}
-        <code>{{ex}}</code>
+      <br/><code>{{ex}}</code>
       {% endfor %}
     </td>
   </tr>

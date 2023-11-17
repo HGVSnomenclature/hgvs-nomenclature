@@ -130,20 +130,30 @@ h3 {
 */
 
 table.summary {
-  font-size: 0.5rem;
-  border-collapse: collapse;
+  font-size: 0.6rem;
   border: 0;
   padding: 0;
 }
 
+table.summary thead {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+}
+
 table.summary th {
-  white-space: nowrap;
+  padding: 0.2em;
   font-weight: bold;
 }
 
 table.summary td {
-  white-space: nowrap;
+  padding: 0.2em;
 }
+
+table.summary tr:not(:first-child) th,
+table.summary tr:not(:first-child) td {
+  border-top: thin solid var(--md-primary-fg-color);
+}
+
 
 /*
 === syntax table
