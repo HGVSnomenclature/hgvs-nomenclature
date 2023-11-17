@@ -18,10 +18,6 @@
   margin-bottom: 0px;
 }
 
-label.md-nav__title {
-  display: none;
-}
-
 .md-typeset ul ul {
   list-style-type: circle;
 }
