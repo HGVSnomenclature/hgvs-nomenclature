@@ -10,6 +10,14 @@ The **HGVS Nomenclature** is an internationally-recognized standard for the desc
 
 The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committee (HVNC)](hvnc.md) under the auspices of the [Human Genome Organization (HUGO)](https://hugo-int.org/).
 
+## Contact Us
+
+Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
+
+* The preferred way to reach us is through [GitHub discussions](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions).
+* You may also email us at VarNomen@HUGO-int.org
+* The [Facebook group](https://www.facebook.com/HGVSmutnomen) is obsolete, but you may find relevant historical discussions there.
+
 ## Current Citation
 
 **HGVS Recommendations for the Description of Sequence Variants: 2016 Update.** den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, et al. Hum Mutat. 2016. [doi:10.1002/humu.22981](http://dx.doi.org/10.1002/humu.22981) | [PubMed:26931183](https://www.ncbi.nlm.nih.gov/pubmed/26931183) | [PDF](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)
