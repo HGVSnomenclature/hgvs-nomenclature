@@ -1,10 +1,4 @@
-# HGVS Nomenclature
-
-!!! warning
-
-    This is a development and preview site for updates to the HGVS Nomenclature.  Please
-    see [the website migration discussion](https://github.com/HGVSnomenclature/HVNC/discussions/17)
-    for a description of the proposed changes and current progress.
+#
 
 The **HGVS Nomenclature** is an internationally-recognized standard for the description of DNA, RNA and protein sequence variants. It is used to convey variants in clinical reports and to share variants in publications and databases.
 
@@ -15,7 +9,7 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
 
 * The preferred way to reach us is through [GitHub discussions](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions).
-* See [Community Consultation](consultation) for proposals, including how to submit a propsal.
+* See [Community Consultation](consultation/index.md) for proposals, including how to submit a propsal.
 * You may also email us at VarNomen@HUGO-int.org
 * The [Facebook group](https://www.facebook.com/HGVSmutnomen) is obsolete, but you may find relevant historical discussions there.
 
