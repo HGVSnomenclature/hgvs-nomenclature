@@ -4,5 +4,10 @@
 
 SHELL:=/bin/bash -eu -o pipefail
 
-serve:
-	mkdocs serve
+build serve: %:
+	mkdocs $@
+
+sitemap.xml: site/sitemap.xml
+	cp $< $@
+
+site/sitemap.xml: build;

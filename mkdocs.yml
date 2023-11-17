@@ -3,6 +3,7 @@
 # https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins
 
 site_name: "HGVS Nomenclature"
+site_url: https://hgvs-nomenclature.org/
 
 plugins:
 #- autolinks
