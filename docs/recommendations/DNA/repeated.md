@@ -6,6 +6,8 @@ Repeated sequence: a sequence where, compared to a reference sequence, a segment
 
 ## Syntax
 
+**NOTE:** a Community Consultation proposal is being prepared which will suggest to allow only the format where the **entire range** of the repeated sequence is indicated, so g.123_191CAG[23] **not** g.123CAG[23]
+
 ```sh exec="true"
 bin/pull-syntax -f docs/syntax.yaml dna.rpt
 ```
@@ -43,7 +45,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.rpt
       - LRG_763t1:c.54_110GCA[23]: a sequenced GCA tri-nucleotide repeat starting at position c.54 contains 23 units, on protein level described as NP_002102.4:p.(Gln18)[25]: **NOTE:** the GCA repeat is followed by ACAGCA extending the encoded Gln-repeat by 2
     - **CFTR intron 9**: NM_000492.3:c.1210-33_1210-6GT[11]T[6]: the mixed repeat sequence form position c.1210-33 to c.1210-6 contains 11 GT and 6 T copies: **NOTE**: when only the variable T-stretch is described the format is NM_000492.3:c.1210-12_1210-6T[7] (see Q&A below)
     - **HTT repeat** (reference sequence LRG_763t1:c.52_153CAG[21]CAA[1]CAG[1]CCG[1]CCA[1]CCG[7]CCT[2]): in literature the Huntington's Disease tri-nucleotide repeat, encoding a variable poly-Gln followed by a variable poly-Pro repeat on protein level, is known as the CAG repeat. Based on the HTT (huntingtin) coding DNA reference sequence (GenBank LRG_763t1 or NM_002111.8) and applying the **3'rule**, the Poly-Gln encoding repeat has to be described as an AGC-AAC-AGC repeat.
-      - LRG_763t1:c.53AGC[23]: a sequenced AGC tri-nucleotide repeat starting at position c.53 contains 23 units, on protein level described as NP_002102.4:p.(Gln18)[25]: **NOTE:** the AGC repeat is followed by AACAGC extending the encoded Gln-repeat by 2)
+      - LRG_763t1:c.54_110GAC[23]: a sequenced GCA tri-nucleotide repeat starting at position c.54 contains 23 units, on protein level described as NP_002102.4:p.(Gln18)[25]: **NOTE:** the AGC repeat is followed by AACAGC extending the encoded Gln-repeat by 2)
     - **CFTR intron 9**: NM_000492.3:c.1210-33_1210-6GT[11]T[6]: the mixed repeat sequence form position c.1210-33 to c.1210-6 contains 11 GT and 6 T copies: **NOTE**: when only the variable T-stretch is described the format is NM_000492.3:c.1210-12T[7] (see Q&A below)
   - NC_000012.11:g.112036755_112036823CTG[9]TTG[1]CTG[13]: a complex repeated sequence from position g.112036755 to g.112036823 on chromosome 12 with first a CTG unit present in 9 copies, then a TTG unit present in 1 copy and then a CTG unit present in 13 copies
 - differing genomic (g.) and coding DNA (c.) descriptions: NC_000001.11:g.57367047_57367121ATAAA[15] and NM_021080.3:c.-136-75952\_-136-75878ATTTT[15] describe the same repeat allele in intron 3 of the DAB1 gene: **NOTE**: based on the **3' rule** and the transcriptional orientation of the gene (minus strand) the description of the repeat units differs
