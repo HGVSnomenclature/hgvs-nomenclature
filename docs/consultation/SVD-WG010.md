@@ -28,4 +28,4 @@ According to the current recommendations, the description of two variants which 
 - NC_000023.10:g.32862927_32862929delinsATA : variants g.32862927C>A and g.32862929T>A are separated by fewer than two nucleotides and described as a "delins" variant
 - LRG_199t1:c.992_1004delinsAC : variants c.992_1002del and c.1004T>C are separated by fewer than two nucleotides and described as a "delins" variant
 
-- NP_003997.1:p.Ser988_Gln900delinsAlaLeuHis: variants p.Ser988 and p.Gln900 (LRG_199t1:c.[2962T>G;2970A>T]) are separated by fewer than two amino acids and described as a "delins" variant, not as p.[Ser988Ala;Gln900His]
+- NP_003997.1:p.Ser988_Gln990delinsAlaLeuHis: variants p.Ser988 and p.Gln990 (LRG_199t1:c.[2962T>G;2970A>T]) are separated by fewer than two amino acids and described as a "delins" variant, not as p.[Ser988Ala;Gln990His]
