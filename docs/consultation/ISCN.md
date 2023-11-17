@@ -4,7 +4,7 @@ The ISCN recommendations (International System for Human Cytogenomic Nomenclatur
 
 The latest recommendations, ISCN 2020, were finalized by the committee and its advisors in 2019 and are available as [book from Karger Publishers](https://iscn.karger.com) (Eds. Jean McGowan-Jordan, Ros Hastings & Sarah Moore).
 
-Questions/suggestions regarding the ISCN recommendations should be addressed to the current chair of the ISCN committee: Ros Hastings (Oxford, UK): Ros.Hastings @ ouh.nhs.uk.
+Questions/suggestions regarding the ISCN recommendations should be addressed to the current chair of the ISCN committee: Ros Hastings (Oxford, UK): Ros.Hastings @ outlook.com.
 
 ### ISCN committees
 
