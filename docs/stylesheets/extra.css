@@ -22,6 +22,24 @@ label.md-nav__title {
   display: none;
 }
 
+.md-typeset ul ul {
+  list-style-type: circle;
+}
+
+.md-typeset ul ul ul {
+  list-style-type: square;
+}
+
+.md-typeset dt {
+  font-weight: bold;
+}
+.md-typeset dd {
+  margin: 0 !important;
+}
+
+/*
+=== misc classes
+*/
 .no-wrap {
   white-space: nowrap;
 }
