@@ -1,6 +1,11 @@
 # Software
 
-This page lists general purpose open source software that manipulates HGVS expressions. Our intention is to help the community find software that aids in the adoption of HGVS Nomenclature. The entries below are provided by the authors; the entries are not validated or endorsed by the HVNC. Tools are listed alphabetically.  See the [submission requirements and instructions](#submission) for information about submitting to this list.
+This page lists general purpose open source software that manipulates HGVS
+expressions. Our intention is to help the community find software that aids in
+the adoption of HGVS Nomenclature. The entries below are provided by the
+authors; the entries are not validated or endorsed by the HVNC. Tools are listed
+alphabetically.  See the [submission requirements and instructions](#submission)
+for information about submitting to this list.
 
 
 !!! note "Under Construction"
@@ -12,10 +17,6 @@ This page lists general purpose open source software that manipulates HGVS expre
     - update links for docs, issues, home
     - reconsider how to list functionality (and what functionality)
     - allow types to be multi-select (e.g., rust library with a python interface and an API)
-
-
-
-
 
 
 ## Software
@@ -31,7 +32,11 @@ bin/make-software-table docs/software/*.yml
     - API (e.g., REST): Software that exposes an internet-visible programming interface that is language-independent
     - Web UI: Software used with a browser window and generally intended for broader audiences
 
-- **License**: Only open-source tools with [well-recognized OSI-approved licenses](https://opensource.org/licenses/?categories=popular-strong-community) will be listed.
+- **License**: Only open-source tools with licenses approved by the [Open Source
+  Initiative](https://opensource.org) will be listed. In addition,
+  [well-recognized
+  licenses](https://opensource.org/licenses/?categories=popular-strong-community)
+  will be preferred.
 
 - **Functionality**: Software is annotated as performing one or more of the following functions:
     - conversion: Does the software convert to/from HGVS and other formats (e.g., VCF, SPDI, VRS)

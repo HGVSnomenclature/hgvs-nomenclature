@@ -39,7 +39,7 @@ properties:
       - library/python
       - library/rust
       - web api
-      - web service
+      - web user interface
   functionality:
     type: array
     items:
@@ -68,6 +68,7 @@ properties:
     - LGPL-3.0-only
     - MIT
     - MPL-2.0
+    - OTHER
   description:
     type: string
   pubmed_id:

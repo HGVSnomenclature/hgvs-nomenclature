@@ -23,7 +23,7 @@
             <td>{{swe["name"]}}</td>
             <td> <a href="{{swe['home_url']}}">Home</a>
                 <br /><a href="{{swe['issues_url']}}">Issues</a>
-                <br /><a href="{{swe['documentation_url']}}">Documentation</a>
+                {% if swe.get('documentation_url') %}<br /><a href="{{swe['documentation_url']}}">Documentation</a>{% endif %}
                 <br/><a href="https://pubmed.ncbi.nlm.nih.gov/{{swe['pubmed_id']}}/">PubMed</a>
             </td>
             <td>{{list_to_ul(swe["types"])}}</td>
