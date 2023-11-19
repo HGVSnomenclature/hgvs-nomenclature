@@ -8,7 +8,7 @@ type: "object"
 additionalProperties: false
 required:
 - name
-- type
+- types
 - home_url
 - functionality
 - license
@@ -28,26 +28,30 @@ properties:
     description: URL where software bugs and features are tracked
     type: string
     format: uri
-  type:
-    type: string
-    enum:
-    - library/c
-    - library/go
-    - library/other
-    - library/python
-    - library/rust
-    - web api
-    - web service
+  types:
+    type: array
+    items:
+      type: string
+      enum:
+      - library/c
+      - library/go
+      - library/other
+      - library/python
+      - library/rust
+      - web api
+      - web service
   functionality:
     type: array
     items:
       type: string
       enum:
-      - project
-      - validate
-      - parse
-      - normalize
-      - convert
+      - conversion
+      - liftover
+      - normalization
+      - parsing
+      - projection
+      - translation
+      - validation
   license:
     description: "License identifier from well-recognized OSI approved licenses at https://opensource.org/licenses/?categories=popular-strong-community. \n"
     type: string
@@ -65,4 +69,6 @@ properties:
     - MIT
     - MPL-2.0
   description:
+    type: string
+  pubmed_id:
     type: string

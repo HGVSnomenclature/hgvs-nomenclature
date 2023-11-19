@@ -1,23 +1,39 @@
-name: hgvs
+name: hgvs Python library
 home_url: https://github.com/biocommons/hgvs
 issues_url: https://github.com/biocommons/hgvs/issues
 documentation_url: https://hgvs.readthedocs.io/
-type: library/python
+types:
+- library/python
 functionality:
-- project
-- validate
-- parse
-- normalize
-- convert
+- conversion
+- normalization
+- parsing
+- projection
+- translation
+- validation
 license: Apache-2.0
 description: |
   The *hgvs* package provides a Python library to parse, format, validate,
-  normalize, and map sequence variants according to [Variation
-  Nomenclature](http://varnomen.hgvs.org/) (aka Human Genome Variation
-  Society) recommendations.
+  normalize, and map sequence variants according to [HGVS
+  Nomenclature](http://hgvs-nomenclature.org/).
 
-  Specifically, the hgvs package focuses on the subset of the HGVS
-  recommendations that precisely describe sequence-level variation
-  relevant to the application of high-throughput sequencing to clinical
-  diagnostics. The package does not attempt to cover the full scope of
-  HGVS recommendations.
+  The hgvs package focuses on the subset of the HGVS recommendations that
+  precisely describe sequence-level variation relevant to the application of
+  high-throughput sequencing to clinical diagnostics. The hgvs package does not
+  attempt to cover the full scope of HGVS recommendations.  A key feature of the
+  hgvs package is the ability to correctly project variants in the presence of
+  genome-transcript alignment indels (see
+  [PubMed:30129167](https://pubmed.ncbi.nlm.nih.gov/30129167/)).
+
+  [![pypi_rel](https://img.shields.io/pypi/v/hgvs.svg)](https://pypi.org/project/hgvs/)
+  [![coveralls](https://img.shields.io/coveralls/github/biocommons/hgvs.svg)](https://coveralls.io/github/biocommons/hgvs)
+  [![issues](https://img.shields.io/github/issues-raw/biocommons/hgvs.svg)](https://github.com/biocommons/hgvs/issues)
+  [![GitHub Open Pull Requests](https://img.shields.io/github/issues-pr/biocommons/hgvs.svg)](https://github.com/biocommons/hgvs/pull/)
+  [![GitHub license](https://img.shields.io/github/contributors/biocommons/hgvs.svg)](https://github.com/biocommons/hgvs/graphs/contributors/)
+  [![GitHub stars](https://img.shields.io/github/stars/biocommons/hgvs.svg?style=social&label=Stars)](https://github.com/biocommons/hgvs/stargazers)
+  [![GitHub forks](https://img.shields.io/github/forks/biocommons/hgvs.svg?style=social&label=Forks)](https://github.com/biocommons/hgvs/network)
+
+
+
+
+pubmed_id: "30129167"

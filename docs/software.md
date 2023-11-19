@@ -1,15 +1,28 @@
 # Software
 
+This page lists general purpose open source software that manipulates HGVS expressions. Our intention is to help the community find software that aids in the adoption of HGVS Nomenclature. The entries below are provided by the authors; the entries are not validated or endorsed by the HVNC. Tools are listed alphabetically.  See the [submission requirements and instructions](#submission) for information about submitting to this list.
+
+
 !!! note "Under Construction"
 
     This page is being developed. See discussion at [https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/56](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/56)
 
+    TODO:
 
-This page lists general purpose open source software that manipulates HGVS expressions. Our intention is to help the community find software that aids in the adoption of HGVS Nomenclature. The entries below are provided by the authors; the entries are not validated or endorsed by the HVNC. Tools are listed alphabetically.
+    - update links for docs, issues, home
+    - reconsider how to list functionality (and what functionality)
+    - allow types to be multi-select (e.g., rust library with a python interface and an API)
 
-## Submissions
 
-To submit a software entry, fork the [hgvs-nomenclature repo](https://gituhub.com/HGVSnomenclature/hgvs-nomenclature/) and create a new entry in the docs/software/ directory using entry.yml-template.  You should build the documentation yourself to ensure that your software entry appears as intended.
+
+
+
+
+## Software
+
+```sh exec="true"
+bin/make-software-table docs/software/*.yml
+```
 
 ## Listing Details
 
@@ -20,10 +33,15 @@ To submit a software entry, fork the [hgvs-nomenclature repo](https://gituhub.co
 
 - **License**: Only open-source tools with [well-recognized OSI-approved licenses](https://opensource.org/licenses/?categories=popular-strong-community) will be listed.
 
-- **Functionality**: Any software that manipulates general HGVS expressions may be listed. Here, "manipulates" means that the software must do one or more of the following: 1) parse, 2) generate, 3) validate, or 4) project or translate, and "general" means that the software must perform these operations on a significant subset of variants across transcripts and variant types (insertions, deletions, etc). Given that many packages read or write HGVS expressions, that functionality alone is not sufficient to be listed here.
+- **Functionality**: Software is annotated as performing one or more of the following functions:
+    - conversion: Does the software convert to/from HGVS and other formats (e.g., VCF, SPDI, VRS)
+    - liftover: Does the software provide *direct* liftover between aligned genomic sequences?
+    - normalization: Does the software normalize variants (e.g., 3' shift) and rewrite (e.g., `ins` → `dup`)
+    - parsing: Does the software parse HGVS expressions into a usable structure for analysis?
+    - projection: Does the software project variants from one sequence to another?
+    - translation: Does the software infer protein consequences from transcript variants?
+    - validation: Does the software provide syntactic validation (i.e., the correct form) and semantic validation (i.e., the parsed structure makes sense)?
 
-## Software
+## Submissions
 
-```sh exec="true"
-bin/make-software-table docs/software/*.yml
-```
+To submit a software entry, fork the [hgvs-nomenclature repo](https://gituhub.com/HGVSnomenclature/hgvs-nomenclature/) and create a new entry in the docs/software/ directory using entry.yml-template.  You should build the documentation yourself to ensure that your software entry appears as intended.

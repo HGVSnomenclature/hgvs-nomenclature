@@ -1,21 +1,36 @@
+{% macro list_to_ul(list) %}
+<ul>
+    {% for item in list %}
+    <li style="margin-left: 0">{{item}}</li>
+    {% endfor %}
+</ul>
+{% endmacro %}
+
+
 <table>
-<thead>
-<th>Name</th>
-<th>Type</th>
-<th>License</th>
-<th>Functionality</th>
-<th>Description</th>
-</thead>
-<tbody>
-{% for swe in software %}
-{% set license_info = licenses[swe["license"]] %}
-<tr>
-<th><a href="{{swe['home_url']}}">{{swe["name"]}}</a></th>
-<th>{{swe["type"]}}</th>
-<th><a href="{{license_info['url']}}">{{license_info['name']}}</a></th>
-<th>{{swe["functionality"]}}</th>
-<th>{{swe["description"]|markdown}}</th>
-</tr>
-{% endfor %}
-</tbody>
+    <thead>
+        <th>Name</th>
+        <th>Links</th>
+        <th>Type</th>
+        <th>License</th>
+        <th>Functionality</th>
+        <th>Description</th>
+    </thead>
+    <tbody>
+        {% for swe in software %}
+        {% set license_info = licenses[swe["license"]] %}
+        <tr>
+            <td>{{swe["name"]}}</td>
+            <td> <a href="{{swe['home_url']}}">Home</a>
+                <br /><a href="{{swe['issues_url']}}">Issues</a>
+                <br /><a href="{{swe['documentation_url']}}">Documentation</a>
+                <br/><a href="https://pubmed.ncbi.nlm.nih.gov/{{swe['pubmed_id']}}/">PubMed</a>
+            </td>
+            <td>{{list_to_ul(swe["types"])}}</td>
+            <td><a href="{{license_info['url']}}">{{license_info['name']}}</a></td>
+            <td>{{list_to_ul(swe["functionality"])}}</td>
+            <td>{{swe["description"]|markdown}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
 </table>
