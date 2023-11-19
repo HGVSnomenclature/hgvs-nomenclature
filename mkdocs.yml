@@ -79,3 +79,4 @@ theme:
 
 watch:
 - bin
+- lib

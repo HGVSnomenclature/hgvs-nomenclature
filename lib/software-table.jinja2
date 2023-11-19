@@ -1,0 +1,21 @@
+<table>
+<thead>
+<th>Name</th>
+<th>Type</th>
+<th>License</th>
+<th>Functionality</th>
+<th>Description</th>
+</thead>
+<tbody>
+{% for swe in software %}
+{% set license_info = licenses[swe["license"]] %}
+<tr>
+<th><a href="{{swe['home_url']}}">{{swe["name"]}}</a></th>
+<th>{{swe["type"]}}</th>
+<th><a href="{{license_info['url']}}">{{license_info['name']}}</a></th>
+<th>{{swe["functionality"]}}</th>
+<th>{{swe["description"]|markdown}}</th>
+</tr>
+{% endfor %}
+</tbody>
+</table>
