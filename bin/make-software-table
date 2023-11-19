@@ -41,8 +41,8 @@ if __name__ == "__main__":
     env.trim_blocks = True
     env.lstrip_blocks = True
 
-    template = env.get_template((lib_dir / "software-table.jinja2").as_posix())
-    schema = yaml.safe_load(open(lib_dir / "software-schema.yml"))
+    template = env.get_template((lib_dir / "templates" / "software-table.jinja2").as_posix())
+    schema = yaml.safe_load(open(lib_dir / "schemas" / "software.yml"))
     licenses = yaml.safe_load(open(lib_dir / "osi-licenses.yml"))
 
     opts = parse_args()
