@@ -4,28 +4,16 @@ This page lists general purpose open source software that manipulates HGVS
 expressions. Our intention is to help the community find software that aids in
 the adoption of HGVS Nomenclature. The entries below are provided by the
 authors; the entries are not validated or endorsed by the HVNC. Tools are listed
-alphabetically.  See the [submission requirements and instructions](#submission)
-for information about submitting to this list.
+alphabetically.  See [Listing Definitions](#listing-definitions) for an
+explanation of terms. See the [submission requirements and
+instructions](#submissions) for information about submitting to this list.
 
-
-!!! note "Under Construction"
-
-    This page is being developed. See discussion at [https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/56](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/56)
-
-    TODO:
-
-    - update links for docs, issues, home
-    - reconsider how to list functionality (and what functionality)
-    - allow types to be multi-select (e.g., rust library with a python interface and an API)
-
-
-## Software
 
 ```sh exec="true"
 bin/make-software-table docs/software/*.yml
 ```
 
-## Listing Details
+## Listing Definitions
 
 - **Software Type**: One of:
     - Library: Software component that is used by developers when building other tools
@@ -49,4 +37,25 @@ bin/make-software-table docs/software/*.yml
 
 ## Submissions
 
-To submit a software entry, fork the [hgvs-nomenclature repo](https://gituhub.com/HGVSnomenclature/hgvs-nomenclature/) and create a new entry in the docs/software/ directory using entry.yml-template.  You should build the documentation yourself to ensure that your software entry appears as intended.
+### Requirements
+
+The software MUST:
+
+- Be primarily concerned with provided the functionality listed above. Tools
+  that accept or emit HGVS expressions as part of their operation will not be
+  included.
+- Meet the license requirements above. Commercial software, including hybrid
+  open-source/commercial software, will not be included.
+- Have a publication in PubMed. This requirement is intended to create a bar
+  that implies review by peers.
+
+### Instructions
+
+To submit a software entry:
+
+- Fork the [hgvs-nomenclature repo](https://github.com/HGVSnomenclature/hgvs-nomenclature/)
+- Create a new entry in the docs/software/ directory using an existing entry as a template
+- Build the documentation locally (see
+  [README.md](https://github.com/HGVSnomenclature/hgvs-nomenclature/blob/main/README.md))
+  to ensure that your software entry appears as intended
+- Submit a pull request
