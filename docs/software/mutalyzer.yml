@@ -1,7 +1,11 @@
 name: Mutalyzer
-home_url: https://mutalyzer.nl/
-issues_url: https://github.com/mutalyzer/mutalyzer/issues
-documentation_url: https://mutalyzer.readthedocs.io/
+primary_url: https://mutalyzer.nl/
+source:
+  type: github
+  repo_slug: mutalyzer/mutalyzer
+links:
+  markdown:
+  - '[Documentation](https://mutalyzer.readthedocs.io/)'
 types:
 - web api
 - web user interface

@@ -1,7 +1,8 @@
 name: Variant Validator
-home_url: https://www.variantvalidator.org/
-# https://github.com/openvar/variantvalidator/
-issues_url: https://github.com/openvar/variantvalidator/issues
+primary_url: https://www.variantvalidator.org/
+source:
+  type: github
+  repo_slug: openvar/variantvalidator
 types:
 - web api
 - web user interface

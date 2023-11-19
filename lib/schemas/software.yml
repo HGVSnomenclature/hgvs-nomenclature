@@ -7,19 +7,38 @@ type: "object"
 
 additionalProperties: false
 required:
-- name
-- types
-- home_url
+- description
 - functionality
 - license
-- description
+- name
+- primary_url
+- source
+- types
 properties:
   name:
     type: string
-  home_url:
+  primary_url:
     description: URL for primary page
     type: string
     format: uri
+  source:
+    additionalProperties: false
+    required:
+    - type
+    - repo_slug
+    properties:
+      type:
+        type: string
+        const: github
+      repo_slug:
+        type: string
+  links:
+    additionalProperties: false
+    properties:
+      markdown:
+        type: array
+        items:
+          type: string
   documentation_url:
     description: URL for package documentation
     type: string
