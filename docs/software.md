@@ -39,7 +39,7 @@ bin/make-software-table docs/software/*.yml
 
 ### Requirements
 
-The software MUST:
+The software must:
 
 - Be primarily concerned with provided the functionality listed above. Software
   that accept or emit HGVS expressions as part of their operation will not be
