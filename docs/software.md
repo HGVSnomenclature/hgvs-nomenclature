@@ -3,7 +3,7 @@
 This page lists general purpose open source software that manipulates HGVS
 expressions. Our intention is to help the community find software that aids in
 the adoption of HGVS Nomenclature. The entries below are provided by the
-authors; the entries are not validated or endorsed by the HVNC. Tools are listed
+authors; the entries are not validated or endorsed by the HVNC. Software packages are listed
 alphabetically.  See [Listing Definitions](#listing-definitions) for an
 explanation of terms. See the [submission requirements and
 instructions](#submissions) for information about submitting to this list.
@@ -16,11 +16,11 @@ bin/make-software-table docs/software/*.yml
 ## Listing Definitions
 
 - **Software Type**: One of:
-    - Library: Software component that is used by developers when building other tools
+    - Library: Software component that is used by developers when building applications
     - API (e.g., REST): Software that exposes an internet-visible programming interface that is language-independent
     - Web UI: Software used with a browser window and generally intended for broader audiences
 
-- **License**: Only open-source tools with licenses approved by the [Open Source
+- **License**: Only open-source software with licenses approved by the [Open Source
   Initiative](https://opensource.org) will be listed. In addition,
   [well-recognized
   licenses](https://opensource.org/licenses/?categories=popular-strong-community)
@@ -41,7 +41,7 @@ bin/make-software-table docs/software/*.yml
 
 The software MUST:
 
-- Be primarily concerned with provided the functionality listed above. Tools
+- Be primarily concerned with provided the functionality listed above. Software
   that accept or emit HGVS expressions as part of their operation will not be
   included.
 - Meet the license requirements above. Commercial software, including hybrid
