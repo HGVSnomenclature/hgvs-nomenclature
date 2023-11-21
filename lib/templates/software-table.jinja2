@@ -28,7 +28,7 @@ Requests](https://img.shields.io/github/issues-pr/{{repo_slug}}.svg)](https://gi
         <th>Type</th>
         <th>License</th>
         <th>Functionality</th>
-        <th>Description</th>
+        <!-- <th>Description</th> -->
         <th>Links</th>
     </thead>
     <tbody>
@@ -39,7 +39,7 @@ Requests](https://img.shields.io/github/issues-pr/{{repo_slug}}.svg)](https://gi
             <td>{{list_to_ul(swe["types"])}}</td>
             <td><a href="{{license_info['url']}}">{{license_info['name']}}</a></td>
             <td>{{list_to_ul(swe["functionality"])}}</td>
-            <td>{{swe["description"]|markdown}}</td>
+            <!-- <td>{{swe["description"]|markdown}}</td> -->
             <td>{{links(swe)|markdown}}</td>
         </tr>
         {% endfor %}
