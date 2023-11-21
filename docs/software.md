@@ -20,9 +20,9 @@ bin/make-software-table docs/software/*.yml
     - API (e.g., REST): Software that exposes an internet-visible programming interface that is language-independent
     - Web UI: Software used with a browser window and generally intended for broader audiences
 
-- **License**: Only open-source software with licenses approved by the [Open Source
-  Initiative](https://opensource.org) will be listed. In addition,
-  [well-recognized
+- **License**: Only open access web services and open-source software with
+  licenses approved by the [Open Source Initiative](https://opensource.org) will
+  be listed. In addition, [well-recognized
   licenses](https://opensource.org/licenses/?categories=popular-strong-community)
   will be preferred.
 

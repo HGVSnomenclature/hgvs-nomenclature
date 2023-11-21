@@ -1,0 +1,16 @@
+name: NCBI Variation Services
+primary_url: https://api.ncbi.nlm.nih.gov/variation/v0/
+source:
+  type: github
+  repo_slug: ncbi/dbsnp
+types:
+- library/python
+functionality:
+- conversion
+- normalization
+- projection
+- translation
+- validation
+license: OTHER
+description: (ignored for now)
+pubmed_id: "34850941"
