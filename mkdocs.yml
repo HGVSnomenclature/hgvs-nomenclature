@@ -69,5 +69,5 @@ theme:
 watch:
 - bin
 - lib
-- overrides
-- overrides/partials
+# - overrides
+# - overrides/partials
