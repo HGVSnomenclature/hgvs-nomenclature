@@ -4,7 +4,7 @@ source:
   type: github
   repo_slug: ncbi/dbsnp
 types:
-- library/python
+- web api
 functionality:
 - conversion
 - normalization
