@@ -18,9 +18,9 @@ The HGVS Nomenclature is administed by the [HGVS Variant Nomenclature Committee 
 
 ### Open
 
-- [SVD-WG010](SVD-WG010.md) (var distance): suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other: **Status**: <code class="spot1">closed July 31, 2021</code> (decision pending).
-
 ### Closed
+
+- [SVD-WG010](SVD-WG010.md) (var distance): suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other: **Status**: <code class="spot1">closed July 31, 2021</code> (decision pending).
 
 - [SVD-WG009](SVD-WG009.md) (conversion): suggested to simplify the HGVS nomenclature recommendations by **discontinuing the use of the variant type "con"** to describe conversions: **Status**: <code class="spot1">accepted</code>. Closed Oct.31 (2020). Opened Aug,4 (2020).
 
