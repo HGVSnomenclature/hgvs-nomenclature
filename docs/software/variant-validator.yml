@@ -1,4 +1,4 @@
-name: Variant Validator
+name: VariantValidator
 primary_url: https://www.variantvalidator.org/
 source:
   type: github
@@ -6,6 +6,10 @@ source:
 types:
 - web api
 - web user interface
+- library/python
+links:
+  markdown:
+  - '[![codecov](https://codecov.io/gh/openvar/variantValidator/graph/badge.svg?token=QWTxw5kiY4)](https://codecov.io/gh/openvar/variantValidator)'
 functionality:
 - conversion
 - normalization
@@ -13,6 +17,7 @@ functionality:
 - projection
 - translation
 - validation
+- liftover
 license: OTHER
 description: |
   VariantValidator is a user-friendly software tool designed to validate the
@@ -26,11 +31,11 @@ description: |
   transcript variant descriptions and genomic variant descriptions in HGVS and
   Variant Call Format (VCF)
 
-  VariantValidator interfaces with the hgvs package to parse, format, and
+  VariantValidator interfaces with and expands the functionality of the hgvs package to parse, format, and
   manipulate biological sequence variants. See
   https://github.com/biocommons/hgvs/ for details of the hgvs package
 
-  VariantValidator is a highly functional platform enabling high-throughput and
+  rest_VariantValidator and the Python libraries are functional platforms enabling high-throughput and
   embeddable utilisation of functionality of https://variantvalidator.org/
 
 pubmed_id: "28967166"
