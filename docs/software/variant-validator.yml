@@ -7,7 +7,6 @@ types:
 - web api
 - web user interface
 - library/python
-- docker builds
 links:
   markdown:
   - '[![codecov](https://codecov.io/gh/openvar/variantValidator/graph/badge.svg?token=QWTxw5kiY4)](https://codecov.io/gh/openvar/variantValidator)'
