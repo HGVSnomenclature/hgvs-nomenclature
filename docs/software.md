@@ -28,10 +28,10 @@ bin/make-software-table docs/software/*.yml
 
 - **Functionality**: Software is annotated as performing one or more of the following functions:
     - conversion: Does the software convert to/from HGVS and other formats (e.g., VCF, SPDI, VRS)
-    - liftover: Does the software provide *direct* liftover between aligned genomic sequences?
+    - liftover: Does the software support mapping variants between aligned genomic sequences?
     - normalization: Does the software normalize variants (e.g., 3' shift) and rewrite (e.g., `ins` → `dup`)
     - parsing: Does the software parse HGVS expressions into a usable structure for analysis?
-    - projection: Does the software project variants from one sequence to another?
+    - projection: Does the software support mapping variants between genome and transcript variants?
     - translation: Does the software infer protein consequences from transcript variants?
     - validation: Does the software provide syntactic validation (i.e., the correct form) and semantic validation (i.e., the parsed structure makes sense)?
 
