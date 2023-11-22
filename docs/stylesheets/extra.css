@@ -1,4 +1,5 @@
 [data-md-color-scheme="hvnc"] {
+  --md-code-bg-color: #f0f0f0;
   --md-primary-fg-color: #ff8001;
   --md-primary-fg-color--light: #ff9910;
   --md-primary-fg-color--dark: #dd7000;
@@ -33,6 +34,10 @@
   margin: 0 !important;
 }
 
+.md-nav--integrated > .md-nav__list > .md-nav__item--active:not(.md-nav__item--nested) {
+  padding: 0;
+}
+
 /*
 === misc classes
 */
@@ -56,7 +61,7 @@ code::first-of-type and code::last-of-type should get left and right padding res
 
 .md-typeset code {
   color: inherit;
-  font-size: inherit;
+  font-size: 90%;
   padding: 1px;
 }
 

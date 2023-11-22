@@ -38,12 +38,15 @@ theme:
   #custom_dir: overrides
 
   features:
-  - navigation.indexes
-  - navigation.instant
-  - navigation.tracking
-  - search.highlight
-  - toc.follow
-  - toc.integrate
+  - navigation.indexes  # enable section-level pages
+  - navigation.instant  # single-page app
+  - navigation.tracking # add section fragment to URL
+  - search.highlight    # highlight search terms in pages
+  - toc.follow          # toc follows scroll
+  - toc.integrate       # integrate page headings into toc
+  # Tabs are nice, but apparently remove the side nav
+  # - navigation.tabs
+  # - navigation.tabs.sticky
 
   palette:
   # Palette toggle for light mode
@@ -61,7 +64,7 @@ theme:
       name: Switch to light mode
 
   font:
-    text: Ubuntu
+    text: Lato
     code: Roboto Mono
   logo: images/hgvs-logo.png
   favicon: images/hgvs-logo.png
