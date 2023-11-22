@@ -32,7 +32,7 @@ description: |
   transcript variant descriptions and genomic variant descriptions in HGVS and
   Variant Call Format (VCF)
 
-  VariantValidator interfaces with the hgvs package to parse, format, and
+  VariantValidator interfaces with and expands the functionality of the hgvs package to parse, format, and
   manipulate biological sequence variants. See
   https://github.com/biocommons/hgvs/ for details of the hgvs package
 
