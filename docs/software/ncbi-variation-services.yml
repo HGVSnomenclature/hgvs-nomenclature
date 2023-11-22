@@ -8,7 +8,7 @@ types:
 functionality:
 - conversion
 - normalization
-- projection
+- transcription
 - translation
 - validation
 license: OTHER
