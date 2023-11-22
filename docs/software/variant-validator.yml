@@ -6,7 +6,7 @@ source:
 types:
 - web api
 - web user interface
-- python libraries
+- library/python
 - docker builds
 functionality:
 - conversion
