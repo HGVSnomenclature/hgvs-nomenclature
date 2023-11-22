@@ -1,4 +1,4 @@
-name: Variant Validator
+name: VariantValidator
 primary_url: https://www.variantvalidator.org/
 source:
   type: github
@@ -6,6 +6,8 @@ source:
 types:
 - web api
 - web user interface
+- python libraries
+- docker builds
 functionality:
 - conversion
 - normalization
@@ -13,6 +15,7 @@ functionality:
 - projection
 - translation
 - validation
+- liftover
 license: OTHER
 description: |
   VariantValidator is a user-friendly software tool designed to validate the
@@ -30,7 +33,7 @@ description: |
   manipulate biological sequence variants. See
   https://github.com/biocommons/hgvs/ for details of the hgvs package
 
-  VariantValidator is a highly functional platform enabling high-throughput and
+  rest_VariantValidator and the Python libraries are functional platforms enabling high-throughput and
   embeddable utilisation of functionality of https://variantvalidator.org/
 
 pubmed_id: "28967166"
