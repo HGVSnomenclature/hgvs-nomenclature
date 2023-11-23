@@ -24,7 +24,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.delins
   - **NOTE**: the inserted amino acid sequence can be derived from the description od the variant at DNA or RNA level.
 - deletion/insertion variants extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as [Extension](extension.md).
 - deletion-insertion variants at the DNA or RNA level.
-  - which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant, e.g. `p.Tyr4Ter` (or `p.Tyr4\*)` not `p.Cys5_Ser6delinsTerGluAsp.`
+  - which introduce an **immediate** translation termination (stop) codon at the protein level are described as a nonsense variant, e.g. `p.Tyr4Ter` (or `p.Tyr4*)` not `p.Cys5_Ser6delinsTerGluAsp.`
   - **encoding a translation stop codon** in the inserted sequence are described as deletion-insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
   - encoding an open reading frame which **after** the inserted sequence shift to another reading frame are described as a [frameshift](frameshift.md).
   - **starting N-terminal (5') of and including** the translation termination (stop) codon are described as [frameshift](frameshift.md).
