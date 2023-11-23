@@ -34,7 +34,8 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
 ### several amino acids
 
 - `NP_003997.2:p.Lys23_Val25del`: a deletion of amino acids Lys23 to Val25 in reference sequence NP_003997.2
-- `NP_003997.2:p.(Pro458_Gly460del)`: a deletion of amino acids Pro458-Pro459-Gly460 in reference sequence `NP_003997.2: **NOTE:** the underlying DNA variant (LRG_232t1:c.1365_1373del)` affects amino acids Pro455-Pro456-Gly457 but the 3'rule needs to be applied
+- `NP_003997.2:p.(Pro458_Gly460del)`: a deletion of amino acids Pro458-Pro459-Gly460 in reference sequence NP_003997.2
+    - **NOTE:** the underlying DNA variant `LRG_232t1:c.1365_1373del` affects amino acids Pro455-Pro456-Gly457 but the 3'rule needs to be applied
 
 ### one or more exons
 
