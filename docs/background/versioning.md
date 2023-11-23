@@ -18,20 +18,19 @@ meaning for major version.
 
 - **Version 20.05**: Accepted proposals include [SVD-WG007](../consultation/SVD-WG007.md) and [SVD-WG008](../consultation/SVD-WG008.md):
 
-  - SVD-WG008 (_Reference Sequences_): specifies requirements for acceptable Reference Sequences
-  - SVD-WG007 (_RNA fusion_): specifies how to describe RNA fusion transcripts
+    - SVD-WG008 (_Reference Sequences_): specifies requirements for acceptable Reference Sequences
+    - SVD-WG007 (_RNA fusion_): specifies how to describe RNA fusion transcripts
 
 - **Version 19.01**: Accepted proposals include [SVD-WG005](../consultation/SVD-WG005.md) and [SVD-WG006](../consultation/SVD-WG006.md):
 
-  - SVD-WG006 (_circular DNA_): allows descriptions like o.16000_100del
-  - SVD-WG005 (_gom/lom_): allows descriptions of changes in general methylation status like g.123_456|lom
-
-- **Named extension ISCN**: Proposal [SVD-WG004](../consultation/SVD-WG004.md) (ISCN<>HGVS) has been accepted a "named extension ISCN"
+    - SVD-WG006 (_circular DNA_): allows descriptions like o.16000_100del
+    - SVD-WG005 (_gom/lom_): allows descriptions of changes in general methylation status like g.123_456|lom
+    - **Named extension ISCN**: Proposal [SVD-WG004](../consultation/SVD-WG004.md) (ISCN<>HGVS) has been accepted a "named extension ISCN"
 
 - **Version 15.11**: Accepted proposals include [SVD-WG001](../consultation/SVD-WG001.md) and [SVD-WG002](../consultation/SVD-WG002.md):
 
-  - SVD-WG001 (_No change_): allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=).
-  - SVD-WG002 (_n. reference sequence_): allows descriptions like NR_028379.1:n.345A>G. : HGVS nomenclature **version 15.11** is described in Den Dunnen et al. (2016) [HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: 37: 564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf). The most significant changes between version 15.11 and version 1.0 are [described below](#v1511).
+    - SVD-WG001 (_No change_): allows descriptions like g.11890634G=, c.123G=, r.123g= and p.(Arg41=).
+    - SVD-WG002 (_n. reference sequence_): allows descriptions like NR_028379.1:n.345A>G. : HGVS nomenclature **version 15.11** is described in Den Dunnen et al. (2016) [HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: 37: 564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf). The most significant changes between version 15.11 and version 1.0 are [described below](#v1511).
 
 - **Version 2.121101**: **Variants affecting translation termination** - variants that replace the translation termination codon but do not encounter a new stop in the new reading frame are described as "p._321Argext_?". Frameshift variants with the same effect are described as "p.Ile321Argfs\*?" (see [Protein descriptions](../recommendations/protein/extension.md))
 
