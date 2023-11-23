@@ -66,7 +66,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
 
     In **females** the description is straightforward, like `LRG_199t1:c.[76A>C];[76=]`. In **males** there is no second allele (X-chromosome) which can be described as `LRG_199t1:c.[76A>C];[0]`, i.e. using `c.0` to indicate the absence of a second X-chromosome.
 
-!!! note "I have a patient with hearing loss and variants in the GJB2 (`c.35delG`) and GJB6 (`c.689*690insT`) genes, how should I describe this? \*(Nancy Carson, Ottawa, Canada)\_"
+!!! note "I have a patient with hearing loss and variants in the GJB2 (`c.35delG`) and GJB6 (`c.689*690insT`) genes, how should I describe this? (Nancy Carson, Ottawa, Canada)"
 
     The recommendation is to use the format `GJB2:c.[35delG] GJB6:c.[689_690insT]``. This uses standard HGVS descriptions and prevents confusion regarding which variant was found in which gene. Note it is essential that you also define the coding DNA reference sequence used. Another format, coping with this directly, is to describe the variants as `NM_004004.2:c.[35delG] NM_006783.1:c.[689_690insT]`, i.e. using the Genbank reference sequences in stead of the HGNC approved Gene Symbol.
 
