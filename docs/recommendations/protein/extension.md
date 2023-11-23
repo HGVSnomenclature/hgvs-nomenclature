@@ -36,7 +36,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ext
 
 !!! note "<a id='noend'></a>How do I describe an extension when no new stop codon is reached?"
 
-    Such variants are described using the format `p.Ter789ArgextTer?,` i.e. "**extTer?**" to indicate that no new termination codon is encountered.
+    Such variants are described using the format `p.Ter789ArgextTer?,` i.e. `extTer?` to indicate that no new termination codon is encountered.
 
 !!! note "How should a variant in the 5'UTR be described that gives rise to a new translation initiation site?"
 
