@@ -17,7 +17,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
 - the "amino_acids+positions_deleted" should contain **two different** positions, i.e. Cys76_Glu79, not Cys76_Cys76.
   - the "positions_deleted" should be listed from **5' to 3'**, i.e. Cys76_Glu79, not Glu79_Cys76.
 - for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
-- in theory, a **nonsense** variant can be considered as a deletion removing the C-terminal end of the protein (e.g. `p.Trp26_Arg1623del)`. By definition, nonsense variants are described as an amino acid substitution `(p.Trp26Ter or `p.Trp26\*` see [Substitution](substitution.md)`) replacing the first amino acid affected by a translation termination (stop) codon.
+- in theory, a **nonsense** variant can be considered as a deletion removing the C-terminal end of the protein (e.g. `p.Trp26_Arg1623del)`. By definition, nonsense variants are described as an amino acid substitution `(p.Trp26Ter or `p.Trp26*` see [Substitution](substitution.md)`) replacing the first amino acid affected by a translation termination (stop) codon.
 - variants extending the amino acid sequence at the C-terminal end with one or more amino acids, are described as [Extension](extension.md).
 - deletions at the DNA or RNA level
   - which introduce an **immediate** translation termination (stop) codon are described as nonsense variant.
@@ -34,7 +34,8 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
 ### several amino acids
 
 - `NP_003997.2:p.Lys23_Val25del`: a deletion of amino acids Lys23 to Val25 in reference sequence NP_003997.2
-- `NP_003997.2:p.(Pro458_Gly460del)`: a deletion of amino acids Pro458-Pro459-Gly460 in reference sequence `NP_003997.2: **NOTE:** the underlying DNA variant (LRG_232t1:c.1365_1373del)` affects amino acids Pro455-Pro456-Gly457 but the 3'rule needs to be applied
+- `NP_003997.2:p.(Pro458_Gly460del)`: a deletion of amino acids Pro458-Pro459-Gly460 in reference sequence NP_003997.2
+    - **NOTE:** the underlying DNA variant `LRG_232t1:c.1365_1373del` affects amino acids Pro455-Pro456-Gly457 but the 3'rule needs to be applied
 
 ### one or more exons
 
@@ -47,7 +48,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
 ### other examples
 
 - `p.Gly2_Met46del`: a deletion of amino acids Gly2 to Met46 as a consequence of a variant silencing translation initiation at Met1 but activating a new downstream translation initiation site (at Met46) **NOTE:** the 3' rule has been applied.
-- `p.Trp26Ter (p.Trp26\*)`: amino acid Trp26 is changed to a stop codon (Ter, \*) **NOTE:** this change is by definition **not** described as a deletion of the C-terminal end of the protein (i.e. `p.Trp26_Arg1623del)`
+- `p.Trp26Ter` (`p.Trp26*`): amino acid Trp26 is changed to a stop codon (Ter, \*) **NOTE:** this change is by definition **not** described as a deletion of the C-terminal end of the protein (i.e. `p.Trp26_Arg1623del)`
 - `NP_003997.1:p.Val7=/del`: a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as "Val7=") also protein is found containing a deletion (Val7del): **NOTE:** for the predicted consequences of a variant the description is `NP_003997.1:p.(Val7=/del)`
 
 ## Discussion
