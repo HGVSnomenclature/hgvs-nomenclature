@@ -10,8 +10,10 @@ types:
 - web api
 - web user interface
 functionality:
+- backtranslation
+- extraction
 - normalization
-- projection
+- transcription
 - translation
 - validation
 license: MIT

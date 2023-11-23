@@ -14,7 +14,7 @@ functionality:
 - conversion
 - normalization
 - parsing
-- projection
+- transcription
 - translation
 - validation
 license: Apache-2.0

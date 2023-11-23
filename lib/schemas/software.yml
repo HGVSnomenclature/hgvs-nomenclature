@@ -64,11 +64,13 @@ properties:
     items:
       type: string
       enum:
+      - backtranslation
       - conversion
+      - extraction
       - liftover
       - normalization
       - parsing
-      - projection
+      - transcription
       - translation
       - validation
   license:
