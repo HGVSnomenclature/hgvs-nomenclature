@@ -2,9 +2,9 @@
 
 ### genomic reference sequences
 
-- genomic reference sequence nucleotide numbering is g.1, g.2, g.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a genomic reference sequence **do not include** "+", "-", "\*" or other prefixes.
-- circular reference sequence nucleotide numbering is o.1, o.2, o.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a circualr reference sequence **do not include** "+", "-", "\*" or other prefixes.
-- mitochondrial DNA reference sequence a mitochnodrial reference sequence is a special **circular** genomic reference sequence. Nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "\*" or other prefixes.
+- genomic reference sequence nucleotide numbering is g.1, g.2, g.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a genomic reference sequence **do not include** "+", "-", "*" or other prefixes.
+- circular reference sequence nucleotide numbering is o.1, o.2, o.3, ..., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a circualr reference sequence **do not include** "+", "-", "*" or other prefixes.
+- mitochondrial DNA reference sequence a mitochnodrial reference sequence is a special **circular** genomic reference sequence. Nucleotide numbering is m.1, m.2, m.3, ...., etc. from the first to the last nucleotide of the reference sequence. Nucleotide numbers based on a mitochondrial reference sequence **do not include** "+", "-", "*" or other prefixes.
   - the preferred human mtDNA reference sequence is the _Homo sapiens_ [mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).
 
 <a id="DNAc"></a>
@@ -13,18 +13,18 @@
 
 nucleotide numbering is based on the annotated protein isoform, the major translation product.
 
-- protein coding region : numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**. \* exception 3' rule: the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, where shifting the variant 3' would place it in the next exon. Projecting the variant from c. back to g. positions (genomic) would then lead to an incorrect genomic position (in the wrong exon): When ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG_199t1:c.3921del (NC_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del): **NOTE:** this exception does not apply to a deletion/duplication around exon/intron and intron/exon junctions with identical nucleotides flanking the junction (see [also Deletions](../recommendations/DNA/deletion.md))
+- protein coding region : numbering starts with "c.1" at the **A** of the ATG translation initiation (start) codon and ends with the last nucleotide of the translation termination (stop) codon, i.e. TA**A**, TA**G**, or TG**A**. * exception 3' rule: the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, where shifting the variant 3' would place it in the next exon. Projecting the variant from c. back to g. positions (genomic) would then lead to an incorrect genomic position (in the wrong exon): When ..GAT gta..//..cag TCA.. changes to ..GA\_ gta..//..cag TCA.., based on a coding DNA reference sequence the variant is described as LRG_199t1:c.3921del (NC_000023.10:g.32459297del) and **not as** c.3922del (which would translate to g.32456507del): **NOTE:** this exception does not apply to a deletion/duplication around exon/intron and intron/exon junctions with identical nucleotides flanking the junction (see [also Deletions](../recommendations/DNA/deletion.md))
 - **untranslated region (UTR)**
-  - nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a `-` (minus) and numbered c.-1, c.-2, c.-3, etc. (i.e. going further upstream)
-  - nucleotides downstream (3') of the translation termination codon (stop) are marked with a `*` (asterisk) and numbered c.\*1, c.\*2, c.\*3, etc. (i.e. going further downstream)
+  - nucleotides upstream (5') of the ATG-translation initiation codon (start) are marked with a `-` (minus) and numbered `c.-1`, `c.-2`, `c.-3`, etc. (i.e. going further upstream)
+  - nucleotides downstream (3') of the translation termination codon (stop) are marked with a `*` (asterisk) and numbered `c.*1`, `c.*2`, `c.*3`, etc. (i.e. going further downstream)
   - there is no nucleotide c.0.
 - **introns**
   - nucleotides at the 5' end of an intron are numbered relative to the last nucleotide of the directly upstream exon, followed by a `+` (plus) and their position in to the intron, like c.87+1, c.87+2, c.87+3, ...
   - nucleotides at the 3' end of an intron are numbered relative to the first nucleotide of the directly downstream exon, followed by a `-` (minus) and their position out of the intron, like ..., c.88-3, c.88-2, c.88-1.
-    - in the middle of the intron nucleotide numbering changes from `+` (plus) to `-` (minus): e.g. ..., c.87+676, c.87+677, c.87+678, c.88-678, c.88-677, c.88-676, ...
-    - in introns with an uneven number of nucleotides the central nucleotide is numbered relative to the upstream exon followed by a `+` (plus): e.g. ..., c.87+676, c.87+677, c.87+678, **c.87+679**, c.88-678, c.88-677, c.88-676, ...
-  - introns in the 5'UTR are numbered as normal introns, starting with `c.-` nucleotide numbers (c.-85+1, c.-85+2, c.-85+3, ..., c.-84-3, c.-84-2, c.-84-1)
-  - introns in the 3'UTR are numbered as normal introns, starting with "c.\*" nucleotide numbers (c.\*37+1, c.\*37+2, c.\*37+3, ..., c.\*38-3, c.\*38-2, c.\*38-1)
+    - in the middle of the intron nucleotide numbering changes from `+` (plus) to `-` (minus): e.g. ..., `c.87+676`, `c.87+677`, `c.87+678`, `c.88-678`, `c.88-677`, `c.88-676`, ...
+    - in introns with an uneven number of nucleotides the central nucleotide is numbered relative to the upstream exon followed by a `+` (plus): e.g. ..., `c.87+676`, `c.87+677`, `c.87+678`, `c.87+679`, `c.88-678`, `c.88-677`, `c.88-676`, ...
+  - introns in the 5'UTR are numbered as normal introns, starting with `c.-` nucleotide numbers (`c.-85+1`, `c.-85+2`, `c.-85+3`, ..., c.-84-3, c.-84-2, c.-84-1)
+  - introns in the 3'UTR are numbered as normal introns, starting with "c.*" nucleotide numbers (`c.*37+1`, `c.*37+2`, `c.*37+3`, ..., `c.*38-3`, `c.*38-2`, `c.*38-1`)
   - <code class="spot1">NOTE:</code> a coding DNA reference sequence **does not contain** intron or 5' and 3' gene flanking sequences and can therefore **not be used as a reference** to describe variants in these regions see [Reference Sequences](refseq.md#DNAc). Correct descriptions refer to a genomic reference sequence like LRG_199t1:c.357+1G>A, NC_000023.10(NM_004006.2):c.357+1G>A or NG_012232.1(NM_004006.2):c.357+1G>A.
 - **transcript flanking** : it is **not** allowed to describe variants in nucleotides beyond the boundaries of the reference sequence using the reference sequence \* suggestions made to extend the recommendations for nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides have been made but were rejected (see [Open Issues](../consultation/open-issues.md)).
 
@@ -48,7 +48,7 @@ nucleotide numbering for a RNA reference sequence follows that of the associated
 
 amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amino acid of the reference sequence
 
-- amino acid numbers based on a protein reference sequence may include a "-" or "\*" prefix (see [Protein Extensions](../recommendations/protein/extension.md)).
+- amino acid numbers based on a protein reference sequence may include a "-" or "*" prefix (see [Protein Extensions](../recommendations/protein/extension.md)).
 
 ## Q&A
 
@@ -56,11 +56,11 @@ amino acid numbering is p.1, p.2, p.3, ..., etc. from the first to the last amin
 
   - **c.78**T>C is a variant in a protein coding sequence: since nucleotide "c.78" has no signs attached and is not followed by a "+" or "-" and a second number it is located in the protein coding part of the gene.: **NOTE**: this rules does not hold for alternative transcripts where exons might reside 5' of the translation initiation side, in an intron or 3' of the 3'-terminal exon.: **NOTE**: dividing the nucleotide number by 3 gives the number of the amino acid residue affected, in the example amino acid 26 (**78:3 = 26**).
   - **c.<code class="spot1">-</code>78**G>A is a variant upstream (5') of the translation initiation site: since nucleotide "c.-78" has a `-` prefix it is located 5' of the ATG translation initiation codon.: **NOTE**: the length of the 5'UTR determines whether this nucleotide is still part of the transcript or upstream of the transcription initiation site (cap site).
-  - **c.<code class="spot1">\*</code>78**T>A is a variant downstream (3') of the translation termination site: since nucleotide "c._78" has a `_` prefix it is located 3' of the translation termination codon: **NOTE**: the length of the 3'UTR determines whether this nucleotide is still part of the transcript or downstream of the polyA-addition site.
+  - **c.<code class="spot1">*</code>78**T>A is a variant downstream (3') of the translation termination site: since nucleotide "c._78" has a `_` prefix it is located 3' of the translation termination codon: **NOTE**: the length of the 3'UTR determines whether this nucleotide is still part of the transcript or downstream of the polyA-addition site.
   - **c.78<code class="spot1">+</code>45**T>G is a variant in an intron (5' half): since nucleotide "c.78" is followed by `+` and a second number ("45") the nucleotide is in an intron, 3' of the splice donor site and in the 5' half of the intron
   - **c.79<code class="spot1">-</code>45**G>T is a variant in an intron (3' half): since nucleotide "c.79" is followed by `-` and a second number ("45") the nucleotide is in an intron, 5' of the splice acceptor site and in the 3' half of the intron
   - **c.<code class="spot1">-</code>106<code class="spot1">+</code>**2T>A is a variant in an intron in the 5'UTR (upstream of the translation initiation site): since nucleotide "c.-106" has a `-` prefix it is located 5' of the ATG translation initiation codon and since it is followed by `+` and a second number ("2") the nucleotide is in the 5' half of an intron
-  - **c.<code class="spot1">\*</code>639<code class="spot1">-</code>**1G>A is a variant in an intron in the 3'UTR (downstream of the translation termination site): since nucleotide "c._639" has a `_`prefix it is located 3' of the translation termination codon and since it is followed by`-` and a second number ("1") the nucleotide is in the 3' half of the intron
+  - **c.<code class="spot1">*</code>639<code class="spot1">-</code>**1G>A is a variant in an intron in the 3'UTR (downstream of the translation termination site): since nucleotide "c._639" has a `_`prefix it is located 3' of the translation termination codon and since it is followed by`-` and a second number ("1") the nucleotide is in the 3' half of the intron
 
 - When I retrieve a coding DNA sequence from GenBank (NM* file) nucleotide numbering does not start with 1 at the A of the ATG translation initiation codon.: Correct, but it is not difficult to obtain such a file. Go to the NM* sequence of interest using [the Nucleotide database](http://www.ncbi.nlm.nih.gov/nucleotide/), e.g. NM_004006.2. The [page retrieved](http://www.ncbi.nlm.nih.gov/nucleotide/NM_004006.2) is annotated extensively. Clicking the "**CDS**" annotation (CoDing Sequence) opens a window where the nucleotide numbering will start with 1 at the A of the ATG translation initiation (start) codon. A: To assist those studying or reporting sequence variants, gene variant databases (LSDBs, see the [HGVS list of LSDBs](http://www.LOVD.nl/LSDBS)) usually provide a coding DNA reference sequence with the nucleotide numbering displayed (see [e.g. the DMD example](http://www.DMD.nl/nmdb2/refseq/DMD_codingDNA.html))
 
@@ -98,4 +98,4 @@ The basic recommendation is that the **reference sequence** used represents the 
     - completely in an intron; e.g. [in intron 47 of the TTN gene](http://www.dmd.nl/seqs/TTN_intron_47.html)
   - [after gene (in gene downstream sequence)](http://www.HGVS.org/mutnomen/refseq_diffspliceM.html)
 - **introns in 3' untranslated region (UTR)**
-  - when an intron immediately follows the last nucleotide of the translation termination (stop) codon (e.g. position c.876), nucleotides in the intron are numbered like c.876+1, c.876+2, c.876+3, ..., c.\*1-3, c.\*1-2, c.\*1-1.
+  - when an intron immediately follows the last nucleotide of the translation termination (stop) codon (e.g. position c.876), nucleotides in the intron are numbered like c.876+1, c.876+2, c.876+3, ..., `c.*1-3`, `c.*1-2`, `c.*1-1`.
