@@ -152,7 +152,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - readthrough transcript: a chimeric transcript in which the two (or more) genes involved can also be transcribed individually, and are found on the same chromosomal region, on the same strand, and typically adjacent to one another.
 
-- regulatory fusion: the novel interaction of a regulatory element brought into proximity of a partner gene by a genomic rearrangement, modulating gene product expression of the partner gene.
+- regulatory fusion: the interaction of a gene expression regulatory element which, by a genomic rearrangement, is brought into proximity of a new partner gene, modulating the expression of the new partner gene.
 
 - repeated sequence: **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other.
 
