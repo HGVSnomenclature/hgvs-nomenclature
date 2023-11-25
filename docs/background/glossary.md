@@ -64,6 +64,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - frameshift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([protein](../recommendations/protein/frameshift.md))
 
+- fusion transcript: a confusing term, HGVS nomenclature uses adjoined transcript instead.
+
 - gene fusion: the joining of two or more genes resulting in a chimeric transcript and/or a novel interaction between a rearranged regulatory element with the expressed product of a partner gene (a regulatory fusion).
 
 - genomic rearrangement: see *Structural Variant (SV)*
