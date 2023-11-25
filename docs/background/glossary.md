@@ -5,6 +5,9 @@
 Please note that this Glossary is **work in progress**. Do you encounter missing terms or want to suggest definitions, please let us know.
 
 - 3'rule: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed. When ATTTG changes to ATTG HGVS describes this as a change of the T at position 4 (not the T at position 2 or 3)
+
+- adjoined transcript: a transcript (RNA molecule) composed of two or more transcript segments.
+
 - allele: variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele)): **HGVS**: a series of variants on one chromosome.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/alleles.md), [RNA](../recommendations/RNA/alleles.md) or [protein](../recommendations/protein/alleles.md).
 
 - amino acid: a letter from the protein code (see [Standards](standards.md)).
@@ -17,7 +20,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - CDS: coding DNA sequence, a sequence translated in to an amino acid sequence (protein).
 
-- chimeric transcript: a transcript (RNA molecule) composed of transcript segments from two or more genes.
+- chimeric transcript: an adjoined transcript derived from two or more genes.
 
 - chimerism: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism)). Opposite of mosaicism.: descriptions see [General/Charcters used](../recommendations/general.md#characters).
 
