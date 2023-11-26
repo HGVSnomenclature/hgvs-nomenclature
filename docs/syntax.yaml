@@ -1,6 +1,6 @@
 element_descriptions:
   # global map of <element, description> used when a particular form does not define an element
-  # element are rendered in <code>...</code>; descriptions are rendered as markdown
+  # elements are rendered in <code>...</code>; descriptions are rendered as markdown
   aa: A single amino acid
   alternate_base: The single new base (nucleic or amino acid)
   alternate_sequence: The new sequence (nucleic or amino acid) that will occur at the specified position in the given sequence_identifier
