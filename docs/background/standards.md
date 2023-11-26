@@ -1,12 +1,12 @@
 # Standards
 
 - [Standards](#standards)
-  - [Nucleotides (DNA / RNA)](#nucleotides-dna--rna)
-    - [DNA](#dna)
-    - [RNA](#rna)
-  - [Genetic Code](#genetic-code)
-  - [Amino Acid Descriptions](#amino-acid-descriptions)
-  - [ISCN cytogenetic band to chromosome positions](#iscn-cytogenetic-band-to-chromosome-positions)
+    - [Nucleotides (DNA / RNA)](#nucleotides-dna--rna)
+        - [DNA](#dna)
+        - [RNA](#rna)
+    - [Genetic Code](#genetic-code)
+    - [Amino Acid Descriptions](#amino-acid-descriptions)
+    - [ISCN cytogenetic band to chromosome positions](#iscn-cytogenetic-band-to-chromosome-positions)
 
 <a id="DNAcode"></a>
 
@@ -67,142 +67,142 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ (see [IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)), specifying the description of amino acids.
 
 <table class="table table-bordered text-center gc">
-  <thead>
-    <tr>
-      <th colspan="6">Nucleotide position in codon</th>
-    </tr>
-    <tr>
-      <th>First</th>
-      <th colspan="4">Second</th>
-      <th>Third</th>
-    </tr>
-    <tr>
-      <td></td>
-      <th>T (U)</th>
-      <th>C</th>
-      <th>A</th>
-      <th>G</th>
-      <td></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="4">T (U)</th>
-      <td>TTT - Phe</td>
-      <td>TCT - Ser</td>
-      <td>TAT - Tyr</td>
-      <td>TGT - Cys</td>
-      <th>T (U)</th>
-    </tr>
-    <tr>
-      <td>TTC - Phe</td>
-      <td>TCC - Ser</td>
-      <td>TAC - Tyr</td>
-      <td>TGC - Cys</td>
-      <th>C</th>
-    </tr>
-    <tr>
-      <td>TTA - Leu</td>
-      <td>TCA - Ser</td>
-      <td>TAA - Ter</td>
-      <td>TGA - Ter</td>
-      <th>A</th>
-    </tr>
-    <tr>
-      <td>TTG - Leu</td>
-      <td>TCG - Ser</td>
-      <td>TAG - Ter</td>
-      <td>TGG - Trp</td>
-      <th>G</th>
-    </tr>
-    <tr>
-      <th rowspan="4">C</th>
-      <td>CTT - Leu</td>
-      <td>CCT - Pro</td>
-      <td>CAT - His</td>
-      <td>CGT - Arg</td>
-      <th>T (U)</th>
-    </tr>
-    <tr>
-      <td>CTC - Leu</td>
-      <td>CCC - Pro</td>
-      <td>CAC - His</td>
-      <td>CGC - Arg</td>
-      <th>C</th>
-    </tr>
-    <tr>
-      <td>CTA - Leu</td>
-      <td>CCA - Pro</td>
-      <td>CAA - Gln</td>
-      <td>CGA - Arg</td>
-      <th>A</th>
-    </tr>
-    <tr>
-      <td>CTG - Leu</td>
-      <td>CCG - Pro</td>
-      <td>CAG - Gln</td>
-      <td>CGG - Arg</td>
-      <th>G</th>
-    </tr>
-    <tr>
-      <th rowspan="4">A</th>
-      <td>ATT - Ile</td>
-      <td>ACT - Thr</td>
-      <td>AAT - Asn</td>
-      <td>AGT - Ser</td>
-      <th>T (U)</th>
-    </tr>
-    <tr>
-      <td>ATC - Ile</td>
-      <td>ACC - Thr</td>
-      <td>AAC - Asn</td>
-      <td>AGC - Ser</td>
-      <th>C</th>
-    </tr>
-    <tr>
-      <td>ATA - Ile</td>
-      <td>ACA - Thr</td>
-      <td>AAA - Lys</td>
-      <td>AGA - Arg</td>
-      <th>A</th>
-    </tr>
-    <tr>
-      <td>ATG - Met</td>
-      <td>ACG - Thr</td>
-      <td>AAG - Lys</td>
-      <td>AGG - Arg</td>
-      <th>G</th>
-    </tr>
-    <tr>
-      <th rowspan="4">G</th>
-      <td>GTT - Val</td>
-      <td>GCT - Ala</td>
-      <td>GAT - Asp</td>
-      <td>GGT - Gly</td>
-      <th>T (U)</th>
-    </tr>
-    <tr>
-      <td>GTC - Val</td>
-      <td>GCC - Ala</td>
-      <td>GAC - Asp</td>
-      <td>GGC - Gly</td>
-      <th>C</th>
-    </tr>
-    <tr>
-      <td>GTA - Val</td>
-      <td>GCA - Ala</td>
-      <td>GAA - Glu</td>
-      <td>GGA - Gly</td>
-      <th>A</th>
-    </tr>
-    <tr>
-      <td>GTG - Val</td>
-      <td>GCG - Ala</td>
-      <td>GAG - Glu</td>
-      <td>GGG - Gly</td>
-      <th>G</th>
-    </tr>
-  </tbody>
+    <thead>
+        <tr>
+            <th colspan="6">Nucleotide position in codon</th>
+        </tr>
+        <tr>
+            <th>First</th>
+            <th colspan="4">Second</th>
+            <th>Third</th>
+        </tr>
+        <tr>
+            <td></td>
+            <th>T (U)</th>
+            <th>C</th>
+            <th>A</th>
+            <th>G</th>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="4">T (U)</th>
+            <td>TTT - Phe</td>
+            <td>TCT - Ser</td>
+            <td>TAT - Tyr</td>
+            <td>TGT - Cys</td>
+            <th>T (U)</th>
+        </tr>
+        <tr>
+            <td>TTC - Phe</td>
+            <td>TCC - Ser</td>
+            <td>TAC - Tyr</td>
+            <td>TGC - Cys</td>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>TTA - Leu</td>
+            <td>TCA - Ser</td>
+            <td>TAA - Ter</td>
+            <td>TGA - Ter</td>
+            <th>A</th>
+        </tr>
+        <tr>
+            <td>TTG - Leu</td>
+            <td>TCG - Ser</td>
+            <td>TAG - Ter</td>
+            <td>TGG - Trp</td>
+            <th>G</th>
+        </tr>
+        <tr>
+            <th rowspan="4">C</th>
+            <td>CTT - Leu</td>
+            <td>CCT - Pro</td>
+            <td>CAT - His</td>
+            <td>CGT - Arg</td>
+            <th>T (U)</th>
+        </tr>
+        <tr>
+            <td>CTC - Leu</td>
+            <td>CCC - Pro</td>
+            <td>CAC - His</td>
+            <td>CGC - Arg</td>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>CTA - Leu</td>
+            <td>CCA - Pro</td>
+            <td>CAA - Gln</td>
+            <td>CGA - Arg</td>
+            <th>A</th>
+        </tr>
+        <tr>
+            <td>CTG - Leu</td>
+            <td>CCG - Pro</td>
+            <td>CAG - Gln</td>
+            <td>CGG - Arg</td>
+            <th>G</th>
+        </tr>
+        <tr>
+            <th rowspan="4">A</th>
+            <td>ATT - Ile</td>
+            <td>ACT - Thr</td>
+            <td>AAT - Asn</td>
+            <td>AGT - Ser</td>
+            <th>T (U)</th>
+        </tr>
+        <tr>
+            <td>ATC - Ile</td>
+            <td>ACC - Thr</td>
+            <td>AAC - Asn</td>
+            <td>AGC - Ser</td>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>ATA - Ile</td>
+            <td>ACA - Thr</td>
+            <td>AAA - Lys</td>
+            <td>AGA - Arg</td>
+            <th>A</th>
+        </tr>
+        <tr>
+            <td>ATG - Met</td>
+            <td>ACG - Thr</td>
+            <td>AAG - Lys</td>
+            <td>AGG - Arg</td>
+            <th>G</th>
+        </tr>
+        <tr>
+            <th rowspan="4">G</th>
+            <td>GTT - Val</td>
+            <td>GCT - Ala</td>
+            <td>GAT - Asp</td>
+            <td>GGT - Gly</td>
+            <th>T (U)</th>
+        </tr>
+        <tr>
+            <td>GTC - Val</td>
+            <td>GCC - Ala</td>
+            <td>GAC - Asp</td>
+            <td>GGC - Gly</td>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>GTA - Val</td>
+            <td>GCA - Ala</td>
+            <td>GAA - Glu</td>
+            <td>GGA - Gly</td>
+            <th>A</th>
+        </tr>
+        <tr>
+            <td>GTG - Val</td>
+            <td>GCG - Ala</td>
+            <td>GAG - Glu</td>
+            <td>GGG - Gly</td>
+            <th>G</th>
+        </tr>
+    </tbody>
 </table>
 
 <a id="aacode"></a>

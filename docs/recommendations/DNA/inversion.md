@@ -14,7 +14,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
 
 - by definition, the region inverted ("positions_inverted") contains **more then one nucleotide**. The description g.234inv is therefore not allowed; a one nucleotide inversion should be described as a [substitution](substitution.md)
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
-  - the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
+    - the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 - **inverted duplications** are described as an insertion using the format g.234_235ins123_234inv, not as g.123_456dupinv (see [Q&A](#dupinv))
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins" \* exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" : **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 - inversions are not used on protein level. Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frameshift**.
@@ -34,12 +34,12 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
 
 !!! note "Is the change AAGC to TTCG an inversion?"
 
-    No, an inversion would change AAGC to GCTT, its **reverse-complement**. TTCG is only the **complement** of AAGC.
+        No, an inversion would change AAGC to GCTT, its **reverse-complement**. TTCG is only the **complement** of AAGC.
 
 !!! note "Is the change AAGC to CGAA an inversion?"
 
-    No, an inversion would change AAGC to GCTT, its **reverse-complement**. CGAA is only the **reverse** of AAGC.<a id="dupinv"></a>
+        No, an inversion would change AAGC to GCTT, its **reverse-complement**. CGAA is only the **reverse** of AAGC.<a id="dupinv"></a>
 
 !!! note "Is it not better to describe the variant g.234_235ins123_234inv as g.123_234dupinv?"
 
-    The descriptions of duplications is regularly debated *"Why not remove the variant type "duplication" and describe all dups as "insertion", it will make the HGVS rules in total simpler*. While we can not do this for historic reasons (duplications are in use since the beginning), we will restrict the use of "dup" as much as possible. Regarding a "**dupinv**" one could argue that an "inverted copy" is not "a copy inserted directly 3' of the original copy" and thus by definition this variant is not a duplication but an "insertion". Therefore the recommendation is to describe inverted duplication using the format g.122_123ins123_234inv or g.234_235ins123_234inv depending on whether the inverted copy is 5' or 3' of the original copy (reference sequence).
+        The descriptions of duplications is regularly debated *"Why not remove the variant type "duplication" and describe all dups as "insertion", it will make the HGVS rules in total simpler*. While we can not do this for historic reasons (duplications are in use since the beginning), we will restrict the use of "dup" as much as possible. Regarding a "**dupinv**" one could argue that an "inverted copy" is not "a copy inserted directly 3' of the original copy" and thus by definition this variant is not a duplication but an "insertion". Therefore the recommendation is to describe inverted duplication using the format g.122_123ins123_234inv or g.234_235ins123_234inv depending on whether the inverted copy is 5' or 3' of the original copy (reference sequence).
