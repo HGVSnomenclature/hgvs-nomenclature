@@ -6,7 +6,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - 3'rule: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed. When ATTTG changes to ATTG HGVS describes this as a change of the T at position 4 (not the T at position 2 or 3)
 
-- adjoined transcript: a transcript (RNA molecule) composed of adjoined RNA from multiple contributing transcripts.
+- adjoined transcript: a transcript (RNA molecule) composed of adjoined RNA from two or more contributing transcripts.
 
 - allele: variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele)): **HGVS**: a series of variants on one chromosome.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/alleles.md), [RNA](../recommendations/RNA/alleles.md) or [protein](../recommendations/protein/alleles.md).
 
