@@ -49,5 +49,5 @@ MPL-2.0:
   url: https://opensource.org/licenses/MPL-2.0
 
 OTHER:
-  name: Other/uncommon license
-  url: https://opensource.org/licenses/?categories=other-miscellaneous
+  name: Other/unknown
+  # url: https://opensource.org/licenses/?categories=other-miscellaneous
