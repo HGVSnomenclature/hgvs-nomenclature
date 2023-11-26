@@ -5,6 +5,9 @@
 Please note that this Glossary is **work in progress**. Do you encounter missing terms or want to suggest definitions, please let us know.
 
 - 3'rule: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed. When ATTTG changes to ATTG HGVS describes this as a change of the T at position 4 (not the T at position 2 or 3)
+
+- adjoined transcript: a transcript (RNA molecule) composed of adjoined RNA from two or more contributing transcripts.
+
 - allele: variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele)): **HGVS**: a series of variants on one chromosome.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/alleles.md), [RNA](../recommendations/RNA/alleles.md) or [protein](../recommendations/protein/alleles.md).
 
 - amino acid: a letter from the protein code (see [Standards](standards.md)).
@@ -16,6 +19,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 - cDNA: cDNA, "copy DNA" or "complementary DNA", is the DNA copy of a single stranded RNA molecule synthesized using the enzyme reverse transcriptase ([Wikipedia](https://en.wikipedia.org/wiki/Complementary_DNA), [MESH](https://www.ncbi.nlm.nih.gov/mesh/68018076)).: **NOTE:** cDNA is not the same as "coding DNA" (see below).
 
 - CDS: coding DNA sequence, a sequence translated in to an amino acid sequence (protein).
+
+- chimeric transcript: an adjoined transcript derived from two or more genes.
 
 - chimerism: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism)). Opposite of mosaicism.: descriptions see [General/Charcters used](../recommendations/general.md#characters).
 
@@ -37,13 +42,13 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - deletion
 
-  - one or more letters of the DNA code are missing (deleted). A deletion is indicated using a **"del"**
-  - **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).: descriptions _see Recommendations_ [DNA](../recommendations/DNA/deletion.md), [RNA](../recommendations/RNA/deletion.md) or [protein](../recommendations/protein/deletion.md).
+    - one or more letters of the DNA code are missing (deleted). A deletion is indicated using a **"del"**
+    - **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are not present (deleted).: descriptions _see Recommendations_ [DNA](../recommendations/DNA/deletion.md), [RNA](../recommendations/RNA/deletion.md) or [protein](../recommendations/protein/deletion.md).
 
 - deletion-insertion (delins)
 
-  - one or more letters in the DNA code are missing and replaced by several new letters
-  - **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion..: descriptions _see Recommendations_ [DNA](../recommendations/DNA/delins.md), [RNA](../recommendations/RNA/delins.md) or [protein](../recommendations/protein/delins.md).
+    - one or more letters in the DNA code are missing and replaced by several new letters
+    - **HGVS**-DNA: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides and which is not a substitution, inversion or conversion..: descriptions _see Recommendations_ [DNA](../recommendations/DNA/delins.md), [RNA](../recommendations/RNA/delins.md) or [protein](../recommendations/protein/delins.md).
 
 - der: see derivative chromosome
 
@@ -51,8 +56,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - duplication
 
-  - one or more letters of the DNA code are present twice (doubled, duplicated)
-  - **HGVS**-DNA: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.: **NOTE:** diagnostic assays (like MLPA) usually detect **an additional copy** of a specific sequence. Whether the additional copy is a duplication or an insertion remains to be determined.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/duplication.md), [RNA](../recommendations/RNA/duplication.md) or [protein](../recommendations/protein/duplication.md).
+    - one or more letters of the DNA code are present twice (doubled, duplicated)
+    - **HGVS**-DNA: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted directly 3' of the original copy of that sequence.: **NOTE:** diagnostic assays (like MLPA) usually detect **an additional copy** of a specific sequence. Whether the additional copy is a duplication or an insertion remains to be determined.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/duplication.md), [RNA](../recommendations/RNA/duplication.md) or [protein](../recommendations/protein/duplication.md).
 
 - exon: any nucleotide sequence within a gene which, during maturation of the RNA transcript, is not removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Exon), [MESH](https://www.ncbi.nlm.nih.gov/mesh/68005091)). Every exon, except the first and lat exon, is flanked by two **introns**.
 
@@ -62,7 +67,11 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - frameshift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([protein](../recommendations/protein/frameshift.md))
 
-- fusion transcript: a transcript (RNA molecule) which consist of parts of transcripts from two or more genes, resulting from a translocation, deletion, or inversion.
+- fusion transcript: a confusing term, HGVS nomenclature uses adjoined transcript instead.
+
+- gene fusion: the joining of two or more genes resulting in a chimeric transcript and/or a novel interaction between a rearranged regulatory element with the expressed product of a partner gene (a regulatory fusion).
+
+- genomic rearrangement: see *Structural Variant (SV)*
 
 - haplotype: contiguous set of genetic variants that are co-located on one chromosome (molecule) and are inherited from the same parent
 
@@ -80,8 +89,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - insertion
 
-  - one or more letters in the DNA, RNA or amino acid code are new (have been inserted)
-  - **HGVS**-DNA: a sequence change where, compared to the reference sequence, one or more residues are inserted and where the insertion is not a copy of a sequence immediately upstream.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/insertion.md), [RNA](../recommendations/RNA/insertion.md) or [protein](../recommendations/protein/insertion.md).
+    - one or more letters in the DNA, RNA or amino acid code are new (have been inserted)
+    - **HGVS**-DNA: a sequence change where, compared to the reference sequence, one or more residues are inserted and where the insertion is not a copy of a sequence immediately upstream.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/insertion.md), [RNA](../recommendations/RNA/insertion.md) or [protein](../recommendations/protein/insertion.md).
 
 - intron: any nucleotide sequence within a gene which, during maturation of the RNA transcript, is removed by a process called RNA splicing ([Wikipedia](https://en.wikipedia.org/wiki/Intron), [MESH](https://www.ncbi.nlm.nih.gov/mesh/68007438)). Every intron is flanked by two **exons**.
 
@@ -99,23 +108,23 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - missense
 
-  - a variant in which a codon is changed to one directing the incorporation of a different amino acid (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=missense)).
-  - **HGVS**: a variant in a protein sequence where compared to the reference sequence one amino acid is replaced by another amino acid.
+    - a variant in which a codon is changed to one directing the incorporation of a different amino acid (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=missense)).
+    - **HGVS**: a variant in a protein sequence where compared to the reference sequence one amino acid is replaced by another amino acid.
 
 - mosaicism: the occurrence in one individual of two or more cell populations, derived from a single zygote, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=mosaicism)). Opposite of chimerism.: descriptions see [General/Characters used](../recommendations/general.md#characters).
 
 - mutation: _**NOTE**:_ please do not use this term, see [Terminology](basics.md).
 
-  - **HGVS**: confusing term, do not use, use **variant** (see [Basics](basics.md))
-  - **biology**: a change in the sequence
-  - **medicine**: a sequence variant **associated** with a disease phenotype.
+    - **HGVS**: confusing term, do not use, use **variant** (see [Basics](basics.md))
+    - **biology**: a change in the sequence
+    - **medicine**: a sequence variant **associated** with a disease phenotype.
 
 - negative (-) strand: see minus (-) strand.
 
 - nonsense
 
-  - a variant that changed an amino acid-specifying codon to a stop codon (termination codon, based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=nonsense)).
-  - **HGVS**: a variant in a protein sequence where compared to the reference sequence an amino acid is replaced by a translational stop codon (termination codon).
+    - a variant that changed an amino acid-specifying codon to a stop codon (termination codon, based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=nonsense)).
+    - **HGVS**: a variant in a protein sequence where compared to the reference sequence an amino acid is replaced by a translational stop codon (termination codon).
 
 - nucleotide: a letter from the DNA code, e.g. A, C, G, or T (see [Standards](standards.md)).
 
@@ -129,9 +138,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - polymorphism: _**NOTE**:_ please do not use this term, see [Terminology](basics.md).
 
-  - **HGVS**: confusing term, do not use, use **variant** (see [Basics](basics.md))
-  - **biology**: a sequence variant present in the population at a frequency of 1% or higher
-  - **medicine**: a sequence variant **not associated** with a disease phenotype
+    - **HGVS**: confusing term, do not use, use **variant** (see [Basics](basics.md))
+    - **biology**: a sequence variant present in the population at a frequency of 1% or higher
+    - **medicine**: a sequence variant **not associated** with a disease phenotype
 
 - positive (+) strand: see plus (+) strand.
 
@@ -141,14 +150,16 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - reading frame: one of three possible ways to translate a nucleotide sequence in to an amino acid sequence (a protein): see also **frame**
 
-- readthrough transcript: a transcript (RNA molecule) formed via the splicing of exons from more than one distinct gene. The two (or more) genes involved are found on the same chromosomal region, on the same strand, and are typically adjacent to one another.
+- readthrough transcript: a chimeric transcript in which the two (or more) genes involved can also be transcribed individually, and are found on the same chromosomal region, on the same strand, and typically adjacent to one another.
+
+- regulatory fusion: the interaction of a gene expression regulatory element which, by a genomic rearrangement, is brought into proximity of a new partner gene, modulating the expression of the new partner gene.
 
 - repeated sequence: **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other.
 
 - silent
 
-  - a variant in a DNA sequence that does not change the amino acid sequence of the encoded protein (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=silent)).
-  - **HGVS**: an amino acid residue in a protein sequence where compared to the reference sequence the DNA sequence changed but not the encoded amino acid.
+    - a variant in a DNA sequence that does not change the amino acid sequence of the encoded protein (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=silent)).
+    - **HGVS**: an amino acid residue in a protein sequence where compared to the reference sequence the DNA sequence changed but not the encoded amino acid.
 
 - SNP: Single Nucleotide Polymorphism (SNP). The preferred term is SNV (Single Nucleotide Variant), see [polymorphism](#polymorphism).
 
@@ -168,8 +179,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - substitution
 
-  - one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter
-  - **HGVS**-DNA: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/substitution.md), [RNA](../recommendations/RNA/substitution.md) or [protein](../recommendations/protein/substitution.md).
+    - one letter of the DNA, RNA or amino acid code is replaced (substituted) by one other letter
+    - **HGVS**-DNA: a sequence change where, compared to a reference sequence, one residue is replaced by one other residue.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/substitution.md), [RNA](../recommendations/RNA/substitution.md) or [protein](../recommendations/protein/substitution.md).
 
 - SV: see Structural Variant.
 
@@ -179,10 +190,10 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - translocation
 
-  - a chromosome abnormality characterized by chromosome breakage and transfer of the broken-off portion to a non-homologous chromosome (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=translocation))
-  - **HGVS**: a sequence change where, compared to a reference sequence, from a specific nucleotide position (the break point) all nucleotides upstream derive from another chromosome then those down stream: _**NOTE**:_ a translocation occurs when two chromosomes break and the fragments rejoin with the non-homologous chromosome. A full description of a (reciprocal) translocation consists of 2 parts, one describing the first junction, the second describing the other junction (e.g. the chromosome 4;X junction and the chromosome X;4 junction)
-  - translocation, balanced: a translocation with an even exchange of DNA sequences and no segments deleted or duplicated
-  - translocation, unbalanced: a translocation with an uneven exchange of DNA sequences and segments being deleted or duplicated
+    - a chromosome abnormality characterized by chromosome breakage and transfer of the broken-off portion to a non-homologous chromosome (based on [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=translocation))
+    - **HGVS**: a sequence change where, compared to a reference sequence, from a specific nucleotide position (the break point) all nucleotides upstream derive from another chromosome then those down stream: _**NOTE**:_ a translocation occurs when two chromosomes break and the fragments rejoin with the non-homologous chromosome. A full description of a (reciprocal) translocation consists of 2 parts, one describing the first junction, the second describing the other junction (e.g. the chromosome 4;X junction and the chromosome X;4 junction)
+    - translocation, balanced: a translocation with an even exchange of DNA sequences and no segments deleted or duplicated
+    - translocation, unbalanced: a translocation with an uneven exchange of DNA sequences and segments being deleted or duplicated
 
 - transposition: a sequence change where, compared to a reference sequence, a large stretch of DNA moves from one position in the genome to another position, i.e. a deletion at one postion combined with the insertion of the deleted sequence at another position. The variant is described as a deletion at the original location and an insertion at the new location.
 

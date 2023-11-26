@@ -8,10 +8,11 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
 
-* The preferred way to reach us is through [GitHub discussions](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions).
-* See [Community Consultation](consultation/index.md) for proposals, including how to submit a propsal.
-* You may also email us at VarNomen@HUGO-int.org
-* The [Facebook group](https://www.facebook.com/HGVSmutnomen) is obsolete, but you may find relevant historical discussions there.
+* Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
+  group. This is the preferred forum for discussing the use of HGVS
+  Nomenclature.
+* See [Community Consultation](consultation/index.md) for proposals, including
+  how to submit a proposal.
 
 ## Current Citation
 

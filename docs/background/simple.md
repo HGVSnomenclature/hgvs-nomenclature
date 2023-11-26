@@ -6,8 +6,8 @@
 
 The format of a complete variant description is **"reference : description"** (spaces added for clarity only), e.g.;
 
-    * NM_004006.2:c.4375C>T
-    * NC_000023.11:g.32389644G>A
+        * NM_004006.2:c.4375C>T
+        * NC_000023.11:g.32389644G>A
 
 All variants are described in relation to a reference, the so called **reference sequence**, in the examples **NM_004006.3** ([from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NM_004006.3)) **NC_000023.11** ([from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NC_000023.1)). After the reference a description of the variant is given, in the examples **c.4375C>T** and **g.32389644G>A**.
 
@@ -22,33 +22,33 @@ In nature the DNA code is first transcribed in to a **RNA** molecule (see [Wikip
 
 Variants are usually detected by reading the DNA code, a method called DNA **sequencing**. A proper report **always** contains the variant described on the DNA level. In addition, a report usually contains a description of the predicted consequence of the variant on the protein, rarely the consequence on RNA. In rare cases, not following current standards, only the predicted consequences at the protein level are reported.
 
-Some variants have an effect on how the transcript (RNA) is generated and consequently on its translation in to protein. When only DNA has been analysed, the consequences of the variant at the RNA and the protein level can only be predicted. The HGVS standard demands predicted consequences have to be **reported in parenthesis**. The predicted consequence of the variant NM_004006.2:c.4375C>T at the protein level is described as p.(Arg1459\*). The "()" warn the variant described is a predicted consequence only.
+Some variants have an effect on how the transcript (RNA) is generated and consequently on its translation in to protein. When only DNA has been analysed, the consequences of the variant at the RNA and the protein level can only be predicted. The HGVS standard demands predicted consequences have to be **reported in parenthesis**. The predicted consequence of the variant `NM_004006.2:c.4375C>T` at the protein level is described as `p.(Arg1459*)`. The "()" warn the variant described is a predicted consequence only.
 
 ## Reference sequences
 
-Variants described on the DNA level are mostly reported in relation to a specific **gene** based on a so called **"coding DNA reference sequence"**. When a coding DNA reference sequence is used, the description of the variant starts with **"c."** (in the example c.4375C>T). Since we nowadays have a reliable reference sequence of the complete human genome, it becomes more common to (also) give the description based on a **"genomic reference sequence"**, starting with **"g."** (g.32407761G>A). In addition the (predicted) consequences on the RNA level (starting with **"r."**) and/or the protein level (starting with **"p."**) may be given. **NOTE:** the "p." addition is often missing when the predicted protein consequences are reported. For details see ["Reference Sequences"](refseq.md).
+Variants described on the DNA level are mostly reported in relation to a specific **gene** based on a so called **"coding DNA reference sequence"**. When a coding DNA reference sequence is used, the description of the variant starts with **"c."** (in the example `c.4375C>T`). Since we nowadays have a reliable reference sequence of the complete human genome, it becomes more common to (also) give the description based on a **"genomic reference sequence"**, starting with **"g."** (g.32407761G>A). In addition the (predicted) consequences on the RNA level (starting with **"r."**) and/or the protein level (starting with **"p."**) may be given. **NOTE:** the "p." addition is often missing when the predicted protein consequences are reported. For details see ["Reference Sequences"](refseq.md).
 
 Reference sequences have a format like **NC_000023.10**, where **NC_000023** is the **accession number** of the reference sequence and "**.10**" its **version number**. Version numbers are required since we started to use reference sequences at a time our knowledge of the human genome was far from complete. The version number directly follows the accession number and increases over time.
 
 #### Example descriptions
 
 - genomic (nucleotide)
-  - NC\_ a genomic reference sequence based on a chromosome
-    - NC_000023.9:g.32317682G>A (Mar.2006: hg18, NCBI36)
-    - NC_000023.10:g.32407761G>A (Feb.2009: h19, GRCh37)
-    - NC_000023.11:g.32389644G>A (Dec.2013: hg38, GRCh38)
-  - NG\_ a genomic reference sequence based on a Gene or Genomic region
-    - NG_012232.1:g.954966C>T
-  - LRG\_ a genomic reference sequence, used in a diagnostic setting, based on a Gene or Genomic region
-    - LRG_199:g.954966C>T
+    - NC\_ a genomic reference sequence based on a chromosome
+        - NC_000023.9:g.32317682G>A (Mar.2006: hg18, NCBI36)
+        - NC_000023.10:g.32407761G>A (Feb.2009: h19, GRCh37)
+        - NC_000023.11:g.32389644G>A (Dec.2013: hg38, GRCh38)
+    - NG\_ a genomic reference sequence based on a Gene or Genomic region
+        - NG_012232.1:g.954966C>T
+    - LRG\_ a genomic reference sequence, used in a diagnostic setting, based on a Gene or Genomic region
+        - LRG_199:g.954966C>T
 - transcript (RNA, nucleotide)
-  - NM\_ a reference sequence based on a protein coding RNA (mRNA)
-    - NM_004006.2:c.4375C>T
-  - NR\_ a reference sequence based on a non-protein coding RNA
-    - NR_002196.1:n.601G>T
+    - NM\_ a reference sequence based on a protein coding RNA (mRNA)
+        - NM_004006.2:c.4375C>T
+    - NR\_ a reference sequence based on a non-protein coding RNA
+        - NR_002196.1:n.601G>T
 - protein (amino acid)
-  - NP\_ a reference sequence based on a protein (amino acid) sequence
-    - NP_003997.1:p.Arg1459\* (p.Arg1459Ter)
+    - NP\_ a reference sequence based on a protein (amino acid) sequence
+        - `NP_003997.1:p.Arg1459*` (`p.Arg1459Ter`)
 
 ### Genomic reference sequences
 
@@ -60,7 +60,7 @@ Genomic reference sequences can also be based on smaller sequences not covering 
 
 ### Coding DNA reference sequences
 
-In a human diagnostic setting the most frequently used reference is a **"coding DNA reference sequence"** (description starting with **"c."**, e.g. NM_004006.3:c.4375C>T). Variant descriptions based on this format are very popular because they directly link to the encoded protein. In protein coding DNA reference sequences numbering **starts** with 1 at the first position of the protein coding region, the A of the translation initiating ATG triplet. Numbering **ends** at the last position of the ending triplet, the last position of the translation stop codon (TAA, TAG or TGA). When you divide the position number from a "c." description by three you get the affected amino acid residue from the protein sequence (description starting with "p."); for NM_004006.3:c.4375C>T (with predicted consequence on protein level p.(Arg1459\*)), i.e. 4375 divided by three gives amino acid 1459. **NOTE:** positions in front of the protein coding sequence get a minus sign (e.g. **"c.-26"**), those after the translation stop an asterisk (e.g. **"c.\*85"**). Numbering in intronic sequences has a format like c.530+6 or c.531-23. For details see ["Reference Sequences"](http://varnomen.hgvs.org/background/refseq/). The most frequently used coding DNA reference sequences are the NM's (RefSeq gene transcript sequences, e.g. NM_004006.2) and LRG's (Locus Genomic Reference sequences, e.g. LRG_199t1).
+In a human diagnostic setting the most frequently used reference is a **"coding DNA reference sequence"** (description starting with **"c."**, e.g. NM_004006.3:c.4375C>T). Variant descriptions based on this format are very popular because they directly link to the encoded protein. In protein coding DNA reference sequences numbering **starts** with 1 at the first position of the protein coding region, the A of the translation initiating ATG triplet. Numbering **ends** at the last position of the ending triplet, the last position of the translation stop codon (TAA, TAG or TGA). When you divide the position number from a "c." description by three you get the affected amino acid residue from the protein sequence (description starting with "p."); for `NM_004006.3:c.4375C>T` (with predicted consequence on protein level `p.(Arg1459*`)), i.e. 4375 divided by three gives amino acid 1459. **NOTE:** positions in front of the protein coding sequence get a minus sign (e.g. **"c.-26"**), those after the translation stop an asterisk (e.g. `c.*85`). Numbering in intronic sequences has a format like `c.530+6` or `c.531-23`. For details see ["Reference Sequences"](http://varnomen.hgvs.org/background/refseq/). The most frequently used coding DNA reference sequences are the NM's (RefSeq gene transcript sequences, e.g. NM_004006.2) and LRG's (Locus Genomic Reference sequences, e.g. LRG_199t1).
 
 ## Variants
 
@@ -73,15 +73,15 @@ A standard variant description has the format **"prefix.position(s)\_change"**. 
 All variants given are in the DMD gene and reported in relation to coding DNA reference sequence LRG_199t1 (NM_004006.3).
 
 - substitution: one letter (nucleotide) of the DNA code is replaced (substituted) by one other letter. On DNA and RNA level a substitution is indicated using **">"**.
-  - c.4375C>T: the C nucleotide at position c.4375 changed to a T
+    - c.4375C>T: the C nucleotide at position c.4375 changed to a T
 - deletion: one or more letters of the DNA code are missing (deleted). A deletion is indicated using **"del"**.
-  - c.4375_4379del: the nucleotides from position c.4375 to c.4379 (CGATT) are missing (deleted). Also reported as c.4375_4379delCGATT.
+    - c.4375_4379del: the nucleotides from position c.4375 to c.4379 (CGATT) are missing (deleted). Also reported as c.4375_4379delCGATT.
 - duplication: one or more letters of the DNA code are present twice (doubled, duplicated). A duplication is indicated using **"dup"**.
-  - c.4375_4385dup: the nucleotides from position c.4375 to c.4385 (CGATTATTCCA) are present twice (duplicated). Often reported as c.4375_4385dupCGATTATTCCA or c.4385_4386insCGATTATTCCA (not a correct HGVS description).
+    - c.4375_4385dup: the nucleotides from position c.4375 to c.4385 (CGATTATTCCA) are present twice (duplicated). Often reported as c.4375_4385dupCGATTATTCCA or c.4385_4386insCGATTATTCCA (not a correct HGVS description).
 - insertion: one or more letters in the DNA code are new (inserted). An insertion is indicated using **"ins"**.
-  - c.4375_4376insACCT: the new sequence "ACCT" was found inserted between positions c.4375 and c.4376.
+    - c.4375_4376insACCT: the new sequence "ACCT" was found inserted between positions c.4375 and c.4376.
 - deletion/insertion (indel): one or more letters in the DNA code are missing and replaced by several new letters. A deletion/insertion is indicated using **"delins"**.
-  - c.4375_4376delinsAGTT: the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375_4376delCGinsAGTT.
+    - c.4375_4376delinsAGTT: the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375_4376delCGinsAGTT.
 
 There are more variant types yet these occur less frequently. For details see [header "Recommendations"](http://varnomen.hgvs.org/recommendations).
 

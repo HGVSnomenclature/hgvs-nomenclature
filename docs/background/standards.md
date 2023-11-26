@@ -1,10 +1,12 @@
 # Standards
 
-- [nucleotide - DNA](#DNAcode)
-- [nucleotide - RNA](#RNAcode)
-- [genetic code](#geneticcode)
-- [amino acid code](#aacode)
-- [cytogenetic band > nucleotide position](#ISCN)
+- [Standards](#standards)
+    - [Nucleotides (DNA / RNA)](#nucleotides-dna--rna)
+        - [DNA](#dna)
+        - [RNA](#rna)
+    - [Genetic Code](#genetic-code)
+    - [Amino Acid Descriptions](#amino-acid-descriptions)
+    - [ISCN cytogenetic band to chromosome positions](#iscn-cytogenetic-band-to-chromosome-positions)
 
 <a id="DNAcode"></a>
 
@@ -31,10 +33,10 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 |   V    |  A, C or G   |  not-T / not-U ( V follows U )  |
 |   W    |    A or T    |  Weak interaction (2 H-bonds)   |
 |   Y    |    C or T    |           pYrimidine            |
-|  X\*   | A, C, G or T |        masked nucleotide        |
-|  -\*   |     none     |   gap of indeterminate length   |
+|   X†   | A, C, G or T |        masked nucleotide        |
+|   -†   |     none     |   gap of indeterminate length   |
 
-> \*used in alignment only
+† used in alignment only
 
 <a id="RNAcode"></a>
 
@@ -65,142 +67,142 @@ At DNA and RNA level HGVS nomenclature follows the _Nomenclature for Incompletel
 At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism for Amino Acids and Peptides_ (see [IUPAC-IUB](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)), specifying the description of amino acids.
 
 <table class="table table-bordered text-center gc">
-  <thead>
-    <tr>
-      <th colspan="6">Nucleotide position in codon</th>
-    </tr>
-    <tr>
-      <th>First</th>
-      <th colspan="4">Second</th>
-      <th>Third</th>
-    </tr>
-    <tr>
-      <td></td>
-      <th>T (U)</th>
-      <th>C</th>
-      <th>A</th>
-      <th>G</th>
-      <td></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th rowspan="4">T (U)</th>
-      <td>TTT - Phe</td>
-      <td>TCT - Ser</td>
-      <td>TAT - Tyr</td>
-      <td>TGT - Cys</td>
-      <th>T (U)</th>
-    </tr>
-    <tr>
-      <td>TTC - Phe</td>
-      <td>TCC - Ser</td>
-      <td>TAC - Tyr</td>
-      <td>TGC - Cys</td>
-      <th>C</th>
-    </tr>
-    <tr>
-      <td>TTA - Leu</td>
-      <td>TCA - Ser</td>
-      <td>TAA - Ter</td>
-      <td>TGA - Ter</td>
-      <th>A</th>
-    </tr>
-    <tr>
-      <td>TTG - Leu</td>
-      <td>TCG - Ser</td>
-      <td>TAG - Ter</td>
-      <td>TGG - Trp</td>
-      <th>G</th>
-    </tr>
-    <tr>
-      <th rowspan="4">C</th>
-      <td>CTT - Leu</td>
-      <td>CCT - Pro</td>
-      <td>CAT - His</td>
-      <td>CGT - Arg</td>
-      <th>T (U)</th>
-    </tr>
-    <tr>
-      <td>CTC - Leu</td>
-      <td>CCC - Pro</td>
-      <td>CAC - His</td>
-      <td>CGC - Arg</td>
-      <th>C</th>
-    </tr>
-    <tr>
-      <td>CTA - Leu</td>
-      <td>CCA - Pro</td>
-      <td>CAA - Gln</td>
-      <td>CGA - Arg</td>
-      <th>A</th>
-    </tr>
-    <tr>
-      <td>CTG - Leu</td>
-      <td>CCG - Pro</td>
-      <td>CAG - Gln</td>
-      <td>CGG - Arg</td>
-      <th>G</th>
-    </tr>
-    <tr>
-      <th rowspan="4">A</th>
-      <td>ATT - Ile</td>
-      <td>ACT - Thr</td>
-      <td>AAT - Asn</td>
-      <td>AGT - Ser</td>
-      <th>T (U)</th>
-    </tr>
-    <tr>
-      <td>ATC - Ile</td>
-      <td>ACC - Thr</td>
-      <td>AAC - Asn</td>
-      <td>AGC - Ser</td>
-      <th>C</th>
-    </tr>
-    <tr>
-      <td>ATA - Ile</td>
-      <td>ACA - Thr</td>
-      <td>AAA - Lys</td>
-      <td>AGA - Arg</td>
-      <th>A</th>
-    </tr>
-    <tr>
-      <td>ATG - Met</td>
-      <td>ACG - Thr</td>
-      <td>AAG - Lys</td>
-      <td>AGG - Arg</td>
-      <th>G</th>
-    </tr>
-    <tr>
-      <th rowspan="4">G</th>
-      <td>GTT - Val</td>
-      <td>GCT - Ala</td>
-      <td>GAT - Asp</td>
-      <td>GGT - Gly</td>
-      <th>T (U)</th>
-    </tr>
-    <tr>
-      <td>GTC - Val</td>
-      <td>GCC - Ala</td>
-      <td>GAC - Asp</td>
-      <td>GGC - Gly</td>
-      <th>C</th>
-    </tr>
-    <tr>
-      <td>GTA - Val</td>
-      <td>GCA - Ala</td>
-      <td>GAA - Glu</td>
-      <td>GGA - Gly</td>
-      <th>A</th>
-    </tr>
-    <tr>
-      <td>GTG - Val</td>
-      <td>GCG - Ala</td>
-      <td>GAG - Glu</td>
-      <td>GGG - Gly</td>
-      <th>G</th>
-    </tr>
-  </tbody>
+    <thead>
+        <tr>
+            <th colspan="6">Nucleotide position in codon</th>
+        </tr>
+        <tr>
+            <th>First</th>
+            <th colspan="4">Second</th>
+            <th>Third</th>
+        </tr>
+        <tr>
+            <td></td>
+            <th>T (U)</th>
+            <th>C</th>
+            <th>A</th>
+            <th>G</th>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="4">T (U)</th>
+            <td>TTT - Phe</td>
+            <td>TCT - Ser</td>
+            <td>TAT - Tyr</td>
+            <td>TGT - Cys</td>
+            <th>T (U)</th>
+        </tr>
+        <tr>
+            <td>TTC - Phe</td>
+            <td>TCC - Ser</td>
+            <td>TAC - Tyr</td>
+            <td>TGC - Cys</td>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>TTA - Leu</td>
+            <td>TCA - Ser</td>
+            <td>TAA - Ter</td>
+            <td>TGA - Ter</td>
+            <th>A</th>
+        </tr>
+        <tr>
+            <td>TTG - Leu</td>
+            <td>TCG - Ser</td>
+            <td>TAG - Ter</td>
+            <td>TGG - Trp</td>
+            <th>G</th>
+        </tr>
+        <tr>
+            <th rowspan="4">C</th>
+            <td>CTT - Leu</td>
+            <td>CCT - Pro</td>
+            <td>CAT - His</td>
+            <td>CGT - Arg</td>
+            <th>T (U)</th>
+        </tr>
+        <tr>
+            <td>CTC - Leu</td>
+            <td>CCC - Pro</td>
+            <td>CAC - His</td>
+            <td>CGC - Arg</td>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>CTA - Leu</td>
+            <td>CCA - Pro</td>
+            <td>CAA - Gln</td>
+            <td>CGA - Arg</td>
+            <th>A</th>
+        </tr>
+        <tr>
+            <td>CTG - Leu</td>
+            <td>CCG - Pro</td>
+            <td>CAG - Gln</td>
+            <td>CGG - Arg</td>
+            <th>G</th>
+        </tr>
+        <tr>
+            <th rowspan="4">A</th>
+            <td>ATT - Ile</td>
+            <td>ACT - Thr</td>
+            <td>AAT - Asn</td>
+            <td>AGT - Ser</td>
+            <th>T (U)</th>
+        </tr>
+        <tr>
+            <td>ATC - Ile</td>
+            <td>ACC - Thr</td>
+            <td>AAC - Asn</td>
+            <td>AGC - Ser</td>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>ATA - Ile</td>
+            <td>ACA - Thr</td>
+            <td>AAA - Lys</td>
+            <td>AGA - Arg</td>
+            <th>A</th>
+        </tr>
+        <tr>
+            <td>ATG - Met</td>
+            <td>ACG - Thr</td>
+            <td>AAG - Lys</td>
+            <td>AGG - Arg</td>
+            <th>G</th>
+        </tr>
+        <tr>
+            <th rowspan="4">G</th>
+            <td>GTT - Val</td>
+            <td>GCT - Ala</td>
+            <td>GAT - Asp</td>
+            <td>GGT - Gly</td>
+            <th>T (U)</th>
+        </tr>
+        <tr>
+            <td>GTC - Val</td>
+            <td>GCC - Ala</td>
+            <td>GAC - Asp</td>
+            <td>GGC - Gly</td>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>GTA - Val</td>
+            <td>GCA - Ala</td>
+            <td>GAA - Glu</td>
+            <td>GGA - Gly</td>
+            <th>A</th>
+        </tr>
+        <tr>
+            <td>GTG - Val</td>
+            <td>GCG - Ala</td>
+            <td>GAG - Glu</td>
+            <td>GGG - Gly</td>
+            <th>G</th>
+        </tr>
+    </tbody>
 </table>
 
 <a id="aacode"></a>
@@ -211,31 +213,31 @@ At the protein level HGVS nomenclature follows the _Nomenclature and Symbolism f
 
 | One Letter Code | Three Letter Code | Amino Acid | Possible Codons | Systemic Name | Formula |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| A | Ala | Alanine | GCA, GCC, GCG, GCT | 2-Aminopropanoic acid | CH3-CH(NH2)-COOH |
-| B | Asx | Aspartic acid or Asparagine | AAC, AAT, GAC, GAT |  |  |
-| C | Cys | Cysteine | TGC, TGT | 2-Amino-3-mercaptopropanoic acid | HS-CH2-CH(NH2)-COOH |
-| D | Asp | Aspartic acid | GAC, GAT | 2-Aminobutanedioic acid | HOOC-CH2-CH(NH2)-COOH |
-| E | Glu | Glutamic acid | GAA, GAG | 2-Aminopentanedioic acid | HOOC-[CH2]2-CH(NH2)-COOH |
-| F | Phe | Phenylalanine | TTC, TTT | 2-Amino-3-phenylpropanoic acid | C6H5-CH2-CH(NH2)-COOH |
-| G | Gly | Glycine | GGA, GGC, GGG, GGT | Aminoethanoic acid | CH2(NH2)-COOH |
-| H | His | Histidine | CAC, CAT | 2-Amino-3-(1H-imidazol-4-yl)-propanoic acid | ![Histidine](../assets/AA/histidine.GIF) |
-| I | Ile | Isoleucine | ATA, ATC, ATT | 2-Amino-3-methylpentanoic acid | C2H5-CH(CH3)-CH(NH2)-COOH |
-| K | Lys | Lysine | AAA, AAG | 2,6-Diaminohexanoic acid | H2N-[CH2]4-CH(NH2)-COOH |
-| L | Leu | Leucine | CTA, CTC, CTG, CTT, TTA, TTG | 2-Amino-4-methylpentanoic acid | (CH3)2CH-CH2-CH(NH2)-COOH |
-| M | Met | Methionine | ATG (translation initiation) | 2-Amino-4-(methylthio)butanoic acid | CH3-S-[CH2]2-CH(NH2)-COOH |
-| N | Asn | Asparagine | AAC, AAT | 2-Amino-3-carbamoylpropanoic acid | H2N-CO-CH2-CH(NH2)-COOH |
-| P | Pro | Proline | CCA, CCC, CCG, CCT | Pyrrolidine-2-carboxylic acid | ![Proline](../assets/AA/proline.GIF) |
-| Q | Gln | Glutamine | CAA, CAG | 2-Amino-4-carbamoylbutanoic acid | H2N-CO-[CH2]2-CH(NH2)-COOH |
-| R | Arg | Arginine | AGA, AGG, CGA, CGC, CGG, CGT | 2-Amino-5-guanidinopentanoic acid | H2N-C(=NH)-NH-[CH2]3-CH(NH2)-COOH |
-| S | Ser | Serine | AGC, AGT, TCA, TCC, TCG, TCT | 2-Amino-3-hydroxypropanoic acid | HO-CH2-CH(NH2)-COOH |
-| T | Thr | Threonine | ACA, ACC, ACG, ACT | 2-Amino-3-hydroxybutanoic acid | CH3-CH(OH)-CH(NH2)-COOH |
-| U | Sec | Selenocysteine | TGA |  | H2N-CH(COOH)--CH2-SeH |
-| V | Val | Valine | GTA, GTC, GTG, GTT | 2-Amino-3-methylbutanoic acid | (CH3)2CH-CH(NH2)-COOH |
-| W | Trp | Tryptophan | TGG | 2-Amino-3-(lH-indol-3-yl)-propanoic acid | ![Tryptophan](../assets/AA/tryptophan.GIF) |
+| A  | Ala | Alanine | GCA, GCC, GCG, GCT | 2-Aminopropanoic acid | CH3-CH(NH2)-COOH |
+| B  | Asx | Aspartic acid or Asparagine | AAC, AAT, GAC, GAT |  |  |
+| C  | Cys | Cysteine | TGC, TGT | 2-Amino-3-mercaptopropanoic acid | HS-CH2-CH(NH2)-COOH |
+| D  | Asp | Aspartic acid | GAC, GAT | 2-Aminobutanedioic acid | HOOC-CH2-CH(NH2)-COOH |
+| E  | Glu | Glutamic acid | GAA, GAG | 2-Aminopentanedioic acid | HOOC-[CH2]2-CH(NH2)-COOH |
+| F  | Phe | Phenylalanine | TTC, TTT | 2-Amino-3-phenylpropanoic acid | C6H5-CH2-CH(NH2)-COOH |
+| G  | Gly | Glycine | GGA, GGC, GGG, GGT | Aminoethanoic acid | CH2(NH2)-COOH |
+| H  | His | Histidine | CAC, CAT | 2-Amino-3-(1H-imidazol-4-yl)-propanoic acid | ![Histidine](../assets/AA/histidine.GIF) |
+| I  | Ile | Isoleucine | ATA, ATC, ATT | 2-Amino-3-methylpentanoic acid | C2H5-CH(CH3)-CH(NH2)-COOH |
+| K  | Lys | Lysine | AAA, AAG | 2,6-Diaminohexanoic acid | H2N-[CH2]4-CH(NH2)-COOH |
+| L  | Leu | Leucine | CTA, CTC, CTG, CTT, TTA, TTG | 2-Amino-4-methylpentanoic acid | (CH3)2CH-CH2-CH(NH2)-COOH |
+| M  | Met | Methionine | ATG (translation initiation) | 2-Amino-4-(methylthio)butanoic acid | CH3-S-[CH2]2-CH(NH2)-COOH |
+| N  | Asn | Asparagine | AAC, AAT | 2-Amino-3-carbamoylpropanoic acid | H2N-CO-CH2-CH(NH2)-COOH |
+| P  | Pro | Proline | CCA, CCC, CCG, CCT | Pyrrolidine-2-carboxylic acid | ![Proline](../assets/AA/proline.GIF) |
+| Q  | Gln | Glutamine | CAA, CAG | 2-Amino-4-carbamoylbutanoic acid | H2N-CO-[CH2]2-CH(NH2)-COOH |
+| R  | Arg | Arginine | AGA, AGG, CGA, CGC, CGG, CGT | 2-Amino-5-guanidinopentanoic acid | H2N-C(=NH)-NH-[CH2]3-CH(NH2)-COOH |
+| S  | Ser | Serine | AGC, AGT, TCA, TCC, TCG, TCT | 2-Amino-3-hydroxypropanoic acid | HO-CH2-CH(NH2)-COOH |
+| T  | Thr | Threonine | ACA, ACC, ACG, ACT | 2-Amino-3-hydroxybutanoic acid | CH3-CH(OH)-CH(NH2)-COOH |
+| U  | Sec | Selenocysteine | TGA |  | H2N-CH(COOH)--CH2-SeH |
+| V  | Val | Valine | GTA, GTC, GTG, GTT | 2-Amino-3-methylbutanoic acid | (CH3)2CH-CH(NH2)-COOH |
+| W  | Trp | Tryptophan | TGG | 2-Amino-3-(lH-indol-3-yl)-propanoic acid | ![Tryptophan](../assets/AA/tryptophan.GIF) |
 | X† | Xaa | unknown or 'other' | NNN |  |  |
-| Y | Tyr | Tyrosine | TAC, TAT | 2-Amino-3-(4-hydroxyphenyl)-propanoic acid | ![Tyrosine](../assets/AA/tyrosine.GIF) |
-| Z | Glx | Glutamic acid or Glutamine |  |  |  |
-| \* | Ter or \* | Termination | TAA, TAG, TGA (translation termination) | HGVS addition (V2.0) |  |
+| Y  | Tyr | Tyrosine | TAC, TAT | 2-Amino-3-(4-hydroxyphenyl)-propanoic acid | ![Tyrosine](../assets/AA/tyrosine.GIF) |
+| Z  | Glx | Glutamic acid or Glutamine |  |  |  |
+| \* | Ter | Termination | TAA, TAG, TGA (translation termination) | HGVS addition (V2.0) |  |
 
 †To prevent confusion, since 'X' has been used to indicate a translation stop codon, use 'Xaa' only.
 

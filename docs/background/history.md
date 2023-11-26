@@ -25,7 +25,7 @@ Below an overview of publications on the subject of sequence variant description
 #### 2000
 
 - Den Dunnen JT, Antonarakis SE (2000). Mutation nomenclature extensions and suggestions to describe complex mutations: a discussion. [Hum. Mutat. 15:7-12](http://www3.interscience.wiley.com/cgi-bin/fulltext/68503056/PDFSTART).
-  - A modified version of this paper was published as; _Den Dunnen JT, Antonarakis SE (2001). Nomenclature for the description of human sequence variations_. [Hum. Genet. 109:121-124](https://link.springer.com/article/10.1007/s004390100505).
+    - A modified version of this paper was published as; _Den Dunnen JT, Antonarakis SE (2001). Nomenclature for the description of human sequence variations_. [Hum. Genet. 109:121-124](https://link.springer.com/article/10.1007/s004390100505).
 
 #### 2003
 

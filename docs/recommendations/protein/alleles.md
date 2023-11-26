@@ -17,7 +17,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.alleles
 - when two variants are identified in a protein that derive from **one chromosome** (in cis) this should be described as "p.[variant1;variant2]"
 - when two variants are identified in proteins that derive from **different chromosomes** (in trans) this should be described as "p.[variant1];[variant2]"
 - when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as "variant<code class="spot1">(;)</code>variant2", i.e. without using "[ ]"
-  - **NOTE:** it is recommended to determine whether the changes are in the same protein or not
+    - **NOTE:** it is recommended to determine whether the changes are in the same protein or not
 - when two variants are identified in two different proteins that derive from **one variant** at the DNA level (giving two different transcripts) the variants are separated using a "<code class="spot1">,</code>"; `p.[variant1<code` class="spot1">,</code>variant2]"
 
 ## Examples
@@ -56,23 +56,23 @@ For more examples see [DNA alleles](../DNA/alleles.md).
 
 !!! note "Was originally the recommendation to use the format [p.Ser73Arg+p.Asn103del]?"
 
-    Indeed, originally [den Dunnen and Antonarakis, 2000](http://dx.doi.org/10.1002/%28SICI%291098-1004%28200001%2915:1%3c7::AID-HUMU4%3e3.0.CO;2-N) the suggestion was to describe two changes in a protein encoded by one chromosome as [p.Ser73Arg+p.Asn103del], i.e. using a "+"-character to separate the two changes, while an earlier publication suggested to use a ";" ([p.Ser73Arg;p.Asn103del] [(Antonarakis and the Nomenclature Working Group, 1998](http://dx.doi.org/10.1002/%28SICI%291098-1004%281998%2911:1%3c1::AID-HUMU1%3e3.0.CO;2-O)). To prevent confusion with older publications, to improve overall consistency and to keep descriptions as short as possible, the 2000 proposal was retracted. The recommended format is `p.[Ser73Arg;Asn103del]`.
+        Indeed, originally [den Dunnen and Antonarakis, 2000](http://dx.doi.org/10.1002/%28SICI%291098-1004%28200001%2915:1%3c7::AID-HUMU4%3e3.0.CO;2-N) the suggestion was to describe two changes in a protein encoded by one chromosome as [p.Ser73Arg+p.Asn103del], i.e. using a "+"-character to separate the two changes, while an earlier publication suggested to use a ";" ([p.Ser73Arg;p.Asn103del] [(Antonarakis and the Nomenclature Working Group, 1998](http://dx.doi.org/10.1002/%28SICI%291098-1004%281998%2911:1%3c1::AID-HUMU1%3e3.0.CO;2-O)). To prevent confusion with older publications, to improve overall consistency and to keep descriptions as short as possible, the 2000 proposal was retracted. The recommended format is `p.[Ser73Arg;Asn103del]`.
 
 !!! note "Can I describe the predicted protein consequences of two variants on the same allele as `p.([Phe233Leu;Cys690Trp])`?"
 
-    No, this should be described as `p.[(Phe233Leu;Cys690Trp)],` i.e. with the parentheses **inside** the square brackets of the allele and around each variant. This format is used for overall consistency; with the parentheses **inside** the square brackets variants can be described as `p.[Phe233Leu;(Cys690Trp)]` which would not be possible when they were allowed outside of the square brackets.
+        No, this should be described as `p.[(Phe233Leu;Cys690Trp)],` i.e. with the parentheses **inside** the square brackets of the allele and around each variant. This format is used for overall consistency; with the parentheses **inside** the square brackets variants can be described as `p.[Phe233Leu;(Cys690Trp)]` which would not be possible when they were allowed outside of the square brackets.
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 
-    When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and in the protein from which allele(s);
+        When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and in the protein from which allele(s);
 
-    - disease severity will depend on the combination of variants found
-    - in recessive disease, when two variants are in the protein from one allele an individual is a carrier or you might not have found the variant in the protein from the 2nd allele
+        - disease severity will depend on the combination of variants found
+        - in recessive disease, when two variants are in the protein from one allele an individual is a carrier or you might not have found the variant in the protein from the 2nd allele
 
 !!! note "I find the notation `p.[Ser73Arg]` without describing the second protein allele misleading; not enough researchers know this refers to only one of the two alleles present. Would using `p.[Ser73Arg];[]` be OK?"
 
-    No, the recommended description is `p.[Ser73Arg];[Ser73=],` i.e. `p.Ser73=` for "no change" on the second protein allele.
+        No, the recommended description is `p.[Ser73Arg];[Ser73=],` i.e. `p.Ser73=` for "no change" on the second protein allele.
 
 !!! note "How should I describe the variants detected in males and females for a protein encoded by the X-chromosome?"
 
-    In **females** the description is straightforward, like `p.[Ser86Arg];[Ser86=]`. In **males** there is no second allele (X-chromosome) which can be described as `p.[Ser86Arg];[0],` i.e. using "**p.0**" to indicate the absence of a protein from the second X-chromosome. A description like `p.[Ser86Arg];[0]` is also possible for a female but, since variant descriptions on protein level can only be given **in addition to** a description on DNA level, it will be linked to either the description of a deletion on DNA level or the absence of RNA (r.0), e.g. caused by non-random X-inactivation.
+        In **females** the description is straightforward, like `p.[Ser86Arg];[Ser86=]`. In **males** there is no second allele (X-chromosome) which can be described as `p.[Ser86Arg];[0],` i.e. using `p.0` to indicate the absence of a protein from the second X-chromosome. A description like `p.[Ser86Arg];[0]` is also possible for a female but, since variant descriptions on protein level can only be given **in addition to** a description on DNA level, it will be linked to either the description of a deletion on DNA level or the absence of RNA (r.0), e.g. caused by non-random X-inactivation.

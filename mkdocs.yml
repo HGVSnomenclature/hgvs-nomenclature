@@ -4,14 +4,11 @@
 
 site_name: "HGVS Nomenclature"
 site_url: https://hgvs-nomenclature.org/
+strict: true
 
 plugins:
-#- autolinks
 - awesome-pages
-# - glightbox
 - markdown-exec
-#- mermaid2
-#- multirepo # https://github.com/backstage/mkdocs-monorepo-plugin
 - search
 - table-reader
 - macros # must be after table-reader
@@ -32,29 +29,24 @@ extra:
   social:
   - icon: fontawesome/brands/github
     link: https://github.com/HGVSNomenclature/hgvs-nomenclature
-    #version:
-    #  provider: mike
 
 extra_css:
 - stylesheets/extra.css
-
-# extra_javascript:
-#   - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 theme:
   name: material
   #custom_dir: overrides
 
   features:
-  - navigation.indexes
-  - navigation.instant
-  #- navigation.tabs.sticky
-  #- navigation.expand
-  - navigation.tracking
-  #- navigation.sections
-  - search.highlight
-  - toc.follow
-  - toc.integrate
+  - navigation.indexes  # enable section-level pages
+  - navigation.instant  # single-page app
+  - navigation.tracking # add section fragment to URL
+  - search.highlight    # highlight search terms in pages
+  - toc.follow          # toc follows scroll
+  - toc.integrate       # integrate page headings into toc
+  # Tabs are nice, but apparently remove the side nav
+  # - navigation.tabs
+  # - navigation.tabs.sticky
 
   palette:
   # Palette toggle for light mode
@@ -72,10 +64,13 @@ theme:
       name: Switch to light mode
 
   font:
-    text: Ubuntu
+    text: Lato
     code: Roboto Mono
   logo: images/hgvs-logo.png
   favicon: images/hgvs-logo.png
 
 watch:
 - bin
+- lib
+# - overrides
+# - overrides/partials

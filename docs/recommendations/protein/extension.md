@@ -13,7 +13,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ext
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- **predicted consequences**, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. `p.(Ter110GlnextTer17)` or `p.(\*110Glnext\*17)`.
+- **predicted consequences**, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. `p.(Ter110GlnextTer17)` or `p.(*110Glnext*17)`.
 - variants affecting the translation initiation site (Met1) activating an upstream (N-terminal) translation initiation site are described as [deletion-insertion](delins.md), those activating a downstream (C-terminal) initiation site as a [deletion](deletion.md).
 - **prioritisation**: (1) extension, (2) frameshift or deletion-insertion.
 
@@ -36,7 +36,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ext
 
 !!! note "<a id='noend'></a>How do I describe an extension when no new stop codon is reached?"
 
-    Such variants are described using the format `p.Ter789ArgextTer?,` i.e. "**extTer?**" to indicate that no new termination codon is encountered.
+    Such variants are described using the format `p.Ter789ArgextTer?,` i.e. `extTer?` to indicate that no new termination codon is encountered.
 
 !!! note "How should a variant in the 5'UTR be described that gives rise to a new translation initiation site?"
 

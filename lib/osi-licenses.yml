@@ -1,0 +1,53 @@
+# Generated on 2023-11-18 from https://opensource.org/licenses/?categories=popular-strong-community
+
+Apache-2.0:
+  name: Apache License 2.0
+  url: https://opensource.org/licenses/Apache-2.0
+
+BSD-2-Clause:
+  name: BSD 2-Clause License
+  url: https://opensource.org/licenses/BSD-2-Clause
+
+BSD-3-Clause:
+  name: BSD 3-Clause License
+  url: https://opensource.org/licenses/BSD-3-Clause
+
+CDDL-1.0:
+  name: Common Development and Distribution License 1.0
+  url: https://opensource.org/licenses/CDDL-1.0
+
+EPL-2.0:
+  name: Eclipse Public License 2.0
+  url: https://opensource.org/licenses/EPL-2.0
+
+GPL-2.0:
+  name: GNU General Public License 2.0
+  url: https://opensource.org/licenses/GPL-2.0
+
+GPL-3.0-only:
+  name: GNU General Public License 3.0-only
+  url: https://opensource.org/licenses/GPL-3.0
+
+LGPL-2.0-only:
+  name: GNU Lesser General Public License 2.0-only
+  url: https://opensource.org/licenses/LGPL-2.0
+
+LGPL-2.1:
+  name: GNU Lesser General Public License 2.1
+  url: https://opensource.org/licenses/LGPL-2.1
+
+LGPL-3.0-only:
+  name: GNU Lesser General Public License 3.0-only
+  url: https://opensource.org/licenses/LGPL-3.0
+
+MIT:
+  name: MIT License
+  url: https://opensource.org/licenses/MIT
+
+MPL-2.0:
+  name: Mozilla Public License 2.0
+  url: https://opensource.org/licenses/MPL-2.0
+
+OTHER:
+  name: Other/unknown
+  # url: https://opensource.org/licenses/?categories=other-miscellaneous

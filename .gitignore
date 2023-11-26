@@ -1,7 +1,6 @@
 *~
 archive
 .cache
-*.html
 notes.md
 site
 venv
