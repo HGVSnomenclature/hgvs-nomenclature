@@ -5,6 +5,9 @@
 Please note that this Glossary is **work in progress**. Do you encounter missing terms or want to suggest definitions, please let us know.
 
 - 3'rule: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed. When ATTTG changes to ATTG HGVS describes this as a change of the T at position 4 (not the T at position 2 or 3)
+
+- adjoined transcript: a transcript (RNA molecule) composed of adjoined RNA from two or more contributing transcripts.
+
 - allele: variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele)): **HGVS**: a series of variants on one chromosome.: descriptions _see Recommendations_ [DNA](../recommendations/DNA/alleles.md), [RNA](../recommendations/RNA/alleles.md) or [protein](../recommendations/protein/alleles.md).
 
 - amino acid: a letter from the protein code (see [Standards](standards.md)).
@@ -16,6 +19,8 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 - cDNA: cDNA, "copy DNA" or "complementary DNA", is the DNA copy of a single stranded RNA molecule synthesized using the enzyme reverse transcriptase ([Wikipedia](https://en.wikipedia.org/wiki/Complementary_DNA), [MESH](https://www.ncbi.nlm.nih.gov/mesh/68018076)).: **NOTE:** cDNA is not the same as "coding DNA" (see below).
 
 - CDS: coding DNA sequence, a sequence translated in to an amino acid sequence (protein).
+
+- chimeric transcript: an adjoined transcript derived from two or more genes.
 
 - chimerism: the occurrence in one individual of two or more cell populations, derived from different zygotes, with different sequences (based on [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=chimerism)). Opposite of mosaicism.: descriptions see [General/Charcters used](../recommendations/general.md#characters).
 
@@ -62,7 +67,11 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - frameshift: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, translation shifts to another reading frame ([protein](../recommendations/protein/frameshift.md))
 
-- fusion transcript: a transcript (RNA molecule) which consist of parts of transcripts from two or more genes, resulting from a translocation, deletion, or inversion.
+- fusion transcript: a confusing term, HGVS nomenclature uses adjoined transcript instead.
+
+- gene fusion: the joining of two or more genes resulting in a chimeric transcript and/or a novel interaction between a rearranged regulatory element with the expressed product of a partner gene (a regulatory fusion).
+
+- genomic rearrangement: see *Structural Variant (SV)*
 
 - haplotype: contiguous set of genetic variants that are co-located on one chromosome (molecule) and are inherited from the same parent
 
@@ -141,7 +150,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - reading frame: one of three possible ways to translate a nucleotide sequence in to an amino acid sequence (a protein): see also **frame**
 
-- readthrough transcript: a transcript (RNA molecule) formed via the splicing of exons from more than one distinct gene. The two (or more) genes involved are found on the same chromosomal region, on the same strand, and are typically adjacent to one another.
+- readthrough transcript: a chimeric transcript in which the two (or more) genes involved can also be transcribed individually, and are found on the same chromosomal region, on the same strand, and typically adjacent to one another.
+
+- regulatory fusion: the interaction of a gene expression regulatory element which, by a genomic rearrangement, is brought into proximity of a new partner gene, modulating the expression of the new partner gene.
 
 - repeated sequence: **HGVS**: a sequence where, compared to a reference sequence, a segment of one or more nucleotides (the repeat unit) is present several times, one after the other.
 

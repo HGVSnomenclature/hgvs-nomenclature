@@ -1,3 +1,5 @@
+**NOTE:** We have updated our glossary and nomenclature to align with the [VICC Gene Fusion Specification](https://fusions.cancervariants.org/en/latest) terminology, and clarify the distinction between chimeric transcript fusions (the biological concept) and adjoined transcripts (a nomenclature structure). The "fusion transcript" concept adopted in this consultation was relabeled to "adjoined transcript" accordingly.
+
 ## Community Consultation
 
 ### Proposal SVD-WG007 (RNA fusion)
