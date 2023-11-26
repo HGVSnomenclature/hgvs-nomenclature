@@ -30,9 +30,12 @@ Now navigate to the URL shown above. mkdocs is now watching for changes in the d
 
 ### Making changes
 
-**Please make all changes in branches and submit a PR**
+If your work is related to an issue, please use GitHub to create a branch that is linked to the issue:
 
-    git checkout -b <branch name>
+![Alt text](.images/image.png){width=50%}
+![Alt text](.images/image-1.png){width=50%}
+
+Alternatively, `gh issue develop <issue#>` if you have the gh cli installed.
 
 Then make your changes, commit, and push like this:
 
