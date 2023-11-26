@@ -1,0 +1,23 @@
+name: Mutalyzer
+primary_url: https://mutalyzer.nl/
+source:
+  type: github
+  repo_slug: mutalyzer/mutalyzer
+links:
+  markdown:
+  - '[Documentation](https://mutalyzer.readthedocs.io/)'
+types:
+- web api
+- web user interface
+functionality:
+- backtranslation
+- extraction
+- normalization
+- transcription
+- translation
+- validation
+license: MIT
+description: |
+  Package designed to check descriptions of sequence variants according to the
+  Human Genome Sequence Variation Society (HGVS) guidelines.
+pubmed_id: "33538839"

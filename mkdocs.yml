@@ -4,6 +4,7 @@
 
 site_name: "HGVS Nomenclature"
 site_url: https://hgvs-nomenclature.org/
+strict: true
 
 plugins:
 - awesome-pages
@@ -70,3 +71,6 @@ theme:
 
 watch:
 - bin
+- lib
+# - overrides
+# - overrides/partials

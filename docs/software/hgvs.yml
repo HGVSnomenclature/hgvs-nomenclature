@@ -1,0 +1,33 @@
+name: hgvs Python library
+primary_url: https://github.com/biocommons/hgvs
+source:
+  type: github
+  repo_slug: biocommons/hgvs
+types:
+- library/python
+links:
+  markdown:
+  - '[Documentation](https://hgvs.readthedocs.io/)'
+  - '[![pypi_rel](https://img.shields.io/pypi/v/hgvs.svg)](https://pypi.org/project/hgvs/)'
+  - '[![coveralls](https://img.shields.io/coveralls/github/biocommons/hgvs.svg)](https://coveralls.io/github/biocommons/hgvs)'
+functionality:
+- conversion
+- normalization
+- parsing
+- transcription
+- translation
+- validation
+license: Apache-2.0
+description: |
+  The *hgvs* package provides a Python library to parse, format, validate,
+  normalize, and map sequence variants according to [HGVS
+  Nomenclature](http://hgvs-nomenclature.org/).
+
+  The hgvs package focuses on the subset of the HGVS recommendations that
+  precisely describe sequence-level variation relevant to the application of
+  high-throughput sequencing to clinical diagnostics. The hgvs package does not
+  attempt to cover the full scope of HGVS recommendations.  A key feature of the
+  hgvs package is the ability to correctly project variants in the presence of
+  genome-transcript alignment indels (see
+  [PubMed:30129167](https://pubmed.ncbi.nlm.nih.gov/30129167/)).
+pubmed_id: "30129167"

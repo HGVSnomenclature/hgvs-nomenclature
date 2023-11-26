@@ -1,0 +1,96 @@
+# JSON schema for software entries
+
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "HGVS Software"
+description: "An entry in the list of software that manipulates HGVS"
+type: "object"
+
+additionalProperties: false
+required:
+- description
+- functionality
+- license
+- name
+- primary_url
+- source
+- types
+properties:
+  name:
+    type: string
+  primary_url:
+    description: URL for primary page
+    type: string
+    format: uri
+  source:
+    additionalProperties: false
+    required:
+    - type
+    - repo_slug
+    properties:
+      type:
+        type: string
+        const: github
+      repo_slug:
+        type: string
+  links:
+    additionalProperties: false
+    properties:
+      markdown:
+        type: array
+        items:
+          type: string
+  documentation_url:
+    description: URL for package documentation
+    type: string
+    format: uri
+  issues_url:
+    description: URL where software bugs and features are tracked
+    type: string
+    format: uri
+  types:
+    type: array
+    items:
+      type: string
+      enum:
+      - library/c
+      - library/go
+      - library/other
+      - library/python
+      - library/rust
+      - web api
+      - web user interface
+  functionality:
+    type: array
+    items:
+      type: string
+      enum:
+      - backtranslation
+      - conversion
+      - extraction
+      - liftover
+      - normalization
+      - parsing
+      - transcription
+      - translation
+      - validation
+  license:
+    description: "License identifier from well-recognized OSI approved licenses at https://opensource.org/licenses/?categories=popular-strong-community. \n"
+    type: string
+    enum:
+    - Apache-2.0
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - CDDL-1.0
+    - EPL-2.0
+    - GPL-2.0
+    - GPL-3.0-only
+    - LGPL-2.0-only
+    - LGPL-2.1
+    - LGPL-3.0-only
+    - MIT
+    - MPL-2.0
+    - OTHER
+  description:
+    type: string
+  pubmed_id:
+    type: string

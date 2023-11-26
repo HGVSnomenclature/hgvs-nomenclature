@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+
+import argparse
+import logging
+import pathlib
+import sys
+
+import jinja2
+import jsonschema
+import markdown
+import yaml
+
+_logger = logging.getLogger()
+
+def parse_args(args=None):
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("FILES", nargs="+")
+    opts = ap.parse_args(args=args)
+    return opts
+
+def read_and_validate(fp):
+    swe = yaml.safe_load(open(fp))
+    jsonschema.validate(instance=swe, schema=schema)
+    return swe
+
+if __name__ == "__main__":
+    import coloredlogs
+
+    coloredlogs.install(level="INFO")
+
+    md = markdown.Markdown()
+
+    my_path = pathlib.Path(__file__).absolute()
+    lib_dir = my_path.parent.parent / "lib"
+
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader("/"))
+    env.undefined = jinja2.StrictUndefined
+    env.filters["markdown"] = (
+        lambda text: md.convert(text).removeprefix("<p>").removesuffix("</p>").strip()
+    )
+    env.trim_blocks = True
+    env.lstrip_blocks = True
+
+    template = env.get_template((lib_dir / "templates" / "software-table.html.jinja2").as_posix())
+    schema = yaml.safe_load(open(lib_dir / "schemas" / "software.yml"))
+    licenses = yaml.safe_load(open(lib_dir / "osi-licenses.yml"))
+
+    opts = parse_args()
+    software = [read_and_validate(fp) for fp in opts.FILES]
+    print(template.render(software=software, licenses=licenses))

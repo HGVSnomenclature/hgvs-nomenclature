@@ -1,6 +1,7 @@
 coloredlogs
 jinja2
 jmespath
+jsonschema
 markdown-captions
 markdown-exec
 mkdocs
