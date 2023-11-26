@@ -4,7 +4,7 @@
 
 site_name: "HGVS Nomenclature"
 site_url: https://hgvs-nomenclature.org/
-strict: true
+# strict: true
 
 plugins:
 - awesome-pages
