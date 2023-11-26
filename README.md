@@ -32,8 +32,8 @@ Now navigate to the URL shown above. mkdocs is now watching for changes in the d
 
 If your work is related to an issue, please use GitHub to create a branch that is linked to the issue:
 
-![Alt text](.images/image.png){width=50%}
-![Alt text](.images/image-1.png){width=50%}
+![Alt text](.images/linked-branch-1.png)
+![Alt text](.images/linked-branch-2.png)
 
 Alternatively, `gh issue develop <issue#>` if you have the gh cli installed.
 
