@@ -15,7 +15,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.sub
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 - substitutions involving two or more consecutive nucleotides are described as deletion/insertions (indels) (see [Deletion/insertion (delins)](delins.md)).
 - two substitutions separated by one or more nucleotides should be described individually and not as a "delins"
-  - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. r.142_144delinsugg (p.Arg48Trp)).: **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
+    - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. r.142_144delinsugg (p.Arg48Trp)).: **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position
 - nucleotides that have been tested and found **not changed** are described as `r.109u=`, `r.4567_4569=` (see [SVD-WG001 (no change)](http://www.hgvs.org/mutnomen/accepted001.html)).
 - it is not correct to describe "_polymorphisms_" as <code class="invalid">r.76a/g</code> (see [Discussions](#polymorphism)).
 
@@ -38,12 +38,12 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.sub
 
 !!! note "When I only sequenced RNA (cDNA) and not genomic DNA should I then give the description of a variant at DNA level in parenthesis?"
 
-    Yes, while the variant at RNA level can be described as `r.76a>g` on DNA level, based on a coding DNA reference, sequence it should be described as `c.(76A>G)`.
+        Yes, while the variant at RNA level can be described as `r.76a>g` on DNA level, based on a coding DNA reference, sequence it should be described as `c.(76A>G)`.
 
 !!! note "<a id="polymorphism"></a>Are polymorphisms described like <code class="invalid">r.76a/g</code>?"
 
-    No, all substitutions are described as `r.76a>g`. In the past, the format <code class="invalid">r.76a/g</code> has been used to describe "polymorphic" sequence variants. Note that a description should be neutral, simply describe the change, and not include any other information like predicted or known functional consequences.
+        No, all substitutions are described as `r.76a>g`. In the past, the format <code class="invalid">r.76a/g</code> has been used to describe "polymorphic" sequence variants. Note that a description should be neutral, simply describe the change, and not include any other information like predicted or known functional consequences.
 
 !!! note "I found a variant on DNA level which is a well-characterised splice variant. Is it correct to describe the variant as concluded from literature?"
 
-    No, you should report what **you** have found. You can however use the published data to give the predicted consequences on RNA/protein level, e.g. `NM_004006.3:c.3430C>T` `r.(3277_3432del)` `p.(Leu1093_Gln1144del)`.
+        No, you should report what **you** have found. You can however use the published data to give the predicted consequences on RNA/protein level, e.g. `NM_004006.3:c.3430C>T` `r.(3277_3432del)` `p.(Leu1093_Gln1144del)`.

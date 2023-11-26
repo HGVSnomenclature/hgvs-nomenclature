@@ -6,8 +6,8 @@
 
 The format of a complete variant description is **"reference : description"** (spaces added for clarity only), e.g.;
 
-    * NM_004006.2:c.4375C>T
-    * NC_000023.11:g.32389644G>A
+        * NM_004006.2:c.4375C>T
+        * NC_000023.11:g.32389644G>A
 
 All variants are described in relation to a reference, the so called **reference sequence**, in the examples **NM_004006.3** ([from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NM_004006.3)) **NC_000023.11** ([from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NC_000023.1)). After the reference a description of the variant is given, in the examples **c.4375C>T** and **g.32389644G>A**.
 
@@ -33,22 +33,22 @@ Reference sequences have a format like **NC_000023.10**, where **NC_000023** is 
 #### Example descriptions
 
 - genomic (nucleotide)
-  - NC\_ a genomic reference sequence based on a chromosome
-    - NC_000023.9:g.32317682G>A (Mar.2006: hg18, NCBI36)
-    - NC_000023.10:g.32407761G>A (Feb.2009: h19, GRCh37)
-    - NC_000023.11:g.32389644G>A (Dec.2013: hg38, GRCh38)
-  - NG\_ a genomic reference sequence based on a Gene or Genomic region
-    - NG_012232.1:g.954966C>T
-  - LRG\_ a genomic reference sequence, used in a diagnostic setting, based on a Gene or Genomic region
-    - LRG_199:g.954966C>T
+    - NC\_ a genomic reference sequence based on a chromosome
+        - NC_000023.9:g.32317682G>A (Mar.2006: hg18, NCBI36)
+        - NC_000023.10:g.32407761G>A (Feb.2009: h19, GRCh37)
+        - NC_000023.11:g.32389644G>A (Dec.2013: hg38, GRCh38)
+    - NG\_ a genomic reference sequence based on a Gene or Genomic region
+        - NG_012232.1:g.954966C>T
+    - LRG\_ a genomic reference sequence, used in a diagnostic setting, based on a Gene or Genomic region
+        - LRG_199:g.954966C>T
 - transcript (RNA, nucleotide)
-  - NM\_ a reference sequence based on a protein coding RNA (mRNA)
-    - NM_004006.2:c.4375C>T
-  - NR\_ a reference sequence based on a non-protein coding RNA
-    - NR_002196.1:n.601G>T
+    - NM\_ a reference sequence based on a protein coding RNA (mRNA)
+        - NM_004006.2:c.4375C>T
+    - NR\_ a reference sequence based on a non-protein coding RNA
+        - NR_002196.1:n.601G>T
 - protein (amino acid)
-  - NP\_ a reference sequence based on a protein (amino acid) sequence
-    - `NP_003997.1:p.Arg1459*` (`p.Arg1459Ter`)
+    - NP\_ a reference sequence based on a protein (amino acid) sequence
+        - `NP_003997.1:p.Arg1459*` (`p.Arg1459Ter`)
 
 ### Genomic reference sequences
 
@@ -73,15 +73,15 @@ A standard variant description has the format **"prefix.position(s)\_change"**. 
 All variants given are in the DMD gene and reported in relation to coding DNA reference sequence LRG_199t1 (NM_004006.3).
 
 - substitution: one letter (nucleotide) of the DNA code is replaced (substituted) by one other letter. On DNA and RNA level a substitution is indicated using **">"**.
-  - c.4375C>T: the C nucleotide at position c.4375 changed to a T
+    - c.4375C>T: the C nucleotide at position c.4375 changed to a T
 - deletion: one or more letters of the DNA code are missing (deleted). A deletion is indicated using **"del"**.
-  - c.4375_4379del: the nucleotides from position c.4375 to c.4379 (CGATT) are missing (deleted). Also reported as c.4375_4379delCGATT.
+    - c.4375_4379del: the nucleotides from position c.4375 to c.4379 (CGATT) are missing (deleted). Also reported as c.4375_4379delCGATT.
 - duplication: one or more letters of the DNA code are present twice (doubled, duplicated). A duplication is indicated using **"dup"**.
-  - c.4375_4385dup: the nucleotides from position c.4375 to c.4385 (CGATTATTCCA) are present twice (duplicated). Often reported as c.4375_4385dupCGATTATTCCA or c.4385_4386insCGATTATTCCA (not a correct HGVS description).
+    - c.4375_4385dup: the nucleotides from position c.4375 to c.4385 (CGATTATTCCA) are present twice (duplicated). Often reported as c.4375_4385dupCGATTATTCCA or c.4385_4386insCGATTATTCCA (not a correct HGVS description).
 - insertion: one or more letters in the DNA code are new (inserted). An insertion is indicated using **"ins"**.
-  - c.4375_4376insACCT: the new sequence "ACCT" was found inserted between positions c.4375 and c.4376.
+    - c.4375_4376insACCT: the new sequence "ACCT" was found inserted between positions c.4375 and c.4376.
 - deletion/insertion (indel): one or more letters in the DNA code are missing and replaced by several new letters. A deletion/insertion is indicated using **"delins"**.
-  - c.4375_4376delinsAGTT: the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375_4376delCGinsAGTT.
+    - c.4375_4376delinsAGTT: the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375_4376delCGinsAGTT.
 
 There are more variant types yet these occur less frequently. For details see [header "Recommendations"](http://varnomen.hgvs.org/recommendations).
 

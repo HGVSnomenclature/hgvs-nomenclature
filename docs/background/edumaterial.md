@@ -12,10 +12,10 @@ A detailed explanation of HGVS nomenclature can be found on this website. Summar
 
 - **HGVSonline** - Q&A from our past bi-monthly online sessions
 
-  - HGVS online session 1 (June 22): **[HGVSonline](https://api.socrative.com/rc/ibPQGW)**
-  - HGVS online session 2 (Aug.24): **[HGVSonline2](https://api.socrative.com/rc/vKH4rQ)**
-  - HGVS online session 3 (Nov. 9): **[HGVSonline3](https://api.socrative.com/rc/iLc982)**
-  - HGVS online session 4 (Jan.11): _upcoming_ [please Register](https://us02web.zoom.us/meeting/register/tZ0qdO6qpj4pG9GG-tSSG9cyzL3qBNR9b177)
-  - HGVSmutnomen: in the **[HGVSmutnomen](https://api.socrative.com/rc/NqSXWP)** classroom you find a series of older HGVS nomenclature questions
+    - HGVS online session 1 (June 22): **[HGVSonline](https://api.socrative.com/rc/ibPQGW)**
+    - HGVS online session 2 (Aug.24): **[HGVSonline2](https://api.socrative.com/rc/vKH4rQ)**
+    - HGVS online session 3 (Nov. 9): **[HGVSonline3](https://api.socrative.com/rc/iLc982)**
+    - HGVS online session 4 (Jan.11): _upcoming_ [please Register](https://us02web.zoom.us/meeting/register/tZ0qdO6qpj4pG9GG-tSSG9cyzL3qBNR9b177)
+    - HGVSmutnomen: in the **[HGVSmutnomen](https://api.socrative.com/rc/NqSXWP)** classroom you find a series of older HGVS nomenclature questions
 
 When you have made educational or training material or know of others who did so, **please let us know!!**
