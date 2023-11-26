@@ -13,5 +13,6 @@ mkdocs-material-extensions
 mkdocs-mermaid2-plugin
 mkdocs-multirepo-plugin
 mkdocs-table-reader-plugin
+mdx_truly_sane_lists
 pre-commit
 pyyaml

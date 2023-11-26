@@ -20,6 +20,7 @@ markdown_extensions:
 - markdown_captions
 - pymdownx.details
 - pymdownx.superfences
+- mdx_truly_sane_lists
 - toc:
     permalink: "#"
     toc_depth: 1
