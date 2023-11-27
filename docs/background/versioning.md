@@ -1,18 +1,16 @@
 # Versioning
 
-The primary mission of HGVS Nomenclature is to facilitate reliable communication of sequence variants, which requires that the HGVS Nomenclature is stable. Nonetheless, modifications will be required from time to time in order to address new needs, resolve inconsistencies, or clarify confusing conventions.  Some of these changes will be minor, some will add new features, and, rarely, some will eliminate formerly acceptable variant syntax.
+The primary mission of HGVS Nomenclature is to facilitate reliable communication of sequence variants, which requires that the HGVS Nomenclature is stable. Nonetheless, modifications will be required from time to time in order to address new needs, resolve inconsistencies, or clarify confusing conventions.
 
-Beginning in 2023, the HGVS Nomenclature will adapt concepts from [Semantic Versioning](https://semver.org/). Each release will consist of 3 numbers separated by dots in the format x.y.z with the following meangings:
+The HGVS Nomenclature now uses concepts from [Semantic Versioning](https://semver.org/) to version releases. Each release version will consist of 3 numbers separated by dots in the format x.y.z with the following meangings:
 
 - The "patch" version (z) is reserved for changes that fix or clarify intentions. This is akin to a bug fix.
 - The "minor" version (y) will be used for new features that are consistent with prior versions but should not break them.  For example, adoption of a community proposal that added a new feature would trigger an increase in the minor version.
 - The "major" version (x) will be used when changes break existing behavior. Major changes should be extremely rare.
 
-Because HGVS historically used date-based versions (e.g., 20.05 in May 2020),
-and because versions should increase monotonically, the next version will be
-released with the major version 23, but subsequent versions will adopt the above
-meaning for major version.
+!!! Important
 
+    Historically, HGVS used date-based versions (e.g., 20.05 in May 2020).  Because versions should increase monotonically, the next version of HGVS Nomenclature will have major version 24. However, **subsequent versions will use semantic versioning, not date-based versioning**.
 
 ## Prior Versions
 
