@@ -50,6 +50,7 @@ if __name__ == "__main__":
     variant_types = sorted(
         [vt for mt in molecule_types for vt in mt_vt_syntax_data[mt]]
     )
+    variant_types = "sub del ins delins dup inv rpt alleles ext fs other".split()
 
     # create a fully popultated table of forms[vt][mt] = forms (from yaml)
     syntax_data = {}
