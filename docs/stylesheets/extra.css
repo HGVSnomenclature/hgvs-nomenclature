@@ -6,8 +6,24 @@
   --gray-50: #7f7f7f;
 }
 
+
 /*
 === md overrides
+*/
+
+
+h1#home {
+  display: none;
+}
+
+/*
+Attempt to leve up nav and content when h1#home is not displayed
+.md-content__inner {
+  padding-top: 0;
+}
+.md-content__inner:before {
+  height: 0;
+}
 */
 
 .md-typeset .note {
@@ -30,11 +46,12 @@
 .md-typeset dt {
   font-weight: bold;
 }
+
 .md-typeset dd {
   margin: 0 !important;
 }
 
-.md-nav--integrated > .md-nav__list > .md-nav__item--active:not(.md-nav__item--nested) {
+.md-nav--integrated>.md-nav__list>.md-nav__item--active:not(.md-nav__item--nested) {
   padding: 0;
 }
 
@@ -78,7 +95,7 @@ code::first-of-type and code::last-of-type should get left and right padding res
   padding-right: 0;
 }
 
-.md-typeset code + code {
+.md-typeset code+code {
   padding-left: 0;
 }
 
@@ -191,7 +208,8 @@ table.syntax th:not(.section) {
 table.syntax th.section {
   /* font-weight: bold; */
   text-align: left;
-  font-size: 1.25em; /* same as h3 */
+  font-size: 1.25em;
+  /* same as h3 */
   color: var(--md-typeset-a-color);
 }
 
@@ -199,6 +217,7 @@ table.syntax ul {
   margin: 0 !important;
   padding: 0;
 }
+
 table.syntax tr.examples ul {
   list-style-type: none;
 }
