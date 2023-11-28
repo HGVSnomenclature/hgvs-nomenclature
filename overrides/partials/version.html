@@ -1,0 +1,12 @@
+{% if "-" in git.tag %}
+{% set repo_url = config.repo_url + "/commit/" + git.commit %}
+{% else %}
+{% set repo_url = config.repo_url + "/releases/tag/" + git.tag %}
+{% endif %}
+
+<a href="{{ repo_url }}">
+  <div>
+    {{ git.tag }}
+    <br/>{{ git.datetime_utc.date() }}
+  </div>
+</a>
