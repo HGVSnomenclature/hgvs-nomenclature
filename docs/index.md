@@ -1,5 +1,7 @@
 # Home
 
+<!-- Version: {{ git.tag }} ({{ git.date.date() }}) -->
+
 The **HGVS Nomenclature** is an internationally-recognized standard for the description of DNA, RNA and protein sequence variants. It is used to convey variants in clinical reports and to share variants in publications and databases.
 
 The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committee (HVNC)](hvnc.md) under the auspices of the [Human Genome Organization (HUGO)](https://hugo-int.org/).

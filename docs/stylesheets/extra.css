@@ -38,6 +38,15 @@
   padding: 0;
 }
 
+.md-header__source {
+  padding-left: 1rem;
+  font-size: 0.6rem;
+}
+
+.md-nave__source {
+  font-size: 0.6rem;
+}
+
 /*
 === misc classes
 */

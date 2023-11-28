@@ -5,3 +5,4 @@ notes.md
 site
 venv
 .vscode
+__pycache__
