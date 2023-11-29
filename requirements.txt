@@ -1,4 +1,5 @@
 coloredlogs
+gitpython
 jinja2
 jmespath
 jsonschema
