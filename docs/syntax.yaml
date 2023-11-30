@@ -31,9 +31,9 @@ aa:
         examples:
           - NP_003997.1:p.[(Ser73Arg)];[(Asn103del)]
       - name: Variants with unknown or uncertain phase
-        syntax: sequence_identifier ":" coordinate_type "." "[" position_edit "(;)" position_edit "]"
+        syntax: sequence_identifier ":" coordinate_type "." position_edit "(;)" position_edit
         examples:
-          - NP_003997.1:p.[(Ser73Arg)](;)[(Asn103del)]
+          - NP_003997.1:p.(Ser73Arg)](;)[(Asn103del)
   del:
     elements:
     forms:
@@ -140,9 +140,9 @@ dna:
         examples:
           - NC_000001.11:g.[123G>A];[345del]
       - name: Variants with unknown or uncertain phase
-        syntax: sequence_identifier ":" coordinate_type "." "[" position_edit "(;)" position_edit "]"
+        syntax: sequence_identifier ":" coordinate_type "." position_edit "(;)" position_edit
         examples:
-          - NC_000001.11:g.[123G>A(;)345del]
+          - NC_000001.11:g.123G>A(;)345del
   del:
     elements:
     forms:
@@ -236,9 +236,9 @@ rna:
         examples:
           - NM_004006.3:r.[123c>a];[345del]
       - name: Variants with unknown or uncertain phase
-        syntax: sequence_identifier ":" coordinate_type "." "[" first_change "(;)" second_change "]"
+        syntax: sequence_identifier ":" coordinate_type "." first_change "(;)" second_change
         examples:
-          - NM_004006.3:r.[123c>a(;)345del]
+          - NM_004006.3:r.123c>a(;)345del
   del:
     elements:
       sequence_identifier: the sequence identifier used; NM_004006.3
