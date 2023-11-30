@@ -19,7 +19,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
 - when two variants are identified in a gene, but when it is **not known** whether these are on one chromosome (in cis) or on different chromosomes (in trans), this should be described as `variant1`<code class="spot1">(;)</code>`variant2`, i.e. without using `[ ]`.
 - NOTE: in the latest publication of the recommendations ([Den Dunnen et al. (2016)](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)) the example given is not correct.
 - NOTE: it is recommended to determine whether the changes are on the same chromosome or not.
-- descriptions combining variants based on different reference sequence types (e.g. <code class="spot1">c.</code>`[76A>C];`<code class="spot1">g.</code>`[10091C>G]`) should not be used.
+- descriptions combining variants based on different reference sequence types (e.g. <code class="invalid">c.[76A>C];g.[10091C>G]</code>) should not be used.
 
 
 ## Examples
