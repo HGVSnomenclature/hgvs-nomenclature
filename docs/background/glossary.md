@@ -81,9 +81,9 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - homozygous: an individual in which both alleles at a given locus are **identical** ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=homozygous)).
 
-- hypermorphic variant: a variant causing the gene product to possess an increased level of activity, or in which the normal (wild-type) gene product is expressed at an increased level
+- hypermorphic variant: a variant characterized by a partial gain of gene activity (including an increase in protein production or function)
 
-- hypomorphic variant: a variant causing the gene product to possess a reduced level of activity, or in which the normal (wild-type) gene product is expressed at a reduced level
+- hypomorphic variant: a variant characterized by a partial loss of gene activity (including a reduction in protein production or function)
 
 - indel: **HGVS**: confusing term, not used: **sometimes**: a sequence change where, compared to a reference sequence, one or more nucleotides are replaced by one or more other nucleotides: **sometimes**: a variant which is a deletion or an insertion.: **sometimes**: (evolutionary biology) a type of variant in which a specific nucleotide sequence is present (insertion) or absent (deletion). : [MESH](http://www.ncbi.nlm.nih.gov/mesh?term=indel): a length difference between two alleles where it is unknowable if the difference was originally caused by a sequence insertion or a sequence deletion
 
