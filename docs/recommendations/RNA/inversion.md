@@ -13,7 +13,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.inv
 ## Notes
 
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
-- by definition, the region inverted ("positions_inverted") contains **more then one nucleotide**. The description `r.234inv` is therefore not allowed; a one nucleotide inversion should be described as a [substitution](substitution.md)
+- by definition, the region inverted ("positions_inverted") contains **more than one nucleotide**. The description `r.234inv` is therefore not allowed; a one nucleotide inversion should be described as a [substitution](substitution.md)
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 - **inverted duplications** are described as an insertion using the format `r.234_235ins123_234inv`, not as <code class="invalid">r.123_456dupinv</code>
 - since exon splice signals will be inverted, large genomic inversions on the RNA level usually give [deletion](deletion.md) or [deletion-insertion (indel)](delins.md) variants
@@ -21,8 +21,8 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.inv
 
 ## Examples
 
-- `r.177_180inv`: inversion of nucleotides r.177 to r.180, changing <code>..agg<code class="del">cuga</code>uu..</code> to <code>..agg<code class="ins">ucag</code>uu..</code>
-- `r.203_506inv`: inversion of the 304 nucleotides from position r.203 to r.506
+- `r.177_180inv`: inversion of nucleotides `r.177` to `r.180`, changing `..agg`<code class="del">cuga</code>`uu..` to `..agg`<code class="ins">ucag</code>`uu..`
+- `r.203_506inv`: inversion of the 304 nucleotides from position `r.203` to `r.506`
 
 ## Discussion
 
