@@ -23,14 +23,19 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.del
 ## Examples
 
 - one nucleotide
-    - `LRG_199t1:r.10del`: a deletion of the U at position r.10 in the reference sequence LRG_199t1
+    - `LRG_199t1:r.10del`<br>
+      a deletion of the U at position r.10 in the reference sequence LRG_199t1
 - several nucleotides
-    - `NM_004006.2:r.6_8del`: a deletion of nucleotides r.6 to r.8 in the reference sequence NM_004006.2.<br>
+    - `NM_004006.2:r.6_8del`<br>
+      a deletion of nucleotides r.6 to r.8 in the reference sequence NM_004006.2.<br>
       **NOTE**: it is allowed to describe the variant as <code class="invalid">r.6_8deluug</code>.
-    - `LRG_2t1:r.1034_1036del`: a deletion of nucleotides r.1034 to r.1036 ("uug") in the reference sequence LRG_2t1.<br>
+    - `LRG_2t1:r.1034_1036del`<br>
+      a deletion of nucleotides r.1034 to r.1036 ("uug") in the reference sequence LRG_2t1.<br>
       **NOTE**: since the 3'rule has to be applied the variant, crossing the intron between nucleotides r.1035 and r.1036, is **not** described as <code class="invalid">r.1033_1035del</code> (deletion "guu").
-    - `LRG_199t1:r.(4072_5145del)`: the predicted deletion of exon 30 (starting at position r.4072) to exon 36 (ending at position r.5145) of the DMD-gene; RNA has **not been analysed**
-- `LRG_199t1:r.=/6_8del`: a mosaic case where from position r.6 to r.8 besides the normal sequence also transcripts are found containing a deletion of this sequence.<br>
+    - `LRG_199t1:r.(4072_5145del)`<br>
+      the predicted deletion of exon 30 (starting at position r.4072) to exon 36 (ending at position r.5145) of the DMD-gene; RNA has **not been analysed**
+- `LRG_199t1:r.=/6_8del`<br>
+  a mosaic case where from position r.6 to r.8 besides the normal sequence also transcripts are found containing a deletion of this sequence.<br>
   **NOTE**: for the predicted consequences of a variant the description is `LRG_199t1:r.(=/6_8del)`.
 
 ## Discussion

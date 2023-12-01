@@ -25,9 +25,11 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.dup
 
 ## Examples
 
-- `r.7dup` (one nucleotide): the duplication of a "u" at position r.7 in the sequence `acuuacu`<code class="ins">u</code>`gcc`.<br>
+- `r.7dup` (one nucleotide)<br>
+  the duplication of a "u" at position r.7 in the sequence `acuuacu`<code class="ins">u</code>`gcc`.<br>
   **NOTE**: it is **not** allowed to describe the variant as <code class="invalid">r.6_7insu</code> (see [prioritisation](../general.md))
-- `r.6_8dup` (several nucleotides): a duplication from position `r.6` to `r.8` in the sequence `acaauugc`<code class="ins">ugc</code>`c`.<br>
+- `r.6_8dup` (several nucleotides)<br>
+  a duplication from position `r.6` to `r.8` in the sequence `acaauugc`<code class="ins">ugc</code>`c`.<br>
   **NOTE**: it is allowed to describe the variant as <code class="invalid">g.6_8dupugc</code>.
 
 ## Discussion

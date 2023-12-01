@@ -21,8 +21,10 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.inv
 
 ## Examples
 
-- `r.177_180inv`: inversion of nucleotides `r.177` to `r.180`, changing `..agg`<code class="del">cuga</code>`uu..` to `..agg`<code class="ins">ucag</code>`uu..`
-- `r.203_506inv`: inversion of the 304 nucleotides from position `r.203` to `r.506`
+- `r.177_180inv`<br>
+  inversion of nucleotides `r.177` to `r.180`, changing `..agg`<code class="del">cuga</code>`uu..` to `..agg`<code class="ins">ucag</code>`uu..`
+- `r.203_506inv`<br>
+  inversion of the 304 nucleotides from position `r.203` to `r.506`
 
 ## Discussion
 
