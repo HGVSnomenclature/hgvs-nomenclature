@@ -15,10 +15,10 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
 - "positions_duplicated" should contain **two different positions**, e.g. 123_126 not 123_123.
 - the "positions_duplicated" should be listed from **5' to 3'**, e.g. 123_126 not 126_123.
 - by definition, duplication may only be used when the additional copy is **directly 3'-flanking** of the original copy (a "tandem duplication").
-    - when a variant can be described as a duplication it **must** be desribed as a duplication and not as e.g. an insertion (see _Prioritization_](../general.md)
+    - when a variant can be described as a duplication it **must** be described as a duplication and not as e.g. an insertion (see _Prioritization_](../general.md)
     - when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking the original copy), the change can not be described as a duplication, it should be described as **an insertion** (see [Insertion](insertion.md) and [proposal SVD-WG003](../../consultation/SVD-WG003.md)).
     - **inverted duplications** are described as insertion (g.234_235ins123_234inv), not as a duplication (see [Inversion](inversion.md))
-- when more then one additional copies are inserted directly 3' of the original copy the change is indicated using the format for [Repeated sequences](repeated.md), like [3] (triplication), [4] (quadruplication), etc.
+- when more than one additional copies are inserted directly 3' of the original copy the change is indicated using the format for [Repeated sequences](repeated.md), like [3] (triplication), [4] (quadruplication), etc.
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
         - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" : **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)

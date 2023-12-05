@@ -59,7 +59,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
 
 !!! note "In recessive diseases, is it important I show which variants were found in which combination?"
 
-    When in one individual you find more then one variant it is essential that you clearly indicate which variant(s) were found and on which allele(s)
+    When in one individual you find more than one variant it is essential that you clearly indicate which variant(s) were found and on which allele(s)
 
       - disease severity will depend on the combination of variants found
       - in recessive disease, when two variants are on one allele an individual is a carrier or you might not have found the variant on the 2nd allele

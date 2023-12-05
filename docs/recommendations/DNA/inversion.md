@@ -12,7 +12,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
 
 ## Notes
 
-- by definition, the region inverted ("positions_inverted") contains **more then one nucleotide**. The description g.234inv is therefore not allowed; a one nucleotide inversion should be described as a [substitution](substitution.md)
+- by definition, the region inverted ("positions_inverted") contains **more than one nucleotide**. The description g.234inv is therefore not allowed; a one nucleotide inversion should be described as a [substitution](substitution.md)
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
     - the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
 - **inverted duplications** are described as an insertion using the format g.234_235ins123_234inv, not as g.123_456dupinv (see [Q&A](#dupinv))
