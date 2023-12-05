@@ -31,7 +31,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.dup
 - one amino acid
 
     - `NP_003997.2:p.Val7dup`: a duplication of amino acid Val7 in the reference sequence NP_003997.2
-    - `NP_003997.2:p.(Val7dup)`: the **predicted** consequence at the protein level is a duplication of amino acid Val7 in the reference sequence NP_003997.2
+    - `NP_003997.2:p.(Val7dup)`: the **predicted** consequence on the protein level is a duplication of amino acid Val7 in the reference sequence NP_003997.2
     - `NP_003997.2:p.Trp4dup`: a duplication of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrpTrp<code class="spot1">Trp</code>Glu: **NOTE:** for duplications in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been duplicated
 
 - several amino acids

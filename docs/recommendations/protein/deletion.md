@@ -28,7 +28,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
 ### one amino acid
 
 - `NP_003997.2:p.Val7del`: a deletion of amino acid Val7 in the reference sequence NP_003997.2
-- `NP_003997.2:p.(Val7del)`: the **predicted** consequence at the protein level is a deletion of amino acid Val7 in the reference sequence NP_003997.2
+- `NP_003997.2:p.(Val7del)`: the **predicted** consequence on the protein level is a deletion of amino acid Val7 in the reference sequence NP_003997.2
 - `NP_003997.2:p.Trp4del`: a deletion of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrp<code class="spot1">\_</code>Glu: **NOTE:** for deletions in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been deleted
 
 ### several amino acids
