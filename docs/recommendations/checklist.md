@@ -23,7 +23,7 @@ Going through publications one can easily see where people give variant descript
 
 3.  **Insertions** - are descriptions of insertions correct and complete (see [Insertion](DNA/insertion.md))?
 
-    - insertions should be reported using the format `c.51_52insT.`: The format `c.52insT` is **incomplete** and not allowed.
+    - insertions should be reported using the format `c.51_52insT`.: The format `c.52insT` is **incomplete** and not allowed.
     - do you give the inserted sequence?: Describing a variant as `c.5439_5430**ins6**` is not allowed, the inserted sequence (for ins6 e.g. "TGCCAT") should be specified.
     - is the insertion reported indeed an insertion or is it in fact a duplication?: **Duplicating insertions** should be described as duplications, not as insertions (see [Duplication](DNA/duplication.md)).
 
@@ -35,7 +35,7 @@ Going through publications one can easily see where people give variant descript
 
 7.  **Describe always at DNA-level** - do you describe all changes reported at DNA-level? All changes reported **must** be described at DNA-level
 
-    - when descriptions at protein level are given in the text, upon first appearance, use a format like "c.76G>T `(p.(Gly26Cys)`, RNA not analysed)" or "c.76G>T (r.76g>u `p.Gly26Cys)"`
+    - when descriptions at protein level are given in the text, upon first appearance, use a format like "`c.76G>T` (`p.(Gly26Cys)`, RNA not analysed)" or "`c.76G>T` (`r.76g>u` `p.Gly26Cys`)"
 
 8.  **RNA level descriptions** HGVS nomenclature includes recommendations for the description of changes detected at the RNA level.
 

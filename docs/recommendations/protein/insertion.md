@@ -15,7 +15,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
 - all variants **should be** described at the DNA level, descriptions at the RNA and/or protein level may be given in addition
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g. `p.(Arg727_Ser728insTrpCys)`.
 - the "amino_acids+positions_flanking" should contain **two flanking residues**, e.g. Lys23 and Leu24, not two non-flanking residues (Lys23 and Asn25).
-    - an insertion can not be described using **one** amino acid position, like `p.Lys23insAsp.`
+    - an insertion can not be described using **one** amino acid position, like `p.Lys23insAsp`.
 - for all descriptions the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
 - duplicating insertions should be described as duplications (see [Duplication](../DNA/duplication.md)), not as insertion.
 - when the inserted amino acid sequence is large the insertion may be described by its length, e.g. `p.Lys2_Leu3insX[34]` (open reading frame insertion) or `p.Lys2_Leu3insTer12` (translation stop in inserted sequence). : **NOTE:** the inserted amino acid sequence can be derived from the description od the variant at DNA or RNA level.
