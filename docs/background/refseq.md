@@ -75,8 +75,7 @@ Depending on the variants to be reported, different reference sequence files are
     - **p.** = [protein reference sequence](#proteinp)
 - the recommended DNA reference is a genomic reference sequence
 
-<a id="DNAg"/>
-
+<a id="DNAg"></a>
 ### DNA - genomic reference sequence (g.)
 
 - linear genomic reference sequences are indicated using a **g.** prefix : genomic reference sequences include all **linear** DNA molecules and are preferably based on a recent genome build: for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X: **NOTE:** since new LRG's are no longer generated, the recommendation to use for diagnostic applications preferably a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/) has been retracted
@@ -86,21 +85,18 @@ Depending on the variants to be reported, different reference sequence files are
 - when a complete genomic reference sequence is not available, a coding DNA reference sequence should be used.
 - tools like the [Mutalyzer suite](http://www.mutalyzer.nl/position-converter) and [Variant Validator](http://www.variantvalidator.org) can help to predict the consequences of a variant on all properly annotated transcripts, incl. when they derive from overlapping genes.
 
-<a id="DNAo"/>
-
+<a id="DNAo"></a>
 ### DNA - circular genomic reference sequence (o.)
 
 - circular genomic reference sequences are indicated using a **o.** prefix: circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral resuence, etc.: **Exception:** the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 
-<a id="DNAm"/>
-
+<a id="DNAm"></a>
 ### DNA - mitochondrial reference sequence (m.)
 
 - mitochondrial genomic reference sequences are indicated using a **m.** prefix: a mitochondrial reference sequence is a special type of circular genomic reference sequence. Since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
 - the preferred human mtDNA reference sequence is the [Homo sapiens\_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).: **NOTE:** the mtDNA reference sequence is a **circular molecule** ([see Open Issues](../consultation/open-issues.md#circular))
 
-<a id="DNAc"/>
-
+<a id="DNAc"></a>
 ### DNA - coding DNA reference sequence (c.)
 
 - coding DNA reference sequences are indicated using a **c.** prefix
@@ -114,8 +110,7 @@ Depending on the variants to be reported, different reference sequence files are
     - for human, [EBI](http://www.ensembl.org/Help/Glossary?id=346) uses the following hierarchy to select the prefered transcript: **1.** longest CCDS translation with no stop codons. **2.** if no (1), choose the longest Ensembl/Havana merged translation with no stop codons. **3.** if no (2), choose the longest translation with no stop codons. **4.** if no translation, choose the longest non-protein-coding transcript.
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC_000023.10:g.32361300del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC_000023.10:g.32361300 links to nucleotide NM_004006.1:c.5690. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NM_004006.1:c.5697del (linking to NC_000023.10:g.32361293). See also [different genomic (g.) and coding DNA (c.) descriptions](../recommendations/DNA/repeated.md).
 
-<a id="DNAn"/>
-
+<a id="DNAn"></a>
 ### DNA - non-coding DNA reference sequence (n.)
 
 - non-coding DNA reference sequences are indicated using a **n.** prefix
@@ -127,8 +122,7 @@ Depending on the variants to be reported, different reference sequence files are
 - the non-coding DNA reference sequence should be complete, cover the major and largest transcript known
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
 
-<a id="RNAr"/>
-
+<a id="RNAr"></a>
 ### RNA reference sequence (r.)
 
 - RNA reference sequences are indicated using a **r.** prefix
@@ -140,8 +134,7 @@ Depending on the variants to be reported, different reference sequence files are
 - the RNA reference sequence includes the entire transcript, excluding the poly A-tail.
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
 
-<a id="proteinp"/>
-
+<a id="proteinp"></a>
 ### protein reference sequence (p.)
 
 - protein reference sequences are indicated using a **p.** prefix
@@ -151,8 +144,7 @@ Depending on the variants to be reported, different reference sequence files are
     - for LRG\_'s the annotated "**protein isoform 1**" is described as `p1`, e.g. LRG_199<code class="spot1">p1</code>:p.(Val25Gly)
 - a protein reference sequence should represent the primary translation product, not a processed mature protein, and thus includes the starting Methionine, any signal peptide sequences, etc.
 
-<a id="note"/>
-
+<a id="note"></a>
 ## Notes
 
 (1) an [opaque identifier](https://indieweb.org/opaque) is one that acts only as a name for an object and that is not intended to be parsed for additional meaning. Contrast with a RefSeq identifier, for example, which conveys annotation level (N versus X), type (M, R, C, etc.), and version number. So, this comment is intended to tell implementers that they **may not** rely on parsing the identifier to decide how the implementation works
@@ -162,8 +154,7 @@ Why not? Two reasons:
 - because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?
 - because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other identifiers (perhaps identifiers not even shared). If the implementation were to **require** that g. variant accessions start with NC\_ (or any predefined list), it would make it impossible to use that software in other contexts
 
-<a id="discuss"/>
-
+<a id="discuss"></a>
 ## Q&A
 
 !!! note "Which reference sequence type should I use?"
