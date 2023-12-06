@@ -7,51 +7,51 @@ Make sure you have also seen the ([Basics](../background/basics.md), explaining 
 ## General recommendations
 
 - all variants should be described at the most basic level, **the DNA level**. Descriptions at the RNA and/or protein level may be given in addition.
-        - descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses
-        - descriptions at RNA/protein level should describe the changes observed on that level (RNA/protein) and not try to incorporate any knowledge regarding the change at DNA-level (see Questions below)
+    - descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses
+    - descriptions at RNA/protein level should describe the changes observed on that level (RNA/protein) and not try to incorporate any knowledge regarding the change at DNA-level (see Questions below)
 
 - all variants should be described in relation to an accepted **reference sequence** (see [Reference Sequences](../background/refseq.md)).
-        - the reference sequence file used should be **public and clearly described**, e.g. NC_000023.10, LRG_199, NG_012232.1, NM_004006.2, LRG_199t1, NR_002196.1, NP_003997.1, etc. (see [Reference Sequences](../background/refseq.md))
-        - the reference sequence used must contain the residue(s) described to be changed.
-        - the recommended reference is a genomic reference sequence based on a recent genome build
-                - for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X
-                - when variants are reported in relation to a transcript, the preferred reference sequence is the reference suggested by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)): **NOTE:** while [Locus Reference Genomic (LRG)](http://www.lrg-sequence.org) reference sequences are still acceptable, new LRG's are no longer generated and RefSeq or Ensembl transcripts specified by the MANE project are preferred for all genes where available to help standardize clinical reporting.
+    - the reference sequence file used should be **public and clearly described**, e.g. NC_000023.10, LRG_199, NG_012232.1, NM_004006.2, LRG_199t1, NR_002196.1, NP_003997.1, etc. (see [Reference Sequences](../background/refseq.md))
+    - the reference sequence used must contain the residue(s) described to be changed.
+    - the recommended reference is a genomic reference sequence based on a recent genome build
+        - for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X
+        - when variants are reported in relation to a transcript, the preferred reference sequence is the reference suggested by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)): **NOTE:** while [Locus Reference Genomic (LRG)](http://www.lrg-sequence.org) reference sequences are still acceptable, new LRG's are no longer generated and RefSeq or Ensembl transcripts specified by the MANE project are preferred for all genes where available to help standardize clinical reporting.
     - the reference sequence used must contain the residue(s) described to be changed.
     - a **letter prefix** is mandatory to indicate the type of reference sequence used. Accepted prefixes are;
-                - `c` for a coding DNA reference sequence
-                - `g` for a linear genomic reference sequence
-                - `m` for a mitochondrial DNA reference sequence
-                - `n` for a non-coding DNA reference sequence
-                - `o` for a circular genomic reference sequence
-                - `p` for a protein reference sequence
-                - `r` for an RNA reference sequence (transcript)
-        - numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** (see [Numbering](../background/numbering.md))
+        - `c` for a coding DNA reference sequence
+        - `g` for a linear genomic reference sequence
+        - `m` for a mitochondrial DNA reference sequence
+        - `n` for a non-coding DNA reference sequence
+        - `o` for a circular genomic reference sequence
+        - `p` for a protein reference sequence
+        - `r` for an RNA reference sequence (transcript)
+    - numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** (see [Numbering](../background/numbering.md))
 
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins"
-        - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins": **NOTE:** the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a "delins"**
+    - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins": **NOTE:** the SVD-WG is preparing a proposal to modify this recommendation. To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid. Recommendations should be general. The new recommendation will be: **two variants separated by less then two nucleotides should be described as a "delins"**
 
 - **3'rule**: for all descriptions the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed
-        - the 3'rule also applies for changes in single residue stretches and tandem repeats (nucleotide or amino acid)
-        - the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
-        - **exception**: deletion/duplication around exon/exon junctions using **c.**, **r.** or **n.** reference sequences (see [Numbering](../background/numbering.md#DNAc))
+    - the 3'rule also applies for changes in single residue stretches and tandem repeats (nucleotide or amino acid)
+    - the 3'rule applies to ALL descriptions (genome, gene, transcript and protein) of a given variant
+    - **exception**: deletion/duplication around exon/exon junctions using **c.**, **r.** or **n.** reference sequences (see [Numbering](../background/numbering.md#DNAc))
 
 - descriptions at DNA, RNA and protein level are clearly different:
-        - **DNA-level** 123456A>T: number(s) referring to the nucleotide(s) affected, nucleotides in CAPITALS using [IUPAC-IUBMB assigned nucleotide symbols](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500)
-        - **RNA-level** 76a>u: number(s) referring to the nucleotide(s) affected, nucleotides in lower case using [IUPAC-IUBMB assigned nucleotide symbols](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500)
-        - **protein level** Lys76Asn: the amino acid(s) affected in three- or one-letter code followed by a number [IUPAC-IUBMB assigned amino acid symbols](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)
-                - **three-letter** amino acid code is preferred (see [Standards](../background/standards.md#aacode))
-                - the `*` can be used to indicate the translation stop codon in both one- and three-letter amino acid code descriptions
+    - **DNA-level** 123456A>T: number(s) referring to the nucleotide(s) affected, nucleotides in CAPITALS using [IUPAC-IUBMB assigned nucleotide symbols](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500)
+    - **RNA-level** 76a>u: number(s) referring to the nucleotide(s) affected, nucleotides in lower case using [IUPAC-IUBMB assigned nucleotide symbols](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500)
+    - **protein level** Lys76Asn: the amino acid(s) affected in three- or one-letter code followed by a number [IUPAC-IUBMB assigned amino acid symbols](http://www.iupac.org/publications/pac/1984/pdf/5605x0595.pdf)
+        - **three-letter** amino acid code is preferred (see [Standards](../background/standards.md#aacode))
+        - the `*` can be used to indicate the translation stop codon in both one- and three-letter amino acid code descriptions
 
 - **prioritisation**: when a description is possible according to several types, the preferred description is: (1) substitution, (2) deletion, (3) inversion, (4) duplication, (5) insertion
-        - when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
-        - descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. `NM_004006.2:c.[762_768del;767_774dup]`)
+    - when a variant can be described as a duplication or an insertion, prioritisation determines it should be described as a duplication
+    - descriptions removing part of a reference sequence replacing it with part of the same sequence are not allowed (e.g. `NM_004006.2:c.[762_768del;767_774dup]`)
 
 - only **approved** [HGNC gene symbols](http://www.genenames.org) should be used to describe genes: **NOTE:**    to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to use **italics** to denote genes: **NOTE:**    for protein nomenclature see the [_International Protein Nomenclature Guidelines_](https://www.ncbi.nlm.nih.gov/genome/doc/internatprot_nomenguide/), written with the involvement of the HGNC
 
 - HGVS recommends following the [HGNC guidelines](https://www.genenames.org/about/guidelines/) and the [VICC Gene Fusion Specification](https://fusions.cancervariants.org/en/latest) nomenclature to describe products of gene fusions
-  - The HGNC recommendations include using a GENESYMBOL1::GENESYMBOL2 syntax for gene-level fusion descriptions, and GENESYMBOL1-GENESYMBOL2 syntax for read-through transcripts
-    - The VICC nomenclature extends the HGNC recommendations to include a terminology, information model, and nomenclature for gene-level and exon-level representation, with components for disambiguating regulatory fusions from chimeric transcript fusions
-    - HGVS also recommends the use of [adjoined transcripts](RNA/splicing.md) for precise and unambiguous characterization of chimeric transcripts at the sequence level
+    - The HGNC recommendations include using a GENESYMBOL1::GENESYMBOL2 syntax for gene-level fusion descriptions, and GENESYMBOL1-GENESYMBOL2 syntax for read-through transcripts
+        - The VICC nomenclature extends the HGNC recommendations to include a terminology, information model, and nomenclature for gene-level and exon-level representation, with components for disambiguating regulatory fusions from chimeric transcript fusions
+        - HGVS also recommends the use of [adjoined transcripts](RNA/splicing.md) for precise and unambiguous characterization of chimeric transcripts at the sequence level
 
 <a id="characters"></a>
 
@@ -96,7 +96,6 @@ Specific abbreviations are used to describe different variant types.
 - `ext` indicates an **extension**; `p.Met1ext-5` (see [Extension](protein/extension.md))
 
 - HGVS/ISCN (see [Community Consultation](http://www.hgvs.org/mutnomen/comments004.html))
-
     - `cen` indicates the **centromere** of a chromosome
     - `chr` indicates a **chromosome**; chr11:g.12345611G>A (NC_000011.9)
     - `pter` indicates the **first nucleotide** of a chromosome
