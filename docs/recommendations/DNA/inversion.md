@@ -27,8 +27,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
 - `NC_000023.10:g.111754331_111966764inv`: a large inversion (212,434 nucleotides) from position g.111754331 to g.111966764
 - `NM_004006.2:c.849_850ins850_900inv`: a copy of nucleotides c.850 to c.900 is inserted, in inverted orientation, 5' of the original sequence, between nucleotide c.849 and c.850
 - `NM_004006.2:c.900_901ins850_900inv`: a copy of nucleotides c.850 to c.900 is inserted, in inverted orientation, 3' of the original sequence, between nucleotide c.900 and c.901
-- `LRG_199t1:c.940_941ins[885\_940inv;A;851\_883inv]`: an inverted copy of nucleotides c.851 to c.940, with a G>A substitution of nucleotide c.884, is inserted directly 3' of the original sequence
-- `NM_004006.2:c.940_941ins[903\_940inv;851\_885inv]`: an inverted copy of nucleotides c.851 to c.940, with a deletion from nucleotides c.886 to c.902, is inserted directly 3' of the original sequence
+- `LRG_199t1:c.940_941ins[885_940inv;A;851_883inv]`: an inverted copy of nucleotides c.851 to c.940, with a G>A substitution of nucleotide c.884, is inserted directly 3' of the original sequence
+- `NM_004006.2:c.940_941ins[903_940inv;851_885inv]`: an inverted copy of nucleotides c.851 to c.940, with a deletion from nucleotides c.886 to c.902, is inserted directly 3' of the original sequence
 
 ## Discussion
 
