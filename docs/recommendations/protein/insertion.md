@@ -37,12 +37,12 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
 
 !!! note "Can I describe a variant as `p.His4insAla`?"
 
-        No, since the description is not unequivocal it is not allowed. What does the description mean, the insertion of a Ala **at** position 4 or the insertion of a Ala **after** position 4?
+    No, since the description is not unequivocal it is not allowed. What does the description mean, the insertion of a Ala **at** position 4 or the insertion of a Ala **after** position 4?
 
 !!! note "Can I use the "^" character to describe an insertion?"
 
-        No, insertions can not be described using the format `p.His4Gln5insAla` or `p.123ˆ124Ala`. The recommendations try to restrict the number of different characters used to a minimum. Since a character was already used to indicate a range (the *underscore*) a new character was not required.
+    No, insertions can not be described using the format `p.His4Gln5insAla` or `p.123ˆ124Ala`. The recommendations try to restrict the number of different characters used to a minimum. Since a character was already used to indicate a range (the *underscore*) a new character was not required.
 
 !!! note "How should I describe the change "MetArgThr**GlySerSer**HisGlnTrpPhe" to "MetArgThr**GlySerSer**His**GlySerSer**GlnTrpPhe"? The fact that the inserted sequence (GlySerSer) is present in the original sequence suggests it derives from a duplicative event."
 
-        The variant should be described as an insertion; `p.His7_Gln8insGly4_Ser6`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between `p.His7` and `p.Gln8` is probably derived from nearby, i.e. position `p.Gly4` to `p.Ser6`, and thus likely derived from a duplicative event.
+    The variant should be described as an insertion; `p.His7_Gln8insGly4_Ser6`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between `p.His7` and `p.Gln8` is probably derived from nearby, i.e. position `p.Gly4` to `p.Ser6`, and thus likely derived from a duplicative event.
