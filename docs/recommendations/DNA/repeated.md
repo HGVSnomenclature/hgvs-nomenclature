@@ -32,7 +32,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.rpt
             - NC_000003.12:g.63912687_63912716AGC[13] | c.89_118AGC[13]: a repeated AGC tri-nucleotide sequence in the ATXN7 gene on chromosome 3, starting at position g.63912687/c.89, with 13 AGC copies (the reference sequence has 10 copies): **NOTE**: in literature the tri-nucleotide repeat, encoding a poly-Gln repeat on protein level, is known as the CAG repeat. However, based on the ATXN7 coding DNA reference sequence (GenBank LRG_866t1 or NM_000333.3) and applying the **3'rule**, the repeat has to be described as an AGC repeat
         - **not sequenced**
             - NC_000003.12:g.(63912602_63912844)insN[9] | NM_000333.3:c.(4_246)insN[9]: a fragment containing the AGC repeat in the ATXN7 gene was amplified (from nucleotide g.63912602/c.4 to g.63912844/c.246) and its size determined to be 9 nucleotides larger ( "insN[9]" ) compared to that of the reference sequence.: **NOTE**: since the fragment was not sequenced the variant can not be described as g.63912687_63912716AGC[13] / c.89_118AGC[13].
-            - NC_000003.12:g.(63912602_63912844)delN[15] | NM_000333.3:c.(4_246)delN[15]: a fragment containing the AGC repeat in the ATXN7 gene was amplified (from nucleotide g.63912602/c.4 to g.63912844/c.246) and its size determined to be 15 nucleotides smaller ( "delN[15]" ) then that of the reference sequence.
+            - NC_000003.12:g.(63912602_63912844)delN[15] | NM_000333.3:c.(4_246)delN[15]: a fragment containing the AGC repeat in the ATXN7 gene was amplified (from nucleotide g.63912602/c.4 to g.63912844/c.246) and its size determined to be 15 nucleotides smaller ( "delN[15]" ) than that of the reference sequence.
 
 - **mixed repeat reference sequence**
     - **repeat expansion disorders**

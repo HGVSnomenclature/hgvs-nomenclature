@@ -21,7 +21,7 @@ Variants affecting RNA splicing result in either a [deletion](deletion.md) or [i
 ## Examples
 
 - **one variant, several transcripts**
-    - `NC_000023.11(NM_004006.2):r.[897u>g,832_960del]`: two different transcripts, `r.897u>g` and `r.832_960del,` derive from one variant (c.897T>G at the DNA level): alternative description `LRG_199t1:r.[897u>g,832_960del]`
+    - `NC_000023.11(NM_004006.2):r.[897u>g,832_960del]`: two different transcripts, `r.897u>g` and `r.832_960del`, derive from one variant (c.897T>G at the DNA level): alternative description `LRG_199t1:r.[897u>g,832_960del]`
 - **splice acceptor site**
     - `NC_000023.11(NM_004006.2):r.650_831del`: as a consequence of a variant destroying a splice acceptor site, the sequence from nucleotide `r.650` to `r.831` (exon 8) is deleted from the transcript
     - `NC_000023.11(NM_004006.2):r.650_712del`: as a consequence of a variant destroying a splice acceptor site, a new acceptor site in exon 8 (position 712 / 713) is activated and the sequence from nucleotide `r.650` to `r.712` is is deleted from the transcript

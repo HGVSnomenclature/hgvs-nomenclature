@@ -26,7 +26,7 @@ Please note that this Glossary is **work in progress**. Do you encounter missing
 
 - cis: two variants are **"in cis"** when they are on the same allele (DNA molecule, chromosome).
 
-- CNV: copy number variant (CNV), a variant in a genome where the number of copies of a large stretch of DNA differs from that in the reference genome; a copy can be missing (deleted) or be present more then once (duplicated, triplicated, ..., or amplified).: **NOTE:** a "large stretch" is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.: alias CNP (copy number polymorphism)
+- CNV: copy number variant (CNV), a variant in a genome where the number of copies of a large stretch of DNA differs from that in the reference genome; a copy can be missing (deleted) or be present more than once (duplicated, triplicated, ..., or amplified).: **NOTE:** a "large stretch" is not defined precisely but usually covers at least an exon of a gene or 1,000 nucleotides or more.: alias CNP (copy number polymorphism)
 
 - coding DNA: the segments of a genome or segment of a transcript (RNA molecule) which codes for a protein.
 

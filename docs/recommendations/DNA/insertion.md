@@ -46,7 +46,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.ins
     - `NC_000023.10:g.32717298_32717299insN[(80_120)]`: the insertion of 80 to 120 nucleotides between position g.32717298 and g.32717299
     - `NC_000023.10:g.32717298_32717299insN[?]`: the insertion of an unknown number of nucleotides between position g.32717298 and g.32717299
     - `NC_000006.11:g.8897754_8897755ins[N[543];8897743_8897754]`: the insertion of an undefined sequence of 543 nucleotides (N[543]), and a 12 nucleotide target site duplication (g.8897743 to g.8897754), between nucleotides g.8897754 and g.8897755 on chromosome 6.
-    - `g.?\_?ins[NC\_000023.10:g.(12345\_23456)\_(34567\_45678)]`: the insertion of a sequence from the X-chromosome (NC_000023.10), maximally involving nucleotides `12345_45678` but certainly nucleotides `23456_34567`, at an unknown position (`g.?\_?`) in the genome (see [Uncertain](../uncertain.md))
+    - `g.?_?ins[NC_000023.10:g.(12345_23456)_(34567_45678)]`: the insertion of a sequence from the X-chromosome (NC_000023.10), maximally involving nucleotides `12345_45678` but certainly nucleotides `23456_34567`, at an unknown position (`g.?_?`) in the genome (see [Uncertain](../uncertain.md))
 
 ## Discussion
 
