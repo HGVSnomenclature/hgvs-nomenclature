@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+<!-- Custom front matter -->
+{% block extrahead %}
+
+<!-- Extra style sheets (can't be set in mkdocs.yml due to content hash) -->
+<link rel="stylesheet" href="{{ 'assets/stylesheets/custom.css' | url }}" />
+{% endblock %}
+
+<!-- Announcement bar -->
+{% block announce %}
+<span style="font-size: larger">We've moved! You're looking at the new HGVS Nomenclature pages.</span>
+<br />The previous site is available at <a
+  href="https://archive.hgvs-nomenclature.org/">https://archive.hgvs-nomenclature.org/</a>.
+{% endblock %}
+
+<!-- Theme-related JavaScript -->
+{% block scripts %}
+{{ super() }}
+
+<!-- Extra JavaScript (can't be set in mkdocs.yml due to content hash) -->
+<script src="{{ 'assets/javascripts/custom.js' | url }}"></script>
+{% endblock %}

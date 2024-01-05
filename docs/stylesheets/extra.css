@@ -273,3 +273,12 @@ table.gc tbody tr:nth-of-type(2n) {
 .rst-versions.rst-badge {
   left: 20px !important;
 }
+
+.md-banner {
+  background: var(--md-typeset-a-color);
+  color: white;
+  text-align: center;
+  a {
+    color: var(--md-primary-fg-color);
+  }
+}
