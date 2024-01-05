@@ -42,6 +42,7 @@ theme:
   custom_dir: overrides
 
   features:
+    - announce.dismiss
     - navigation.indexes # enable section-level pages
     - navigation.instant # single-page app
     - navigation.tracking # add section fragment to URL
