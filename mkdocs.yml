@@ -30,6 +30,9 @@ markdown_extensions:
       toc_depth: 1
 
 extra:
+  analytics:
+    provider: google
+    property: G-EJ2MT1N34E
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/HGVSNomenclature/hgvs-nomenclature
