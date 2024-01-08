@@ -296,3 +296,7 @@ table.gc tbody tr:nth-of-type(2n) {
 .md-typeset .info > summary::before {
   background-color: var(--md-primary-fg-color);
 }
+
+.md-typeset .info>.admonition-title:after, .md-typeset .info>summary:after {
+  color: var(--md-primary-fg-color);
+}
