@@ -53,12 +53,12 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
 
 !!! note "What is an **"indel"**?"
 
-        The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md). The term is confusing, having different meanings in different disciplines.
+    The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md). The term is confusing, having different meanings in different disciplines.
 
 !!! note "Can I describe a "gc" to "ug" variant as a dinucleotide substitution (<code class="invalid">r.4gc>ug</code>)?"
 
-        No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](http://www.HGVS.org/varnomen/recommendations/RNA/variant/substitution/)). The change `augu`<code class="del">gc</code>`ca` to `augu`<code class="ins">ug</code>`ca` should be described as `r.5_6delinsug`, i.e. a deletion/insertion (indel).
+    No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](http://www.HGVS.org/varnomen/recommendations/RNA/variant/substitution/)). The change `augu`<code class="del">gc</code>`ca` to `augu`<code class="ins">ug</code>`ca` should be described as `r.5_6delinsug`, i.e. a deletion/insertion (indel).
 
 !!! note "The BRCA1 coding RNA reference sequence from position `r.2074` to `r.2080` is `caugaca`. A variant frequently found in the population is `cau`<code class="sub">a</code>`aca` (`r.2077g>a`). In a patient I found the sequence `cau`<code class="sub">a</code><code class="ins">ua</code>`aca`. Can I describe this variant as <code class="invalid">r.[2077g>a;2077_2078insua]</code>?"
 
-        The shortest description of this variant is `r.2077delinsaua`. However, since the variant is likely a combination of two other variants it is acceptable to describe it as <code class="invalid">r.[2077g>a;2077_2078insua]</code>.
+    The shortest description of this variant is `r.2077delinsaua`. However, since the variant is likely a combination of two other variants it is acceptable to describe it as <code class="invalid">r.[2077g>a;2077_2078insua]</code>.

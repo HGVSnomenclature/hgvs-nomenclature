@@ -30,6 +30,9 @@ markdown_extensions:
       toc_depth: 1
 
 extra:
+  analytics:
+    provider: google
+    property: G-EJ2MT1N34E
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/HGVSNomenclature/hgvs-nomenclature
@@ -42,6 +45,7 @@ theme:
   custom_dir: overrides
 
   features:
+    - announce.dismiss
     - navigation.indexes # enable section-level pages
     - navigation.instant # single-page app
     - navigation.tracking # add section fragment to URL

@@ -75,8 +75,7 @@ Depending on the variants to be reported, different reference sequence files are
     - **p.** = [protein reference sequence](#proteinp)
 - the recommended DNA reference is a genomic reference sequence
 
-<a id="DNAg"/>
-
+<a id="DNAg"></a>
 ### DNA - genomic reference sequence (g.)
 
 - linear genomic reference sequences are indicated using a **g.** prefix : genomic reference sequences include all **linear** DNA molecules and are preferably based on a recent genome build: for human the recommended reference is based on genome build GRCh38/hg38, e.g. NC_000023.11 for the chromosome X: **NOTE:** since new LRG's are no longer generated, the recommendation to use for diagnostic applications preferably a [Locus Reference Genomic sequence (LRG)](http://www.lrg-sequence.org/) has been retracted
@@ -86,21 +85,18 @@ Depending on the variants to be reported, different reference sequence files are
 - when a complete genomic reference sequence is not available, a coding DNA reference sequence should be used.
 - tools like the [Mutalyzer suite](http://www.mutalyzer.nl/position-converter) and [Variant Validator](http://www.variantvalidator.org) can help to predict the consequences of a variant on all properly annotated transcripts, incl. when they derive from overlapping genes.
 
-<a id="DNAo"/>
-
+<a id="DNAo"></a>
 ### DNA - circular genomic reference sequence (o.)
 
 - circular genomic reference sequences are indicated using a **o.** prefix: circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral resuence, etc.: **Exception:** the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 
-<a id="DNAm"/>
-
+<a id="DNAm"></a>
 ### DNA - mitochondrial reference sequence (m.)
 
 - mitochondrial genomic reference sequences are indicated using a **m.** prefix: a mitochondrial reference sequence is a special type of circular genomic reference sequence. Since the **m.** prefix is well-established, universally used and unequivocal the use of a mitochondrial reference sequence is indicated using the **m.** prefix
 - the preferred human mtDNA reference sequence is the [Homo sapiens\_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).: **NOTE:** the mtDNA reference sequence is a **circular molecule** ([see Open Issues](../consultation/open-issues.md#circular))
 
-<a id="DNAc"/>
-
+<a id="DNAc"></a>
 ### DNA - coding DNA reference sequence (c.)
 
 - coding DNA reference sequences are indicated using a **c.** prefix
@@ -114,8 +110,7 @@ Depending on the variants to be reported, different reference sequence files are
     - for human, [EBI](http://www.ensembl.org/Help/Glossary?id=346) uses the following hierarchy to select the prefered transcript: **1.** longest CCDS translation with no stop codons. **2.** if no (1), choose the longest Ensembl/Havana merged translation with no stop codons. **3.** if no (2), choose the longest translation with no stop codons. **4.** if no translation, choose the longest non-protein-coding transcript.
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC_000023.10:g.32361300del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC_000023.10:g.32361300 links to nucleotide NM_004006.1:c.5690. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NM_004006.1:c.5697del (linking to NC_000023.10:g.32361293). See also [different genomic (g.) and coding DNA (c.) descriptions](../recommendations/DNA/repeated.md).
 
-<a id="DNAn"/>
-
+<a id="DNAn"></a>
 ### DNA - non-coding DNA reference sequence (n.)
 
 - non-coding DNA reference sequences are indicated using a **n.** prefix
@@ -127,8 +122,7 @@ Depending on the variants to be reported, different reference sequence files are
 - the non-coding DNA reference sequence should be complete, cover the major and largest transcript known
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
 
-<a id="RNAr"/>
-
+<a id="RNAr"></a>
 ### RNA reference sequence (r.)
 
 - RNA reference sequences are indicated using a **r.** prefix
@@ -140,8 +134,7 @@ Depending on the variants to be reported, different reference sequence files are
 - the RNA reference sequence includes the entire transcript, excluding the poly A-tail.
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
 
-<a id="proteinp"/>
-
+<a id="proteinp"></a>
 ### protein reference sequence (p.)
 
 - protein reference sequences are indicated using a **p.** prefix
@@ -151,8 +144,7 @@ Depending on the variants to be reported, different reference sequence files are
     - for LRG\_'s the annotated "**protein isoform 1**" is described as `p1`, e.g. LRG_199<code class="spot1">p1</code>:p.(Val25Gly)
 - a protein reference sequence should represent the primary translation product, not a processed mature protein, and thus includes the starting Methionine, any signal peptide sequences, etc.
 
-<a id="note"/>
-
+<a id="note"></a>
 ## Notes
 
 (1) an [opaque identifier](https://indieweb.org/opaque) is one that acts only as a name for an object and that is not intended to be parsed for additional meaning. Contrast with a RefSeq identifier, for example, which conveys annotation level (N versus X), type (M, R, C, etc.), and version number. So, this comment is intended to tell implementers that they **may not** rely on parsing the identifier to decide how the implementation works
@@ -162,35 +154,58 @@ Why not? Two reasons:
 - because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?
 - because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other identifiers (perhaps identifiers not even shared). If the implementation were to **require** that g. variant accessions start with NC\_ (or any predefined list), it would make it impossible to use that software in other contexts
 
-<a id="discuss"/>
-
+<a id="discuss"></a>
 ## Q&A
 
-- Which reference sequence type should I use?: Discussions on the **best reference sequence type to be used** have been very lively. In general it can be concluded that all suggestions made have their pro's and con's and there is no perfect solution. **Theoretically**, a genomic reference sequence is the best choice. By simply numbering nucleotides from 1 to the end of the file no problems occur with complex gene structures like multiple transcription start sites (promoters / 5'-first exons), multiple translation initiation sites (ATG-codons), exons and alternative splicing and the use of different 3'-terminal exons and poly-A addition sites. **In practice** a coding DNA reference sequence is mostly preferred. The most important reason is that from the description one immediately gets some information regarding the location of the variant; exonic or intronic, 5' of the ATG or 3' of the stop codon and, by dividing the nucleotide number by 3, the position of the amino acid residue that is affected (see [Nucleotide numbering](numbering.md)).
+!!! note "Which reference sequence type should I use?"
 
-- When I use a human genome reference sequence is it sufficient to mention the genome build, e.g. hg19 or GRCh37?: No. A genome build is not a real reference sequence which one can download easily to refer to. The original genome assembly is also updated continuously when new sequences become available and when errors are corrected. These updates are published as so called **"patches"**. While writing this answer, human genome assembly GRCh38/hg38 is at patch version 11 ([GRCh38.p11](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.37#/def_asm_Primary_Assembly)), dated June 14, 2017. When you report to have used genome build hg38 it is thus not clear whether you mean the original assembly or a specific patched version. The preferred genomic reference sequence is a **"NC\_" file**, e.g. NC_000001.10 for human chromosome 1 from the first release of genome build hg19/GRCh37.
+    Discussions on the **best reference sequence type to be used** have been very lively. In general it can be concluded that all suggestions made have their pro's and con's and there is no perfect solution. **Theoretically**, a genomic reference sequence is the best choice. By simply numbering nucleotides from 1 to the end of the file no problems occur with complex gene structures like multiple transcription start sites (promoters / 5'-first exons), multiple translation initiation sites (ATG-codons), exons and alternative splicing and the use of different 3'-terminal exons and poly-A addition sites. **In practice** a coding DNA reference sequence is mostly preferred. The most important reason is that from the description one immediately gets some information regarding the location of the variant; exonic or intronic, 5' of the ATG or 3' of the stop codon and, by dividing the nucleotide number by 3, the position of the amino acid residue that is affected (see [Nucleotide numbering](numbering.md)).
 
-- Why is it necessary to give both the accession AND version number of a reference sequence?: When for a reference sequence no version number is given it is not possible to correctly deduce the variant described. Take variant NM_002111:c.211C>T. The description is based on a coding DNA reference sequence of the human HTT (huntingtin) gene. The sequence contains a triplet repeat sequence which is variable in length in the population. Over the years this reference sequence had 8 different versions, from NM_002111.1 to NM_002111.8. One of the differences between these sequences is that the length of the Gln-encoding triplet changed in length from 0 to 23 to 21 to 23. As a consequence, when one does not know the version number of NM_002111, one can not know what variant is described with c.358C>T (note that ALL versions have a C nucleotide at position c.358 so there are three different posibilities).
+!!! note "When I use a human genome reference sequence is it sufficient to mention the genome build, e.g. hg19 or GRCh37?"
 
-- What are the disadvantages of using a genomic reference?: **For a human**, a variant described using genomic reference sequence does not contain any useful information; the nucleotide number is just a big number between 1 and 250,000,000. In addition;: _ descriptions of variants are very long making them impractical to use, e.g. NC_000006.11:g.117198495_117198496del compared to LRG_199t1:c.57_58del.: _ genomic reference sequence file are very big making downloading time consuming and storage problematics.:
-        - the transcriptional orientation of the gene of interest may be on the minus (-) strand, complicating variant reporting using "c." and "r." prefixes; nucleotide numbering on coding DNA and RNA level are based on the transcriptional orientation of the gene and goes in the opposite direction, creating confusing situations.
+    No. A genome build is not a real reference sequence which one can download easily to refer to. The original genome assembly is also updated continuously when new sequences become available and when errors are corrected. These updates are published as so called **"patches"**. While writing this answer, human genome assembly GRCh38/hg38 is at patch version 11 ([GRCh38.p11](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.37#/def_asm_Primary_Assembly)), dated June 14, 2017. When you report to have used genome build hg38 it is thus not clear whether you mean the original assembly or a specific patched version. The preferred genomic reference sequence is a **"NC\_" file**, e.g. NC_000001.10 for human chromosome 1 from the first release of genome build hg19/GRCh37.
 
-- What are the disadvantages of using a coding DNA reference?: A gene may have several transcripts, using different promoters / 5'-first exons, alternatively spliced exons, different 3'-terminal exons and polyA-addition sites. In such cases, which transcript should then be used? Every choice will mean some regions (exons) are not in the reference sequence, complicating variant description. The different transcripts may encode different proteins (isoforms) with, when different promoters are used, different N-terminal sequences and even using different reading frames in one or more exons (e.g. the CDKN2A gene encoding the p14 and p16 protein isoforms). When different genes (partly) overlap, using the same or an opposite transcriptional orientation, which reference sequence should one use to describe the variant and to which gene should it be assigned?
+!!! note "Why is it necessary to give both the accession AND version number of a reference sequence?"
 
-- Making a judgment on what is the "wild type" (wt) nucleotide for some sequences seems arbitrary at best, correct?: All variants are described in relation to a **"reference sequence**". The reference sequence is considered to be the "**wild type**" sequence, the major allele present in the human population, and the allele used in the latest genome build. Note that everybody has influence on the reference sequence selected and can thus request that a sequence is changed to represent the most common allele. However, the debate about what is wild type becomes arbitrary when variants are very common (near 50%) or differ between populations.
+    When for a reference sequence no version number is given it is not possible to correctly deduce the variant described. Take variant NM_002111:c.211C>T. The description is based on a coding DNA reference sequence of the human HTT (huntingtin) gene. The sequence contains a triplet repeat sequence which is variable in length in the population. Over the years this reference sequence had 8 different versions, from NM_002111.1 to NM_002111.8. One of the differences between these sequences is that the length of the Gln-encoding triplet changed in length from 0 to 23 to 21 to 23. As a consequence, when one does not know the version number of NM_002111, one can not know what variant is described with c.358C>T (note that ALL versions have a C nucleotide at position c.358 so there are three different posibilities).
 
-- When description in relation to a reference sequence is problematic, could one specify the variant by giving 20 bp of flanking sequence on both sides?: In many cases this would be OK, but for recently duplicated genes or genes which contain repeated segments, giving 20 nucleotides to either side will not be sufficient. Furthermore, descriptions will become very long. For problematic cases the best method is probably to include the raw data, i.e. submit the sample sequence to [GenBank](http://www.ncbi.nlm.nih.gov/genbank/submit) and give the accession.version number obtained.
+!!! note "What are the disadvantages of using a genomic reference?"
 
-<a id="mtDNA"/>
+    **For a human**, a variant described using genomic reference sequence does not contain any useful information; the nucleotide number is just a big number between 1 and 250,000,000. In addition;
 
-- How should sequence variants in the mitochondrial DNA (mtDNA) be described ? (_M Paalman, Human Mutation_): The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1). The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP_003024031.1:p.Leu156Pro.: **NOTE**: for issues related to mitochondrial DNA sequences see [MITOMAP](http://www.mitomap.org/): **NOTE**: by exception, it is for this mitochondrial reference sequence allowed to specify the gene affected
+    - descriptions of variants are very long making them impractical to use, e.g. NC_000006.11:g.117198495_117198496del compared to LRG_199t1:c.57_58del.
+    - genomic reference sequence file are very big making downloading time consuming and storage problematics.
+    - the transcriptional orientation of the gene of interest may be on the minus (-) strand, complicating variant reporting using "c." and "r." prefixes; nucleotide numbering on coding DNA and RNA level are based on the transcriptional orientation of the gene and goes in the opposite direction, creating confusing situations.
+
+!!! note "What are the disadvantages of using a coding DNA reference?"
+
+    A gene may have several transcripts, using different promoters / 5'-first exons, alternatively spliced exons, different 3'-terminal exons and polyA-addition sites. In such cases, which transcript should then be used? Every choice will mean some regions (exons) are not in the reference sequence, complicating variant description. The different transcripts may encode different proteins (isoforms) with, when different promoters are used, different N-terminal sequences and even using different reading frames in one or more exons (e.g. the CDKN2A gene encoding the p14 and p16 protein isoforms). When different genes (partly) overlap, using the same or an opposite transcriptional orientation, which reference sequence should one use to describe the variant and to which gene should it be assigned?
+
+!!! note "Making a judgment on what is the "wild type" (wt) nucleotide for some sequences seems arbitrary at best, correct?"
+
+    All variants are described in relation to a **"reference sequence**". The reference sequence is considered to be the "**wild type**" sequence, the major allele present in the human population, and the allele used in the latest genome build. Note that everybody has influence on the reference sequence selected and can thus request that a sequence is changed to represent the most common allele. However, the debate about what is wild type becomes arbitrary when variants are very common (near 50%) or differ between populations.
+
+!!! note "When description in relation to a reference sequence is problematic, could one specify the variant by giving 20 bp of flanking sequence on both sides?"
+
+    In many cases this would be OK, but for recently duplicated genes or genes which contain repeated segments, giving 20 nucleotides to either side will not be sufficient. Furthermore, descriptions will become very long. For problematic cases the best method is probably to include the raw data, i.e. submit the sample sequence to [GenBank](http://www.ncbi.nlm.nih.gov/genbank/submit) and give the accession.version number obtained.
+
+<a id="mtDNA"></a>
+!!! note "How should sequence variants in the mitochondrial DNA (mtDNA) be described? (_M Paalman, Human Mutation_)"
+
+    The mtDNA genome is rather small and completely sequenced. Variants in the mitochondrial DNA should therefore be described in relation to a the full mitochondrial DNA sequence, i.e. for human [the _Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1). The mtDNA encodes a range of different proteins. Changes at protein level should be described based on a protein reference sequence, e.g. YP_003024031.1:p.Leu156Pro.: **NOTE**: for issues related to mitochondrial DNA sequences see [MITOMAP](http://www.mitomap.org/): **NOTE**: by exception, it is for this mitochondrial reference sequence allowed to specify the gene affected
 
     - NC_012920.1:m.3243A>G describes variant 3243A>G based on the mitochondrial reference sequence NC_012920.1
     - NC_012920.1(MT-TL1):m.3243A>G describes variant 3243A>G in the MT-LT1 gene based on the mitochondrial reference sequence NC_012920.1
     - NC_012920.1(MT-TL1):n.14A>G describes variant 14A>G based on the annotated MT-TL1 non-coding DNA reference sequence of the MT-TL1 gene in NC_012920.1
 
-- For mitochondrial variants we use the format MT-ND1{NC_012920.1}: m.[3460G>A], i.e. the gene in front of the reference sequence in curly brackets, a colon, an m and full stop and then the variant in square brackets, and a change in the protein as MT-ND1{YP_003024026.1}: p.[(Ala52Thr)]. To be clear, is it not longer required to report/state the gene in front of the reference sequence?: The format your give does not (nor did ever) follow HGVS recommendations. Correct HGVS formats are NC_012920.1:m.3460G>A and YP_003024026.1:p.(Ala52Thr). By exception, it is for this mitochondrial reference sequence allowed, to specify the gene affected (e.g. NC_012920.1(MT-ND1):m.3460G>A) and give the description NC_012920.1(MT-ND1):m.3460G>A p.(Ala52Thr).
+!!! note "For mitochondrial variants we use the format MT-ND1{NC_012920.1}: m.[3460G>A], i.e. the gene in front of the reference sequence in curly brackets, a colon, an m and full stop and then the variant in square brackets, and a change in the protein as MT-ND1{YP_003024026.1}: p.[(Ala52Thr)]. To be clear, is it not longer required to report/state the gene in front of the reference sequence?"
 
-- How should variants be described in genes that produce only RNA (so no protein), e.g. ncRNA, miRNA, and others?: To describe variants in genes that produce an RNA molecule but no protein a genomic reference sequence can be used (`g.` description). When a non-coding DNA reference sequence is available, e.g. a LRG (NR_002196.1 for the H19 transcript) or a RefSeq transcript (NR_000020.1 for the small nucleolar RNA, C/D box 33 (SNORD33) gene), variants can be described using the prefix `n.` see [Community Consultation SVD-WG002](../consultation/SVD-WG002.md) and [Nucleotide numbering](numbering.md)).
+    The format your give does not (nor did ever) follow HGVS recommendations. Correct HGVS formats are NC_012920.1:m.3460G>A and YP_003024026.1:p.(Ala52Thr). By exception, it is for this mitochondrial reference sequence allowed, to specify the gene affected (e.g. NC_012920.1(MT-ND1):m.3460G>A) and give the description NC_012920.1(MT-ND1):m.3460G>A p.(Ala52Thr).
 
-- We are preparing an annotated set of Hox genes from the zebrafish for publication. If the coding DNA sequence is not completely known, but only an EST lacking 5' sequence and a genomic sequence covering the EST, how do you describe variants? Do I number it in relation to the EST or the genomic sequence? Furthermore, if there is a mismatch between the genomic and the EST sequence, and you don't know which one is correct, how do you define e.g. whether the genomic sequence has an insertion or the EST has a deletion?: Variants are described **compared to a reference sequence**. This implies the reference sequence is considered to be the "correct sequence. When a genomic sequence covering this EST is available the recommendation is to use this as the reference to describe variants.
+!!! note "How should variants be described in genes that produce only RNA (so no protein), e.g. ncRNA, miRNA, and others?"
+
+    To describe variants in genes that produce an RNA molecule but no protein a genomic reference sequence can be used (`g.` description). When a non-coding DNA reference sequence is available, e.g. a LRG (NR_002196.1 for the H19 transcript) or a RefSeq transcript (NR_000020.1 for the small nucleolar RNA, C/D box 33 (SNORD33) gene), variants can be described using the prefix `n.` see [Community Consultation SVD-WG002](../consultation/SVD-WG002.md) and [Nucleotide numbering](numbering.md)).
+
+!!! note "We are preparing an annotated set of Hox genes from the zebrafish for publication. If the coding DNA sequence is not completely known, but only an EST lacking 5' sequence and a genomic sequence covering the EST, how do you describe variants? Do I number it in relation to the EST or the genomic sequence? Furthermore, if there is a mismatch between the genomic and the EST sequence, and you don't know which one is correct, how do you define e.g. whether the genomic sequence has an insertion or the EST has a deletion?"
+
+    Variants are described **compared to a reference sequence**. This implies the reference sequence is considered to be the "correct" sequence. When a genomic sequence covering this EST is available the recommendation is to use this as the reference to describe variants.

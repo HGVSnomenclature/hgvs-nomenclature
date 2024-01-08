@@ -42,14 +42,12 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.ins
 
 !!! note "Can I describe a variant as <code class="invalid">r.123insg</code>?"
 
-        No, since the description is not unequivocal it is not allowed. What does the description mean, the insertion of a "g" **at** position 123 or the insertion of a "g" **after** position 123? The situation becomes even more complex when using a coding RNA reference sequence a "-" character is used, e.g. <code class="invalid">r.-14insG</code>; when the insertion is **after** nucleotide r.-14, is this position r.-13 or r.-15?
+    No, since the description is not unequivocal it is not allowed. What does the description mean, the insertion of a "g" **at** position 123 or the insertion of a "g" **after** position 123? The situation becomes even more complex when using a coding RNA reference sequence a "-" character is used, e.g. <code class="invalid">r.-14insG</code>; when the insertion is **after** nucleotide r.-14, is this position r.-13 or r.-15?
 
 !!! note "Can I use the "^" character to describe an insertion?"
 
-        No, insertions can not be described using the format <code class="invalid">r.123ˆ124insu</code> or <code class="invalid">r.123ˆ124u</code>. The recommendations try to restrict the number of different characters used to a minimum. Since a character was already used to indicate a range (the *underscore*) a new character was not required.
+    No, insertions can not be described using the format <code class="invalid">r.123ˆ124insu</code> or <code class="invalid">r.123ˆ124u</code>. The recommendations try to restrict the number of different characters used to a minimum. Since a character was already used to indicate a range (the *underscore*) a new character was not required.
 
 !!! note "How should I describe the change `aucg`<code class="spot1">aucgaucgauc</code>`aggguccc` to `aucg`<code class="spot1">aucgaucgauc</code>`a`<code class="ins">aucgaucgauc</code>`ggguccc`? The fact that the inserted sequence (aucgaucgauc) is present in the original sequence suggests it derives from a duplicative event."
 
-        The variant should be described as an insertion; `r.17_18ins5_16`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between r.17 and r.18 is probably derived from nearby, i.e. position r.5 to r.16, and thus likely derived from a duplicative event.
-
----
+    The variant should be described as an insertion; `r.17_18ins5_16`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between r.17 and r.18 is probably derived from nearby, i.e. position r.5 to r.16, and thus likely derived from a duplicative event.

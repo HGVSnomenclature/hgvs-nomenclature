@@ -22,7 +22,7 @@ Basically, these variant types refer to the (expected) biological process genera
 
 Current HGVS recommendations state (see [Reference Sequences](../background/refseq.md)): "5' and 3' flanking sequences are considered to be **outside the boundaries** of a transcript reference sequence and **can not be used** to describe variants". As a consequence, variants removing an entire gene or the 5' or 3' end of a transcript can only be described using chromosomal genomic coordinates (g.). This complicates variant reporting for diagnostic laboratories, usually reporting variants based on a coding DNA reference sequence (c.). In addition, such variants can not be shown in databases listing variants based on a "c." description.
 
-The HGVS nomenclature committe received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[Numbering gene flanking nucleotides](#geneflanking)" has been rejected, the issue is not silenced. The [Global Variome shared LOVD](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.\*2691 in the examples below).
+The HGVS nomenclature committee received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[Numbering gene flanking nucleotides](#geneflanking)" has been rejected, the issue is not silenced. The [Global Variome shared LOVD](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.\*2691 in the examples below).
 
 - NM_004006.2:c.-244\_\*2691{0}: describes a deletion of the entire coding DNA reference sequence of the DMD gene
 - NM_004006.2:c.-244_187{0}: describes a deletion including the transcription start site (cap site) of the DMD gene
@@ -76,7 +76,7 @@ Aug.24 (2011) - JT den Dunnen HGVS nomenclature does currently not have recommen
 
 #### Amount
 
-Due to a variant, e.g. in the promotor region of a gene, the amount of RNA and protein produced might be reduced or increased. HGVS nomenclature currently does not have a way to describe this. Using the "\|" character ("pipe") these consequences could be described as r.=\|red or r.=\|inc (p.=\|red, p.=\|inc) or more spcifically like r.=\|0.40 (reduced to 0.40) or r.=\|3.10 (increased to 3.10).
+Due to a variant, e.g. in the promotor region of a gene, the amount of RNA and protein produced might be reduced or increased. HGVS nomenclature currently does not have a way to describe this. Using the "\|" character ("pipe") these consequences could be described as r.=\|red or r.=\|inc (p.=\|red, p.=\|inc) or more specifically like r.=\|0.40 (reduced to 0.40) or r.=\|3.10 (increased to 3.10).
 
 The same format could be applied to specify the fraction of the different RNA molecules when a variant e.g affects splicing generating several different transcripts, like r.[646_792del|0.73,792_793ins[792+1\_792+38|0.27].
 
@@ -116,7 +116,7 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 ### Circular molecules
 
-**The proposal has been ACCEPCTED for circular reference sequences** HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule? For now the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y_Xdel X should be smaller then Y). Do you have a suggestion??
+**The proposal has been ACCEPTED for circular reference sequences** HGVS nomenclature assumes reference sequences are linear. However, the mitochondrial genome and many other DNA molecules (plasmids, viral genomes) are circular. How should one describe a variant involving the "first" and "last" nucleotides of the circular molecule? For now, the suggestion is to describe the variant as m.[1del;16569del]. The question is whether m.16569_1del should be allowed (NOTE: includes an exception to the rule that in Y_Xdel X should be smaller than Y). Do you have a suggestion??
 
 <a id="imperfectcopy"></a>
 
@@ -126,7 +126,7 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf)) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
 
-- g.24_65dup{46G>T}: a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy. After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very diifcult to control.
+- g.24_65dup{46G>T}: a duplication of nucleotides g.24 to g.65 with variant g.46G>T in the duplicated copy. After careful consideration the decision was made **not to accept** this proposal. The proposal would introduce a kind of "nesting" which is very difficult to control.
 
 <a id="geneflanking"></a>
 

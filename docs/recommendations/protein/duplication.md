@@ -31,7 +31,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.dup
 - one amino acid
 
     - `NP_003997.2:p.Val7dup`: a duplication of amino acid Val7 in the reference sequence NP_003997.2
-    - `NP_003997.2:p.(Val7dup)`: the **predicted** consequence at the protein level is a duplication of amino acid Val7 in the reference sequence NP_003997.2
+    - `NP_003997.2:p.(Val7dup)`: the **predicted** consequence on the protein level is a duplication of amino acid Val7 in the reference sequence NP_003997.2
     - `NP_003997.2:p.Trp4dup`: a duplication of amino acid Trp4 in the sequence MetLeuTrpTrpGlu to MetLeuTrpTrp<code class="spot1">Trp</code>Glu: **NOTE:** for duplications in single amino acid stretches or tandem repeats, the most C-terminal residue is arbitrarily assigned to have been duplicated
 
 - several amino acids
@@ -53,15 +53,15 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.dup
 
 !!! note "Why do we not describe a duplication as an insertion?"
 
-        Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications differently
+    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications differently
 
-        - the description is simple and shorter
-        - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "Ala22insGly"
+    - the description is simple and shorter
+    - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "Ala22insGly"
 
 !!! note "How should I describe the change "MetArgThr**GlySerSer**HisGlnTrpPhe" to "MetArgThr**GlySerSer**His**GlySerSer**GlnTrpPhe"? The fact that the inserted sequence (GlySerSer) is present in the original sequence suggests it derives from a duplicative event."
 
-        The variant should be described as an insertion; `p.His7_Gln8insGly4_Ser6`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between `p.His7` and pGln8 is probably derived from nearby, i.e. position `p.Gly4` to `p.Ser6,` and thus likely derived from a duplicative event.
+    The variant should be described as an insertion; `p.His7_Gln8insGly4_Ser6`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between `p.His7` and `p.Gln8` is probably derived from nearby, i.e. position `p.Gly4` to `p.Ser6`, and thus likely derived from a duplicative event.
 
 !!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?"
 
-        It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSerSer<code class="spot1">Ser</code>HisAsp.. this is described as `p.Ser5dup.` The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCCAGT<code class="spot1">AGT</code>TCCCACGAT.., so the codon for Ser4 is duplicated, is not used; the description `p.Ser4dup` is not correct.
+    It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when MetTrpSerSerSerHisAsp.. changes to MetTrpSerSerSer<code class="spot1">Ser</code>HisAsp.. this is described as `p.Ser5dup`. The information that at the DNA level the change is ..ATGTGGTCCAGTTCCCACGAT.. to ..ATGTGGTCCAGT<code class="spot1">AGT</code>TCCCACGAT.., so the codon for Ser4 is duplicated, is not used; the description `p.Ser4dup` is not correct.

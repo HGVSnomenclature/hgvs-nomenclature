@@ -36,13 +36,11 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.dup
 
 !!! note "Why do we not describe a duplication as an insertion?"
 
-        Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately
+    Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately
 
-        - the description is simple and shorter
-        - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "22insg"
+    - the description is simple and shorter
+    - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like "22insg"
 
 !!! note "How should I describe the change `aucg`<code class="spot1">aucgaucgauc</code>`aggguccc` to `aucg`<code class="spot1">aucgaucgauc</code>`a`<code class="ins">aucgaucgauc</code>`ggguccc`? The fact that the inserted sequence (aucgaucgauc) is present in the original sequence suggests it derives from a duplicative event."
 
-        The variant should be described as an insertion; `r.17_18ins5_16`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between r.17 and r.18 is probably derived from nearby, i.e. position r.5 to r.16, and thus likely derived from a duplicative event.
-
----
+    The variant should be described as an insertion; `r.17_18ins5_16`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem). Note that the description given still makes it clear that the sequence inserted between r.17 and r.18 is probably derived from nearby, i.e. position r.5 to r.16, and thus likely derived from a duplicative event.
