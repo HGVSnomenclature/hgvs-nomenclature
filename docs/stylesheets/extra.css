@@ -282,3 +282,17 @@ table.gc tbody tr:nth-of-type(2n) {
     color: var(--md-primary-fg-color);
   }
 }
+
+
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: var(--md-primary-fg-color);
+}
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: rgba(255, 128, 1, 0.1);
+}
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: var(--md-primary-fg-color);
+}
