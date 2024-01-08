@@ -26,7 +26,7 @@ The HGVS Nomenclature is administed by the [HGVS Variant Nomenclature Committee 
 
 - [SVD-WG008](SVD-WG008.md) (Reference Sequences): suggested to specify the HGVS recommendations for acceptable Reference Sequences (see updated [Reference Sequences](../background/refseq.md) page): **Status**: <code class="spot1">accepted</code>. Closed Sep.30 (2019). Opened Jul.20 (2019).
 
-- [SVD-WG007](SVD-WG007.md) (RNA fusion): suggests to extend the HGVS recommendations with a format to describe RNA fusion transcripts following the format to describe a fusion between two DNA molecules (translocations), i.e. using "::": **Status**: <code class="spot1">accepted</code>. Closed Jun.30 (2019). Opened Apr.10 (2019).
+- [SVD-WG007](SVD-WG007.md) (RNA fusion): suggests to extend the HGVS recommendations with a format to describe adjoined transcripts from gene fusions, following the format to describe a fusion between two DNA molecules (translocations), i.e. using "::": **Status**: <code class="spot1">accepted</code>. Closed Jun.30 (2019). Opened Apr.10 (2019).
 
 - [SVD-WG006](SVD-WG006.md) (circular DNA): suggests to extend the HGVS recommendations allowing a **"o."** prefix for circular genomic reference sequences.: suggests to add the exception for circular genomic reference sequences ("m." and "o." prefix) to allow NC_012920.1:m.16563_13del: **Status**: <code class="spot1">accepted</code>. Closed Oct.30 (2018). Opened Aug.1 (2018).
 

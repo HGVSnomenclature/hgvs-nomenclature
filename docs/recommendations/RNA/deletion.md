@@ -33,8 +33,8 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.del
 
 !!! note "Can I use <code class="invalid">r.123del6</code> to describe a 6 nucleotide deletion?"
 
-        No, a deletion of more than one residue should mention the first and last residue deleted, separated using the range symbol ("_", underscore), e.g. `r.123_128del` and not <code class="invalid">r.123del6</code>.
+    No, a deletion of more than one residue should mention the first and last residue deleted, separated using the range symbol ("_", underscore), e.g. `r.123_128del` and not <code class="invalid">r.123del6</code>.
 
 !!! note "Is the description of a deletion of exon 17 as <code class="invalid">r.EX17del</code> still allowed?"
 
-        A description like <code class="invalid">r.EX17del</code> has never been allowed. Descriptions should be specific and indicate the nucleotides affected by the change.
+    A description like <code class="invalid">r.EX17del</code> has never been allowed. Descriptions should be specific and indicate the nucleotides affected by the change.
