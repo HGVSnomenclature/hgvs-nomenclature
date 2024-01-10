@@ -10,7 +10,7 @@ The primary mission of HGVS Nomenclature is to facilitate reliable communication
 The HGVS Nomenclature uses concepts from [Semantic Versioning](https://semver.org/) to version releases. Each release version will consist of 3 numbers separated by dots in the format x.y.z with the following meanings:
 
 - The "patch" version (z) is reserved for changes that fix or clarify intentions. Patch edits will not change or extend the HGVS Nomenclature syntax.
-- The "minor" version (y) will be used for new features that are consistent with prior versions but should not break them.  For example, adoption of a community proposal that added a new feature would trigger an increase in the minor version.
+- The "minor" version (y) will be used to indicate the addition of new features that are compatible with prior versions.  For example, the adoption of a community proposal that adds support for a new variant type would trigger an increase in the minor version (presuming that the feature did not create conflicts with existing HGVS Nomenclature rules).
 - The "major" version (x) will be used when changes are incompatible with existing conventions, and perhaps for other changes that are deemed to be significant. Major changes should be rare. Wherever possible, the HVNC will strive to ensure that backward incompatibilities result in obvious failures (e.g., failure to parse at all) rather than subtle errors that are difficult to catch.
 
 ??? info "Beginning January 2024 with version 21.0.0, version numbers do not correspond to dates"
