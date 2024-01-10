@@ -16,9 +16,16 @@ Any proposal made by the HVNC will be published on this website and be open for 
 
 ### Versioning
 
-The recommendations for the description of sequence variants are designed to be **stable**, **meaningful**, **memorable** and **unequivocal**. Still, every now and then small modifications will be required to remove inconsistencies and/or to clarify confusing conventions. In addition, the recommendations may be extended to resolve cases that were hitherto not covered. Since 2015, **any change** in the recommendations receive a new **version number**. The version number is based on the date of the change and has the format: **HGVS nomenclature _Version 15.11_**, for the version accepted in 2015 ("**15**"), November ("**11**"). See the [Version list](versioning.md) for a complete historic overview.
+The recommendations for the description of sequence variants are designed to be **stable**, **meaningful**, **memorable** and **unequivocal**.
+Still, every now and then small modifications will be required to remove inconsistencies and/or to clarify confusing conventions.
+In addition, the recommendations may be extended to resolve cases that were hitherto not covered.
+Since 2015, **any change** in the recommendations receive a new **version number**.
+Before 2024, the version number was based on the date of the change and has the format: **HGVS nomenclature _Version 15.11_**, for the version accepted in 2015 ("**15**"), November ("**11**").
+From 2024 onwards, we use [Semantic Versioning](https://semver.org/) to version releases.
+See [Versions](../versions/index.md) for more information and a complete historic overview.
 
-The current HGVS version number is shown in the top right corner of this web site ("**Version xx.xx**"). Note that the version number remains as is when only a typing error is corrected, an example added, an explanation clarified, a question answered, etc. Users can specify up to what point they follow the HGVS recommendations by mentioning the version number in their report.
+The current HGVS version number is shown in the top right corner of this website ("**xx.x.x**").
+Users can specify up to what point they follow the HGVS recommendations by mentioning the version number in their report.
 
 ## Terminology
 
