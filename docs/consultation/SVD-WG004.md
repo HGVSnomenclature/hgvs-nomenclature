@@ -6,7 +6,7 @@ The proposal below is the original proposal as published first on November 10, 2
 
 ### Proposal SVD-WG004 (ISCN<>HGVS)
 
-- Status: <code class="spot1">closed</code>: proposal SVD-WG004 opened for **Community Consultation** on November 10 (2015) and closed on Jan.15 (2016). Although no objections were received, because SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement, the SVD-WG decided to accepted the proposal only as a [named extension](../background/versioning.md).
+- Status: <code class="spot1">closed</code>: proposal SVD-WG004 opened for **Community Consultation** on November 10 (2015) and closed on Jan.15 (2016). Although no objections were received, because SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement, the SVD-WG decided to accepted the proposal only as a [named extension](../versions/older-versions.md#SVD-WG004).
 
 The proposal suggests to extend the HGVS recommendations to allow description of complex variants incl. those covered so far by the **ISCN** (e.g. transpositions, translocations, chromothripsis, marker chromosomes, etc.). In addition it includes suggestions to harmonise the HGVS and ISCN recommendations, removing discrepancies as much as possible.
 
