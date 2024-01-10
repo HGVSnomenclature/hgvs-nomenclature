@@ -1,5 +1,9 @@
 # HGVS Nomenclature Grammar
 
+!!! important inline end "Work In Progress"
+
+    The HVNC in transitioning toward the use of [EBNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form) to express HGVS Nomenclature syntax.  This work is in progress.  As the first step, this version of HGVS Nomenclature presents variant syntax using an EBNF-like style.  A EBNF-compliant version of the HGVS Nomenclature specification is expected in a future release.
+
 The HGVS Nomenclature is fundamentally a computational language, but it has historically been written using human-interpreted descriptions rather than using a precise [formal grammar](https://en.wikipedia.org/wiki/Formal_grammar). While migrating from human descriptions to a formal grammar would increase formal precision, it would be disruptive to the community. Instead, the [HVNC](../hvnc.md) has chosen to selectively adopt principles and presentation of computational grammars in order to improve the precision of definitions while preserving human readability. We have chosen a common variation of the [Extended Backus-Naur Form (EBNF)](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form) to define variant syntax.
 
 We recognize that most users of HGVS will not want to concern themselves with the pedagogy of formal grammars and that most discussions of the topic are dense. This primer describes the most essential concepts for EBNF as used by the HGVS Nomenclature, presented slightly informally to make them accessible to a broad audience.
