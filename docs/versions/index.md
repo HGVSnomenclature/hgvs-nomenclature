@@ -2,10 +2,10 @@
 
 !!! info inline end "Version 21.0 is current"
 
-    Read the [release notes for the current version](21.0).
+    Read the [release notes for the current version](21.0.md).
 
 
-The primary mission of HGVS Nomenclature is to facilitate reliable communication of sequence variants, which requires that the HGVS Nomenclature is stable. Nonetheless, modifications will be required from time to time in order to address new scientific needs, resolve inconsistencies, or clarify conventions.  A key goal of the [HVNC](/hvnc/) is to manage such changes in a way that balances the needs of progress and reliable data sharing, and to communicate the changes to the community clearly.
+The primary mission of HGVS Nomenclature is to facilitate reliable communication of sequence variants, which requires that the HGVS Nomenclature is stable. Nonetheless, modifications will be required from time to time in order to address new scientific needs, resolve inconsistencies, or clarify conventions.  A key goal of the [HVNC](../hvnc.md) is to manage such changes in a way that balances the needs of progress and reliable data sharing, and to communicate the changes to the community clearly.
 
 The HGVS Nomenclature uses concepts from [Semantic Versioning](https://semver.org/) to version releases. Each release version will consist of 3 numbers separated by dots in the format x.y.z with the following meanings:
 
