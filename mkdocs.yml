@@ -40,6 +40,12 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+# enabling strict above (or mkdocs build --strict) causes warnings to become fatal
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
 theme:
   name: material
   custom_dir: overrides
