@@ -8,7 +8,7 @@
 
 Based on the proposal the [RNA Deletion-insertion page](../recommendations/RNA/delins.md) has been updated (April 2020).
 
-The proposal suggests to extend the HGVS recommendations with a format to decribe adjoined transcripts derived from gene fusions
+The proposal suggests to extend the HGVS recommendations with a format to describe adjoined transcripts derived from gene fusions
 
 - Adjoined transcripts are described following the format to describe a gene fusion between two DNA molecules (translocations), i.e. using **"::"**.
 
