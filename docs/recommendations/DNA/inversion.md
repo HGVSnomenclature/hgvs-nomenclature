@@ -34,12 +34,12 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
 
 !!! note "Is the change AAGC to TTCG an inversion?"
 
-        No, an inversion would change AAGC to GCTT, its **reverse-complement**. TTCG is only the **complement** of AAGC.
+    No, an inversion would change AAGC to GCTT, its **reverse-complement**. TTCG is only the **complement** of AAGC.
 
 !!! note "Is the change AAGC to CGAA an inversion?"
 
-        No, an inversion would change AAGC to GCTT, its **reverse-complement**. CGAA is only the **reverse** of AAGC.<a id="dupinv"></a>
+    No, an inversion would change AAGC to GCTT, its **reverse-complement**. CGAA is only the **reverse** of AAGC.<a id="dupinv"></a>
 
 !!! note "Is it not better to describe the variant g.234_235ins123_234inv as g.123_234dupinv?"
 
-        The descriptions of duplications is regularly debated *"Why not remove the variant type "duplication" and describe all dups as "insertion", it will make the HGVS rules in total simpler*. While we can not do this for historic reasons (duplications are in use since the beginning), we will restrict the use of "dup" as much as possible. Regarding a "**dupinv**" one could argue that an "inverted copy" is not "a copy inserted directly 3' of the original copy" and thus by definition this variant is not a duplication but an "insertion". Therefore the recommendation is to describe inverted duplication using the format g.122_123ins123_234inv or g.234_235ins123_234inv depending on whether the inverted copy is 5' or 3' of the original copy (reference sequence).
+    The descriptions of duplications is regularly debated *"Why not remove the variant type "duplication" and describe all dups as "insertion", it will make the HGVS rules in total simpler*. While we can not do this for historic reasons (duplications are in use since the beginning), we will restrict the use of "dup" as much as possible. Regarding a "**dupinv**" one could argue that an "inverted copy" is not "a copy inserted directly 3' of the original copy" and thus by definition this variant is not a duplication but an "insertion". Therefore the recommendation is to describe inverted duplication using the format g.122_123ins123_234inv or g.234_235ins123_234inv depending on whether the inverted copy is 5' or 3' of the original copy (reference sequence).

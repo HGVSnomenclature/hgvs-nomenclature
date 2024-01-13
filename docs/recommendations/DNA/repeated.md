@@ -54,6 +54,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.rpt
 
 !!! note "Intron 9 of the CFTR gene ends with the sequence ...tgtgtgtgtgtttttttaacag[exon_10]. Both the TG and T stretches are variable in length (from 9 to 13 and 5 to 9 resp.). The reference sequence has 11 TG copies and 7 T's. Is it correct to describe an allele as c.1210-14TG[13]T[5] or for the T stretch as c.1210-6T[5]?"
 
-        A complex case. First note that by applying the **3'rule** it is a **variable GT and not TG stretch**. When the coding DNA reference sequence has 11 TG copies followed by 7 T copies, the reference allele is described as c.1210-33_1210-6GT[11]T[6]. When only variability of the T-stretch is reported, the reference allele is described as c.1210-12_1210-6T[7].
+    A complex case. First note that by applying the **3'rule** it is a **variable GT and not TG stretch**. When the coding DNA reference sequence has 11 TG copies followed by 7 T copies, the reference allele is described as c.1210-33_1210-6GT[11]T[6]. When only variability of the T-stretch is reported, the reference allele is described as c.1210-12_1210-6T[7].
 
-        To indicate the overall variability found in the population the description is c.1210-33_1210-6GT[(9_13)]T[(4_8)] for the combined repeat and c.1210-12_1210-6T[(5_9)] for the T-stretch.
+    To indicate the overall variability found in the population the description is c.1210-33_1210-6GT[(9_13)]T[(4_8)] for the combined repeat and c.1210-12_1210-6T[(5_9)] for the T-stretch.

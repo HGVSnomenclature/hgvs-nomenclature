@@ -34,8 +34,8 @@ Variants affecting RNA splicing result in either a [deletion](deletion.md) or [i
     - `NC_000023.11(NM_004006.2):r.649_650ins650-50_650-1`: as a consequence of an intron 7 variant (c.650-52_650-51del) a new stronger exon 8 splice acceptor site is created (position 650-51 / 650-50) and the intron 7 sequence from positions 650-50 to 650-1 is inserted in the transcript: alternative description `LRG_199t1:r.649_650ins650-50_650-1`
     - `NC_000023.11(NM_004006.2):r.831_832ins831+1_831+67`: as a consequence of an intron 8 variant (c.831+71C>A) a new stronger exon 8 splice donor site is created (position 831+67 / 831+68) and the intron 8 sequence from positions 831+1 to 831+67 is inserted in the transcript: alternative description `LRG_199t1:r.831_832ins831+1_831+67`
     - `NC_000023.11(NM_004006.2):r.649_650ins650-1400_650-1268`: as a consequence of an intron 7 variant (c.650-1401T>G) a new exon is created and its sequence (positions 650-1400 to 650-1268) is inserted in the transcript: alternative description `LRG_199t1:r.649_650ins650-1400_650-1268`
-- **fusion transcript** (based on [SVD-WG007](../../consultation/SVD-WG007.md))
-    - `NM_002354.2:r.-358_555::NM_000251.2:r.212_*279`: describes an EPCAM::MSH2 fusion transcript where nucleotides `r.-358` to `r.555` (EPCAM gene, reference transcript `NM_002354.2) are spliced to nucleotides r.212` to `r.*279` (MSH2 gene, reference transcript NM_000251.2)
+- **adjoined transcript** (based on [SVD-WG007](../../consultation/SVD-WG007.md))
+    - `NM_002354.2:r.-358_555::NM_000251.2:r.212_*279`: describes an adjoined transcript from the EPCAM::MSH2 gene fusion, where nucleotides `r.-358` to `r.555` (EPCAM gene, reference transcript `NM_002354.2) are spliced to nucleotides r.212` to `r.*279` (MSH2 gene, reference transcript NM_000251.2)
 - **uncertain** (RNA not analysed)
     - `NC_000023.11(NM_004006.2):r.(76a>c)`: RNA was not anaysed but a substitution of the "a" nucleotide at `r.76` by a "c" is predicted
     - `NC_000023.11(NM_004006.2):r.?`: an effect on the RNA level is expected but it is not possible to give a reliable prediction of the consequences (RNA not analysed)
@@ -45,8 +45,8 @@ Variants affecting RNA splicing result in either a [deletion](deletion.md) or [i
 
 !!! note "A variant changes the +1 intron sequence (GT to AT). Although I did not analyse RNA, I am quite sure that normal splicing is affected. How can I best indicate this?"
 
-        HGVS recommends to use the format `r.spl` to indicate that RNA was not analysed but splicing is most probably affected. In general the format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the GT splice donor and AG splice acceptor site (excl. GT to GC and GC to GT variants). `r.(spl?)` is frequently used to indicate normal splicing might be affected as a consequence of variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site) and variants generating a new AG-dinucleotide close to the normal splice acceptor site (AG). See [Uncertain](../uncertain.md).
+    HGVS recommends to use the format `r.spl` to indicate that RNA was not analysed but splicing is most probably affected. In general the format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the GT splice donor and AG splice acceptor site (excl. GT to GC and GC to GT variants). `r.(spl?)` is frequently used to indicate normal splicing might be affected as a consequence of variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site) and variants generating a new AG-dinucleotide close to the normal splice acceptor site (AG). See [Uncertain](../uncertain.md).
 
 !!! note "How can I best describe the predicted consequences at the protein level of a variant that most probably affects splicing?"
 
-        The best format seems to use "p.?", meaning "I do not know what to expect at the protein level".
+    The best format seems to use "p.?", meaning "I do not know what to expect at the protein level".

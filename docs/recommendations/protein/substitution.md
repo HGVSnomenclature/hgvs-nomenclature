@@ -57,12 +57,12 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.sub
 
 !!! note "Are polymorphisms described like `p.2366Gln/Lys`?"
 
-        No, all substitutions are described as `NP_003997.1:p.Gln2366Lys`. In the past, the format `p.2366Gln/Lys` (`p.2366Q/K`) has been used to describe "polymorphic" sequence variants. Note that a description should be neutral, simply describe the change, and not include any other information like predicted or known functional consequences.
+    No, all substitutions are described as `NP_003997.1:p.Gln2366Lys`. In the past, the format `p.2366Gln/Lys` (`p.2366Q/K`) has been used to describe "polymorphic" sequence variants. Note that a description should be neutral, simply describe the change, and not include any other information like predicted or known functional consequences.
 
 !!! note "Can I describe a TrpVal to CysArg variant as a amino acid substitution (`p.TrpVal24CysArg`)?"
 
-        No, this is not allowed. By definition a substitution changes **one** amino acid into **one** other amino acid. The change TrpVal to CysArg should be described as `NP_003997.1:p.Trp24_Val25delinsCysArg`, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](../DNA/delins.md)).
+    No, this is not allowed. By definition a substitution changes **one** amino acid into **one** other amino acid. The change TrpVal to CysArg should be described as `NP_003997.1:p.Trp24_Val25delinsCysArg`, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](../DNA/delins.md)).
 
 !!! note "How should you describe an amino acid substitution to any other amino acid?"
 
-        HGVS uses IUPAC symbols (see [Standards](../../background/standards.md)). The symbol for 'any' amino acid is 'X'/'Xaa'. Since 'X' has been used to indicate a translation stop codon (nonsense variant) we suggest to use 'Xaa' three-letter amino acid code only (e.g. `p.Arg782Xaa`).
+    HGVS uses IUPAC symbols (see [Standards](../../background/standards.md)). The symbol for 'any' amino acid is 'X'/'Xaa'. Since 'X' has been used to indicate a translation stop codon (nonsense variant) we suggest to use 'Xaa' three-letter amino acid code only (e.g. `p.Arg782Xaa`).

@@ -122,7 +122,7 @@ HGVS nomenclature does not give specific recommendations for the **numbering of 
 
 ### Imperfect copies
 
-**The proposal has been REJECTED** Accepting the proposal, without a whole range of specifications, would add **too many** options to decribe specific variants.
+**The proposal has been REJECTED** Accepting the proposal, without a whole range of specifications, would add **too many** options to describe specific variants.
 
 HGVS nomenclature has excellent possibilities to describe large duplications, inversions, conversions and insertions. However, no clear recommendations are available what to do when the nucleotides involved are not a perfect copy of the original sequence. The suggestion has been made ([Taschner PEM, Den Dunnen JT (2011). Hum.Mutat. 32:507-511](http://onlinelibrary.wiley.com/doi/10.1002/humu.21427/pdf)) to use "**{ }**" (curly braces) as a kind of "_sub-alleles_" to describe the variants in the altered region.
 

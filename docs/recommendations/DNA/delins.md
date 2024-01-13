@@ -36,18 +36,18 @@ bin/pull-syntax -f docs/syntax.yaml dna.delins
 
 !!! note "What is an **"indel"**?"
 
-        The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md)). The term is confusing, having different meanings in different disciplines.
+    The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md)). The term is confusing, having different meanings in different disciplines.
 
 !!! note "Can I describe a GC to TG variant as a dinucleotide substitution (g.4GC>TG)?"
 
-        No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](substitution.md)). The change <code>TGT<code class="spot1">GC</code>CA</code> to <code>TGT<code class="spot1">TG</code>CA</code> should be described as `g.4_5delinsTG`, i.e. a deletion/insertion (indel).
+    No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](substitution.md)). The change <code>TGT<code class="spot1">GC</code>CA</code> to <code>TGT<code class="spot1">TG</code>CA</code> should be described as `g.4_5delinsTG`, i.e. a deletion/insertion (indel).
 
 !!! note "Are there specific recommendations regarding the maximum number of unchanged nucleotides between two single nucleotide variants and whether the change is described as a "delins" or as two separate changes?"
 
-        Yes, two variants separated by one or more nucleotides should preferably be described individually and not as a "delins" (unless they together affect one amino acid). Why?  First, the two variants may have been reported (or might occur) individually. Second, sequence analysis pipelines will describe such variants individually, giving the problem that an overlap with the description of the combined variant ("delins" description) might be missed in the annotation step (database queries).
+    Yes, two variants separated by one or more nucleotides should preferably be described individually and not as a "delins" (unless they together affect one amino acid). Why?  First, the two variants may have been reported (or might occur) individually. Second, sequence analysis pipelines will describe such variants individually, giving the problem that an overlap with the description of the combined variant ("delins" description) might be missed in the annotation step (database queries).
 
 !!! note "The BRCA1 coding DNA reference sequence from position `c.2074` to `c.2080` is ..CATGACA.. A variant frequently found in the population is ..CAT<code class="spot1">A</code>ACA.. (c.2077G>A). In a patient I found the sequence <code>..CAT<code class="spot1">A TA</code>ACA..</code> Can I describe this variant as `c.[2077G>A;2077_2078insTA]`?"
 
-        The correct description of this variant is `NM_007294.3:c.2077delinsATA`.
+    The correct description of this variant is `NM_007294.3:c.2077delinsATA`.
 
-        **NOTE:** the answer was modified, i.e. the addition "However, since the variant is likely a combination of two other variants it is acceptable to describe it as `NM_007294.3:c.[2077G>A;2077_2078insTA]"` was removed.
+    **NOTE:** the answer was modified, i.e. the addition "However, since the variant is likely a combination of two other variants it is acceptable to describe it as `NM_007294.3:c.[2077G>A;2077_2078insTA]"` was removed.

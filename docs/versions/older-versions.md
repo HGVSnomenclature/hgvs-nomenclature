@@ -1,7 +1,7 @@
 - **Version 20.05**: Accepted proposals include [SVD-WG007](../consultation/SVD-WG007.md) and [SVD-WG008](../consultation/SVD-WG008.md):
 
     - SVD-WG008 (_Reference Sequences_): specifies requirements for acceptable Reference Sequences
-    - SVD-WG007 (_RNA fusion_): specifies how to describe RNA fusion transcripts
+    - SVD-WG007 (_RNA fusion_): specifies how to describe adjoined transcripts from gene fusions
 
 - **Version 19.01**: Accepted proposals include [SVD-WG005](../consultation/SVD-WG005.md) and [SVD-WG006](../consultation/SVD-WG006.md):
 
