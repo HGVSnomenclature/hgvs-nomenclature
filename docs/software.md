@@ -32,7 +32,7 @@ bin/make-software-table docs/software/*.yml
     - extraction: Is the software able to generate a description from a reference and observed sequence?
     - liftover: Does the software support mapping variants between aligned genomic sequences?
     - normalization: Does the software normalize variants (e.g., 3' shift) and rewrite (e.g., `ins` → `dup`)
-    - parsing: Does the software parse HGVS expressions into a object model usable by the client?
+    - parsing: Does the software parse variant descriptions into a object model usable by the client?
     - transcription: Does the software support mapping variants between genome and transcript variants?
     - translation: Does the software infer protein consequences from transcript variants?
     - validation: Does the software provide syntactic validation (i.e., the correct form) and semantic validation (i.e., the parsed structure makes sense)?
@@ -44,7 +44,7 @@ bin/make-software-table docs/software/*.yml
 The software must:
 
 - Be *primarily* concerned with provided the functionality listed above.
-  Software that merely accepts or emits HGVS expressions as part of their
+  Software that merely accepts or emits HGVS variant descriptions as part of their
   operation (e.g., variant annotation) do not meet this criterion.
 - Meet the license requirements above. Commercial software, including hybrid
   open-source/commercial software, will not be included.
