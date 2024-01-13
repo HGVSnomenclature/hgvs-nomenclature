@@ -1,12 +1,13 @@
 # Software
 
 This page lists general purpose open source software that manipulates HGVS
-expressions. Our intention is to help the community find software that aids in
-the adoption of HGVS Nomenclature. The entries below are provided by the
-authors; the entries are not validated or endorsed by the HVNC. Software packages are listed
-alphabetically.  See [Listing Definitions](#listing-definitions) for an
-explanation of terms. See the [submission requirements and
-instructions](#submissions) for information about submitting to this list.
+variant descriptions. Our intention is to help the community find software that
+aids in the adoption of HGVS Nomenclature. The entries below are provided by the
+authors; the entries are not validated or endorsed by the HVNC. Software
+packages are listed alphabetically.  See [Listing
+Definitions](#listing-definitions) for an explanation of terms. See the
+[submission requirements and instructions](#submissions) for information about
+submitting to this list.
 
 
 ```sh exec="true"
