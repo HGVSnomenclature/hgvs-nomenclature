@@ -32,7 +32,7 @@ The HGVS Nomenclature is administed by the [HGVS Variant Nomenclature Committee 
 
 - [SVD-WG005](SVD-WG005.md) (gom/lom): suggests to extend the HGVS recommendations to allow description of changes in general methylation status.: **Status**: <code class="spot1">accepted</code>. Closed Dec.31 (2016). Opened Oct.20 (2016).
 
-- [SVD-WG004](SVD-WG004.md) (ISCN<>HGVS): suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.: **Status**: <code class="spot1">accepted</code>. Closed Jan.15 (2016). Opened Nov.10 (2015).: **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"named extension ISCN"** ([named extension](../background/versioning.md)).
+- [SVD-WG004](SVD-WG004.md) (ISCN<>HGVS): suggested to extend the recommendations to cover the description of structural variants, esp. translocations and chromothripsis.: **Status**: <code class="spot1">accepted</code>. Closed Jan.15 (2016). Opened Nov.10 (2015).: **NOTE**: since SVD-WG004 covers variants that may become rather complex to describe and will be difficult to implement the proposal has been accepted as the **"named extension ISCN"** ([named extension](../versions/older-versions.md#SVD-WG004)).
 
 - [SVD-WG003](SVD-WG003.md) (exon del/dup): suggested to describe exon deletions/duplications using the format c.(233+1_234-1)\_(1234+1_1235-1)del.: **Status**: Oct.6 (2015) <code class="spot1">new proposal to be made</code>. Closed Jul.16 (2015). Opened May 14 (2015).
 

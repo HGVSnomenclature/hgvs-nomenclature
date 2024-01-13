@@ -40,6 +40,12 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+# enabling strict above (or mkdocs build --strict) causes warnings to become fatal
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
 theme:
   name: material
   custom_dir: overrides
@@ -76,6 +82,9 @@ theme:
     code: Roboto Mono
   logo: images/hgvs-logo.png
   favicon: images/hgvs-logo.png
+
+# exclude_docs: |
+#   test/*
 
 watch:
   - bin
