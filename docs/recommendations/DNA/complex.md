@@ -21,7 +21,7 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
             - **NOTE:** the description of the supernumerary molecule is given using "[ ]sup": **NOTE:** changed in ISCN2020. ISCN2016 had: _"add" for additional sequence_
         - `::` a double colon is used to designate break point junctions creating a ring chromosome.
                 - **NOTE:** "::" changed in ISCN2020. ISCN2016 had: _is used to designate break point junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis break point junctions and junctions creating a ring chromosome_
-                - **NOTE:** `::` is also used to designate the junction of fusion transcripts
+                - **NOTE:** `::` is also used to designate adjoined transcripts
 - chromosomal banding patterns are translated to genomic coordinates based the translation tables provided by NCBI (see [Standards](../../background/standards.md#ISCN))
 - in ISCN it is allowed to describe nucleotide positions using commas to indicate thousands and millions (e.g. "108,111,982"), in HGVS this is not allowed.
 - 3'rule: to determine the location of the break point, the general HGVS rule of maintaining the longest unchanged sequence applies (the 3' rule). Break point location is determined by the first break point encountered, i.e. from pter of the chromosome to be listed first
