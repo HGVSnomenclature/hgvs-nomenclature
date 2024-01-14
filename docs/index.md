@@ -6,7 +6,7 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 
 !!! note "Join Us"
 
-    Please see the [Call for Members](call-for-members/) if you are interested in
+    Please see the [Call for Members](call-for-members.md) if you are interested in
     joining the HVNC and contributing to the maintenance of the HGVS Nomenclature.
 
 ## Contact Us

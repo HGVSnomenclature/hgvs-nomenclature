@@ -2,7 +2,7 @@
 
 A detailed explanation of HGVS nomenclature can be found on this website. Summaries, using different formats, have been published in journals and several book chapters (see [History](history.md)).
 
-- Basics : the basics of the current recommendations are explained in a [slide presentation](../../assets/presentations/HGVS-basics2017.pdf) from **Johan den Dunnen** (last updated Apr.2017).
+- Basics : the basics of the current recommendations are explained in a [slide presentation](../assets/presentations/HGVS-basics2017.pdf) from **Johan den Dunnen** (last updated Apr.2017).
 
 - Online sessions : On Monday June 22 we started a series of online HGVS nomenclature Q&A sessions. The meetings will be bi-monthly, on the 4th Tuesday of every 2nd month (even months). The time of the meeting will be alternated to allow people from either Asia+Australia, Europe+Africa or North+South America to participate during the day. For questions to be answered we use the [DirectPoll](https://www.DirectPoll.com) online polling system. The idea is you train yourself and learn HGVS nomenclature by applying the recommendations. For those not able to participate, the questions will be available using a [Socrative](https://www.Socrative.com) classroom (see below). Each event will be listed on the [Human Genome Organisation's (HUGO) Facebook page](https://www.facebook.com/humangenomeorg).
 
