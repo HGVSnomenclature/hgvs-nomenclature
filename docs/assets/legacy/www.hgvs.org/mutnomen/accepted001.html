@@ -1,0 +1,169 @@
+<html>
+  <!--
+	Author: 	Dr. Johan T. den Dunnen	Date: 	13-04-2015		URL: 	accepted001.html-->
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Sequence variant descriptions - Community Concultation 001a</title>
+    <style type="text/css">
+
+<!--
+
+h2 {
+ font-family : Verdana,Arial,Helvetica,Geneva,sans-serif;
+ color : #ff9900;
+
+}
+
+h3 {
+ font-family : Verdana,Arial,Helvetica,Geneva,sans-serif;
+ color : #0099cc;
+
+}
+
+h4 {
+ font-family : Verdana,Arial,Helvetica,Geneva,sans-serif;
+ color : #0099cc;
+
+}
+
+h5 {
+font-family : Verdana, Arial, Helvetica, Geneva, sans-serif;
+color : #ffffff;
+
+}
+
+.norm {
+
+ font-weight : normal;
+
+ }
+ -->
+</style> </head>
+  <body style="              color: black; background-color: white;" link="#0000FF"
+    vlink="#9999ff">
+    <table bgcolor="#CCFF99" border="0" cellpadding="10" cellspacing="0" width="100%">
+      <tbody>
+        <tr>
+          <td bgcolor="#FFFFFF" valign="top" width="25%"><a href="http://www.HGVS.org"><img
+                src="small.gif"
+                border="0"
+                height="94"
+                width="155"></a></td>
+          <td bordercolor="#FFFFFF" bgcolor="#FFFFFF" valign="CENTER" width="75%">
+            <h3 align="center"><font size="6">Accepted - SVD-WG001</font> </h3>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table border="0" cellpadding="10" cellspacing="0" width="100%">
+      <tbody>
+        <tr>
+          <td bgcolor="#0099cc" valign="BOTTOM" width="100%">
+            <h4 align="center"><font color="#FFFFFF" size="3"><i><br>
+                  Published:&nbsp; May 14, 2015<br>
+                  <span>Closed:</span>&nbsp; July 16, 2015<span style="color: red;"><br>
+                    Accepted:</span>&nbsp; October 6, 2015<br>
+                </i></font></h4>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <h2>Proposal</h2>
+    <hr>
+    <p>The proposal <a href="comments001.html">SVD-WG001</a> (<span style="font-style: italic;">No
+        change</span>) suggested to extend the HGVS recommendations to allow
+      that when a variant screen was performed but no change detected this can
+      be described using the character "=" (equal to). The Community
+      Consultation closed on July 16 (2015). All comments were collected and
+      discussed by the SVD-WG on Oct.6. Since no major objections were received
+      the proposal was <span style="color: red; font-weight: bold; font-style: italic;">accepted</span>.
+      The proposal will be part of the HGVS recommendations <a href="version-list.html#v2-1511"><strong><font
+            style="font-style: italic;"
+            color="#FF0000">version
+            2.1511</font></strong></a>. </p>
+    <h3>No change</h3>
+    <p>When a variant screen was performed but no change detected this should be
+      described using the character "=" (equal to). The description should
+      include the position(s) screened.<br>
+      <span style="font-weight: bold; font-style: italic;">NOTE:</span> the
+      reference sequence used should always be mentioned.</p>
+    <p><span style="font-weight: bold;"><span style="text-decoration: underline;">Examples;</span></span></p>
+    <ul>
+      <li>DNA</li>
+      <ul>
+        <li>c.123G=<br>
+          indicates that a screen was performed to determine the identity of
+          nucleotide c.123 showing it was a "G" like in the coding DNA reference
+          sequence (<span style="font-style: italic;">the nucleotide was not
+            changed</span>).<br>
+          <span style="font-weight: bold; font-style: italic;">NOTE:</span> the
+          description c.123G&gt;G is not allowed</li>
+        <li>g.11890634G= indicates that a screen was performed to determine the
+          identity of nucleotide g.11890634G= showing it was a "G" like in the
+          genomic reference sequence (<span style="font-style: italic;">the
+            nucleotide was not changed</span>).</li>
+        <li>c.[123G=;456A=;789C=]&nbsp; -&nbsp; indicates that a screen was
+          performed to determine the identity of nucleotides c.123, c.456 and
+          c.789 (all on the same allele) showing they were all not changed
+          (equal to the coding DNA reference sequence).</li>
+        <li>c.[633G&gt;A];[633G=] describes a heterozygous case where one
+          chromosome carries variant c.633G&gt;A and the other chromosome is not
+          changed at that position (e.g. in an autosomal recessive condition)</li>
+        <li>NM_001849.3(COL6A2):c.1_*1=&nbsp; -&nbsp; indicates that a screen
+          was performed to determine the entire coding DNA sequence of the
+          COL6A2 gene (nucleotides c.1 to c.*1 in NM_001849.3, exons only), no
+          changes were detected.<br>
+        </li>
+        <li>LRG_476(COL6A2):g.4950_39800=&nbsp; -&nbsp; indicates that a screen
+          was performed to determine the entire genomic sequence of the COL6A2
+          gene (nucleotides g.4950 to g.39800 in LRG_476, exon ànd intron), no
+          changes were detected.<br>
+        </li>
+      </ul>
+      <li>RNA</li>
+      <ul>
+        <li>r.473u=&nbsp; / c.473T=<br>
+          indicates that a screen was performed to determine the identity of
+          nucleotide r.473 showing it was a "u" like in the RNA reference
+          sequence (<span style="font-style: italic;">the nucleotide was not
+            changed</span>)</li>
+        <br>
+      </ul>
+      <li>protein</li>
+      <ul>
+        <li>p.(Arg41=)&nbsp; / c.123G&gt;A<br>
+          indicates the predicted consequence of the change c.123G&gt;A
+          identified at DNA level (<span style="font-style: italic;">RNA not
+            analysed</span>) is that the amino acid residue "Arg41" does not
+          change.<br>
+          <span style="font-weight: bold; font-style: italic;">NOTE:</span><span
+            style="font-weight: bold;"></span>
+          the description p.(Arg41=) should always be given together with the
+          description of the change at DNA level (depending on the amino acid,
+          up to 5 different DNA changes may leave the amino acid unchanged).<br>
+        </li>
+      </ul>
+    </ul>
+    <hr>
+    <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif">| <a href="index.html">Varnomen
+          homepage</a> | <a href="comments.html">Comments homepage</a> | <a href="standards.html">Symbols,
+          codons, etc.</a> |<br>
+      </font></p>
+    <table bgcolor="#ff9900" border="0" cellpadding="15" cellspacing="0" width="100%">
+      <tbody>
+        <tr>
+          <td>
+            <p align="center"><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif"
+                size="-5"><a
+                  href="http://www.HGVS.org/copyright.html">Copyright
+                  ©</a> </font><font size="1">HGVS 2010 All Rights Reserved<br>
+                Website Created by Rania Horaitis, Nomenclature by J.T. Den
+                Dunnen - <a href="http://www.HGVS.org/disclaimer.html">Disclaimer</a>
+              </font></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
