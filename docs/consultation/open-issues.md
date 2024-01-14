@@ -24,11 +24,11 @@ Current HGVS recommendations state (see [Reference Sequences](../background/refs
 
 The HGVS nomenclature committee received several requests to suggest a format to describe such variants. So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (g.). Although the proposal "[Numbering gene flanking nucleotides](#geneflanking)" has been rejected, the issue is not silenced. The [Global Variome shared LOVD](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using {0} (deletion) and {2} (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence to describe variants which go outside the boundaries of the transcript (c.-244 and c.\*2691 in the examples below).
 
-- NM_004006.2:c.-244\_\*2691{0}: describes a deletion of the entire coding DNA reference sequence of the DMD gene
+- NM_004006.2:c.-244_\*2691{0}: describes a deletion of the entire coding DNA reference sequence of the DMD gene
 - NM_004006.2:c.-244_187{0}: describes a deletion including the transcription start site (cap site) of the DMD gene
-- NM_004006.2:c.\*1162\_\*2691{2}: describes a duplication including the transcription termination site (polyA-addition site) of the DMD gene
+- NM_004006.2:c.\*1162_\*2691{2}: describes a duplication including the transcription termination site (polyA-addition site) of the DMD gene
 
-The description is always given **in addition** to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM_004006.2:c.-244\_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
+The description is always given **in addition** to a decription based on the X-chromosome genomic reference sequence (g.), indicating the extent of the variant. The description should not lead to confusion since it is clearly different from other formats, like NM_004006.2:c.-244_\*2691del (suggesting the deletion break point was sequenced) and c.0 (not very specific and can not be used when the start/end of the transcript is affected).
 
 <a id="frameshift"></a>
 
@@ -78,7 +78,7 @@ Aug.24 (2011) - JT den Dunnen HGVS nomenclature does currently not have recommen
 
 Due to a variant, e.g. in the promotor region of a gene, the amount of RNA and protein produced might be reduced or increased. HGVS nomenclature currently does not have a way to describe this. Using the "\|" character ("pipe") these consequences could be described as r.=\|red or r.=\|inc (p.=\|red, p.=\|inc) or more specifically like r.=\|0.40 (reduced to 0.40) or r.=\|3.10 (increased to 3.10).
 
-The same format could be applied to specify the fraction of the different RNA molecules when a variant e.g affects splicing generating several different transcripts, like r.[646_792del|0.73,792_793ins[792+1\_792+38|0.27].
+The same format could be applied to specify the fraction of the different RNA molecules when a variant e.g affects splicing generating several different transcripts, like r.[646_792del|0.73,792_793ins[792+1_792+38|0.27].
 
 <a id="RNAedit"></a>
 

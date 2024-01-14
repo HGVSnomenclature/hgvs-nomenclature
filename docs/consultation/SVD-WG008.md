@@ -37,14 +37,14 @@ A sequence variant is defined in the context of a **reference sequence** which m
 
 ### Recommended Reference Sequences types are:
 
-- RefSeq sequences with the prefixes NC\_, NT\_, NW\_,NG\_, NM\_, NR\_ or NP\_
+- RefSeq sequences with the prefixes NC_, NT_, NW_,NG_, NM_, NR_ or NP_
     - chromosome - NC_000023.11
     - genomic contigs or scaffolds - NT_010718.17, NW_003315950.2
     - gene/genomic region - NG_012232.1
     - coding transcript - NM_004006.2
     - non-coding transcript - NR_004430.2
     - protein - NP_003997.1
-- LRG sequences with the prefixes LRG\_#, LRG\_#t#, LRG\_#p# (see examples below)
+- LRG sequences with the prefixes LRG_#, LRG_#t#, LRG_#p# (see examples below)
     - gene/genomic region - LRG_199
     - coding transcript (or non-coding transcript) - LRG_199t1
     - protein - LRG_199p1
@@ -61,4 +61,4 @@ A sequence variant is defined in the context of a **reference sequence** which m
 Why not? Two reasons:
 
 - because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?
-- because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other ids (perhaps ids not even shared). If the implementation were to **require** that g. variant accessions start with NC\_ (or any predefined list), it would make it impossible to use that software in other contexts
+- because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other ids (perhaps ids not even shared). If the implementation were to **require** that g. variant accessions start with NC_ (or any predefined list), it would make it impossible to use that software in other contexts

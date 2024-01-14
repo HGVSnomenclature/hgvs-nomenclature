@@ -127,7 +127,7 @@ Specific abbreviations are used to describe different variant types.
 
 !!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?"
 
-    It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when `MetTrpSerSerSerHisAsp..` changes to <code>MetTrpSerSer<code class="spot1">\_</code>HisAsp..</code> this is described as `p.Ser5del`. The information that at the DNA level the change is <code>..ATGTGGTCCAGTTCCCACGAT..</code> to <code>..ATGTGGTCC<code class="spot1">\_</code>TCCCACGAT..</code>, so the codon for Ser4 is deleted, is not used; the description `p.Ser4del` is not correct.
+    It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence. Knowledge on the underlying change at the DNA level should not be used. E.g. when `MetTrpSerSerSerHisAsp..` changes to <code>MetTrpSerSer<code class="spot1">_</code>HisAsp..</code> this is described as `p.Ser5del`. The information that at the DNA level the change is <code>..ATGTGGTCCAGTTCCCACGAT..</code> to <code>..ATGTGGTCC<code class="spot1">_</code>TCCCACGAT..</code>, so the codon for Ser4 is deleted, is not used; the description `p.Ser4del` is not correct.
 
 !!! note "Is it correct that when I apply **the 3'rule** for genes that are on the minus strand of a chromosome, the "g." and "c." variant descriptions differ regarding the nucleotide that I describe as deleted?"
 

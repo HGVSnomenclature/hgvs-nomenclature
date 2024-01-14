@@ -27,7 +27,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
     - predicted or inferred sequences **should not** be used for variant reporting
     - if a reference sequence becomes unsupported or refuted by evidence, it should no longer be used
 - a `:` (colon) is used as a separator between the reference sequence file identifier (_accession.version-number_) and the actual description of a variant; NC_000011.9<code class="spot1">:</code>g.12345611G>A
-- the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC_000023.11 (for \_Homo sapiens* chromosome X, build GRCh38/hg38)
+- the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC_000023.11 (for *Homo sapiens* chromosome X, build GRCh38/hg38)
 - specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
     - NG_012232.1(NM_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM_004006.2 as annotated in NG_012232.1
     - accepted specifications include transcripts (NM_004006.2) and proteins (NP_003997.1). Gene symbols should **not** be used as specification. **Exception:** genes annotated on a genomic reference for which no transcript reference sequence is available, e.g. the Homo sapiens mitochondrion complete genome (GenBank NC_012920.1).
@@ -42,7 +42,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
 
 ### Recommended Reference Sequences types are:
 
-- RefSeq sequences with the prefixes NC\_, NT\_, NW\_,NG\_, NM\_, NR\_ or NP\_
+- RefSeq sequences with the prefixes NC_, NT_, NW_,NG_, NM_, NR_, or NP_
     - chromosome - NC_000023.11
     - genomic contigs or scaffolds - NT_010718.17, NW_003315950.2
     - gene/genomic region - NG_012232.1
@@ -54,7 +54,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
     - coding transcript - ENST00000357033.8
     - non-coding transcript - ENST00000383925.1
     - protein - ENSP00000354923.3
-- LRG sequences with the prefixes LRG\_#, LRG\_#t#, LRG\_#p# (see examples below)
+- LRG sequences with the prefixes LRG_#, LRG_#t#, LRG_#p# (see examples below)
     - gene/genomic region - LRG_199
     - coding transcript (or non-coding transcript) - LRG_199t1
     - protein - LRG_199p1
@@ -101,11 +101,11 @@ Depending on the variants to be reported, different reference sequence files are
 
 - coding DNA reference sequences are indicated using a **c.** prefix
 - a coding DNA reference sequence is a DNA reference sequence, based on a protein-coding transcript of a gene, which can be used for nucleotide numbering using the **c.** prefix. Such a reference sequence includes the coding DNA sequence (CDS) and the 5' and 3' UTR regions.
-    - for human the recommended transcript to be used to describe variants is the transcript recommended by the **MANE project** (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)). The MANE project is a joint initiative between EMBL-EBI's Ensembl project and NCBI's RefSeq project to release a genome-wide transcript set containing at least one well-supported transcript per protein-coding locus. All transcripts in the MANE set perfectly align to GRCh38 and will represent 100% identity (5' UTR, coding sequence, 3' UTR) between the corresponding RefSeq (NM\_) and the Ensembl (ENST) transcript.
+    - for human the recommended transcript to be used to describe variants is the transcript recommended by the **MANE project** (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)). The MANE project is a joint initiative between EMBL-EBI's Ensembl project and NCBI's RefSeq project to release a genome-wide transcript set containing at least one well-supported transcript per protein-coding locus. All transcripts in the MANE set perfectly align to GRCh38 and will represent 100% identity (5' UTR, coding sequence, 3' UTR) between the corresponding RefSeq (NM_) and the Ensembl (ENST) transcript.
 - a coding DNA reference sequence does **not contain** intron or 5' and 3' gene flanking sequences and can **not be used** to describe variants in introns and up/down-stream of the gene. Intronic sequences are considered to be **within the boundaries** of a transcript reference sequence and may be used to describe a variant when a genomic reference sequence identifier is provided.
 - when, based on a genomic reference sequence, variants are reported using a `c.` prefix, the transcript variant used should be indicated
-    - for NC\_ or NG\_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC_000023.10(NM_004006.3):c.357+1G>A or NG_012232.1(NM_004006.2):c.357+1G>A
-    - for LRG\_'s an annotated "**transcript variant 1**" is described as `t1`, e.g. LRG_199<code class="spot1">t1</code>:c.11T>G
+    - for NC_ or NG_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC_000023.10(NM_004006.3):c.357+1G>A or NG_012232.1(NM_004006.2):c.357+1G>A
+    - for LRG_'s an annotated "**transcript variant 1**" is described as `t1`, e.g. LRG_199<code class="spot1">t1</code>:c.11T>G
 - the coding DNA reference sequence should be complete, cover the major and largest transcript known
     - for human, [EBI](http://www.ensembl.org/Help/Glossary?id=346) uses the following hierarchy to select the prefered transcript: **1.** longest CCDS translation with no stop codons. **2.** if no (1), choose the longest Ensembl/Havana merged translation with no stop codons. **3.** if no (2), choose the longest translation with no stop codons. **4.** if no translation, choose the longest non-protein-coding transcript.
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence. Applying the 3'rule, NC_000023.10:g.32361300del describes the deletion of a T from a mononucleotide stretch in the DMD gene. On the opposite strand NC_000023.10:g.32361300 links to nucleotide NM_004006.1:c.5690. However, applying the 3'rule, based on a coding DNA reference sequence this variant is described as NM_004006.1:c.5697del (linking to NC_000023.10:g.32361293). See also [different genomic (g.) and coding DNA (c.) descriptions](../recommendations/DNA/repeated.md).
@@ -118,7 +118,7 @@ Depending on the variants to be reported, different reference sequence files are
 - a non-coding DNA reference sequence does **not contain** intron or 5' and 3' gene flanking sequences and can **not be used** to describe variants in introns and up/down-stream of the gene. Intronic sequences are considered to be **within the boundaries** of a transcript reference sequence and may be used to describe a variant when a genomic reference sequence identifier is provided.
     - for human the recommended transcript to be used to describe variants is the transcript recommended by the **MANE project** (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)).
 - when, based on a genomic reference sequence, variants are reported using a `n.` prefix, the transcript variant used should be indicated
-    - for LRG\_'s the annotated "**transcript variant 1**" is described as `t1`, e.g. LRG_163<code class="spot1">t1</code>:n.5C>T
+    - for LRG_'s the annotated "**transcript variant 1**" is described as `t1`, e.g. LRG_163<code class="spot1">t1</code>:n.5C>T
 - the non-coding DNA reference sequence should be complete, cover the major and largest transcript known
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
 
@@ -128,8 +128,8 @@ Depending on the variants to be reported, different reference sequence files are
 - RNA reference sequences are indicated using a **r.** prefix
     - (human) the recommended transcript to be used to describe variants in a gene is the transcript recommended by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/))
 - when, based on a genomic reference sequence, variants are reported using a "r." prefix, the transcript variant used should be indicated
-    - for NC\_ or NG\_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC_000023.10(NM_004006.2):r.357_358ins357+1_357+12 or NG_012232.1(NM_004006.2):r.357_358ins357+1_357+12
-    - for LRG\_'s the annotated "**transcript variant 1**" is described as `t1`, e.g. LRG_199<code class="spot1">t1</code>:r.11u>g
+    - for NC_ or NG_ reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like NC_000023.10(NM_004006.2):r.357_358ins357+1_357+12 or NG_012232.1(NM_004006.2):r.357_358ins357+1_357+12
+    - for LRG_'s the annotated "**transcript variant 1**" is described as `t1`, e.g. LRG_199<code class="spot1">t1</code>:r.11u>g
 - nucleotide numbering for a RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide r.123 relates to c.123 or n.123.
 - the RNA reference sequence includes the entire transcript, excluding the poly A-tail.
 - when a **gene is located on the minus strand** the location of a variant nucleotide may differ when described based on a genomic or a coding DNA reference sequence (see example under coding DNA reference sequence).
@@ -141,7 +141,7 @@ Depending on the variants to be reported, different reference sequence files are
     - (human) the recommended transcript to be used to describe variants in a gene is the transcript recommended by MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/))
 - a protein reference sequence should **correspond exactly** with the associated DNA and RNA reference sequence used
 - when, based on a genomic reference sequence, variants are reported using a "p." prefix, the reference protein isoform used should be indicated
-    - for LRG\_'s the annotated "**protein isoform 1**" is described as `p1`, e.g. LRG_199<code class="spot1">p1</code>:p.(Val25Gly)
+    - for LRG_'s the annotated "**protein isoform 1**" is described as `p1`, e.g. LRG_199<code class="spot1">p1</code>:p.(Val25Gly)
 - a protein reference sequence should represent the primary translation product, not a processed mature protein, and thus includes the starting Methionine, any signal peptide sequences, etc.
 
 <a id="note"></a>
@@ -152,7 +152,7 @@ Depending on the variants to be reported, different reference sequence files are
 Why not? Two reasons:
 
 - because it creates a "tight coupling" between two systems that have no coordination. For example, what if NCBI wants to change the meaning of the identifers?
-- because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other identifiers (perhaps identifiers not even shared). If the implementation were to **require** that g. variant accessions start with NC\_ (or any predefined list), it would make it impossible to use that software in other contexts
+- because it precludes other systems that might have perfectly valid identifiers. In particular, the thinking here relates to future graph genome work in which segments might be referred to by other identifiers (perhaps identifiers not even shared). If the implementation were to **require** that g. variant accessions start with NC_ (or any predefined list), it would make it impossible to use that software in other contexts
 
 <a id="discuss"></a>
 ## Q&A
@@ -163,7 +163,7 @@ Why not? Two reasons:
 
 !!! note "When I use a human genome reference sequence is it sufficient to mention the genome build, e.g. hg19 or GRCh37?"
 
-    No. A genome build is not a real reference sequence which one can download easily to refer to. The original genome assembly is also updated continuously when new sequences become available and when errors are corrected. These updates are published as so called **"patches"**. While writing this answer, human genome assembly GRCh38/hg38 is at patch version 11 ([GRCh38.p11](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.37#/def_asm_Primary_Assembly)), dated June 14, 2017. When you report to have used genome build hg38 it is thus not clear whether you mean the original assembly or a specific patched version. The preferred genomic reference sequence is a **"NC\_" file**, e.g. NC_000001.10 for human chromosome 1 from the first release of genome build hg19/GRCh37.
+    No. A genome build is not a real reference sequence which one can download easily to refer to. The original genome assembly is also updated continuously when new sequences become available and when errors are corrected. These updates are published as so called **"patches"**. While writing this answer, human genome assembly GRCh38/hg38 is at patch version 11 ([GRCh38.p11](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.37#/def_asm_Primary_Assembly)), dated June 14, 2017. When you report to have used genome build hg38 it is thus not clear whether you mean the original assembly or a specific patched version. The preferred genomic reference sequence is a **NC file**, e.g. NC_000001.10 for human chromosome 1 from the first release of genome build hg19/GRCh37.
 
 !!! note "Why is it necessary to give both the accession AND version number of a reference sequence?"
 

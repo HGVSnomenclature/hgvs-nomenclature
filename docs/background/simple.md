@@ -33,21 +33,21 @@ Reference sequences have a format like **NC_000023.10**, where **NC_000023** is 
 #### Example descriptions
 
 - genomic (nucleotide)
-    - NC\_ a genomic reference sequence based on a chromosome
+    - NC_ a genomic reference sequence based on a chromosome
         - NC_000023.9:g.32317682G>A (Mar.2006: hg18, NCBI36)
         - NC_000023.10:g.32407761G>A (Feb.2009: h19, GRCh37)
         - NC_000023.11:g.32389644G>A (Dec.2013: hg38, GRCh38)
-    - NG\_ a genomic reference sequence based on a Gene or Genomic region
+    - NG_ a genomic reference sequence based on a Gene or Genomic region
         - NG_012232.1:g.954966C>T
-    - LRG\_ a genomic reference sequence, used in a diagnostic setting, based on a Gene or Genomic region
+    - LRG_ a genomic reference sequence, used in a diagnostic setting, based on a Gene or Genomic region
         - LRG_199:g.954966C>T
 - transcript (RNA, nucleotide)
-    - NM\_ a reference sequence based on a protein coding RNA (mRNA)
+    - NM_ a reference sequence based on a protein coding RNA (mRNA)
         - NM_004006.2:c.4375C>T
-    - NR\_ a reference sequence based on a non-protein coding RNA
+    - NR_ a reference sequence based on a non-protein coding RNA
         - NR_002196.1:n.601G>T
 - protein (amino acid)
-    - NP\_ a reference sequence based on a protein (amino acid) sequence
+    - NP_ a reference sequence based on a protein (amino acid) sequence
         - `NP_003997.1:p.Arg1459*` (`p.Arg1459Ter`)
 
 ### Genomic reference sequences
@@ -66,7 +66,7 @@ In a human diagnostic setting the most frequently used reference is a **"coding 
 
 Depending on the change found, the description of the variant can have many different formats. For a detailed overview we refer to the specific pages on this website see ["Recommendations"](../index.md). Here we will list and briefly explain, the major variant types.
 
-A standard variant description has the format **"prefix.position(s)\_change"**. In the variant description c.4375C>T the prefix **"c."** indicates the type of reference sequence used ("c." indicating a coding DNA reference sequence), **"4375"** the position of the nucleotide(s) affected and **"C>T"** the change (a C changed to T).
+A standard variant description has the format **"prefix.position(s)_change"**. In the variant description c.4375C>T the prefix **"c."** indicates the type of reference sequence used ("c." indicating a coding DNA reference sequence), **"4375"** the position of the nucleotide(s) affected and **"C>T"** the change (a C changed to T).
 
 ### Types of variants
 
