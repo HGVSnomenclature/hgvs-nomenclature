@@ -32,7 +32,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.sub
 
 - **nonsense**
 
-    - `LRG_199p1:p.Trp24Ter` (`p.Trp24*`): amino acid Trp24 is changed to a stop codon (Ter, \*): **NOTE:** this change is **not** described as a deletion of the C-terminal end of the protein (i.e. `p.Trp24_Met36853del`)
+    - `LRG_199p1:p.Trp24Ter` (`p.Trp24*`): amino acid Trp24 is changed to a stop codon (`Ter`/`*`): **NOTE:** this change is **not** described as a deletion of the C-terminal end of the protein (i.e. `p.Trp24_Met36853del`)
 
 - **silent** (no change)
 

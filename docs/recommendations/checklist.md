@@ -10,7 +10,7 @@ Going through publications one can easily see where people give variant descript
 
     - Use a RefSeq accession with version number.
     - do not forget the underscore in the accession number (e.g., NM_004006.2).
-    - genomic (g.) reference sequences start with nucleotide 1 and can not have nucleotides with additions like a +, - or \*.
+    - genomic (g.) reference sequences start with nucleotide 1 and can not have nucleotides with additions like a `+`, `-` or `*`.
     - for a coding DNA reference sequence, do you clearly state that nucleotide numbering starts with the A of the ATG translation initiation site as nucleotide 1 ?
     - legacy numbering is only allowed **in addition to** approved numbering
     - does your reference sequence contain the residue that you describe as changed ?
@@ -45,7 +45,7 @@ Going through publications one can easily see where people give variant descript
 
     - the protein reference sequence should represent the primary translation product, not a processed mature protein, and thus include the starting Methionine and a signal peptide sequence
     - the recommendation is to use **three letter amino acid code**
-    - **"Ter" or "\*" should be used** to indicate a translation stop codon; the X should not be used
+    - **`Ter` or `*` should be used** to indicate a translation stop codon; the X should not be used
     - predicted "**silent**" protein level variants are described as **p.(Leu54=)**, not as _p.Leu54Leu_ or _p.54L/L_).
     - the description `p.(Met1Val)` is not allowed (see [Protein](protein/substitution.md))
 

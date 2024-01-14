@@ -31,9 +31,9 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
     - `r.415_1655delins[AC096506.5:g.409_1649]`: conversion replacing nucleotides r.414 to r.1655 with nucleotides 409 to 1649 as found in the genomic reference sequence AC096506.5
     - `r.1401_1446delins[NR_002570.3:r.1513_1558]`: conversion in exon 9 of the CYP2D6 gene replacing exon 9 nucleotides r.1401 to r.1446 with those of the 3' flanking CYP2D7P1 gene, nucleotides r.1513 to r.1558
 - Adjoined transcripts from gene fusions (based on [SVD-WG007](../../consultation/SVD-WG007.md))
-    - translocation-derived adjoined transcript: `NM_152263.2:r.-115_775::NM_002609.3:r.1580_*1924` describes an adjoined transcript from a TPM3::PDGFRB gene fusion, where nucleotides r.-115 to r.775 (reference transcript NM_152263.2, TPM3 gene) are coupled to nucleotides r.1580 to r.\*1924 (reference transcript NM_002609.3, PDGFRB gene)
+    - translocation-derived adjoined transcript: `NM_152263.2:r.-115_775::NM_002609.3:r.1580_*1924` describes an adjoined transcript from a TPM3::PDGFRB gene fusion, where nucleotides r.-115 to r.775 (reference transcript NM_152263.2, TPM3 gene) are coupled to nucleotides r.1580 to `r.*1924` (reference transcript NM_002609.3, PDGFRB gene)
     - deletion-derived adjoined transcripts:
-        - `NM_002354.2:r.-358_555::NM_000251.2:r.212_*279`: describes an adjoined transcript from an EPCAM::MSH2 gene fusion, where nucleotides r.-358 to r.555 (reference transcript NM_002354.2, EPCAM gene) are coupled to nucleotides r.212 to r.\*279 (reference transcript NM_000251.2, MSH2 gene)
+        - `NM_002354.2:r.-358_555::NM_000251.2:r.212_*279`: describes an adjoined transcript from an EPCAM::MSH2 gene fusion, where nucleotides r.-358 to r.555 (reference transcript NM_002354.2, EPCAM gene) are coupled to nucleotides r.212 to `r.*279` (reference transcript NM_000251.2, MSH2 gene)
         - `NM_002354.2:r.?_555::guaugauuuuuuaataa::NM_000251.2:r.212_?`: describes an adjoined transcript from an EPCAM::MSH2 gene fusion, where only the fusion break point has been characterised, showing the insertion of a 17 nucletoide sequence (guaugauuuuuuaataa) between two adjoined transcripts
 
 ## Discussion

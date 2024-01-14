@@ -48,7 +48,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
 ### other examples
 
 - `p.Gly2_Met46del`: a deletion of amino acids Gly2 to Met46 as a consequence of a variant silencing translation initiation at Met1 but activating a new downstream translation initiation site (at Met46) **NOTE:** the 3' rule has been applied.
-- `p.Trp26Ter` (`p.Trp26*`): amino acid Trp26 is changed to a stop codon (Ter, \*) **NOTE:** this change is by definition **not** described as a deletion of the C-terminal end of the protein (i.e. `p.Trp26_Arg1623del`)
+- `p.Trp26Ter` (`p.Trp26*`): amino acid Trp26 is changed to a stop codon (Ter, *) **NOTE:** this change is by definition **not** described as a deletion of the C-terminal end of the protein (i.e. `p.Trp26_Arg1623del`)
 - `NP_003997.1:p.Val7=/del`: a mosaic case where at amino acid position 7 besides the normal amino acid (a Val, described as "Val7=") also protein is found containing a deletion (Val7del): **NOTE:** for the predicted consequences of a variant the description is `NP_003997.1:p.(Val7=/del)`
 
 ## Discussion
