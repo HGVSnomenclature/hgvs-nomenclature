@@ -4,8 +4,6 @@ A detailed explanation of HGVS nomenclature can be found on this website. Summar
 
 - Basics : the basics of the current recommendations are explained in a [slide presentation](../../assets/presentations/HGVS-basics2017.pdf) from **Johan den Dunnen** (last updated Apr.2017).
 
-- Facebook : topics of interest are regularly discussed on the [HGVS nomenclature facebook page](https://www.facebook.com/HGVSmutnomen). The HGVS nomenclature facebook agenda can be used to see where the recommendations are presented/discussed.
-
 - Online sessions : On Monday June 22 we started a series of online HGVS nomenclature Q&A sessions. The meetings will be bi-monthly, on the 4th Tuesday of every 2nd month (even months). The time of the meeting will be alternated to allow people from either Asia+Australia, Europe+Africa or North+South America to participate during the day. For questions to be answered we use the [DirectPoll](https://www.DirectPoll.com) online polling system. The idea is you train yourself and learn HGVS nomenclature by applying the recommendations. For those not able to participate, the questions will be available using a [Socrative](https://www.Socrative.com) classroom (see below). Each event will be listed on the [Human Genome Organisation's (HUGO) Facebook page](https://www.facebook.com/humangenomeorg).
 
 - Test your knowledge : testing your knowledge of the current recommendations can be done using **Question & Answer** tests we make available through the [Socrative platform](http://www.socrative.com). To try, either download the [Socrative Student App](https://www.socrative.com/apps/) or use the Socrative web site and [Login as a Student](https://b.socrative.com/login/student/). When asked, go to a **specific classroom** and give it a try.
