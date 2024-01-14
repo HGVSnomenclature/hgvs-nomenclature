@@ -27,7 +27,7 @@ A sequence variant is defined in the context of a **reference sequence** which m
     - predicted or inferred sequences **should not** be used for variant reporting
     - if a reference sequence becomes unsupported or refuted by evidence, it should no longer be used
 - a `:` (colon) is used as a separator between the reference sequence file identifier (_accession.version-number_) and the actual description of a variant; NC_000011.9<code class="spot1">:</code>g.12345611G>A
-- the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC*000023.11 (for \_Homo sapiens* chromosome X, build GRCh38/hg38)
+- the **recommended reference** is a genomic reference sequence based on a recent genome build, e.g. NC_000023.11 (for \_Homo sapiens* chromosome X, build GRCh38/hg38)
 - specifications to a specific annotated segment of a reference sequence can be given in parentheses directly after the reference sequence
     - NG_012232.1(NM_004006.2) indicates that the variant to be described, is based on the coding DNA reference sequence NM_004006.2 as annotated in NG_012232.1
     - accepted specifications include transcripts (NM_004006.2) and proteins (NP_003997.1). Gene symbols should **not** be used as specification. **Exception:** genes annotated on a genomic reference for which no transcript reference sequence is available, e.g. the Homo sapiens mitochondrion complete genome (GenBank NC_012920.1).

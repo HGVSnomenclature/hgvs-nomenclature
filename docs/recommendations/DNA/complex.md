@@ -43,30 +43,30 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
         - t(3;14)(14qter->14q12::3p22.2->3qter;14pter->14q12::3p22.2->3pter): _(between short arm chromosome 3 and long arm chromosomes 14, with an inserted sequence at the break point on the derivative chromosome 3)_
             - `NC_000003.12:g.pter_36969141delins[CATTTGTTCAAATTTAGTTCAAATGA;NC_000014.9:g.29745314_qterinv]`: **NC_000014.9:g.29745314_qterdelins[NC_000003.12:g.36969141_pterinv]**
             - ISCN: chr14:g.pter_cen_29,745,313::chr3:g.pter_36,969,141inv (der14) and chr14:g.29,745,314_qterinv::CATTTGTTCAAATTTAGTTCAAATGA::chr3:g.36,969,142_cen_qter (der3)
-        - NC*000009.12:g.pter_26393001delins102425452_qterinv: **NC_000009.12:g.102425452_qterdelinspter_26393001inv**: for ISCN t(9;9)(9qter->9q22.33::9p21.2->9qter;9pter->9q22.33::9p21.2->9pter): *(between homologous chromosomes, based on [Ordulu et al. example](<https://www.cell.com/ajhg/fulltext/S0002-9297(14)00172-4>))_
+        - NC_000009.12:g.pter_26393001delins102425452_qterinv: **NC_000009.12:g.102425452_qterdelinspter_26393001inv**: for ISCN t(9;9)(9qter->9q22.33::9p21.2->9qter;9pter->9q22.33::9p21.2->9pter): *(between homologous chromosomes, based on [Ordulu et al. example](<https://www.cell.com/ajhg/fulltext/S0002-9297(14)00172-4>))_
     - **unbalanced**
-        - NC*000002.12:g.pter_8247756delins[NC_000011.10:g.pter_15825266]: for ISCN der(2)t(2;11)(p25.1;p15.2): *(derivative chromosome 2, translocation between short arms chromosomes 2 and 11)_
-        - NC*000003.12:g.158573187_qterdelins[NC_000008.11:g.(128534000_128546000)_qter]: for ISCN der(3)(3pter->3q25.32::8q24.21->8qter): *(derivative chromosome 3, translocation between long arms chromosomes 3 and 8, with an estimated nucleotide range for the break point on chromosome 8, based on uncertain break point localization example from [Ordulu et al. example](<https://www.cell.com/ajhg/fulltext/S0002-9297(14)00172-4>))_
-        - NC*000005.10:g.29658442delins[NC_000010.11:g.67539995_qterinv]: for ISCN der(5)t(5;10)(p13.3;q21.3): *(derivative chromosome 5, translocation between short arm chromosome 5 and long arm chromosome 10 with homology at the break point (chr5 29658440*29658442 and chr10 67539995_67539997), based on Homology examples in [Ordulu et al. example](<https://www.cell.com/ajhg/fulltext/S0002-9297(14)00172-4>))*
+        - NC_000002.12:g.pter_8247756delins[NC_000011.10:g.pter_15825266]: for ISCN der(2)t(2;11)(p25.1;p15.2): *(derivative chromosome 2, translocation between short arms chromosomes 2 and 11)_
+        - NC_000003.12:g.158573187_qterdelins[NC_000008.11:g.(128534000_128546000)_qter]: for ISCN der(3)(3pter->3q25.32::8q24.21->8qter): *(derivative chromosome 3, translocation between long arms chromosomes 3 and 8, with an estimated nucleotide range for the break point on chromosome 8, based on uncertain break point localization example from [Ordulu et al. example](<https://www.cell.com/ajhg/fulltext/S0002-9297(14)00172-4>))_
+        - NC_000005.10:g.29658442delins[NC_000010.11:g.67539995_qterinv]: for ISCN der(5)t(5;10)(p13.3;q21.3): *(derivative chromosome 5, translocation between short arm chromosome 5 and long arm chromosome 10 with homology at the break point (chr5 29658440*29658442 and chr10 67539995_67539997), based on Homology examples in [Ordulu et al. example](<https://www.cell.com/ajhg/fulltext/S0002-9297(14)00172-4>))*
 - **inversion, pericentric**
-    - NC*000006.12:g.[776788_93191545inv;93191546T>C]: for ISCN inv(6)(pter->p25.3::q16.1->p25.3::q16.1->qter): *(with substitution at break point)_
-    - NC*000002.12:g.[32310435_32310710del;32310711_171827243inv;insG]: for ISCN inv(2)(pter->p22.3::q31.1->p22.3::q31.1->qter)dn: *(de novo, with 275 bp deletion and 1 bp insertion at break points)_: **NOTE:** the HGVS description does not include the de novo occurrence of the variant
+    - NC_000006.12:g.[776788_93191545inv;93191546T>C]: for ISCN inv(6)(pter->p25.3::q16.1->p25.3::q16.1->qter): *(with substitution at break point)_
+    - NC_000002.12:g.[32310435_32310710del;32310711_171827243inv;insG]: for ISCN inv(2)(pter->p22.3::q31.1->p22.3::q31.1->qter)dn: *(de novo, with 275 bp deletion and 1 bp insertion at break points)_: **NOTE:** the HGVS description does not include the de novo occurrence of the variant
 - **deletion**
-    - NC*000023.11:g.(86200001_103700000)del: for ISCN del(X)(q21.31q22.2): *(within a chromosome, breakpoint not sequenced)_
-    - NC*000022.11:g.pter_(12200001_14700000)del::(37600001_410000000)_qterdel: for ISCN r(22)(p11.1q13.1): *(ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:** "::" is used to indicate the join instead of ";" to describe two not connected deletions
+    - NC_000023.11:g.(86200001_103700000)del: for ISCN del(X)(q21.31q22.2): *(within a chromosome, breakpoint not sequenced)_
+    - NC_000022.11:g.pter_(12200001_14700000)del::(37600001_410000000)_qterdel: for ISCN r(22)(p11.1q13.1): *(ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:** "::" is used to indicate the join instead of ";" to describe two not connected deletions
 - **insertion**
     - **duplication** (tandem)
-        - NC*000008.11:g.(127300001_131500000)_(131500001_136400000)dup: for ISCN dup(8)(q24.21q24.22): *(within a chromosome, breakpoint not sequenced)_
-        - NC*000008.11:g.(131500001_136400000)ins[(127300001_131500000)_(131500001_136400000)inv]: for ISCN dup(8)(q24.22q24.21): *(within a chromosome, orientation reversed relative to original sequence, breakpoint not sequenced)_
+        - NC_000008.11:g.(127300001_131500000)_(131500001_136400000)dup: for ISCN dup(8)(q24.21q24.22): *(within a chromosome, breakpoint not sequenced)_
+        - NC_000008.11:g.(131500001_136400000)ins[(127300001_131500000)_(131500001_136400000)inv]: for ISCN dup(8)(q24.22q24.21): *(within a chromosome, orientation reversed relative to original sequence, breakpoint not sequenced)_
     - **insertion**
-        - NC*000004.12:g.134850793_134850794ins[NC_000023.11:g.89555676_100352080inv]: for ISCN der(4)ins(4;X)(q28.3;q22.2q21.31): *(inserted sequence reversed in orientation relative to chromosome sequence containing centromere)_
+        - NC_000004.12:g.134850793_134850794ins[NC_000023.11:g.89555676_100352080inv]: for ISCN der(4)ins(4;X)(q28.3;q22.2q21.31): *(inserted sequence reversed in orientation relative to chromosome sequence containing centromere)_
     - **transposition**
         - **balanced** (deletion + insertion elsewhere)
-            - HGVS NC*000004.12:g.134850793_134850794ins[NC_000023.11:g.89555676_100352080] and `NC_000023.11:g.89555676_100352080del`: for ISCN ins(4;X)(q28.3;q21.31q22.2): *(balanced intrachromosomal, inserted sequence same orientation as chromosome sequence containing centromere, based on [Ordulu et al. Fig.1C](<https://www.cell.com/ajhg/fulltext/S0002-9297(14)00172-4>))_
-            - NC*000004.12:g.134850793_134850794ins[NC_000023.11:g.89555676_100352080inv] and `NC_000023.11:g.89555676_100352080del`: for ISCN ins(4;X)(q28.3;q22.2q21.31): *(balanced intrachromosomal, inserted sequence reversed in orientation relative to chromosome sequence containing centromere)_
+            - HGVS NC_000004.12:g.134850793_134850794ins[NC_000023.11:g.89555676_100352080] and `NC_000023.11:g.89555676_100352080del`: for ISCN ins(4;X)(q28.3;q21.31q22.2): *(balanced intrachromosomal, inserted sequence same orientation as chromosome sequence containing centromere, based on [Ordulu et al. Fig.1C](<https://www.cell.com/ajhg/fulltext/S0002-9297(14)00172-4>))_
+            - NC_000004.12:g.134850793_134850794ins[NC_000023.11:g.89555676_100352080inv] and `NC_000023.11:g.89555676_100352080del`: for ISCN ins(4;X)(q28.3;q22.2q21.31): *(balanced intrachromosomal, inserted sequence reversed in orientation relative to chromosome sequence containing centromere)_
         - **unbalanced** (copy inserted elsewhere): describe as insertion
 - **supernumerary chromosome**
-    - NC*000022.11:g.[pter_(12200001_14700000)del::(37600001_410000000)_qterdel]sup: for ISCN +r(22)(p11.1q13.1): *(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:** changed in ISCN2020. ISCN2016 had: "add" for additional sequence
+    - NC_000022.11:g.[pter_(12200001_14700000)del::(37600001_410000000)_qterdel]sup: for ISCN +r(22)(p11.1q13.1): *(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:** changed in ISCN2020. ISCN2016 had: "add" for additional sequence
 
 ## Discussion
 
