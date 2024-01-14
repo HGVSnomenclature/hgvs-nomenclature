@@ -1,0 +1,12 @@
+#!/bin/bash
+# in-place replacement of urls in markdown
+#
+# You should start with a clean repo, or at least stage all changes, to have an
+# easy way to backout
+#
+#     ./bin/replace-url http://www.HGVS.org/blah/ https://hgvs-nomenclature.org/blah/
+#     git diff
+
+shopt -s globstar
+
+perl -i -p0e "s^$1^$2^g" **/*.md

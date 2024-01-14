@@ -60,11 +60,11 @@ Genomic reference sequences can also be based on smaller sequences not covering 
 
 ### Coding DNA reference sequences
 
-In a human diagnostic setting the most frequently used reference is a **"coding DNA reference sequence"** (description starting with **"c."**, e.g. NM_004006.3:c.4375C>T). Variant descriptions based on this format are very popular because they directly link to the encoded protein. In protein coding DNA reference sequences numbering **starts** with 1 at the first position of the protein coding region, the A of the translation initiating ATG triplet. Numbering **ends** at the last position of the ending triplet, the last position of the translation stop codon (TAA, TAG or TGA). When you divide the position number from a "c." description by three you get the affected amino acid residue from the protein sequence (description starting with "p."); for `NM_004006.3:c.4375C>T` (with predicted consequence on protein level `p.(Arg1459*`)), i.e. 4375 divided by three gives amino acid 1459. **NOTE:** positions in front of the protein coding sequence get a minus sign (e.g. **"c.-26"**), those after the translation stop an asterisk (e.g. `c.*85`). Numbering in intronic sequences has a format like `c.530+6` or `c.531-23`. For details see ["Reference Sequences"](http://varnomen.hgvs.org/background/refseq/). The most frequently used coding DNA reference sequences are the NM's (RefSeq gene transcript sequences, e.g. NM_004006.2) and LRG's (Locus Genomic Reference sequences, e.g. LRG_199t1).
+In a human diagnostic setting the most frequently used reference is a **"coding DNA reference sequence"** (description starting with **"c."**, e.g. NM_004006.3:c.4375C>T). Variant descriptions based on this format are very popular because they directly link to the encoded protein. In protein coding DNA reference sequences numbering **starts** with 1 at the first position of the protein coding region, the A of the translation initiating ATG triplet. Numbering **ends** at the last position of the ending triplet, the last position of the translation stop codon (TAA, TAG or TGA). When you divide the position number from a "c." description by three you get the affected amino acid residue from the protein sequence (description starting with "p."); for `NM_004006.3:c.4375C>T` (with predicted consequence on protein level `p.(Arg1459*`)), i.e. 4375 divided by three gives amino acid 1459. **NOTE:** positions in front of the protein coding sequence get a minus sign (e.g. **"c.-26"**), those after the translation stop an asterisk (e.g. `c.*85`). Numbering in intronic sequences has a format like `c.530+6` or `c.531-23`. For details see ["Reference Sequences"](../refseq/). The most frequently used coding DNA reference sequences are the NM's (RefSeq gene transcript sequences, e.g. NM_004006.2) and LRG's (Locus Genomic Reference sequences, e.g. LRG_199t1).
 
 ## Variants
 
-Depending on the change found, the description of the variant can have many different formats. For a detailed overview we refer to the specific pages on this website see [header "Recommendations"](http://varnomen.hgvs.org/recommendations). Here we will list and briefly explain, the major variant types.
+Depending on the change found, the description of the variant can have many different formats. For a detailed overview we refer to the specific pages on this website see ["Recommendations"](../../). Here we will list and briefly explain, the major variant types.
 
 A standard variant description has the format **"prefix.position(s)\_change"**. In the variant description c.4375C>T the prefix **"c."** indicates the type of reference sequence used ("c." indicating a coding DNA reference sequence), **"4375"** the position of the nucleotide(s) affected and **"C>T"** the change (a C changed to T).
 
@@ -83,7 +83,7 @@ All variants given are in the DMD gene and reported in relation to coding DNA re
 - deletion/insertion (indel): one or more letters in the DNA code are missing and replaced by several new letters. A deletion/insertion is indicated using **"delins"**.
     - c.4375_4376delinsAGTT: the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375_4376delCGinsAGTT.
 
-There are more variant types yet these occur less frequently. For details see [header "Recommendations"](http://varnomen.hgvs.org/recommendations).
+There are more variant types yet these occur less frequently. For details see [Recommendations](../../).
 
 ### Aliases
 

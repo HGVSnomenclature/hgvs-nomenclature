@@ -44,7 +44,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
 
 !!! note "Can I describe a "gc" to "ug" variant as a dinucleotide substitution (<code class="invalid">r.4gc>ug</code>)?"
 
-    No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](http://www.HGVS.org/varnomen/recommendations/RNA/variant/substitution/)). The change <code>augu<code class="del">gc</code>ca</code> to <code>augu<code class="ins">ug</code>ca</code> should be described as `r.5_6delinsug`, i.e. a deletion/insertion (indel).
+    No this is not allowed. By definition a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](https://hgvs-nomenclature.org/recommendations/RNA/substitution/)). The change <code>augu<code class="del">gc</code>ca</code> to <code>augu<code class="ins">ug</code>ca</code> should be described as `r.5_6delinsug`, i.e. a deletion/insertion (indel).
 
 !!! note "The BRCA1 coding RNA reference sequence from position r.2074 to r.2080 is `caugaca`. A variant frequently found in the population is <code>cau<code class="sub">a</code>aca</code> (`r.2077g>a`). In a patient I found the sequence <code>cau<code class="sub">a</code><code class="ins">ua</code>aca</code>. Can I describe this variant as <code class="invalid">r.[2077g>a;2077_2078insua]</code>?"
 

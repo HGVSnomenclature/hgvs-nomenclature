@@ -26,7 +26,7 @@ The committees propose that as soon as nucleotide positions are used in the desc
 - both the ISCN-like description of chromosome aberrations and the HGVS-like nucleotide variant descriptions must be included for full clarity and information
 - the ISCN-like portion of the description appears first and can be modeled on the short or long form ISCN description of structural rearrangements
 - the ISCN-like portion of the description begins with "**seq**" to indicate that the aberration was identified by sequence-based technology. The description must include the genome build in square brackets after "**seq[..]**".
-- the combined nomenclature uses the existing HGVS standards [(_see HGVS website_)](http://www.HGVS.org/varnomen/) for the HGVS-like portion, along with additional recommendations outlined below
+- the combined nomenclature uses the existing HGVS standards [(_see HGVS website_)](https://hgvs-nomenclature.org/) for the HGVS-like portion, along with additional recommendations outlined below
 
 ##### HGVS additions
 

@@ -6,10 +6,6 @@ Discussions regarding the uniform and unequivocal description of sequence varian
 
 This nomenclature website was established to give an up-to-date overview of all recommendations, the changes made and the extensions approved. In addition the web site provides background information, examples of descriptions based on the nomenclature and link to support tools and educational material. These pages can be used as a guide to describe any sequence variant identified and should help to get a uniformly accepted standard. The chair of the SVD-WG takes care of this website, answers questions, handles requests to change or extend the recommendations, prepares proposals for community consultation, publishes new versions of the standards and assigns HGVS nomenclature version numbers.
 
-### Questions?
-
-Questions about the HGVS nomenclature should be addressed to **"Varnomen @ HUGO-int.org"** (remove spaces). When having a specific question, please do not forget to mention the **reference sequence(s)** you use!
-
 ### Changes
 
 Any proposal made by the HVNC will be published on this website and be open for a 2-month period of **Community Consultation**. During this period everybody interested is asked to study the proposal and send comments, positive or negative, to the committee. Comments to proposals should be addressed to **"Varnomen @ HUGO-int.org"** (remove spaces), Subject: HVNC-xxx (xxx the proposal number, e.g. HVNC-011). After two months the HVNC will collect all responses, evaluate them and take a decision. Proposals might be approved, rejected or modified for a new round of consultation. All decisions will be published on this website. To make sure that you receive notification of any proposal published for Community Consultation, please register at the HUGO office (E-mail info @ variome.org), Subject: HVNC discussion list). For proposals open for Community Consultation and issues currently discussed, see [Open Issues](../consultation/open-issues.md).
