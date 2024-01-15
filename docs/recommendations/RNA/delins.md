@@ -18,7 +18,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
     - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g. `r.142_144delinsugg` `p.(Arg48Trp)`).<br>
       **NOTE:** this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position.
     - **conversions**, a sequence change where a range of nucleotides are replaced by a sequence from elsewhere in the genome, are described as a "delins". The previous format "con" is no longer used (see [Community Consultation SVD-WG009)](../../consultation/SVD-WG009.md)).
-- RNA-fusion transcripts represent a special case of deletion-insertion variant. The fusion break point is described using **"::"**.<br>
+- Adjoined transcripts from gene fusions represent a special case of deletion-insertion variant. The fusion break point is described using **"::"**.<br>
   **NOTE:** to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to describe products of gene translocations or fusions (format `GENESYMBOL1::GENESYMBOL2`) and readthrough transcripts (format `GENESYMBOL1-GENESYMBOL2`).
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**)
 
@@ -40,14 +40,14 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
       conversion replacing nucleotides `r.414` to `r.1655` with nucleotides 409 to 1649 as found in the genomic reference sequence AC096506.5
     - `r.1401_1446delins[NR_002570.3:r.1513_1558]`<br>
       conversion in exon 9 of the CYP2D6 gene replacing exon 9 nucleotides `r.1401` to `r.1446` with those of the 3' flanking CYP2D7P1 gene, nucleotides `r.1513` to `r.1558`
-- RNA fusion transcripts (based on [SVD-WG007](../../consultation/SVD-WG007.md))
-    - translocation fusion<br>
-      `NM_152263.2:r.-115_775::NM_002609.3:r.1580_*1924` describes a `TPM3::PDGFRB` fusion transcript where nucleotides `r.-115` to `r.775` (reference transcript NM_152263.2, TPM3 gene) are coupled to nucleotides `r.1580` to `r.*1924` (reference transcript NM_002609.3, PDGFRB gene)
-    - deletion fusion
+- Adjoined transcripts from gene fusions (based on [SVD-WG007](../../consultation/SVD-WG007.md))
+    - translocation-derived adjoined transcript<br>
+      `NM_152263.2:r.-115_775::NM_002609.3:r.1580_*1924` describes an adjoined transcript from a `TPM3::PDGFRB` gene fusion, where nucleotides `r.-115` to `r.775` (reference transcript NM_152263.2, TPM3 gene) are coupled to nucleotides `r.1580` to `r.*1924` (reference transcript NM_002609.3, PDGFRB gene)
+    - deletion-derived adjoined transcripts
         - `NM_002354.2:r.-358_555::NM_000251.2:r.212_*279`<br>
-          describes an `EPCAM::MSH2` fusion transcript where nucleotides `r.-358` to `r.555` (reference transcript NM_002354.2, EPCAM gene) are coupled to nucleotides `r.212` to `r.*279` (reference transcript NM_000251.2, MSH2 gene)
+          describes an adjoined transcript from an `EPCAM::MSH2` gene fusion, where nucleotides `r.-358` to `r.555` (reference transcript NM_002354.2, EPCAM gene) are coupled to nucleotides `r.212` to `r.*279` (reference transcript NM_000251.2, MSH2 gene)
         - `NM_002354.2:r.?_555::guaugauuuuuuaataa::NM_000251.2:r.212_?`<br>
-          describes an `EPCAM::MSH2` fusion transcript where only the fusion break point has been characterised, showing the insertion of a 17 nucletoide sequence (`guaugauuuuuuaataa`) between two fusion transcripts
+          describes an adjoined transcript from an `EPCAM::MSH2` gene fusion, where only the fusion break point has been characterised, showing the insertion of a 17 nucletoide sequence (`guaugauuuuuuaataa`) between two adjoined transcripts
 
 ## Discussion
 

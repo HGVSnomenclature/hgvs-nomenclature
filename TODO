@@ -5,3 +5,11 @@ MT-ND1{NC\_012920.1} in docs/background/refseq.md
 **c.78**T>C
 **<span class="spotlight">:</span>**
 n.611<span class="spotlight">=</span>
+
+
+
+## use relocatable URLS
+
+Problem: It's convenient to refer to the root of the markdown and rendered site
+as / in href and src attributes. However, when RTD deploys to a branch, that doesn't work.
+See https://foosel.net/til/how-to-make-mkdocs-support-siteurl-relative-urls/

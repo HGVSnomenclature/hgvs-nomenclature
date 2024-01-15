@@ -50,9 +50,9 @@ Variants affecting RNA splicing result in either a [deletion](deletion.md) or [i
     - `NC_000023.11(NM_004006.2):r.649_650ins650-1400_650-1268`<br>
       as a consequence of an intron 7 variant (`c.650-1401T>G`) a new exon is created and its sequence (positions 650-1400 to 650-1268) is inserted in the transcript<br>
       alternative description `LRG_199t1:r.649_650ins650-1400_650-1268`
-- **fusion transcript** (based on [SVD-WG007](../../consultation/SVD-WG007.md))
+- **adjoined transcript** (based on [SVD-WG007](../../consultation/SVD-WG007.md))
     - `NM_002354.2:r.-358_555::NM_000251.2:r.212_*279`<br>
-      describes an `EPCAM::MSH2` fusion transcript where nucleotides `r.-358` to `r.555` (EPCAM gene, reference transcript NM_002354.2) are spliced to nucleotides `r.212` to `r.*279` (MSH2 gene, reference transcript NM_000251.2)
+      describes an adjoined transcript from an `EPCAM::MSH2` gene fusion, where nucleotides `r.-358` to `r.555` (EPCAM gene, reference transcript NM_002354.2) are spliced to nucleotides `r.212` to `r.*279` (MSH2 gene, reference transcript NM_000251.2)
 - **uncertain** (RNA not analysed)
     - `NC_000023.11(NM_004006.2):r.(76a>c)`<br>
       RNA was not analysed but a substitution of the "a" nucleotide at `r.76` by a "c" is predicted
