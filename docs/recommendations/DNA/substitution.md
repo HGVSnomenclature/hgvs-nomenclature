@@ -24,30 +24,30 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 ## Examples
 
 - **`NC_000023.10:g.33038255C>A`**<br>
-  a substitution of the C nucleotide at g.33038255 by an A.
+  a substitution of the `C` nucleotide at `g.33038255` by an `A`.
 
 - **`NG_012232.1(NM_004006.2):c.93+1G>T`**<br>
-  a substitution of the G nucleotide at `c.93+1` (coding DNA reference sequence) by a T.
+  a substitution of the `G` nucleotide at `c.93+1` (coding DNA reference sequence) by a `T`.
 
 - **`LRG_199t1:c.79_80delinsTT`**<br>
-  nucleotides `c.79` and `c.80` are replaced by TT.<br>
+  nucleotides `c.79` and `c.80` are replaced by `TT`.<br>
   **NOTE**: changes involving two or more consecutive nucleotides are described as deletion-insertion (delins) so the description <code class="invalid">c.[79G>T;80C>T]</code> is not correct.<br>
   **NOTE**: based on the definition of a substitution, i.e. **one** nucleotide replaced by **one** other nucleotide, this change can not be described as a substitution like <code class="invalid">c.79_80GC>TT</code> or <code class="invalid">c.79GC>TT</code>.
 
 - **`NM_004006.2:c.145_147delinsTGG`**<br>
-  two substitutions replacing codon CGC (positions `c.145` to `c.147`) by TGG.<br>
+  two substitutions replacing codon `CGC` (positions `c.145` to `c.147`) by `TGG`.<br>
   **NOTE**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" so the description <code class="invalid">c.[145C>T;147C>G]</code> is not correct (see [deletion/insertion](delins.md)).
 
 - **`LRG_199t1:c.54G>H`**<br>
-  a substitution of the G nucleotide at `c.54` (coding DNA reference sequence) by A, C, or T (IUPAC code "H", see [Standards](../../background/standards.md)).
+  a substitution of the `G` nucleotide at `c.54` (coding DNA reference sequence) by `A`, `C`, or `T` (IUPAC code "H", see [Standards](../../background/standards.md)).
 
 - **`NM_004006.2:c.123=`**<br>
-  a screen was performed showing that nucleotide `c.123` was a "C" as in the coding DNA reference sequence (the nucleotide was not changed).<br>
+  a screen was performed showing that nucleotide `c.123` was a `C` as in the coding DNA reference sequence (the nucleotide was not changed).<br>
   **NOTE**: the description `NM_004006.2:c.=` can not be used, `c.=` indicates the entire `NM_004006.2` coding DNA reference sequence was analysed and no change was identified.<br>
   **NOTE**: the description `LRG_199t1:c.94-23_188+33=` indicates no variants where found in the region indicated (exon 3 of the _DMD_ gene).
 
 - **`LRG_199t1:c.85=/T>C`**<br>
-  a mosaic case where at position 85 besides the normal sequence (a T, described as "=") also chromosomes are found containing a C (`c.85T>C`).<br>
+  a mosaic case where at position `c.85` besides the normal sequence (a `T`, described as "=") also chromosomes are found containing a `C` (`c.85T>C`).<br>
   **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first.
 
 - **`NM_004006.2:c.85=//T>C`**<br>
@@ -79,7 +79,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
     In the past, the format <code class="invalid">c.76A/G</code> has been used to describe "polymorphic" sequence variants.
     Note that a description should be neutral, simply describe the change, and not include any other information like predicted or known functional consequences.
 
-!!! note "Can I describe a GC to TG variant as a dinucleotide substitution (<code class="invalid">NG_012232.1:g.12GC>TG</code>)?"
+!!! note "Can I describe a `GC` to `TG` variant as a dinucleotide substitution (<code class="invalid">NG_012232.1:g.12GC>TG</code>)?"
 
     No, this is not allowed.
     By definition a substitution changes **one** nucleotide into **one** other nucleotide.

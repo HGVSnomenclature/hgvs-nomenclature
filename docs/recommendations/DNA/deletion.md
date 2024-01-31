@@ -22,7 +22,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
     - **exception**: deletions around exon/exon junctions when identical nucleotides flank the junction (see [Numbering](../../background/numbering.md#DNAc));<br>
       when `..GA`<code class="del">T</code>`gta..//..cagTCA..` changes to `..GAgta..//..cagTCA..`, based on a coding DNA reference sequence, the variant is described as `LRG_199t1:c.3921del` (`NC_000023.10:g.32459297del`) and not as `c.3922del` (which would translate to `g.32456507del`).
-- † = see [Uncertain](../uncertain.md) when the position and/or the sequence of a deletion has not been defined, a description may have a format like `g.(100_150)del(15)`.
+- † = see [Uncertain](../uncertain.md); when the position and/or the sequence of a deletion has not been defined, a description may have a format like `g.(100_150)del(15)`.
 
 ## Examples
 
@@ -142,9 +142,9 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
     Consequently, the precise description can only be like `c.(987+123_?)del`.
     Is this realy more informative then `c.(987+1_?)del`, using the exon 3 exon/intron border?
 
-!!! note "In literature I often see the description "deltaF508" for a variant in the CFTR gene in patients with Cystic Fibrosis. Is the variant detected in these patients <code class="invalid">NM_000492.3:c.1522_1524delTTT</code>?"
+!!! note "In literature I often see the description "deltaF508" for a variant in the _CFTR_ gene in patients with Cystic Fibrosis. Is the variant detected in these patients <code class="invalid">NM_000492.3:c.1522_1524delTTT</code>?"
 
-    No. The sequence surrounding amino acid Phe508 in the CFTR gene is `..ATCTTTGGT..` (`c.1519` to `c.1527`).
+    No. The sequence surrounding amino acid Phe508 in the _CFTR_ gene is `..ATCTTTGGT..` (`c.1519` to `c.1527`).
     Three different deletions (`..A`<code class="del">TCT</code>`TTGGT..`, `..AT`<code class="del">CTT</code>`TGGT..`, and `..ATC`<code class="del">TTT</code>`GGT..`) would give the reported protein variant `p.Phe508del`.
     Applying the 3' rule (see [Recommendations](../general.md)) yields two different changes at DNA level, `NM_000492.3:c.1521_1523del` and `NM_000492.3:c.1522_1524del`.
     When you assume the change at DNA level is `c.1522_1524del`, deletion of exactly the Phe508 encoding triplet, you are wrong.

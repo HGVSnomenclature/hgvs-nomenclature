@@ -15,35 +15,35 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
 - "positions_duplicated" should contain **two different positions**, e.g., `123_126`, not `123_123`.
 - the "positions_duplicated" should be listed from **5' to 3'**, e.g., `123_126`, not `126_123`.
 - by definition, duplication may only be used when the additional copy is **directly 3'-flanking** of the original copy (a "tandem duplication").
-    - when a variant can be described as a duplication it **must** be described as a duplication and not as, e.g., an insertion (see _Prioritization_](../general.md).
+    - when a variant can be described as a duplication, it **must** be described as a duplication and not as, e.g., an insertion (see [_Prioritization_](../general.md).
     - when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking the original copy), the change can not be described as a duplication; it should be described as **an insertion** (see [Insertion](insertion.md) and [proposal SVD-WG003](../../consultation/SVD-WG003.md)).
     - **inverted duplications** are described as insertion (`g.234_235ins123_234inv`), not as a duplication (see [Inversion](inversion.md)).
 - when more than one additional copies are inserted directly 3' of the original copy, the change is indicated using the format for [Repeated sequences](repeated.md), like `[3]` (triplication), `[4]` (quadruplication), etc.
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".
-    - exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
+    - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
       **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
       The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.
 - for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
     - **exception**: duplications around exon/exon junctions when identical nucleotides flank the junction (see [Numbering](../../background/numbering.md#DNAc));<br>
       when `..GA`<code class="del">T</code>`gta..//..cagTCA..` changes to `..GA`<code class="ins">TT</code>`gta..//..cagTCA..`, based on a coding DNA reference sequence, the variant is described as `LRG_199t1:c.3921dup` (`NC_000023.10:g.32459297dup`) and not as `c.3922dup` (which would translate to `g.32456507dup`).
-- † = see [Uncertain](../uncertain.md) when the position and/or the sequence of a duplication has not been defined.
+- † = see [Uncertain](../uncertain.md); when the position and/or the sequence of a duplication has not been defined.
 
 ## Examples
 
 - one nucleotide
     - **`NM_004006.2:c.20dup` (`NC_000023.10:g.33229410dup`)**<br>
-      the duplication of a T at position `c.20` in the sequence `AGAAG`<code class="del">T</code>`AGAGG` to `AGAAG`<code class="ins">TT</code>`AGAGG`.<br>
+      the duplication of a `T` at position `c.20` in the sequence `AGAAG`<code class="del">T</code>`AGAGG` to `AGAAG`<code class="ins">TT</code>`AGAGG`.<br>
       **NOTE**: it is **not** allowed to describe the variant as `c.19_20insT` (see [prioritisation](../general.md)).<br>
       **NOTE**: the recommendation is not to describe the variant as <code class="invalid">NM_004006.2:c.20dupT</code>, i.e. describe the duplicated nucleotide sequence.
       This description is longer, it contains redundant information, and chances to make an error increases (e.g., <code class="invalid">NM_004006.2:c.20dupG</code>).
 
     - **`NM_004006.2:c.5697dup` (3'rule)**<br>
-      a duplication of the A at position `c.5697` in the sequence `ATTGAAAAAAA`<code class="del">A</code>`TTAG` to `ATTGAAAAAAA`<code class="ins">AA</code>`TTAG`, i.e. the last A of the 8 nucleotide A-stretch running from position `c.5690` to `c.5697`.<br>
+      a duplication of the `A` at position `c.5697` in the sequence `ATTGAAAAAAA`<code class="del">A</code>`TTAG` to `ATTGAAAAAAA`<code class="ins">AA</code>`TTAG`, i.e. the last `A` of the 8 nucleotide A-stretch running from position `c.5690` to `c.5697`.<br>
       **NOTE**: the 3'rule has been applied here stating that **"for all descriptions the most 3' position possible is arbitrarily assigned to have been changed"** (see [General_Recommendations](../general.md).
 
     - **`NC_000023.11:g.32343183dup` (3'rule)**<br>
-      a duplication of the T at position `g.32343183` in the sequence `CTAATTTTTTT`<code class="del">T</code>`CAAT` to `CTAATTTTTTT`<code class="ins">TT</code>`CAAT`, i.e. the last T of the 8 nucleotide T-stretch running from position `g.32343176` to `g.32343183`.<br>
-      **NOTE**: the T nucleotide in `NC_000023.11:g.32343183` corresponds to the A nucleotide in `NM_004006.2:c.5690`, a transcript annotated on the minus strand of the X-chromosome.
+      a duplication of the `T` at position `g.32343183` in the sequence `CTAATTTTTTT`<code class="del">T</code>`CAAT` to `CTAATTTTTTT`<code class="ins">TT</code>`CAAT`, i.e. the last `T` of the 8 nucleotide T-stretch running from position `g.32343176` to `g.32343183`.<br>
+      **NOTE**: the `T` nucleotide in `NC_000023.11:g.32343183` corresponds to the `A` nucleotide in `NM_004006.2:c.5690`, a transcript annotated on the minus strand of the X-chromosome.
       However, applying the 3'rule, the deletion of this nucleotide based on a coding DNA reference sequence (transcript level) should be described as `NM_004006.2:c.5697dup` (not as `NM_004006.2:c.5690dup`).
 
 - several nucleotides
@@ -58,17 +58,17 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
 - exon/intron/exon
     - exon/exon
         - **`NC_000023.11(NM_004006.2):c.3921dup`**<br>
-          the duplication of the T nucleotide at the exon/exon border in the sequence `..GA`<code class="del">T</code>`gta..//..cagTCA..` changing to `..GA`<code class="ins">TT</code>`gta..//..cagTCA..`.<br>
+          the duplication of the `T` nucleotide at the exon/exon border in the sequence `..GA`<code class="del">T</code>`gta..//..cagTCA..` changing to `..GA`<code class="ins">TT</code>`gta..//..cagTCA..`.<br>
           **NOTE**: according to an exception to the 3'rule, the variant (`NC_000023.11:g.32441180dup`) is **not described** as `c.3922dup` since this would shift the position of the variant to the next exon (`c.3922` linking to `g.32441180`) (see [exception in Numbering](../../background/numbering.md#DNAc) and see [Q&A](deletion.md#6del)).
 
     - exon/intron
         - **`NC_000023.11(NM_004006.2):c.1704+1dup`**<br>
-          the duplication of the G nucleotide at the exon/intron border in the sequence `GAACAG`<code class="del">g</code>`t..//..agTGCCTT` changing to `GAACAG`<code class="ins">gg</code>`t..//..agTGCCTT` (not `c.1704dup`).<br>
+          the duplication of the `G` nucleotide at the exon/intron border in the sequence `GAACAG`<code class="del">g</code>`t..//..agTGCCTT` changing to `GAACAG`<code class="ins">gg</code>`t..//..agTGCCTT` (not `c.1704dup`).<br>
           **NOTE**: this description does not depend on the effect observed on RNA level, giving either altered splicing or `r.1704dup`.
 
     - intron/exon
         - **`NC_000023.11(NM_004006.2):c.1813dup`**<br>
-          the duplication of the G nucleotide at the intron/exon border in the sequence `CTGGCCgt..//..ag`<code class="del">G</code>`TTTTA` changing to `CTGGCCgt..//..ag`<code class="ins">GG</code>`TTTTA` (not `c.1813-1dup`).<br>
+          the duplication of the `G` nucleotide at the intron/exon border in the sequence `CTGGCCgt..//..ag`<code class="del">G</code>`TTTTA` changing to `CTGGCCgt..//..ag`<code class="ins">GG</code>`TTTTA` (not `c.1813-1dup`).<br>
           **NOTE**: this description does not depend on the effect observed on RNA level, giving either altered splicing or `r.1813dup`.
 
 - exons
@@ -143,12 +143,13 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
     No, a duplication of more than one nucleotide should give the position of the first and last nucleotide duplicated, separated using the range symbol ("_", underscore), e.g., `g.123_128dup`.
     Note also that from the description <code class="invalid">g.123dup6</code> it is not clear whether the duplication starts **at** position `g.123` (so `g.123_128dup`) or **after** position 123 (so `g.124_129dup`).
 
-!!! note "In the example above, **c.3921dup**, should the description based on a coding DNA reference sequence not be c.3922dup?"
+!!! note "In the example above, **`c.3921dup`**, should the description based on a coding DNA reference sequence not be `c.3922dup`?"
 
     Strictly speaking, you are right.
     However, for cases like this, an exception was made to prevent that when `c.3922dup` is translated back to a genomic position, one would end up at the wrong nucleotide, in the wrong exon (`NC_000023.10:g.32456507dup` in stead of `NC_000023.10:g.32459297dup`).
 
 !!! note "How should I describe the change `ATCG`<code class="spot1">ATCGATCGATCG</code><code class="spot2">A</code>`GGGTCCC` to `ATCG`<code class="spot1">ATCGATCGATCG</code><code class="spot2">A</code><code class="ins">ATCGATCGATCG</code>`GGGTCCC`? The fact that the inserted sequence (<code class="ins">ATCGATCGATCG</code>) is present in the original sequence suggests it derives from a duplicative event."
 
-    The variant should be described as an insertion; `g.17_18ins5_16`. A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem).
+    The variant should be described as an insertion; `g.17_18ins5_16`.
+    A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem).
     Note that the description given still makes it clear that the sequence inserted between `g.17` and `g.18` is probably derived from nearby, i.e. positions `g.5` to `g.16`, and thus likely derived from a duplicative event.
