@@ -18,7 +18,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
     - the 3'rule applies to ALL descriptions (genome, gene, transcript, and protein) of a given variant.
 - **inverted duplications** are described as an insertion using the format `g.234_235ins123_234inv`, not as `g.123_456dupinv` (see [Q&A](#dupinv)).
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".<br>
-  **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins"<br>.
+  **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
   **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
   The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.
 - inversions are not used on protein level.
@@ -28,18 +28,25 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
 
 - **`NC_000023.10:g.32361330_32361333inv`**<br>
   inversion of nucleotides `g.32361330` to `g.32361333`, changing `..CA`<code class="sub">TCAG</code>`CCT..` to `..CA`<code class="sub">CTGA</code>`CCT..`.
+
 - **`NM_004006.2:c.5657_5660inv`**<br>
   inversion of nucleotides `c.5657` to `c.5660` (coding DNA reference sequence), changing `..AGG`<code class="sub">CTGA</code>`TG..` to `..AGG`<code class="sub">TCAG</code>`TG..`.
+
 - **`NM_004006.2:c.4145_4160inv`**<br>
   inversion of the 16 nucleotides from position `c.4145` to `c.4160`.
+
 - **`NC_000023.10:g.111754331_111966764inv`**<br>
   a large inversion (212,434 nucleotides) from position `g.111754331` to `g.111966764`.
+
 - **`NM_004006.2:c.849_850ins850_900inv`**<br>
   a copy of nucleotides `c.850` to `c.900` is inserted, in inverted orientation, 5' of the original sequence, between nucleotides `c.849` and `c.850`.
+
 - **`NM_004006.2:c.900_901ins850_900inv`**<br>
   a copy of nucleotides `c.850` to `c.900` is inserted, in inverted orientation, 3' of the original sequence, between nucleotides `c.900` and `c.901`.
+
 - **`LRG_199t1:c.940_941ins[885_940inv;A;851_883inv]`**<br>
   an inverted copy of nucleotides `c.851` to `c.940`, with a `G>A` substitution of nucleotide `c.884`, is inserted directly 3' of the original sequence.
+
 - **`NM_004006.2:c.940_941ins[903_940inv;851_885inv]`**<br>
   an inverted copy of nucleotides `c.851` to `c.940`, with a deletion from nucleotides `c.886` to `c.902`, is inserted directly 3' of the original sequence.
 
