@@ -16,8 +16,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 - substitutions involving two or more consecutive nucleotides are described as deletion/insertion (delins) variants (see [Deletion/insertion (delins)](delins.md)).
 - two variants separated by one or more nucleotides should be described individually and not as a "delins" of the sequence affected.
     - Exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
-      **NOTE:** This rule prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g., `c.235_237delinsTAT` (`p.Lys79Tyr`) versus `c.[235A>T;237G>T]` (`p.[Lys79*;Lys79Asn]`).<br>
-      **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
+      **NOTE**: This rule prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g., `c.235_237delinsTAT` (`p.Lys79Tyr`) versus `c.[235A>T;237G>T]` (`p.[Lys79*;Lys79Asn]`).<br>
+      **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
 - nucleotides that have been tested and found **not changed** are described as `c.123=`, `g.4567_4569=` (see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md)).
 - it is not correct to describe "_polymorphisms_" as <code class="invalid">c.76A/G</code> (see [Discussions](#polymorphism)).
 
@@ -89,4 +89,4 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 !!! note "The _BRCA1_ coding DNA reference sequence `NM_007294.3` from position `c.2074` to `c.2080` is `..CATGACA..` A variant frequently found in the population is `..CAT`<code class="sub">A</code>`ACA..` (`NM_007294.3:c.2077G>A`). In a patient I found the sequence `..CAT`<code class="sub">A</code><code class="ins">TA</code>`ACA..`. Can I describe this variant as <code class="invalid">NM_007294.3:c.[2077G>A;2077_2078insTA]</code>?"
 
     The correct description of this variant is `NM_007294.3:c.2077delinsATA`.<br>
-    **NOTE:** the answer was modified, i.e. the addition "However, since the variant is likely a combination of two other variants it is acceptable to describe it as <code class="invalid">NM_007294.3:c.[2077G>A;2077_2078insTA]</code>." was removed.
+    **NOTE**: the answer was modified, i.e. the addition "However, since the variant is likely a combination of two other variants it is acceptable to describe it as <code class="invalid">NM_007294.3:c.[2077G>A;2077_2078insTA]</code>." was removed.

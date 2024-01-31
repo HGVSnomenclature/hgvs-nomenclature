@@ -18,8 +18,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
     - **exception**: when a circular genomic reference sequnce is used ("o" and "m" prefix) nucleotide positions may be listed from 3' to 5' when the deletion includes both the last and first nucleotides of the reference sequence.
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".
     - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
-      **NOTE:** the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.
-- for all descriptions the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
+      **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.
+- for all descriptions, the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
     - **exception**: deletions around exon/exon junctions when identical nucleotides flank the junction (see [Numbering](../../background/numbering.md#DNAc));<br>
       when `..GA`<code class="del">T</code>`gta..//..cagTCA..` changes to `..GAgta..//..cagTCA..`, based on a coding DNA reference sequence, the variant is described as `LRG_199t1:c.3921del` (`NC_000023.10:g.32459297del`) and not as `c.3922del` (which would translate to `g.32456507del`).
 - † = see [Uncertain](../uncertain.md); when the position and/or the sequence of a deletion has not been defined, a description may have a format like `g.(100_150)del(15)`.
@@ -34,7 +34,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
 
     - **`NM_004006.2:c.5697del` (3'rule)**<br>
       a deletion of the A at position `c.5697` in the sequence `ATTGAAAAAAA`<code class="del">A</code>`TTAG` to `ATTGAAAAAAA`<code class="del">.</code>`TTAG`, i.e., the last A of the 8 nucleotide A-stretch running from position `c.5690` to `c.5697`.<br>
-      **NOTE**: the 3'rule has been applied here stating that **"for all descriptions the most 3' position possible is arbitrarily assigned to have been changed"** (see [General_Recommendations](../general.md)).
+      **NOTE**: the 3'rule has been applied here stating that **"for all descriptions, the most 3' position possible is arbitrarily assigned to have been changed"** (see [General_Recommendations](../general.md)).
 
     - **`NC_000023.11:g.32343183del` (3'rule)**<br>
       a deletion of the T at position `g.32343183` in the sequence `CTAATTTTTTT`<code class="del">T</code>`CAAT` to `CTAATTTTTTT`<code class="del">.</code>`CAAT`, i.e., the last T of the 8 nucleotide T-stretch running from position `g.32343176` to `g.32343183`.
