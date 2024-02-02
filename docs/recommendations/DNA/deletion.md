@@ -128,7 +128,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
     A description like <code class="invalid">c.EX17del</code> has never been allowed.
     Descriptions should be specific and indicate the nucleotides affected by the change.
 
-!!! note "Deletions in the BRCA1 gene are usually mediated by Alu sequences having a very high homology, reaching 100% in the breakpoint region. In such cases, what nucleotide should be used to describe the deletion breakpoint?"
+!!! note "Deletions in the _BRCA1_ gene are usually mediated by Alu sequences having a very high homology, reaching 100% in the breakpoint region. In such cases, what nucleotide should be used to describe the deletion breakpoint?"
 
     In cases like this, the 3'rule applies (see [Recommendations General](http://www.HGVS.org/varnomen/recommendations/general/)), i.e., the deletion breakpoint is determined by the first nucleotide that differs after shifting the alignment as far 3' as possible.
     The first nucleotide differing is the **first nucleotide deleted**.
@@ -140,7 +140,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
     However, for the 3' end, your reasoning does not make a difference.
     Since you do not know how far the deletion extends, you have no positive PCR limiting the deletion at the 3' end, using the location of exon 13 since exon 14 **might be present** would give the wrong impression.
     Consequently, the precise description can only be like `c.(987+123_?)del`.
-    Is this realy more informative then `c.(987+1_?)del`, using the exon 3 exon/intron border?
+    Is this really more informative then `c.(987+1_?)del`, using the exon 3 exon/intron border?
 
 !!! note "In literature I often see the description "deltaF508" for a variant in the _CFTR_ gene in patients with Cystic Fibrosis. Is the variant detected in these patients <code class="invalid">NM_000492.3:c.1522_1524delTTT</code>?"
 

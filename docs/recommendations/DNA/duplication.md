@@ -15,7 +15,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
 - "positions_duplicated" should contain **two different positions**, e.g., `123_126`, not `123_123`.
 - the "positions_duplicated" should be listed from **5' to 3'**, e.g., `123_126`, not `126_123`.
 - by definition, duplication may only be used when the additional copy is **directly 3'-flanking** of the original copy (a "tandem duplication").
-    - when a variant can be described as a duplication, it **must** be described as a duplication and not as, e.g., an insertion (see [_Prioritization_](../general.md).
+    - when a variant can be described as a duplication, it **must** be described as a duplication and not as, e.g., an insertion (see [_Prioritization_](../general.md)).
     - when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking the original copy), the change can not be described as a duplication; it should be described as **an insertion** (see [Insertion](insertion.md) and [proposal SVD-WG003](../../consultation/SVD-WG003.md)).
     - **inverted duplications** are described as insertion (`g.234_235ins123_234inv`), not as a duplication (see [Inversion](inversion.md)).
 - when more than one additional copies are inserted directly 3' of the original copy, the change is indicated using the format for [Repeated sequences](repeated.md), like `[3]` (triplication), `[4]` (quadruplication), etc.
@@ -39,7 +39,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
 
     - **`NM_004006.2:c.5697dup` (3'rule)**<br>
       a duplication of the `A` at position `c.5697` in the sequence `ATTGAAAAAAA`<code class="del">A</code>`TTAG` to `ATTGAAAAAAA`<code class="ins">AA</code>`TTAG`, i.e. the last `A` of the 8 nucleotide A-stretch running from position `c.5690` to `c.5697`.<br>
-      **NOTE**: the 3'rule has been applied here stating that **"for all descriptions, the most 3' position possible is arbitrarily assigned to have been changed"** (see [General_Recommendations](../general.md).
+      **NOTE**: the 3'rule has been applied here stating that **"for all descriptions, the most 3' position possible is arbitrarily assigned to have been changed"** (see [General_Recommendations](../general.md)).
 
     - **`NC_000023.11:g.32343183dup` (3'rule)**<br>
       a duplication of the `T` at position `g.32343183` in the sequence `CTAATTTTTTT`<code class="del">T</code>`CAAT` to `CTAATTTTTTT`<code class="ins">TT</code>`CAAT`, i.e. the last `T` of the 8 nucleotide T-stretch running from position `g.32343176` to `g.32343183`.<br>
@@ -146,7 +146,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
 !!! note "In the example above, **`c.3921dup`**, should the description based on a coding DNA reference sequence not be `c.3922dup`?"
 
     Strictly speaking, you are right.
-    However, for cases like this, an exception was made to prevent that when `c.3922dup` is translated back to a genomic position, one would end up at the wrong nucleotide, in the wrong exon (`NC_000023.10:g.32456507dup` in stead of `NC_000023.10:g.32459297dup`).
+    However, for cases like this, an exception was made to prevent that when `c.3922dup` is translated back to a genomic position, one would end up at the wrong nucleotide, in the wrong exon (`NC_000023.10:g.32456507dup` instead of `NC_000023.10:g.32459297dup`).
 
 !!! note "How should I describe the change `ATCG`<code class="spot1">ATCGATCGATCG</code><code class="spot2">A</code>`GGGTCCC` to `ATCG`<code class="spot1">ATCGATCGATCG</code><code class="spot2">A</code><code class="ins">ATCGATCGATCG</code>`GGGTCCC`? The fact that the inserted sequence (<code class="ins">ATCGATCGATCG</code>) is present in the original sequence suggests it derives from a duplicative event."
 
