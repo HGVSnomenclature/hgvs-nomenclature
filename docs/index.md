@@ -16,6 +16,9 @@ Users of HGVS Nomenclature are invited to contact us to ask questions or get inv
 * Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
   group. This is the preferred forum for discussing the use of HGVS
   Nomenclature.
+* Send questions to the group at
+  [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com).
+  You do not need to be a member of the group to send a message.
 * See [Community Consultation](consultation/index.md) for proposals, including
   how to submit a proposal.
 
