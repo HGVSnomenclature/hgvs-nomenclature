@@ -80,7 +80,7 @@ All variants given are in the DMD gene and reported in relation to coding DNA re
     - c.4375_4385dup: the nucleotides from position c.4375 to c.4385 (CGATTATTCCA) are present twice (duplicated). Often reported as c.4375_4385dupCGATTATTCCA or c.4385_4386insCGATTATTCCA (not a correct HGVS description).
 - insertion: one or more letters in the DNA code are new (inserted). An insertion is indicated using **"ins"**.
     - c.4375_4376insACCT: the new sequence "ACCT" was found inserted between positions c.4375 and c.4376.
-- deletion/insertion (indel): one or more letters in the DNA code are missing and replaced by several new letters. A deletion/insertion is indicated using **"delins"**.
+- deletion/insertion (delins): one or more letters in the DNA code are missing and replaced by several new letters. A deletion/insertion is indicated using **"delins"**.
     - c.4375_4376delinsAGTT: the nucleotides from position c.4375 to c.4376 (CG) are missing (deleted) and replaced by the new sequence "AGTT". Also reported as c.4375_4376delCGinsAGTT.
 
 There are more variant types yet these occur less frequently. For details see [header "Recommendations"](http://varnomen.hgvs.org/recommendations).

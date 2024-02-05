@@ -28,6 +28,6 @@ description: |
   high-throughput sequencing to clinical diagnostics. The hgvs package does not
   attempt to cover the full scope of HGVS recommendations.  A key feature of the
   hgvs package is the ability to correctly project variants in the presence of
-  genome-transcript alignment indels (see
+  genome-transcript alignment deletion/insertions (see
   [PubMed:30129167](https://pubmed.ncbi.nlm.nih.gov/30129167/)).
 pubmed_id: "30129167"
