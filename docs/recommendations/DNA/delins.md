@@ -76,7 +76,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.delins
 
     No, this is not allowed.
     By definition, a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](substitution.md)).
-    The change `TGT`<code class="del">GC</code>`CA` to `TGT`<code class="ins">TG</code>`CA` should be described as `g.4_5delinsTG`, i.e. a deletion/insertion (indel).
+    The change `TGT`<code class="del">GC</code>`CA` to `TGT`<code class="ins">TG</code>`CA` should be described as `g.4_5delinsTG`, i.e. a deletion/insertion (delins).
 
 !!! note "Are there specific recommendations regarding the maximum number of unchanged nucleotides between two single nucleotide variants and whether the change is described as a "delins" or as two separate changes?"
 
