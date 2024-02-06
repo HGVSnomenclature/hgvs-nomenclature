@@ -61,7 +61,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.sub
 
 !!! note "Can I describe a TrpVal to CysArg variant as a amino acid substitution (`p.TrpVal24CysArg`)?"
 
-    No, this is not allowed. By definition a substitution changes **one** amino acid into **one** other amino acid. The change TrpVal to CysArg should be described as `NP_003997.1:p.Trp24_Val25delinsCysArg`, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](../DNA/delins.md)).
+    No, this is not allowed. By definition a substitution changes **one** amino acid into **one** other amino acid. The change TrpVal to CysArg should be described as `NP_003997.1:p.Trp24_Val25delinsCysArg`, i.e. a deletion/insertion (delins) (see [Deletion-Insertion](../DNA/delins.md)).
 
 !!! note "How should you describe an amino acid substitution to any other amino acid?"
 

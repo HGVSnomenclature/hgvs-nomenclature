@@ -83,7 +83,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 
     No, this is not allowed.
     By definition, a substitution changes **one** nucleotide into **one** other nucleotide.
-    The change `..GAA`<code class="sub">GC</code>`CAG..` to `..GAA`<code class="sub">TG</code>`CAG..` should be described as `NG_012232.1:g.12_13delinsTG`, i.e. a deletion/insertion (indel) (see [Deletion-Insertion](delins.md) and Description - Note).
+    The change `..GAA`<code class="sub">GC</code>`CAG..` to `..GAA`<code class="sub">TG</code>`CAG..` should be described as `NG_012232.1:g.12_13delinsTG`, i.e. a deletion/insertion (delins) (see [Deletion-Insertion](delins.md) and Description - Note).
     When phase information is not available, the variant should be described as `NG_012232.1:g.12G>T(;)13C>G` (see [Alleles](alleles.md)).
 
 !!! note "The _BRCA1_ coding DNA reference sequence `NM_007294.3` from position `c.2074` to `c.2080` is `..CAT`<code class="sub">G</code>`ACA..`. A variant frequently found in the population is `..CAT`<code class="sub">A</code>`ACA..` (`NM_007294.3:c.2077G>A`). In a patient I found the sequence `..CAT`<code class="sub">A</code><code class="ins">TA</code>`ACA..`. Can I describe this variant as <code class="invalid">NM_007294.3:c.[2077G>A;2077_2078insTA]</code>?"
