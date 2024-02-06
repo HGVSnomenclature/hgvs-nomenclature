@@ -12,12 +12,12 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
 
 ## Notes
 
-- "positions_duplicated" should contain **two different positions**, e.g., `123_126`, not `123_123`.
-- the "positions_duplicated" should be listed from **5' to 3'**, e.g., `123_126`, not `126_123`.
+- `positions_duplicated` should contain **two different positions**, e.g., `123_126`, not `123_123`.
+- the `positions_duplicated` should be listed from **5' to 3'**, e.g., `123_126`, not `126_123`.
 - by definition, duplication may only be used when the additional copy is **directly 3'-flanking** of the original copy (a "tandem duplication").
     - when a variant can be described as a duplication, it **must** be described as a duplication and not as, e.g., an insertion (see [_Prioritization_](../general.md)).
     - when there is no evidence that the extra copy of a sequence detected is in tandem (directly 3'-flanking the original copy), the change can not be described as a duplication; it should be described as **an insertion** (see [Insertion](insertion.md) and [proposal SVD-WG003](../../consultation/SVD-WG003.md)).
-    - **inverted duplications** are described as insertion (`g.234_235ins123_234inv`), not as a duplication (see [Inversion](inversion.md)).
+    - **inverted duplications** are described as an insertion (`g.234_235ins123_234inv`), not as a duplication (see [Inversion](inversion.md)).
 - when more than one additional copies are inserted directly 3' of the original copy, the change is indicated using the format for [Repeated sequences](repeated.md), like `[3]` (triplication), `[4]` (quadruplication), etc.
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".
     - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
@@ -121,7 +121,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
       **NOTE**: when, e.g., based on next-generation sequencing, only "an additional copy of all X-chromosome sequences" is detected, the variant should be described as `NC_000023.11:g.pter_qter[2]`.
 - other
     - **`NC_000023.11:g.33344590_33344592=/dup`**<br>
-      a mosaic case where from position `g.33344590` to `g.33344592` besides the normal sequence, also chromosomes are found containing a duplication of this sequence.
+      a mosaic case where from position `g.33344590` to `g.33344592`, besides the normal sequence, also chromosomes are found containing a duplication of this sequence.
 
     - **`NC_000023.11:g.33344590_33344592=//dup`**<br>
       a chimeric case, i.e. the sample is a mix of cells containing `g.33344590_33344592=` and `g.33344590_33344592dup`.
@@ -135,7 +135,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
     - the description is simple and shorter;
     - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like <code class="invalid">c.22insG</code>;
     - it prevents hypothetical discussions regarding the site of the insertion; in the case of a duplication including an intron/exon border (e.g., `c.123-8_137dup`) is the "insertion" in the intron or in the exon?
-    - insertion more or less means "coming from elsewhere". Mechanistically, a duplication is most likely caused by a local event, DNA polymerase slippage, duplicating a local sequence.
+    - insertion more or less means "coming from elsewhere".
+      Mechanistically, a duplication is most likely caused by a local event, DNA polymerase slippage, duplicating a local sequence.
 
 <a id="123dup"></a>
 !!! note "Can I use <code class="invalid">g.123dup6</code> to describe a 6 nucleotide duplication?"
@@ -148,7 +149,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
     Strictly speaking, you are right.
     However, for cases like this, an exception was made to prevent that when `c.3922dup` is translated back to a genomic position, one would end up at the wrong nucleotide, in the wrong exon (`NC_000023.10:g.32456507dup` instead of `NC_000023.10:g.32459297dup`).
 
-!!! note "How should I describe the change `ATCG`<code class="spot1">ATCGATCGATCG</code><code class="spot2">A</code>`GGGTCCC` to `ATCG`<code class="spot1">ATCGATCGATCG</code><code class="spot2">A</code><code class="ins">ATCGATCGATCG</code>`GGGTCCC`? The fact that the inserted sequence (<code class="ins">ATCGATCGATCG</code>) is present in the original sequence suggests it derives from a duplicative event."
+!!! note "How should I describe the change `ATCG`<code class="spot1">ATCGATCGATCG</code><code class="spot2">A</code>`GGGTCCC` to `ATCG`<code class="spot1">ATCGATCGATCG</code><code class="spot2">A</code><code class="ins">ATCGATCGATCG</code>`GGGTCCC`? The fact that the inserted sequence (<code class="ins">ATCGATCGATCG</code>) is present in the original sequence, suggests it derives from a duplicative event."
 
     The variant should be described as an insertion; `g.17_18ins5_16`.
     A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem).

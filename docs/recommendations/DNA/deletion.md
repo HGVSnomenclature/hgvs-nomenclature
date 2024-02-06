@@ -12,7 +12,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
 
 ## Notes
 
-- `coordinate_type` may be g, m, c, or n (genomic, mitochondrial, coding DNA and non-coding DNA).
 - `position(s)_deleted` should contain **two different positions**, e.g., `123_126`, not `123_123`.
 - the `position(s)_deleted` should be listed from **5' to 3'**, e.g., `123_126`, not `126_123`.
     - **exception**: when a circular genomic reference sequnce is used ("o" and "m" prefix) nucleotide positions may be listed from 3' to 5' when the deletion includes both the last and first nucleotides of the reference sequence.
@@ -106,7 +105,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
 
 - other
     - **`NC_000023.11:g.33344590_33344592=/del`**<br>
-      a mosaic case where from position `g.33344590` to `g.33344592` besides the normal sequence also chromosomes are found containing a deletion of this sequence.
+      a mosaic case where from position `g.33344590` to `g.33344592`, besides the normal sequence, also chromosomes are found containing a deletion of this sequence.
 
     - **`NC_000023.11:g.33344590_33344592=//del`**<br>
       a chimeric case, i.e. the sample is a mix of cells containing `g.33344590_33344592=` and `g.33344590_33344592del`.

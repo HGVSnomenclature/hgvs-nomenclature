@@ -12,7 +12,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 
 ## Notes
 
-- valid `coordinate_type` values are "g", "m", "c", and "n" (genomic, mitochondrial, coding DNA and non-coding DNA).
 - substitutions involving two or more consecutive nucleotides are described as deletion/insertion (delins) variants (see [Deletion/insertion (delins)](delins.md)).
 - two variants separated by one or more nucleotides should be described individually and not as a "delins" of the sequence affected.
     - Exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
@@ -42,12 +41,12 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
   a substitution of the `G` nucleotide at `c.54` (coding DNA reference sequence) by `A`, `C`, or `T` (IUPAC code "H", see [Standards](../../background/standards.md)).
 
 - **`NM_004006.2:c.123=`**<br>
-  a screen was performed showing that nucleotide `c.123` was a `C` as in the coding DNA reference sequence (the nucleotide was not changed).<br>
+  a screen was performed showing that nucleotide `c.123` was a `C`, as in the coding DNA reference sequence (the nucleotide was not changed).<br>
   **NOTE**: the description `NM_004006.2:c.=` can not be used, `c.=` indicates the entire `NM_004006.2` coding DNA reference sequence was analysed and no change was identified.<br>
   **NOTE**: the description `LRG_199t1:c.94-23_188+33=` indicates no variants where found in the region indicated (exon 3 of the _DMD_ gene).
 
 - **`LRG_199t1:c.85=/T>C`**<br>
-  a mosaic case where at position `c.85` besides the normal sequence (a `T`, described as "=") also chromosomes are found containing a `C` (`c.85T>C`).<br>
+  a mosaic case where at position `c.85`, besides the normal sequence (a `T`, described as "="), also chromosomes are found containing a `C` (`c.85T>C`).<br>
   **NOTE**: irrespective of the frequency in which each nucleotide was found, the reference is always described first.
 
 - **`NM_004006.2:c.85=//T>C`**<br>
