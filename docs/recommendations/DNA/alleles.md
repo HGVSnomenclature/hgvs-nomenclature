@@ -73,7 +73,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
   Allele brackets should not be used when it is not known whether variants are on one allele or not.
 
 - **`NM_004006.2:c.2376G>C(;)(2376G>C)`**<br>
-  analysis detects one variant (`c.2376G>C`), suggesting both alleles (chromosomes) contain this variants, but it can not be excluded the other allele is deleted.
+  analysis detects one variant (`c.2376G>C`), suggesting both alleles (chromosomes) contain this variant, but it can not be excluded the other allele is deleted.
 
 - **`NM_004006.2:c.[296T>G;476T>C];[476T>C](;)1083A>C`**<br>
   a sample contains a homozygous variant (`c.476T>C`) and two heterozygous variants (`c.296T>G` and `c.1083G>C`) for which it is not known on which allele (chromosome) they are (although at least one, in the example `c.296T>G`, is on the same allele as `c.476T>C`).
@@ -93,10 +93,10 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
 
     When in one individual you find more than one variant, it is essential that you clearly indicate on which allele(s) variant(s) were found.
 
-      - disease severity will depend on the combination of variants found;
-      - in recessive disease, when two variants are on one allele, an individual is a carrier or you might not have found the variant on the second allele.
+    - disease severity will depend on the combination of variants found;
+    - in recessive disease, when two variants are on one allele, an individual is a carrier or you might not have found the variant on the second allele.
 
-!!! note "I find the notation `c.[76A>C]` without describing the second allele misleading; not enough researchers know this refers to only one of the two alleles present. Would using `c.[76A>C];[]` be OK?"
+!!! note "I find the notation `c.[76A>C]` without describing the second allele misleading; not enough researchers know this refers to only one of the two alleles present. Would using <code class="invalid">c.[76A>C];[]</code> be OK?"
 
     No, the recommended description is `LRG_199t1:c.[76A>C];[76=]`, i.e. `c.76=` for "no change" on the second allele.
 
@@ -117,10 +117,10 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
     When it is once clearly specified (e.g., in the Materials & Methods) what variants are listed and based on which reference sequence(s), alleles may be reported in a simplified format like below.
     Variants should be listed in genomic order and using "[ ]" for variants on the same chromosome.
 
-      - haplotype with all variants in relation to several different reference sequences, both genomic and coding DNA
+    - haplotype with all variants in relation to several different reference sequences, both genomic and coding DNA
         - description of the reference haplotype; `[M59228.1:g.250G>C;AF209160.1:g.572CA[(11_21)];Z11861.1:g.61T>C;Z16803.1:g.114A[(18_22)]]`.
         - short haplotype description; `[C;13;T;21]`.
-      - haplotype with all variants in relation to one coding DNA reference sequence
+    - haplotype with all variants in relation to one coding DNA reference sequence
         - description of the reference haplotype; `NM_004006.1:c.[837G>A;1704+51T>C;3734C>T;6438+2669T[(16_23)];6571C>T;7098+13212GT[(15_19)]]`.
         - short haplotype description; `[G;C;C;18;T;17]`.
 
@@ -132,9 +132,9 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
     In fact, the current recommendation is to use `OPRM1:c.[118A>G];[118A=]` to describe a heterozygote, and `OPRM1:c.[118A=];[118A=]` and `OPRM1:c.[118>G];[118>G]` for the homozygotes.
     I would like to **suggest** to describe the genotypes in the text like:
 
-      - `OPRM1:c.118AA` homozygotes
-      - `OPRM1:c.118GA` heterozygotes
-      - `OPRM1:c.118GG` homozygotes
+    - `OPRM1:c.118AA` homozygotes
+    - `OPRM1:c.118GA` heterozygotes
+    - `OPRM1:c.118GG` homozygotes
 
     The different alleles could then be designated as the `OPRM1:c.118A` allele and the `OPRM1:c.118G` allele.
     In combination with variants of other genes, the genotype descriptions could be `OPRM1:c.118AA`, `GJB2:c.76AC` double heterozygotes, etc.

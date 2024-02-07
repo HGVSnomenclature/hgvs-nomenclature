@@ -129,7 +129,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
 
 !!! note "Deletions in the _BRCA1_ gene are usually mediated by Alu sequences having a very high homology, reaching 100% in the breakpoint region. In such cases, what nucleotide should be used to describe the deletion breakpoint?"
 
-    In cases like this, the 3'rule applies (see [Recommendations General](http://www.HGVS.org/varnomen/recommendations/general/)), i.e., the deletion breakpoint is determined by the first nucleotide that differs after shifting the alignment as far 3' as possible.
+    In cases like this, the 3'rule applies (see [General Recommendations](../general.md)), i.e., the deletion breakpoint is determined by the first nucleotide that differs after shifting the alignment as far 3' as possible.
     The first nucleotide differing is the **first nucleotide deleted**.
 
 !!! note "PCR analysis of a gene on the X-chromosome shows products for exons 1_3, no product is detected for exons 4_14 (exon 14 is the last exon of the gene). Since PCR fails already when one primer is not hybridising, we are not sure whether exon 4 and 14 are completely absent, or only partially. To describe the deletion I would therefore like to use the last base of exon 3 with "+?" and the last base of exon 13 with a "+?". What are your recommendations? (Erik-Jan Kamsteeg, Nijmegen, Nederland)"

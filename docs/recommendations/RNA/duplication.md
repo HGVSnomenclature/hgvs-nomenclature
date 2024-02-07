@@ -21,7 +21,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.dup
     - **inverted duplications** are described as an insertion (`r.234_235ins123_234inv`), not as a duplication (see [Inversion](inversion.md)).
 - for all descriptions, the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
     - the 3'rule also applies for changes in single residue stretches and tandem repeats.
-    - **NOTE**: the exception to the 3'rule for duplications around exon/exon junctions see [Duplications](../DNA/duplication.md) does not apply when describing variants based on an RNA reference sequence.
+    - **NOTE**: the exception to the 3'rule for duplications around exon/exon junctions (see [Duplications](../DNA/duplication.md)) does not apply when describing variants based on an RNA reference sequence.
 
 ## Examples
 
