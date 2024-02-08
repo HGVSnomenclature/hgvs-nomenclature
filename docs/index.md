@@ -14,11 +14,15 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
 
 * Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
-  group. This is the preferred forum for discussing the use of HGVS
-  Nomenclature.
-* Send questions to the group at
-  [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com).
-  You do not need to be a member of the group to send a message.
+  group and mailing list. This is the preferred forum for interacting with other
+  users and the maintainers of HGVS Nomenclature.
+* Messages sent to
+  [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
+  will be distributed to members by email.  While you do not need to be a member
+  to send a message to the group, **you will not see a reply unless you join the
+  group or manually check the [HGVS
+  Nomenclature](https://groups.google.com/g/hgvs-nomenclature) conversation
+  archive**.
 * See [Community Consultation](consultation/index.md) for proposals, including
   how to submit a proposal.
 
