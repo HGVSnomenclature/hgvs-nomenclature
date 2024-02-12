@@ -101,7 +101,7 @@ Specific abbreviations are used to describe different variant types.
 - `fs` indicates a **frameshift**; `p.Arg456GlyfsTer17` (or `p.Arg456Glyfs*17`, see [Frameshifts](protein/frameshift.md)).
 - `ext` indicates an **extension**; `p.Met1ext-5` (see [Extension](protein/extension.md)).
 
-- HGVS/ISCN (see [Community Consultation](http://www.hgvs.org/mutnomen/comments004.html)):
+- HGVS/ISCN (see [Community Consultation](../consultation/SVD-WG004.md)):
     - `cen` indicates the **centromere** of a chromosome.
     - `chr` indicates a **chromosome**; `chr11:g.12345611G>A` (NC_000011.9).
     - `pter` indicates the **first nucleotide** of a chromosome.

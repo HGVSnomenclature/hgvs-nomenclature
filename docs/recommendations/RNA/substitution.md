@@ -17,7 +17,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.sub
 - two substitutions separated by one or more nucleotides should be described individually and not as a "delins".
     - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g., `r.142_144delinsugg` (`p.Arg48Trp`)).<br>
       **NOTE**: this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position.
-- nucleotides that have been tested and found **not changed** are described as `r.109u=`, `r.4567_4569=` (see [SVD-WG001 (no change)](http://www.hgvs.org/mutnomen/accepted001.html)).
+- nucleotides that have been tested and found **not changed** are described as `r.109u=`, `r.4567_4569=` (see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md)).
 - it is not correct to describe "_polymorphisms_" as <code class="invalid">r.76a/g</code> (see [Discussions](#polymorphism)).
 
 ## Examples

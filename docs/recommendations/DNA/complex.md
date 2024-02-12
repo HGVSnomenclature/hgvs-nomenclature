@@ -56,6 +56,7 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
     - variant descriptions are always in the forward orientation (from `pter` to `qter`, the end of the chromosome), determined by the chromosomal origin of the intact centromere (`cen`).
 
 ## Examples
+<a id="examples"></a>
 
 **The description of translocations has changed.**<br>
 In the original proposal (SVD-WG004), **one identical derivative chromosome** would receive **two different descriptions**, depending on whether it was identified in a balanced or an unbalanced case.

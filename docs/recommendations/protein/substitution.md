@@ -21,7 +21,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.sub
 - a **no-stop** variant, a variant changing the translation termination codon into an amino acid codon, is described as a **extension** ([Extension](extension.md))
 - changes involving two or more consecutive amino acids are described as a deletion/insertion variant (delins) (see [Deletion/insertion (delins)](delins.md))
     - the description `p.Arg76_Cys77delinsSerTrp` is correct, the description `p.[Arg76Ser;Cys77Trp]` is not correct
-- amino acids that have been tested and found **not changed** (silent) are described as `p.Cys123=` (see [SVD-WG001 (no change)](http://www.hgvs.org/mutnomen/accepted001.html))
+- amino acids that have been tested and found **not changed** (silent) are described as `p.Cys123=` (see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md)).
 
 ## Examples
 
