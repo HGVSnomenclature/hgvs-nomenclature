@@ -88,7 +88,7 @@ For more examples, see [DNA alleles](../DNA/alleles.md).
 !!! note "Can I describe the predicted protein consequences of two variants on the same allele as <code class="invalid">p.([Phe233Leu;Cys690Trp])</code>?"
 
     No, this should be described as `p.[(Phe233Leu;Cys690Trp)]`, i.e. with the parentheses **inside** the square brackets of the allele and around each variant.
-    This format is used for overall consistency; with the parentheses **inside** the square brackets variants can be described as `p.[Phe233Leu;(Cys690Trp)]` which would not be possible when they were allowed outside of the square brackets.
+    This format is used for overall consistency; with the parentheses **inside** the square brackets, variants can be described as `p.[Phe233Leu;(Cys690Trp)]`, which would not be possible when they were allowed outside of the square brackets.
 
 !!! note "In recessive diseases, is it important I show in which combination variants were found?"
 

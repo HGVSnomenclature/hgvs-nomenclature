@@ -52,7 +52,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.delins
 
 - **`NP_000213.1:p.(Val559_Glu561del)`**<br>
   the predicted change at the protein level resulting from DNA variant `NM_000222.3:c.1676_1684del`.
-  The variant is **not** described as <code class="invalid">p.(Val559_Glu562delinsGlu)</code>, where `Glu562` would be replaced by a `Glu` which effectively is no change.
+  The variant is **not** described as <code class="invalid">p.(Val559_Glu562delinsGlu)</code>, where `Glu562` would be replaced by a `Glu`, which effectively is no change.
   Example derived from the _KIT_ gene.
 
 - **`NP_003070.3:p.(Glu125_Ala132delinsGlyLeuHisArgPheIleValLeu)`**<br>

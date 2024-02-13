@@ -40,7 +40,7 @@ Going through this list should assist you while preparing a publication containi
     This rule also applies to variants in single residue stretches (mono-nucleotide or amino acid) or tandem repeats.
 
 5.  **Range**<br>
-    *The sign used to indicate a range is the `_` (underscore), not a `-` (hyphen or minus).*<br>
+    *The sign used to indicate a range is the `_` (underscore), not a `-` (hyphen-minus).*<br>
     The correct description to indicate a deletion of coding DNA nucleotides 12 to 14 is `c.12_14del`.
     Not correct is <code class="invalid">c.12-14del</code>, this describes a deletion of nucleotide -14 in the intron directly 5' of nucleotide `c.12` (see [Numbering](../background/numbering.md)).
 
