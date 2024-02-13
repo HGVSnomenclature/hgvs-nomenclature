@@ -71,7 +71,6 @@ For more examples, see [DNA alleles](../DNA/alleles.md).
 !!! note "In recessive diseases, is it important I show in which combination variants were found?"
 
     When in one individual you find more than one variant, it is essential that you clearly indicate on which transcript allele(s) variant(s) were found.
-
     - disease severity will depend on the combination of variants found;
     - in recessive disease, when two variants are in one transcript, an individual is a carrier or you might not have found the variant on transcripts from the second allele.
 

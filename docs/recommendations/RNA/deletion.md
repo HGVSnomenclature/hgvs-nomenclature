@@ -40,7 +40,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.del
 
 - **`LRG_199t1:r.=/6_8del`**<br>
   a mosaic case where from position `r.6` to `r.8`, besides the normal sequence, also transcripts are found containing a deletion of this sequence.<br>
-  **NOTE**: for the predicted consequences of a variant the description is `LRG_199t1:r.(=/6_8del)`.
+  **NOTE**: for the predicted consequences of a variant, the description is `LRG_199t1:r.(=/6_8del)`.
 
 ## Discussion
 

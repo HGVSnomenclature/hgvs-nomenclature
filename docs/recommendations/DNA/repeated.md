@@ -14,7 +14,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.rpt
 
 ## Notes
 
-- for **mixed repeats**, the range of the reapeat sequence is given followed by a listing of each repeat unit and the number of repeats in each unit; `NC_000012.11:g.112036755_112036823CTG[9]TTG[1]CTG[13]`.
+- repeated sequences include both small (mono-, di-, tri-, etc., nucleotide) and larger (kilobase-sized) repeats.
+- for **mixed repeats**, the range of the repeat sequence is given followed by a listing of each repeat unit and the number of repeats in each unit; `NC_000012.11:g.112036755_112036823CTG[9]TTG[1]CTG[13]`.
 - `NM_000044.3:c.171_239GCA[34]` describes a repeated sequence containing 34 `GCA` units (sequenced, the reference sequence contains 23 `GCA` units).
   `NM_000044.3:c.(92_331)insN[33]` describes an insertion of 33 nucleotides in the amplified region from position `c.92` to `c.331` (**not sequenced**), containing a repeated sequence of 24 `GCA` units in the reference sequence.
 - **exception**: using a coding DNA reference sequence ("c." description), a repeated sequence variant description can be used only for repeat units with a length which is a multiple of 3, i.e. which can not affect the reading frame.

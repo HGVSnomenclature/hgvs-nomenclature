@@ -85,20 +85,19 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
 
 !!! note "Was originally the recommendation to use the format <code class="invalid">[c.76A>C+c.83G>C]</code>?"
 
-    Indeed, originally [den Dunnen and Antonarakis, 2000](http://dx.doi.org/10.1002/%28SICI%291098-1004%28200001%2915:1%3c7::AID-HUMU4%3e3.0.CO;2-N) the suggestion was to describe two changes in a gene on one chromosome as <code class="invalid">[c.76>C+c.83G>C]</code>, i.e. using a "+"-character to separate the two changes, while an earlier publication suggested to use a ";" (`[c.76A>C;c.83G>C]` [(Antonarakis and the Nomenclature Working Group, 1998](http://dx.doi.org/10.1002/%28SICI%291098-1004%281998%2911:1%3c1::AID-HUMU1%3e3.0.CO;2-O)).
+    Indeed, originally [den Dunnen and Antonarakis, 2000](http://dx.doi.org/10.1002/%28SICI%291098-1004%28200001%2915:1%3c7::AID-HUMU4%3e3.0.CO;2-N) the suggestion was to describe two changes in a gene on one chromosome as <code class="invalid">[c.76>C+c.83G>C]</code>, i.e. using a "+"-character to separate the two changes, while an earlier publication suggested to use a ";" (<code class="invalid">[c.76A>C;c.83G>C]</code> [(Antonarakis and the Nomenclature Working Group, 1998](http://dx.doi.org/10.1002/%28SICI%291098-1004%281998%2911:1%3c1::AID-HUMU1%3e3.0.CO;2-O)).
     To prevent confusion with older publications, to improve overall consistency, and to keep descriptions as short as possible, the 2000 proposal was retracted.
     The recommended format is `c.[76A>C;83G>C]`.
 
 !!! note "In recessive diseases, is it important I show in which combination variants were found?"
 
     When in one individual you find more than one variant, it is essential that you clearly indicate on which allele(s) variant(s) were found.
-
     - disease severity will depend on the combination of variants found;
     - in recessive disease, when two variants are on one allele, an individual is a carrier or you might not have found the variant on the second allele.
 
 !!! note "I find the notation `c.[76A>C]` without describing the second allele misleading; not enough researchers know this refers to only one of the two alleles present. Would using <code class="invalid">c.[76A>C];[]</code> be OK?"
 
-    No, the recommended description is `LRG_199t1:c.[76A>C];[76=]`, i.e. `c.76=` for "no change" on the second allele.
+    No, the recommended description is `LRG_199t1:c.[76A>C];[76=]`, i.e. `c.76=` for "no change" at position `c.76` on the second allele.
 
 !!! note "How should I describe the variants detected in males and females for a gene on the X-chromosome?"
 

@@ -133,8 +133,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
     Although duplications are basically a special type of insertion, there are several reasons why the recommendation is to describe duplications separately.
 
     - the description is simple and shorter;
-    - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported like <code class="invalid">c.22insG</code>;
-    - it prevents hypothetical discussions regarding the site of the insertion; in the case of a duplication including an intron/exon border (e.g., `c.123-8_137dup`) is the "insertion" in the intron or in the exon?
+    - it is clear and prevents confusion regarding the position when an insertion is incorrectly reported, like <code class="invalid">c.22insG</code>;
+    - it prevents hypothetical discussions regarding the site of the insertion; in the case of a duplication including an intron/exon border (e.g., `c.123-8_137dup`), is the "insertion" in the intron or in the exon?
     - insertion more or less means "coming from elsewhere".
       Mechanistically, a duplication is most likely caused by a local event, DNA polymerase slippage, duplicating a local sequence.
 
