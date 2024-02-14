@@ -12,7 +12,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.rpt
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - repeated sequences include both small (mono-, di-, tri-, etc., amino acid) and larger repeats.
 
 ## Examples

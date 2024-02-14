@@ -12,7 +12,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.inv
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - by definition, the region inverted (`positions_inverted`) contains **more than one nucleotide**.
   The description <code class="invalid">r.234inv</code> is therefore not allowed; a one-nucleotide inversion should be described as a [substitution](substitution.md)
 - for all descriptions, the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).

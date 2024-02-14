@@ -14,7 +14,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.rpt
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - repeated sequences include both small (mono-, di-, tri-, etc., nucleotide) and larger (kilobase-sized) repeats.
 - the format based on **repeat position** is preferred, descriptions of the repeat sequence quickly become too lengthy.<br>
   **NOTE**: while `r.123cug[23]` describes a repeat of 23 `cug` units, `r.123_125[23]` describes a tri-nucleotide repeat of 23 units which **could be interrupted** with other units (e.g., a rare `cua`).

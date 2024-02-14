@@ -8,9 +8,9 @@ Make sure you have also seen the ([Basics](../background/basics.md), explaining 
 ## General recommendations
 
 - all variants should be described at the most basic level, **the DNA level**.
-  Descriptions at the RNA and/or protein level may be given in addition.
+  Descriptions on the RNA and/or protein level may be given in addition.
     - descriptions should make clear whether the change was **experimentally determined** or **theoretically deduced** by giving predicted consequences in parentheses.
-    - descriptions at RNA/protein level should describe the changes observed on that level (RNA/protein) and not try to incorporate any knowledge regarding the change at DNA-level (see Discussion below).
+    - descriptions on RNA/protein level should describe the changes observed on that level (RNA/protein) and not try to incorporate any knowledge regarding the change on DNA-level (see Discussion below).
 
 - all variants should be described in relation to an accepted **reference sequence** (see [Reference Sequences](../background/refseq.md)).
     - the reference sequence file used should be **public and clearly described**, e.g., `NC_000023.10`, `LRG_199`, `NG_012232.1`, `NM_004006.2`, `LRG_199t1`, `NR_002196.1`, `NP_003997.1`, etc. (see [Reference Sequences](../background/refseq.md)).
@@ -43,7 +43,7 @@ Make sure you have also seen the ([Basics](../background/basics.md), explaining 
     - the 3'rule applies to ALL descriptions (genome, gene, transcript, and protein) of a given variant.
     - **exception**: deletions/duplications around exon/exon junctions using **c.**, **r.** or **n.** reference sequences (see [Numbering](../background/numbering.md#DNAc)).
 
-- descriptions at DNA, RNA, and protein level are clearly different:
+- descriptions on DNA, RNA, and protein level are clearly different:
     - **DNA-level**: `123456A>T`<br>
       number(s) referring to the nucleotide(s) affected, nucleotides in CAPITALS using [IUPAC-IUBMB assigned nucleotide symbols](http://www.qmul.ac.uk/sbcs/iubmb/misc/naseq.html#500).
     - **RNA-level**: `76a>u`<br>
@@ -100,13 +100,13 @@ In HGVS nomenclature, some **characters** have a **specific meaning**:
 Specific abbreviations are used to describe different variant types.
 
 - `>` (greater than) indicates a **substitution** (DNA and RNA level); `g.123456G>A`, `r.123c>u` (see [DNA](DNA/substitution.md), [RNA](RNA/substitution.md)).
-    - a substitution at the protein level is described as `p.Ser321Arg` (see [protein](protein/substitution.md)).
+    - a substitution on the protein level is described as `p.Ser321Arg` (see [protein](protein/substitution.md)).
 - `del` indicates a **deletion**; `c.76del` (see [DNA](DNA/deletion.md), [RNA](RNA/deletion.md), [protein](protein/deletion.md)).
 - `dup` indicates a **duplication**; `c.76dup` (see [DNA](DNA/duplication.md), [RNA](RNA/duplication.md), [protein](protein/duplication.md)).
 - `ins` indicates an **insertion**; `c.76_77insG` (see [DNA](DNA/insertion.md), [RNA](RNA/insertion.md), [protein](protein/insertion.md)).
     - duplicating insertions are described as duplications, not as insertions.
 - `inv` indicates an **inversion**; `c.76_83inv` (see [DNA](DNA/inversion.md), [RNA](RNA/inversion.md)).
-  Not used at protein level, usually described as [deletion-insertion](protein/delins.md).
+  Not used on protein level, usually described as [deletion-insertion](protein/delins.md).
 - `fs` indicates a **frameshift**; `p.Arg456GlyfsTer17` (or `p.Arg456Glyfs*17`, see [Frameshifts](protein/frameshift.md)).
 - `ext` indicates an **extension**; `p.Met1ext-5` (see [Extension](protein/extension.md)).
 
@@ -139,19 +139,19 @@ Specific abbreviations are used to describe different variant types.
 !!! note "When I want to report a variant on DNA, RNA, and protein level, do I need to use a specific separator?"
 
     No, best is to report the variant using the format `NC_000023.11:g.32849790T>A` &nbsp; `NM_004006.3:c.124A>T` &nbsp; `r.(124a>u)` &nbsp; `p.(Ser42Cys)`.<br>
-    **NOTE**: when several NP_'s are annotated in the NM_ reference sequence, it is mandatory to add the NP_ reference sequence used to describe the variant at protein level.
+    **NOTE**: when several NP_'s are annotated in the NM_ reference sequence, it is mandatory to add the NP_ reference sequence used to describe the variant on protein level.
 
-!!! note "I found a substitution variant (DNA) which alters splicing, inserting a short sequence in the transcript (RNA), giving a frameshift at protein level. How should I list this variant, as substitution, as splice variant, as insertion or as frameshift?"
+!!! note "I found a substitution variant (DNA) which alters splicing, inserting a short sequence in the transcript (RNA), giving a frameshift on protein level. How should I list this variant, as substitution, as splice variant, as insertion or as frameshift?"
 
     When listing variant types, HGVS recommends listing them separately for each level, i.e. DNA, RNA, and protein.
     On DNA level you identified a substitution, on RNA level an insertion, and on protein level a frameshift.
 
-!!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?"
+!!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change on the DNA-level"?"
 
     It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence.
-    Knowledge on the underlying change at the DNA level should not be used.
+    Knowledge on the underlying change on the DNA level should not be used.
     e.g., when `MetTrpSerSer`<code class="del">Ser</code>`HisAsp..` changes to `MetTrpSerSer`<code class="del">.</code>`HisAsp..`, this is described as `p.Ser5del`.
-    The information that at the DNA level the change is `..ATGTGGTCC`<code class="del">AGT</code>`TCCCACGAT..` to `..ATGTGGTCC`<code class="del">.</code>`TCCCACGAT..`, so the codon for Ser4 is deleted, is not used; the description `p.Ser4del` is not correct.
+    The information that on the DNA level the change is `..ATGTGGTCC`<code class="del">AGT</code>`TCCCACGAT..` to `..ATGTGGTCC`<code class="del">.</code>`TCCCACGAT..`, so the codon for Ser4 is deleted, is not used; the description `p.Ser4del` is not correct.
 
 !!! note "Is it correct that when I apply **the 3'rule** for genes that are on the minus strand of a chromosome, the "g." and "c." variant descriptions differ regarding the nucleotide that I describe as deleted?"
 

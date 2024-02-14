@@ -12,13 +12,13 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.alleles
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses inside the square brackets, e.g., `p.[`<code class="spot1">(</code>`Arg727Ser;Cys1334Trp`<code class="spot1">)</code>`]`.
 - when two variants are identified in a protein that derive from **one chromosome** (in cis), this should be described as `p.[variant1`<code class="spot1">;</code>`variant2]`.
 - when two variants are identified in proteins that derive from **different chromosomes** (in trans), this should be described as `p.[variant1]`<code class="spot1">;</code>`[variant2]`.
 - when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as `variant`<code class="spot1">(;)</code>`variant2`, i.e. without using `[ ]`.<br>
   **NOTE**: it is recommended to determine whether the changes are in the same protein or not.
-- when two variants are identified in two different proteins that derive from **one variant** at the DNA level (giving two different transcripts), the variants are separated using a `,`; `p.[variant1`<code class="spot1">,</code>`variant2]`.
+- when two variants are identified in two different proteins that derive from **one variant** on the DNA level (giving two different transcripts), the variants are separated using a `,`; `p.[variant1`<code class="spot1">,</code>`variant2]`.
 
 ## Examples
 
@@ -75,7 +75,7 @@ For more examples, see [DNA alleles](../DNA/alleles.md).
 #### one allele encoding two proteins
 
 - **`NP_003997.1:p.[Lys31Asn,Val25_Lys31del]`**<br>
-  two different proteins, `p.Lys31Asn` and `p.Val25_Lys31del`, derive from a variant on one allele (`c.93G>T` at the DNA level with `r.[83g>u,73_93del]` at the RNA level).
+  two different proteins, `p.Lys31Asn` and `p.Val25_Lys31del`, derive from a variant on one allele (`c.93G>T` on the DNA level with `r.[83g>u,73_93del]` on the RNA level).
 
 ## Discussion
 

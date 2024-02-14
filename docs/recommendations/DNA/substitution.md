@@ -55,9 +55,9 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 
 ## Discussion
 
-!!! note "When I only sequenced RNA (cDNA) and not genomic DNA should I then give the description of a variant at DNA level in parentheses?"
+!!! note "When I only sequenced RNA (cDNA) and not genomic DNA should I then give the description of a variant on DNA level in parentheses?"
 
-    Yes, while the variant at RNA level can be described as `r.76a>g` on DNA level, based on e.g., a coding DNA reference, sequence it should be described as `c.(76A>G)`.
+    Yes, while the variant on RNA level can be described as `r.76a>g` on DNA level, based on e.g., a coding DNA reference, sequence it should be described as `c.(76A>G)`.
 
 !!! note "How can I shorten the descriptions of SNPs in a manuscript?"
 

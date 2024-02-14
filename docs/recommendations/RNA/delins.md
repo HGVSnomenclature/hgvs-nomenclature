@@ -12,7 +12,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - by definition, when **one** nucleotide is replaced by **one** other nucleotide, the change is a [substitution](substitution.md).
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".
     - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g., `r.142_144delinsugg` `p.(Arg48Trp)`).<br>

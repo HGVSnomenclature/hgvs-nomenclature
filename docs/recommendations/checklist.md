@@ -48,13 +48,13 @@ Going through this list should assist you while preparing a publication containi
     *Do you indicate the first and last residue involved in a deletion?*<br>
     Descriptions like <code class="invalid">g.123del3</code> are not allowed, correct is `g.123_125del` (see [Deletion](DNA/deletion.md)).
 
-7.  **Describe always at DNA-level**<br>
-    *Do you describe all changes reported at DNA-level?*<br>
-    All changes reported **must** be described at DNA-level.
-    - when descriptions at protein level are given in the text, upon first appearance, use a format like "`c.76G>T` (`p.(Gly26Cys)`, RNA not analysed)" or "`c.76G>T` (`r.76g>u` `p.Gly26Cys`)".
+7.  **Describe always on DNA-level**<br>
+    *Do you describe all changes reported on DNA-level?*<br>
+    All changes reported **must** be described on DNA-level.
+    - when descriptions on protein level are given in the text, upon first appearance, use a format like "`c.76G>T` (`p.(Gly26Cys)`, RNA not analysed)" or "`c.76G>T` (`r.76g>u` `p.Gly26Cys`)".
 
 8.  **RNA level descriptions**<br>
-    *HGVS nomenclature includes recommendations for the description of changes detected at the RNA level.*
+    *HGVS nomenclature includes recommendations for the description of changes detected on the RNA level.*
     - several transcripts derived from one allele are described using the format `r.[76a>c,73_88del]` (see [RNA](RNA/alleles.md)).
 
 9.  **protein level descriptions**
@@ -75,14 +75,14 @@ Going through this list should assist you while preparing a publication containi
 12. **Tabular overview**<br>
     *Is the overview of all changes reported clear and complete?*<br>
     Preferably, a publication contains a **tabular overview** of all variants reported.
-    This overview contains columns describing the change at the DNA-level (**absolutely essential**) and, optionally, at the RNA and protein level.<br>
+    This overview contains columns describing the change on the DNA-level (**absolutely essential**) and, optionally, on the RNA and protein level.<br>
     When data on RNA and/or protein level are provided, it should be made clear whether the data were **deduced or experimentally verified** (i.e. state explicitly when RNA was analysed, e.g., to study the consequences of a variant affecting splicing).<br>
     Make sure **predicted** consequences on protein level are reported in parentheses, like `p.(Arg123Ser)`.
 
 13. **Variant types**<br>
-    _When giving numbers regarding the types of variants identified, do **not mix numbers** at DNA, RNA and protein level._<br>
+    _When giving numbers regarding the types of variants identified, do **not mix numbers** on DNA, RNA and protein level._<br>
     Give numbers separately for DNA, RNA, and protein.
-    Where would you list a substitution at DNA level, giving a deletion at RNA level (since it affects splicing), and a frameshift at protein level?
+    Where would you list a substitution on DNA level, giving a deletion on RNA level (since it affects splicing), and a frameshift on protein level?
 
 14. **Pathogenic**<br>
     *Be careful when using the term "pathogenic" (see [terminology](../background/basics.md#pathogenic)).*<br>

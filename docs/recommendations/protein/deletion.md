@@ -12,7 +12,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g., `p.(Arg727_Ser783del)`.
 - the "positions_deleted" should contain **two different** positions, i.e. `Cys76_Glu79`, not `Cys76_Cys76`.
     - the "positions_deleted" should be listed from **5' to 3'**, i.e. `Cys76_Glu79`, not `Glu79_Cys76`.
@@ -20,7 +20,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
 - a **nonsense** variant, a variant changing an amino acid to a translation termination (stop) codon, is described as a **substitution** (`p.Trp26Ter` or `p.Trp26*`; see [Substitution](substitution.md)).
   A nonsense variant is not described as a [Deletion](deletion.md) of the C-terminal end of the protein (e.g., `p.Trp26_Arg1623del`).
 - variants extending the amino acid sequence at the C-terminal end with one or more amino acids, are described as an [Extension](extension.md).
-- deletions at the DNA or RNA level that
+- deletions on the DNA or RNA level that
     - introduce an **immediate** translation termination (stop) codon, are described as a nonsense variant.
     - encode an open reading frame which **after** the deleted sequence shifts to another reading frame, are described as a [frameshift](frameshift.md).
 
@@ -99,9 +99,9 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.del
     According to the HGVS nomenclature, all variants should be described at the most basic level, the DNA level.
     For protein studies, the variant can be described as `NP_000483.3:p.Phe508del` (NOTE: the protein reference sequence should be given).
 
-!!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?"
+!!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change on the DNA-level"?"
 
     It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence.
-    Knowledge on the underlying change at the DNA level should not be used.
+    Knowledge on the underlying change on the DNA level should not be used.
     E.g., when `MetTrpSerSer`<code class="del">Ser</code>`HisAsp..` changes to `MetTrpSerSerHisAsp..`, this is described as `p.Ser5del`.
-    The information that at the DNA level the change is `..ATGTGGTCC`<code class="del">AGT</code>`TCCCACGAT..` to `..ATGTGGTCCTCCCACGAT..`, so the codon for `Ser4` is deleted, is not used; the description `p.Ser4del` is not correct.
+    The information that on the DNA level the change is `..ATGTGGTCC`<code class="del">AGT</code>`TCCCACGAT..` to `..ATGTGGTCCTCCCACGAT..`, so the codon for `Ser4` is deleted, is not used; the description `p.Ser4del` is not correct.

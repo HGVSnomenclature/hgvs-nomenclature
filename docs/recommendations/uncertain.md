@@ -199,7 +199,7 @@ This page summarises how to describe variants when not all information is availa
   used to indicate that RNA was not analysed, but the variant `r.(306g>u)` is expected to be detected.
 
 - **`r.(?)`**<br>
-  frequently used to indicate that RNA was not analysed but that no changes on the RNA level are expected other than those simply derived from the change at the DNA level.
+  frequently used to indicate that RNA was not analysed but that no changes on the RNA level are expected other than those simply derived from the change on the DNA level.
 
 #### Protein
 

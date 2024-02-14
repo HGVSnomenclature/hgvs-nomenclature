@@ -145,8 +145,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
 
     No. The sequence surrounding amino acid Phe508 in the _CFTR_ gene is `..ATCTTTGGT..` (`c.1519` to `c.1527`).
     Three different deletions (`..A`<code class="del">TCT</code>`TTGGT..`, `..AT`<code class="del">CTT</code>`TGGT..`, and `..ATC`<code class="del">TTT</code>`GGT..`) would give the reported protein variant `p.Phe508del`.
-    Applying the 3' rule (see [Recommendations](../general.md)) yields two different changes at DNA level, `NM_000492.3:c.1521_1523del` and `NM_000492.3:c.1522_1524del`.
-    When you assume the change at DNA level is `c.1522_1524del`, deletion of exactly the Phe508 encoding triplet, you are wrong.
+    Applying the 3' rule (see [Recommendations](../general.md)) yields two different changes on DNA level, `NM_000492.3:c.1521_1523del` and `NM_000492.3:c.1522_1524del`.
+    When you assume the change on DNA level is `c.1522_1524del`, deletion of exactly the Phe508 encoding triplet, you are wrong.
     The change found in patients is mostly `NM_000492.3:c.1521_1523del`.
     So, without a proper description in the manuscript, one can not be certain.
 

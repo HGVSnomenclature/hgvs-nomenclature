@@ -41,9 +41,9 @@ In addition, a report usually contains a description of the predicted consequenc
 In rare cases, not following current standards, only the predicted consequences on the protein level are reported.
 
 Some variants have an effect on how the transcript (RNA) is generated, and consequently, on its translation into protein.
-When only DNA has been analysed, the consequences of the variant at the RNA and the protein level can only be predicted.
+When only DNA has been analysed, the consequences of the variant on the RNA and the protein level can only be predicted.
 The HGVS nomenclature demands predicted consequences have to be **reported in parentheses**.
-The predicted consequence of the variant `NM_004006.2:c.4375C>T` at the protein level is described as `p.(Arg1459Ter)`.
+The predicted consequence of the variant `NM_004006.2:c.4375C>T` on the protein level is described as `p.(Arg1459Ter)`.
 The "()" warn the variant described is a predicted consequence only.
 
 ## Reference sequences

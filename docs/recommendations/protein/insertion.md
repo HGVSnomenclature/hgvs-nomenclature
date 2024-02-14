@@ -12,18 +12,18 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g., `p.(Arg727_Ser728insTrpCys)`.
 - the "positions_flanking" should contain **two flanking residues**, e.g., `Lys23_Leu24`, not two non-flanking residues (`Lys23_Asn25`).
     - an insertion can not be described using **one** amino acid position, like <code class="invalid">p.Lys23insAsp</code>.
 - for all descriptions, the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
 - duplicating insertions should be described as duplications (see [Duplication](../DNA/duplication.md)), not as an insertion.
 - when the inserted amino acid sequence is large, the insertion may be described by its length, e.g., `p.Lys2_Leu3insX[34]` (open reading frame insertion) or `p.Lys2_Leu3insTer12` (translation stop in inserted sequence).<br>
-  **NOTE**: the inserted amino acid sequence can be derived from the description of the variant at the DNA or RNA level.
+  **NOTE**: the inserted amino acid sequence can be derived from the description of the variant on the DNA or RNA level.
 - insertions extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as an [Extension](extension.md).
-- insertions at DNA or RNA level that
-    - introduce an **immediate** translation termination (stop) codon at the protein level, are described as a nonsense variant.
-    - **encode a translation stop codon** in the inserted sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
+- insertions on DNA or RNA level that
+    - introduce an **immediate** translation termination (stop) codon on the protein level, are described as a nonsense variant.
+    - **encode a translation stop codon** in the inserted sequence are on the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
     - encode an open reading frame which **after** the inserted sequence shifts to another reading frame, are described as a [frameshift](frameshift.md).
 
 ## Examples
@@ -35,7 +35,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
   the insertion of amino acids <code class="ins">GlnSerLys</code> between amino acids `Lys2` and `Gly3`, changing `MetLysGlyHisGlnGlnCys` to `MetLys`<code class="ins">GlnSerLys</code>`GlyHisGlnGlnCys`.
 
 - **`p.(Met3_His4insGlyTer)`**<br>
-  the predicted consequence on the protein level of an insertion at the DNA level (`c.9_10insGGGTAG`), is the insertion of `GlyTer` (alternatively `Gly*`).<br>
+  the predicted consequence on the protein level of an insertion on the DNA level (`c.9_10insGGGTAG`), is the insertion of `GlyTer` (alternatively `Gly*`).<br>
   **NOTE**: this is not described as `p.(Met3_Ile3418delinsGly)`, a deletion-insertion replacing the entire C-terminal protein coding sequence downstream of `Met3` with a `Gly`.
 
 - **`NP_004371.2:p.(Pro46_Asn47insSerSerTer)`**<br>
@@ -44,11 +44,11 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
 
 - **`p.Arg78_Gly79insX[23]`**<br>
   the in-frame insertion of a 23 amino acid sequence between amino acids `Arg78` and `Gly79`.<br>
-  **NOTE**: it must be possible to deduce the 23 inserted amino acids from the description given at the DNA or RNA level.
+  **NOTE**: it must be possible to deduce the 23 inserted amino acids from the description given on the DNA or RNA level.
 
 - **`NP_060250.2:p.Gln746_Lys747ins*63`**<br>
   the in-frame insertion of a 62 amino acid sequence ending at a stop codon at position `*63` between amino acids `Gln746` and `Lys747`.<br>
-  **NOTE**: it must be possible to deduce the inserted amino acid sequence from the description given at the DNA or RNA level.
+  **NOTE**: it must be possible to deduce the inserted amino acid sequence from the description given on the DNA or RNA level.
 
 - incomplete descriptions (preferably use exact descriptions only)
     - **`NP_003997.1:p.(Ser332_Ser333insX)`**<br>

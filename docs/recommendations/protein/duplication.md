@@ -12,18 +12,18 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.dup
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g., `p.(Arg727_Ser783dup)`.
 - the "positions_duplicated" should contain **two different** positions, i.e. `Cys76_Glu79`, not `Cys76_Cys76`.
     - the "positions_duplicated" should be listed from **5' to 3'**, i.e. `Cys76_Glu79`, not `Glu79_Cys76`.
 - by definition, duplication may only be used when the additional copy is **directly C-terminal** of the original copy (a "tandem duplication").
-    - when the extra copy is, at the protein level, not in tandem (directly C-terminal), the change should be described as **insertion** (see [Insertion](insertion.md)).
+    - when the extra copy is, on the protein level, not in tandem (directly C-terminal), the change should be described as **insertion** (see [Insertion](insertion.md)).
     - duplications extending the amino acid sequence at the C-terminal end with one or more amino acids are described as an [Extension](extension.md).
 - for all descriptions, the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
-- duplications at the DNA or RNA level, **starting N-terminal of and including** the translation termination (stop) codon usually have no (predicted) effect on the protein level.
-- duplications at DNA or RNA level that
-    - introduce an **immediate** translation termination (stop) codon at the protein level, are described as a nonsense variant.
-    - **encode a translation stop codon** in the duplicated sequence are at the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
+- duplications on the DNA or RNA level, **starting N-terminal of and including** the translation termination (stop) codon usually have no (predicted) effect on the protein level.
+- duplications on DNA or RNA level that
+    - introduce an **immediate** translation termination (stop) codon on the protein level, are described as a nonsense variant.
+    - **encode a translation stop codon** in the duplicated sequence are on the protein level described as an insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
     - encode an open reading frame which **after** the duplicated sequence shifts to another reading frame, are described as a [frameshift](frameshift.md).
 
 ## Examples
@@ -90,9 +90,9 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.dup
     A description using "dup" is not correct since, by definition, a duplication should be **directly 3'-flanking of the original copy** (in tandem).
     Note that the description given still makes it clear that the sequence inserted between `p.His7` and `p.Gln8` is probably derived from nearby, i.e. position `p.Gly4` to `p.Ser6`, and thus likely derived from a duplicative event.
 
-!!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change at the DNA-level"?"
+!!! note "What do you mean with "variants should be described on the protein level and not incorporate knowledge regarding the change on the DNA-level"?"
 
     It means that protein variant descriptions should be derived from comparing the variant protein sequence with the reference protein sequence.
-    Knowledge on the underlying change at the DNA level should not be used.
+    Knowledge on the underlying change on the DNA level should not be used.
     E.g., when `MetTrpSerSerSerHisAsp..` changes to `MetTrpSerSerSer`<code class="ins">Ser</code>`HisAsp..`, this is described as `p.Ser5dup`.
-    The information that at the DNA level the change is `..ATGTGGTCCAGTTCCCACGAT..` to `..ATGTGGTCCAGT`<code class="ins">AGT</code>`TCCCACGAT..`, so the codon for `Ser4` is duplicated, is not used; the description `p.Ser4dup` is not correct.
+    The information that on the DNA level the change is `..ATGTGGTCCAGTTCCCACGAT..` to `..ATGTGGTCCAGT`<code class="ins">AGT</code>`TCCCACGAT..`, so the codon for `Ser4` is duplicated, is not used; the description `p.Ser4dup` is not correct.

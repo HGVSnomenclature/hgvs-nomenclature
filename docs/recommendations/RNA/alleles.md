@@ -12,13 +12,13 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.alleles
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - humans are diploid organisms and have **two alleles** at each genetic locus, with one allele inherited from each parent.
 - when two variants are identified in a transcript that derive from **one chromosome** (in cis), this should be described as `r.[variant1`<code class="spot1">;</code>`variant2]`.
 - when two variants are identified in transcripts that derive from **different chromosomes** (in trans), this should be described as `r.[variant1]`<code class="spot1">;</code>`[variant2]`.
 - when two variants are identified in a transcript, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as `variant1`<code class="spot1">(;)</code>`variant2`, i.e. without using `[ ]`.<br>
   **NOTE**: it is recommended to determine whether the changes are in the same transcript or not.
-- when two variants are identified in two different transcripts that derive from **one variant** at the DNA level, the variants are separated using a `,`; `r.[variant1`<code class="spot1">,</code>`variant2]`.
+- when two variants are identified in two different transcripts that derive from **one variant** on the DNA level, the variants are separated using a `,`; `r.[variant1`<code class="spot1">,</code>`variant2]`.
 
 ## Examples
 
@@ -58,7 +58,7 @@ For more examples, see [DNA alleles](../DNA/alleles.md).
 
 - **one allele, two transcripts**
     - **`LRG_199t1:r.[897u>g,832_960del]`**<br>
-      two different transcripts, `r.897u>g` and `r.832_960del`, derive from one variant (`LRG_199t1:c.897T>G` at the DNA level).
+      two different transcripts, `r.897u>g` and `r.832_960del`, derive from one variant (`LRG_199t1:c.897T>G` on the DNA level).
 
 ## Discussion
 

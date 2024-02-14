@@ -12,7 +12,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ext
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g., `p.(Ter110GlnextTer17)` or `p.(*110Glnext*17)`.
 - variants affecting the translation initiation site (`Met1`), activating an upstream (N-terminal) translation initiation site, are described as [deletion-insertion](delins.md); those activating a downstream (C-terminal) initiation site as a [deletion](deletion.md).
 - **prioritisation**: (1) extension, (2) frameshift or deletion-insertion.
@@ -35,12 +35,12 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ext
 
 ## Discussion
 
-!!! note "How are variants at the protein level called that directly affect the translation initiation (start) codon?"
+!!! note "How are variants on the protein level called that directly affect the translation initiation (start) codon?"
 
     The variant is called **start-lost** variant, one of two types of a protein extension, an N-terminal extension.
     Note the difference with a **start-gained** variant where the start codon itself is not directly affected, another type of N-terminal extension.
 
-!!! note "How are variants at the protein level called that directly affect the translation termination (stop) codon?"
+!!! note "How are variants on the protein level called that directly affect the translation termination (stop) codon?"
 
     The variant is called a **no-stop** or **stop-lost** variant, one of two types of a protein extension, a C-terminal extension.
 
@@ -51,8 +51,8 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ext
 
 !!! note "How should a variant in the 5'UTR be described that gives rise to a new translation initiation site?"
 
-    The description at the DNA-level is, e.g., `c.-23A>T` (changing `CA`<code class="sub">G</code>`GGT` to `CA`<code class="sub">T</code>`GGT`, creating a new `ATG`-triplet).
-    The description at the RNA-level is `r.-23a>u`, and at the protein level `p.(Met1ext-8)`, indicating the predicted protein sequence is an N-terminal extension with 8 amino acids.
+    The description on the DNA-level is, e.g., `c.-23A>T` (changing `CA`<code class="sub">G</code>`GGT` to `CA`<code class="sub">T</code>`GGT`, creating a new `ATG`-triplet).
+    The description on the RNA-level is `r.-23a>u`, and on the protein level `p.(Met1ext-8)`, indicating the predicted protein sequence is an N-terminal extension with 8 amino acids.
 
 !!! note "Should I describe a duplication in the translation termination codon (`T`<code class="spot1">G</code>`A` to `T`<code class="spot1">G</code><code class="ins">G</code>`A`) as a frameshift or as an extension?"
 

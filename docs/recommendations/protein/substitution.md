@@ -12,7 +12,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.sub
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses, e.g., `p.(Arg727Ser)`.
 - a **nonsense** variant, a variant changing an amino acid to a translation termination (stop) codon, is described as a **substitution**.
   A nonsense variant is not described as a [Deletion](deletion.md) of the C-terminal end of the protein (e.g., `p.Trp26_Arg1623del`).
@@ -49,7 +49,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.sub
       Do not use descriptions like <code class="invalid">p.Met1Thr</code>, this is for sure **not** the consequence of the effect on protein translation.
 
     - **unknown: `LRG_199p1:p.(Met1?)`**<br>
-      the consequence, at the protein level, of a variant affecting the translation initiation codon can not be predicted (i.e. is unknown).
+      the consequence, on the protein level, of a variant affecting the translation initiation codon can not be predicted (i.e. is unknown).
 
     - **new translation initiation site**
         - **downstream: `NP_003997.1:p.Leu2_Met124del` (deletion)**<br>

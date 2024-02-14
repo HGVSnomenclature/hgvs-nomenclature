@@ -11,7 +11,7 @@ Recommendations on representing adjoined transcripts formed by gene fusions are 
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - a `,` (comma) is used to separate different transcripts/proteins derived from one allele; `r.[123a>u,122_154del]`.
 - HGVS recommends following the [HGNC guidelines](https://www.genenames.org/about/guidelines/) and the [VICC Gene Fusion Specification](https://fusions.cancervariants.org/en/latest) nomenclature to describe products of gene fusions.
     - The HGNC recommendations include using a `GENESYMBOL1::GENESYMBOL2` syntax for gene-level fusion descriptions, and a `GENESYMBOL1-GENESYMBOL2` syntax for read-through transcripts.
@@ -22,7 +22,7 @@ Recommendations on representing adjoined transcripts formed by gene fusions are 
 
 - **one variant, several transcripts**
     - **`NC_000023.11(NM_004006.2):r.[897u>g,832_960del]`**<br>
-      two different transcripts, `r.897u>g` and `r.832_960del`, derive from one variant (`c.897T>G` at the DNA level).
+      two different transcripts, `r.897u>g` and `r.832_960del`, derive from one variant (`c.897T>G` on the DNA level).
 
 - **splice acceptor site**
     - **`NC_000023.11(NM_004006.2):r.650_831del`**<br>
@@ -81,4 +81,4 @@ Recommendations on representing adjoined transcripts formed by gene fusions are 
 
 !!! note "How can I best describe the predicted consequences on the protein level of a variant that most probably affects splicing?"
 
-    The best format seems to use `p.?`, meaning "I do not know what to expect at the protein level".
+    The best format seems to use `p.?`, meaning "I do not know what to expect on the protein level".

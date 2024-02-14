@@ -12,7 +12,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.sub
 
 ## Notes
 
-- all variants **should be** described at the DNA level; descriptions at the RNA and/or protein level may be given in addition.
+- all variants **should be** described on the DNA level; descriptions on the RNA and/or protein level may be given in addition.
 - substitutions involving two or more consecutive nucleotides are described as deletion/insertions (delins) (see [Deletion/insertion](delins.md)).
 - two substitutions separated by one or more nucleotides should be described individually and not as a "delins".
     - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins" (e.g., `r.142_144delinsugg` (`p.Arg48Trp`)).<br>
@@ -41,7 +41,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.sub
   a `u` to `a` substitution 41 nucleotides 3' of the translation termination codon.
 
 - **`NM_004006.3:r.[897u>g,832_960del]`**<br>
-  two different transcripts, `r.897u>g` and `r.832_960del`, derive from one variant (`NM_004006.3:c.897T>G` at the DNA level).<br>
+  two different transcripts, `r.897u>g` and `r.832_960del`, derive from one variant (`NM_004006.3:c.897T>G` on the DNA level).<br>
   **NOTE**: for more examples of variants affecting splicing, see [RNA splicing](splicing.md).
 
 - **`NM_004006.1:r.0`**<br>
@@ -63,9 +63,9 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.sub
 
 ## Discussion
 
-!!! note "When I only sequenced RNA (cDNA) and not genomic DNA should I then give the description of a variant at DNA level in parentheses?"
+!!! note "When I only sequenced RNA (cDNA) and not genomic DNA should I then give the description of a variant on DNA level in parentheses?"
 
-    Yes, while the variant at RNA level can be described as `r.76a>g` on DNA level, based on a coding DNA reference, sequence it should be described as `c.(76A>G)`.
+    Yes, while the variant on RNA level can be described as `r.76a>g` on DNA level, based on a coding DNA reference, sequence it should be described as `c.(76A>G)`.
 
 <a id="polymorphism"></a>
 !!! note "Are polymorphisms described like <code class="invalid">r.76a/g</code>?"
