@@ -26,7 +26,10 @@ Attempt to leve up nav and content when h1#home is not displayed
 }
 */
 
-.md-typeset .note {
+.md-typeset .failure,
+.md-typeset .note,
+.md-typeset .success,
+.md-typeset .warning {
   font-size: inherit;
 }
 
