@@ -2,7 +2,7 @@
 
 <!-- ## Definition -->
 
-Duplication: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides are inserted **directly 3'** of the original copy of that sequence.
+Duplication: a sequence change where, compared to a reference sequence, a copy of one or more nucleotides is inserted **directly 3'** of the original copy of that sequence.
 
 ## Syntax
 

@@ -18,7 +18,7 @@ Make sure you have also seen the ([Basics](../background/basics.md), explaining 
     - the recommended reference is a genomic reference sequence based on a recent genome build.
         - for human, the recommended reference is based on genome build GRCh38/hg38, e.g., `NC_000023.11` for chromosome X.
         - when variants are reported in relation to a transcript, the preferred reference sequence is the reference suggested by the MANE project (see [Ensembl](http://tark.ensembl.org/web/mane_project/) or [NCBI](https://www.ncbi.nlm.nih.gov/refseq/MANE/)).<br>
-          **NOTE**: while [Locus Reference Genomic (LRG)](http://www.lrg-sequence.org) reference sequences are still acceptable, new LRG's are no longer generated and RefSeq or Ensembl transcripts specified by the MANE project are preferred for all genes where available to help standardize clinical reporting.
+          **NOTE**: while [Locus Reference Genomic (LRG)](http://www.lrg-sequence.org) reference sequences are still acceptable, new LRGs are no longer generated and RefSeq or Ensembl transcripts specified by the MANE project are preferred for all genes where available to help standardize clinical reporting.
     - the reference sequence used must contain the residue(s) described to be changed.
     - a **letter prefix** is mandatory to indicate the type of reference sequence used.
       Accepted prefixes are;

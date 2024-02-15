@@ -80,7 +80,7 @@ Going through this list should assist you while preparing a publication containi
     Make sure **predicted** consequences on protein level are reported in parentheses, like `p.(Arg123Ser)`.
 
 13. **Variant types**<br>
-    _When giving numbers regarding the types of variants identified, do **not mix numbers** on DNA, RNA and protein level._<br>
+    _When giving numbers regarding the types of variants identified, do **not mix numbers** on DNA, RNA, and protein level._<br>
     Give numbers separately for DNA, RNA, and protein.
     Where would you list a substitution on DNA level, giving a deletion on RNA level (since it affects splicing), and a frameshift on protein level?
 

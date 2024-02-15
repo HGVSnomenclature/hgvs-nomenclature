@@ -171,7 +171,7 @@ The recommended DNA reference is a genomic reference sequence.
 
 - when, based on a genomic reference sequence, variants are reported using a `r.` prefix, the transcript variant used should be indicated.
     - for `NC_` or `NG_` reference sequences the annotated transcript used is given in parentheses directly following the accession.version number, giving variant descriptions like `NC_000023.10(NM_004006.2):r.357_358ins357+1_357+12` or `NG_012232.1(NM_004006.2):r.357_358ins357+1_357+12`.
-    - for LRGs the annotated "**transcript variant 1**" is described as `t1`, e.g., `LRG_199<code class="spot1">t1</code>:r.11u>g`.
+    - for LRGs the annotated "**transcript variant 1**" is described as `t1`, e.g., `LRG_199`<code class="spot1">t1</code>`:r.11u>g`.
 
 - nucleotide numbering for an RNA reference sequencing follows that of the associated coding or non-coding DNA reference sequence; nucleotide `r.123`, relates to `c.123` or `n.123`.
 

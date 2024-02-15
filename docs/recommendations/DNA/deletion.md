@@ -150,7 +150,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
     The change found in patients is mostly `NM_000492.3:c.1521_1523del`.
     So, without a proper description in the manuscript, one can not be certain.
 
-!!! note "Suggestion to use "los" for a loss from a mononucleotide stretch."
+!!! note "Suggestion to use "los" for a loss from a mono-nucleotide stretch."
 
     Pat O'Neill (Burlington, USA) writes: I especially like the use of "dup" in place of "ins" when the insertion creates a run of two or more nucleotides.
     I feel that there should be a parallel term for the loss of a nucleotide from a run of two or more instead of just "del".

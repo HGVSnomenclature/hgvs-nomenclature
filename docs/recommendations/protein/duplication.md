@@ -2,7 +2,7 @@
 
 <!-- ## Definition -->
 
-Duplication: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, a copy of one or more amino acids are inserted **directly C-terminal** of the original copy of that sequence.
+Duplication: a sequence change between the translation initiation (start) and termination (stop) codon where, compared to a reference sequence, a copy of one or more amino acids is inserted **directly C-terminal** of the original copy of that sequence.
 
 ## Syntax
 
