@@ -1,5 +1,7 @@
 # Call for Members
 
+**Application due date: April 1, 2024**
+
 The HGVS Variant Nomenclature Committee (HVNC), one of HUGO's Nomenclature
 Standards Committees, is looking for new members. The main activity of the
 committee is the HGVS Nomenclature, the standard for the unambiguous description
@@ -21,7 +23,7 @@ geneticists, commercial diagnostic laboratories, bioinformaticians, scientific
 journals, etc. Applications should include a motivation letter detailing
 relevant expertise and interests in HGVS nomenclature (max. 1-page A4) and a CV.
 
-Applications should be mailed **before March 1** to
+Applications should be mailed **before April 1** to
 Jennifer.Lee@hugo-international.org.
 
 Applications will be evaluated by the HVNC, and new members proposed to the HUGO
