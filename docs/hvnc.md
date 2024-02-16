@@ -2,8 +2,7 @@
 
 !!! note inline end "Join Us"
 
-    Please see the [Call for Members](call-for-members.md) if you are interested in
-    joining the HVNC and contributing to the maintenance of the HGVS Nomenclature.
+    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members](call-for-members.md). **Applications are due April 1, 2024**.
 
 The HGVS Variant Nomenclature Committee (HVNC) is authorised by the [Human Genome Organisation (HUGO)](https://www.hugo-international.org), a working group of the [HUGO Nomenclature Standards Committee](https://www.hugo-international.org/standards), with administrative support of the HUGO office. Activities of the HVNC follow the committee's Terms of Reference with new members being appointed every two years for a four-year term. HVNC members should together represent all interested communities, including gene/disease specific database curators, central repositories, clinical geneticists, commercial diagnostic laboratories, bioinformaticians, scientific journals, etc. The HVNC is the successor of the HGVS nomenclature Sequence Variant Description Working Group (SVD-WG), initiated by the [Human Variome Project](https://www.humanvariomeproject.org/sdp/wg04-sequence-variant-description-committee.html).
 
