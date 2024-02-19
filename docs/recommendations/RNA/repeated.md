@@ -45,8 +45,8 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.rpt
 - HD `AGC`-repeat: based on the _HTT_ (huntingtin) coding DNA reference sequence (GenBank `NM_002111.6`), applying the **3'rule**, on the RNA level, the Huntington's Disease tri-nucleotide repeat is described as an `agc` (not `cag`) repeat.
     - **`r.53agc[19]`**<br>
       **NOTE**: the coding RNA reference sequence (`NM_002111.6`) contains an allele of 21 `agc` repeats.<br>
-      **NOTE**: on protein level, the reference allele contains 21 Gln's, described as `p.Gln[21]` (alternatively `p.Q[21]`).
+      **NOTE**: on protein level, the reference allele contains 21 `Gln`s, described as `p.Gln[21]` (alternatively `p.Q[21]`).
       The difference derives from the fact that the `agc` repeat is interrupted by a `aac`-triplet (`caa` coding) at position 20.
 
     - **`r.53_55[31]`**<br>
-      the coding RNA reference sequence (`NM_002111.6`) contains a tri-nucleotide allele of 32 repeats (`agc`-19, `aac`, `agc`, `cgc`, `cac`, `cgc`-7, `cuc`-2) encoding 21 Gln and 11 Pro-residues.
+      the coding RNA reference sequence (`NM_002111.6`) contains a tri-nucleotide allele of 32 repeats (`agc`-19, `aac`, `agc`, `cgc`, `cac`, `cgc`-7, `cuc`-2) encoding 21 `Gln` and 11 `Pro`-residues.

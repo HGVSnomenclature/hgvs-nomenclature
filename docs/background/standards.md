@@ -249,7 +249,10 @@ In the table below, to support translation from a DNA sequence, we have used a `
 
 **NOTE**: We are in contact with the ISCN to learn whether the translation tables shown is recognised by ISCN as correct.
 
-To facilitate translating variant descriptions based on [ISCN](../consultation/ISCN.md) recommendations, human chromosomal band descriptions need to be translated to genomic positions (see [Complex (HGVS/ISCN)](../recommendations/DNA/complex.md)). For this translation the table below can be used. Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38. Translation is based on the UCSC cytoBand file downloadeds for [hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [hg38](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
+To facilitate translating variant descriptions based on [ISCN](../consultation/ISCN.md) recommendations, human chromosomal band descriptions need to be translated to genomic positions (see [Complex (HGVS/ISCN)](../recommendations/DNA/complex.md)).
+For this translation, the table below can be used.
+Translations are shown for genome builds hg19/GRCh37 and hg38/GRCh38.
+Translation is based on the UCSC cytoBand file downloaded for [hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz) and [hg38](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz).
 
 | Chromosome |  Band  |           Position (hg19/GRCh37)           |             Position (GRCh38)              |
 |:----------:|:------:|:------------------------------------------:|:------------------------------------------:|

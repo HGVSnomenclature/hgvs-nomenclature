@@ -116,4 +116,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.ins
 
 !!! note "A variant in the _CDKN2A_ gene, duplicating the first 24 nucleotides of the coding DNA reference sequence, has been described as <code class="invalid">c.23ins24</code>. My interpretation is it should be described as `c.1_24dup`, is this correct?"
 
-    Since the sequence in that region is <span class="sequence">cagc<code class="spot1">ATGGAGCC</code>GGCGGCGGGGAGCAGC<code class="spot1">ATGGAGCC</code>TTCG</span> the correct decription is `c.9_32dup` (`p.(Ala4_Pro11dup)`). `c.1_24dup` seems correct but neglects the **3'rule** (3' shift possible for the highlighted region). `c.23ins24` is not correct since the position of the insertion is not described properly and because ins"24" does not define the sequence inserted.
+    Since the sequence in that region is <span class="sequence">cagc<code class="spot1">ATGGAGCC</code>GGCGGCGGGGAGCAGC<code class="spot1">ATGGAGCC</code>TTCG</span>, the correct description is `c.9_32dup` (`p.(Ala4_Pro11dup)`).
+    `c.1_24dup` seems correct but neglects the **3'rule** (3' shift possible for the highlighted region).
+    `c.23ins24` is not correct since the position of the insertion is not described properly and because "ins24" does not define the sequence inserted.

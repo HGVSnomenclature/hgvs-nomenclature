@@ -84,7 +84,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.rpt
       a complex repeated sequence from position `g.112036755` to `g.112036823` on chromosome 12 with first a `CTG` unit present in 9 copies, then a `TTG` unit present in 1 copy and then a `CTG` unit present in 13 copies.
 
 - **differing genomic (g.) and coding DNA (c.) descriptions**<br>
-  `NC_000001.11:g.57367047_57367121ATAAA[15]` and `NM_021080.3:c.-136-75952_-136-75878ATTTT[15]` describe the same repeat allele in intron 3 of the DAB1 gene.<br>
+  `NC_000001.11:g.57367047_57367121ATAAA[15]` and `NM_021080.3:c.-136-75952_-136-75878ATTTT[15]` describe the same repeat allele in intron 3 of the _DAB1_ gene.<br>
   **NOTE**: based on the **3' rule** and the transcriptional orientation of the gene (minus strand), the description of the repeat units differs.
 
 ## Discussion
