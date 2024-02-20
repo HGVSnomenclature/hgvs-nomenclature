@@ -167,7 +167,7 @@ This page summarises how to describe variants when not all information is availa
     - *MLPA*
         - **`NC_000023.11:g.(31729662_31774079)_(32216972_32287623)dup` (`LRG_199t1:c.(6196_6382)_(7423_7629)dup`)**<br>
           a duplication of exons 44 to 51 in the _DMD_ gene as detected by an MLPA assay.
-          The duplication is described based on the last normal signal (exon 43 position `g.32287623` / `c.6196`), the first duplicated signal (exon 44 position `g.32216972` / `c.6382`), the last duplicated signal (exon 51 position `g.31774079` / `c.7423`), and the first normal signal (exon 52 position `g.31729662` / `c.7629)`.<br>
+          The duplication is described based on the last normal signal (exon 43 position `g.32287623` / `c.6196`), the first duplicated signal (exon 44 position `g.32216972` / `c.6382`), the last duplicated signal (exon 51 position `g.31774079` / `c.7423`), and the first normal signal (exon 52 position `g.31729662` / `c.7629`).<br>
           **NOTE**: in samples containing 2 alleles, an increased signal indicates the presence of an **extra copy** of the sequence tested.
           The result has no information regarding the **location** of the extra copy, it can be anywhere in the genome!
 
