@@ -181,7 +181,7 @@ dna:
   inv:
     elements:
     forms:
-      - syntax: sequence_identifier ":" coordinate_type "." range "dup"
+      - syntax: sequence_identifier ":" coordinate_type "." range "inv"
         examples:
           - NC_000001.11:g.1234_2345inv
   other:
