@@ -78,7 +78,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
     In the past, the format <code class="invalid">c.76A/G</code> has been used to describe "polymorphic" sequence variants.
     Note that a description should be neutral, simply describe the change, and not include any other information like predicted or known functional consequences.
 
-!!! note "Can I describe a `GC` to `TG` variant as a dinucleotide substitution (<code class="invalid">NG_012232.1:g.12GC>TG</code>)?"
+!!! note "Can I describe a `GC` to `TG` variant as a di-nucleotide substitution (<code class="invalid">NG_012232.1:g.12GC>TG</code>)?"
 
     No, this is not allowed.
     By definition, a substitution changes **one** nucleotide into **one** other nucleotide.

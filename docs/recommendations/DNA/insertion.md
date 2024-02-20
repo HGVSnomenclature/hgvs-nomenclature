@@ -38,7 +38,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.ins
     the insertion of a copy of nucleotides `c.858` to `c.895` between nucleotides `c.849` and `c.850`.
 
     - **`NC_000002.11:g.47643464_47643465ins[NC_000022.10:g.35788169_35788352]`**<br>
-    the insertion of nucleotides `g.35788169` to `g.35788352` as found in `NC_000022.10` between nucloetides `g.47643464` and `g.47643465`.
+    the insertion of nucleotides `g.35788169` to `g.35788352` as found in `NC_000022.10` between nucleotides `g.47643464` and `g.47643465`.
 
 - complex insertions
     - **`NM_004006.2:c.419_420ins[T;401_419]`**<br>

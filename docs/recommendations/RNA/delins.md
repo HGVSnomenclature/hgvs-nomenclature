@@ -70,7 +70,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
     The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md)).
     The term is confusing, having different meanings in different disciplines.
 
-!!! note "Can I describe a `gc` to `ug` variant as a dinucleotide substitution (<code class="invalid">r.4gc>ug</code>)?"
+!!! note "Can I describe a `gc` to `ug` variant as a di-nucleotide substitution (<code class="invalid">r.4gc>ug</code>)?"
 
     No, this is not allowed.
     By definition, a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](substitution.md)).

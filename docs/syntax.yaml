@@ -9,11 +9,11 @@ element_descriptions:
   position_or_range: The `position` OR `range`
   position: a position specified as a simple ordinal sequence position
   range: A start and end pair of integers specifying a contiguous span of sequence.  Ranges are inclusive for all variant types except insertions, which for which ranges are exclusive.
-  reference_sequence: The sequence at the specified position in the given sequence_indentifier
+  reference_sequence: The sequence at the specified position in the given sequence_identifier
   sequence_identifier: an identifier for a sequence from a recognized database
   sequence: DNA, RNA, or AA sequence
   total_copy_number: The total number of sequence copies in a repeat
-  transcript_identifier: An identfier for a transcript in a recognized database; a transcript implies a specific sequence, exon structure, and, for coding transcripts, CDS start and end positions.
+  transcript_identifier: An identifier for a transcript in a recognized database; a transcript implies a specific sequence, exon structure, and, for coding transcripts, CDS start and end positions.
   transcript_position: A position specified as simple ordinal sequence position OR as an offset from an exon boundary (e.g., 22+7 or 56-3).
   aa_position: A position in a protein sequence. Unlike nucleic acid sequences, protein coordinates are always prefixed with the reference amino acid at that position. (e.g., `Lys23`)
   aa_range: A range of `aa_position`. (e.g., `Lys23_Val25`)

@@ -84,7 +84,7 @@ Below, an overview of publications on the subject of sequence variant descriptio
 
 #### 2016
 
-- Den Dunnen JT, Dalgelish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, Roux AF, Smith T, Antonarakis SE, Taschner PEM (2016).
+- Den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, Roux AF, Smith T, Antonarakis SE, Taschner PEM (2016).
   _HGVS recommendations for the description of sequence variants: 2016 update._
   [Hum. Mutat. 37:564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf).
 - McGowan-Jordan J, Simons A, Schmid M (2016).

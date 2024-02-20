@@ -14,7 +14,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
 
 - `position(s)_deleted` should contain **two different positions**, e.g., `123_126`, not `123_123`.
 - the `position(s)_deleted` should be listed from **5' to 3'**, e.g., `123_126`, not `126_123`.
-    - **exception**: when a circular genomic reference sequnce is used ("o" and "m" prefix) nucleotide positions may be listed from 3' to 5' when the deletion includes both the last and first nucleotides of the reference sequence.
+    - **exception**: when a circular genomic reference sequence is used ("o" and "m" prefix) nucleotide positions may be listed from 3' to 5' when the deletion includes both the last and first nucleotides of the reference sequence.
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".
     - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
       **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.

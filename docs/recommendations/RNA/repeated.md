@@ -33,7 +33,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.rpt
   a repeated di-nucleotide sequence, with the first unit located from position `r.-124` to `r.-123`, is present in 14 copies on one allele and 18 copies on the other allele.
 
 - _FMR1_ `GGC`-repeat: in literature, the Fragile-X tri-nucleotide repeat is known as the `CGG`-repeat.
-  Hoever, based on a coding RNA reference sequence (GenBank `NM_002024.5`) and applying the **3'rule**, on the RNA level, the repeat has to be described as a `ggc`-repeat (see [Recommendations](../general.md)).
+  However, based on a coding RNA reference sequence (GenBank `NM_002024.5`) and applying the **3'rule**, on the RNA level, the repeat has to be described as a `ggc`-repeat (see [Recommendations](../general.md)).
     - **`r.-128_-126[79]`**<br>
       an extended repeat of exactly 79 units.<br>
       **NOTE**: `r.-128ggc[79]` can only be used when the repeat has been sequenced, excluding it is interrupted by one or more `gga`-triplets.

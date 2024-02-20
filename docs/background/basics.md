@@ -58,7 +58,7 @@ Similarly, the term **"polymorphism"** is used both to indicate "_a non disease-
 To prevent this confusion, we do not use the terms mutation and polymorphism (including SNP or Single Nucleotide Polymorphism), but neutral terms like **"variant"** and **"change"**.
 Vol.19(1) of Human Mutation (2002) contains several contributions discussing the issues and shows that the term **"mutation"** has developed a negative connotation (see [Cotton RGH - p.2](http://onlinelibrary.wiley.com/doi/10.1002/humu.10029/pdf), [Condit CM et al. - p.69](http://onlinelibrary.wiley.com/doi/10.1002/humu.10023/pdf), and [Marshall JH - p.76](http://onlinelibrary.wiley.com/doi/10.1002/humu.10021/pdf)).
 Who would like to carry a mutation and thus be a **"mutant"**?
-Current guidelines of authorative organisations now also recommend to use neutral terms like **"variant"** and **"change"** only (see [Richards 2015, Genet.Med. 17:405-424](http://www.nature.com/gim/journal/v17/n5/pdf/gim201530a.pdf)).
+Current guidelines of authoritative organisations now also recommend to use neutral terms like **"variant"** and **"change"** only (see [Richards 2015, Genet.Med. 17:405-424](http://www.nature.com/gim/journal/v17/n5/pdf/gim201530a.pdf)).
 
 In cancer genetics, the terms "mutation" and "mutation load" are often used.
 While, compared to the reference sequence, changes in the genome of the individual should be called "variants", additional changes (de novo somatic variants) in the cancer tissue are called "mutations".

@@ -193,7 +193,7 @@ This page summarises how to describe variants when not all information is availa
 
 - **`r.spl?`**<br>
   frequently used to indicate that normal splicing **might** be affected (RNA not analysed).
-  The format is used for variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site), and variants generating a new `AG`-dinucleotide close to the normal splice acceptor site (`AG`).
+  The format is used for variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site), and variants generating a new `AG` di-nucleotide close to the normal splice acceptor site (`AG`).
 
 - **`r.(76a>c)`**<br>
   used to indicate that RNA was not analysed, but the variant `r.(306g>u)` is expected to be detected.
@@ -220,7 +220,7 @@ This page summarises how to describe variants when not all information is availa
 
 - **`p.(Ala123_Pro131)insX[4]`**<br>
   used to describe there is an insertion of four unknown amino acids (`X`) at an unknown position between amino acids `Ala123` and `Pro131`.<br>
-  **NOTE**: `X` is the IUPAC symbol for an unnown amino acid, **NOT** to indicate a translation termination (stop) codon.
+  **NOTE**: `X` is the IUPAC symbol for an unknown amino acid, **NOT** to indicate a translation termination (stop) codon.
 
 - **`p.Gly719(Ala^Ser)fsTer23`**<br>
   used to describe there is a frameshift variant starting in the codon for amino acid `Gly719`, changing it to either `Ala` or `Ser` and ending at a termination codon at position 23 (`fsTer23`).

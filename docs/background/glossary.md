@@ -304,7 +304,7 @@ If you encounter missing terms or want to suggest definitions, please let us kno
 
 - **UTR**<br>
   UnTranslated Region (UTR), the segments of a protein coding RNA molecule that is not translated.<br>
-  5'UTR = UTR 5' of the tranlsation initiation codon (`ATG` start codon).<br>
+  5'UTR = UTR 5' of the translation initiation codon (`ATG` start codon).<br>
   3'UTR = UTR 3' of the translation termination codon.
 
 - **variant**<br>

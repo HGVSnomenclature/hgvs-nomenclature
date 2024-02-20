@@ -83,7 +83,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
     - **`NC_000023.11(NM_004006.2):c.(4071+1_4072-1)_(5154+1_5155-1)dup`**<br>
       a duplication of exon 30 (starting at position `c.4072`) to exon 36 (ending at position `c.5154`) of the human _DMD_ gene.
       The duplication break point has **not been sequenced**.
-      Exons 29 (ending at `c.4071`) and 37 (starting at nucleotide `c.5155`) have been tested an shown to be **not duplicated**.
+      Exons 29 (ending at `c.4071`) and 37 (starting at nucleotide `c.5155`) have been tested and shown to be **not duplicated**.
       The duplication therefore starts in intron 29 (positions `c.4071+1` to `c.4072-1`) and ends in intron 36 (positions `c.5154+1` to `c.5155-1`).<br>
       **NOTE**: this description is part of [proposal SVD-WG003 (undecided)](../../consultation/SVD-WG003.md).<br>
       **NOTE**: previously, the suggestion was made to describe such duplications using the format `c.4072-?_5154+?dup`.

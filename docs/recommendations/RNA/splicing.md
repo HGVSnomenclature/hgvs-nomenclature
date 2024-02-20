@@ -76,7 +76,7 @@ Recommendations on representing adjoined transcripts formed by gene fusions are 
 
     HGVS recommends to use the format `r.spl` to indicate that RNA was not analysed, but splicing is most probably affected.
     In general, the format is used for variants changing the +1, +2, -2 and -1 position of an intron, i.e. affecting the `GT` splice donor and `AG` splice acceptor site (excluding `GT` to `GC` and `GC` to `GT` variants).
-    `r.(spl?)` is frequently used to indicate that normal splicing might be affected as a consequence of variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site), and variants generating a new `AG`-dinucleotide close to the normal splice acceptor site (`AG`).
+    `r.(spl?)` is frequently used to indicate that normal splicing might be affected as a consequence of variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site), and variants generating a new `AG` di-nucleotide close to the normal splice acceptor site (`AG`).
     See [Uncertain](../uncertain.md).
 
 !!! note "How can I best describe the predicted consequences on the protein level of a variant that most probably affects splicing?"

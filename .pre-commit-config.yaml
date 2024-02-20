@@ -10,7 +10,7 @@ repos:
   - id: check-yaml
   - id: check-added-large-files
 
-# Prettier and Markdown have mutually exclusive interpretatons of the correct
+# Prettier and Markdown have mutually exclusive interpretations of the correct
 # indentation for nested lists. And, because prettier is not configurable,
 # it's all or nothing. So, we get nothing. :-(
 #

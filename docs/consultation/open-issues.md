@@ -2,7 +2,7 @@
 
 ## Community Consultation
 
-There are currently no proposals open for Community Consulation.
+There are currently no proposals open for Community Consultation.
 
 <a id="opentopics"></a>
 
@@ -35,7 +35,7 @@ This complicates variant reporting for diagnostic laboratories, usually reportin
 In addition, such variants can not be shown in databases listing variants based on a `c.` description.
 
 The HGVS nomenclature committee received several requests to suggest a format to describe such variants.
-So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal refenrence sequence (`g.`).
+So far, the committee has the opinion such a format is not required; these variants can be described accurately using a chromosomal reference sequence (`g.`).
 Although the proposal "[Numbering gene flanking nucleotides](#geneflanking)" has been rejected, the issue is not silenced.
 The [Global Variome shared LOVD](http://databases.lovd.nl/shared/genes/DMD) currently uses a format using `{0}` (deletion) and `{2}` (duplication) in combination with the first and last nucleotide of the coding DNA reference sequence (`c.-244` and `c.*2691` in the examples below) to describe variants which go outside the boundaries of the transcript.
 
@@ -79,7 +79,7 @@ This is undesired; HGVS recommendations should be extended by specifying when to
 ### Repeated sequences
 
 The repeated sequence format is part of the HGVS recommendations to describe variants in the number of units of a repeated sequence.
-The format is especially used to describe variants in so-called tri-nucleotide repeat expansion disorders, like Huntingtons' disease, Fragile-X syndrome, etc.
+The format is especially used to describe variants in so-called tri-nucleotide repeat expansion disorders, like Huntington's disease, Fragile-X syndrome, etc.
 The format recommended was based on the format used before the HGVS recommendations were first proposed.
 The basic format is: `g.123_191CAG[25]`, i.e. describing the range of the segment in the reference sequence containing the repeat sequence (`g.123` to `g.191`), describing the repeat unit (`CAG`), and the number of repeat unit identified in the sample analysed (`[25]`).
 
@@ -127,7 +127,7 @@ SVD-WG005 introduces the use of the `|` character ("pipe") to indicate that not 
 
 #### Amount
 
-Due to a variant, e.g., in the promotor region of a gene, the amount of RNA and protein produced might be reduced or increased.
+Due to a variant, e.g., in the promoter region of a gene, the amount of RNA and protein produced might be reduced or increased.
 HGVS nomenclature currently does not have a way to describe this.
 Using the `|` character ("pipe"), these consequences could be described as `r.=|red` or `r.=|inc` (`p.=|red`, `p.=|inc`) or, more specifically, like `r.=|0.40` (reduced to `0.40`) or `r.=|3.10` (increased to `3.10`).
 

@@ -72,7 +72,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.delins
     The term "indel" is not used in HGVS nomenclature (see [Glossary](../../background/glossary.md)).
     The term is confusing, having different meanings in different disciplines.
 
-!!! note "Can I describe a `GC` to `TG` variant as a dinucleotide substitution (<code class="invalid">g.4GC>TG</code>)?"
+!!! note "Can I describe a `GC` to `TG` variant as a di-nucleotide substitution (<code class="invalid">g.4GC>TG</code>)?"
 
     No, this is not allowed.
     By definition, a substitution changes **one** nucleotide into **one** other nucleotide (see [Substitution](substitution.md)).
