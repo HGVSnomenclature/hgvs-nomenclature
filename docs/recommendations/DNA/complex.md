@@ -66,7 +66,7 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
             - NC*000004.12:g.134850793_134850794ins[NC_000023.11:g.89555676_100352080inv] and `NC_000023.11:g.89555676_100352080del`: for ISCN ins(4;X)(q28.3;q22.2q21.31): *(balanced intrachromosomal, inserted sequence reversed in orientation relative to chromosome sequence containing centromere)_
         - **unbalanced** (copy inserted elsewhere): describe as insertion
 - **supernumerary chromosome**
-    - NC*000022.11:g.[pter_(12200001_14700000)del::(37600001_410000000)_qterdel]sup: for ISCN +r(22)(p11.1q13.1): *(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:** changed in ISCN2020. ISCN2016 had: "add" for additional sequence
+    - NC*000022.11:g.[(12200001_14700000)::(37600001_410000000)]sup: for ISCN +r(22)(p11.1q13.1): *(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_: **NOTE:** changed in ISCN2020. ISCN2016 had: "add" for additional sequence
 
 ## Discussion
 
