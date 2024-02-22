@@ -5,7 +5,7 @@
 The HGVS Variant Nomenclature Committee (HVNC), one of HUGO's Nomenclature
 Standards Committees, is looking for new members. The main activity of the
 committee is the HGVS Nomenclature, the standard for the unambiguous description
-of all sequence variants at the DNA, RNA and protein level (see
+of all sequence variants on the DNA, RNA, and protein level (see
 [https://hgvs-nomenclature.org](https://hgvs-nomenclature.org)). The committee's
 [Terms of
 Reference](https://mcusercontent.com/8b89ab9930fa0d9d5f17116d3/files/95e48a7f-dce5-bbf8-6cef-226a37436464/HVNC_ToR.01.doc)

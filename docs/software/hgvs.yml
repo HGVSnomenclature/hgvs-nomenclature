@@ -21,13 +21,13 @@ license: Apache-2.0
 description: |
   The *hgvs* package provides a Python library to parse, format, validate,
   normalize, and map sequence variants according to [HGVS
-  Nomenclature](http://hgvs-nomenclature.org/).
+  Nomenclature](https://hgvs-nomenclature.org/).
 
   The hgvs package focuses on the subset of the HGVS recommendations that
   precisely describe sequence-level variation relevant to the application of
   high-throughput sequencing to clinical diagnostics. The hgvs package does not
   attempt to cover the full scope of HGVS recommendations.  A key feature of the
   hgvs package is the ability to correctly project variants in the presence of
-  genome-transcript alignment indels (see
+  genome-transcript alignment deletion/insertions (see
   [PubMed:30129167](https://pubmed.ncbi.nlm.nih.gov/30129167/)).
 pubmed_id: "30129167"

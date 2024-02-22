@@ -26,7 +26,10 @@ Attempt to leve up nav and content when h1#home is not displayed
 }
 */
 
-.md-typeset .note {
+.md-typeset .failure,
+.md-typeset .note,
+.md-typeset .success,
+.md-typeset .warning {
   font-size: inherit;
 }
 
@@ -252,7 +255,8 @@ table.gc th {
   font-weight: bold;
 }
 
-table.gc tbody tr:nth-of-type(2n) {
+table.gc tbody tr:nth-of-type(-n+4),
+table.gc tbody tr:nth-of-type(n+9):not(tr:nth-of-type(n+13)) {
   background: #f0f0f0;
 }
 

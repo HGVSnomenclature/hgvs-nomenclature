@@ -25,7 +25,7 @@ description: |
   Sequence Variant Nomenclature.
 
   VariantValidator ensures that users are guided through the intricacies of the
-  HGVS nomenclature, e.g. if the user makes a mistake, VariantValidator
+  HGVS nomenclature, e.g., if the user makes a mistake, VariantValidator
   automatically corrects the mistake if it can, or provides helpful guidance if
   it cannot. In addition, VariantValidator accurately inter-converts between
   transcript variant descriptions and genomic variant descriptions in HGVS and

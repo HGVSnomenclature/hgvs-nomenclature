@@ -2,61 +2,88 @@
 
 ## Purpose
 
-Going through publications one can easily see where people give variant descriptions that **do not correctly follow HGVS nomenclature**. The checklist below covers the most frequently offended rules. Going through should assist you while preparing a publication containing sequence variant descriptions.
+Going through publications, one can easily see where people give variant descriptions that **do not correctly follow HGVS nomenclature**.
+The checklist below covers the most frequently offended rules.
+Going through this list should assist you while preparing a publication containing sequence variant descriptions.
 
 ## Checklist
 
-1.  **Reference Sequence** - do you clearly mention the reference sequence used for numbering (nucleotides/amino acids) ?: A publication should mention, preferably in the Materials & Methods section and/or Figure or Table legend, which reference sequence file was used to describe variants and for numbering of the residues (DNA, RNA and protein (see [Reference Sequences](../background/refseq.md))).
+1.  **Reference Sequence**<br>
+    *Do you clearly mention the reference sequence used for numbering (nucleotides/amino acids)?*<br>
+    A publication should mention, preferably in the Materials & Methods section and/or Figure or Table legend, which reference sequence file was used to describe variants and for numbering of the residues (DNA, RNA, and protein (see [Reference Sequences](../background/refseq.md))).
+    - use a RefSeq accession with its version number.
+    - do not forget the underscore in the accession number (e.g., `NM_004006.2`).
+    - genomic (`g.`) reference sequences start with nucleotide 1 and can not have nucleotides with additions like a `+`, `-`, or `*`.
+    - for a coding DNA reference sequence, nucleotide numbering starts with the `A` of the `ATG` translation initiation site, as nucleotide 1.
+    - legacy numbering is only allowed **in addition to** approved numbering.
+    - **Does your reference sequence contain the residue that you describe as changed?**<br>
+      **NOTE**: NM reference sequences cover mature transcripts and **do not contain** intron and gene flanking sequences, and can only be used to describe variants in introns using a `c.` prefix when a genomic reference sequence is given on which the coding DNA reference sequence is annotated, e.g., `NC_000023.10(NM_004006.2):c.94-2A>G` or `LRG_199t1:c.94-2A>G` (see [Reference Sequences](../background/refseq.md#DNAc)).
 
-    - Use a RefSeq accession with version number.
-    - do not forget the underscore in the accession number (e.g., NM_004006.2).
-    - genomic (g.) reference sequences start with nucleotide 1 and can not have nucleotides with additions like a +, - or \*.
-    - for a coding DNA reference sequence, do you clearly state that nucleotide numbering starts with the A of the ATG translation initiation site as nucleotide 1 ?
-    - legacy numbering is only allowed **in addition to** approved numbering
-    - does your reference sequence contain the residue that you describe as changed ?
-        - **NOTE**: NM reference sequences cover mature transcripts and do  not contain** intron and gene flanking sequences, and can only be used to describe variants in introns using a "c." prefix when a genomic reference sequence is given on which the coding DNA reference sequence is annotated, e.g. `NC_000023.10(NM_004006.2):c.94-2A>G` or `LRG_199t1:c.94-2A>G` (see [Reference Sequences](../background/refseq.md#DNAc))
+2.  **Intronic variants**<br>
+    *Are descriptions of intron variants correct and complete?*
+    - descriptions referring to exon or intron numbers instead of nucleotide positions, e.g., <code class="invalid">c.IVS4-2A>G</code>, are **not allowed**, these are ambiguous.
+    - do you properly describe ranges in the introns?
+      The format `c.123-65_123-50` is correct, the format <code class="invalid">c.123-65_-50</code> is not, it is **incomplete**.
 
-2.  **Intronic variants** are descriptions of intron variants correct and complete ?
+3.  **Insertions**<br>
+    *Are descriptions of insertions correct and complete?* (see [Insertion](DNA/insertion.md))
+    - **insertions should be reported using the format `c.51_52insT`.**<br>
+      The format <code class="invalid">c.52insT</code> is **ambiguous**, and not allowed.
+    - **do you provide the inserted sequence?**<br>
+      Describing a variant as <code class="invalid">c.5439_5430ins6</code> is not allowed, the inserted sequence (for `ins6`, e.g., `TGCCAT`) should be specified.
+    - **is the insertion reported indeed an insertion, or is it in fact a duplication?**<br>
+      **Duplicating insertions** should be described as duplications, not as insertions (see [Duplication](DNA/duplication.md)).
 
-    - descriptions referring to exon or intron numbers instead of nucleotide positions, e.g."_c.IVS4-2A>G_", are **not allowed**.
-    - do you properly describe ranges in the introns ? The format `c.123-65_123-50` is correct, the format `c.123-65**_-50**` is not, it is **incomplete**.
+4.  **The 3' rule**<br>
+    *Do you correctly apply the 3' rule?*<br>
+    For deletions, duplications, and insertions, the **most 3' position possible is arbitrarily assigned** to have been changed (see [General recommendations](general.md)).
+    This rule also applies to variants in single residue stretches (mono-nucleotide or amino acid) or tandem repeats.
 
-3.  **Insertions** - are descriptions of insertions correct and complete (see [Insertion](DNA/insertion.md))?
+5.  **Range**<br>
+    *The sign used to indicate a range is the `_` (underscore), not a `-` (hyphen-minus).*<br>
+    The correct description to indicate a deletion of coding DNA nucleotides 12 to 14 is `c.12_14del`.
+    Not correct is <code class="invalid">c.12-14del</code>, this describes a deletion of nucleotide -14 in the intron directly 5' of nucleotide `c.12` (see [Numbering](../background/numbering.md)).
 
-    - insertions should be reported using the format `c.51_52insT`.: The format `c.52insT` is **incomplete** and not allowed.
-    - do you give the inserted sequence?: Describing a variant as `c.5439_5430**ins6**` is not allowed, the inserted sequence (for ins6 e.g. "TGCCAT") should be specified.
-    - is the insertion reported indeed an insertion or is it in fact a duplication?: **Duplicating insertions** should be described as duplications, not as insertions (see [Duplication](DNA/duplication.md)).
+6.  **Deletion**<br>
+    *Do you indicate the first and last residue involved in a deletion?*<br>
+    Descriptions like <code class="invalid">g.123del3</code> are not allowed, correct is `g.123_125del` (see [Deletion](DNA/deletion.md)).
 
-4.  **The 3' rule** - do you correctly apply the 3' rule?: For deletions, duplications and insertions the **most 3' position possible is arbitrarily assigned** to have been changed (see [General recommendations](general.md)). This rule also applies to variants in single residue stretches (mono-nucleotide or amino acid) or tandem repeats.
+7.  **Describe always on DNA-level**<br>
+    *Do you describe all changes reported on DNA-level?*<br>
+    All changes reported **must** be described on DNA-level.
+    - when descriptions on protein level are given in the text, upon first appearance, use a format like "`c.76G>T` (`p.(Gly26Cys)`, RNA not analysed)" or "`c.76G>T` (`r.76g>u` `p.Gly26Cys`)".
 
-5.  **Range** - the sign used to indicate a range is the "_" (underscore), not a "-" (minus)? The correct description to indicate a deletion of coding DNA nucleotides 12 to 14 is `c.12*14del`. Not correct is <code class="invalid">c.12-14del</code>, this describes a deletion of nucleotide -14 in the intron directly 5' of nucleotide `c.12` (see [Numbering](../background/numbering.md)).
-
-6.  **Deletion** - do you indicate the first and last residue involved in a deletion? Descriptions like <code class="invalid">g.123del3</code> are not allowed, correct is `g.123_125del` (see [Deletion](DNA/deletion.md)).
-
-7.  **Describe always at DNA-level** - do you describe all changes reported at DNA-level? All changes reported **must** be described at DNA-level
-
-    - when descriptions at protein level are given in the text, upon first appearance, use a format like "`c.76G>T` (`p.(Gly26Cys)`, RNA not analysed)" or "`c.76G>T` (`r.76g>u` `p.Gly26Cys`)"
-
-8.  **RNA level descriptions** HGVS nomenclature includes recommendations for the description of changes detected at the RNA level.
-
-    - several transcripts derived from one allele are described using the format `r.[76a>c,73_88del]` (see [RNA](RNA/alleles.md))
+8.  **RNA level descriptions**<br>
+    *HGVS nomenclature includes recommendations for the description of changes detected on the RNA level.*
+    - several transcripts derived from one allele are described using the format `r.[76a>c,73_88del]` (see [RNA](RNA/alleles.md)).
 
 9.  **protein level descriptions**
-
-    - the protein reference sequence should represent the primary translation product, not a processed mature protein, and thus include the starting Methionine and a signal peptide sequence
-    - the recommendation is to use **three letter amino acid code**
-    - **"Ter" or "\*" should be used** to indicate a translation stop codon; the X should not be used
+    - the protein reference sequence should represent the primary translation product, not a processed mature protein, and thus include the starting Methionine and a signal peptide sequence.
+    - the recommendation is to use **three letter amino acid code**.
+    - **`Ter` or `*` should be used** to indicate a translation stop codon; the `X` should not be used.
     - predicted "**silent**" protein level variants are described as **p.(Leu54=)**, not as _p.Leu54Leu_ or _p.54L/L_).
-    - the description `p.(Met1Val)` is not allowed (see [Protein](protein/substitution.md))
+    - the description <code class="invalid">p.(Met1Val)</code> is not allowed (see [Protein](protein/substitution.md)).
 
-10. **Mutation / polymorphism** Do not use the terms "mutation" or "polymorphism" (see [General recommendations](../background/basics.md))
+10. **Mutation / polymorphism**<br>
+    *Do not use the terms "mutation" or "polymorphism".* (see [terminology](../background/basics.md#mutation-and-polymorphism))
+    - "polymorphic" variants should not be described using the `/` (slash), describe them as normal variants, like `c.127A>G` and `p.(Ile43Val)`.
 
-    - "polymorphic" variants should not be described using the "/" (slash), describe them as normal variants like `c.127A>G` and `p.(Ile43Val)`.
+11. **Recessive diseases**<br>
+    *Do you clearly describe which changes are found in which combination?*<br>
+    A publication describing variants in patients suffering from a recessive phenotype should, for each individual, explicitly mention **in which combination variants were found (per allele)**.
 
-11. **Recessive diseases** - do you clearly describe which changes are found in which combination? A publication describing variants in patients suffering from a recessive phenotype should, for each individual, explicitly mention **which variants were found and in which combination (per allele)**.
+12. **Tabular overview**<br>
+    *Is the overview of all changes reported clear and complete?*<br>
+    Preferably, a publication contains a **tabular overview** of all variants reported.
+    This overview contains columns describing the change on the DNA-level (**absolutely essential**) and, optionally, on the RNA and protein level.<br>
+    When data on RNA and/or protein level are provided, it should be made clear whether the data were **deduced or experimentally verified** (i.e. state explicitly when RNA was analysed, e.g., to study the consequences of a variant affecting splicing).<br>
+    Make sure **predicted** consequences on protein level are reported in parentheses, like `p.(Arg123Ser)`.
 
-12. **Tabular overview** - is the overview of all changes reported clear and complete?: Preferably, a publication contains a **tabular overview** of all variants reported. This overview contains columns describing the change at the DNA-level (**absolutely essential**) and, optional, at the RNA and protein level.: When data on RNA and/or protein level are provided, it should be made clear whether the data were **deduced or experimentally verified** (i.e. state explicitly when RNA was analysed, e.g. to study the consequences of a variant affecting splicing).: Make sure **predicted** consequences at protein level are reported in parentheses, like `p.(Arg123Ser)`.
+13. **Variant types**<br>
+    _When giving numbers regarding the types of variants identified, do **not mix numbers** on DNA, RNA, and protein level._<br>
+    Give numbers separately for DNA, RNA, and protein.
+    Where would you list a substitution on DNA level, giving a deletion on RNA level (since it affects splicing), and a frameshift on protein level?
 
-13. **Variant types**: When giving numbers regarding the types of variants identified do **not mix numbers** at DNA, RNA and protein level. Give numbers separately for DNA, RNA and protein. Where would you list a substitution at DNA level, giving a deletion at RNA level (since it affects splicing) and a frameshift at protein level?
-
-14. **Pathogenic** Be careful when using the term "pathogenic" (see [General recommendations](../background/basics.md)). A variant in itself is not "pathogenic", whether it can be causally related to a phenotype observed in a patient is determined by other factors.
+14. **Pathogenic**<br>
+    *Be careful when using the term "pathogenic" (see [terminology](../background/basics.md#pathogenic)).*<br>
+    A variant in itself is not "pathogenic", whether it can be causally related to a phenotype observed in a patient is determined by other factors (like the patient's genotype).
