@@ -33,7 +33,7 @@ aa:
       - name: Variants with unknown or uncertain phase
         syntax: sequence_identifier ":" coordinate_type "." position_edit "(;)" position_edit
         examples:
-          - NP_003997.1:p.(Ser73Arg)](;)[(Asn103del)
+          - NP_003997.1:p.(Ser73Arg)(;)(Asn103del)
   del:
     elements:
     forms:
