@@ -20,7 +20,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.rpt
   **NOTE**: while `r.123cug[23]` describes a repeat of 23 `cug` units, `r.123_125[23]` describes a tri-nucleotide repeat of 23 units which **could be interrupted** with other units (e.g., a rare `cua`).
   The description `r.123cug[23]` can thus only be used when the repeat was sequenced.
 - the format <code class="invalid">r.-125_-123cug[4]</code> should not be used; it contains redundant information (`-125_-123` and `cug`).
-- for **composite repeats**, the basic format can be used, successively listing each different repeat unit; <code class="invalid">r.456_465[4]466_489[9]490_499[3]</code>.
+- for **mixed repeats**, the range of the repeat sequence is given followed by a listing of each repeat unit and the number of repeats in each unit; `r.456_499ua[4]cag[9]gccag[3]`.
 
 ## Examples
 
