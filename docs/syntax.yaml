@@ -69,7 +69,7 @@ aa:
         examples:
           - NP_003997.2:p.Val7dup
       - name: position range
-        syntax: sequence_identifier ":" coordinate_type "." aa_position "_" aa_position "delins" sequence
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "_" aa_position "dup"
         examples:
           - NP_003997.2:p.Lys23_Val25dup
   ext:
