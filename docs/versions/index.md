@@ -4,8 +4,7 @@
 
     Read the [release notes for the current version](21.0.md).
 
-    If you want to receive announcements of updates to HGVS Nomenclature, join the
-    [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature) group and mailing list
+    If you want to receive announcements of updates to the HGVS Nomenclature, join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature) group and mailing list
 
 The primary mission of HGVS Nomenclature is to facilitate reliable communication of sequence variants, which requires that the HGVS Nomenclature is stable.
 Nonetheless, modifications will be required from time to time in order to address new scientific needs, resolve inconsistencies, or clarify conventions.

@@ -15,9 +15,9 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
 
 * Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
-  group and mailing list. This is the preferred forum for discussing HGVS
-  Nomenclature questions and issues, and for receiving announcements about new
-  releases.
+  group and mailing list. This is the preferred forum for discussing questions
+  and issues regarding the HGVS Nomenclature, and for receiving announcements
+  about new releases.
     * Messages sent to
       [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
       will be distributed to members by email.
@@ -26,7 +26,7 @@ Users of HGVS Nomenclature are invited to contact us to ask questions or get inv
       [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
       conversation archive**.
 * See [Community Consultation](consultation/index.md) for proposals, including
-  how to submit a proposal for future versions of HGVS Nomenclature.
+  how to submit a proposal for future versions of the HGVS Nomenclature.
 
 ## Current Citation
 
