@@ -145,7 +145,7 @@ code::first-of-type and code::last-of-type should get left and right padding res
 
 figure {
   border: thin solid var(--md-typeset-a-color);
-  background-color: #eee;
+  /* background-color: #eee; */
   padding: 5px;
 }
 
