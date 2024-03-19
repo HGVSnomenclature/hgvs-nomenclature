@@ -32,7 +32,6 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
 
     - **`sup`**<br>
       the presence of an additional sequence which is not attached to other chromosomal material (i.e. trisomy, marker or ring chromosome) is indicated by `sup` (supernumerary chromosome).<br>
-      **NOTE**: the description of the supernumerary molecule is given using "[ ]sup".<br>
       **NOTE**: changed in ISCN2020.
       ISCN2016 had: _"add" for additional sequence_.
 
