@@ -115,7 +115,7 @@ Specific abbreviations are used to describe different variant types.
     - `chr` indicates a **chromosome**; `chr11:g.12345611G>A` (`NC_000011.9`).
     - `pter` indicates the **first nucleotide** of a chromosome.
     - `qter` indicates the **last nucleotide** of a chromosome.
-    - `sup` indicates a **supernumary** chromosome (marker chromosome).
+    - `sup` indicates a **supernumerary** chromosome (marker chromosome).
 
 - changes of state (modifications):
     - `gom` indicates a **gain of methylation**; `g.12345678_12345901`<code class="spot1">|gom</code>.

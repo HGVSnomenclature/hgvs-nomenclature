@@ -117,7 +117,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
 
 - chromosome
     - **`NC_000023.11:g.pter_qtersup`**<br>
-      a duplication of the entire X-chromosome ("sup" = [supernumary chromosome](complex.md)).<br>
+      a duplication of the entire X-chromosome ("sup" = [supernumerary chromosome](complex.md)).<br>
       **NOTE**: when, e.g., based on next-generation sequencing, only "an additional copy of all X-chromosome sequences" is detected, the variant should be described as `NC_000023.11:g.pter_qter[2]`.
 - other
     - **`NC_000023.11:g.33344590_33344592=/dup`**<br>
