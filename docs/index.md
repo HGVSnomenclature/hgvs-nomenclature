@@ -5,11 +5,6 @@ It is used to convey variants in clinical reports and to share variants in publi
 
 The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committee (HVNC)](hvnc.md) under the auspices of the [Human Genome Organization (HUGO)](https://hugo-int.org/).
 
-[//]: # (!!! note "Join Us")
-[//]: # ()
-[//]: # (    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members]&#40;call-for-members.md&#41;.)
-[//]: # (    Applications are due **April 1, 2024**.)
-
 ## Contact Us
 
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
