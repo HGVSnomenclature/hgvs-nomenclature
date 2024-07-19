@@ -11,7 +11,7 @@ Drive permissions.  The advantage of using this group, rather than explicit
 email addresses, is that the group ensures that membership is always current.
 
 **The [HVNC Google Group](https://groups.google.com/g/hvnc), which is private
-and exists for HVNC members and key contributors, is disctinct from the [HGVS
+and exists for HVNC members and key contributors, is distinct from the [HGVS
 Nomenclature Google Group](https://groups.google.com/g/hgvs-nomenclature), which
 is for public discussion and is open for self-subscription.**
 
@@ -22,11 +22,14 @@ this writing, Alex, Ivo, Jeroen, Johan, and Reece are admins.)
 
 ### Who needs access?
 
-**Add only users who have a role in the maintainance or administration hgvs-nomenclature.**
+**Add only users who have a role in the maintenance or administration hgvs-nomenclature.**
 
-hgvs-nomenclature is a public repo. Anyone with a GitHub account may fork the repo, submit pull requests against it, and create or comment on issues and discussions. Public access should be the default mode for most individuals because it's safer and requires no maintainance.
+hgvs-nomenclature is a public repo.
+Anyone with a GitHub account may fork the repo, submit pull requests against it, and create or comment on issues and discussions.
+Public access should be the default mode for most individuals because it's safer and requires no maintenance.
 
-Conversely, anyone who has a privileged role will need to be added invdividually to the repo as described below.  Such users will have one of these roles:
+Conversely, anyone who has a privileged role will need to be added individually to the repo as described below.
+Such users will have one of these roles:
 
 - Triage: Contributors who need to manage issues, discussions, and pull requests without write access
 - Write: Contributors who actively push to your project
