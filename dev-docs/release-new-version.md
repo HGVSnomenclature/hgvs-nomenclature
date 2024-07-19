@@ -15,9 +15,9 @@ we'll update just the GitHub release notes.
 
 ## Instructions
 
-1. Navigate to https://github.com/HGVSnomenclature/hgvs-nomenclature/releases
+1. Navigate to https://github.com/HGVSnomenclature/hgvs-nomenclature/releases.
 
-1. Click **Draft a new release**
+1. Click **Draft a new release**.
 
 1. Click Choose a tag and type the next tag.  See https://hgvs-nomenclature.org/stable/versions/ for our versioning policy.
 ![Choose tag](images/choose-tag.png)

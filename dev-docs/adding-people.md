@@ -22,7 +22,7 @@ this writing, Alex, Ivo, Jeroen, Johan, and Reece are admins.)
 
 ### Who needs access?
 
-**Add only users who have a role in the maintenance or administration hgvs-nomenclature.**
+**Add only users who have a role in the maintenance or administration of the hgvs-nomenclature repository.**
 
 hgvs-nomenclature is a public repo.
 Anyone with a GitHub account may fork the repo, submit pull requests against it, and create or comment on issues and discussions.
@@ -31,10 +31,10 @@ Public access should be the default mode for most individuals because it's safer
 Conversely, anyone who has a privileged role will need to be added individually to the repo as described below.
 Such users will have one of these roles:
 
-- Triage: Contributors who need to manage issues, discussions, and pull requests without write access
-- Write: Contributors who actively push to your project
-- Maintain: Project managers who need to manage the repository without access to sensitive or destructive actions
-- Admin: People who need full access to the project, including sensitive and destructive actions like managing security or deleting a repository
+- **Triage**: Contributors who need to manage issues, discussions, and pull requests without write access
+- **Write**: Contributors who actively push to your project
+- **Maintain**: Project managers who need to manage the repository without access to sensitive or destructive actions
+- **Admin**: People who need full access to the project, including sensitive and destructive actions like managing security or deleting a repository
 
 ### Instructions
 
