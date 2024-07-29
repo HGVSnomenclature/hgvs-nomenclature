@@ -27,11 +27,10 @@ we'll update just the GitHub release notes.
 1. Click **Publish release**.
 
 
-
 ## Notes
 
 - Here's how Reece fetches the release notes:
 
 `curl -s https://api.github.com/repos/HGVSnomenclature/hgvs-nomenclature/releases/tags/21.0.3 | jq -r .body`
 
-We need to update these instructions to account for adding release notes. It's a bit tricky because we ideally want the release notes in the release *before* tagging, which makes the above command not work.
+We need to update these instructions to account for adding release notes. It's a bit tricky because we ideally want the release notes in the release *before* tagging.
