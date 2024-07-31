@@ -36,6 +36,14 @@ Hum Mutat. 2016. [doi:10.1002/humu.22981](http://dx.doi.org/10.1002/humu.22981) 
 
 ## A note about our name
 
-We've called ourselves by lots of names, including "VarNomen", "MutNomen", "HGVS Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially.
-We recognize that this has caused confusion in the community.
-Please call us "HGVS Nomenclature".
+We've called ourselves by lots of names, including "VarNomen", "MutNomen", "HGVS
+Recommendations", "HGVS Guidelines", and even just "HGVS" colloquially. We
+recognize that this has caused confusion in the community. Please call the
+specification "HGVS Nomenclature".
+
+## Availability
+
+This repository contains both text content and code. The licensing for each is as follows:
+
+* The text content of this repository is released under the [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). See the [`LICENSE-CC0.txt`](LICENSE-CC0.txt) file for details.
+* The code, configuration files, and other computer-readable artefacts in this repository are released under the [MIT License](https://opensource.org/licenses/MIT). See the [`LICENSE.txt`](LICENSE.txt) file for details.

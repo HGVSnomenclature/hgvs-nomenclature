@@ -4,6 +4,13 @@ This repo contains the source code for the HGVS Nomenclature, which is maintaine
 
 This page is intended for writers, editors, and contributors to the HGVS Nomenclature. **Most readers of the HGVS Nomenclature should see https://hgvs-nomenclature.org/.**
 
+## Availability
+
+This repository contains both text content and code. The licensing for each is as follows:
+
+- The text content of this repository is released under the [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). See the [`LICENSE-CC0.txt`](LICENSE-CC0.txt) file for details.
+- The code, configuration files, and other computer-readable artefacts in this repository are released under the [MIT License](https://opensource.org/licenses/MIT). See the [`LICENSE.txt`](LICENSE.txt) file for details.
+
 ## Contributing
 
 The HGVS Nomenclature pages are written in Markdown and formatted into static HTML using mkdocs. This process is easily setup locally for real-time visualization of edits, and it is also implemented on readthedocs.com, where the pages are hosted.
