@@ -51,7 +51,7 @@ The latter format, `c.IVS2+2T>G` / `c.IVS2-1G>T`, has been retracted and **shoul
 
 - nucleotide numbering is `n.1`, `n.2`, `n.3`, ..., etc., from the first to the last nucleotide of the reference sequence.
 - nucleotides in introns are numbered as for coding DNA reference sequences [(see above)](#DNAc), although proceeded by `n.` (not `c.`).
-- it is **not** allowed to describe variants in nucleotides which are not covered by the transcript, using only a non-coding DNA reference sequence.
+- it is **not** allowed to describe variants in nucleotides beyond the boundaries of a reference sequence, using that reference sequence.
 
 ### RNA reference sequences
 
