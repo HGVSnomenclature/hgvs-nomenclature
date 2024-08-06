@@ -43,7 +43,7 @@ specification "HGVS Nomenclature".
 
 ## Availability
 
-This repository contains both text content and code. The licensing for each is as follows:
+The [code repository](https://github.com/HGVSnomenclature/hgvs-nomenclature/pull/175) from which the HGVS Nomenclature is rendered contains both written text recommendations and associated code. The licensing for each is as follows:
 
-* The text content of this repository is released under the [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). See the [`LICENSE-CC0.txt`](LICENSE-CC0.txt) file for details.
-* The code, configuration files, and other computer-readable artefacts in this repository are released under the [MIT License](https://opensource.org/licenses/MIT). See the [`LICENSE.txt`](LICENSE.txt) file for details.
+* The rendered text of the HGVS Nomenclature is released under the [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). See the [`LICENSE-CC0.txt`](LICENSE-CC0.txt) file for details.
+* The code, configuration files, and other computer-readable artefacts in the code repository are released under the [MIT License](https://opensource.org/licenses/MIT). See the [`LICENSE.txt`](LICENSE.txt) file for details.
