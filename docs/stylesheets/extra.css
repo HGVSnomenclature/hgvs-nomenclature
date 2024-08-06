@@ -11,6 +11,9 @@
 === md overrides
 */
 
+html .md-footer-meta.md-typeset a {
+  text-decoration: underline;
+}
 
 h1#home {
   display: none;
