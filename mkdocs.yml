@@ -8,37 +8,38 @@ repo_url: https://github.com/HGVSNomenclature/hgvs-nomenclature
 # strict: true
 
 plugins:
-  - awesome-pages
-  - markdown-exec
-  - search
-  - table-reader
-  - macros # must be after table-reader
+- awesome-pages
+- markdown-exec
+- search
+- table-reader
+- macros # must be after table-reader
 
 hooks:
-  - hooks.py
+- hooks.py
 
 markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - markdown_captions
-  - pymdownx.details
-  - pymdownx.superfences
-  - toc:
-      permalink: "#"
-      toc_depth: 1
+- abbr
+- admonition
+- attr_list
+- def_list
+- markdown_captions
+- pymdownx.details
+- pymdownx.magiclink
+- pymdownx.superfences
+- toc:
+    permalink: "#"
+    toc_depth: 1
 
 extra:
   analytics:
     provider: google
     property: G-EJ2MT1N34E
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/HGVSNomenclature/hgvs-nomenclature
+  - icon: fontawesome/brands/github
+    link: https://github.com/HGVSNomenclature/hgvs-nomenclature
 
 extra_css:
-  - stylesheets/extra.css
+- stylesheets/extra.css
 
 # enabling strict above (or mkdocs build --strict) causes warnings to become fatal
 validation:
@@ -51,31 +52,31 @@ theme:
   custom_dir: overrides
 
   features:
-    - announce.dismiss
-    - navigation.indexes # enable section-level pages
-    - navigation.instant # single-page app
-    - navigation.tracking # add section fragment to URL
-    - search.highlight # highlight search terms in pages
-    - toc.follow # toc follows scroll
-    - toc.integrate # integrate page headings into toc
+  - announce.dismiss
+  - navigation.indexes # enable section-level pages
+  - navigation.instant # single-page app
+  - navigation.tracking # add section fragment to URL
+  - search.highlight # highlight search terms in pages
+  - toc.follow # toc follows scroll
+  - toc.integrate # integrate page headings into toc
   # Tabs are nice, but apparently remove the side nav
   # - navigation.tabs
   # - navigation.tabs.sticky
 
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: hvnc
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: hvnc
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
 
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
 
   font:
     text: Lato
@@ -83,12 +84,12 @@ theme:
   logo: images/hgvs-logo.png
   favicon: images/hgvs-logo.png
 
-# exclude_docs: |
-#   test/*
+exclude_docs: |
+  /call-for-members.md
 
 watch:
-  - bin
-  - lib
-  - overrides
-  - overrides/partials
-  - hooks.py
+- bin
+- lib
+- overrides
+- overrides/partials
+- hooks.py

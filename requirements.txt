@@ -16,4 +16,5 @@ mkdocs-mermaid2-plugin
 mkdocs-multirepo-plugin
 mkdocs-table-reader-plugin
 pre-commit
+pymdown-extensions
 pyyaml
