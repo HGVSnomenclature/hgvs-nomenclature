@@ -1,5 +1,12 @@
 # Call for Members
 
+!!! warning "Expired"
+
+    This Call for Members has expired.
+    If you are interested in joining the HVNC in the future,
+     become a member of our [HGVS Nomenclature group](https://groups.google.com/g/hgvs-nomenclature)
+     to be notified of our next Call for Members.
+
 **Application due date: April 1, 2024**
 
 The HGVS Variant Nomenclature Committee (HVNC), one of HUGO's Nomenclature
