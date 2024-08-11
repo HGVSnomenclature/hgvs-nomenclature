@@ -17,7 +17,7 @@ _logger = logging.getLogger(__name__)
 
 repo_owner = "HGVSNomenclature"
 repo_name = "hgvs-nomenclature"
-out_dir = pathlib.Path("docs/releases")
+out_dir = pathlib.Path("docs/versions")
 out_dir.mkdir(parents=True, exist_ok=True)
 
 
@@ -50,8 +50,8 @@ def group_releases_by_major_minor(releases):
 
 
 def create_markdown_files(grouped_releases, output_dir):
-    template = get_release_file_template()
-    for version_xy, versions in grouped_releases.items():
+    template = _get_release_file_template()
+    for version_xy, releases in grouped_releases.items():
         page_content = template.render(
             version_xy=version_xy, releases=releases
         )
@@ -60,7 +60,7 @@ def create_markdown_files(grouped_releases, output_dir):
             f.write(page_content)
             _logger.info(f"Wrote {out_fn}")
 
-def get_release_file_template():
+def _get_release_file_template():
     return jinja2.Template(
         """
 # Release Notes for {{version_xy}}.z
@@ -74,12 +74,7 @@ def get_release_file_template():
     """
     )
 
-
-if __name__ == "__main__":
-    import coloredlogs
-
-    coloredlogs.install(level="INFO")
-
+def main():
     releases = fetch_github_releases(repo_owner, repo_name)
     _logger.info(f"Fetched {len(releases)} releases from {repo_owner}/{repo_name}")
 
@@ -87,3 +82,11 @@ if __name__ == "__main__":
     _logger.info(f"Grouped into {len(grouped_releases)} major.minor releases")
 
     create_markdown_files(grouped_releases, out_dir)
+
+
+if __name__ == "__main__":
+    import coloredlogs
+
+    coloredlogs.install(level="INFO")
+
+    main()
