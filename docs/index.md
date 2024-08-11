@@ -5,27 +5,28 @@ It is used to convey variants in clinical reports and to share variants in publi
 
 The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committee (HVNC)](hvnc.md) under the auspices of the [Human Genome Organization (HUGO)](https://hugo-int.org/).
 
-!!! note "Join Us"
-
-    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members](call-for-members.md).
-    Applications are due **April 1, 2024**.
+[//]: # (!!! note "Join Us")
+[//]: # ()
+[//]: # (    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members]&#40;call-for-members.md&#41;.)
+[//]: # (    Applications are due **April 1, 2024**.)
 
 ## Contact Us
 
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
 
 * Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
-  group and mailing list. This is the preferred forum for interacting with other
-  users and the maintainers of HGVS Nomenclature.
-* Messages sent to
-  [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
-  will be distributed to members by email.  While you do not need to be a member
-  to send a message to the group, **you will not see a reply unless you join the
-  group or manually check the [HGVS
-  Nomenclature](https://groups.google.com/g/hgvs-nomenclature) conversation
-  archive**.
+  group and mailing list. This is the preferred forum for discussing questions
+  and issues regarding the HGVS Nomenclature, and for receiving announcements
+  about new releases.
+    * Messages sent to
+      [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
+      will be distributed to members by email.
+    * You do not need to be a member to send a message to the group. **However,
+      you will not see a reply unless you join the group or manually check the
+      [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
+      conversation archive**.
 * See [Community Consultation](consultation/index.md) for proposals, including
-  how to submit a proposal.
+  how to submit a proposal for future versions of the HGVS Nomenclature.
 
 ## Current Citation
 

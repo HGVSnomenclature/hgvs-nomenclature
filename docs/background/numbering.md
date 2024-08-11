@@ -150,7 +150,7 @@ amino acid numbering is `p.1`, `p.2`, `p.3`, ..., etc., from the first to the la
 
 ## Figure
 
-![Reference Sequence Figure](../assets/RefSeq.jpg)
+![Reference Sequence Figure](../assets/sequence-numbering.svg)
 
 ## Examples
 

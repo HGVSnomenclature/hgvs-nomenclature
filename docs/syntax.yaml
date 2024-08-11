@@ -69,7 +69,7 @@ aa:
         examples:
           - NP_003997.2:p.Val7dup
       - name: position range
-        syntax: sequence_identifier ":" coordinate_type "." aa_position "_" aa_position "delins" sequence
+        syntax: sequence_identifier ":" coordinate_type "." aa_position "_" aa_position "dup"
         examples:
           - NP_003997.2:p.Lys23_Val25dup
   ext:
@@ -92,8 +92,8 @@ aa:
       - name: Long format when stop codon position is known
         syntax: sequence_identifier ":" coordinate_type "." aa_position "fs" [ "Ter" position ]
         examples:
-          - NP_01234.5:p.Arg97ProfsTer23
-          - NP_01234.5:p.Arg97fs
+          - NP_0123456.1:p.Arg97ProfsTer23
+          - NP_0123456.1:p.Arg97fs
         notes:
           - Specifying the termination position is optional
   ins:
@@ -110,9 +110,9 @@ aa:
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." position sequence "[" total_copy_number "]"
         examples:
-          - NP_01234.5:p.Ala2[10]
-          - NP_01234.5:p.Ala2[10];[11]
-          - NP_01234.5:p.Arg65_Ser67[12]
+          - NP_0123456.1:p.Ala2[10]
+          - NP_0123456.1:p.Ala2[10];[11]
+          - NP_0123456.1:p.Arg65_Ser67[12]
   sub:
     elements:
     forms:

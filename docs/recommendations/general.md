@@ -63,8 +63,8 @@ Make sure you have also seen the [Basics](../background/basics.md), explaining t
 
 - HGVS recommends following the [HGNC guidelines](https://www.genenames.org/about/guidelines/) and the [VICC Gene Fusion Specification](https://fusions.cancervariants.org/en/latest) nomenclature to describe products of gene fusions.
     - The HGNC recommendations include using a `GENESYMBOL1::GENESYMBOL2` syntax for gene-level fusion descriptions, and a `GENESYMBOL1-GENESYMBOL2` syntax for read-through transcripts.
-        - The VICC nomenclature extends the HGNC recommendations to include a terminology, information model, and nomenclature for gene-level and exon-level representation, with components for disambiguating regulatory fusions from chimeric transcript fusions.
-        - HGVS also recommends the use of [adjoined transcripts](RNA/splicing.md) for precise and unambiguous characterization of chimeric transcripts at the sequence level.
+    - The VICC nomenclature extends the HGNC recommendations to include a terminology, information model, and nomenclature for gene-level and exon-level representation, with components for disambiguating regulatory fusions from chimeric transcript fusions.
+    - HGVS also recommends the use of [adjoined transcripts](RNA/splicing.md) for precise and unambiguous characterization of chimeric transcripts at the sequence level.
 
 <a id="characters"></a>
 
@@ -115,7 +115,7 @@ Specific abbreviations are used to describe different variant types.
     - `chr` indicates a **chromosome**; `chr11:g.12345611G>A` (`NC_000011.9`).
     - `pter` indicates the **first nucleotide** of a chromosome.
     - `qter` indicates the **last nucleotide** of a chromosome.
-    - `sup` indicates a **supernumary** chromosome (marker chromosome).
+    - `sup` indicates a **supernumerary** chromosome (marker chromosome).
 
 - changes of state (modifications):
     - `gom` indicates a **gain of methylation**; `g.12345678_12345901`<code class="spot1">|gom</code>.
