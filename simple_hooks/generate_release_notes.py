@@ -2,23 +2,25 @@
 """generate all release note files in docs/versions/ from GitHub release notes API
 """
 
-from datetime import datetime
+from datetime import datetime, timedelta
 import itertools
 import logging
 import pathlib
 import re
 
 import jinja2
-import requests
-
-
-_logger = logging.getLogger(__name__)
+from requests_cache import CachedSession
 
 
 repo_owner = "HGVSNomenclature"
 repo_name = "hgvs-nomenclature"
 out_dir = pathlib.Path("docs/versions")
-out_dir.mkdir(parents=True, exist_ok=True)
+
+
+_logger = logging.getLogger(__name__)
+
+# cache github to prevent rate limit errors
+requests_session = CachedSession('/tmp/github_cache', expire_after=timedelta(minutes=10))
 
 
 def fetch_github_releases(repo_owner, repo_name):
@@ -26,7 +28,7 @@ def fetch_github_releases(repo_owner, repo_name):
 
     semver_pattern = re.compile(r"^v?(\d+)\.(\d+)\.(\d+)$")
     url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/releases"
-    response = requests.get(url)
+    response = requests_session.get(url)
     response.raise_for_status()
     releases = []
     for r in response.json():
@@ -44,7 +46,7 @@ def fetch_github_releases(repo_owner, repo_name):
 
 
 def group_releases_by_major_minor(releases):
-    sorted_releases = sorted(releases, key=lambda r: r["version_t"])
+    sorted_releases = sorted(releases, key=lambda r: r["version_t"], reverse=True)
     grouped_releases_i = itertools.groupby(sorted_releases, key=lambda r: r["version_xy"])
     return {tag: list(releases) for tag, releases in grouped_releases_i}
 
@@ -55,6 +57,8 @@ def create_markdown_files(grouped_releases, output_dir):
         page_content = template.render(
             version_xy=version_xy, releases=releases
         )
+        # mkdocs renderer renders '^* # blah' as as bulleted headline :-/ (github is fine)
+        page_content = page_content.replace('* #', '* Closed #')
         out_fn = output_dir / f"{version_xy}.md"
         with out_fn.open("w") as f:
             f.write(page_content)
@@ -63,7 +67,7 @@ def create_markdown_files(grouped_releases, output_dir):
 def _get_release_file_template():
     return jinja2.Template(
         """
-# Release Notes for {{version_xy}}.z
+# {{version_xy}} Series
 
 {% for release in releases %}
 ## {{ release["version"] }} ({{release["published_at"].date()}})
@@ -74,7 +78,7 @@ def _get_release_file_template():
     """
     )
 
-def main():
+def main(config=None, *args, **kwargs):
     releases = fetch_github_releases(repo_owner, repo_name)
     _logger.info(f"Fetched {len(releases)} releases from {repo_owner}/{repo_name}")
 

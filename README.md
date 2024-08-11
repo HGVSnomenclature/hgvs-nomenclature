@@ -14,7 +14,8 @@ You must have Python installed on your machine and be able to create a virtual e
 
     python3 -m venv venv
     source venv/bin/activate
-    pip install -r requirements.txt
+    pip install -U setuptools pip uv
+    uv pip install -r requirements.txt
     pre-commit install
 
 ### Running mkdocs locally

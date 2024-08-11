@@ -8,13 +8,17 @@ markdown-exec
 mkdocs
 mkdocs-autolinks-plugin
 mkdocs-awesome-pages-plugin
+mkdocs-exclude
 mkdocs-glightbox
 mkdocs-macros-plugin
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-mermaid2-plugin
 mkdocs-multirepo-plugin
+mkdocs-simple-hooks
 mkdocs-table-reader-plugin
 pre-commit
 pymdown-extensions
 pyyaml
+requests
+requests_cache
