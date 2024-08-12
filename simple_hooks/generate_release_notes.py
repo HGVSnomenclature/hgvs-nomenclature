@@ -69,6 +69,13 @@ def _get_release_file_template():
         """
 # {{version_xy}} Series
 
+{%if version_xy == '21.0' %}
+!!! note "We need your help"
+
+    Version 21.0.0 is the first significant update in HGVS Nomenclature in almost four years.
+    While we have resolved many errors during this work, it is possible that new errors were introduced. If you find an issue, please [contact us](../index.md#contact-us).
+{% endif %}
+
 {% for release in releases %}
 ## {{ release["version"] }} ({{release["published_at"].date()}})
 
