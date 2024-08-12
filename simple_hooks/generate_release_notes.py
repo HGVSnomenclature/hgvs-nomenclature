@@ -36,7 +36,7 @@ def fetch_github_releases(repo_owner, repo_name):
         if m:
             version_t = tuple(map(int, r["tag_name"].split(".")))
             releases.append({
-                "body": r["body"],
+                "body": re.sub(r'^#', '##', r["body"], flags=re.MULTILINE),
                 "published_at": datetime.fromisoformat(r["published_at"].rstrip("Z")),
                 "version_t": version_t,
                 "version_xy": ".".join(r["tag_name"].split(".")[:2]),
