@@ -10,8 +10,16 @@ copyright: <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=choos
 
 plugins:
   - awesome-pages
+  - exclude:
+      glob:
+        # these files are generated dynamically, leading to infinite loop
+        # updates with mkdocs serve
+        - "docs/versions/2*.md"
   - markdown-exec
   - search
+  - mkdocs-simple-hooks:
+      hooks:
+        on_pre_build: "simple_hooks.generate_release_notes:main"
   - table-reader
   - macros # must be after table-reader
 

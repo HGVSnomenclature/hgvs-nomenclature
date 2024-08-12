@@ -2,16 +2,17 @@
 
 This document describes how to release a new version of hgvs-nomenclature.org.  You must be a repo maintainer to use these instructions.
 
-## What's a release?
+## Overview
 
-A release is made by tagging the repo with a version tag of the form x.y.z (with no v. prefix).  That operation alone is sufficient to cause Read the Docs to rebuild the documentation as that version *and* to update the `/stable` link (i.e., https://hgvs-nomenclature.org/stable/).
+A release is made by tagging the repo with a version tag of the form x.y.z (with
+no v. prefix).  That operation alone is sufficient to cause Read the Docs to
+rebuild the documentation as that version *and* to update the `/stable` link
+(i.e., https://hgvs-nomenclature.org/stable/).
 
-At the same time, the maintainer should create release notes.  We currently have
-two release notes: the major release notes at
-https://hgvs-nomenclature.org/stable/versions/ and the patch-level release notes
-at https://github.com/HGVSnomenclature/hgvs-nomenclature/releases/. **We should
-reconcile these and our process for maintaining them.**  For these instructions,
-we'll update just the GitHub release notes.
+**The release notes under [HGVS Nomenclature
+Version](https://hgvs-nomenclature.org/versions/) is now generated automatically
+using exactly the same text as that in the GitHub release notes.**
+
 
 ## Instructions
 
@@ -24,4 +25,4 @@ we'll update just the GitHub release notes.
 
 1. Click **Generate release notes**. Proofread and edit the notes as you like.
 
-1. Click **Publish release**.
+1. Click **Publish release**.  The site should be regenerated within a few minutes.
