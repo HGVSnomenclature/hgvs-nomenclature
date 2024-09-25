@@ -23,16 +23,16 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome P
 | Johan den Dunnen (chair)     | Leiden University Medical Center, Nederland  | 2013 - .... |
 | Marina DiStefano             | Broad Clinical Labs, United States           | 2022 - 2025 |
 | Ivo Fokkema                  | Leiden University Medical Center, Nederland  | 2023 - 2026 |
-| Peter Freeman                | University of Manchester, United Kingdom     | 2018 - .... |
-| Reece Hart                   | MyOme, Inc., United States                   | 2013 - .... |
 | Ros Hastings ([ISCN representative](consultation/ISCN.md)) | Oxford University, United Kingdom | 2021 - .... |
 | Jeroen Laros                 | Leiden University Medical Center, Nederland  | 2022 - 2025 |
-| Terence Murphy               | National Center for Biotechnology Information (NCBI), United States                          | 2021 - 2025 |
 | Rachel Taylor                | University of Manchester, United Kingdom     | 2022 - 2025 |
 | Alex Wagner                  | Nationwide Childrens Hospital, US            | 2022 - 2025 |
 
 ## past HVNC members
 
+- 2013 - 2024 : Reece Hart (United States)
+- 2018 - 2024 : Peter Freeman (United Kingdom)
+- 2021 - 2024 : Terence Murphy (United States)
 - 2013 - 2022 : Raymond Dalgleish (United Kingdom)
 - 2013 - 2022 : Peter Taschner (Nederland)
 - 2014 - 2021 : Anne-Francoise Roux (France)
