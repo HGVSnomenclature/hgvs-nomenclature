@@ -41,7 +41,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
       Correct descriptions refer to a genomic reference sequence like `LRG_199t1:c.357+1G>A`, `NC_000023.10(NM_004006.2):c.357+1G>A`, or `NG_012232.1(NM_004006.2):c.357+1G>A`.
 
 - **transcript flanking**<br>
-  it is **not** allowed to describe variants in nucleotides beyond the boundaries of a reference sequence, using that reference sequence.
+  it is **not** allowed to describe variants in nucleotides beyond the boundaries of a transcript reference sequence, using that transcript reference sequence.
     - suggestions made to extend the recommendations for nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides have been made but were rejected (see [Open Issues](../consultation/open-issues.md)).
 
 Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf) and [Den Dunnen & Antonarakis (2000)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf)) suggested two alternative descriptions for intronic variants; `c.88+2T>G` / `c.89-1G>T`, and `c.IVS2+2T>G` / `c.IVS2-1G>T`.
@@ -51,7 +51,7 @@ The latter format, `c.IVS2+2T>G` / `c.IVS2-1G>T`, has been retracted and **shoul
 
 - nucleotide numbering is `n.1`, `n.2`, `n.3`, ..., etc., from the first to the last nucleotide of the reference sequence.
 - nucleotides in introns are numbered as for coding DNA reference sequences [(see above)](#DNAc), although proceeded by `n.` (not `c.`).
-- it is **not** allowed to describe variants in nucleotides beyond the boundaries of a reference sequence, using that reference sequence.
+- it is **not** allowed to describe variants in nucleotides beyond the boundaries of a transcript reference sequence, using that transcript reference sequence.
 
 ### RNA reference sequences
 
