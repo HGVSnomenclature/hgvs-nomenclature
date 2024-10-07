@@ -70,8 +70,14 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 
 !!! note "How should I describe a variant in the promoter region of a gene?"
 
-    It is recommended to describe variants in the promoter region of a gene based on a genomic reference sequence, e.g., `NC_000023.10:g.33357783G>A` (chrX, hg19). Describing the variant in relation to a coding DNA reference sequence (for this variant `NM_004006.1:c.-128354C>T` or `NM_000109.3:c.-401C>T` is possible but not really very informative; you do not know how long the 5'UTR is. The variant can also be described using a genomic reference sequence containing the promoter region (for this variant e.g., `L01538.1:g.1407C>T`), but again this is not really informative. Although `NC_000023.10:g.33357783G>A` seems complex, it can be used in a genome browsers helping you to quickly zoom in on the region of interest.<a id="polymorphism"></a>
+    It is recommended to describe variants in the promoter region of a gene based on a genomic reference sequence, e.g., `NC_000023.10:g.33357783G>A` (chrX, hg19).
+    Describing the variant in relation to a coding DNA reference sequence is only possible when the nucleotide is included in this transcript reference sequence, or when a genomic sequence context is added.
+    E.g., <code class="invalid">NM_004006.1:c.-128354C>T</code> or <code class="invalid">NM_000109.3:c.-401C>T</code> are invalid, because the positions `c.-128354` and `c.-401` are not included in the transcript reference sequences used.
+    However, when adding in the context of a genomic reference sequence, this variant can be described as `NC_000023.10(NM_004006.1):c.-128354C>T` or `NC_000023.10(NM_000109.3):c.-401C>T`.
+    The variant can also be described using a genomic reference sequence containing the promoter region (for this variant e.g., `L01538.1:g.1407C>T`), but again this is not really informative.
+    Although `NC_000023.10:g.33357783G>A` seems complex, it can be used in a genome browsers helping you to quickly zoom in on the region of interest.
 
+<a id="polymorphism"></a>
 !!! note "Are polymorphisms described like <code class="invalid">NM_004006.1:c.76A/G</code>?"
 
     No, all substitutions are described as `NM_004006.1:c.76A>G`.
