@@ -74,7 +74,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
     Describing the variant in relation to a coding DNA reference sequence is only possible when the nucleotide is included in this transcript reference sequence, or when a genomic sequence context is added.
     E.g., <code class="invalid">NM_004006.1:c.-128354C>T</code> or <code class="invalid">NM_000109.3:c.-401C>T</code> are invalid, because the positions `c.-128354` and `c.-401` are not included in the transcript reference sequences used.
     However, when adding in the context of a genomic reference sequence, this variant can be described as `NC_000023.10(NM_004006.1):c.-128354C>T` or `NC_000023.10(NM_000109.3):c.-401C>T`.
-    The variant can also be described using a genomic reference sequence containing the promoter region (for this variant e.g., `L01538.1:g.1407C>T`), but again this is not really informative.
+    The variant can also be described using a genomic reference sequence containing the promoter region (for this variant e.g., `L01538.1:g.1407C>T`).
     Although `NC_000023.10:g.33357783G>A` seems complex, it can be used in a genome browsers helping you to quickly zoom in on the region of interest.
 
 <a id="polymorphism"></a>
