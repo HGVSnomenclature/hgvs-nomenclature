@@ -20,8 +20,8 @@ plugins:
   - mkdocs-simple-hooks:
       hooks:
         on_pre_build: "simple_hooks.generate_release_notes:main"
+  - macros
   - table-reader
-  - macros # must be after table-reader
 
 hooks:
   - hooks.py
