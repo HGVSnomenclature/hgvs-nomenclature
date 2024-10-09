@@ -47,7 +47,7 @@ See https://github.com/HGVSNomenclature/hgvs-nomenclature/ for instructions on s
 Contributors should follow the styles outlined below.
 Inline HTML is discouraged except when necessary, and underlining should never be used.
 
-{{ read_csv('style-examples.csv', escapechar='\') }}
+{{ read_csv('style-examples.csv', escapechar='\\') }}
 
 ### Syntax Blocks
 
