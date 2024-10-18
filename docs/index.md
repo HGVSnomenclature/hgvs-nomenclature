@@ -36,8 +36,8 @@ expedited response in relation to a clinical case, please indicate this in both
 the subject line and body of the email inquiry. We cannot guarantee that even
 clinical inquiries will be addressed outside of business hours or on weekends.
 
-You may also submit questions to our [GitHub repository Q&A board]
-(https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/new?category=q-a).
+You may also submit questions to our
+[GitHub repository Q&A board](<https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/new?category=q-a>).
 
 ### Submit HGVS revision proposals
 
