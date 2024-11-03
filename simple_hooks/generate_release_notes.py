@@ -17,7 +17,7 @@ repo_name = "hgvs-nomenclature"
 out_dir = pathlib.Path("docs/versions")
 
 
-_logger = logging.getLogger(__name__)
+_logger = logging.getLogger('mkdocs.plugins.hooks')
 
 # cache github to prevent rate limit errors
 requests_session = CachedSession('/tmp/github_cache', expire_after=timedelta(minutes=10))
@@ -25,6 +25,8 @@ requests_session = CachedSession('/tmp/github_cache', expire_after=timedelta(min
 
 def fetch_github_releases(repo_owner, repo_name):
     # return list of releases with x.y.z semver tags
+    def dos2unix(s: str) -> str:
+        return s.replace('\r\n', '\n').replace('\r', '\n')
 
     semver_pattern = re.compile(r"^v?(\d+)\.(\d+)\.(\d+)$")
     url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/releases"
@@ -36,7 +38,7 @@ def fetch_github_releases(repo_owner, repo_name):
         if m:
             version_t = tuple(map(int, r["tag_name"].split(".")))
             releases.append({
-                "body": re.sub(r'^#', '##', r["body"], flags=re.MULTILINE),
+                "body": re.sub(r'^#', '##', dos2unix(r["body"]), flags=re.MULTILINE),
                 "published_at": datetime.fromisoformat(r["published_at"].rstrip("Z")),
                 "version_t": version_t,
                 "version_xy": ".".join(r["tag_name"].split(".")[:2]),
@@ -54,19 +56,29 @@ def group_releases_by_major_minor(releases):
 def create_markdown_files(grouped_releases, output_dir):
     template = _get_release_file_template()
     for version_xy, releases in grouped_releases.items():
-        page_content = template.render(
+        new_content = template.render(
             version_xy=version_xy, releases=releases
         )
         # mkdocs renderer renders '^* # blah' as as bulleted headline :-/ (github is fine)
-        page_content = page_content.replace('* #', '* Closed #')
+        new_content = new_content.replace('* #', '* Closed #')
+
         out_fn = output_dir / f"{version_xy}.md"
-        with out_fn.open("w") as f:
-            f.write(page_content)
-            _logger.info(f"Wrote {out_fn}")
+        current_content = out_fn.open("r", encoding="utf-8").read()
+        if current_content != new_content:
+            import difflib
+            _logger.info("\n".join(difflib.unified_diff(
+                current_content.splitlines(),
+                new_content.splitlines(),
+                fromfile="current",
+                tofile="new",
+                lineterm=""
+            )))
+            with out_fn.open("w", encoding="utf-8") as f:
+                f.write(new_content)
+                _logger.info(f"Wrote {out_fn}")
 
 def _get_release_file_template():
-    return jinja2.Template(
-        """
+    template_str = """
 # {{version_xy}} Series
 
 {%if version_xy == '21.0' %}
@@ -82,8 +94,9 @@ def _get_release_file_template():
 {{ release["body"] }}
 
 {% endfor %}
-    """
-    )
+    """.strip()
+    template = jinja2.Template(template_str)
+    return template
 
 def main(config=None, *args, **kwargs):
     releases = fetch_github_releases(repo_owner, repo_name)
