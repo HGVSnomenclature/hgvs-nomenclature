@@ -2,7 +2,7 @@
 archive
 .cache
 notes.md
+__pycache__
 site
 venv
 .vscode
-__pycache__
