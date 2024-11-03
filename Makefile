@@ -4,6 +4,20 @@
 
 SHELL:=/bin/bash -eu -o pipefail
 
+default:
+	@echo "No $@ target. See README.md"
+
+setup:
+	python3 -m venv venv; \
+	source venv/bin/activate; \
+	pip install -U setuptools pip uv; \
+	uv pip install -r requirements.txt; \
+	pre-commit install
+
+	######################################################################
+	## You must `source venv/bin/activate` to activate this environment ##
+	######################################################################
+
 build serve: %:
 	mkdocs $@
 
