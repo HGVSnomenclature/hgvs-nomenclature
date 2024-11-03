@@ -10,22 +10,23 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 [//]: # (    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members]&#40;call-for-members.md&#41;.)
 [//]: # (    Applications are due **April 1, 2024**.)
 
-## Contact Us
+<a id="contact-us"></a>
 
-Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
+## Get Connected with the Community
 
-### Stay Up-to-Date
+### Sign up for Announcements
 
 Join the [HGVS Nomenclature
 Announcements](https://groups.google.com/g/hgvs-nomenclature-announcements/)
-group and mailing list. This is a low-volume list with official administrative
-announcements from the HVNC such as new releases and membership opportunities.
+group and mailing list to receive official administrative announcements from the
+HVNC such as new releases and membership opportunities. This is a very
+low-volume list.
 
-### Ask questions and discuss ideas with the community
+### Engage with the Community
 
 Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
-group and mailing list. This is the preferred forum for discussing questions and
-issues regarding the HGVS Nomenclature.
+group and mailing list to discuss questions and issues regarding the HGVS
+Nomenclature.
 
 Messages sent to
 [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
@@ -35,7 +36,7 @@ group or manually check the [HGVS
 Nomenclature](https://groups.google.com/g/hgvs-nomenclature) conversation
 archive**.
 
-We aim to respond within 2 business days of email receipt. If you haven’t
+We aim to respond within two business days of email receipt. If you haven't
 received a response within four business days, please post a reminder under your
 question in the google group. For a more expedited response in relation to a
 clinical case, please indicate this in both the subject line and body of the
