@@ -14,35 +14,42 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
 
-### Ask questions
+### Stay Up-to-Date
+
+Join the [HGVS Nomenclature
+Announcements](https://groups.google.com/g/hgvs-nomenclature-announcements/)
+group and mailing list. This is a low-volume list with official administrative
+announcements from the HVNC such as new releases and membership opportunities.
+
+### Ask questions and discuss ideas with the community
 
 Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
-group and mailing list. This is the preferred forum for discussing questions
-and issues regarding the HGVS Nomenclature, and for receiving announcements
-about new releases.
+group and mailing list. This is the preferred forum for discussing questions and
+issues regarding the HGVS Nomenclature.
 
 Messages sent to
 [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
 will be distributed to members by email. You do not need to be a member to send
 a message to the group. **However, you will not see a reply unless you join the
-group or manually check the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
-conversation archive**.
+group or manually check the [HGVS
+Nomenclature](https://groups.google.com/g/hgvs-nomenclature) conversation
+archive**.
 
-When members of the community reach out to the HGVS nomenclature committee with
-questions via the google group email, we aim to respond within 2 business days
-of email receipt. If you haven’t received a response within four business days,
-please post a reminder under your question in the google group. For a more
-expedited response in relation to a clinical case, please indicate this in both
-the subject line and body of the email inquiry. We cannot guarantee that even
-clinical inquiries will be addressed outside of business hours or on weekends.
+We aim to respond within 2 business days of email receipt. If you haven’t
+received a response within four business days, please post a reminder under your
+question in the google group. For a more expedited response in relation to a
+clinical case, please indicate this in both the subject line and body of the
+email inquiry. We cannot guarantee that even clinical inquiries will be
+addressed outside of business hours or on weekends.
 
-You may also submit questions to our
-[GitHub repository Q&A board](<https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/new?category=q-a>).
+You may also submit discussions on the [HGVS Nomenclature Q&A
+board](<https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/new?category=q-a>).
 
-### Submit HGVS revision proposals
+### Contribute ideas and proposals
 
-See [Community Consultation](consultation/index.md) for proposals, including
-  how to submit a proposal for future versions of the HGVS Nomenclature.
+See [Community Consultation](consultation/index.md)
+for proposals, including how to submit a proposal for future versions of the
+HGVS Nomenclature.
 
 ## Current Citation
 
