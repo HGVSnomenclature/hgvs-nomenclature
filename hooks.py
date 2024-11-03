@@ -5,7 +5,7 @@ import pytz
 
 import mkdocs.plugins
 
-_logger = logging.getLogger()
+_logger = logging.getLogger("mkdocs.plugins.hooks")
 
 @mkdocs.plugins.event_priority(-100)
 def on_env(env, config, files):
@@ -34,7 +34,6 @@ def on_env(env, config, files):
 # @mkdocs.plugins.event_priority(-100)
 # def on_page_context(context, *, page, config, nav):
 #     context["flubber"] = {"bar": "baz"}
-
 
 # git info from macros_info():
 

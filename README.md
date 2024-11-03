@@ -17,7 +17,10 @@ The HGVS Nomenclature pages are written in Markdown and formatted into static HT
 
 ### Setting Up
 
-You must have Python installed on your machine and be able to create a virtual environment.
+You must have Python installed on your machine and be able to create a virtual
+environment. Type `make setup` to setup a virtual environment.
+
+*OR*, you can do this manually as follows:
 
     python3 -m venv venv
     source venv/bin/activate
@@ -27,7 +30,8 @@ You must have Python installed on your machine and be able to create a virtual e
 
 ### Running mkdocs locally
 
-    $ mkdocs serve
+    source venv/bin/activate
+    mkdocs serve
     INFO     -  Building documentation...
     INFO     -  Cleaning site directory
     INFO     -  Documentation built in 0.67 seconds
