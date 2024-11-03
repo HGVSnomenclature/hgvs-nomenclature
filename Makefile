@@ -18,6 +18,9 @@ setup:
 	## You must `source venv/bin/activate` to activate this environment ##
 	######################################################################
 
+update-release-notes:
+	python simple_hooks/generate_release_notes.py
+
 build serve: %:
 	mkdocs $@
 
