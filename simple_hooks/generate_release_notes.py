@@ -65,17 +65,10 @@ def create_markdown_files(grouped_releases, output_dir):
         out_fn = output_dir / f"{version_xy}.md"
         current_content = out_fn.open("r", encoding="utf-8").read()
         if current_content != new_content:
-            import difflib
-            _logger.info("\n".join(difflib.unified_diff(
-                current_content.splitlines(),
-                new_content.splitlines(),
-                fromfile="current",
-                tofile="new",
-                lineterm=""
-            )))
             with out_fn.open("w", encoding="utf-8") as f:
                 f.write(new_content)
                 _logger.info(f"Wrote {out_fn}")
+
 
 def _get_release_file_template():
     template_str = """
