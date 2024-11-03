@@ -1,7 +1,7 @@
 # Standards
 
 - [Standards](#standards)
-    - [Nucleotides (DNA / RNA)](#nucleotides-dna--rna)
+    - [Nucleotides (DNA / RNA)](#nucleotides-dna-rna)
         - [DNA](#dna)
         - [RNA](#rna)
     - [Genetic Code](#genetic-code)
