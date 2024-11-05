@@ -47,7 +47,7 @@ See [Community Consultation](consultation/index.md) for proposals, including
 ## Citations
 
 **HGVS Nomenclature 2024: Improvements to community engagement, usability, and computability.**
-<br/>Hart RK, Fokkema I, DiStefano M, Hastings R, Laros JFJ, Taylor R, Wagner A, Dunnen JTd
+<br/>Hart RK, Fokkema I, DiStefano M, Hastings R, Laros JFJ, Taylor R, Wagner A, den Dunnen JT
 <br/>On behalf of the HGVS Variant Nomenclature Committee
 <br/>Submitted. 2024. [preprint](doi:10.31219/osf.io/92gfd)
 
