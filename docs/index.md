@@ -44,7 +44,11 @@ You may also submit questions to our
 See [Community Consultation](consultation/index.md) for proposals, including
   how to submit a proposal for future versions of the HGVS Nomenclature.
 
-## Current Citation
+## Citations
+
+**HGVS Nomenclature 2024: Improvements to community engagement, usability, and computability.**
+Hart RK, Fokkema I, DiStefano M, Hastings R, Laros JFJ, Taylor R, et al.
+Submitted. 2024. [preprint](doi:10.31219/osf.io/92gfd)
 
 **HGVS Recommendations for the Description of Sequence Variants: 2016 Update.**
 den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, et al.
