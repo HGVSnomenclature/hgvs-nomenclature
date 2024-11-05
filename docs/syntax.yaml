@@ -217,7 +217,7 @@ dna:
 rna:
   alleles:
     elements:
-      sequence_identifier: the sequence identifier used; `NM_004006.3`
+      transcript_identifier: the transcript identifier used; `NM_004006.3`
       coordinate_type: the coordinate type, indicating the type of numbering used; `r`
       first_change: the description of the first variant; `123c>a`
       second_change: the description of the second variant; `345del`
@@ -225,7 +225,6 @@ rna:
       # ";": the separator symbol between two changes or two alleles
       # "(;)": the separator symbol between two changes if it's unknown if they are located in the same allele
       # "]": the closing symbol for an allele description
-
     forms:
       - name: Variants in <i>cis</i>
         syntax: sequence_identifier ":" coordinate_type "." "[" first_change ";" second_change "]"
@@ -321,8 +320,22 @@ rna:
       reference_nucleotide: the nucleotide at this position in the reference sequence; c
       # ">": the type of change, a substitution
       new_nucleotide: the nucleotide substituting the existing one; g
-
     forms:
       - syntax: sequence_identifier ":" coordinate_type "." position reference_nucleotide ">" new_nucleotide
         examples:
           - NM_004006.3:r.123c>g
+  adjTrx:
+    elements:
+      five_prime_sequence_identifier: the transcript identifier of the 5' partner of the adjoined transcript; NM_002354.2
+      three_prime_sequence_identifier: the transcript identifier of the 3' partner of the adjoined transcript; NM_000251.2
+      five_prime_coordinate_type: the coordinate type of the 5' partner, indicating the type of numbering used; r
+      three_prime_coordinate_type: the coordinate type of the 3' partner, indicating the type of numbering used; r
+      five_prime_range: the range of coordinates of nucleotides included in the 5' adjoined transcript; -358_555
+      three_prime_range: the range of coordinates of nucleotides included in the 3' adjoined transcript; 212_*279
+      linker_sequence: a nucleotide sequence that exists between two adjoined transcripts
+    forms:
+      - syntax: five_prime_sequence_identifier ":" five_prime_coordinate_type "." five_prime_range "::" [ linker_sequence "::" ] three_prime_sequence_identifier ":" three_prime_coordinate_type "." three_prime_range
+        examples:
+          - NM_002354.2:r.-358_555::NM_000251.2:r.212_*279
+          - NM_152263.2:r.-115_775::NM_002609.3:r.1580_*1924
+          - NM_152263.2:r.?_775::NM_002609.3:r.1580_?
