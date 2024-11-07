@@ -14,12 +14,19 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
 
+### Sign up for Announcements
+
+Join the [HGVS Nomenclature
+Announcements](https://groups.google.com/g/hgvs-nomenclature-announcements/)
+group and mailing list to receive official administrative announcements from the
+HVNC such as new releases and membership opportunities. This is a very
+low-volume list.
+
 ### Ask questions
 
 Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
 group and mailing list. This is the preferred forum for discussing questions
-and issues regarding the HGVS Nomenclature, and for receiving announcements
-about new releases.
+and issues regarding the HGVS Nomenclature.
 
 Messages sent to
 [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
