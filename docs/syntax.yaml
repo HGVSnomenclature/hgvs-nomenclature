@@ -324,7 +324,7 @@ rna:
       - syntax: sequence_identifier ":" coordinate_type "." position reference_nucleotide ">" new_nucleotide
         examples:
           - NM_004006.3:r.123c>g
-  adjTrx:
+  adjoined_transcript:
     elements:
       five_prime_sequence_identifier: the transcript identifier of the 5' partner of the adjoined transcript; NM_002354.2
       three_prime_sequence_identifier: the transcript identifier of the 3' partner of the adjoined transcript; NM_000251.2

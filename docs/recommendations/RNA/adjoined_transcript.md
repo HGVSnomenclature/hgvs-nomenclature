@@ -7,5 +7,5 @@ Adjoined Transcript: a transcript (RNA molecule) composed of adjoined RNA from t
 ## Syntax
 
 ```sh exec="true"
-bin/pull-syntax -c -f docs/syntax.yaml rna.adjoinedTranscript
+bin/pull-syntax -c -f docs/syntax.yaml rna.adjoined_transcript
 ```
