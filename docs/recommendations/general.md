@@ -93,6 +93,8 @@ In HGVS nomenclature, some **characters** have a **specific meaning**:
 - `//` (double forward slash) is used to indicate chimerism (see [DNA substitution](DNA/substitution.md)).
 - `|` (pipe) is used to indicate that not a direct change of the sequence is described but a modification (a change of state, e.g., methylation). (see [methylation](DNA/other.md)).
 
+- **NOTE:** spaces are *not* permitted in any HGVS description
+
 <a id="abbreviation"></a>
 
 ### Abbreviations in variant descriptions
@@ -123,6 +125,10 @@ Specific abbreviations are used to describe different variant types.
     - `met` indicates a **methylation**; `g.12345678_12345901`<code class="spot1">|met=</code>.
 
 ## Discussion
+
+!!! note "Are spaces allowed within HGVS variant descriptions?"
+
+    **Spaces have never been permitted within HGVS variant descriptions.**  Unfortunately, some databases, software, and publications display variant descriptions with internal spaces. These variants do not conform to HGVS Nomenclature and likely create problems for automated parsers.
 
 !!! note "Some papers and websites use a "-" (hyphen-minus) to indicate a range, is this correct?"
 
