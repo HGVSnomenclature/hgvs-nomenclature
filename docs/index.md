@@ -52,7 +52,7 @@ See [Community Consultation](consultation/index.md) for proposals, including
 **HGVS Nomenclature 2024: Improvements to community engagement, usability, and computability.**
 <br/>Hart RK, Fokkema IFAC, DiStefano M, Hastings R, Laros JFJ, Taylor R, Wagner A, den Dunnen JT
 <br/>On behalf of the HGVS Variant Nomenclature Committee
-<br/>Submitted. 2024. [preprint](doi:10.31219/osf.io/92gfd)
+<br/>Submitted. 2024. [preprint](https://dx.doi.org/10.31219/osf.io/92gfd)
 
 **HGVS Recommendations for the Description of Sequence Variants: 2016 Update.**
 <br/>den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, Roux AF, Smith T, Antonarakis SE, Taschner PEM,
