@@ -1,0 +1,37 @@
+name: LOVD HGVS syntax checker
+primary_url: https://LOVD.nl/HGVS
+source:
+  type: github
+  repo_slug: LOVDnl/api.lovd.nl
+types:
+  - web api
+  - web user interface
+  - library/php
+license: GPL-3.0-only
+functionality:
+  - parsing
+  - normalization
+  - validation
+pubmed_id: "34521998"
+links:
+  markdown:
+  - '[API](https://api.lovd.nl/)'
+  - '[GitHub](https://github.com/LOVDnl/api.lovd.nl/)'
+  - '[Web interface](https://lovd.nl/HGVS/)'
+description: |
+  The LOVD HGVS syntax checker parses and validates DNA variant descriptions on
+  the syntax level, not the nucleotide level like other validators. While this
+  obviously means that sequence-level validation is still necessary, this
+  library can support variant types not supported by sequence-level validators.
+  
+  Examples of variant types supported by the LOVD HGVS syntax checker that are
+  normally not supported by sequence-level validators are variants without
+  reference sequences, variants with unknown boundaries, variants with partially
+  unknown sequences, mosaicism and chimerism, and epigenetic changes.
+
+  Furthermore, the software has been developed to recognize dozens of common
+  mistakes in HGVS descriptions and changes caused by formatting in journals.
+  In most cases, the software is able to automatically correct these. Only when
+  the solution is not immediately obvious, will the software leave the choice to
+  the user, giving informative warnings to explain which options the user can
+  choose from to correct their description.
