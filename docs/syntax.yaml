@@ -328,13 +328,12 @@ rna:
     elements:
       five_prime_sequence_identifier: the transcript identifier of the 5' partner of the adjoined transcript; NM_002354.2
       three_prime_sequence_identifier: the transcript identifier of the 3' partner of the adjoined transcript; NM_000251.2
-      five_prime_coordinate_type: the coordinate type of the 5' partner, indicating the type of numbering used; r
-      three_prime_coordinate_type: the coordinate type of the 3' partner, indicating the type of numbering used; r
+      coord_type: the coordinate type, indicating the type of numbering used; r
       five_prime_range: the range of coordinates of nucleotides included in the 5' adjoined transcript; -358_555
       three_prime_range: the range of coordinates of nucleotides included in the 3' adjoined transcript; 212_*279
       linker_sequence: a nucleotide sequence that exists between two adjoined transcripts
     forms:
-      - syntax: five_prime_sequence_identifier ":" five_prime_coordinate_type "." five_prime_range "::" [ linker_sequence "::" ] three_prime_sequence_identifier ":" three_prime_coordinate_type "." three_prime_range
+      - syntax: five_prime_sequence_identifier ":" coord_type "." five_prime_range "::" [ linker_sequence "::" ] three_prime_sequence_identifier ":" coord_type "." three_prime_range
         examples:
           - NM_002354.2:r.-358_555::NM_000251.2:r.212_*279
           - NM_152263.2:r.-115_775::NM_002609.3:r.1580_*1924
