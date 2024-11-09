@@ -14,12 +14,19 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 
 Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
 
+### Sign up for Announcements
+
+Join the [HGVS Nomenclature
+Announcements](https://groups.google.com/g/hgvs-nomenclature-announcements/)
+group and mailing list to receive official administrative announcements from the
+HVNC such as new releases and membership opportunities. This is a very
+low-volume list.
+
 ### Ask questions
 
 Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
 group and mailing list. This is the preferred forum for discussing questions
-and issues regarding the HGVS Nomenclature, and for receiving announcements
-about new releases.
+and issues regarding the HGVS Nomenclature.
 
 Messages sent to
 [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
@@ -49,7 +56,7 @@ See [Community Consultation](consultation/index.md) for proposals, including
 **HGVS Nomenclature 2024: Improvements to community engagement, usability, and computability.**
 <br/>Hart RK, Fokkema IFAC, DiStefano M, Hastings R, Laros JFJ, Taylor R, Wagner A, den Dunnen JT
 <br/>On behalf of the HGVS Variant Nomenclature Committee
-<br/>Submitted. 2024. [preprint](doi:10.31219/osf.io/92gfd)
+<br/>Submitted. 2024. [preprint](https://dx.doi.org/10.31219/osf.io/92gfd)
 
 **HGVS Recommendations for the Description of Sequence Variants: 2016 Update.**
 <br/>den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, Roux AF, Smith T, Antonarakis SE, Taschner PEM,
