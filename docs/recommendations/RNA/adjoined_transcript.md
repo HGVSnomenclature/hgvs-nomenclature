@@ -16,7 +16,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.adjoined_transcript
   here has the following limitations:
     - This syntax is for two-partner adjoined transcripts only.
     - This syntax is for RNA sequence only (no use of coding (`c.`) / non-coding DNA (`n.`) reference sequences).
-    - Linker sequences are specified using [General Recommendations] for RNA sequence character codes, e.g. `aggcucccuugg`
+    - Linker sequences are specified using [General Recommendations](../general.md) for RNA sequence character codes, e.g. `aggcucccuugg`
 - This syntax REQUIRES the use of a range (not a single position) for `five_prime_range` / `three_prime_range`.
 - When the adjoined transcript junction but not the entire transcript is analyzed, the outer range bounds SHOULD be
   specified with `?`, e.g. `NM_152263.2:r.?_775::NM_002609.3:r.1580_?`
