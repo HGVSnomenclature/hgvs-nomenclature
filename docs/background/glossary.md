@@ -10,7 +10,7 @@ If you encounter missing terms or want to suggest definitions, please let us kno
   When `ATT`<code class="del">T</code>`G` changes to `ATTG`, HGVS describes this as a change of the `T` at position 4 (not the `T` at position 2 or 3).
 
 - **adjoined transcript**<br>
-  see Recommendations [Adjoined Transcript](../recommendations/RNA/adjoinedTranscript.md).
+  see Recommendations [Adjoined Transcript](../recommendations/RNA/adjoined_transcript.md).
 
 - **allele**<br>
   variant forms of the same gene ([MESH](http://www.ncbi.nlm.nih.gov/mesh?term=allele)).<br>
