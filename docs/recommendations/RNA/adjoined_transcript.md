@@ -11,7 +11,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.adjoined_transcript
 ```
 
 ## Notes
-- Adjoined transcripts are a product of chimeric transcript gene fusions.
+- Adjoined transcripts are a product of some gene fusions.
 - The adjoined transcript syntax proposed in [Community Proposal SVD WG007](../../consultation/SVD-WG007.md) and adopted
   here has the following limitations:
     - This syntax is for two-partner adjoined transcripts only.
