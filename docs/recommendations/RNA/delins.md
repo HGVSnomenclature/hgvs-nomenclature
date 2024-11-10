@@ -52,7 +52,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
     - **`r.1401_1446delins[NR_002570.3:r.1513_1558]`**<br>
       conversion in exon 9 of the _CYP2D6_ gene, replacing exon 9 nucleotides `r.1401` to `r.1446` with those of the 3' flanking _CYP2D7P1_ gene, nucleotides `r.1513` to `r.1558`.
 
-- Example adjoined transcripts from gene fusions (based on [SVD-WG007](../../consultation/SVD-WG007.md)) are discussed in the [adjoined transcript recommendations](adjoined_transcript.md).
+- Example adjoined transcripts from gene fusions are discussed in the [adjoined transcript recommendations](adjoined_transcript.md).
 
 ## Discussion
 
