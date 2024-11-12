@@ -28,9 +28,9 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.delins
     - **encode a translation stop codon** in the inserted sequence are described as deletion-insertion of this sequence, not as a deletion-insertion removing the entire C-terminal amino acid sequence.
     - encode an open reading frame which **after** the inserted sequence shifts to another reading frame, are described as a [frameshift](frameshift.md).
     - **start N-terminal (5') of and including** the translation termination (stop) codon, are described as [frameshift](frameshift.md).
-- fusion proteins represent a special case of deletion-insertion variant.
-  The fusion break point is described using **`::`**.<br>
-  **NOTE**: to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/) to describe products of gene translocations or fusions (format `GENESYMBOL1::GENESYMBOL2`) and readthrough transcripts (format `GENESYMBOL1-GENESYMBOL2`).
+- chimeric proteins represent a special case of deletion-insertion variant.
+  The protein sequence junction is described using **`::`**.<br>
+  **NOTE**: to avoid confusion, HGVS recommends to follow the [HGNC guidelines](https://www.genenames.org/about/guidelines/), [VICC Gene Fusion Specification](https://fusions.cancervariants.org/en/latest), and [adjoined transcripts](../RNA/adjoined_transcript.md) to describe the products of gene fusions.
 
 ## Examples
 
