@@ -9,7 +9,8 @@ The "fusion transcript" concept adopted in this consultation was relabeled to "a
 
     proposal SVD-WG007 opened for Community Consultation on April 10, 2019, closing on June 30, 2019.
     Since no major objections were received, the SVD-WG decided to **accept** the proposal.
-    The proposal was part of the HGVS nomenclature **version 20.05** update.
+    The proposal was part of the HGVS nomenclature **version 20.05** update. A dedicated page for
+    Adjoined Transcripts was added to the 21.1.0 update.
 
 Based on the proposal, the [RNA Deletion-insertion page](../recommendations/RNA/delins.md) has been updated (April 2020).
 
