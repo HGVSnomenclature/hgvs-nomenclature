@@ -10,9 +10,9 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 [//]: # (    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members]&#40;call-for-members.md&#41;.)
 [//]: # (    Applications are due **April 1, 2024**.)
 
-## Contact Us
+<a id="contact-us"></a>
 
-Users of HGVS Nomenclature are invited to contact us to ask questions or get involved with its development.
+## Get Connected with the Community
 
 ### Sign up for Announcements
 
@@ -22,12 +22,11 @@ group and mailing list to receive official administrative announcements from the
 HVNC such as new releases and membership opportunities. This is a very
 low-volume list.
 
-### Ask questions
+### Engage with the Community
 
 Join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature)
 group and mailing list. This is the preferred forum for discussing questions
 and issues regarding the HGVS Nomenclature.
-
 Messages sent to
 [hgvs-nomenclature@googlegroups.com](mailto:hgvs-nomenclature@googlegroups.com)
 will be distributed to members by email. You do not need to be a member to send
@@ -43,10 +42,7 @@ expedited response in relation to a clinical case, please indicate this in both
 the subject line and body of the email inquiry. We cannot guarantee that even
 clinical inquiries will be addressed outside of business hours or on weekends.
 
-You may also submit questions to our
-[GitHub repository Q&A board](<https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/new?category=q-a>).
-
-### Submit HGVS revision proposals
+### Contribute ideas and proposals
 
 See [Community Consultation](consultation/index.md) for proposals, including
   how to submit a proposal for future versions of the HGVS Nomenclature.
