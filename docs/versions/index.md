@@ -1,8 +1,8 @@
 # Versions
 
-!!! info inline end "Version 21.0 is current"
+!!! info inline end "Version 21.1 is current"
 
-    Read the [release notes for the current version](21.0.md).
+    Read the [release notes for the current version](21.1.md).
 
     If you want to receive announcements of updates to the HGVS Nomenclature, join the [HGVS Nomenclature](https://groups.google.com/g/hgvs-nomenclature) group and mailing list.
 
