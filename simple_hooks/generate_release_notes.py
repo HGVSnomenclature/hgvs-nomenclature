@@ -71,13 +71,14 @@ def create_markdown_files(grouped_releases, output_dir):
         new_content = new_content.replace("* #", "* Closed #")
 
         out_fn = output_dir / f"{version_xy}.md"
-        current_content = out_fn.open("r", encoding="utf-8").read()
-        if current_content == new_content:
-            _logger.info(f"{out_fn}: Unchanged")
-        else:
-            with out_fn.open("w", encoding="utf-8") as f:
-                f.write(new_content)
-                _logger.info(f"{out_fn}: Created/updated")
+        if out_fn.exists():
+            current_content = out_fn.open("r", encoding="utf-8").read()
+            if current_content == new_content:
+                _logger.info(f"{out_fn}: Unchanged")
+                return
+        with out_fn.open("w", encoding="utf-8") as f:
+            f.write(new_content)
+            _logger.info(f"{out_fn}: Created/updated")
 
 
 def _get_release_file_template():
