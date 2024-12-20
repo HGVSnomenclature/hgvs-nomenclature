@@ -51,13 +51,15 @@ See [Community Consultation](consultation/index.md) for proposals, including
 
 **HGVS Nomenclature 2024: Improvements to community engagement, usability, and computability.**
 <br/>Hart RK, Fokkema IFAC, DiStefano M, Hastings R, Laros JFJ, Taylor R, Wagner A, den Dunnen JT
-<br/>On behalf of the HGVS Variant Nomenclature Committee
-<br/>Submitted. 2024. [preprint](https://dx.doi.org/10.31219/osf.io/92gfd)
+<br/>On behalf of the HGVS Variant Nomenclature Committee (HVNC)
+<br/><i>Genome Med</i> **16**, 149 (2024).
+<br/>[doi:10.1186/s13073-024-01421-5](https://doi.org/10.1186/s13073-024-01421-5) | [PubMed:39702242](https://pubmed.ncbi.nlm.nih.gov/39702242/) | [PDF](https://genomemedicine.biomedcentral.com/counter/pdf/10.1186/s13073-024-01421-5.pdf)
 
 **HGVS Recommendations for the Description of Sequence Variants: 2016 Update.**
 <br/>den Dunnen JT, Dalgleish R, Maglott DR, Hart RK, Greenblatt MS, McGowan-Jordan J, Roux AF, Smith T, Antonarakis SE, Taschner PEM,
 <br/>On behalf of the Human Genome Variation Society (HGVS), the Human Variome Project (HVP), and the Human Genome Organisation (HUGO)
-<br/>Hum Mutat. 2016. [doi:10.1002/humu.22981](http://dx.doi.org/10.1002/humu.22981) | [PubMed:26931183](https://www.ncbi.nlm.nih.gov/pubmed/26931183) | [PDF](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)
+<br/><i>Hum Mutat</i> 37(6):564-9 (2016).
+<br/>[doi:10.1002/humu.22981](http://dx.doi.org/10.1002/humu.22981) | [PubMed:26931183](https://www.ncbi.nlm.nih.gov/pubmed/26931183) | [PDF](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf)
 
 ## A note about our name
 
