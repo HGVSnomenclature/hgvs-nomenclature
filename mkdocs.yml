@@ -16,6 +16,8 @@ plugins:
       hooks:
         on_pre_build: "simple_hooks.generate_release_notes:main"
   - macros
+  - open-in-new-tab:
+      add_icon: true
   - table-reader
 
 hooks:

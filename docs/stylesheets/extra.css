@@ -6,6 +6,13 @@
   --gray-50: #7f7f7f;
 }
 
+a[target="_blank"]:not(footer *)::after {
+  /* See https://fontawesome.com/search?q=external&o=r&m=free */
+  font-family: 'FontAwesome';
+  content: "\f08e" !important;
+  /* content: "\f14c" !important; */
+  /* color: var(--md-primary-fg-color); */
+}
 
 /*
 === md overrides
