@@ -45,7 +45,7 @@ extra:
       link: https://github.com/HGVSNomenclature/hgvs-nomenclature
 
 extra_css:
-  - stylesheets/extra.css?v=1
+  - stylesheets/extra.css
 
 # enabling strict above (or mkdocs build --strict) causes warnings to become fatal
 validation:
