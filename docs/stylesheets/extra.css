@@ -6,6 +6,10 @@
   --gray-50: #7f7f7f;
 }
 
+a[target="_blank"]::after {
+  font-family: 'FontAwesome';
+  content: "\f08e" !important;
+}
 
 /*
 === md overrides
