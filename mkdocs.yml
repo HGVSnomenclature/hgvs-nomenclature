@@ -30,9 +30,6 @@ markdown_extensions:
   - def_list
   - markdown_captions
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.magiclink
   - pymdownx.superfences
   - toc:
@@ -49,6 +46,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
 
 # enabling strict above (or mkdocs build --strict) causes warnings to become fatal
 validation:
