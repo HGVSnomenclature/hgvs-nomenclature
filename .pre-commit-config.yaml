@@ -7,8 +7,7 @@ repos:
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
-      # yaml parser doesn't understand refs from pymdownx.emoji config :-(
-      # - id: check-yaml
+      - id: check-yaml
       - id: check-added-large-files
 # Prettier and Markdown have mutually exclusive interpretations of the correct
 # indentation for nested lists. And, because prettier is not configurable,
