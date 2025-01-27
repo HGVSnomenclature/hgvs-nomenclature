@@ -44,21 +44,21 @@ On DNA and RNA level, HGVS nomenclature follows the _Nomenclature for Incomplete
 
 | Symbol |   Meaning    |           Description           |
 |:------:|:------------:|:-------------------------------:|
-|   a    |      a       |            Adenosine            |
-|   c    |      c       |            Cytidine             |
-|   g    |      g       |            Guanosine            |
-|   u    |      u       |             Uridine             |
-|   b    |  c, g or u   | not-a (b follows a in alphabet) |
-|   d    |  a, g or u   | not-c (d follows c in alphabet) |
-|   h    |  a, c or u   | not-g (h follows g in alphabet) |
-|   k    |    g or u    |              keto               |
-|   m    |    a or c    |              amino              |
-|   n    | a, c, g or u |               any               |
-|   r    |    a or g    |             purine              |
-|   s    |    g or c    | strong interaction (3 H-bonds)  |
-|   v    |  a, c or g   |       not-u (v follows u)       |
-|   w    |    a or u    |  weak interaction (2 H-bonds)   |
-|   y    |    c or u    |           pyrimidine            |
+|   A    |      A       |            Adenosine            |
+|   C    |      C       |            Cytidine             |
+|   G    |      G       |            Guanosine            |
+|   T    |      T       |             Uridine             |
+|   B    |  C, G or T   | not-A (B follows A in alphabet) |
+|   D    |  A, G or T   | not-C (D follows C in alphabet) |
+|   H    |  A, C or T   | not-G (H follows G in alphabet) |
+|   K    |    G or T    |              Keto               |
+|   M    |    A or C    |              aMino              |
+|   N    | A, C, G or T |               aNy               |
+|   R    |    A or G    |             puRine              |
+|   S    |    G or C    | strong interaction (3 H-bonds)  |
+|   V    |  A, C or G   |       not-U (V follows U)       |
+|   W    |    A or T    |  Weak interaction (2 H-bonds)   |
+|   Y    |    C or T    |           pYrimidine            |
 
 <a id="geneticcode"></a>
 
