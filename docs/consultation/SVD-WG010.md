@@ -2,10 +2,10 @@
 
 ### Proposal SVD-WG010 (var distance)
 
-!!! warning "Status: decision pending"
+!!! warning "Status: rejected"
 
     proposal SVD-WG010 opened for Community Consultation on May 15, 2021, closing on July 31, 2021.
-    The decision on this proposal is **still pending**.
+    The proposal has been **rejected**.
 
 The proposal suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other.
 
