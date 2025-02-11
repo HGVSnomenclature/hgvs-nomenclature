@@ -31,7 +31,7 @@ None.
 
 - **[SVD-WG010](SVD-WG010.md) (var distance)**<br>
   suggests to specify the HGVS nomenclature recommendations for the description of two variants which are close to each other.<br>
-  **Status: decision pending.** Opened May 15, 2021. Closed July 31, 2021.
+  **Status: rejected.** Opened May 15, 2021. Closed July 31, 2021.
 
 - **[SVD-WG009](SVD-WG009.md) (conversion)**<br>
   suggested to simplify the HGVS nomenclature recommendations by **discontinuing the use of the variant type "con"** to describe conversions.<br>
