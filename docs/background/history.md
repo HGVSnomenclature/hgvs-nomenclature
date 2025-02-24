@@ -97,3 +97,18 @@ Below, an overview of publications on the subject of sequence variant descriptio
   _Recommendations for a nomenclature system for reporting methylation aberrations in imprinted domains._
   [Epigenetics 13:117-121](https://www.ncbi.nlm.nih.gov/pubmed/?term=27911167).<br>
   **NOTE: linked to [Proposal SVD-WG005](../consultation/SVD-WG005.md).**
+
+#### 2021
+
+- Higgins J, Dalgleish R, den Dunnen JT, Barsh G, Freeman PJ, Cooper DN, Cullinan S, Davies KE, Dorkins H, Gong L, Imoto I, Klein TE, Korf B, Misra A, Paalman MH, Ratzel S, Reichardt JKV, Rehm HL, Tokunaga K, Weck KE, Cutting GR (2021).
+  _Verifying nomenclature of DNA variants in submitted manuscripts: Guidance for journals._
+  [Hum. Mutat. 42:3-7](https://onlinelibrary.wiley.com/doi/10.1002/humu.24144/pdf).
+
+#### 2024
+
+- Freeman PJ, Wagstaff JF, Fokkema IFAC, Cutting GR, Rehm HL, Davies AC, den Dunnen JT, Gretton LJ, Dalgleish R (2024).
+  _Standardizing variant naming in literature with VariantValidator to increase diagnostic rates._
+  [Nat. Genet. 56:2284-2286](https://www.ncbi.nlm.nih.gov/pubmed/?term=39358598).
+- Hart RK, Fokkema IFAC, DiStefano M, Hastings R, Laros JFJ, Taylor R, Wagner AH, den Dunnen JT (2024).
+  _HGVS Nomenclature 2024: improvements to community engagement, usability, and computability._
+  [Genome Med. 16:149](https://www.ncbi.nlm.nih.gov/pubmed/?term=39702242).
