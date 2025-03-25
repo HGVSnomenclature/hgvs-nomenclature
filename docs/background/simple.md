@@ -134,14 +134,14 @@ All variants given are in the _DMD_ gene and reported in relation to coding DNA 
   A deletion is indicated using **"del"**.
     - **`c.4375_4379del`**<br>
       the nucleotides from position `c.4375` to `c.4379` (`CGATT`) are missing (deleted).
-      Sometimes misreported as `c.4375_4379delCGATT`.
+      Sometimes misreported as <code class="invalid">c.4375_4379delCGATT</code>.
 
 - **duplication**<br>
   one or more letters of the DNA code are present twice (doubled, duplicated).
   A duplication is indicated using **"dup"**.
     - **`c.4375_4385dup`**<br>
       the nucleotides from position `c.4375` to `c.4385` (`CGATTATTCCA`) are present twice (duplicated).
-      Sometimes misreported as `c.4375_4385dupCGATTATTCCA` or `c.4385_4386insCGATTATTCCA` (not a correct HGVS description).
+      Sometimes misreported as <code class="invalid">c.4375_4385dupCGATTATTCCA</code> or <code class="invalid">c.4385_4386insCGATTATTCCA</code>.
 
 - **insertion**<br>
   one or more letters in the DNA code are new (inserted).
@@ -154,7 +154,7 @@ All variants given are in the _DMD_ gene and reported in relation to coding DNA 
   A deletion/insertion is indicated using **"delins"**.
     - **`c.4375_4376delinsAGTT`**<br>
       the nucleotides from position `c.4375` to `c.4376` (`CG`) are missing (deleted) and replaced by the new sequence, `AGTT`.
-      Sometimes misreported as `c.4375_4376delCGinsAGTT`.
+      Sometimes misreported as <code class="invalid">c.4375_4376delCGinsAGTT</code>.
 
 There are more variant types, yet these occur less frequently.
 

@@ -96,7 +96,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
     - disease severity will depend on the combination of variants found;
     - in recessive disease, when two variants are on one allele, an individual is a carrier or you might not have found the variant on the second allele.
 
-!!! note "I find the notation `c.[76A>C]` without describing the second allele misleading; not enough researchers know this refers to only one of the two alleles present. Would using <code class="invalid">c.[76A>C];[]</code> be OK?"
+!!! note "I find the notation <code class="invalid">c.[76A>C]</code> without describing the second allele misleading; not enough researchers know this refers to only one of the two alleles present. Would using <code class="invalid">c.[76A>C];[]</code> be OK?"
 
     No, the recommended description is `LRG_199t1:c.[76A>C];[76=]`, i.e. `c.76=` for "no change" at position `c.76` on the second allele.
 

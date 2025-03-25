@@ -75,7 +75,7 @@ For more examples, see [DNA alleles](../DNA/alleles.md).
     - disease severity will depend on the combination of variants found;
     - in recessive disease, when two variants are in one transcript, an individual is a carrier or you might not have found the variant on transcripts from the second allele.
 
-!!! note "I find the notation `r.[76a>c]` without describing the second transcript allele misleading; not enough researchers know this refers to only one of the two transcripts present. Would using <code class="invalid">r.[76a>c];[]</code> be OK?"
+!!! note "I find the notation <code class="invalid">r.[76a>c]</code> without describing the second transcript allele misleading; not enough researchers know this refers to only one of the two transcripts present. Would using <code class="invalid">r.[76a>c];[]</code> be OK?"
 
     No, the recommended description is `r.76[a>c];[=]`, i.e. `r.76=` for "no change" at position `r.76` on the second transcript.
 
