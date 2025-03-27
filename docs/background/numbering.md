@@ -44,8 +44,8 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
   it is **not** allowed to describe variants in nucleotides beyond the boundaries of a transcript reference sequence, using that transcript reference sequence.
     - suggestions made to extend the recommendations for nucleotide numbering of coding DNA reference sequences to specifically mark non-transcribed nucleotides have been made but were rejected (see [Open Issues](../consultation/open-issues.md)).
 
-Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf) and [Den Dunnen & Antonarakis (2000)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf)) suggested two alternative descriptions for intronic variants; `c.88+2T>G` / `c.89-1G>T`, and `c.IVS2+2T>G` / `c.IVS2-1G>T`.
-The latter format, `c.IVS2+2T>G` / `c.IVS2-1G>T`, has been retracted and **should not be used**.
+Initial recommendations ([Antonarakis (1998)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%281998%2911:1%3C1::AID-HUMU1%3E3.0.CO;2-O/pdf) and [Den Dunnen & Antonarakis (2000)](http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-1004%28200001%2915:1%3C7::AID-HUMU4%3E3.0.CO;2-N/pdf)) suggested two alternative descriptions for intronic variants; `c.88+2T>G` / `c.89-1G>T`, and <code class="invalid">c.IVS2+2T>G</code> / <code class="invalid">c.IVS2-1G>T</code>.
+The latter format, <code class="invalid">c.IVS2+2T>G</code> / <code class="invalid">c.IVS2-1G>T</code>, has been retracted and **should not be used**.
 
 ### non-coding DNA reference sequences
 

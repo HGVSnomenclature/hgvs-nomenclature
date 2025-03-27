@@ -2,7 +2,7 @@
 
 ### NOTE
 
-In the [original proposal](http://www.hgvs.org/mutnomen/comments001.html), the descriptions included the nucleotide (`A`, `C`, `G`, or `T`) that was identified as not changed (`g.50377648A=`, `c.1823A=`, `n.611T=`).
+In the [original proposal](http://www.hgvs.org/mutnomen/comments001.html), the descriptions included the nucleotide (`A`, `C`, `G`, or `T`) that was identified as not changed (<code class="invalid">g.50377648A=</code>, <code class="invalid">c.1823A=</code>, <code class="invalid">n.611T=</code>).
 It should be noted that, following existing HGVS nomenclature (e.g., `g.123456del`, `c.123dup`) this addition is **not necessary**; `g.50377648=`, `c.1823=`, and `n.611=` are correct and preferred HGVS descriptions.
 
 ### Proposal SVD-WG001 (no change)
