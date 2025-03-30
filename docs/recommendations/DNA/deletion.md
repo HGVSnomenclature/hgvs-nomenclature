@@ -17,7 +17,10 @@ bin/pull-syntax -f docs/syntax.yaml dna.del
     - **exception**: when a circular genomic reference sequence is used ("o" and "m" prefix) nucleotide positions may be listed from 3' to 5' when the deletion includes both the last and first nucleotides of the reference sequence.
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".
     - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
-      **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)). The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.
+    - HGVS requires that insertion, duplication, and deletion variants are "shuffled" toward the 3' (nucleotide) or C terminus (amino acid). However, for the purposes of evaluating adjacency, the 3' or C-terminus shifted variant should also be shifted in the opposite direction to determine the point of closest distance.
+      Example: the variant `AG`<code class="sub">C</code>`TTTAGC` to `AG`<code class="sub">G</code>`TTT`<code class="ins">T</code>`AGC` is described as `g.3_4delinsGT`, not as `g.[3C>G;6dup]`.<br>
+      **NOTE**: data providers may report adjacent variants independently and may merge nearby (non-adjacent) variants if they believe that those forms are more suitable for their data.
+      The intention of HGVS recommendations is to encourage a convenient convention for the most common classes of variant comparisons while not precluding other forms when appropriate.
 - for all descriptions, the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
     - **exception**: deletions around exon/exon junctions when identical nucleotides flank the junction (see [Numbering](../../background/numbering.md#DNAc));<br>
       when `..GA`<code class="del">T</code>`gta..//..cagTCA..` changes to `..GAgta..//..cagTCA..`, based on a coding DNA reference sequence, the variant is described as `LRG_199t1:c.3921del` (`NC_000023.10:g.32459297del`) and not as `c.3922del` (which would translate to `g.32456507del`).
