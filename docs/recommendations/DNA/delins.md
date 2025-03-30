@@ -17,8 +17,10 @@ bin/pull-syntax -f docs/syntax.yaml dna.delins
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".
     - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
     **NOTE**: this prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions of two different substitutions at one position (e.g., `c.235_237delinsTAT` (`p.Lys79Tyr`) versus `c.[235A>T;237G>T]` (`p.[Lys79*;Lys79Asn]`).<br>
-    **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
-    The new proposal is: **two variants that are separated by fewer than two intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.
+    - HGVS requires that insertion, duplication, and deletion variants are "shuffled" toward the 3' (nucleotide) or C terminus (amino acid). However, for the purposes of evaluating adjacency, the 3' or C-terminus shifted variant should also be shifted in the opposite direction to determine the point of closest distance.
+      Example: the variant `AG`<code class="sub">C</code>`TTTAGC` to `AG`<code class="sub">G</code>`TTT`<code class="ins">T</code>`AGC` is described as `g.3_4delinsGT`, not as `g.[3C>G;6dup]`.<br>
+      **NOTE**: data providers may report adjacent variants independently and may merge nearby (non-adjacent) variants if they believe that those forms are more suitable for their data.
+      The intention of HGVS recommendations is to encourage a convenient convention for the most common classes of variant comparisons while not precluding other forms when appropriate.
 - **conversions**, a sequence change where a **range of nucleotides** are replaced by a sequence from elsewhere in the genome, are described as a "delins".
   The previous format "con" is no longer used (see [Community Consultation SVD-WG009](../../consultation/SVD-WG009.md)).
 - for all descriptions, the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
@@ -27,7 +29,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.delins
 
 - **`NC_000023.11:g.32386323delinsGA`**<br>
   a deletion of nucleotide `g.32386323` (a `T`, not described), replaced by nucleotides `GA`, changing `..CAGC`<code class="del">T</code>`CTTT..` to `..CAGC`<code class="ins">GA</code>`CTTT..`.
-  The variant corresponds to `LRG_199t1:c.4661delinsTC` based on a coding DNA reference sequence.<br>
+  The variant corresponds to `NM_004006.2:c.4661delinsTC` based on a coding DNA reference sequence.<br>
   **NOTE**: the recommendation is not to describe the variant as <code class="invalid">NC_000023.11:g.32386323delTinsGA</code>, i.e. describe the deleted nucleotide sequence.
   This description is longer, it contains redundant information, and chances to make an error increase (e.g., <code class="invalid">NC_000023.11:g.32386323delCinsGA</code>).
 
@@ -36,14 +38,14 @@ bin/pull-syntax -f docs/syntax.yaml dna.delins
   **NOTE**: the recommendation is not to describe the variant as <code class="invalid">NM_004006.2:c.6775_6777delGAGinsC</code>, i.e. describe the deleted nucleotide sequence.
   This description is longer, it contains redundant information, and chances to make an error increase (e.g., <code class="invalid">NM_004006.2:c.6775_6777delGTGinsC</code>).
 
-- **`LRG_199t1:c.145_147delinsTGG` (`p.Arg49Trp`)**<br>
+- **`NM_004006.2::c.145_147delinsTGG` (`p.Arg49Trp`)**<br>
   a deletion replacing nucleotides `c.145` to `c.147` (`CGC`, not described) with `TGG`.
-
-- **`LRG_199t1:c.9002_9009delinsTTT`**<br>
-  a deletion of nucleotides `c.9002` to `c.9009`, replaced by nucleotides `TTT`.<br>
   **NOTE**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins", so the description <code class="invalid">c.[145C>T;147C>G]</code> is not correct.
 
-- **`LRG_199t1:c.850_901delinsTTCCTCGATGCCTG`**<br>
+- **`NM_004006.2:c.9002_9009delinsTTT`**<br>
+  a deletion of nucleotides `c.9002` to `c.9009`, replaced by nucleotides `TTT`.<br>
+
+- **`NM_004006.2:c.850_901delinsTTCCTCGATGCCTG`**<br>
   a deletion of nucleotides `c.850` to `c.901`, replaced by `TTCCTCGATGCCTG`.<br>
   **NOTE**: parts of the inserted sequence "align" with the reference sequence, giving an alternative description like `c.[850_869del;874_881del;887_897del;901_902insG]`.
   **The "delins" format is recommended**: it is simpler and prevents software tools making incorrect predictions for the consequences on protein level.
