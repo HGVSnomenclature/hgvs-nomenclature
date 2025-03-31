@@ -89,8 +89,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.dup
       **NOTE**: previously, the suggestion was made to describe such duplications using the format `c.4072-?_5154+?dup`.
       However, since `c.4072-?` indicates "**to an unknown position 5' of `c.4072`**" and `c.5154+?` "**to an unknown position 3' of `c.5154`**", this description is not correct when it is known that exons 29 and 37 are not involved.
 
-    - **`NC_000001.11(NM_206933.2):c.[675-542_1211-703dup;1211-703_1211-704insGTAAA]`**<br>
-      a duplication of the sequence from nucleotide position `c.75-542` to `c.1211-703`, followed by the insertion of the sequence <code class="ins">GTAAA</code>.<br>
+    - **`NC_000001.11(NM_206933.2):c.[675-542_1211-703dup;1211-703_1211-702insGTAAA]`**<br>
+      a duplication of the sequence from nucleotide position `c.675-542` to `c.1211-703`, followed by the insertion of the sequence <code class="ins">GTAAA</code>.<br>
       **NOTE**: the variant is not described using <code class="invalid">dupins</code>, a format not used in HGVS nomenclature.
 
     - **`NC_000023.11:g.(32381076_32382698)_(32430031_32456357)[3]` (`NC_000023.11(NM_004006.2):c.(4071+1_4072-1)_(5154+1_5155-1)[3]`)**<br>
