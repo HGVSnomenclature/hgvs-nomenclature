@@ -80,7 +80,7 @@ In HGVS nomenclature, some **characters** have a **specific meaning**:
     - `;` (semicolon) is used to separate variants and alleles; `g.[123456A>G;345678G>C]` or `g.[123456A>G];[345678G>C]`.
     - `,` (comma) is used to separate different transcripts/proteins derived from one allele; `r.[123a>u,122_154del]`.
     - `NC_000002.11:g.48031621_48031622ins[TAT;48026961_48027223;GGC]`.
-    - `NC_000002.11:g.47643464_47643465ins[NC_000022.10:35788169_35788352]`.
+    - `NC_000002.11:g.47643464_47643465ins[NC_000022.10:g.35788169_35788352]`.
 - `:` (colon) is used to separate the reference sequence file identifier (_accession.version_number_) from the actual description of a variant; `NC_000011.9:g.12345611G>A`.
 - `:`: (double colon) is used to describe adjoined transcripts from gene fusions ([RNA Deletion-insertion](RNA/delins.md)) and to designate break point junctions creating a ring chromosome ([DNA Complex (HGVS/ISCN)](DNA/complex.md)).
 - `( )` (parentheses) are used to indicate uncertainties and predicted consequences; `NC_000023.9:g.(123456_234567)_(345678_456789)del`, `p.(Ser123Arg)`.<br>

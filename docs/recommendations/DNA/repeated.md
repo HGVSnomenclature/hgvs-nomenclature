@@ -68,7 +68,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.rpt
             - **`NM_002024.5:c.(-144_-16)insN[(1800_2400)]`**<br>
               the amplified region containing the _FMR1_ repeat region (between nucleotides `c.-144` and `c.-16`) contains an insertion of 1800 to 2400 nucleotides (600 to 800 `GGC` / `GGA` units).
 
-        - **_HTT_ repeat** (reference sequence `LRG_763t1:52_153CAG[21]CAA[1]CAG[1]CCG[1]CCA[1]CCG[7]CCT[2]`)<br>
+        - **_HTT_ repeat** (reference sequence `LRG_763t1:c.52_153CAG[21]CAA[1]CAG[1]CCG[1]CCA[1]CCG[7]CCT[2]`)<br>
           in literature, the Huntington's Disease tri-nucleotide repeat, encoding a variable poly-Gln followed by a variable poly-Pro repeat on protein level, is known as the `CAG` repeat.
           Based on the _HTT_ (huntingtin) coding DNA reference sequence (GenBank `LRG_763t1` or `NM_002111.8`) and applying the **3'rule**, the Poly-Gln encoding repeat has to be described as an `AGC`-`AAC`-`AGC` repeat.
             - **`LRG_763t1:c.54_110GCA[23]`**<br>

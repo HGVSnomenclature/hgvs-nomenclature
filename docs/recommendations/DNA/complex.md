@@ -135,7 +135,7 @@ HGVS, therefore, recommends to describe translocations exclusively using a "deli
           for ISCN `dup(8)(q24.21q24.22)`<br>
           _(within a chromosome, breakpoint not sequenced)_
 
-        - **`NC_000008.11:g.(131500001_136400000)ins[(127300001_131500000)_(131500001_136400000)inv]`**<br>
+        - **`NC_000008.11:g.(131500001_136400000)ins(127300001_131500000)_(131500001_136400000)inv`**<br>
           for ISCN `dup(8)(q24.22q24.21)`<br>
           _(within a chromosome, orientation reversed relative to original sequence, breakpoint not sequenced)_
 

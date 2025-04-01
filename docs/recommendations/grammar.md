@@ -12,10 +12,10 @@ We recognize that most users of HGVS will not want to concern themselves with th
 
 - A grammar specifies the valid syntax for a string of characters. A _symbol_ is a grammatical classification that aids parsing.
 - There are two kinds of symbols: a _literal symbol_ represents verbatim text, and a _non-terminal symbol_ represents a named concept like "an integer sequence position". [more](https://en.wikipedia.org/wiki/Terminal_and_nonterminal_symbols)
-- Literal symbols are specified in double quotes. For example, `"A"`` means that an "A" character is accepted as input (and nothing else).
+- Literal symbols are specified in double quotes. For example, `"A"` means that an "A" character is accepted as input (and nothing else).
 - A "pipe" (`|`) separates alternatives. For example `"A" | "B"` accepts a single "A" or "B" character (and nothing else).
 - Symbols (of either type) may be concatenated. For example, `digit digit` matches a two-digit number. (Note: HGVS Nomenclature uses a common variant of EBNF in which concatenation is implied by adjacent symbols. Other EBNF variants require a comma between concatenated symbols.)
-- A _production rule_ defines a non-terminal symbol as a pattern of other symbols. For example, `digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"` says that `digit` is made of "0" or "1" or "2", etc. Similarly, `two_digit_dumber = digit digit` defines a two_digit_number non-terminal symbol as being composed of two adjacent digits.
+- A _production rule_ defines a non-terminal symbol as a pattern of other symbols. For example, `digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"` says that `digit` is made of "0" or "1" or "2", etc. Similarly, `two_digit_number = digit digit` defines a two_digit_number non-terminal symbol as being composed of two adjacent digits.
 - _Modifiers_ are used to indicate cardinality: `*` indicates zero or more of the preceding rule or symbol; `+` indicates one or more; and `?` denotes zero or one (i.e., optional). For example, `number = digit+` recognizes any sequence of digits without sign or decimal point.
 - Parentheses may be used to group a subexpression. For example, `"A" ( "B" | "C" )` accepts "AB" or "AC", and nothing else.
 - Square brackets indicate optional syntax. For example, `sign = "+" | "-"` and `number = [sign] digit+` allow numbers to be defined as any sequence of digits, optionally with a single prefix sign.
