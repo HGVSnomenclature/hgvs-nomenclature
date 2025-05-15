@@ -55,6 +55,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
       the insertion of an unknown amino acid (`insXaa`) between amino acids `Ser332` and `Ser333`.<br>
       **NOTE**: the IUPAC code for an unknown amino acid is `X` (see [Standards](../../background/standards.md)).
       Note that in the past, `X` has been used to indicate a translation termination codon.
+      Therefore, we recommend the use of the three-letter amino acid code only, `Xaa`.
 
     - **`NP_003997.1:p.(Val582_Asn583insXaa[5])` (alternatively `NP_003997.1:p.(Val582_Asn583insXaaXaaXaaXaaXaa)`)**<br>
       the insertion of 5 unknown amino acids (`insXaa[5]`) between amino acids `Val582` and `Asn583`.
