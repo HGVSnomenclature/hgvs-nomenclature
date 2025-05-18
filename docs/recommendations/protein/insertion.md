@@ -18,7 +18,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
     - an insertion can not be described using **one** amino acid position, like <code class="invalid">p.Lys23insAsp</code>.
 - for all descriptions, the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
 - duplicating insertions should be described as duplications (see [Duplication](../DNA/duplication.md)), not as an insertion.
-- when the inserted amino acid sequence is large, the insertion may be described by its length, e.g., `p.Lys2_Leu3insX[34]` (open reading frame insertion) or `p.Lys2_Leu3insTer12` (translation stop in inserted sequence).<br>
+- when the inserted amino acid sequence is large, the insertion may be described by its length, e.g., `p.Lys2_Leu3insXaa[34]` (open reading frame insertion) or `p.Lys2_Leu3insTer12` (translation stop in inserted sequence).<br>
   **NOTE**: the inserted amino acid sequence can be derived from the description of the variant on the DNA or RNA level.
 - insertions extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as an [Extension](extension.md).
 - insertions on DNA or RNA level that
@@ -42,7 +42,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
   the predicted consequence on the protein level resulting from DNA variant `NM_004380.2:c.138_139insTCATCATGAGCTCCC`, is the insertion of `SerSerTer` between amino acids `Pro46` and `Asn47` (alternatively `SerSer*`).<br>
   **NOTE**: the insertion is not described as <code class="invalid">insSerSerTerAlaPro</code>; amino acids after the translation termination codon are not listed.
 
-- **`p.Arg78_Gly79insX[23]`**<br>
+- **`p.Arg78_Gly79insXaa[23]`**<br>
   the in-frame insertion of a 23 amino acid sequence between amino acids `Arg78` and `Gly79`.<br>
   **NOTE**: it must be possible to deduce the 23 inserted amino acids from the description given on the DNA or RNA level.
 
@@ -51,13 +51,14 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
   **NOTE**: it must be possible to deduce the inserted amino acid sequence from the description given on the DNA or RNA level.
 
 - incomplete descriptions (preferably use exact descriptions only)
-    - **`NP_003997.1:p.(Ser332_Ser333insX)`**<br>
-      the insertion of an unknown amino acid (`insX`) between amino acids `Ser332` and `Ser333`.<br>
+    - **`NP_003997.1:p.(Ser332_Ser333insXaa)`**<br>
+      the insertion of an unknown amino acid (`insXaa`) between amino acids `Ser332` and `Ser333`.<br>
       **NOTE**: the IUPAC code for an unknown amino acid is `X` (see [Standards](../../background/standards.md)).
       Note that in the past, `X` has been used to indicate a translation termination codon.
+      Therefore, we recommend the use of the three-letter amino acid code only, `Xaa`.
 
-    - **`NP_003997.1:p.(Val582_Asn583insX[5])` (alternatively `NP_003997.1:p.(Val582_Asn583insXXXXX)`)**<br>
-      the insertion of 5 unknown amino acids (`insX[5]`) between amino acids `Val582` and `Asn583`.
+    - **`NP_003997.1:p.(Val582_Asn583insXaa[5])` (alternatively `NP_003997.1:p.(Val582_Asn583insXaaXaaXaaXaaXaa)`)**<br>
+      the insertion of 5 unknown amino acids (`insXaa[5]`) between amino acids `Val582` and `Asn583`.
 
 ## Discussion
 

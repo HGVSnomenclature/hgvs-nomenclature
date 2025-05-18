@@ -218,7 +218,7 @@ This page summarises how to describe variants when not all information is availa
 - **`p.(Ala123_Pro131)fs`**<br>
   used to describe there is a frameshift variant starting at an unknown position between amino acids `Ala123` and `Pro131`.
 
-- **`p.(Ala123_Pro131)insX[4]`**<br>
+- **`p.(Ala123_Pro131)insXaa[4]`**<br>
   used to describe there is an insertion of four unknown amino acids (`X`) at an unknown position between amino acids `Ala123` and `Pro131`.<br>
   **NOTE**: `X` is the IUPAC symbol for an unknown amino acid, **NOT** to indicate a translation termination (stop) codon.
 

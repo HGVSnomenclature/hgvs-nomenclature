@@ -20,7 +20,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.delins
     - the description `p.Arg76_Cys77delinsSerTrp` is correct, the description <code class="invalid">p.[Arg76Ser;Cys77Trp]</code> is not correct.
     - two variants separated by one or more amino acids should be described individually and not as a "delins".
 - for all descriptions, the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
-- when the inserted amino acid sequence is large, the insertion may be described by its length, e.g., `p.Lys2_Leu3insX[34]` (open reading frame insertion) or `p.Lys2_Leu3insTer12` (translation stop in inserted sequence).<br>
+- when the inserted amino acid sequence is large, the insertion may be described by its length, e.g., `p.Lys2_Leu3insXaa[34]` (open reading frame insertion) or `p.Lys2_Leu3insTer12` (translation stop in inserted sequence).<br>
   **NOTE**: the inserted amino acid sequence can be derived from the description of the variant on the DNA or RNA level.
 - deletion/insertion variants extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as an [Extension](extension.md).
 - deletion-insertion variants on the DNA or RNA level that
