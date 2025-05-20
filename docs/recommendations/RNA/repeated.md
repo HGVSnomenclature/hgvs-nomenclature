@@ -21,6 +21,10 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.rpt
   The description `r.123cug[23]` can thus only be used when the repeat was sequenced.
 - the format <code class="invalid">r.-125_-123cug[4]</code> should not be used; it contains redundant information (`-125_-123` and `cug`).
 - for **composite repeats**, the basic format can be used, successively listing each different repeat unit; <code class="invalid">r.456_465[4]466_489[9]490_499[3]</code>.
+- **exception**: using a coding RNA reference sequence, a repeated sequence variant description can be used only for repeat units with a length which is a multiple of 3, i.e. which can not affect the reading frame.
+  Consequently, use `NM_024312.4:r.2692_2693dup` and **not** <code class="invalid">NM_024312.4:r.2686a[10]</code>; use `NM_024312.4:r.1741_1742insuauauaua` and **not** <code class="invalid">NM_024312.4:r.1738ua[6]</code>.
+  This restriction only applies to the coding sequence, which does not include the UTR sequence.
+  As such, `NM_024312.4:r.-6_-3g[6]` is valid as the reading frame is not affected.
 
 ## Examples
 
