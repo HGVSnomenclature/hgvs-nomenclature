@@ -15,8 +15,13 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 - substitutions involving two or more consecutive nucleotides are described as deletion/insertion (delins) variants (see [Deletion/insertion (delins)](delins.md)).
 - two variants separated by one or more nucleotides should be described individually and not as a "delins" of the sequence affected.
     - Exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
-      **NOTE**: This rule prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g., `c.235_237delinsTAT` (`p.Lys79Tyr`) versus `c.[235A>T;237G>T]` (`p.[Lys79*;Lys79Asn]`).<br>
-      **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
+      **NOTE**: This rule prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g., `c.235_237delinsTAT` (`p.Lys79Tyr`) versus `c.[235A>T;237G>T]` (`p.[Lys79*;Lys79Asn]`).<br
+    - HGVS requires that insertion, duplication, and deletion variants are "shuffled" toward the 3' (nucleotide) or C terminus (amino acid).
+      However, for the purposes of evaluating adjacency, the 3' or C-terminus shifted variant should also be shifted in the opposite direction to determine the point of closest distance.
+      Example: the variant `AG`<code class="sub">C</code>`GTTTAGC` to `AG`<code class="sub">G</code>`GTTT`<code class="ins">T</code>`AGC` is described as `g.3_4delinsGGT`, not as `g.[3C>G;7dup]`.                                                                                                                                  
+      **NOTE**: adjacent variants in cis should be described as a single "delins" variant.
+      Data providers may report adjacent variants independently and may merge nearby (non-adjacent) variants if they believe that those forms are more suitable for their data.
+      The intention of HGVS recommendations is to encourage a convenient convention for the most common classes of variant comparisons while not precluding other forms when appropriate.
 - nucleotides that have been tested and found **not changed** are described as `c.123=`, `g.4567_4569=` (see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md)).
 - it is not correct to describe "_polymorphisms_" as <code class="invalid">c.76A/G</code> (see [Discussions](#polymorphism)).
 
