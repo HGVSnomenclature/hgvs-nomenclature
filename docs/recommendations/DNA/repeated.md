@@ -20,6 +20,8 @@ bin/pull-syntax -f docs/syntax.yaml dna.rpt
   `NM_000044.3:c.(92_331)insN[33]` describes an insertion of 33 nucleotides in the amplified region from position `c.92` to `c.331` (**not sequenced**), containing a repeated sequence of 24 `GCA` units in the reference sequence.
 - **exception**: using a coding DNA reference sequence ("c." description), a repeated sequence variant description can be used only for repeat units with a length which is a multiple of 3, i.e. which can not affect the reading frame.
   Consequently, use `NM_024312.4:c.2692_2693dup` and **not** <code class="invalid">NM_024312.4:c.2686A[10]</code>; use `NM_024312.4:c.1741_1742insTATATATA` and **not** <code class="invalid">NM_024312.4:c.1738TA[6]</code>.
+  This restriction only applies to the coding sequence, which does not include the introns or the UTR sequence.
+  As such, `NM_024312.4:c.-6_-3G[6]` is valid as the reading frame is not affected.
 
 ## Examples
 
