@@ -4,7 +4,7 @@
 In the meeting of 7-10-2024, the committee decided that positions upstream and
 downstream of a transcript may be addressed using the `c.` and `n.` coordinate
 systems as long as these positions are within the boundaries of the reference
-sequence. A notable advantage of this is the ability to address promotor and
+sequence. A notable advantage of this is the ability to address promoter and
 regulatory regions relative to the transcript they act upon. The committee did,
 however, not decide on the syntax used to address these positions.
 
@@ -66,10 +66,13 @@ section with the following:
 > boundaries of the reference sequence may be described using *upstream* (u) or
 > *downstream* (d) positions relative to the annotated transcription start or
 > end respectively.
->
-> Examples:
 > - `c.u10` denotes the position 10 nucleotides upstream of the annotated transcript.
 > - `c.d10` denotes the position 10 nucleotides downstream of the annotated transcript.
+>
+> Examples:
+> - TODO
+
+<!-- TODO: Full examples. -->
 
 Likewise, we propose to replace the text under the third bullet in the
 [non-coding DNA numbering](https://hgvs-nomenclature.org/stable/background/numbering/#non-coding-dna-reference-sequences)
@@ -103,3 +106,15 @@ above.
 > be described like
 > `NC_000023.11(NM_004006.2):c.(10086+1_10087-1)_(*2691_d?)dup` (`c.*2691` is
 > the last nucleotide of `NM_004006.2`).
+
+[Duplicated exons](https://hgvs-nomenclature.org/stable/recommendations/DNA/duplication/#examples)
+
+> [...] The duplication can be described based on a coding DNA reference
+> sequence as
+> `NC_000023.11(NM_004006.2):c.(u205595_u62722)_(d21211_d61335)dup`. [...]
+
+[How should I describe a variant in the promoter region of a gene?](https://hgvs-nomenclature.org/stable/recommendations/DNA/substitution/#discussion)
+
+> [...] However, when using a genomic reference sequence, this variant can be
+> described as `NC_000023.10(NM_004006.2):c.u128110C>T` or
+> `NC_000023.10(NM_000109.4):c.u278C>T`. [...]
