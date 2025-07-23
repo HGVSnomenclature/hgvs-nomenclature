@@ -66,13 +66,10 @@ section with the following:
 > boundaries of the reference sequence may be described using *upstream* (u) or
 > *downstream* (d) positions relative to the annotated transcription start or
 > end respectively.
-> - `c.u10` denotes the position 10 nucleotides upstream of the annotated transcript.
-> - `c.d10` denotes the position 10 nucleotides downstream of the annotated transcript.
 >
 > Examples:
-> - TODO
-
-<!-- TODO: Full examples. -->
+> - `c.u10` denotes the position 10 nucleotides upstream of the annotated transcript.
+> - `c.d10` denotes the position 10 nucleotides downstream of the annotated transcript.
 
 Likewise, we propose to replace the text under the third bullet in the
 [non-coding DNA numbering](https://hgvs-nomenclature.org/stable/background/numbering/#non-coding-dna-reference-sequences)
@@ -92,28 +89,52 @@ above.
 
 [Deletions extending beyond the transcribed region](https://hgvs-nomenclature.org/stable/recommendations/DNA/deletion/#examples):
 
-> Deletions extending 5' of a transcript can be described like
-> `NC_000023.11(NM_004006.2):c.(u?_-244)_(31+1_32-1)del` (`c.-244` is the first
-> nucleotide of `NM_004006.2`). Deletions extending 3' of a transcript can be
-> described like `NC_000023.11(NM_004006.2):c.(10086+1_10087-1)_(*2691_d?)del`
-> (`c.*2691` is the last nucleotide of `NM_004006.2`).
+Change the negative examples into positive ones.
+
+> Genomic deletions extending 5' of a transcript can additionally be described
+> like `NC_000023.11(NM_004006.2):c.(u?_-244)_(31+1_32-1)del` (`c.-244` is the
+> first nucleotide of `NM_004006.2`). Deletions extending 3' of a transcript
+> can be described like
+> `NC_000023.11(NM_004006.2):c.(10086+1_10087-1)_(*2691_d?)del` (`c.*2691` is
+> the last nucleotide of `NM_004006.2`).
+
+[Deletions of genes](https://hgvs-nomenclature.org/stable/recommendations/DNA/deletion/#examples):
+
+Add a gene deletion example.
+
+> `NC_000023.11:g.31118229_33212557del` or
+> `NC_000023.11(NM_004006.2):c.u1000_d1000del`: a deletion of the entire *DMD*
+> gene, where the deletion starts 1000 nucleotides before the transcription
+> start site and ends 1000 nucleotides after the end of the transcript.
 
 [Duplications extending beyond the transcribed region](https://hgvs-nomenclature.org/stable/recommendations/DNA/duplication/#examples):
 
-> Duplications extending 5' of a transcript can be described like
-> `NC_000023.11(NM_004006.2):c.(u?_-244)_(31+1_32-1)dup` (`c.-244` is the first
-> nucleotide of `NM_004006.2`). Duplications extending 3' of a transcript can
-> be described like
+Change the negative examples into positive ones.
+
+> Genomic duplications extending 5' of a transcript can additionally be
+> described like `NC_000023.11(NM_004006.2):c.(u?_-244)_(31+1_32-1)dup`
+> (`c.-244` is the first nucleotide of `NM_004006.2`). Duplications extending
+> 3' of a transcript can be described like
 > `NC_000023.11(NM_004006.2):c.(10086+1_10087-1)_(*2691_d?)dup` (`c.*2691` is
 > the last nucleotide of `NM_004006.2`).
 
-[Duplicated exons](https://hgvs-nomenclature.org/stable/recommendations/DNA/duplication/#examples)
+[Duplication of genes](https://hgvs-nomenclature.org/stable/recommendations/DNA/duplication/#examples)
 
-> [...] The duplication can be described based on a coding DNA reference
-> sequence as
-> `NC_000023.11(NM_004006.2):c.(u205595_u62722)_(d21211_d61335)dup`. [...]
+Add a gene duplication example.
+
+> `NC_000023.11:g.31118229_33212557dup` or
+> `NC_000023.11(NM_004006.2):c.u1000_d1000dup`: a duplication of the entire
+> *DMD* gene, including 1000 upstream and downstream nucleotides.
+
+Remove the line:
+
+> Describing the duplication based on a coding DNA reference sequence using
+> `NC_000023.11(NM_004006.2):c.(-205839_-62966)_(*21568_*61692)dup` makes no
+> sense."
 
 [How should I describe a variant in the promoter region of a gene?](https://hgvs-nomenclature.org/stable/recommendations/DNA/substitution/#discussion)
+
+Change the (already positive) example.
 
 > [...] However, when using a genomic reference sequence, this variant can be
 > described as `NC_000023.10(NM_004006.2):c.u128110C>T` or
