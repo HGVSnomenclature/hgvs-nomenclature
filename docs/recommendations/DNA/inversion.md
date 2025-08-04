@@ -19,8 +19,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.inv
 - **inverted duplications** are described as an insertion (`g.234_235ins123_234inv`), not as <code class="invalid">g.123_456dupinv</code> (see [Q&A](#dupinv)).
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".<br>
   **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
-  **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
-  The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.
 - inversions are not used on protein level.
   Depending on the (predicted) consequences of an inversion on protein level, changes are usually described as either a **delins** or a **frameshift**.
 

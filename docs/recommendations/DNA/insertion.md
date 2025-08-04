@@ -18,8 +18,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.ins
     - **inverted duplications** are described as an insertion (`g.234_235ins123_234inv`), not as a duplication (see [Inversion](inversion.md)).
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".<br>
   **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
-  **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
-  The new proposal is: **two variants that are separated by two or fewer intervening nucleotides (that is, not including the variants themselves) should be described as a single "delins" variant**.
 - for all descriptions, the **most 3' position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
 - the **"inserted_sequence"** can be given as the nucleotides inserted (e.g., `insAGC`) or, for larger insert sequences, by referring to the sequence in the reference sequence (e.g., `c.849_850ins858_895`) or another reference (e.g., `NC_000002.11:g.47643464_47643465ins[NC_000022.10:g.35788169_35788352]`).
   When the inserted sequence is not present in the reference genome, it should be submitted to a database (e.g., [GenBank](http://www.ncbi.nlm.nih.gov/genbank/submit/)); the accession.version number obtained can then be used to describe the variant.

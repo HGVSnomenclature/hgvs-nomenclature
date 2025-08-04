@@ -16,7 +16,6 @@ bin/pull-syntax -f docs/syntax.yaml dna.sub
 - two variants separated by one or more nucleotides should be described individually and not as a "delins" of the sequence affected.
     - Exception: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
       **NOTE**: This rule prevents tools predicting the consequences of a variant to make conflicting and incorrect predictions (e.g., `c.235_237delinsTAT` (`p.Lys79Tyr`) versus `c.[235A>T;237G>T]` (`p.[Lys79*;Lys79Asn]`).<br>
-      **NOTE**: the SVD-WG has prepared a proposal to modify this recommendation (see [SVD-WG010](../../consultation/SVD-WG010.md)).
 - nucleotides that have been tested and found **not changed** are described as `c.123=`, `g.4567_4569=` (see [SVD-WG001 (no change)](../../consultation/SVD-WG001.md)).
 - it is not correct to describe "_polymorphisms_" as <code class="invalid">c.76A/G</code> (see [Discussions](#polymorphism)).
 
