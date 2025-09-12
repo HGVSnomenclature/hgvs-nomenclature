@@ -14,7 +14,7 @@ issue briefly and both agree that more clarification is needed before they can
 proceed further. They have identified three candidates, a fourth was added
 later:
 
-1. Exonic numbering, i.e., relative to the start or end of the coding region.
+**1**. Exonic numbering, i.e., relative to the start or end of the coding region.
   E.g., if the transcript starts at position `c.-100`, the first nucleotide
   upstream is addressed as `c.-101`. If the transcript ends at position
   `c.*100`, the first nucleotide downstream is addressed as `c.*101`.  
@@ -22,7 +22,7 @@ later:
   addressed as `n.-1`. If a non-coding transcript ends at position `n.100`,
   the first nucleotide downstream is addressed as `n.101`.
 
-2. Intronic numbering, i.e., relative to the start or end of the transcript.
+**2**. Intronic numbering, i.e., relative to the start or end of the transcript.
   E.g., if the transcript starts at position `c.-100`, the first nucleotide
   upstream is addressed as `c.-100-1`. If the transcript ends at position
   `c.*100`, the first nucleotide downstream is addressed as `c.*100+1`.  
@@ -30,7 +30,7 @@ later:
   addressed as `n.1-1`. If a non-coding transcript ends at position `n.100`,
   the first nucleotide downstream is addressed as `n.100+1`.
 
-3. Intronic numbering with additional annotation. This idea was
+**3**. Intronic numbering with additional annotation. This idea was
   [proposed](https://hgvs-nomenclature.org/stable/consultation/open-issues/#numbering-gene-flanking-nucleotides)
   with the intention to easily tell intronic and intergenic regions apart.
   E.g., if the transcript starts at position `c.-100`, the first nucleotide
@@ -43,7 +43,7 @@ later:
   "intergenic" for example) because the `+` and `-` already indicate whether a
   position is upstream or downstream.
 
-4. Pure upstream and downstream numbering. E.g., the first nucleotide upstream
+**4**. Pure upstream and downstream numbering. E.g., the first nucleotide upstream
   is addressed as `c.u1`, the first nucleotide downstream is addressed as
   `c.d1`.  
   Likewise, for non-coding transcripts, the first nucleotide upstream is
