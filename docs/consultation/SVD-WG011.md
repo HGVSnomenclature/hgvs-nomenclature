@@ -40,8 +40,8 @@ later:
   addressed as `n.1-u1`. If a non-coding transcript ends at position `n.100`,
   the first nucleotide downstream is addressed as `n.100+d1`.  
   Alternatively, the `u` and `d` could be replaced with one letter (an `i` for
-  example) because the `+` and `-` already indicate whether a position is
-  upstream or downstream.
+  "intergenic" for example) because the `+` and `-` already indicate whether a
+  position is upstream or downstream.
 
 4. Pure upstream and downstream numbering. E.g., the first nucleotide upstream
   is addressed as `c.u1`, the first nucleotide downstream is addressed as
@@ -49,6 +49,11 @@ later:
   Likewise, for non-coding transcripts, the first nucleotide upstream is
   addressed as `n.u1`, the first nucleotide downstream is addressed as
   `n.d1`.
+
+Note that with options **3** and **4**, intergenic positions can be
+distinghuished from exonic and intronic ones. Option **1** makes no
+distinction between exons an intergenic regions, while option **2** makes no
+distinction between introns and intergenic regions.
 
 Some examples of the different options are given below. Potential
 interpretation difficulties are highlighted in bold.
