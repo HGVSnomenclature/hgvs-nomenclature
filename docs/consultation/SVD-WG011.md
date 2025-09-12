@@ -17,28 +17,43 @@ later:
 1. Exonic numbering, i.e., relative to the start or end of the coding region.
   E.g., if the transcript starts at position `c.-100`, the first nucleotide
   upstream is addressed as `c.-101`. If the transcript ends at position
-  `c.*100`, the first nucleotide downstream is addressed as `c.*101`.
+  `c.*100`, the first nucleotide downstream is addressed as `c.*101`.  
+  Likewise, for non-coding transcripts, the first nucleotide upstream is
+  addressed as `n.-1`. If a non-coding transcript ends at position `n.100`,
+  the first nucleotide downstream is addressed as `n.101`.
+
 2. Intronic numbering, i.e., relative to the start or end of the transcript.
   E.g., if the transcript starts at position `c.-100`, the first nucleotide
   upstream is addressed as `c.-100-1`. If the transcript ends at position
-  `c.*100`, the first nucleotide downstream is addressed as `c.*100+1`.
+  `c.*100`, the first nucleotide downstream is addressed as `c.*100+1`.  
+  Likewise, for non-coding transcripts, the first nucleotide upstream is
+  addressed as `n.1-1`. If a non-coding transcript ends at position `n.100`,
+  the first nucleotide downstream is addressed as `n.100+1`.
+
 3. Intronic numbering with additional annotation. This idea was
   [proposed](https://hgvs-nomenclature.org/stable/consultation/open-issues/#numbering-gene-flanking-nucleotides)
   with the intention to easily tell intronic and intergenic regions apart.
   E.g., if the transcript starts at position `c.-100`, the first nucleotide
   upstream is addressed as `c.-100-u1`. If the transcript ends at position
-  `c.*100`, the first nucleotide downstream is addressed as `c.*100+d1`.
+  `c.*100`, the first nucleotide downstream is addressed as `c.*100+d1`.  
+  Likewise, for non-coding transcripts, the first nucleotide upstream is
+  addressed as `n.1-u1`. If a non-coding transcript ends at position `n.100`,
+  the first nucleotide downstream is addressed as `n.100+d1`.  
   Alternatively, the `u` and `d` could be replaced with one letter (an `i` for
   example) because the `+` and `-` already indicate whether a position is
   upstream or downstream.
+
 4. Pure upstream and downstream numbering. E.g., the first nucleotide upstream
   is addressed as `c.u1`, the first nucleotide downstream is addressed as
-  `c.d1`.
+  `c.d1`.  
+  Likewise, for non-coding transcripts, the first nucleotide upstream is
+  addressed as `n.u1`, the first nucleotide downstream is addressed as
+  `n.d1`.
 
 Some examples of the different options are given below. Potential
 interpretation difficulties are highlighted in bold.
  
-| Description                                                       | 1          | 2             | 3a         | 3b         | 4
+| Description (`c.` coordinates)                                    | 1          | 2             | 3a         | 3b         | 4
 |:--                                                                |:--         |:--            |:--         |:--         |:-- 
 | 10 nucleotides before the transcription start site.               | **`-110`** | **`-100-10`** | `-100-u10` | `-100-i10` | `u10`
 | 10 nucleotides after the transcription start site.                | **`-90`**  | `-90`         | `-90`      | `-90`      | `-90`
@@ -47,6 +62,14 @@ interpretation difficulties are highlighted in bold.
 | 10 nucleotides after the start of an intron in the 3' UTR.        | `*50+10`   | **`*50+10`**  | `*50+10`   | `*50+10`   | `*50+10`
 | 10 nucleotides before the transcription end                       | **`*90`**  | `*90`         | `*90`      | `*90`      | `*90`
 | 10 nucleotides after the transcription end                        | **`*110`** | **`*100+10`** | `*100+d10` | `*100+i10` | `d10`
+
+| Description (`n.` coordinates)                                    | 1          | 2             | 3a         | 3b         | 4
+|:--                                                                |:--         |:--            |:--         |:--         |:-- 
+| 10 nucleotides before the transcription start site.               | `-10`      | `1-10`        | `1-u10`    | `1-i10`    | `u10`
+| 10 nucleotides after the transcription start site.                | `10`       | `10`          | `10`       | `10`       | `10`
+| 10 nucleotides after the start of an intron.                      | `50+10`    | **`50+10`**   | `50+10`    | `50+10`    | `50+10`
+| 10 nucleotides before the transcription end                       | **`90`**   | `90`          | `90`       | `90`       | `90`
+| 10 nucleotides after the transcription end                        | **`110`**  | **`100+10`**  | `100+d10`  | `100+i10`  | `d10`
 
 Currently, the Variant Validator has no support for any of these options and
 Mutalyzer supports option 1. Both project leaders endorse options 2 and 3 and
