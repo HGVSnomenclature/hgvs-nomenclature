@@ -12,7 +12,7 @@ The named ISCN extension has been developed in collaboration with [Standing Comm
 It should be noted there is a basic difference between ISCN and HGVS: while ISCN describes the structure of the resulting chromosome(s), HGVS describes the **variant(s) detected**.
 It should be noted that the description of complex changes can become rather complicated and at some point, although literally correct, becomes effectively meaningless.
 
-The named ISCN extension has been introduced in 2016 and was modified last in May 2020.
+The named ISCN extension has been introduced in 2016 and was modified last in 2025 based on the ISCN 2024 recommendations.
 
 - only aberrant findings, linked to defined chromosomal positions, are described.
 
@@ -20,8 +20,6 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
 
 - **`X`, `Y`, `1`, `2`, `3`, ..., `21`, `22`**<br>
   changes affecting sex chromosomes (X then Y) are listed first, followed by those affecting autosomes (numbers from low to high).<br>
-  **NOTE**: changed in ISCN2020.
-  ISCN2016 had: _aberrations affecting autosomes are listed first (numbers from low to high), followed by those affecting sex chromosomes (X then Y)_.
 
 - specific symbols
     - **`pter`, `cen`, `qter`**<br>
@@ -46,11 +44,15 @@ The named ISCN extension has been introduced in 2016 and was modified last in Ma
 - in ISCN, it is allowed to describe nucleotide positions using commas to indicate thousands and millions (e.g., "108,111,982").
   In HGVS, this is not allowed.
 
+- when the chromosome structure associated with a gain is not known (e.g. insertional location), gains can be described using the copy number in square brackets ("**[ ]**") with "[2]" indicationg one additional copy, "[3]" indicating two additional copies, etc.
+
+- to indicate the sex chromosome complement, the HGVS allele format can be used, adding NC_000023.11:g.[pter_qter=] for the presence of a nromal X-chromosome and NC_000024.10:g.[pter_qter=] for the presence of a normal Y-chromosome. For variants in the pseudoautosomal regions where there is uncertainty whether the X or Y chromosome is involved the caret ("^") should be used between the two possible variants.
+
 - **3'rule**<br>
   to determine the location of the break point, the general HGVS rule of maintaining the longest unchanged sequence applies (the 3' rule).
   Break point location is determined by the first break point encountered, i.e. `pter` of the chromosome is to be listed first.
     - **pter to qter**<br>
-      multiple breakpoints in one chromosome are listed in order of occurrence from `pter` to `qter`.
+      multiple variants in one chromosome are listed in order of occurrence from `pter` to `qter`.
 
     - variant descriptions are always in the forward orientation (from `pter` to `qter`, the end of the chromosome), determined by the chromosomal origin of the intact centromere (`cen`).
 
