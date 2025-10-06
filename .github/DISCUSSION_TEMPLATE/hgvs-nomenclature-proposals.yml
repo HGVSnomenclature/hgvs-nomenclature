@@ -5,7 +5,7 @@ body:
     id: background
     attributes:
       label: Background
-      description: "What is the issue this proposal is addressing?"
+      description: "What is the issue this change request is addressing?"
     validations:
       required: true
   - type: textarea
