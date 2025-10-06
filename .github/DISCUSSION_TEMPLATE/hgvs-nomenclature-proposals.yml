@@ -12,7 +12,5 @@ body:
     id: proposal
     attributes:
       label: Proposal
-      description: |
-        Please describe specific proposed change(s) for consideration.
-        If you do not have a specific solution in mind, leave this field
-        blank.
+      description: Please describe specific proposed change(s) for consideration.
+        If you do not have a specific solution in mind, leave this field blank.
