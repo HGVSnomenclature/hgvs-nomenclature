@@ -2,7 +2,7 @@
 
 ### Proposal SVD-WG011 (RNA insertions)
 
-"Status: open"
+**Status: open**
 
     proposal SVD-WG011 opened for Community Consultation on xxxx, xxx, closing on xxx, xxx.
 
