@@ -29,7 +29,7 @@ on RNA level, variant NM_004006.3:c.5448+67A>G gives the insertion of intronic n
 
 - **`r.1704_1705ins[GA;c.1704+3_1704+11]`**<br>
 on RNA level, variant NM_004006.3:c.1704+2T>A gives the insertion of nucleotides **"GA"** and **"c.1704+3 to c.1704+11"** between nucleotides r.1704 and r.1705.<br>
-**NOTE:** since HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like NC_000023.11:g.32573743A>T NM_004006.3:c.1704+2T>A r.5448_5449ins[c.5448+1_5448+66]
+**NOTE:** since HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like NC_000023.11:g.32573743A>T NM_004006.3:c.1704+2T>A r.5448_5449ins[c.5448+1_5448+66]<br>
 **NOTE:** since nucleotide c.1704+2 changes from T to A the insertion **can not** be described as r.1704_1705ins[c.1704+1_1704+11]
 
 - **`r.94_264delins[NC_000008.10:g.16369356_16369419inv]`**<br>
