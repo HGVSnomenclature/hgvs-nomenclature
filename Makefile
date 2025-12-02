@@ -21,8 +21,11 @@ setup:
 update-release-notes:
 	python simple_hooks/generate_release_notes.py
 
-build serve: %:
+build: %:
 	mkdocs $@
+
+serve: %:
+	mkdocs $@ --livereload
 
 sitemap.xml: site/sitemap.xml
 	cp $< $@
