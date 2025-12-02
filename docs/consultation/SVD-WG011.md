@@ -32,6 +32,11 @@ on RNA level, variant NM_004006.3:c.1704+2T>A gives the insertion of nucleotides
 **NOTE:** since HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like NC_000023.11:g.32573743A>T NM_004006.3:c.1704+2T>A r.5448_5449ins[c.5448+1_5448+66]<br>
 **NOTE:** since nucleotide c.1704+2 changes from T to A the insertion **can not** be described as r.1704_1705ins[c.1704+1_1704+11]
 
+- **`r.8668_8669ins[c.8669-68_8669-25;c.8669-18_8669-1]`**<br>
+on RNA level, variant NM_004006.3:c.8669-24_8669-19del gives the insertion of nucleotides **"c.8669-68 to c.8669-25"** and **"c.8669-18 to c.8669-1"** between nucleotides r.8668 and r.8669.<br>
+**NOTE:** since HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like NC_000023.11:g.31478393_31478398del NM_004006.3:c.8669-24_8669-19del r.8668_8669ins[c.8869-68_8869-25;c.8869-18_8869-1]<br>
+**NOTE:** since nucleotides c.8669-24 to c.8669-19 are deleted, the insertion **can not** be described as r.8668_8669ins[c.8669-68_8669-1]
+
 - **`r.94_264delins[NC_000008.10:g.16369356_16369419inv]`**<br>
 on RNA level, a DNA variant gives the deletion of nucleotides **r.94 to r.264**, being replaced with the insertion, in an inverted orientation, of nucleotides **NC_000008.11:g.16511847to g.165119109** from chromosome 8.<br>
 **NOTE:** since HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like NC_000023.11:g.32854892_32854897delins[CCA;NC_000008.11:g.16489201_16564934] NM_004006.3:c.94-5077_94-5072delins[NC_000008.10:g.16346710_16422443inv;TGG]  	r.94_264delins[NC_000008.11:g.16511847_16511910inv]
