@@ -22,15 +22,15 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome P
 | :----------------------------|:--------------------------------------------------------------------| :---------: |
 | Gwendolyn Bennett            | Quest Diagnostics, United States                                    | 2024 - 2028 |
 | Johan den Dunnen (chair)     | Leiden University Medical Center, Nederland                         | 2013 - .... |
-| Marina DiStefano             | Broad Clinical Labs, United States                                  | 2022 - 2025 |
+| Marina DiStefano             | Broad Clinical Labs, United States                                  | 2022 - 2026 |
 | Ivo Fokkema                  | Leiden University Medical Center, Nederland                         | 2023 - 2026 |
 | Ros Hastings ([ISCN representative](consultation/ISCN.md)) | Oxford University, United Kingdom     | 2021 - .... |
 | Timothy Hefferon             | National Center for Biotechnology Information (NCBI), United States | 2024 - 2028 |
 | Jeroen Laros                 | National Institute for Public Health and the Environment (RIVM), Leiden University Medical Center (LUMC), the Nederlands | 2022 - 2025 |
 | Hencher Lee                  | Princess Margaret Hospital, Hong Kong                               | 2024 - 2028 |
 | Matthew Stachowiak           | GenomOncology, United States                                        | 2024 - 2028 |
-| Rachel Taylor                | University of Manchester, United Kingdom                            | 2022 - 2025 |
-| Alex Wagner                  | Nationwide Childrens Hospital, US                                   | 2022 - 2025 |
+| Rachel Taylor                | University of Manchester, United Kingdom                            | 2022 - 2026 |
+| Alex Wagner                  | Nationwide Childrens Hospital, US                                   | 2022 - 2026 |
 
 ## past HVNC members
 
