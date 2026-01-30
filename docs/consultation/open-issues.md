@@ -13,7 +13,7 @@
 
 For closed topics, see [below](#closedtopics).
 
-## Introduction
+### Introduction
 
 At the time the first HGVS recommendations for the description of variants were made, "history" had a large impact.
 History, meaning, the format proposed was heavily influenced by the formats already in use to describe variants.

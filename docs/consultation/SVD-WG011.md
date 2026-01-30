@@ -2,6 +2,10 @@
 
 ### Proposal SVD-WG011 (RNA insertions)
 
+<!-- !!! note "Status: open" -->
+<!-- !!! warning "Status: decision pending" -->
+<!-- !!! failure "Status: rejected" -->
+<!-- !!! success "Status: accepted" -->
 !!! note "Status: open"
 
     proposal SVD-WG011 opened for Community Consultation on xxxx, xxx, closing on xxx, xxx.
@@ -13,6 +17,7 @@ The proposal suggests to specify the HGVS nomenclature recommendations for the d
 
 As the `r.` prefix refers to mature (coding/non-coding) RNA molecules, descriptions using the `r.` prefix can not refer to intronic nucleotide positions.
 Therefore, variant descriptions like `NC_000023.10(NM_004006.3):r.5448_5449ins5448+1_5448+66` are actually invalid.
+Furthermore, `r.5448_5449` would not be referring to adjacent nucleotides if `r.` descriptions would allow intronic positions.
 
 **Proposal**
 
