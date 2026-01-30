@@ -1,10 +1,10 @@
 ## Community Consultation
 
-### NOTE
+!!! warning "Note"
 
-The proposal below is the original proposal as published first on November 10, 2015.
-The proposal is **not updated** and does not include changes made after acceptance of the proposal.
-To see the current recommendations, please check [Complex (HGVS/ISCN)](../recommendations/DNA/complex.md).
+    The proposal below is the original proposal as published first on November 10, 2015.
+    The proposal is **not updated** and does not include changes made after acceptance of the proposal.
+    To see the current recommendations, please check [Complex (HGVS/ISCN)](../recommendations/DNA/complex.md).
 
 ### Proposal SVD-WG004 (ISCN<>HGVS)
 
