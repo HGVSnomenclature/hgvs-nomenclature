@@ -120,18 +120,17 @@ above.
 Change the negative examples into positive ones.
 
 > Genomic deletions extending 5' of a transcript can additionally be described
-> like `NC_000023.11(NM_004006.2):c.(u?_-244)_(31+1_32-1)del` (`c.-244` is the
+> like `NC_000023.11:g.(33020201_33211281)_(33211556_?)del` `NM_004006.2:c.(u?_-244)_(31+1_32-1)del` (`c.-244` is the
 > first nucleotide of `NM_004006.2`). Deletions extending 3' of a transcript
 > can be described like
-> `NC_000023.11(NM_004006.2):c.(10086+1_10087-1)_(*2691_d?)del` (`c.*2691` is
+> `NC_000023.11:g.(?_31119228)_(31178806_31180369)del` `NM_004006.2:c.(10086+1_10087-1)_(*2691_d?)del` (`c.*2691` is
 > the last nucleotide of `NM_004006.2`).
 
 [Deletions of genes](https://hgvs-nomenclature.org/stable/recommendations/DNA/deletion/#examples):
 
 Add a gene deletion example.
 
-> `NC_000023.11:g.31118229_33212557del` or
-> `NC_000023.11(NM_004006.2):c.u1000_d1000del`: a deletion of the entire *DMD*
+> `NC_000023.11:g.31118229_33212557del` `NM_004006.2:c.u1000_d1000del`: a deletion of the entire *DMD*
 > gene, where the deletion starts 1000 nucleotides before the transcription
 > start site and ends 1000 nucleotides after the end of the transcript.
 
@@ -140,24 +139,23 @@ Add a gene deletion example.
 Change the negative examples into positive ones.
 
 > Genomic duplications extending 5' of a transcript can additionally be
-> described like `NC_000023.11(NM_004006.2):c.(u?_-244)_(31+1_32-1)dup`
+> described like `NC_000023.11:g.(33020201_33211281)_(33211556_?)dup` `NM_004006.2):c.(u?_-244)_(31+1_32-1)dup`
 > (`c.-244` is the first nucleotide of `NM_004006.2`). Duplications extending
 > 3' of a transcript can be described like
-> `NC_000023.11(NM_004006.2):c.(10086+1_10087-1)_(*2691_d?)dup` (`c.*2691` is
+> `NC_000023.11:g.(?_31119228)_(31178806_31180369)dup` `NM_004006.2:c.(10086+1_10087-1)_(*2691_d?)dup` (`c.*2691` is
 > the last nucleotide of `NM_004006.2`).
 
 [Duplication of genes](https://hgvs-nomenclature.org/stable/recommendations/DNA/duplication/#examples)
 
 Add a gene duplication example.
 
-> `NC_000023.11:g.31118229_33212557dup` or
-> `NC_000023.11(NM_004006.2):c.u1000_d1000dup`: a duplication of the entire
+> `NC_000023.11:g.31118229_33212557dup` `NM_004006.2:c.u1000_d1000dup`: a duplication of the entire
 > *DMD* gene, including 1000 upstream and downstream nucleotides.
 
 Remove the line:
 
 > Describing the duplication based on a coding DNA reference sequence using
-> `NC_000023.11(NM_004006.2):c.(-205839_-62966)_(*21568_*61692)dup` makes no
+> `NC_000023.11g.(33274278_33417151)_(31060227_31100351)dup` `NM_004006.2:c.(-205839_-62966)_(*21568_*61692)dup` makes no
 > sense."
 
 [How should I describe a variant in the promoter region of a gene?](https://hgvs-nomenclature.org/stable/recommendations/DNA/substitution/#discussion)
@@ -165,5 +163,4 @@ Remove the line:
 Change the (already positive) example.
 
 > [...] However, when using a genomic reference sequence, this variant can be
-> described as `NC_000023.10(NM_004006.2):c.u128110C>T` or
-> `NC_000023.10(NM_000109.4):c.u278C>T`. [...]
+> described as `NC_000023.10:c.u128110C>T` `NM_000109.4:c.u278C>T`. [...]
