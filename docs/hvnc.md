@@ -18,8 +18,8 @@ The mission of the HVNC is to define the standard for the unambiguous descriptio
 
 The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome Project (HVP).
 
-| Name                                                       | Institution                                                                                                              |    Term     |
-|:-----------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|:-----------:|
+| Name                                                       | Institution                                                                                                              | Term        |
+|:-----------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|:------------|
 | Gwendolyn Bennett                                          | Quest Diagnostics, United States                                                                                         | 2024 - 2028 |
 | Laura Conlin ([ISCN representative](consultation/ISCN.md)) | University of Pennsylvania, United States                                                                                | 2026 - .... |
 | Johan den Dunnen (co-chair)                                | Leiden University Medical Center, Nederland                                                                              | 2013 - .... |
