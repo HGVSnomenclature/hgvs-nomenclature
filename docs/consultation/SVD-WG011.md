@@ -43,6 +43,6 @@ on RNA level, variant `NC_000023.11(NM_004006.3):c.8669-24_8669-19del` gives the
 **NOTE:** since the HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like `NC_000023.11:g.31478393_31478398del` &nbsp; `NC_000023.11(NM_004006.3):c.8669-24_8669-19del` &nbsp; `r.8668_8669ins[c.8869-68_8869-25;c.8869-18_8869-1]`.<br>
 **NOTE:** since nucleotides `c.8669-24` to `c.8669-19` are deleted, the insertion **can not** be described as `r.8668_8669ins[c.8669-68_8669-1]`.
 
-- **`r.94_264delins[NC_000008.11:g.16511847_165119109inv]`**<br>
-on RNA level, a DNA variant gives the deletion of nucleotides **`r.94` to `r.264`**, being replaced with the insertion, in an inverted orientation, of nucleotides **`NC_000008.11:g.16511847` to `g.165119109`** from chromosome 8.<br>
+- **`r.94_264delins[NC_000008.11:g.16511847_16511910inv]`**<br>
+on RNA level, a DNA variant gives the deletion of nucleotides **`r.94` to `r.264`**, being replaced with the insertion, in an inverted orientation, of nucleotides **`NC_000008.11:g.16511847` to `g.16511910`** from chromosome 8.<br>
 **NOTE:** since the HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like `NC_000023.11:g.32854892_32854897delins[CCA;NC_000008.11:g.16489201_16564934]` &nbsp; `NC_000023.11(NM_004006.3):c.94-5077_94-5072delins[NC_000008.11:g.16489201_16564934inv;TGG]` &nbsp; `r.94_264delins[NC_000008.11:g.16511847_16511910inv]`.
