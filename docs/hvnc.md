@@ -18,22 +18,23 @@ The mission of the HVNC is to define the standard for the unambiguous descriptio
 
 The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome Project (HVP).
 
-| Name                         | Institution                                                         |    Term     |
-| :----------------------------|:--------------------------------------------------------------------| :---------: |
-| Gwendolyn Bennett            | Quest Diagnostics, United States                                    | 2024 - 2028 |
-| Johan den Dunnen (chair)     | Leiden University Medical Center, Nederland                         | 2013 - .... |
-| Marina DiStefano             | Broad Clinical Labs, United States                                  | 2022 - 2025 |
-| Ivo Fokkema                  | Leiden University Medical Center, Nederland                         | 2023 - 2026 |
-| Ros Hastings ([ISCN representative](consultation/ISCN.md)) | Oxford University, United Kingdom     | 2021 - .... |
-| Timothy Hefferon             | National Center for Biotechnology Information (NCBI), United States | 2024 - 2028 |
-| Jeroen Laros                 | National Institute for Public Health and the Environment (RIVM), Leiden University Medical Center (LUMC), the Nederlands | 2022 - 2025 |
-| Hencher Lee                  | Princess Margaret Hospital, Hong Kong                               | 2024 - 2028 |
-| Matthew Stachowiak           | GenomOncology, United States                                        | 2024 - 2028 |
-| Rachel Taylor                | University of Manchester, United Kingdom                            | 2022 - 2025 |
-| Alex Wagner                  | Nationwide Childrens Hospital, US                                   | 2022 - 2025 |
+| Name                                                       | Institution                                                                                                              | Term        |
+|:-----------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|:------------|
+| Gwendolyn Bennett                                          | Quest Diagnostics, United States                                                                                         | 2024 - 2028 |
+| Laura Conlin ([ISCN representative](consultation/ISCN.md)) | University of Pennsylvania, United States                                                                                | 2026 - .... |
+| Johan den Dunnen (co-chair, term ends 2030)                | Leiden University Medical Center, Nederland                                                                              | 2013 - 2030 |
+| Marina DiStefano                                           | Broad Clinical Labs, United States                                                                                       | 2022 - 2026 |
+| Ivo Fokkema                                                | Leiden University Medical Center, the Netherlands                                                                        | 2023 - 2026 |
+| Timothy Hefferon                                           | National Center for Biotechnology Information (NCBI), United States                                                      | 2024 - 2028 |
+| Jeroen Laros                                               | National Institute for Public Health and the Environment (RIVM), Leiden University Medical Center (LUMC), the Nederlands | 2022 - 2025 |
+| Hencher Lee                                                | Princess Margaret Hospital, Hong Kong                                                                                    | 2024 - 2028 |
+| Matthew Stachowiak                                         | GenomOncology, United States                                                                                             | 2024 - 2028 |
+| Alex Wagner (co-chair, term ends 2028)                     | Nationwide Childrens Hospital, US                                                                                        | 2022 - 2030 |
 
 ## past HVNC members
 
+- 2021 - 2026 : Ros Hastings (ISCN representative, United Kingdom)
+- 2022 - 2025 : Rachel Taylor (United Kingdom)
 - 2013 - 2024 : Reece Hart (United States)
 - 2018 - 2024 : Peter Freeman (United Kingdom)
 - 2021 - 2024 : Terence Murphy (United States)
