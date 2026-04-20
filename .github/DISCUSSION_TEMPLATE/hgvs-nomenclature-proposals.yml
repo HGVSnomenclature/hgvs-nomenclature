@@ -1,0 +1,24 @@
+title: "[Proposal] "
+labels: ["HGVS Nomenclature Change Proposal"]
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Please provide background information about the issue necessitating
+        a change to the HGVS Nomenclature.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Please describe specific proposed change(s) for consideration.
+        If you do not have a specific solution in mind, leave this field blank.
+  - type: textarea
+    id: questions
+    attributes:
+      label: Community questions
+      description: Please list any questions you want the committee and/or broader
+        community to address in the course of evaluating this change request.
+        If you do not have a specific questions in mind, leave this field blank.
