@@ -69,7 +69,7 @@ HGVS, therefore, recommends to describe translocations exclusively using a "deli
           _(involving short arms chromosomes 2 and 11)_
             - **`NC_000002.12:g.pter_8247756delins[NC_000011.10:g.pter_15825272]`**<br>
               **`NC_000011.10:g.pter_5825272delins[NC_000002.12:g.pter_8247756]`**<br>
-              **NOTE**: corrected for `NC_000002.12:g.pter_8247756::NC_000011.10:g.15825273_cen_qter` and `NC_000011.10:g.pter_15825272::NC_000002.12:g.8247757_cen_qter` in ISCN2016.
+              **NOTE**: corrected for <code class="invalid">NC_000002.12:g.pter_8247756::NC_000011.10:g.15825273_cen_qter</code> and <code class="invalid">NC_000011.10:g.pter_15825272::NC_000002.12:g.8247757_cen_qter</code> in ISCN2016.
 
             - **ISCN**<br>
               `chr2:g.pter_8,247,756::chr11:g.15,825,273_cen_qter` (der11) and `chr11:g.pter_15,825,272::chr2:g.8,247,757_cen_qter` (der2).
