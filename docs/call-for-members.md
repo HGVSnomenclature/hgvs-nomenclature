@@ -3,7 +3,7 @@
 **Application due date: June 1, 2026**
 
 The HGVS Variant Nomenclature Committee (HVNC), one of HUGO's Nomenclature
-Standards Committees, is looking for one new member for the 2026-2030 term. The
+Standards Committees, is looking for new members for the 2026-2030 term. The
 main activity of the committee is the "HGVS nomenclature", the standard for the
 unambiguous description of all sequence variants at the DNA, RNA and protein level
 (see [www.HGVS-nomenclature.org](https://hgvs-nomenclature.org)). The committee's
