@@ -91,8 +91,6 @@ theme:
   logo: images/hgvs-logo.png
   favicon: images/hgvs-logo.png
 
-exclude_docs: |
-  /call-for-members.md
 
 watch:
   - bin
