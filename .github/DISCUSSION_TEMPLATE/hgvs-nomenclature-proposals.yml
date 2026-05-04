@@ -1,6 +1,23 @@
 title: "[Proposal] "
 labels: ["HGVS Nomenclature Change Proposal"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## HGVS Proposal Template
+        Describe your proposal to update HGVS Nomenclature below. Figures are encouraged and may be pasted inline into text fields below. For an explanation of the review process and criteria, see [Community Consultation](https://hgvs-nomenclature.org/stable/consultation/).
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category of change
+      description: Please select the category that best describes the proposed change.
+      options:
+        - Removal, restriction, or modification of existing functionality
+        - Extension to support new functionality (without loss of functionality elsewhere)
+        - Clarification of existing support
+        - Other (please specify in background)
+    validations:
+      required: true
   - type: textarea
     id: background
     attributes:
@@ -22,3 +39,4 @@ body:
       description: Please list any questions you want the committee and/or broader
         community to address in the course of evaluating this change request.
         If you do not have a specific questions in mind, leave this field blank.
+  
