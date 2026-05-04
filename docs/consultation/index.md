@@ -9,11 +9,14 @@ Proposed and implemented changes will be discussed using our [GitHub Discussions
 - Anyone may submit a proposal for changes to Discussions.
   The proposal is initially considered OPEN and under discussion.
 - Anyone may comment on an OPEN proposal.
-- The HVNC will evaluate all proposals from time to time.
+- The HVNC will (re)evaluate all open proposals at least once every 6 months.
   For each proposal, the committee may choose to:
     - leave the proposal OPEN for further discussion;
     - mark the proposal as REJECTED with explanation if the proposal is deemed unworkable, incomplete, or inconsistent with the existing guidelines, or if it is similar to existing or recently considered proposals; or
     - move the proposal to DRAFTING to indicate that a member of the HVNC will undertake drafting of the changes.
+  For each proposal discussion, the committee will:
+    - Provide a summary of discussion on the proposal following the meeting in which it was discussed
+    - Provide a notice of anticipated next steps and timeframe
 - When a proposal is in the DRAFTING stage, a GitHub issue is created to track writing for the intended documentation change.
   Writing will be undertaken in a branch dedicated for the assigned issue.
   A pull request will eventually be submitted and evaluated.
