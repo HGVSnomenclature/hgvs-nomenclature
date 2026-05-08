@@ -7,9 +7,10 @@ Standards Committees, is looking for new members for the 2026-2030 term. The
 main activity of the committee is the "HGVS nomenclature", the standard for the
 unambiguous description of all sequence variants at the DNA, RNA and protein level
 (see [www.HGVS-nomenclature.org](https://hgvs-nomenclature.org)). The committee's
-Terms of Reference can be found on the HUGO website
-([www.hugo-international.org/standards/](https://www.hugo-international.org/standards/)),
-as well as the HVNC's annual activity reports which were also published in the HUGO
+[Terms of Reference](https://www.hugo-international.org/wp-content/uploads/2025/12/HVNC_TermsofReference-202504.pdf) 
+are hosted on the HUGO website at the bottom of the
+([standards page](https://www.hugo-international.org/standards/)). HUGO also
+maintains the HVNC's annual activity reports which were also published in the HUGO
 newsletter.
 
 Interested in the work of the HVNC? Willing to spend some spare time and join the
