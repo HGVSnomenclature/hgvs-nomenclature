@@ -30,7 +30,7 @@ Proposed and implemented changes will be discussed using our [GitHub Discussions
 
 - **[SVD-WG011](SVD-WG011.md) (RNA insertions)**<br>
   suggests to specify the HGVS nomenclature recommendations for the description of variants on the RNA level, more specifically the insertion of intron sequences.<br>
-  **Status: open.** Opened May 1st, 2026. Closing August 1st, 2026.
+  **Status: open.** Opened May 11th, 2026. Closing August 11th, 2026.
 
 ### Closed
 
