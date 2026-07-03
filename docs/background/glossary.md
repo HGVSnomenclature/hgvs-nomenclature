@@ -282,7 +282,7 @@ If you encounter missing terms or want to suggest definitions, please let us kno
   a nucleotide variant changing a purine nucleotide to another purine nucleotide (`A` < > `G`), or a pyrimidine nucleotide to another pyrimidine nucleotide (`C` < > `T`).
 
 - **translocation**
-    - **HGVS** (DNA): a sequence change where, compared to a reference sequence, from a specific nucleotide position (the break point), all nucleotides upstream derive from another chromosome then those downstream.<br>
+    - **HGVS** (DNA): a sequence change where, compared to a reference sequence, from a specific nucleotide position (the break point), all nucleotides upstream derive from another chromosome than those downstream.<br>
       **NOTE**: a translocation occurs when two chromosomes break and the fragments rejoin with the non-homologous chromosome.
       A full description of a (reciprocal) translocation consists of 2 parts, one describing the first junction, the second describing the other junction (e.g., the chromosome 4;X junction and the chromosome X;4 junction).
     - [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=translocation): a chromosome abnormality characterized by chromosome breakage and transfer of the broken-off portion to a non-homologous chromosome.

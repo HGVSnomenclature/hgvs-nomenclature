@@ -22,7 +22,7 @@ Substitution (`>`) might be added because of its simplicity and long history, al
 Variant types like "inversion" (`inv`) and "duplication" (`dup`) might well be left out, they can be described as a "delins".
 The same holds true for "conversions" (`con`), a variant type that was discontinued from HGVS recommendations a few years ago (see [SVD-WG009](SVD-WG009.md)).
 
-Basically, these variant types refer to the (expected) biological process generating the variant, e.g., inserting a copy of segment of DNA (duplication), turning around a segment of DNA (inversion), or replacing a segment of DNA with a copy of a segment from elsewhere (conversion).
+Basically, these variant types refer to the (expected) biological process generating the variant, e.g., inserting a copy of a segment of DNA (duplication), turning around a segment of DNA (inversion), or replacing a segment of DNA with a copy of a segment from elsewhere (conversion).
 The number of nucleotides involved in such cases is usually large, i.e. several hundred nucleotides or more.
 However, for overall consistency within the recommendations, the formats for description are general, irrespective of the length of the variant.
 Duplications can be as short as one nucleotide and inversions as small as two (prioritisation determines one-nucleotide inversions are described as substitution), although for these variants, a link with the biological process generating them is unlikely.
@@ -84,7 +84,7 @@ This is undesired; HGVS recommendations should be extended by specifying when to
 The repeated sequence format is part of the HGVS recommendations to describe variants in the number of units of a repeated sequence.
 The format is especially used to describe variants in so-called tri-nucleotide repeat expansion disorders, like Huntington's disease, Fragile-X syndrome, etc.
 The format recommended was based on the format used before the HGVS recommendations were first proposed.
-The basic format is: `g.123_191CAG[25]`, i.e. describing the range of the segment in the reference sequence containing the repeat sequence (`g.123` to `g.191`), describing the repeat unit (`CAG`), and the number of repeat unit identified in the sample analysed (`[25]`).
+The basic format is: `g.123_191CAG[25]`, i.e. describing the range of the segment in the reference sequence containing the repeat sequence (`g.123` to `g.191`), describing the repeat unit (`CAG`), and the number of repeat units identified in the sample analysed (`[25]`).
 
 The format overlaps with the format to describe deletions and duplications/insertions.
 This means that e.g., both `g.186_191del` and `g.123_191CAG[21]` are correct following current HGVS recommendations.
@@ -122,7 +122,7 @@ Using `p.Met1ext5` (now `p.Met1ext-5`) and `p.*110Glnext17` (now `p.*110Glnext*1
 ### Modifications
 
 August 24, 2011; J.T. den Dunnen: HGVS nomenclature does currently not have recommendations for the descriptions of modifications of DNA, RNA, or protein molecules.
-The most pressing need for a recommendation is are DNA methylation and RNA editing.
+The most pressing needs for recommendations are DNA methylation and RNA editing.
 Proposal [SVD-WG005 (gom/lom)](SVD-WG005.md) makes a start to get recommendations on this topic.
 SVD-WG005 introduces the use of the `|` character ("pipe") to indicate that not a direct change of the sequence is described but a modification (change of state).
 
@@ -141,7 +141,7 @@ The same format could be used to specify the fraction of the different RNA molec
 #### RNA editing
 
 Addition of RNA editing data to a DNA variant database seems a sensible thing to do.
-An RNA-based sequencing study might reveal an interesting variant which, when checked in the database, is no listed (since RNA editing data is not recorded).
+An RNA-based sequencing study might reveal an interesting variant which, when checked in the database, is not listed (since RNA editing data is not recorded).
 This will trigger a DNA sequencing experiment, trying to confirm the variant, which will fail since the variant is not present on the DNA level and valuable resources are spoiled.
 
 The suggestion is to describe RNA editing using "**|@**";
@@ -171,7 +171,7 @@ Approval of proposal [SVD-WG001](SVD-WG001.md) more or less opened the option fo
 ### Exon Numbering
 
 HGVS nomenclature does not give specific recommendations for the **numbering of exons**.
-For variant descriptions, exon numbers are not required; **nucleotide position are sufficient**.
+For variant descriptions, exon numbers are not required; **nucleotide positions are sufficient**.
 In many genes, there is no consensus on exon/intron numbering and several old numbering schemes may exist that had to be revised to include newly discovered exons (internal as well as 5' and/or 3' of the gene).
 This led to all kinds of numbering schemes with no clear structure, making it very difficult for non-experts on the specific gene to keep track of all details (see also [Dalgleish 2010](http://www.genomemedicine.com/content/pdf/gm145.pdf) and [NCBI RefSeqGene](http://www.ncbi.nlm.nih.gov/refseq/rsg/faq/#exon)).
 To prevent confusion, and with the increasing use of genome browsers, numbering exons simply as 1, 2, 3, etc., from start to the end is the only logical option.

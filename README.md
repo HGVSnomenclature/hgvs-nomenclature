@@ -13,7 +13,7 @@ The [code repository](https://github.com/HGVSnomenclature/hgvs-nomenclature/) fr
 
 ## Contributing
 
-The HGVS Nomenclature pages are written in Markdown and formatted into static HTML using mkdocs. This process is easily setup locally for real-time visualization of edits, and it is also implemented on readthedocs.com, where the pages are hosted.
+The HGVS Nomenclature pages are written in Markdown and formatted into static HTML using mkdocs. This process is easily set up locally for real-time visualization of edits, and it is also implemented on readthedocs.com, where the pages are hosted.
 
 ### Setting Up
 

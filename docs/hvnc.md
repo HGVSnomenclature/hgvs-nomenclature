@@ -29,7 +29,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome P
 | Jeroen Laros                                               | National Institute for Public Health and the Environment (RIVM), Leiden University Medical Center (LUMC), the Nederlands | 2022 - 2025 |
 | Hencher Lee                                                | Princess Margaret Hospital, Hong Kong                                                                                    | 2024 - 2028 |
 | Matthew Stachowiak                                         | GenomOncology, United States                                                                                             | 2024 - 2028 |
-| Alex Wagner (co-chair, term ends 2028)                     | Nationwide Childrens Hospital, US                                                                                        | 2022 - 2030 |
+| Alex Wagner (co-chair, term ends 2028)                     | Nationwide Children's Hospital, US                                                                                        | 2022 - 2030 |
 
 ## past HVNC members
 

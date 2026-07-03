@@ -79,7 +79,7 @@ amino acid numbering is `p.1`, `p.2`, `p.3`, ..., etc., from the first to the la
     - descriptions give some idea about where the variant is located regarding the encoded gene product (RNA and protein).
         - **c.78T>C is a variant in a protein coding sequence**<br>
           since nucleotide `c.78` has no signs attached and is not followed by a `+` or `-` and a second number, it is located in the protein coding part of the gene.<br>
-          **NOTE**: this rules does not hold for alternative transcripts where exons might reside 5' of the translation initiation side, in an intron or 3' of the 3'-terminal exon.<br>
+          **NOTE**: this rule does not hold for alternative transcripts where exons might reside 5' of the translation initiation side, in an intron or 3' of the 3'-terminal exon.<br>
           **NOTE**: dividing the nucleotide number by 3 gives the number of the amino acid residue affected; in the example, amino acid 26 (**78:3 = 26**).
         - **c.<code class="spot1">-</code>78G>A is a variant upstream (5') of the translation initiation site**<br>
           since nucleotide `c.-78` has a `-` prefix, it is located 5' of the `ATG` translation initiation codon.<br>
@@ -146,7 +146,7 @@ amino acid numbering is `p.1`, `p.2`, `p.3`, ..., etc., from the first to the la
 
     If no database file is available that contains the complete genomic sequence, such a file should be constructed and submitted to the database.
     For unsequenced sections in the introns, `N`s can be used to fill gaps (the number of `N`s included can be used to get the intron to the estimated size).
-    The accession number (with version number) of the submitted file can than be used as a genomic reference sequence.
+    The accession number (with version number) of the submitted file can then be used as a genomic reference sequence.
 
 ## Figure
 

@@ -9,7 +9,7 @@
 
     - SVD-WG006 (_circular DNA_): allows descriptions like `o.16000_100del`.
     - SVD-WG005 (_gom/lom_): allows descriptions of changes in general methylation status, like `g.123_456|lom`.
-    - <a id="SVD-WG004"></a> **Named extension ISCN**: Proposal [SVD-WG004](../consultation/SVD-WG004.md) (ISCN<>HGVS) has been accepted a "named extension ISCN".
+    - <a id="SVD-WG004"></a> **Named extension ISCN**: Proposal [SVD-WG004](../consultation/SVD-WG004.md) (ISCN<>HGVS) has been accepted as a "named extension ISCN".
 
 - **Version 15.11**<br>
   Accepted proposals include [SVD-WG001](../consultation/SVD-WG001.md) and [SVD-WG002](../consultation/SVD-WG002.md):
