@@ -81,7 +81,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.sub
     - **`LRG_199p1:p.Trp24=/Cys`**<br>
       a mosaic case where at amino acid position `24`, besides the normal amino acid (a `Trp`, described as `=`), also protein is found containing a `Cys` (`p.Trp24Cys`).<br>
       **NOTE**: irrespective of the frequency in which each amino acid was found, the reference is always described first.<br>
-      **NOTE**: for the predicted consequences of a variant, the description is `LRG_199t1:p.(Trp24=/Cys)`.
+      **NOTE**: for the predicted consequences of a variant, the description is `LRG_199p1:p.(Trp24=/Cys)`.
 
 ## Discussion
 

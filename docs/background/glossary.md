@@ -237,7 +237,7 @@ If you encounter missing terms or want to suggest definitions, please let us kno
   **HGVS** (DNA, RNA, protein): a sequence where, compared to a reference sequence, a segment of one or more nucleotides or amino acids (the repeat unit) is present several times, one after the other.
 
 - **silent**<br>
-  **HGVS**: an amino acid in a protein sequence where, compared to the reference sequence, the DNA sequence changed but not the encoded amino acid.<br>
+  **HGVS**: a variant where, compared to the reference sequence, the DNA sequence changed but not the encoded amino acid.<br>
   [MESH](https://www.ncbi.nlm.nih.gov/mesh/?term=silent): a variant in a DNA sequence that does not change the amino acid sequence of the encoded protein.
 
 - **SNP**<br>
