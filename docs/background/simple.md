@@ -12,10 +12,10 @@ More details, on all subjects, are available elsewhere on the HGVS nomenclature 
 
 The format of a complete variant description is **"reference : description"** (spaces added for clarity only), e.g.;
 
-- `NM_004006.2:c.4375C>T`
+- `NM_004006.3:c.4375C>T`
 - `NC_000023.11:g.32389644G>A`
 
-All variants are described in relation to a reference, the **reference sequence**; in the examples above, **NM_004006.3** ([from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NM_004006.3)) and **NC_000023.11** ([from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NC_000023.1)).
+All variants are described in relation to a reference, the **reference sequence**; in the examples above, **NM_004006.3** ([from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NM_004006.3)) and **NC_000023.11** ([from the GenBank database](https://www.ncbi.nlm.nih.gov/nucleotide/NC_000023.11)).
 After the reference, a description of the variant is given; in the examples above, **c.4375C>T** and **g.32389644G>A**.
 
 A description without a reference sequence is near useless.
@@ -43,7 +43,7 @@ In rare cases, not following current standards, only the predicted consequences 
 Some variants have an effect on how the transcript (RNA) is generated, and consequently, on its translation into protein.
 When only DNA has been analysed, the consequences of the variant on the RNA and the protein level can only be predicted.
 The HGVS nomenclature demands predicted consequences have to be **reported in parentheses**.
-The predicted consequence of the variant `NM_004006.2:c.4375C>T` on the protein level is described as `p.(Arg1459Ter)`.
+The predicted consequence of the variant `NM_004006.3:c.4375C>T` on the protein level is described as `p.(Arg1459Ter)`.
 The "()" warn the variant described is a predicted consequence only.
 
 ## Reference sequences
@@ -73,7 +73,7 @@ For details, see ["Reference Sequences"](refseq.md).
         - `LRG_199:g.954966C>T`
 - transcript (RNA, nucleotide)
     - `NM_`: a reference sequence based on a protein coding RNA (mRNA)
-        - `NM_004006.2:c.4375C>T`
+        - `NM_004006.3:c.4375C>T`
     - `NR_`: a reference sequence based on a non-protein coding RNA
         - `NR_002196.1:n.601G>T`
 - protein (amino acid)
@@ -108,7 +108,7 @@ When you divide the position number from a "c." description by three, you get th
 **NOTE**: positions before the protein coding region get a hyphen-minus sign (e.g., **"c.-26"**), those after the translation stop an asterisk (e.g., `c.*85`).
 Numbering in intronic sequences has a format like `c.530+6` or `c.531-23`.
 For details, see ["Reference Sequences"](refseq.md).
-The most frequently used coding DNA reference sequences are the NMs (RefSeq gene transcript sequences, e.g., `NM_004006.2`) and LRGs (Locus Genomic Reference sequences, e.g., `LRG_199t1`).
+The most frequently used coding DNA reference sequences are the NMs (RefSeq gene transcript sequences, e.g., `NM_004006.3`) and LRGs (Locus Genomic Reference sequences, e.g., `LRG_199t1`).
 
 ## Variants
 

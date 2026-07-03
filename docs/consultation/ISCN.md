@@ -22,8 +22,8 @@ Questions/suggestions regarding the ISCN recommendations should be addressed to 
 
 - **ISCN2016 committee**<br>
   _Chair:_ Jean McGowan-Jordan (Ottawa, Canada)<br>
-  _Members:_ Jaclyn Biegel (Philadelphia, USA), Myriam Chaabouni (Tunis, Tunisia), Johan T den Dunnen (Leiden, Nederland), Jin-Yeong Han (Busan, South Korea), Nils Mandahl (Lund, Sweden), Kathleen W Rao (Chapel Hill, USA), Annet Simons (Nijmegen, Nederland).: _Advisors:_ Cynthia C Morton (Boston, USA), Michael Schmid (Wurzburg, Germany)
+  _Members:_ Jaclyn Biegel (Philadelphia, USA), Myriam Chaabouni (Tunis, Tunisia), Johan T den Dunnen (Leiden, Nederland), Jin-Yeong Han (Busan, South Korea), Nils Mandahl (Lund, Sweden), Kathleen W Rao (Chapel Hill, USA), Annet Simons (Nijmegen, Nederland). _Advisors:_ Cynthia C Morton (Boston, USA), Michael Schmid (Wurzburg, Germany)
 
 - **ISCN2013 committee**<br>
   _Chair:_ Lisa G Shaffer (Spokane, USA)<br>
-  _Members:_ Jaclyn Biegel (Philadelphia, USA), Myriam Chaabouni (Tunis, Tunisia), Johan T den Dunnen (Leiden, Nederland), Jin-Yeong Han (Busan, South Korea), Nils Mandahl (Lund, Sweden), Jean McGowan-Jordan (Ottawa, Canada), Kathleen W Rao (Chapel Hill, USA), Annet Simons (Nijmegen, Nederland).: _Advisors:_ Lynda J Campbell (Melbourne, Australia), Michael Schmid (Wurzburg, Germany)
+  _Members:_ Jaclyn Biegel (Philadelphia, USA), Myriam Chaabouni (Tunis, Tunisia), Johan T den Dunnen (Leiden, Nederland), Jin-Yeong Han (Busan, South Korea), Nils Mandahl (Lund, Sweden), Jean McGowan-Jordan (Ottawa, Canada), Kathleen W Rao (Chapel Hill, USA), Annet Simons (Nijmegen, Nederland). _Advisors:_ Lynda J Campbell (Melbourne, Australia), Michael Schmid (Wurzburg, Germany)

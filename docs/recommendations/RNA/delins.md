@@ -45,7 +45,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.delins
       conversion replacing nucleotides `r.2623` to `r.2803` (exon 21) with nucleotides `r.2804` to `r.2949` (exon 22) as found in the _DMD_ coding RNA sequence file `NM_004006.2`.
 
     - **`r.415_1655delins[AC096506.5:g.409_1649]`**<br>
-      conversion replacing nucleotides `r.414` to `r.1655` with nucleotides `g.409` to `g.1649` as found in the genomic reference sequence `AC096506.5`.
+      conversion replacing nucleotides `r.415` to `r.1655` with nucleotides `g.409` to `g.1649` as found in the genomic reference sequence `AC096506.5`.
 
     - **`r.1401_1446delins[NR_002570.3:r.1513_1558]`**<br>
       conversion in exon 9 of the _CYP2D6_ gene, replacing exon 9 nucleotides `r.1401` to `r.1446` with those of the 3' flanking _CYP2D7P1_ gene, nucleotides `r.1513` to `r.1558`.

@@ -52,5 +52,5 @@ The description should include the position(s) screened (nucleotides or amino ac
 #### protein
 
 - **`LRG_199p1:p.(Phe41=)` &nbsp; (`LRG_199t1:c.123C>T`)**<br>
-  the predicted consequence of variant `c.123C>T` (on DNA level) is that amino acid residue 41 is an `Arg`, like in the protein reference sequence (the amino acid was not changed, RNA was not analysed).<br>
+  the predicted consequence of variant `c.123C>T` (on DNA level) is that amino acid residue 41 is a `Phe`, like in the protein reference sequence (the amino acid was not changed, RNA was not analysed).<br>
   **NOTE**: the description of the variant on DNA level is mandatory (depending on the amino acid, up to 5 different DNA changes may leave the amino acid unchanged).

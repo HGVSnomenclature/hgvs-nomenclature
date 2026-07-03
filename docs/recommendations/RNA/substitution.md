@@ -29,7 +29,7 @@ bin/pull-syntax -c -f docs/syntax.yaml rna.sub
   **NOTE**: based on the definition of a substitution, i.e. **one** nucleotide replaced by **one** other nucleotide, this change can not be described as a substitution like <code class="invalid">r.76_77aa>ug</code> or <code class="invalid">r.76aa>ug</code>.
 
 - **`NM_004006.3:r.(1388g>a)`**<br>
-  the predicted consequences on RNA level is a substitution of the `g` nucleotide at `r.1388` with a `g`.
+  the predicted consequences on RNA level is a substitution of the `g` nucleotide at `r.1388` with an `a`.
 
 - **`NM_004006.3:r.123=`**<br>
   a screen was performed showing that nucleotide `r.123` was a `c`, as in the coding DNA reference sequence (the nucleotide was not changed).

@@ -16,7 +16,7 @@
 
     - SVD-WG001 (_no change_): allows descriptions like `g.11890634G=`, `c.123G=`, `r.123g=`, and `p.(Arg41=)`.
     - SVD-WG002 (_n. reference sequence_): allows descriptions like `NR_028379.1:n.345A>G`.
-    - HGVS nomenclature **version 15.11** is described in Den Dunnen et al. (2016) [HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 25: 37: 564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf).
+    - HGVS nomenclature **version 15.11** is described in Den Dunnen et al. (2016) [HGVS recommendations for the description of sequence variants: 2016 update. Hum.Mutat. 37: 564-569](http://onlinelibrary.wiley.com/doi/10.1002/humu.22981/pdf).
       The most significant changes between version 15.11 and version 1.0 are [described below](#v1511).
 
 - **Version 2.121101**

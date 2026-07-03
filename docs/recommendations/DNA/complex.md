@@ -68,7 +68,7 @@ HGVS, therefore, recommends to describe translocations exclusively using a "deli
         - **`t(2;11)(p25.1;p15.2)`**<br>
           _(involving short arms chromosomes 2 and 11)_
             - **`NC_000002.12:g.pter_8247756delins[NC_000011.10:g.pter_15825272]`**<br>
-              **`NC_000011.10:g.pter_5825272delins[NC_000002.12:g.pter_8247756]`**<br>
+              **`NC_000011.10:g.pter_15825272delins[NC_000002.12:g.pter_8247756]`**<br>
               **NOTE**: corrected for <code class="invalid">NC_000002.12:g.pter_8247756::NC_000011.10:g.15825273_cen_qter</code> and <code class="invalid">NC_000011.10:g.pter_15825272::NC_000002.12:g.8247757_cen_qter</code> in ISCN2016.
 
             - **ISCN**<br>
@@ -124,7 +124,7 @@ HGVS, therefore, recommends to describe translocations exclusively using a "deli
       for ISCN `del(X)(q21.31q22.2)`<br>
       _(within a chromosome, breakpoint not sequenced)_
 
-    - **`NC_000022.11:g.pter_(12200001_14700000)del::(37600001_410000000)_qterdel`**<br>
+    - **`NC_000022.11:g.pter_(12200001_14700000)del::(37600001_41000000)_qterdel`**<br>
       for ISCN `r(22)(p11.1q13.1)`<br>
       _(ring chromosome derived from chromosome 22, breakpoint not sequenced)_<br>
       **NOTE**: "::" is used to indicate the join, instead of ";" to describe two not connected deletions.
@@ -158,7 +158,7 @@ HGVS, therefore, recommends to describe translocations exclusively using a "deli
           describe as an insertion.
 
 - **supernumerary chromosome**
-    - **`NC_000022.11:g.[pter_(12200001_14700000)del::(37600001_410000000)_qterdel]sup`**<br>
+    - **`NC_000022.11:g.[pter_(12200001_14700000)del::(37600001_41000000)_qterdel]sup`**<br>
       for ISCN `+r(22)(p11.1q13.1)`<br>
       _(supernumerary ring chromosome derived from chromosome 22, breakpoint not sequenced)_<br>
       **NOTE**: changed in ISCN2020.
