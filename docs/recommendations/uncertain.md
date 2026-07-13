@@ -210,7 +210,7 @@ This page summarises how to describe variants when not all information is availa
   used to indicate that possibly, no protein is generated.
 
 - **`p.(=)`**<br>
-  used to indicate that no changes on the protein level are expected (protein not analysed).
+  used to indicate that no changes on the protein level are expected (RNA not analysed).
 
 - **`p.(Ala123_Pro131)Ter`**<br>
   used to describe that at an unknown position between amino acids `Ala123` and `Pro131`, an amino acid is substituted for a translation termination (stop) codon.
