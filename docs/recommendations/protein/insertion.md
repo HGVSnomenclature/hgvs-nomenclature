@@ -17,7 +17,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ins
 - the "positions_flanking" should contain **two flanking residues**, e.g., `Lys23_Leu24`, not two non-flanking residues (`Lys23_Asn25`).
     - an insertion can not be described using **one** amino acid position, like <code class="invalid">p.Lys23insAsp</code>.
 - for all descriptions, the **most C-terminal position** possible of the reference sequence is arbitrarily assigned to have been changed (**3'rule**).
-- duplicating insertions should be described as duplications (see [Duplication](../DNA/duplication.md)), not as an insertion.
+- duplicating insertions should be described as duplications (see [Duplication](duplication.md)), not as an insertion.
 - when the inserted amino acid sequence is large, the insertion may be described by its length, e.g., `p.Lys2_Leu3insXaa[34]` (open reading frame insertion) or `p.Lys2_Leu3insTer12` (translation stop in inserted sequence).<br>
   **NOTE**: the inserted amino acid sequence can be derived from the description of the variant on the DNA or RNA level.
 - insertions extending the full-length amino acid sequence at the C-terminal end with one or more amino acids are described as an [Extension](extension.md).
