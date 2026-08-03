@@ -45,7 +45,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.delins
   **NOTE**: the deletion-insertion is not described as <code class="invalid">delinsSerSerTerAlaAsp</code>, amino acids after the translation termination codon are **not** listed.
 
 - **`p.(Pro578_Lys579delinsLeuTer)`**<br>
-  the predicted change on the protein level resulting from DNA variant `NM_080877.2c.1733_1735delinsTTT` is a deletion of amino acids `Pro578` and `Lys579` replaced by `LeuTer` (alternatively `Leu*`).<br>
+  the predicted change on the protein level resulting from DNA variant `NM_080877.2:c.1733_1735delinsTTT` is a deletion of amino acids `Pro578` and `Lys579` replaced by `LeuTer` (alternatively `Leu*`).<br>
   **NOTE**: the predicted consequence of variant `NM_080877.2:c.1732_1794del` is `p.(Pro578_Gln598del)`.
   Although the proteins resulting from the changes `NM_080877.2:c.1733_1735delinsTTT` and `c.1732_1794del` are identical, their HGVS description is different.
   Example derived from the _SLC34A3_ gene.

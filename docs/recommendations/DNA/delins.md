@@ -47,7 +47,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.delins
   **The "delins" format is recommended**: it is simpler and prevents software tools making incorrect predictions for the consequences on protein level.
 
 - **`NC_000002.12:g.pter_8247756delins[NC_000011.10:g.pter_15825266]`**<br>
-  nucleotides `g.pter` to `g.8247756` of chromosome 2 are deleted and replaced by nucleotides `g.pter` to `g.1582566` of chromosome 11: the derivative chromosome 2 from an unbalanced translocation between the short arms of chromosomes 2 and 11 (ISCN `der(2)t(2;11)(p25.1;p15.2)`).
+  nucleotides `g.pter` to `g.8247756` of chromosome 2 are deleted and replaced by nucleotides `g.pter` to `g.15825266` of chromosome 11: the derivative chromosome 2 from an unbalanced translocation between the short arms of chromosomes 2 and 11 (ISCN `der(2)t(2;11)(p25.1;p15.2)`).
   Example copied from [Complex (HGVS/ISCN)](complex.md).<br>
   **NOTE**: balanced translocations (see [Complex (HGVS/ISCN)](complex.md)) are described as two complementary "delins" variants.
 

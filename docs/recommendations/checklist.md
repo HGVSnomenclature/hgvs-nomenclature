@@ -30,7 +30,7 @@ Going through this list should assist you while preparing a publication containi
     - **insertions should be reported using the format `c.51_52insT`.**<br>
       The format <code class="invalid">c.52insT</code> is **ambiguous**, and not allowed.
     - **do you provide the inserted sequence?**<br>
-      Describing a variant as <code class="invalid">c.5439_5430ins6</code> is not allowed, the inserted sequence (for `ins6`, e.g., `TGCCAT`) should be specified.
+      Describing a variant as <code class="invalid">c.5439_5440ins6</code> is not allowed, the inserted sequence (for `ins6`, e.g., `TGCCAT`) should be specified.
     - **is the insertion reported indeed an insertion, or is it in fact a duplication?**<br>
       **Duplicating insertions** should be described as duplications, not as insertions (see [Duplication](DNA/duplication.md)).
 

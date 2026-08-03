@@ -71,7 +71,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.ins
     - **`NC_000023.10:g.32717298_32717299insN` (`NM_004006.2:c.761_762insN`) **<br>
     the insertion of one not specified nucleotide (`N`) between positions `g.32717298` and `g.32717299`.
 
-    - **`NM_004006.2:c.761_762insNNNNN` (alternatively `NM_004006.1:c.761_762insN[5]`)**<br>
+    - **`NM_004006.2:c.761_762insNNNNN` (alternatively `NM_004006.2:c.761_762insN[5]`)**<br>
     the insertion of 5 not specified nucleotides (`NNNNN`) between positions `c.761` and `c.762`.
 
     - **`NC_000023.10:g.32717298_32717299insN[100]`**<br>

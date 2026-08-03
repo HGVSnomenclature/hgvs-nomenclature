@@ -42,7 +42,7 @@ on RNA level, variant `NC_000023.11(NM_004006.3):c.1704+2T>A` gives the insertio
 
 - **`r.8668_8669ins[c.8669-68_8669-25;c.8669-18_8669-1]`**<br>
 on RNA level, variant `NC_000023.11(NM_004006.3):c.8669-24_8669-19del` gives the insertion of nucleotides **`c.8669-68` to `c.8669-25`** and **`c.8669-18` to `c.8669-1`** between nucleotides `r.8668` and `r.8669`.<br>
-**NOTE:** since the HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like `NC_000023.11:g.31478393_31478398del` &nbsp; `NC_000023.11(NM_004006.3):c.8669-24_8669-19del` &nbsp; `r.8668_8669ins[c.8869-68_8869-25;c.8869-18_8869-1]`.<br>
+**NOTE:** since the HGVS nomenclature demands that variants must be described on DNA level, a full description of the variant is like `NC_000023.11:g.31478393_31478398del` &nbsp; `NC_000023.11(NM_004006.3):c.8669-24_8669-19del` &nbsp; `r.8668_8669ins[c.8669-68_8669-25;c.8669-18_8669-1]`.<br>
 **NOTE:** since nucleotides `c.8669-24` to `c.8669-19` are deleted, the insertion **can not** be described as `r.8668_8669ins[c.8669-68_8669-1]`.
 
 - **`r.94_264delins[NC_000008.11:g.16511847_16511910inv]`**<br>

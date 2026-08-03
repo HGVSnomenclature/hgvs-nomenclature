@@ -24,7 +24,7 @@ This page summarises how to describe variants when not all information is availa
 - **position**<br>
   When a variant has been identified, but it can not be mapped to a unique location, possible descriptions should be given separated by a `^` (caret).
     - **`NM_000517.4:c.424C>T^NM_000558.3:c.424C>T`**<br>
-      describes variant `c.427T>C`, which is either in the _HBA2_ (`NM_000517.4`) or the _HBA1_ (`NM_000558.3`) gene.
+      describes variant `c.424C>T`, which is either in the _HBA2_ (`NM_000517.4`) or the _HBA1_ (`NM_000558.3`) gene.
 
     - **`NC_000023.10:g.(33038277_33038278)C>T` (`LRG_199t1:c.(71_72)G>A`)**
       describes the variant `p.Trp24Ter` in the _DMD_ gene, reported on protein level only.
@@ -196,7 +196,7 @@ This page summarises how to describe variants when not all information is availa
   The format is used for variants in the first or last nucleotide of an exon, the +3 to +5 intron position (splice donor site), and variants generating a new `AG` di-nucleotide close to the normal splice acceptor site (`AG`).
 
 - **`r.(76a>c)`**<br>
-  used to indicate that RNA was not analysed, but the variant `r.(306g>u)` is expected to be detected.
+  used to indicate that RNA was not analysed, but the variant `r.(76a>c)` is expected to be detected.
 
 - **`r.(?)`**<br>
   frequently used to indicate that RNA was not analysed but that no changes on the RNA level are expected other than those simply derived from the change on the DNA level.

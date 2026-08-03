@@ -35,10 +35,10 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
   one allele (X-chromosome) contains two different variants in two different genes, `g.30683643A>G` in the _GK_ gene and `g.33038273T>G` in the _DMD_ gene.
 
 - **`NC_000003.12:g.63912687AGC[(50_60)]`**<br>
-  one allele (chromosome 3) contains a repeated `AGC` tri-nucleotide sequence, starting at position `g.6391268`, containing 50 to 60 `AGC` copies.
+  one allele (chromosome 3) contains a repeated `AGC` tri-nucleotide sequence, starting at position `g.63912687`, containing 50 to 60 `AGC` copies.
 
 - **`NC_000003.12:g.63912687AGC[(60_?)]`**<br>
-  one allele (chromosome 3) contains a repeated `AGC` tri-nucleotide sequence, starting at position `g.6391268`, containing 60 or more `AGC` copies.
+  one allele (chromosome 3) contains a repeated `AGC` tri-nucleotide sequence, starting at position `g.63912687`, containing 60 or more `AGC` copies.
 
 ### Variants in _trans_
 
@@ -54,7 +54,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
   **NOTE**: it is not allowed to shorten this to <code class="invalid">c.2376[G>C];[G>C]</code> or even <code class="invalid">c.2376G>C[];[]</code>.
 
 - **`NM_004006.2:c.[296T>G;476T>C;1083A>C];[296T>G;1083A>C]`**<br>
-  a sample contains variants `c.296T>G` and `c.1083A>C` on both alleles (chromosomes) and variant `c.476C>T` on only one allele.
+  a sample contains variants `c.296T>G` and `c.1083A>C` on both alleles (chromosomes) and variant `c.476T>C` on only one allele.
 
 - **`NM_004006.2:c.[2376G>C];[2376=]`**<br>
   one allele (chromosome) of a gene contains a variant, `c.2376G>C`, the other allele (chromosome) contains the reference sequence, `c.2376=` (is **wild-type**).<br>
@@ -129,7 +129,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.alleles
     Nomenclature recommendations mainly apply to genotype descriptions in tables.
     Unfortunately, these are not very useful in the general text of a paper.
     For instance, `OPRM1:c.118A>G` or `rs1799971:A>G` can be used to describe the variant, but in a paper, you might like to discuss the phenotypic consequences of different genotypes.
-    In fact, the current recommendation is to use `OPRM1:c.[118A>G];[118A=]` to describe a heterozygote, and `OPRM1:c.[118A=];[118A=]` and `OPRM1:c.[118>G];[118>G]` for the homozygotes.
+    In fact, the current recommendation is to use `OPRM1:c.[118A>G];[118A=]` to describe a heterozygote, and `OPRM1:c.[118A=];[118A=]` and `OPRM1:c.[118A>G];[118A>G]` for the homozygotes.
     I would like to **suggest** to describe the genotypes in the text like:
 
     - `OPRM1:c.118AA` homozygotes

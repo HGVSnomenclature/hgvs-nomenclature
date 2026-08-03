@@ -16,7 +16,7 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.alleles
 - predicted consequences, i.e. without experimental evidence (no RNA or protein sequence analysed), should be given in parentheses inside the square brackets, e.g., `p.[`<code class="spot1">(</code>`Arg727Ser;Cys1334Trp`<code class="spot1">)</code>`]`.
 - when two variants are identified in a protein that derive from **one chromosome** (in cis), this should be described as `p.[variant1`<code class="spot1">;</code>`variant2]`.
 - when two variants are identified in proteins that derive from **different chromosomes** (in trans), this should be described as `p.[variant1]`<code class="spot1">;</code>`[variant2]`.
-- when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as `variant`<code class="spot1">(;)</code>`variant2`, i.e. without using `[ ]`.<br>
+- when two variants are identified in a protein, but when it is **not known** whether these derive from one chromosome (in cis) or from different chromosomes (in trans), this should be described as `variant1`<code class="spot1">(;)</code>`variant2`, i.e. without using `[ ]`.<br>
   **NOTE**: it is recommended to determine whether the changes are in the same protein or not.
 - when two variants are identified in two different proteins that derive from **one variant** on the DNA level (giving two different transcripts), the variants are separated using a `,`; `p.[variant1`<code class="spot1">,</code>`variant2]`.
 
