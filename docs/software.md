@@ -44,9 +44,9 @@ bin/make-software-table docs/software/*.yml
 
 The software must:
 
-- Be *primarily* concerned with provided the functionality listed above.
+- Be *primarily* concerned with providing the functionality listed above.
   Software that merely accepts or emits HGVS variant descriptions as part of their
-  operation (e.g., variant annotation) do not meet this criterion.
+  operation (e.g., variant annotation) does not meet this criterion.
 - Meet the license requirements above. Commercial software, including hybrid
   open-source/commercial software, will not be included.
 - Have a publication in PubMed. This requirement is intended to create a bar

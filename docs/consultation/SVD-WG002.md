@@ -19,7 +19,7 @@ Intronic nucleotides are numbered as in a coding DNA reference sequence (see [Nu
   Full description: `NR_028379.1:n.345A>G` (_FTX_ transcript, _XIST_ regulator (non-protein coding) long non-coding RNA).
 
 - **`n.696-38544del`**<br>
-  the deletion of nucleotide `696-38544` in relation a non-coding DNA reference sequence; the variant is located in the 3' half of the intron between nucleotides `n.695` and `n.696` (intron 5).<br>
+  the deletion of nucleotide `696-38544` in relation to a non-coding DNA reference sequence; the variant is located in the 3' half of the intron between nucleotides `n.695` and `n.696` (intron 5).<br>
   **NOTE**: in this case, since a non-coding DNA reference sequence does not contain intron sequences, a genomic reference sequence has to be given, e.g., `NC_000023.10(NR_028379.1):n.696-38544del`.
 
 ### Note

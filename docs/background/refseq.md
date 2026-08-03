@@ -282,12 +282,12 @@ Why not? Two reasons:
     **NOTE**: by exception, for this mitochondrial reference sequence, it is allowed to specify the gene affected.
 
     - `NC_012920.1:m.3243A>G` describes variant `m.3243A>G`, based on the mitochondrial reference sequence `NC_012920.1`.
-    - `NC_012920.1(MT-TL1):m.3243A>G` describes variant `m.3243A>G` in the _MT-LT1_ gene, based on the mitochondrial reference sequence `NC_012920.1`.
+    - `NC_012920.1(MT-TL1):m.3243A>G` describes variant `m.3243A>G` in the _MT-TL1_ gene, based on the mitochondrial reference sequence `NC_012920.1`.
     - `NC_012920.1(MT-TL1):n.14A>G` describes variant `n.14A>G`, based on the annotated `MT-TL1` non-coding DNA reference sequence of the _MT-TL1_ gene in `NC_012920.1`.
 
 !!! note "For mitochondrial variants we use the format <code class="invalid">MT-ND1{NC_012920.1}:m.[3460G>A]</code>, i.e. the gene in front, the reference sequence in curly brackets, a colon, an m and full stop, and then the variant in square brackets. A change in the protein we indicate as <code class="invalid">MT-ND1{YP_003024026.1}:p.[(Ala52Thr)]</code>. To be clear, is it no longer required to report/state the gene in front of the reference sequence?"
 
-    The format your give does not (nor did ever) follow HGVS recommendations.
+    The format you give does not (nor did ever) follow HGVS recommendations.
     Correct HGVS formats are `NC_012920.1:m.3460G>A` and `YP_003024026.1:p.(Ala52Thr)`.
     By exception, for this mitochondrial reference sequence, it is allowed to specify the gene affected (e.g., `NC_012920.1(MT-ND1):m.3460G>A`) and give the description `NC_012920.1(MT-ND1):m.3460G>A` &nbsp; `p.(Ala52Thr)`.
 

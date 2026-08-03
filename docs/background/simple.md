@@ -65,7 +65,7 @@ For details, see ["Reference Sequences"](refseq.md).
 - genomic (nucleotide)
     - `NC_`: a genomic reference sequence based on a chromosome
         - `NC_000023.9:g.32317682G>A` (Mar.2006: hg18, NCBI36)
-        - `NC_000023.10:g.32407761G>A` (Feb.2009: h19, GRCh37)
+        - `NC_000023.10:g.32407761G>A` (Feb.2009: hg19, GRCh37)
         - `NC_000023.11:g.32389644G>A` (Dec.2013: hg38, GRCh38)
     - `NG_`: a genomic reference sequence based on a Gene or Genomic region
         - `NG_012232.1:g.954966C>T`

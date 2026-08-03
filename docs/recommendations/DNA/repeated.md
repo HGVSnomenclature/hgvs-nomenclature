@@ -79,7 +79,7 @@ bin/pull-syntax -f docs/syntax.yaml dna.rpt
 
         - **_CFTR_ intron 9**<br>
           **`NM_000492.3:c.1210-33_1210-6GT[11]T[6]`**<br>
-          the mixed repeat sequence form position `c.1210-33` to `c.1210-6` contains 11 `GT` and 6 `T` copies.<br>
+          the mixed repeat sequence from position `c.1210-33` to `c.1210-6` contains 11 `GT` and 6 `T` copies.<br>
           **NOTE**: when only the variable T-stretch is described, the format is `NM_000492.3:c.1210-12_1210-6T[7]` (see Q&A below).
 
     - **`NC_000012.11:g.112036755_112036823CTG[9]TTG[1]CTG[13]`**<br>

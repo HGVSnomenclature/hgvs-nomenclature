@@ -24,9 +24,9 @@ Each release version will consist of 3 numbers separated by dots in the format `
 ??? info "Beginning January 2024 with version 21.0.0, version numbers do not correspond to dates"
 
     Historically, HGVS used date-based versions (e.g., 20.05 in May 2020).
-    That practice has been discarded in factor of semantic versioning.
+    That practice has been discarded in favor of semantic versioning.
     Because versions should increase monotonically, the major release of HGVS Nomenclature in January 2024 will have major version 21.
-    **Beginning with version 21, users should not assume a correspondance between the major version and the year of release.**
+    **Beginning with version 21, users should not assume a correspondence between the major version and the year of release.**
 
 ## How should versions be used in practice?
 
