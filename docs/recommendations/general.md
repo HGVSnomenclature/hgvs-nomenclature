@@ -41,7 +41,6 @@ Make sure you have also seen the [Basics](../background/basics.md), explaining t
     - the 3'rule also applies for changes in single residue stretches and tandem repeats (nucleotide or amino acid).
     - the 3'rule applies to ALL descriptions (genome, gene, transcript, and protein) of a given variant.
     - **exception**: deletions/duplications around exon/exon junctions using **c.** or **n.** reference sequences (see [Numbering](../background/numbering.md#DNAc)).
-        - this exception does **not** apply when describing variants based on an RNA reference sequence (see [RNA Deletion](RNA/deletion.md) and [RNA Duplication](RNA/duplication.md)).
 
 - descriptions on DNA, RNA, and protein level are clearly different:
     - **DNA-level**: `123456A>T`<br>
