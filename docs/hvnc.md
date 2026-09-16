@@ -30,7 +30,7 @@ The HVNC started in 2013, initiated by Global Variome (GV) / the Human Variome P
 | Andreas Prlić                                              | Natera, United States                                                                                                    | 2026 - 2030 |
 | Matthew Stachowiak                                         | GenomOncology, United States                                                                                             | 2024 - 2028 |
 | Alex Wagner (co-chair, term ends 2028)                     | Nationwide Children's Hospital, US                                                                                        | 2022 - 2030 |
-| Veronica Williams                                          | EMQN, United Kingdom                                                                                                     | 2026 - 2030 |
+| Victoria Williams                                          | EMQN, United Kingdom                                                                                                     | 2026 - 2030 |
 
 ## past HVNC members
 
