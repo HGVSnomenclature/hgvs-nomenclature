@@ -2,7 +2,7 @@
 
 [//]: # (!!! note inline end "Join Us")
 [//]: # ()
-[//]: # (    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members]&#40;call-for-members.md&#41;.)
+[//]: # (    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members]&#40;call-for-members/index.md&#41;.)
 [//]: # (    **Applications are due April 1, 2024.**)
 
 The HGVS Variant Nomenclature Committee (HVNC) is authorised by the [Human Genome Organisation (HUGO)](https://www.hugo-international.org), a working group of the [HUGO Nomenclature Standards Committee](https://www.hugo-international.org/standards), with administrative support of the HUGO office.

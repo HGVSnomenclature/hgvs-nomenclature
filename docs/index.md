@@ -7,7 +7,7 @@ The HGVS Nomenclature is administered by the [HGVS Variant Nomenclature Committe
 
 [//]: # (!!! note "Join Us")
 [//]: # ()
-[//]: # (    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members]&#40;call-for-members.md&#41;.)
+[//]: # (    If you are interested in joining the HVNC and contributing to the maintenance of the HGVS Nomenclature, please see the [Call for Members]&#40;call-for-members/index.md&#41;.)
 [//]: # (    Applications are due **April 1, 2024**.)
 
 <a id="contact-us"></a>
