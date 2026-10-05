@@ -75,11 +75,16 @@ In HGVS nomenclature, some **characters** have a **specific meaning**:
 - `-` (hyphen-minus) is used in [nucleotide numbering](../background/numbering.md); `c.124-56C>T`.
 - `*` (asterisk) is used in [nucleotide numbering](../background/numbering.md) and to indicate a translation termination (stop) codon (see [Standards](../background/standards.md#RNAcode)); `c.*32G>A` and `p.Trp41*`.
 - `_` (underscore) is used to indicate a range; `g.12345_12678del`.
-- `[ ]` (square brackets) are used for alleles (see [DNA](DNA/alleles.md), [RNA](RNA/alleles.md), [protein](protein/alleles.md)), which includes multiple inserted sequences at one position and insertions from a second reference sequence.
-    - `;` (semicolon) is used to separate variants and alleles; `g.[123456A>G;345678G>C]` or `g.[123456A>G];[345678G>C]`.
-    - `,` (comma) is used to separate different transcripts/proteins derived from one allele; `r.[123a>u,122_154del]`.
-    - `NC_000002.11:g.48031621_48031622ins[TAT;48026961_48027223;GGC]`.
-    - `NC_000002.11:g.47643464_47643465ins[NC_000022.10:g.35788169_35788352]`.
+- `[ ]` (square brackets) are used for alleles, repeats, and complex insertions.
+    - Alleles (see [DNA](DNA/alleles.md), [RNA](RNA/alleles.md), [protein](protein/alleles.md))
+        - `;` (semicolon) is used to separate variants and alleles; `g.[123456A>G;345678G>C]` or `g.[123456A>G];[345678G>C]`.
+        - `,` (comma) is used to separate different transcripts/proteins derived from one allele; `r.[123a>u,122_154del]`.
+    - Repeats (see [DNA](DNA/repeated.md), [RNA](RNA/repeated.md), [protein](protein/repeated.md))
+        - to indicate the number of times a certain sequence is repeated; `NC_000003.12:g.63912687_63912716AGC[13]`.
+    - Complex insertions (see [DNA](DNA/insertion.md), [RNA](RNA/insertion.md), [protein](protein/insertion.md))
+        - multiple inserted sequences at one position; `NC_000002.11:g.48031621_48031622ins[TAT;48026961_48027223;GGC]`.
+        - insertions from a second reference sequence; `NC_000002.11:g.47643464_47643465ins[NC_000022.10:g.35788169_35788352]`.
+        - insertions of intronic sequences in RNA; `r.5448_5449ins[c.5448+1_5448+66]`.
 - `:` (colon) is used to separate the reference sequence file identifier (_accession.version_number_) from the actual description of a variant; `NC_000011.9:g.12345611G>A`.
 - `::` (double colon) is used to describe adjoined transcripts from gene fusions ([RNA Deletion-insertion](RNA/delins.md)) and to designate break point junctions creating a ring chromosome ([DNA Complex (HGVS/ISCN)](DNA/complex.md)).
 - `( )` (parentheses) are used to indicate uncertainties and predicted consequences; `NC_000023.9:g.(123456_234567)_(345678_456789)del`, `p.(Ser123Arg)`.<br>
