@@ -31,11 +31,7 @@ Make sure you have also seen the [Basics](../background/basics.md), explaining t
     - the numbering of the residues (nucleotide or amino acid) in relation to the reference sequence used should **follow the approved scheme** (see [Numbering](../background/numbering.md)).
 
 - two variants separated by one or more nucleotides should be described individually and **not** as a "delins".
-    - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".<br>
-      **NOTE**: the SVD-WG is preparing a proposal to modify this recommendation.
-      To apply the current rule one needs to know whether the two variants are in a coding sequence and affecting one amino acid.
-      Recommendations should be general.
-      The new recommendation will be: **two variants separated by less than two nucleotides should be described as a "delins"**.
+    - **exception**: two variants separated by one nucleotide, together affecting one amino acid, should be described as a "delins".
 
 - **3'rule**: for all descriptions, the most 3' position possible of the reference sequence is arbitrarily assigned to have been changed.
     - the 3'rule also applies for changes in single residue stretches and tandem repeats (nucleotide or amino acid).
