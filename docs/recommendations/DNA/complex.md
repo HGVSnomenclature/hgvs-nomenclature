@@ -57,10 +57,8 @@ The named ISCN extension has been introduced in 2016 and was modified last in 20
 <a id="examples"></a>
 
 **The description of translocations has changed.**<br>
-In the original proposal (SVD-WG004), **one identical derivative chromosome** would receive **two different descriptions**, depending on whether it was identified in a balanced or an unbalanced case.
-In a balanced case, the description would use a "::" format joining the breakpoints, while in an unbalanced case, the description would use a "delins" format.
-HGVS recommendations try to avoid such conflicts wherever possible.
-HGVS, therefore, recommends to describe translocations exclusively using a "delins" format.
+In the original proposal (SVD-WG004), **one identical derivative chromosome** would receive **two different descriptions**, depending on whether it was identified in a balanced or an unbalanced case. In a balanced case, the description would use a "::" format joining the breakpoints, while in an unbalanced case, the description would use a "delins" format. HGVS recommendations try to avoid such conflicts wherever possible. HGVS nomenclature, therefore, recommends to describe translocations exclusively using a "delins" format.
+
 
 - **Aneuploidy**
     - **`seq (X)x1`**<br>
@@ -106,7 +104,7 @@ HGVS, therefore, recommends to describe translocations exclusively using a "deli
 
 
 - **Sequence-based nomenclature for description of large structural variation/copy number variation**
-    - **deletion**
+    - **Deletion**
         - **`seq[GRCh38] del(10)(p15.3)dn`**<br>
           **`NC_000010.11:g.(pter)_2944337del`**<br>
           The ISCN short karyotype format describes a de novo terminal deletion of the short arm of chromosome 10 with a breakpoint in 10p15.3. The short karyotype format is used to indicate that no additional structural variation was associated with this terminal deletion. The breakpoints for the deletion are indicated in the HGVS portion of the nomenclature. The deletion includes the start of chromosome 10 (pter) to nucleotide 2,944,337. In this case, since the ISCN and HGVS involve non-duplicative information, both lines should be used to describe the variant.
@@ -182,7 +180,8 @@ HGVS, therefore, recommends to describe translocations exclusively using a "deli
          NC_000002.12:g.(201145490_201148901)_(208572138_209653108)del`**<br>
          The ISCN extended microarray format describes three de novo interstitial losses are detected by read-depth calling where the precise breakpoint nor structural information was detected. These three heterozygous deletions include a loss of approximately 800kb in 1p22.3, a loss of approximately 4.4Mb in 1q31.3q32.1, and a loss of approximately 7.4Mb in 2q33.1q34. As no precise breakpoints or structural information was obtained from this analysis, it cannot be determined if these findings could be associated with a larger structural rearrangement, such as a translocation or pericentric inversion. The HGVS nomenclature describes the deletions on chromosome 1 on one line, with the use of (**`";"`**) to indicate that is it not known if the two deletions are in cis (same chromosome) or in trans (different chromosomes). The deletion on chromosome 2 is described on a separate line.
 
-    - **duplication and triplication**
+
+    - **Duplication and triplication**
         - **`seq[GRCh38] dup(18)(q23q23)`**<br>
           **`NC_000018.10:g.79670244_79724961dup`**<br>
           The ISCN short karyotype format portion of the nomenclature describes a tandem duplication of sequences within chromosome 18q23. Note: because the duplication is within a single chromosome band, the ISCN nomenclature cannot distinguish the orientation of the duplicated material. The HGVS portion indicates the 54.7kb tandem duplication within chromosome 18 involves nucleotides 79,670,244 to 79,724,961.<br>
@@ -228,7 +227,8 @@ HGVS, therefore, recommends to describe translocations exclusively using a "deli
           **`NC_000011.10:g.(?_91448700)_(91465000_91465500)[2](;)(91465500_106007000)[3](;)(106007000_106008600)_(106019700_?)[2]`**<br>
           The ISCN short microarray format indicates a 14.5Mb region of four copies of sequence from chromosome bands 11q14.3q22.3, with two smaller regions of three copies of adjacent sequence involving a 16.3kb duplication in 11q14.3, and a 11.1kb duplication in 11q22.3. The methodology used could not determine the exact breakpoints, nor the insertion location or orientation of the regions of copy number gain. The HGVS portion describes, compared to the reference sequence, the detection of one additional copy (“[2]”) of the sequence from 91,448,700 to 91,465,000, two additional copies (**`"[3]"`**) of the sequence from 91,465,500 to 106,007,000, and one additional copy (**`"[2]"`**) of the sequence from 106,008,600 to 106,009,700. The insertional locations and orientations are not known for these gains, as indicated by the use of (**`";"`**) to indicate that is it not known if the gains are in cis (same chromosome) or in trans (different chromosomes).
 
-    - **derivative chromosome**<br>
+
+    - **Derivative chromosome**<br>
 The following examples describe copy number alterations that are associated with structural rearrangements. If multiple copy number alterations are detected without any structural information, the nomenclature can be written similar to microarray nomenclature, with the copy number alterations listed in numerical order. For complex findings, including chromothripsis, chromoanasynthesis, or other complexities that would result in a prohibitive number of abnormalities to describe in one nomenclature string, the microarray format for complex findings may be used (see Section 8.2.7 for examples).
    
         - **`seq[GRCh38] der(2)t(2;11)(p25.1;p15.2)`**<br>
@@ -287,7 +287,7 @@ The following examples describe copy number alterations that are associated with
           The ISCN extended microarray format describes two imbalances in chromosome 14: an interstitial gain of approximately 18.6Mb of 14q31.3q32.33 from 85,528,649 to 104,180,813 and a terminal loss of approximately 1.2Mb of 14q32.33 from 105,837,032 to 106,881,350. A normal copy number (two copies) is found for the region of approximately 1.5Mb between these two imbalances (104,244,199 to 105,771,415). The insertional location and orientation of the duplication is not known, nor if the deletion and duplication involve the same homologue. Follow-up testing using routine cytogenetic analysis or FISH is essential to confirm the structural nature of the imbalance. The HGVS nomenclature describes the gain of the chromosome 14 sequences and the terminal deletion with uncertain phase using a semicolon in parenthesis (**`"(;)"`**).
 
 
-    - **ring chromosomes**
+    - **Ring chromosomes**
         - **`seq[GRCh38] r(8)(p23.2q24.3)`**<br>
           **`NC_000008.11:g.(pter)_3300105del::139535561_(qter)del`**<br>
           The combined ISCN short karyotype format and HGVS nomenclature describes a ring chromosome derived from chromosome 8 with breakpoints at band p23.2 and q24.3 joining nucleotide 3,300,105 to nucleotide 139,535,561. Both termini of the ring chromosome are associated with deletions. If the structural information was not known, this finding should be described as two deletions with unknown phase (see Section 11.5.1).
@@ -297,7 +297,7 @@ The following examples describe copy number alterations that are associated with
           A combined karyotype and sequence assay describes a supernumerary ring derived from chromosome 8 with breakpoints at band p23.2 and q24.3 joining nucleotide 3,300,106 to nucleotide 139,535,560. If the structural information was not known, this supernumerary ring chromosome should be described as a duplication of 3,300,105 to 139,535,561 using [2] (see Section 11.5.2).
 
 
-    - **insertions**
+    - **Insertion**
         - **`seq[GRCh38] X,ins(4;X)(q28.3;q21.31q22.1)`**<br>
           **`NC_000023.11:g.89555676_100352080del`**<br>
           **`NC_000004.12:g.134850793_134850794ins[NC_000023.11:g.89555676_100352080]`**<br>
@@ -313,7 +313,7 @@ The following examples describe copy number alterations that are associated with
           The combined ISCN and HGVS nomenclature describes an intrachromosomal balanced insertion involving a 7.1Mb region within chromosome 3q23q24 (139,122,717 to 146,206,645) inserted into 3q26.32 (between position 177,128,243 and 177,128,245) in an inverted orientation. There is a single base deletion (177,128,244), and an insertion of two bases (AA) at the insertion breakpoint.
 
 
-    - **inversions**
+    - **Inversion**
         - **`seq[GRCh38] inv(6)(pter→p25.3::q16.1→p25.3::q16.1→qter)`**<br>
           **`NC_000006.12:g.[776788_93191545inv;93191546T>C]`**<br>
           The combined ISCN and HGVS nomenclature describes a pericentric inversion of chromosome 6 using the detailed karyotype format in the ISCN portion. The inversion involves 776,788 to 93,191,545 with a T to C nucleotide substitution at the breakpoint (nucleotide 93,191,546).
@@ -331,7 +331,7 @@ The following examples describe copy number alterations that are associated with
           The combined ISCN and HGVS nomenclature describes a paracentric inversion in the short arm of chromosome 6 (nucleotides 20,271,801 to 39,524,349) with a single nucleotide substitution at the breakpoint (39,524,350 A to C).
 
 
-    - **translocations**<br>
+    - **Translocation**<br>
 Translocations that appear balanced karyotypically may show imbalances by sequencing. The following examples use combined ISCN karyotype format and HGVS nomenclature to describe the gross structural change to chromosomes as the result of a translocation that was identified by sequencing.
         
         - **`46,XX,t(2;11)(p24;p15).seq[GRCh38] t(2;11)(p25.1;p15.4)`**<br>
@@ -343,29 +343,18 @@ Translocations that appear balanced karyotypically may show imbalances by sequen
           **`NC_000002.12:g.174500009_qterdelins[NC_000011.10:g.108111987_qter]`**<br>
           **`NC_000011.10:g.108111982_qterdelins[NC_000002.12:g.174500009_qter]`**<br>
           The combined ISCN and HGVS nomenclature describes a translocation between the long arms of chromosomes 2 and 11. The translocation involves the joining of chromosome 11 nucleotide 108,111,987 to chromosome 2 nucleotide 174,500,008 on the derivative chromosome 2, and the joining of chromosome 2 nucleotide 174,500,009 to chromosome 11 nucleotide 108,111,981 on the derivative chromosome 11. There is a 5bp deletion of chromosome 11 sequence as evident from the nucleotide numbers given for the two chromosome 11 breakpoints (108,111,982 and 108,111,987).
-
-        - **`seq[GRCh38] t(9;9)(9qter→9q31.1::9p21.2→9qter;9pter→9q31.1::9p21.2→9pter)`**<br>
-          **`NC_000009.12:g.[pter_26393001delins102425452_qterinv];[102425452_qterdelinspter_26393001inv]`**<br>
-          The combined ISCN and HGVS nomenclature describes a translocation between homologous chromosomes with breakpoints at 9p21.2 and 9q31.1. The different chromosome 9 homologues are indicated by the underline of the second chromosome 9 in the ISCN portion of the nomenclature. The translocation involves the joining of the short arm of the first chromosome 9 at 26,393,001 to the second chromosome 9 long arm at 102,425,453 and
-the long arm of the second chromosome 9 at nucleotide 102,425,452 to the short arm of the first chromosome 9  at nucleotide 26,393,001. The HGVS nomenclature uses the “Allele” format to indicate that these findings are found in trans, indicating that both chromosome 9s are abnormal.
+ 
+        - **`seq[GRCh38] t(12;21)(p13.2;q22.12)`**<br>
+          **`NC_000012.1112:g.pter_11874853delins[NC_000021.89:g.34953708_qterinv]`**<br>
+          **`NC_000021.89:g.34953108_qterdelins[NC_000012.1112:g.pter_11873172inv]`**<br>
+          The combined ISCN and HGVS nomenclature describes a translocation between the short arm of chromosome 12 and the long arm of chromosome 21. There is a 1.7kb deletion of chromosome 12 sequence evident from the nucleotide numbers given for the two chromosome 12 breakpoints (11,873,172 and 11,874,853), and a 600bp deletion of chromosome 21 sequence evident from the nucleotide numbers given for the two chromosome 21 breakpoints (34,953,108 and 34,953,708).
 
         - **`seq[GRCh38] t(3;14)(14qter→14q12::3p22.2→3qter;14pter→14q12::3p22.2→3pter)`**<br>
           **`NC_000003.12:g.pter_36969141delins[CATTTGTTCAAATTTAGTTCAAATGA;NC_000014.9:g.29745314_qterinv]`**<br>
           **`NC_000014.9:g.29745314_qterdelins[NC_000003.12:g.36969141_pterinv]`**<br>
           The combined ISCN and HGVS nomenclature describes a translocation between the short arm of chromosome 3 at 36,969,141 and the long arm of chromosome 14 at 29,745,314 with insertion of non-templated sequence (CATTTGTTCAAATTTAGTTCAAATGA) at the breakpoint on the derivative chromosome 3.
 
-        - **`seq[GRCh38] t(12;21)(p13.2;q22.12)`**<br>
-          **`NC_000012.1112:g.pter_11874853delins[NC_000021.89:g.34953708_qterinv]`**<br>
-          **`NC_000021.89:g.34953108_qterdelins[NC_000012.1112:g.pter_11873172inv]`**<br>
-          The combined ISCN and HGVS nomenclature describes a translocation between the short arm of chromosome 12 and the long arm of chromosome 21. There is a 1.7kb deletion of chromosome 12 sequence evident from the nucleotide numbers given for the two chromosome 12 breakpoints (11,873,172 and 11,874,853), and a 600bp deletion of chromosome 21 sequence evident from the nucleotide numbers given for the two chromosome 21 breakpoints (34,953,108 and 34,953,708).
-
-
-## Discussion
-
-!!! note "Is the description <code class="invalid">NM_004006.1:c.123+45_123+51TSDinsL1.603bp</code> acceptable (`TSD` = target site duplication, `insL1` indicates the nature of the insert (`L1`, `Alu` or `SVA`), `603bp` = the number of inserted base pairs)?"
-
-    No, not really, it is not exact.
-    Following HGVS recommendations, the description should be like `NG_012232.1(NM_004006.2):c.123+51_123+52ins[[XXXXXX.y:g.393_1295];123+45_123+51]`.
-    So, give a genomic reference sequence to describe the intronic variant, give the site of the inserted sequence, exactly describe the inserted sequence (not like "insL1.603bp") and describe the target site duplication as an insertion (not "TSD"; by definition a duplication is only used when the duplicate sequence is inserted directly 3' of the original copy of that sequence).
-    In the example, `XXXXXX.y` is a GenBank file (accession.version number), containing the inserted L1 sequence (nucleotides `g.393_1295`).
-    When the inserted sequence is not known, its (estimated) size can be used, like `NG_012232.1(NM_004006.2):c.123+51_123+52ins[N[603];123+45_123+51]`.
+        - **`seq[GRCh38] t(9;9)(9qter→9q31.1::9p21.2→9qter;9pter→9q31.1::9p21.2→9pter)`**<br>
+          **`NC_000009.12:g.[pter_26393001delins102425452_qterinv];[102425452_qterdelinspter_26393001inv]`**<br>
+          The combined ISCN and HGVS nomenclature describes a translocation between homologous chromosomes with breakpoints at 9p21.2 and 9q31.1. The different chromosome 9 homologues are indicated by the underline of the second chromosome 9 in the ISCN portion of the nomenclature. The translocation involves the joining of the short arm of the first chromosome 9 at 26,393,001 to the second chromosome 9 long arm at 102,425,453 and
+the long arm of the second chromosome 9 at nucleotide 102,425,452 to the short arm of the first chromosome 9  at nucleotide 26,393,001. The HGVS nomenclature uses the “Allele” format to indicate that these findings are found in trans, indicating that both chromosome 9s are abnormal.
