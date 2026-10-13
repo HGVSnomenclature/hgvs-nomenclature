@@ -43,7 +43,7 @@ The named ISCN extension has been introduced in 2016 and was modified last in 20
 
 - in ISCN, it is allowed to describe nucleotide positions using commas to indicate thousands and millions (e.g., "108,111,982"). In HGVS, this is not allowed.
 
-- when the chromosome structure associated with a gain is not known (e.g. insertional location), gains can be described using the copy number in square brackets ("**[ ]**") with "[2]" indicationg one additional copy, "[3]" indicating two additional copies, etc.
+- when the chromosome structure associated with a gain is not known (e.g. insertional location), gains can be described using the copy number in square brackets ("**[ ]**") with "[3]" indicating two additional copies,  "[4]" indicating three additional copies, etc. **NOTE**: the format "[2]" can not be used, one extra copy should be described as "dup" (duplication) or "ins" (insertion). 
 
 - to indicate the sex chromosome complement, the HGVS allele format can be used, adding NC_000023.11:g.[pter_qter=] for the presence of a normal X-chromosome and NC_000024.10:g.[pter_qter=] for the presence of a normal Y-chromosome. For variants in the pseudoautosomal regions where there is uncertainty whether the X or Y chromosome is involved the caret ("^") should be used between the two possible variants.
 
