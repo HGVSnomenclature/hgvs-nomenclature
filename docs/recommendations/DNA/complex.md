@@ -30,13 +30,13 @@ The named ISCN extension has been introduced in 2016 and was modified last in 20
           for deletions extending from a known nucleotide position (`#`) to an unknown position in the direction of the centromere the format `(cen)` is used.<br>
 
     - **`sup`**<br>
-      the presence of an additional sequence which is not attached to other chromosomal material (i.e. trisomy, marker or ring chromosome) is indicated by `sup` (supernumerary chromosome).<br>
+      the presence of an additional sequence which is not attached to other chromosomal material (i.e. trisomy, marker or ring chromosome) is indicated by `sup` (supernumerary chromosome).
       **NOTE**: changed in ISCN2020. ISCN2016 had: _"add" for additional sequence_.
 
-    - **`::`**<br>
-      a double colon is used to designate breakpoint junctions i.e. in creating a ring chromosome.<br>
+    - **`::`**
+      a double colon is used to designate breakpoint junctions i.e. in creating a ring chromosome.
       **NOTE**: `::` changed in ISCN2020.
-      ISCN2016 had: _is used to designate breakpoint junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis breakpoint junctions and junctions creating a ring chromosome_.<br>
+      ISCN2016 had: _is used to designate breakpoint junctions involving sequences from different chromosomes (translocation, transposition), chromothripsis breakpoint junctions and junctions creating a ring chromosome_.
       **NOTE**: `::` is in HGVS nomenclature also used to designate adjoined transcripts.
 
 - chromosomal banding patterns are translated to genomic coordinates based the translation tables provided by NCBI (see [Standards](../../background/standards.md#ISCN)).
@@ -47,9 +47,9 @@ The named ISCN extension has been introduced in 2016 and was modified last in 20
 
 - to indicate the sex chromosome complement, the HGVS allele format can be used, adding NC_000023.11:g.[pter_qter=] for the presence of a normal X-chromosome and NC_000024.10:g.[pter_qter=] for the presence of a normal Y-chromosome. For variants in the pseudoautosomal regions where there is uncertainty whether the X or Y chromosome is involved the caret ("^") should be used between the two possible variants.
 
-- **3'rule**<br>
+- **`3'rule`**<br>
   to determine the location of the breakpoint, the general HGVS rule of maintaining the longest unchanged sequence applies (the 3' rule). Breakpoint location is determined by the first breakpoint encountered, i.e. `pter` of the chromosome is to be listed first.
-    - **pter to qter**<br>
+    - **`pter to qter`**<br>
       multiple variants in one chromosome are listed in order of occurrence from `pter` to `qter`.
     - variant descriptions are always in the forward orientation (from `pter` to `qter`, the end of the chromosome), determined by the chromosomal origin of the intact centromere (`cen`).
 
