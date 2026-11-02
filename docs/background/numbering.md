@@ -166,13 +166,13 @@ Contact the MANE project (MANE-help@ncbi.nlm.nih.gov or mane-help@ebi.ac.uk) if 
   e.g., [three introns in the 5'UTR of the _FKRP_ gene](https://databases.lovd.nl/shared/refseq/FKRP_NM_024301.4_codingDNA.html).
   For numbering, see [coding DNA numbering](#DNAc).
 - **alternatively spliced exon**
-    - [exon larger at 3' end](http://www.HGVS.org/mutnomen/refseq_diffsplice3.html).
-    - [entirely in intron](http://www.HGVS.org/mutnomen/refseq_diffspliceM.html).
-    - [exon larger at 5' end](http://www.HGVS.org/mutnomen/refseq_diffsplice5.html).
+    - [exon larger at 3' end](../assets/refseq_diffsplice3.html).
+    - [entirely in intron](../assets/refseq_diffspliceM.html).
+    - [exon larger at 5' end](../assets/refseq_diffsplice5.html).
 - **alternative 3' terminal exon**
     - inside gene
         - directly 3' of an exon; e.g., [exon/intron 10 in the _LMNA_ gene](https://web.archive.org/web/20061008015606/http://www.dmd.nl/seqs/LMNA_intron_10.html).
         - completely in an intron; e.g., [in intron 47 of the _TTN_ gene](https://databases.lovd.nl/shared/refseq/TTN_intron_47.html#ex48).
-    - [after gene (in gene downstream sequence)](http://www.HGVS.org/mutnomen/refseq_diffspliceM.html).
+    - [after gene (in gene downstream sequence)](../assets/refseq_diffspliceA.html).
 - **introns in 3' untranslated region (UTR)**<br>
   when an intron immediately follows the last nucleotide of the translation termination (stop) codon (e.g., position `c.876`), nucleotides in the intron are numbered like `c.876+1`, `c.876+2`, `c.876+3`, ..., `c.*1-3`, `c.*1-2`, `c.*1-1`.
