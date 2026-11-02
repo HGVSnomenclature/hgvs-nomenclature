@@ -5,11 +5,10 @@
 <!-- !!! note "Status: open" -->
 <!-- !!! warning "Status: decision pending" -->
 <!-- !!! failure "Status: rejected" -->
-<!-- !!! success "Status: accepted" -->
-!!! note "Status: open"
+!!! success "Status: accepted"
 
     Proposal SVD-WG011 opened for Community Consultation on May 11th, 2026, closing on August 11th, 2026.<br>
-    Vote and provide feedback [on GitHub](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/255).
+    Since [no major objections were received](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/255), the SVD-WG decided to **accept** the proposal.
 
 The proposal suggests to specify the HGVS nomenclature recommendations for the description of variants on the RNA level, more specifically the insertion of intron sequences.
 Please vote for the proposal and provide feedback on the associated [GitHub discussion](https://github.com/HGVSnomenclature/hgvs-nomenclature/discussions/255).
