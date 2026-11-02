@@ -43,7 +43,7 @@
 
 - **Reference sequence**<br>
   for diagnostic applications, the recommendation is to use a [Locus Reference Genomic sequence](http://www.lrg-sequence.org/) (LRG, [Dalgleish et al. 2010](http://genomemedicine.com/content/2/4/24)) as the reference sequence for variant descriptions.
-  Prefixes for new reference sequence types have been added (e.g., **m.** and **n.**, as well as indicators to specify different transcript variants (**t1**) and protein isoforms (**p1**) annotated in the reference sequence (see [Reference Sequences](../background/refseq.md#DNAc)).
+  Prefixes for new reference sequence types have been added (e.g., **`m.`** and **`n.`**, as well as indicators to specify different transcript variants (**t1**) and protein isoforms (**p1**) annotated in the reference sequence (see [Reference Sequences](../background/refseq.md#DNAc)).
 
 - **Definitions**<br>
   the basic types of variants were defined more strictly.

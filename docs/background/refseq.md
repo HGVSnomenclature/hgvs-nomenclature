@@ -108,14 +108,14 @@ The recommended DNA reference is a genomic reference sequence.
 
 - **circular genomic reference sequences are indicated using an `o.` prefix.**<br>
   circular genomic reference sequences include chloroplast sequences, plasmid sequence, viral sequence, etc.<br>
-  **Exception:** the **m.** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
+  **Exception:** the **`m.`** prefix for a mitochondrial reference sequence is well-established, universally used, unequivocal, and therefore recommended for reporting variants in a mitochondrial sequence.
 
 <a id="DNAm"></a>
 ### DNA - mitochondrial reference sequence (m.)
 
 - **mitochondrial genomic reference sequences are indicated using an `m.` prefix.**<br>
   a mitochondrial reference sequence is a special type of circular genomic reference sequence.
-  Since the **m.** prefix is well-established, universally used, and unequivocal, the use of a mitochondrial reference sequence is indicated using the **m.** prefix.
+  Since the **`m.`** prefix is well-established, universally used, and unequivocal, the use of a mitochondrial reference sequence is indicated using the **`m.`** prefix.
 
 - the preferred human mtDNA reference sequence is the [_Homo sapiens_ mitochondrion, complete genome (GenBank NC_012920.1)](http://www.ncbi.nlm.nih.gov/nucleotide/NC_012920.1).<br>
   **NOTE**: the mtDNA reference sequence is a **circular molecule** ([see Open Issues](../consultation/open-issues.md#circular)).
@@ -151,7 +151,7 @@ The recommended DNA reference is a genomic reference sequence.
 - **non-coding DNA reference sequences are indicated using an `n.` prefix.**
 
 - a non-coding DNA reference sequence is a DNA reference sequence, based on a transcript of a gene which does not encode a protein.
-  It can be used for nucleotide numbering using the **n.** prefix.
+  It can be used for nucleotide numbering using the **`n.`** prefix.
 
 - a non-coding DNA reference sequence does **not contain** intron or 5' and 3' gene flanking sequences and can **not be used** to describe variants in introns and up/down-stream of the gene.
   Intronic sequences are considered to be **within the boundaries** of a transcript reference sequence and may only be used to describe a variant when a genomic reference sequence identifier is provided.
