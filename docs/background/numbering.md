@@ -22,8 +22,7 @@ nucleotide numbering is based on the annotated protein isoform, the major transl
     - **exception 3' rule**<br>
       the 3' rule is not applied when there is a deletion/duplication around exon/exon junctions with identical nucleotides flanking the junction, where shifting the variant 3' would place it in the next exon.
       Projecting the variant from `c.` back to `g.` positions (genomic) would then lead to an incorrect genomic position (in the wrong exon).<br>
-      When `..GA`<code class="del">T</code>`gta..//..cagTCA..` changes to `..GAgta..//..cagTCA..`, based on a coding DNA reference sequence, the variant is described as `LRG_199t1:c.3921del` (`NC_000023.10:g.32459297del`) and **not as** `c.3922del` (which would translate to `g.32456507del`).<br>
-      **NOTE**: this exception does not apply to a deletion/duplication around exon/intron and intron/exon junctions with identical nucleotides flanking the junction (see [also Deletions](../recommendations/DNA/deletion.md)).
+      When `..GA`<code class="del">T</code>`gta..//..cagTCA..` changes to `..GAgta..//..cagTCA..`, based on a coding DNA reference sequence, the variant is described as `LRG_199t1:c.3921del` (`NC_000023.10:g.32459297del`) and **not as** `c.3922del` (which would translate to `g.32456507del`).
 
 - **untranslated region (UTR)**
     - nucleotides upstream (5') of the `ATG`-translation initiation codon (start) are marked with a `-` (hyphen-minus) and numbered `c.-1`, `c.-2`, `c.-3`, etc., going further upstream.
@@ -50,6 +49,7 @@ The latter format, <code class="invalid">c.IVS2+2T>G</code> / <code class="inval
 ### non-coding DNA reference sequences
 
 - nucleotide numbering is `n.1`, `n.2`, `n.3`, ..., etc., from the first to the last nucleotide of the reference sequence.
+- the exception to the 3' rule, as mentioned above for coding DNA reference sequences, applies to non-coding DNA reference sequences, as well.
 - nucleotides in introns are numbered as for coding DNA reference sequences [(see above)](#DNAc), although proceeded by `n.` (not `c.`).
 - it is **not** allowed to describe variants in nucleotides beyond the boundaries of a transcript reference sequence, using that transcript reference sequence.
 
