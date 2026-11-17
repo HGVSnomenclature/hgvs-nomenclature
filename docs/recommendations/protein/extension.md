@@ -51,8 +51,8 @@ bin/pull-syntax -c -f docs/syntax.yaml aa.ext
 
 !!! note "How should a variant in the 5'UTR be described that gives rise to a new translation initiation site?"
 
-    The description on the DNA-level is, e.g., `c.-23A>T` (changing `CA`<code class="sub">G</code>`GGT` to `CA`<code class="sub">T</code>`GGT`, creating a new `ATG`-triplet).
-    The description on the RNA-level is `r.-23a>u`, and on the protein level `p.(Met1ext-8)`, indicating the predicted protein sequence is an N-terminal extension with 8 amino acids.
+    The description on the DNA-level is, e.g., `c.-23G>T` (changing `CA`<code class="sub">G</code>`GGT` to `CA`<code class="sub">T</code>`GGT`, creating a new `ATG`-triplet).
+    The description on the RNA-level is `r.-23g>u`, and on the protein level `p.(Met1ext-8)`, indicating the predicted protein sequence is an N-terminal extension with 8 amino acids.
 
 !!! note "Should I describe a duplication in the translation termination codon (`T`<code class="spot1">G</code>`A` to `T`<code class="spot1">G</code><code class="ins">G</code>`A`) as a frameshift or as an extension?"
 
